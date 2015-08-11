@@ -120,10 +120,26 @@ $(document).ready(function(){initNavTree('df/d21/draw_8cpp-example.html','../../
 <div class="line">        graph.<a class="code" href="../../d6/d47/classnana_1_1paint_1_1graphics.html#a9faa96f7d337b2f8e5bf9ef5bbe416d3">line_to</a>(<a class="code" href="../../d0/d24/structnana_1_1point.html">point</a>(300,200));</div>
 <div class="line">        graph.<a class="code" href="../../d6/d47/classnana_1_1paint_1_1graphics.html#a9faa96f7d337b2f8e5bf9ef5bbe416d3">line_to</a>(<a class="code" href="../../d0/d24/structnana_1_1point.html">point</a>(100,300));</div>
 <div class="line">        graph.<a class="code" href="../../d6/d47/classnana_1_1paint_1_1graphics.html#a9faa96f7d337b2f8e5bf9ef5bbe416d3">line_to</a>(<a class="code" href="../../d0/d24/structnana_1_1point.html">point</a>(200,100));</div>
+<div class="line">                graph.<a name="a13"></a><a class="code" href="../../d6/d47/classnana_1_1paint_1_1graphics.html#ac8641b4ec3789c808282375dd492e589">save_as_file</a>(<span class="stringliteral">&quot;graphics.bmp&quot;</span>);</div>
+<div class="line">                <a name="_a14"></a><a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a> img(STR(<span class="stringliteral">&quot;test.bmp&quot;</span>));</div>
+<div class="line">                <span class="keywordflow">if</span> (img.<a name="a15"></a><a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html#aa50b5cec4ae1190e07c00895e97596d8">empty</a>())</div>
+<div class="line">                {</div>
+<div class="line">                        graph.<a class="code" href="../../d6/d47/classnana_1_1paint_1_1graphics.html#a056773fa29429ef8dc1642219c624c44">line</a>(<a class="code" href="../../d0/d24/structnana_1_1point.html">point</a>(100, 100), <a class="code" href="../../d0/d24/structnana_1_1point.html">point</a>(300, 100), <a class="code" href="../../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98abda9643ac6601722a28f238714274da4">colors::red</a>);</div>
+<div class="line">                        graph.<a class="code" href="../../d6/d47/classnana_1_1paint_1_1graphics.html#ac8641b4ec3789c808282375dd492e589">save_as_file</a>(<span class="stringliteral">&quot;test.bmp&quot;</span>);</div>
+<div class="line">                }</div>
+<div class="line">                <span class="keywordflow">else</span> </div>
+<div class="line">                        img.<a name="a16"></a><a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html#a896f3a252474d33b620f9a2c85b4a560">paste</a>(<a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>(img.<a name="a17"></a><a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html#a90661b2f2c24f5c3b14c9794e11bb8aa">size</a>()), graph, <a class="code" href="../../d0/d24/structnana_1_1point.html">nana::point</a>());</div>
 <div class="line"></div>
+<div class="line">                graph.<a class="code" href="../../d6/d47/classnana_1_1paint_1_1graphics.html#ac8641b4ec3789c808282375dd492e589">save_as_file</a>(<span class="stringliteral">&quot;testGraphics.bmp&quot;</span>);</div>
 <div class="line">    });</div>
-<div class="line"></div>
-<div class="line">    dw.<a name="a13"></a><a class="code" href="../../d9/d46/classnana_1_1drawing.html#a9506f81c5a1c67f51e351f6bf7786091">update</a>();</div>
+<div class="line">        <a class="code" href="../../d6/d47/classnana_1_1paint_1_1graphics.html">nana::paint::graphics</a> graphics;</div>
+<div class="line">        <a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a> img(STR(<span class="stringliteral">&quot;test.bmp&quot;</span>));</div>
+<div class="line">        <span class="keywordflow">if</span> (!img.<a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html#aa50b5cec4ae1190e07c00895e97596d8">empty</a>())</div>
+<div class="line">        {</div>
+<div class="line">                img.<a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html#a896f3a252474d33b620f9a2c85b4a560">paste</a>(<a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>(img.<a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html#a90661b2f2c24f5c3b14c9794e11bb8aa">size</a>()), graphics, <a class="code" href="../../d0/d24/structnana_1_1point.html">nana::point</a>());</div>
+<div class="line">                graphics.save_as_file(<span class="stringliteral">&quot;testGraphics2.bmp&quot;</span>);</div>
+<div class="line">        }</div>
+<div class="line">        dw.<a name="a18"></a><a class="code" href="../../d9/d46/classnana_1_1drawing.html#a9506f81c5a1c67f51e351f6bf7786091">update</a>();</div>
 <div class="line">    fm.show();</div>
 <div class="line">    ::nana::exec();</div>
 <div class="line">}</div>

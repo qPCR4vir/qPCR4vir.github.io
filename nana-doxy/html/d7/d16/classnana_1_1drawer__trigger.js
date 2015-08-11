@@ -1,12 +1,10 @@
 var classnana_1_1drawer__trigger =
 [
-    [ "graph_reference", "d7/d16/classnana_1_1drawer__trigger.html#a5e5a584b855f49d7241e7b0e682951bc", null ],
-    [ "widget_reference", "d7/d16/classnana_1_1drawer__trigger.html#ae6983faca3dc50d6a817dc5d17dbed3a", null ],
+    [ "graph_reference", "d7/d16/classnana_1_1drawer__trigger.html#a4d446946785fb5c5e14b19dcc46dfdbe", null ],
+    [ "widget_reference", "d7/d16/classnana_1_1drawer__trigger.html#a6b1867c971a97438e1a2eebc949270ff", null ],
     [ "~drawer_trigger", "d7/d16/classnana_1_1drawer__trigger.html#a87fc27c310e6fd637c2208d8c77fe6fa", null ],
-    [ "_m_overrided", "d7/d16/classnana_1_1drawer__trigger.html#a2e2b400a54a777c532141a02ec2aa63b", null ],
-    [ "_m_reset_overrided", "d7/d16/classnana_1_1drawer__trigger.html#a40bc8d3e467f9f513e1c1c5ba78ec23b", null ],
     [ "attached", "d7/d16/classnana_1_1drawer__trigger.html#a0c265ab15c33caa45d3f207cf77b0d14", null ],
-    [ "click", "d7/d16/classnana_1_1drawer__trigger.html#a95663c0d1d445db4a23c602b4f1c7772", null ],
+    [ "click", "d7/d16/classnana_1_1drawer__trigger.html#ad46a275985281eb236c74f0f1bdb379d", null ],
     [ "dbl_click", "d7/d16/classnana_1_1drawer__trigger.html#a922f7fa06da565766f22323f2ade16cc", null ],
     [ "detached", "d7/d16/classnana_1_1drawer__trigger.html#a57766f1ec455e1370ce8510d424a1cc1", null ],
     [ "focus", "d7/d16/classnana_1_1drawer__trigger.html#a1cef498bace62500116e40062993bb6b", null ],
@@ -25,5 +23,6 @@ var classnana_1_1drawer__trigger =
     [ "resized", "d7/d16/classnana_1_1drawer__trigger.html#add74a938f30a909beaa0ed010c20b1cf", null ],
     [ "resizing", "d7/d16/classnana_1_1drawer__trigger.html#adbe917e000b1474a6325fdaa77d11007", null ],
     [ "shortkey", "d7/d16/classnana_1_1drawer__trigger.html#a964f390c06d28646d85bcf563e43f1c1", null ],
-    [ "typeface_changed", "d7/d16/classnana_1_1drawer__trigger.html#abb8abb6b432d31087e8fac9730a359af", null ]
+    [ "typeface_changed", "d7/d16/classnana_1_1drawer__trigger.html#abb8abb6b432d31087e8fac9730a359af", null ],
+    [ "detail::drawer", "d7/d16/classnana_1_1drawer__trigger.html#a8beb5b920161df8b2d9e38c6db23b641", null ]
 ];

@@ -1,14 +1,14 @@
 var structnana_1_1paint_1_1detail_1_1bitmap__info__header =
 [
     [ "biBitCount", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#aa50e1081af894da46e5469739d629a97", null ],
-    [ "biClrImportant", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#a621bc31860527e1e82bda183a7e002c6", null ],
-    [ "biClrUsed", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#ab21adf4f9c611b9bfc170ac47b8830ad", null ],
-    [ "biCompression", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#a634791693a12ca72fe93e953bafb31da", null ],
-    [ "biHeight", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#ad6b0ba4cb047fdabfb242be63d2be641", null ],
+    [ "biClrImportant", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#a291a260079bb84666960e85bb0e72868", null ],
+    [ "biClrUsed", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#ab1a308f61fa1a195505a5710aa652331", null ],
+    [ "biCompression", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#adca290a5ff517746d79963c04e58b6cb", null ],
+    [ "biHeight", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#a6561de8a1bd7796cfba201c2f9466b20", null ],
     [ "biPlanes", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#a4adb804fa284349b3631d3bdd192e070", null ],
-    [ "biSize", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#abf0d152e2e33d62b3dc3f46eeb8dbe64", null ],
-    [ "biSizeImage", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#a6dfbf7058db856f9b308c54b1bc7a20a", null ],
-    [ "biWidth", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#a09d42777253c7cdf66cd3a5407e3de31", null ],
-    [ "biXPelsPerMeter", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#a1cb257f0ac7e45cb09dcd81d69beedf4", null ],
-    [ "biYPelsPerMeter", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#ab77ab7aaa9990505660aac262cb9834d", null ]
+    [ "biSize", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#a3cf388f8fc8c83ea1ae1d32794727384", null ],
+    [ "biSizeImage", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#a3b6884e2fcfc8e93c4033614132989fa", null ],
+    [ "biWidth", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#ad8a96722f6227f3fbb325a7a1751ada6", null ],
+    [ "biXPelsPerMeter", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#a4165da132eaec1dbb55a4459f5a82e4d", null ],
+    [ "biYPelsPerMeter", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html#a2779681384afcbf76430e48369430e8e", null ]
 ];

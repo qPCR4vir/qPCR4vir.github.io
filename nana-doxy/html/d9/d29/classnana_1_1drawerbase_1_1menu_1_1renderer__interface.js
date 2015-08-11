@@ -9,7 +9,7 @@ var classnana_1_1drawerbase_1_1menu_1_1renderer__interface =
     [ "~renderer_interface", "d9/d29/classnana_1_1drawerbase_1_1menu_1_1renderer__interface.html#a06567537bdd507f5f6f1a8faa1664922", null ],
     [ "background", "d9/d29/classnana_1_1drawerbase_1_1menu_1_1renderer__interface.html#adead41837075fe2201cc18b7eba8f34a", null ],
     [ "item", "d9/d29/classnana_1_1drawerbase_1_1menu_1_1renderer__interface.html#a156e6533b6ee2008b6b8cd6c0952959d", null ],
-    [ "item_image", "d9/d29/classnana_1_1drawerbase_1_1menu_1_1renderer__interface.html#a33a052fdc9ecad6dc92753ac89ed5107", null ],
+    [ "item_image", "d9/d29/classnana_1_1drawerbase_1_1menu_1_1renderer__interface.html#a0e35f3a918521e593f53042d4ddfb4d9", null ],
     [ "item_text", "d9/d29/classnana_1_1drawerbase_1_1menu_1_1renderer__interface.html#a4608428b23bc6f6c9fbfe518108e6920", null ],
     [ "sub_arrow", "d9/d29/classnana_1_1drawerbase_1_1menu_1_1renderer__interface.html#a4759141a7df140e61618d8dd303f197e", null ]
 ];

@@ -1,5 +1,7 @@
 var structnana_1_1arg__mouse =
 [
+    [ "is_left_button", "d6/d7c/structnana_1_1arg__mouse.html#a7596ca7184982c531a2732793c3c4722", null ],
+    [ "button", "d6/d7c/structnana_1_1arg__mouse.html#a5745712bb4b07b3a677e6fa1650585c2", null ],
     [ "ctrl", "d6/d7c/structnana_1_1arg__mouse.html#af4450ad84eabdfa51adf5d32ec436a72", null ],
     [ "evt_code", "d6/d7c/structnana_1_1arg__mouse.html#ab4ccd944991ce063e6eb1cf736c29b82", null ],
     [ "left_button", "d6/d7c/structnana_1_1arg__mouse.html#a535d5664b0c95de53c7e9044cd446855", null ],

@@ -144,6 +144,15 @@ $(document).ready(function(){initNavTree('d8/de2/listbox__resolver_8cpp-example.
 <div class="line"></div>
 <div class="line">        <a name="_a4"></a><a class="code" href="../../d6/d57/classnana_1_1form.html">form</a> fm;</div>
 <div class="line">        <a name="_a5"></a><a class="code" href="../../d1/dda/classnana_1_1listbox.html">listbox</a> lb(fm, <a name="_a6"></a><a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>(10, 10, 280, 120));</div>
+<div class="line"></div>
+<div class="line">        <span class="keyword">auto</span> cat = lb.at(0);</div>
+<div class="line">        <span class="keywordflow">if</span> (cat.begin() == cat.end())</div>
+<div class="line">                <a name="_a7"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::wcout</a> &lt;&lt; STR(<span class="stringliteral">&quot;true &quot;</span>);</div>
+<div class="line">        <span class="keywordflow">else</span>            </div>
+<div class="line">                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::wcout</a> &lt;&lt; STR(<span class="stringliteral">&quot;false &quot;</span>);</div>
+<div class="line"></div>
+<div class="line">        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::wcout</a> &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"></div>
 <div class="line">        lb.append_header(STR(<span class="stringliteral">&quot;Name&quot;</span>), 100);</div>
 <div class="line">        lb.append_header(STR(<span class="stringliteral">&quot;Gender&quot;</span>), 60);</div>
 <div class="line">        lb.append_header(STR(<span class="stringliteral">&quot;Age&quot;</span>), 60);</div>
@@ -158,7 +167,7 @@ $(document).ready(function(){initNavTree('d8/de2/listbox__resolver_8cpp-example.
 <div class="line"></div>
 <div class="line">        person prr;</div>
 <div class="line">        lb.at(0).at(0).resolve_to( prr); <span class="comment">//item to person. resolver::encode() is required</span></div>
-<div class="line">        <a name="_a7"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::wcout</a> &lt;&lt; pr &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line">        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::wcout</a> &lt;&lt; pr &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::wcout</a> &lt;&lt; prr &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">        fm.show();</div>
 <div class="line">        <a name="a8"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>();</div>

@@ -12,7 +12,7 @@ var classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl =
     [ "move_items", "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#abe56f7b321f8df9df6398a629e353505", null ],
     [ "renderer", "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#aa07b67ef2ca4b0160e72892bf17a2718", null ],
     [ "resize", "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#a64bef507ef9873273a167bafa58bb20b", null ],
-    [ "right_area", "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#ab47d1ddab1bbf21a49d350da47b8734f", null ],
+    [ "right_area", "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#ae03e9f749bb1ec42935a712fe23d1b5a", null ],
     [ "scroll_items", "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#a31d7d6f472028936e77db6e32b45be4d", null ],
     [ "set_module", "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#a52283fcdf7e5a11630095526ae6032b6", null ],
     [ "set_mouse", "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#ad9c292a35bbc2c127cde2c8521753cdb", null ],

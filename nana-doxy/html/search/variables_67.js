@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['gap',['gap',['../dc/d71/classnana_1_1place_1_1implement_1_1division.html#a406f648829eaf4321eb52cef5f509e20',1,'nana::place::implement::division']]],
+  ['gap',['gap',['../dc/d71/classnana_1_1place_1_1implement_1_1division.html#a406f648829eaf4321eb52cef5f509e20',1,'nana::place::implement::division::gap()'],['../d0/d21/structnana_1_1group_1_1implement.html#a4aba8dd91353b64aad15674288e471f3',1,'nana::group::implement::gap()']]],
   ['gaps',['gaps',['../d4/de0/structnana_1_1drawerbase_1_1menu_1_1menu__type.html#af8cb756dcb215652277c4236f0e8c783',1,'nana::drawerbase::menu::menu_type']]],
   ['getting',['getting',['../df/d30/structnana_1_1arg__focus.html#a63f24d8ebe65dbf08175ae397df5122e',1,'nana::arg_focus']]],
   ['glass_5fbuffer',['glass_buffer',['../d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#a947553ff220a100d03e27d9b2c6bf4a3',1,'nana::detail::basic_window::other_tag']]],

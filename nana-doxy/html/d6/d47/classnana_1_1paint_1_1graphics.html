@@ -238,8 +238,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6e27040e872927d826bb2f3226858458"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a619c7ed09be629884faf050195cacc80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d47/classnana_1_1paint_1_1graphics.html#a619c7ed09be629884faf050195cacc80">release</a> ()</td></tr>
 <tr class="separator:a619c7ed09be629884faf050195cacc80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7bbe0177057ecae64c9116968cf302f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d47/classnana_1_1paint_1_1graphics.html#aa7bbe0177057ecae64c9116968cf302f">save_as_file</a> (const char *)</td></tr>
-<tr class="separator:aa7bbe0177057ecae64c9116968cf302f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8641b4ec3789c808282375dd492e589"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d47/classnana_1_1paint_1_1graphics.html#ac8641b4ec3789c808282375dd492e589">save_as_file</a> (const char *file_utf8) const   throw ()</td></tr>
+<tr class="separator:ac8641b4ec3789c808282375dd492e589"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f282362212694a3d77f6d03e8d62192"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d47/classnana_1_1paint_1_1graphics.html#a6f282362212694a3d77f6d03e8d62192">set_color</a> (const ::<a class="el" href="../../dd/d1e/classnana_1_1color.html">nana::color</a> &amp;)</td></tr>
 <tr class="separator:a6f282362212694a3d77f6d03e8d62192"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65c707118020d305c9e37a2ac353628f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d47/classnana_1_1paint_1_1graphics.html#a65c707118020d305c9e37a2ac353628f">set_text_color</a> (const ::<a class="el" href="../../dd/d1e/classnana_1_1color.html">nana::color</a> &amp;)</td></tr>
@@ -1543,7 +1543,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 </div>
 </div>
-<a class="anchor" id="aa7bbe0177057ecae64c9116968cf302f"></a>
+<a class="anchor" id="ac8641b4ec3789c808282375dd492e589"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1551,12 +1551,26 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void nana::paint::graphics::save_as_file </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>file</em></td><td>)</td>
-          <td></td>
+          <td class="paramname"><em>file_utf8</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+        <tr>
+          <td align="right">throw </td><td>(</td><td colspan="2"></td>
+        </tr>
+        <tr>
+          <td align="right"></td><td>)</td><td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<p>Saves images as a windows bitmap file </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file_utf8</td><td>A UTF-8 string to a filename </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../df/d21/draw_8cpp-example.html#a13">draw.cpp</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="a6e27040e872927d826bb2f3226858458"></a>

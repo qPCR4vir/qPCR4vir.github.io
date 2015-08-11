@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m_5fpath',['m_path',['../de/d41/structnana_1_1experimental_1_1filesystem_1_1directory__entry.html#aa234e06ceceda9e2b348d162b98283c8',1,'nana::experimental::filesystem::directory_entry']]],
+  ['m_5fpath',['m_path',['../de/d41/structnana_1_1experimental_1_1filesystem_1_1directory__entry.html#afa85b50f5af658971cd42ab8d79c6a92',1,'nana::experimental::filesystem::directory_entry']]],
   ['make_5fbground_5fdeclared',['make_bground_declared',['../dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#aaaddd6fb88a5e55615a32a5e08ee9f77',1,'nana::detail::basic_window::flags_type']]],
   ['margin',['margin',['../dc/d71/classnana_1_1place_1_1implement_1_1division.html#a097f71da5741e281863d3f3996ebc634',1,'nana::place::implement::division']]],
   ['mask_5fcharacter',['mask_character',['../df/dc4/structnana_1_1inputbox_1_1text_1_1implement.html#a5f0c144a260e675f12baa68fac159daf',1,'nana::inputbox::text::implement']]],
@@ -29,12 +29,13 @@ var searchData=
   ['motion_5fwindow',['motion_window',['../d1/d09/structnana_1_1detail_1_1bedrock_1_1thread__context_1_1platform__detail__tag.html#aa2e01286d61a9cfb3de2b8c06e08b10a',1,'nana::detail::bedrock::thread_context::platform_detail_tag']]],
   ['mouse',['mouse',['../da/df7/unionnana_1_1detail_1_1parameter__decoder.html#a9de512822d6b13e5fcd59dbafdccd099',1,'nana::detail::parameter_decoder']]],
   ['mouse_5fdown',['mouse_down',['../dd/d19/structnana_1_1general__events.html#ad8a23c520f14cf3d74520a69ad7f487d',1,'nana::general_events::mouse_down()'],['../d3/d34/structnana_1_1detail_1_1notifier__events.html#ae6a88939f5c0c2b6db23e6cd58a654b5',1,'nana::detail::notifier_events::mouse_down()']]],
-  ['mouse_5fdrop',['mouse_drop',['../d4/d00/structnana_1_1detail_1_1msg__packet__tag.html#adc15078db778a5d0096204525c4342eb',1,'nana::detail::msg_packet_tag']]],
+  ['mouse_5fdrop',['mouse_drop',['../d4/d00/structnana_1_1detail_1_1msg__packet__tag.html#abdb1b823c83a7ef743a78b049a93e5fb',1,'nana::detail::msg_packet_tag']]],
   ['mouse_5fdropfiles',['mouse_dropfiles',['../dd/d19/structnana_1_1general__events.html#ac6e5fa6274738479c3f3687043c06191',1,'nana::general_events']]],
   ['mouse_5fenter',['mouse_enter',['../dd/d19/structnana_1_1general__events.html#a3e77feb7d332166666aa8868401d0e8b',1,'nana::general_events']]],
   ['mouse_5fleave',['mouse_leave',['../dd/d19/structnana_1_1general__events.html#a8b5fd487fe8ffef0fc673be27ff8396a',1,'nana::general_events::mouse_leave()'],['../d3/d34/structnana_1_1detail_1_1notifier__events.html#a3451fcca9fed4beacf821a4aa9b638d1',1,'nana::detail::notifier_events::mouse_leave()']]],
   ['mouse_5fmove',['mouse_move',['../dd/d19/structnana_1_1general__events.html#af746fc5c5e1b66ec42957442849a8fb9',1,'nana::general_events::mouse_move()'],['../d3/d34/structnana_1_1detail_1_1notifier__events.html#a5ce15d3aebf24cb29769c17214925845',1,'nana::detail::notifier_events::mouse_move()']]],
   ['mouse_5fpointed',['mouse_pointed',['../df/d28/structnana_1_1drawerbase_1_1treebox_1_1node__attribute.html#a0c40980db218326b95ba2b1c694203ba',1,'nana::drawerbase::treebox::node_attribute::mouse_pointed()'],['../d6/d55/structnana_1_1widgets_1_1detail_1_1compset_1_1comp__attribute__t.html#a1c28240b0ce44dff136736d1611b82eb',1,'nana::widgets::detail::compset::comp_attribute_t::mouse_pointed()']]],
+  ['mouse_5fpos',['mouse_pos',['../da/da7/structnana_1_1drawerbase_1_1menu_1_1menu__window_1_1state__type.html#a3e05eeb3f3dd22b022ad8d808d6dfe09',1,'nana::drawerbase::menu::menu_window::state_type']]],
   ['mouse_5fup',['mouse_up',['../dd/d19/structnana_1_1general__events.html#a67d4dce7ee1c51ae928b5ce79ed8eaa6',1,'nana::general_events::mouse_up()'],['../d3/d34/structnana_1_1detail_1_1notifier__events.html#aa4fe1f2713293596dde976786f662fde',1,'nana::detail::notifier_events::mouse_up()']]],
   ['mouse_5fwheel',['mouse_wheel',['../dd/d19/structnana_1_1general__events.html#af627a42c8b404d5484ff75121783037e',1,'nana::general_events']]],
   ['move',['move',['../dd/d19/structnana_1_1general__events.html#a55578a0aa577968ace1df39020257ee8',1,'nana::general_events']]],

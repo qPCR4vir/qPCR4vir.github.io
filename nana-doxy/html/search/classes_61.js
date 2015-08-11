@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['abs_5ffactory',['abs_factory',['../d4/ddc/classnana_1_1pat_1_1detail_1_1abs__factory.html',1,'nana::pat::detail']]],
+  ['abstract_5ffactory',['abstract_factory',['../d0/d7e/classnana_1_1pat_1_1abstract__factory.html',1,'nana::pat']]],
+  ['abstract_5ffactory_5fbase',['abstract_factory_base',['../da/d5c/classnana_1_1pat_1_1detail_1_1abstract__factory__base.html',1,'nana::pat::detail']]],
   ['add_5fconst',['add_const',['http://en.cppreference.com/w/cpp/types/add_cv.html',1,'std']]],
   ['add_5fcv',['add_cv',['http://en.cppreference.com/w/cpp/types/add_cv.html',1,'std']]],
   ['add_5flvalue_5freference',['add_lvalue_reference',['http://en.cppreference.com/w/cpp/types/add_reference.html',1,'std']]],
@@ -30,6 +33,7 @@ var searchData=
   ['appear',['appear',['../d1/d1c/structnana_1_1appear.html',1,'nana']]],
   ['appearance',['appearance',['../d5/d27/structnana_1_1appearance.html',1,'nana']]],
   ['arg_5fcategorize',['arg_categorize',['../d7/dee/structnana_1_1arg__categorize.html',1,'nana']]],
+  ['arg_5fclick',['arg_click',['../d6/dc2/structnana_1_1arg__click.html',1,'nana']]],
   ['arg_5fcombox',['arg_combox',['../d5/dd5/structnana_1_1arg__combox.html',1,'nana']]],
   ['arg_5fdestroy',['arg_destroy',['../d8/deb/structnana_1_1arg__destroy.html',1,'nana']]],
   ['arg_5fdropfiles',['arg_dropfiles',['../df/d14/structnana_1_1arg__dropfiles.html',1,'nana']]],

@@ -1,8 +1,9 @@
 var searchData=
 [
   ['factory_5fif_5ftype',['factory_if_type',['../df/d46/classnana_1_1tooltip.html#a93fff013b745c3b60cc0ea7e8862a067',1,'nana::tooltip']]],
+  ['factory_5finterface',['factory_interface',['../d5/d56/classnana_1_1detail_1_1inline__widget__notifier__interface.html#a71189ad93c0e5cdb2216ed246d3957ec',1,'nana::detail::inline_widget_notifier_interface']]],
   ['fblock',['fblock',['../d3/d4c/classnana_1_1drawerbase_1_1label_1_1renderer.html#a3920fbdc3c9909e06d1b78d1799a4171',1,'nana::drawerbase::label::renderer']]],
-  ['field_5freference',['field_reference',['../dc/de3/classnana_1_1place.html#a4dbc82b3457c591a5bb883fd2258c0db',1,'nana::place']]],
+  ['field_5freference',['field_reference',['../dc/de3/classnana_1_1place.html#a4dbc82b3457c591a5bb883fd2258c0db',1,'nana::place::field_reference()'],['../d6/d61/classnana_1_1group.html#a4813b33477a258bd086f27860309c723',1,'nana::group::field_reference()']]],
   ['file_5fiterator',['file_iterator',['../d0/d83/namespacenana_1_1filesystem.html#af509e8dd85917297739efc8f4d75f395',1,'nana::filesystem']]],
   ['file_5ftime_5ftype',['file_time_type',['../d7/d51/namespacenana_1_1experimental_1_1filesystem.html#a2a1084ac7a9a96cca24c7b44c174a436',1,'nana::experimental::filesystem']]],
   ['filters',['filters',['../d0/d73/classnana_1_1filebox.html#abe3d795f972ddbd55249e21413440f76',1,'nana::filebox']]],

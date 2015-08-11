@@ -9,6 +9,7 @@ var structnana_1_1detail_1_1basic__window_1_1flags__type =
     [ "enabled", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#ac0a1a58eab58ce7113223749625bc867", null ],
     [ "fullscreen", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#ace83da0cf3c46fabcd4ab5f7ad651ba2", null ],
     [ "ignore_menubar_focus", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#a9041234ebd28d55a80d4bff14f62e967", null ],
+    [ "ignore_mouse_focus", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#ad1d7d2da04e8fc45f803359bea51215f", null ],
     [ "make_bground_declared", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#aaaddd6fb88a5e55615a32a5e08ee9f77", null ],
     [ "modal", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#a6699d9c3cffcf0ae6e152343fc1eddba", null ],
     [ "refreshing", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#af9a0291326d078e8c665ca180f8dc3c5", null ],

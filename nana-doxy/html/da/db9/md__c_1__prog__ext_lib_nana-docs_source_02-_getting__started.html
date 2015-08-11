@@ -247,7 +247,7 @@ Function Objects</h1>
 <div class="line">    click_stat  cs; </div>
 <div class="line"></div>
 <div class="line">    fun_t       f=foo; </div>
-<div class="line">    fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#afafd1a1bafe56cd6e5903d8db910aad8">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a74eba5017dbd5dbfdb6f32b9b485682f">click</a>(f); </div>
+<div class="line">    fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#afafd1a1bafe56cd6e5903d8db910aad8">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(f); </div>
 <div class="line"></div>
 <div class="line">    fun_with_param_t fp(foo_with_eventinfo); </div>
 <div class="line">    fm.events().click(fp); </div>
@@ -272,7 +272,7 @@ Figure 2.1 Various methods to make events to respond click.</div></div>
 <div class="line">        <span class="keyword">using namespace </span>nana; </div>
 <div class="line">        form fm; </div>
 <div class="line">        click_stat cs; </div>
-<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#afafd1a1bafe56cd6e5903d8db910aad8">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a74eba5017dbd5dbfdb6f32b9b485682f">click</a>(foo); </div>
+<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#afafd1a1bafe56cd6e5903d8db910aad8">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(foo); </div>
 <div class="line">        fm.events().click(cs, &amp;click_stat::respond); </div>
 <div class="line">        fm.events().click(foo_with_eventinfo); </div>
 <div class="line">        fm.events().click(cs, &amp;click_stat::respond_ei); </div>
@@ -310,7 +310,7 @@ The Lambda Expression</h2>
 <div class="line"><span class="keywordtype">int</span> main() </div>
 <div class="line">{ </div>
 <div class="line">        <a class="code" href="../../d6/d57/classnana_1_1form.html">nana::form</a> form; </div>
-<div class="line">        form.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#afafd1a1bafe56cd6e5903d8db910aad8">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a74eba5017dbd5dbfdb6f32b9b485682f">click</a>( </div>
+<div class="line">        form.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#afafd1a1bafe56cd6e5903d8db910aad8">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>( </div>
 <div class="line">                []{ <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a>&lt;&lt;<span class="stringliteral">&quot;form is clicked&quot;</span>&lt;&lt;<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>; } </div>
 <div class="line">                ); </div>
 <div class="line">        form.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>(); </div>
@@ -319,7 +319,7 @@ The Lambda Expression</h2>
 </div><!-- fragment --><p>The argument []{ <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a>&lt;&lt;"form is clicked"&lt;&lt;<a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>; } is a "lambda" (or "lambda function" or "lambda expression") in C++ language(C++11). A lambda starts with plain [], and compound-state block {} defines a function body. In fact, A lambda defines an anonymous function object, and therefore a lambda could be invoked through a function-call syntax. </p>
 <pre class="fragment">    []{ std::cout&lt;&lt;"hello, Nana"&lt;&lt;std::endl; }(); 
 </pre><p>The use of lambda is creating an anonymous function object and so the arguments should be specified. For example:</p>
-<div class="fragment"><div class="line">form.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#afafd1a1bafe56cd6e5903d8db910aad8">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a74eba5017dbd5dbfdb6f32b9b485682f">click</a>( </div>
+<div class="fragment"><div class="line">form.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#afafd1a1bafe56cd6e5903d8db910aad8">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>( </div>
 <div class="line">                [](<span class="keyword">const</span> <a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html">nana::arg_mouse</a>&amp; ei) </div>
 <div class="line">                { <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a>&lt;&lt;<span class="stringliteral">&quot;mouse pos=(&quot;</span>&lt;&lt;ei.<a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html#a9bc3e4160ed6638ab0286a15f0623b60">pos</a>.<a class="code" href="../../d0/d24/structnana_1_1point.html#af41b47be4303c8713b92abfb9a7863d0">x</a>&lt;&lt;<span class="stringliteral">&quot;, &quot;</span>&lt;&lt;ei.<a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html#a9bc3e4160ed6638ab0286a15f0623b60">pos</a>.<a class="code" href="../../d0/d24/structnana_1_1point.html#aeb5848c69ddfe797209eb559898ae6a5">y</a> &lt;&lt;<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;} </div>
 <div class="line">        ); </div>
@@ -826,15 +826,15 @@ Exit game</div></div>
  <h1><a class="anchor" id="icon"></a>
 Window Icon</h1>
 <p>There are two interfaces to set an icon for a window which is a root_widget, such as form and nested_form, thay are defined in namespace <a class="el" href="../../d5/d1e/namespacenana_1_1_a_p_i.html">nana::API</a>.</p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#aa6a626c94e5994fcb5df59ec727395e2">window_icon_default</a>(<span class="keyword">const</span> <a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>&amp;);</div>
-<div class="line"><span class="keywordtype">void</span> <a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a18513ef144fe8fd9bc465a8331b94eda">window_icon</a>(<a class="code" href="../../d2/d87/structnana_1_1detail_1_1window__handle__impl.html">nana::window</a>, <span class="keyword">const</span> <a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>&amp;);</div>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a2dc88505075b3bb03767c29fecd9f4d9">window_icon_default</a>(<span class="keyword">const</span> <a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>&amp;);</div>
+<div class="line"><span class="keywordtype">void</span> <a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a3dd2d6a9cb60a675df30605b4ffcca75">window_icon</a>(<a class="code" href="../../d2/d87/structnana_1_1detail_1_1window__handle__impl.html">nana::window</a>, <span class="keyword">const</span> <a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>&amp;);</div>
 </div><!-- fragment --><p>window_icon_default() sets a default icon, and after calling it, all windows will set the default icon automatically while they are creating. Although the Nana C++ Library is aimed for cross-platform, there is a distinction in Nana between Windows and Linux(X11). The icon of a window only could be an ICON file in Windows. If cross-platform is desired, the code should be treated differently.</p>
 <div class="fragment"><div class="line"><span class="keyword">using namespace </span>nana;</div>
 <div class="line">form fm;</div>
 <div class="line"><span class="preprocessor">#if defined(NANA_WINDOWS)</span></div>
-<div class="line"><span class="preprocessor"></span><a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a18513ef144fe8fd9bc465a8331b94eda">API::window_icon</a>(fm, <a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>(STR(<span class="stringliteral">&quot;icon.ico&quot;</span>)));</div>
+<div class="line"><span class="preprocessor"></span><a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a3dd2d6a9cb60a675df30605b4ffcca75">API::window_icon</a>(fm, <a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>(STR(<span class="stringliteral">&quot;icon.ico&quot;</span>)));</div>
 <div class="line"><span class="preprocessor">#else</span></div>
-<div class="line"><span class="preprocessor"></span><a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a18513ef144fe8fd9bc465a8331b94eda">API::window_icon</a>(fm, <a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>(STR(<span class="stringliteral">&quot;icon.bmp&quot;</span>)));</div>
+<div class="line"><span class="preprocessor"></span><a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a3dd2d6a9cb60a675df30605b4ffcca75">API::window_icon</a>(fm, <a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>(STR(<span class="stringliteral">&quot;icon.bmp&quot;</span>)));</div>
 <div class="line"><span class="preprocessor">#endif</span></div>
 </div><!-- fragment --><p>Under Windows, the icon of window is the icon of exe file usually, the icon file is stored in the exe file as a resouce. To set the icon resouce for the window, we just open the exe with class image in this way. </p>
 <pre class="fragment">    API::window_icon_default(nana::paint::image(STR("program.exe")));

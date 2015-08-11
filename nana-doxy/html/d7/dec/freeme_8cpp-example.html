@@ -344,7 +344,7 @@ UI of The FreeMe</div></div>
 <div class="line">        <span class="keyword">virtual</span> ~messenger(){}</div>
 <div class="line">        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../db/dca/namespacenana_1_1effects.html#af2f1254faa14bc6b00a9d3f4987aebd9ac76a5e84e4bdee527e274ea30c680d79">active</a>(){}</div>
 <div class="line">        <span class="keyword">virtual</span> <span class="keywordtype">void</span> message(<span class="keyword">const</span> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::string</a>&amp;){}</div>
-<div class="line">        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> stoped() {<span class="keywordflow">return</span> <span class="keyword">false</span>;}</div>
+<div class="line">        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> stopped() {<span class="keywordflow">return</span> <span class="keyword">false</span>;}</div>
 <div class="line">};</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">class </span>junk_sweeper</div>
@@ -392,7 +392,7 @@ UI of The FreeMe</div></div>
 <div class="line">                <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;temp_dir : files_ )</div>
 <div class="line">                        <span class="keywordflow">for</span>(<span class="keyword">auto</span> &amp;file : temp_dir)</div>
 <div class="line">                        {</div>
-<div class="line">                                <span class="keywordflow">if</span> (msnger.stoped()) </div>
+<div class="line">                                <span class="keywordflow">if</span> (msnger.stopped()) </div>
 <div class="line">                                        <span class="keywordflow">return</span>;</div>
 <div class="line"></div>
 <div class="line">                                <span class="keywordflow">if</span> (file.second)</div>
@@ -436,7 +436,7 @@ UI of The FreeMe</div></div>
 <div class="line">                                helper hlp(file, msnger_);</div>
 <div class="line">                                <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp; sub_dir = <a class="code" href="../../d0/d83/namespacenana_1_1filesystem.html#af509e8dd85917297739efc8f4d75f395">file_iterator</a>(hlp.path); sub_dir != <a class="code" href="../../d0/d83/namespacenana_1_1filesystem.html#af509e8dd85917297739efc8f4d75f395">file_iterator</a>(); ++sub_dir)</div>
 <div class="line">                                {</div>
-<div class="line">                                        <span class="keywordflow">if</span> (msnger_.stoped()) <span class="keywordflow">break</span>;</div>
+<div class="line">                                        <span class="keywordflow">if</span> (msnger_.stopped()) <span class="keywordflow">break</span>;</div>
 <div class="line">                                        hlp(*sub_dir);</div>
 <div class="line">                                }</div>
 <div class="line">                                <span class="comment">//std::for_each&lt;file_iterator, helper&amp;&gt;(file_iterator(hlp.path), file_iterator(), hlp);</span></div>
@@ -510,7 +510,7 @@ UI of The FreeMe</div></div>
 <div class="line">        {</div>
 <div class="line">                this-&gt;caption(STR(<span class="stringliteral">&quot;The FreeMe - A Sample of Nana, stdex.sf.net&quot;</span>));</div>
 <div class="line">                </div>
-<div class="line">                pic_.load(STR(<span class="stringliteral">&quot;background.png&quot;</span>));</div>
+<div class="line">                pic_.load(STR(<span class="stringliteral">&quot;..\\Examples\\image02.bmp&quot;</span>   <span class="comment">/*background.png&quot;*/</span>   ));</div>
 <div class="line"></div>
 <div class="line">        scan_btn_.events().click([<span class="keyword">this</span>](){_m_button();});</div>
 <div class="line">                </div>
@@ -557,9 +557,9 @@ UI of The FreeMe</div></div>
 <div class="line"><span class="keyword">                </span>{</div>
 <div class="line">                        lbl_.caption(STR(<span class="stringliteral">&quot;Analyzing...&quot;</span>) + msg );</div>
 <div class="line">                }</div>
-<div class="line">                <span class="keywordtype">bool</span> stoped()<span class="keyword"> override</span></div>
+<div class="line">                <span class="keywordtype">bool</span> stopped()<span class="keyword"> override</span></div>
 <div class="line"><span class="keyword">                </span>{</div>
-<div class="line">                        <span class="keywordflow">return</span> pgbar_.stoped();</div>
+<div class="line">                        <span class="keywordflow">return</span> pgbar_.stopped();</div>
 <div class="line">                }</div>
 <div class="line">        };</div>
 <div class="line">        </div>
@@ -582,9 +582,9 @@ UI of The FreeMe</div></div>
 <div class="line">                {</div>
 <div class="line">                        lbl_.caption(STR(<span class="stringliteral">&quot;Deleting &quot;</span>) + msg);   </div>
 <div class="line">                }</div>
-<div class="line">                <span class="keywordtype">bool</span> stoped()<span class="keyword"> override</span></div>
+<div class="line">                <span class="keywordtype">bool</span> stopped()<span class="keyword"> override</span></div>
 <div class="line"><span class="keyword">                </span>{</div>
-<div class="line">                        <span class="keywordflow">return</span> pgbar_.stoped();</div>
+<div class="line">                        <span class="keywordflow">return</span> pgbar_.stopped();</div>
 <div class="line">                }</div>
 <div class="line"></div>
 <div class="line">        };</div>

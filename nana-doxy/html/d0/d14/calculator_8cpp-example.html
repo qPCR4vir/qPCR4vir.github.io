@@ -139,7 +139,7 @@ Screenshot of Calculator</div></div>
 <div class="line">        {}</div>
 <div class="line">};</div>
 <div class="line"></div>
-<div class="line"><span class="keywordtype">void</span> numkey_pressed(stateinfo&amp; state, <span class="keyword">const</span> <a name="_a1"></a><a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html">arg_mouse</a>&amp; arg)</div>
+<div class="line"><span class="keywordtype">void</span> numkey_pressed(stateinfo&amp; state, <span class="keyword">const</span> <a name="_a1"></a><a class="code" href="../../d6/dc2/structnana_1_1arg__click.html">arg_click</a>&amp; arg)</div>
 <div class="line">{</div>
 <div class="line">        <span class="keywordflow">if</span>(state.opstate != stateinfo::state::init)</div>
 <div class="line">        {</div>
@@ -155,7 +155,7 @@ Screenshot of Calculator</div></div>
 <div class="line">        <a name="_a2"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::string</a> rstr = state.result.caption();</div>
 <div class="line">        <span class="keywordflow">if</span>(rstr == STR(<span class="stringliteral">&quot;0&quot;</span>))    rstr.<a name="a3"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/clear.html">clear</a>();</div>
 <div class="line"></div>
-<div class="line">        <span class="keywordtype">wchar_t</span> d = <a name="a4"></a><a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a24b80c81ca08c998a33069f9034df620">API::window_caption</a>(arg.<a name="a5"></a><a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html#a50641b86783c83c3519ff379052ee3a8">window_handle</a>)[0];</div>
+<div class="line">        <span class="keywordtype">wchar_t</span> d = <a name="a4"></a><a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a24b80c81ca08c998a33069f9034df620">API::window_caption</a>(arg.<a name="a5"></a><a class="code" href="../../d6/dc2/structnana_1_1arg__click.html#a16e239e67f163a6613bac50ba399fb4b">window_handle</a>)[0];</div>
 <div class="line">        <span class="keywordflow">if</span>(d == <span class="charliteral">&#39;.&#39;</span>)</div>
 <div class="line">        {</div>
 <div class="line">                <span class="keywordflow">if</span>(rstr.<a name="a6"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/find.html">find</a>(L<span class="charliteral">&#39;.&#39;</span>) == rstr.npos)</div>
@@ -165,9 +165,9 @@ Screenshot of Calculator</div></div>
 <div class="line">                state.result.caption(rstr + d);</div>
 <div class="line">}</div>
 <div class="line"></div>
-<div class="line"><span class="keywordtype">void</span> opkey_pressed(stateinfo&amp; state, <span class="keyword">const</span> <a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html">arg_mouse</a>&amp; arg)</div>
+<div class="line"><span class="keywordtype">void</span> opkey_pressed(stateinfo&amp; state, <span class="keyword">const</span> <a class="code" href="../../d6/dc2/structnana_1_1arg__click.html">arg_click</a>&amp; arg)</div>
 <div class="line">{</div>
-<div class="line">        <span class="keywordtype">wchar_t</span> d = <a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a24b80c81ca08c998a33069f9034df620">API::window_caption</a>(arg.<a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html#a50641b86783c83c3519ff379052ee3a8">window_handle</a>)[0];</div>
+<div class="line">        <span class="keywordtype">wchar_t</span> d = <a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a24b80c81ca08c998a33069f9034df620">API::window_caption</a>(arg.<a class="code" href="../../d6/dc2/structnana_1_1arg__click.html#a16e239e67f163a6613bac50ba399fb4b">window_handle</a>)[0];</div>
 <div class="line">        <span class="keywordflow">if</span>(<span class="charliteral">&#39;C&#39;</span> == d)</div>
 <div class="line">        {</div>
 <div class="line">                state.result.caption(STR(<span class="stringliteral">&quot;0&quot;</span>));</div>

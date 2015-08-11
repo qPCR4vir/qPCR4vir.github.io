@@ -1,5 +1,6 @@
 var classnana_1_1drawerbase_1_1listbox_1_1cat__proxy =
 [
+    [ "inline_notifier_interface", "da/d11/classnana_1_1drawerbase_1_1listbox_1_1cat__proxy.html#ab18f85a81cc27d88c2ce5b6158a4638a", null ],
     [ "cat_proxy", "da/d11/classnana_1_1drawerbase_1_1listbox_1_1cat__proxy.html#a9810c5bc277f78fd28588a0c615de578", null ],
     [ "cat_proxy", "da/d11/classnana_1_1drawerbase_1_1listbox_1_1cat__proxy.html#aaaa49bb628d2d0855da30a194c2da444", null ],
     [ "cat_proxy", "da/d11/classnana_1_1drawerbase_1_1listbox_1_1cat__proxy.html#abfaf0326ad90fd27b59a1cc30eeced42", null ],
@@ -14,6 +15,7 @@ var classnana_1_1drawerbase_1_1listbox_1_1cat__proxy =
     [ "display_order", "da/d11/classnana_1_1drawerbase_1_1listbox_1_1cat__proxy.html#a002e13c50bddfd39299acabf8a4ce76d", null ],
     [ "end", "da/d11/classnana_1_1drawerbase_1_1listbox_1_1cat__proxy.html#ac3c14b8fc549ac1238bbda24f2b532ae", null ],
     [ "index_by_display_order", "da/d11/classnana_1_1drawerbase_1_1listbox_1_1cat__proxy.html#a0769abb28c4f171130a44fe4bb7f1a16", null ],
+    [ "inline_factory", "da/d11/classnana_1_1drawerbase_1_1listbox_1_1cat__proxy.html#ad6365ee990c64a3816060ccf11395f66", null ],
     [ "operator!=", "da/d11/classnana_1_1drawerbase_1_1listbox_1_1cat__proxy.html#ac00c0d53b23ffa54d055dcb580eefdff", null ],
     [ "operator*", "da/d11/classnana_1_1drawerbase_1_1listbox_1_1cat__proxy.html#a59f783ef088291f63b093b9f49f45683", null ],
     [ "operator*", "da/d11/classnana_1_1drawerbase_1_1listbox_1_1cat__proxy.html#abd3482e08ad43791a21afe1cffefb51b", null ],

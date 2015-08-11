@@ -159,7 +159,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">            cat.append( {<a class="code" href="../../d2/d76/namespacenana.html#a2c61daedac4021de1dc57f8b5924a1b7">nana::string</a>(STR(<span class="stringliteral">&quot;Visual C++  &quot;</span>)) , <a class="code" href="../../d2/d76/namespacenana.html#a2c61daedac4021de1dc57f8b5924a1b7">nana::string</a>(STR(<span class="stringliteral">&quot; 2015 and later&quot;</span>)) });         <span class="comment">// Another item</span></div>
 <div class="line">            cat.append( {<a class="code" href="../../d2/d76/namespacenana.html#a2c61daedac4021de1dc57f8b5924a1b7">nana::string</a>(STR(<span class="stringliteral">&quot;Clang  &quot;</span>)) , <a class="code" href="../../d2/d76/namespacenana.html#a2c61daedac4021de1dc57f8b5924a1b7">nana::string</a>(STR(<span class="stringliteral">&quot; ?&quot;</span>)) });                           <span class="comment">// Another item</span></div>
 <div class="line"></div>
-<div class="line">            checkbox_.<a name="a7"></a><a class="code" href="../../d3/d95/classnana_1_1widget__object.html#afafd1a1bafe56cd6e5903d8db910aad8">events</a>().<a name="a8"></a><a class="code" href="../../dd/d19/structnana_1_1general__events.html#a74eba5017dbd5dbfdb6f32b9b485682f">click</a>([<span class="keyword">this</span>](){ listbox_.checkable(checkbox_.checked()); });</div>
+<div class="line">            checkbox_.<a name="a7"></a><a class="code" href="../../d3/d95/classnana_1_1widget__object.html#afafd1a1bafe56cd6e5903d8db910aad8">events</a>().<a name="a8"></a><a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>([<span class="keyword">this</span>](){ listbox_.checkable(checkbox_.checked()); });</div>
 <div class="line"></div>
 <div class="line">                        place_.field(<span class="stringliteral">&quot;list&quot;</span>)&lt;&lt;listbox_; </div>
 <div class="line">            place_[<span class="stringliteral">&quot;check&quot;</span>]&lt;&lt;checkbox_;</div>
@@ -405,7 +405,8 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line"></div>
 <div class="line">                        <span class="comment">//Nana does not support ICON under Linux now</span></div>
 <div class="line"><span class="preprocessor">#if defined(NANA_WINDOWS)</span></div>
-<div class="line"><span class="preprocessor"></span>                        b_i.icon(STR(<span class="stringliteral">&quot;../Examples/image.ico&quot;</span>));</div>
+<div class="line"><span class="preprocessor"></span>                        <span class="comment">//b_i.icon(STR(&quot;../Examples/image.ico&quot;));</span></div>
+<div class="line">                        b_i.icon(STR(<span class="stringliteral">&quot;../Examples/image.bmp&quot;</span>));</div>
 <div class="line"><span class="preprocessor">#else</span></div>
 <div class="line"><span class="preprocessor"></span>                        ptr-&gt;icon(STR(<span class="stringliteral">&quot;../Examples/image.bmp&quot;</span>));</div>
 <div class="line"><span class="preprocessor">#endif</span></div>

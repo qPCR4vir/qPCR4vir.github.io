@@ -1,7 +1,7 @@
 var searchData=
 [
   ['k',['k',['http://en.cppreference.com/w/cpp/numeric/random/negative_binomial_distribution/params.html',1,'std::negative_binomial_distribution']]],
-  ['keep_5fwindow_5ficon',['keep_window_icon',['../d5/dd4/classnana_1_1detail_1_1platform__spec.html#a47c57a166745c611a547ce69ca24a219',1,'nana::detail::platform_spec::keep_window_icon(native_window_type, const nana::paint::image &amp;)'],['../d5/dd4/classnana_1_1detail_1_1platform__spec.html#a47c57a166745c611a547ce69ca24a219',1,'nana::detail::platform_spec::keep_window_icon(native_window_type, const nana::paint::image &amp;)']]],
+  ['keep_5fwindow_5ficon',['keep_window_icon',['../d5/dd4/classnana_1_1detail_1_1platform__spec.html#adfce12b459ef1edecf5d9b57f7b04f5a',1,'nana::detail::platform_spec::keep_window_icon(native_window_type, const nana::paint::image &amp;)'],['../d5/dd4/classnana_1_1detail_1_1platform__spec.html#a367869a0c61d4fa98446e74c33f30cda',1,'nana::detail::platform_spec::keep_window_icon(native_window_type, const paint::image &amp;sml_icon, const paint::image &amp;big_icon)']]],
   ['keeper',['keeper',['../d9/d79/classnana_1_1element__object.html#a30e85967340425f4ebaca9144976dc88',1,'nana::element_object']]],
   ['keeper_5farrow',['keeper_arrow',['../d7/d34/classnana_1_1element_1_1provider.html#aee23a1b930aa80c40346196343536282',1,'nana::element::provider']]],
   ['keeper_5fborder',['keeper_border',['../d7/d34/classnana_1_1element_1_1provider.html#a4b8c56b264120e0e07b63c249e386d98',1,'nana::element::provider']]],

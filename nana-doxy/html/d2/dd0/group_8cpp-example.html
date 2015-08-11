@@ -110,23 +110,13 @@ $(document).ready(function(){initNavTree('d2/dd0/group_8cpp-example.html','../..
 <div class="line"></div>
 <div class="line"><span class="comment">// This example need nana/gui/widgets/group.hpp and the corresponding group.cpp. </span></div>
 <div class="line"><span class="comment">// It can be found in branch:</span></div>
-<div class="line"><span class="comment">// https://github.com/cnjinhao/nana/tree/feature-group</span></div>
+<div class="line"><span class="comment">// https://github.com/cnjinhao/nana/blob/develop/include/nana/gui/widgets/group.hpp</span></div>
 <div class="line"><span class="comment">// or in:</span></div>
 <div class="line"><span class="comment">// https://github.com/qPCR4vir/nana</span></div>
 <div class="line"><span class="comment">// for exapmle in: https://github.com/qPCR4vir/nana/blob/master/include/nana/gui/widgets/group.hpp</span></div>
 <div class="line"><span class="comment">// and: https://github.com/qPCR4vir/nana/blob/master/source/gui/widgets/group.cpp</span></div>
 <div class="line"></div>
 <div class="line"><span class="keyword">using namespace </span>nana;</div>
-<div class="line"></div>
-<div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> ...Args&gt;</div>
-<div class="line">T* add_widget(Args&amp;&amp;... args)</div>
-<div class="line">{</div>
-<div class="line">        widgets_.emplace_back(<span class="keyword">new</span> T(*<span class="keyword">this</span>, std::forward&lt;Args&gt;(args)...));</div>
-<div class="line"></div>
-<div class="line">        plc_[<span class="stringliteral">&quot;abc&quot;</span>] &lt;&lt; widgets_.back()-&gt;handle();</div>
-<div class="line">        plc_.collocate();</div>
-<div class="line">        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>T*<span class="keyword">&gt;</span>(widgets_.back().get());</div>
-<div class="line">}</div>
 <div class="line"></div>
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
@@ -140,50 +130,50 @@ $(document).ready(function(){initNavTree('d2/dd0/group_8cpp-example.html','../..
 <div class="line">    <a name="_a4"></a><a class="code" href="../../dd/d8c/classnana_1_1label.html">label</a>  out   {fm, STR(<span class="stringliteral">&quot;This label is out of any group&quot;</span>)};</div>
 <div class="line">    <a name="_a5"></a><a class="code" href="../../d6/d61/classnana_1_1group.html">group</a>  ext_gr{fm, STR(<span class="stringliteral">&quot;An external &lt;bold=true, color=blue&gt;Group:&lt;/&gt;&quot;</span>), <span class="keyword">true</span> };</div>
 <div class="line"></div>
-<div class="line">    plc.div(<span class="stringliteral">&quot;vert gap=10 margin=5 &lt;lab weight=30&gt;&lt;all&gt; &quot;</span>);</div>
+<div class="line">    plc.<a name="a6"></a><a class="code" href="../../dc/de3/classnana_1_1place.html#aaf7fe8bfe503d9ace74a122af547536f">div</a>(<span class="stringliteral">&quot;vert gap=10 margin=5 &lt;lab weight=30&gt;&lt;all&gt; &quot;</span>);</div>
 <div class="line">    plc[<span class="stringliteral">&quot;lab&quot;</span>]  &lt;&lt; out ;</div>
 <div class="line">    plc[<span class="stringliteral">&quot;all&quot;</span>]  &lt;&lt; ext_gr;</div>
 <div class="line"></div>
 <div class="line">    <span class="comment">// the external group contain:</span></div>
-<div class="line">    <a class="code" href="../../d6/d61/classnana_1_1group.html">group</a> grp_left {ext_gr.<a name="a6"></a><a class="code" href="../../d6/d61/classnana_1_1group.html#a7b7a8830f43ba1f308e17984f1148be6">inner</a>(), STR(<span class="stringliteral">&quot;A new &lt;bold=true, color=0xff0000, font=\&quot;Consolas\&quot;&gt;Group:&lt;/&gt;&quot;</span>), <span class="keyword">true</span> };</div>
-<div class="line">    <a class="code" href="../../d6/d61/classnana_1_1group.html">group</a> grp_right{ext_gr.<a class="code" href="../../d6/d61/classnana_1_1group.html#a7b7a8830f43ba1f308e17984f1148be6">inner</a>(), STR(<span class="stringliteral">&quot;A right &lt;bold=true, color=0xff0000, font=\&quot;Consolas\&quot;&gt;Group:&lt;/&gt;&quot;</span>), <span class="keyword">true</span>};</div>
+<div class="line">    <a class="code" href="../../d6/d61/classnana_1_1group.html">group</a> grp_left {ext_gr, STR(<span class="stringliteral">&quot;A new &lt;bold=true, color=0xff0000, font=\&quot;Consolas\&quot;&gt;Group:&lt;/&gt;&quot;</span>), <span class="keyword">true</span> };</div>
+<div class="line">    <a class="code" href="../../d6/d61/classnana_1_1group.html">group</a> grp_right{ext_gr, STR(<span class="stringliteral">&quot;A right &lt;bold=true, color=0xff0000, font=\&quot;Consolas\&quot;&gt;Group:&lt;/&gt;&quot;</span>), <span class="keyword">true</span>};</div>
 <div class="line"></div>
-<div class="line">    ext_gr.plc().div(<span class="stringliteral">&quot;horizontal gap=3 margin=20  &lt; &lt;left&gt; | 70% &lt;right&gt;&gt; &quot;</span>);</div>
-<div class="line">    ext_gr.plc()[<span class="stringliteral">&quot;left&quot;</span>]  &lt;&lt; grp_left;</div>
-<div class="line">    ext_gr.plc()[<span class="stringliteral">&quot;right&quot;</span>] &lt;&lt; grp_right;</div>
+<div class="line">    ext_gr.div(<span class="stringliteral">&quot;horizontal gap=3 margin=20  &lt; &lt;left&gt; | 70% &lt;right&gt;&gt; &quot;</span>);</div>
+<div class="line">    ext_gr[<span class="stringliteral">&quot;left&quot;</span>]  &lt;&lt; grp_left;</div>
+<div class="line">    ext_gr[<span class="stringliteral">&quot;right&quot;</span>] &lt;&lt; grp_right;</div>
 <div class="line"></div>
 <div class="line">    <span class="comment">// the left group</span></div>
-<div class="line">    grp_left.plc().div(<span class="stringliteral">&quot;buttons vert gap=5 margin=3&quot;</span>);</div>
+<div class="line">    grp_left.div(<span class="stringliteral">&quot;buttons vert gap=5 margin=3&quot;</span>);</div>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line">    <span class="comment">// the right group</span></div>
-<div class="line">    <a class="code" href="../../d6/d61/classnana_1_1group.html">group</a> nested(grp_right.inner() );</div>
-<div class="line">    <a class="code" href="../../dd/d8c/classnana_1_1label.html">label</a>  lab {grp_right.inner(), STR(<span class="stringliteral">&quot;A simple label &quot;</span>)};</div>
-<div class="line">    <a name="_a7"></a><a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b1  {grp_right.inner(), STR(<span class="stringliteral">&quot;add button&quot;</span>)};</div>
+<div class="line">    <a class="code" href="../../d6/d61/classnana_1_1group.html">group</a> nested(grp_right.handle());</div>
+<div class="line">    <a class="code" href="../../dd/d8c/classnana_1_1label.html">label</a>  lab {grp_right, STR(<span class="stringliteral">&quot;A simple label &quot;</span>)};</div>
+<div class="line">    <a name="_a7"></a><a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b1  {grp_right, STR(<span class="stringliteral">&quot;add button&quot;</span>)};</div>
 <div class="line">        b1.events().click([&amp;grp_left, &amp;btns]</div>
 <div class="line">        {</div>
-<div class="line">                btns.<a name="a8"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector/emplace_back.html">emplace_back</a>(<span class="keyword">new</span> <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a>( grp_left.inner(), STR(<span class="stringliteral">&quot;Button&quot;</span>) ));</div>
+<div class="line">                btns.<a name="a8"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector/emplace_back.html">emplace_back</a>(<span class="keyword">new</span> <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a>( grp_left, STR(<span class="stringliteral">&quot;Button&quot;</span>) ));</div>
 <div class="line"></div>
-<div class="line">                grp_left.plc()[<span class="stringliteral">&quot;buttons&quot;</span>] &lt;&lt; *btns.<a name="a9"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector/back.html">back</a>();</div>
-<div class="line">                grp_left.plc().collocate();</div>
+<div class="line">                grp_left[<span class="stringliteral">&quot;buttons&quot;</span>] &lt;&lt; *btns.<a name="a9"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector/back.html">back</a>();</div>
+<div class="line">                grp_left.collocate();</div>
 <div class="line">        });</div>
-<div class="line">    <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b2  {grp_right.inner(), STR(<span class="stringliteral">&quot;button2&quot;</span>)};</div>
-<div class="line">    <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b3  {grp_right.inner(), STR(<span class="stringliteral">&quot;button3&quot;</span>)};</div>
-<div class="line">    grp_right.plc().div( <span class="stringliteral">&quot;&lt;vertical margin=2 gap= 2 &lt;vert lab&gt; | 40% &lt; &lt;left&gt; | 70% &lt;right&gt;&gt; &gt;&quot;</span>);</div>
-<div class="line">    grp_right.plc()[<span class="stringliteral">&quot;lab&quot;</span>]  &lt;&lt; lab.text_align(<a name="a10"></a><a class="code" href="../../d2/d76/namespacenana.html#ad3d2f08c451a6752b3f7d53e0f863087a7c4f29407893c334a6cb7a87bf045c0d">align::right</a>) &lt;&lt; nested ;</div>
-<div class="line">    grp_right.plc()[<span class="stringliteral">&quot;left&quot;</span>] &lt;&lt; b1  ;</div>
-<div class="line">    grp_right.plc()[<span class="stringliteral">&quot;right&quot;</span>]&lt;&lt; b2 &lt;&lt; b3;</div>
+<div class="line">    <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b2  {grp_right, STR(<span class="stringliteral">&quot;button2&quot;</span>)};</div>
+<div class="line">    <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b3  {grp_right, STR(<span class="stringliteral">&quot;button3&quot;</span>)};</div>
+<div class="line">    grp_right.div( <span class="stringliteral">&quot;&lt;vertical margin=2 gap= 2 &lt;vert lab&gt; | 40% &lt; &lt;left&gt; | 70% &lt;right&gt;&gt; &gt;&quot;</span>);</div>
+<div class="line">    grp_right[<span class="stringliteral">&quot;lab&quot;</span>]  &lt;&lt; lab.text_align(<a name="a10"></a><a class="code" href="../../d2/d76/namespacenana.html#ad3d2f08c451a6752b3f7d53e0f863087a7c4f29407893c334a6cb7a87bf045c0d">align::right</a>) &lt;&lt; nested ;</div>
+<div class="line">    grp_right[<span class="stringliteral">&quot;left&quot;</span>] &lt;&lt; b1  ;</div>
+<div class="line">    grp_right[<span class="stringliteral">&quot;right&quot;</span>]&lt;&lt; b2 &lt;&lt; b3;</div>
 <div class="line"></div>
 <div class="line">    <span class="comment">// the nested (rigth up) group</span></div>
-<div class="line">    <a class="code" href="../../dd/d8c/classnana_1_1label.html">label</a> lab1{nested.inner(), STR(<span class="stringliteral">&quot;A very simple group:&quot;</span>)};</div>
-<div class="line">    <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b4{nested.inner(), STR(<span class="stringliteral">&quot;button4&quot;</span>)};</div>
-<div class="line">    <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b5{nested.inner(), STR(<span class="stringliteral">&quot;button5&quot;</span>)};</div>
-<div class="line">    <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b6{nested.inner(), STR(<span class="stringliteral">&quot;button6&quot;</span>)};</div>
-<div class="line">    nested.plc().div( <span class="stringliteral">&quot; margin=3 min=30 gap= 2 all&quot;</span>);</div>
-<div class="line">    nested.plc()[<span class="stringliteral">&quot;all&quot;</span>]  &lt;&lt; lab1 &lt;&lt; b4 &lt;&lt; b5 &lt;&lt; b6;</div>
+<div class="line">    <a class="code" href="../../dd/d8c/classnana_1_1label.html">label</a> lab1{nested, STR(<span class="stringliteral">&quot;A very simple group:&quot;</span>)};</div>
+<div class="line">    <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b4{nested, STR(<span class="stringliteral">&quot;button4&quot;</span>)};</div>
+<div class="line">    <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b5{nested, STR(<span class="stringliteral">&quot;button5&quot;</span>)};</div>
+<div class="line">    <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b6{nested, STR(<span class="stringliteral">&quot;button6&quot;</span>)};</div>
+<div class="line">    nested.div( <span class="stringliteral">&quot; margin=3 min=30 gap= 2 all&quot;</span>);</div>
+<div class="line">    nested[<span class="stringliteral">&quot;all&quot;</span>]  &lt;&lt; lab1 &lt;&lt; b4 &lt;&lt; b5 &lt;&lt; b6;</div>
 <div class="line"></div>
 <div class="line"></div>
-<div class="line">    plc.collocate();</div>
+<div class="line">    plc.<a name="a11"></a><a class="code" href="../../dc/de3/classnana_1_1place.html#aec97ac368d0357cb3222b3316f2306ff">collocate</a>();</div>
 <div class="line">    <span class="comment">//grp1.plc.collocate();    // OK</span></div>
 <div class="line"></div>
 <div class="line"></div>

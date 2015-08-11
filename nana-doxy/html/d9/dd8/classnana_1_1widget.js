@@ -1,5 +1,6 @@
 var classnana_1_1widget =
 [
+    [ "notifier", "d1/d52/classnana_1_1widget_1_1notifier.html", "d1/d52/classnana_1_1widget_1_1notifier" ],
     [ "~widget", "d9/dd8/classnana_1_1widget.html#a23b062494f5e94f33add96ec7a017532", null ],
     [ "_m_bgcolor", "d9/dd8/classnana_1_1widget.html#ae6034a4019c607f57e13042c345ae0a7", null ],
     [ "_m_bgcolor", "d9/dd8/classnana_1_1widget.html#a73c88c6dd1cc75c126012bf104d25114", null ],
@@ -21,11 +22,12 @@ var classnana_1_1widget =
     [ "_m_typeface", "d9/dd8/classnana_1_1widget.html#ae6fc1b146bff6d67fa24b6303659ea9d", null ],
     [ "_m_typeface", "d9/dd8/classnana_1_1widget.html#ad0130bda3a351150fc8dfe7ef2e1b327", null ],
     [ "_m_visible", "d9/dd8/classnana_1_1widget.html#a85e5cd3a7b6e22fded66d74c98aa6a76", null ],
+    [ "_m_wdg_notifier", "d9/dd8/classnana_1_1widget.html#a8b2e3b39f7d7fdc08c9809f746d1563c", null ],
     [ "bgcolor", "d9/dd8/classnana_1_1widget.html#a7aa74edbc2bb11f769043cbf0475446f", null ],
     [ "bgcolor", "d9/dd8/classnana_1_1widget.html#a6b7c11ebbd1da2950932c81957ea355c", null ],
     [ "caption", "d9/dd8/classnana_1_1widget.html#ab4a216a092654c3c539d00fb1db76934", null ],
     [ "caption", "d9/dd8/classnana_1_1widget.html#ae5224cb921978e3ae9d5e183ab63d4fd", null ],
-    [ "caption", "d9/dd8/classnana_1_1widget.html#aa0e9328e3537374fb2a9b21f03ba7fd9", null ],
+    [ "caption", "d9/dd8/classnana_1_1widget.html#a3ee5d745f0105152a7ab1c4db3c2dc62", null ],
     [ "close", "d9/dd8/classnana_1_1widget.html#aecfb50bd898767bc6ef54eeb56d0f2cd", null ],
     [ "cursor", "d9/dd8/classnana_1_1widget.html#ac4fb4b5d10a7527065056aaa203b3db6", null ],
     [ "cursor", "d9/dd8/classnana_1_1widget.html#a5ed79c1aca8b6f1ad036ad5541fc8611", null ],
@@ -43,6 +45,7 @@ var classnana_1_1widget =
     [ "i18n", "d9/dd8/classnana_1_1widget.html#ab748b59f84be1fcc538dbce1c2c2bbe7", null ],
     [ "i18n", "d9/dd8/classnana_1_1widget.html#a9008d0f2590c6e3adc5a616d2af230cf", null ],
     [ "move", "d9/dd8/classnana_1_1widget.html#a4e9fd1f4f527cf179a1424cd54950c49", null ],
+    [ "move", "d9/dd8/classnana_1_1widget.html#ae95416dc13b565d627ea0f162f1ac6e5", null ],
     [ "move", "d9/dd8/classnana_1_1widget.html#a3c325d5bad7163d1bea949638f56f3bf", null ],
     [ "operator dummy_bool_type", "d9/dd8/classnana_1_1widget.html#ab789c3c0c79099ff097e43eee17f56c4", null ],
     [ "operator window", "d9/dd8/classnana_1_1widget.html#ab0bfcebf2326d4c47e9f719d7861ba64", null ],
@@ -57,5 +60,6 @@ var classnana_1_1widget =
     [ "typeface", "d9/dd8/classnana_1_1widget.html#a9bd90e7beacef5933bc78e5ae0acf977", null ],
     [ "typeface", "d9/dd8/classnana_1_1widget.html#af6e39dac10f78bd1b2abdf10cb03e37a", null ],
     [ "umake_event", "d9/dd8/classnana_1_1widget.html#a0dcd3796a4d76800298347e360b8d09f", null ],
-    [ "visible", "d9/dd8/classnana_1_1widget.html#a2d433c60497a1eba3d5dda74d32ee2cc", null ]
+    [ "visible", "d9/dd8/classnana_1_1widget.html#a2d433c60497a1eba3d5dda74d32ee2cc", null ],
+    [ "detail::widget_notifier_interface", "d9/dd8/classnana_1_1widget.html#a025dcfb90de29825f04edd34b6ce6630", null ]
 ];

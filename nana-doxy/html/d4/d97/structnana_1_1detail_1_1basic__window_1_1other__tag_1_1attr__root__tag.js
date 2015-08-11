@@ -1,6 +1,5 @@
 var structnana_1_1detail_1_1basic__window_1_1other__tag_1_1attr__root__tag =
 [
-    [ "context", "d4/d97/structnana_1_1detail_1_1basic__window_1_1other__tag_1_1attr__root__tag.html#ae67dc7576021d044bf7ee7d807eb9a5a", null ],
     [ "draw_through", "d4/d97/structnana_1_1detail_1_1basic__window_1_1other__tag_1_1attr__root__tag.html#a59bf36ddb7ca082171737ef91eecebca", null ],
     [ "effects_edge_nimbus", "d4/d97/structnana_1_1detail_1_1basic__window_1_1other__tag_1_1attr__root__tag.html#a4b631363b8bf67561028352807c7791e", null ],
     [ "focus", "d4/d97/structnana_1_1detail_1_1basic__window_1_1other__tag_1_1attr__root__tag.html#a7d32d45dc0a01376c0212f1577ea78a4", null ],

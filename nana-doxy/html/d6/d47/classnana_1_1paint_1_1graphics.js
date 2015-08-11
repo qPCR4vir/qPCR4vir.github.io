@@ -47,7 +47,7 @@ var classnana_1_1paint_1_1graphics =
     [ "resize", "d6/d47/classnana_1_1paint_1_1graphics.html#ad5b18102fabb9e3823558f785d36b9e3", null ],
     [ "rgb_to_wb", "d6/d47/classnana_1_1paint_1_1graphics.html#aca6f66086fdc7784393712ff7efa8c62", null ],
     [ "round_rectangle", "d6/d47/classnana_1_1paint_1_1graphics.html#ae8cbbfb403102b0b2fdf214ca97c7bc6", null ],
-    [ "save_as_file", "d6/d47/classnana_1_1paint_1_1graphics.html#aa7bbe0177057ecae64c9116968cf302f", null ],
+    [ "save_as_file", "d6/d47/classnana_1_1paint_1_1graphics.html#ac8641b4ec3789c808282375dd492e589", null ],
     [ "set_changed", "d6/d47/classnana_1_1paint_1_1graphics.html#a6e27040e872927d826bb2f3226858458", null ],
     [ "set_color", "d6/d47/classnana_1_1paint_1_1graphics.html#a6f282362212694a3d77f6d03e8d62192", null ],
     [ "set_pixel", "d6/d47/classnana_1_1paint_1_1graphics.html#a1dcbad33cbb384a61f2d7758efbece65", null ],

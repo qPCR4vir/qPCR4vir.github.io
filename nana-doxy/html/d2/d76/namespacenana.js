@@ -77,6 +77,7 @@ var namespacenana =
     [ "arg_resizing", "d7/dac/structnana_1_1arg__resizing.html", "d7/dac/structnana_1_1arg__resizing" ],
     [ "arg_unload", "d0/d2c/structnana_1_1arg__unload.html", "d0/d2c/structnana_1_1arg__unload" ],
     [ "arg_destroy", "d8/deb/structnana_1_1arg__destroy.html", "d8/deb/structnana_1_1arg__destroy" ],
+    [ "arg_click", "d6/dc2/structnana_1_1arg__click.html", "d6/dc2/structnana_1_1arg__click" ],
     [ "general_events", "dd/d19/structnana_1_1general__events.html", "dd/d19/structnana_1_1general__events" ],
     [ "internal_scope_guard", "dd/df6/classnana_1_1internal__scope__guard.html", "dd/df6/classnana_1_1internal__scope__guard" ],
     [ "color_proxy", "d0/d1b/classnana_1_1color__proxy.html", "d0/d1b/classnana_1_1color__proxy" ],

@@ -15,6 +15,7 @@ var searchData=
   ['error_5fcode',['error_code',['../d5/dd4/classnana_1_1detail_1_1platform__spec.html#a8da25ead34fa8cd9549146d53c3febd8',1,'nana::detail::platform_spec']]],
   ['estore',['estore',['../dd/df3/structnana_1_1detail_1_1bedrock_1_1private__impl.html#ab0ac9912090471b6a58c061edfce8691',1,'nana::detail::bedrock::private_impl']]],
   ['eval',['eval',['../d3/ded/structnana_1_1internationalization__parts_1_1eval__window.html#a5312e1e4f39f78313a7d3244c6877863',1,'nana::internationalization_parts::eval_window']]],
+  ['event_5ffocus_5f',['event_focus_',['../dd/d65/classnana_1_1drawerbase_1_1menu_1_1menu__window.html#a075710bef4f6f4cc3be5313d8cbaf494',1,'nana::drawerbase::menu::menu_window::event_focus_()'],['../dd/d65/classnana_1_1drawerbase_1_1menu_1_1menu__window.html#a7a9cdfb29ab0499245792b67754d5193',1,'nana::drawerbase::menu::menu_window::event_focus_()']]],
   ['event_5fnode',['event_node',['../de/d72/structnana_1_1drawerbase_1_1treebox_1_1trigger_1_1basic__implement_1_1node__state__tag.html#a9450c959a506355c45aa83d033361401',1,'nana::drawerbase::treebox::trigger::basic_implement::node_state_tag']]],
   ['event_5fpump_5fref_5fcount',['event_pump_ref_count',['../dc/dad/structnana_1_1detail_1_1bedrock_1_1thread__context.html#a5fd68d2c855e85c726155fb4049d575e',1,'nana::detail::bedrock::thread_context']]],
   ['event_5fsize',['event_size',['../dd/df9/structnana_1_1drawerbase_1_1toolbar_1_1drawer_1_1drawer__impl__type.html#aa31fc23ba5904ef95b76c3e6b9fb804e',1,'nana::drawerbase::toolbar::drawer::drawer_impl_type']]],

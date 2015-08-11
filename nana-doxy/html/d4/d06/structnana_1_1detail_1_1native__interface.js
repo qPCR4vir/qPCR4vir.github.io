@@ -36,7 +36,7 @@ var structnana_1_1detail_1_1native__interface =
     [ "show_window", "d4/d06/structnana_1_1detail_1_1native__interface.html#aa3341684693c9de70785af2ef7cde795", null ],
     [ "window_caption", "d4/d06/structnana_1_1detail_1_1native__interface.html#ac43c886bb495484c834291211629d76f", null ],
     [ "window_caption", "d4/d06/structnana_1_1detail_1_1native__interface.html#aaacba6c2dc4e1058c925f2d9f05d2686", null ],
-    [ "window_icon", "d4/d06/structnana_1_1detail_1_1native__interface.html#aa3807297d394dc56deb87a4a59da7a1b", null ],
+    [ "window_icon", "d4/d06/structnana_1_1detail_1_1native__interface.html#a76512658e35315578ee339c90289ebc7", null ],
     [ "window_position", "d4/d06/structnana_1_1detail_1_1native__interface.html#ace782c7437aa4694fdd87de2d968d562", null ],
     [ "window_size", "d4/d06/structnana_1_1detail_1_1native__interface.html#a9905ae4ab67e8699b1c96ebc81b38d31", null ],
     [ "zoom_window", "d4/d06/structnana_1_1detail_1_1native__interface.html#a56ed3c0d5ff34da321e7a59ac86d5541", null ]

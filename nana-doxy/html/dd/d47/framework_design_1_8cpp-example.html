@@ -162,7 +162,7 @@ $(document).ready(function(){initNavTree('dd/d47/framework_design_1_8cpp-example
 <div class="line">            btn_pair p{ std::make_shared&lt;button&gt;(*this) , dat} ; </div>
 <div class="line"></div>
 <div class="line">                          <span class="comment">//Make the click event </span></div>
-<div class="line">            p.first-&gt;events().click(  [&amp;](<span class="keyword">const</span> <a name="_a5"></a><a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html">arg_mouse</a>&amp; ei){_m_click( ei);} ); </div>
+<div class="line">            p.first-&gt;events().click(  [&amp;](<span class="keyword">const</span> <a name="_a5"></a><a class="code" href="../../d6/dc2/structnana_1_1arg__click.html">arg_click</a>&amp; ei){_m_click( ei);} );</div>
 <div class="line">            p.first-&gt;caption(<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::string</a>(<a name="_a6"></a><a class="code" href="../../d3/d99/classnana_1_1charset.html">charset</a>(dat.url))) ; </div>
 <div class="line">  </div>
 <div class="line">            plc_[<span class="stringliteral">&quot;abc&quot;</span>]&lt;&lt; *(p.first); </div>
@@ -170,11 +170,11 @@ $(document).ready(function(){initNavTree('dd/d47/framework_design_1_8cpp-example
 <div class="line"></div>
 <div class="line">            ui_el_.push_back(p); </div>
 <div class="line">        } </div>
-<div class="line">        <span class="keywordtype">void</span> _m_click(<span class="keyword">const</span> <a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html">arg_mouse</a>&amp; ei) </div>
+<div class="line">        <span class="keywordtype">void</span> _m_click(<span class="keyword">const</span> <a class="code" href="../../d6/dc2/structnana_1_1arg__click.html">arg_click</a>&amp; ei)</div>
 <div class="line">        { </div>
 <div class="line">            <span class="comment">//Check which button is clicked </span></div>
 <div class="line">            <span class="keywordflow">for</span>(btn_pair &amp;bp : ui_el_) </div>
-<div class="line">            { <span class="keywordflow">if</span>(bp.first-&gt;handle() == ei.<a name="a7"></a><a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html#a50641b86783c83c3519ff379052ee3a8">window_handle</a>) </div>
+<div class="line">            { <span class="keywordflow">if</span>(bp.first-&gt;handle() == ei.<a name="a7"></a><a class="code" href="../../d6/dc2/structnana_1_1arg__click.html#a16e239e67f163a6613bac50ba399fb4b">window_handle</a>) </div>
 <div class="line">              {     <span class="comment">//Show data bp.second; </span></div>
 <div class="line">                <a name="_a8"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a>&lt;&lt;<span class="stringliteral">&quot;open &quot;</span>&lt;&lt;bp.second.url&lt;&lt;<a name="a9"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>; </div>
 <div class="line">                <span class="keywordflow">break</span>; </div>

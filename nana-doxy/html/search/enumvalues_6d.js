@@ -1,7 +1,7 @@
 var searchData=
 [
   ['magenta',['magenta',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a4c2a4a7078da0ac6733464eacfd00f86',1,'nana']]],
-  ['map_5fthread_5froot_5fbuffer',['map_thread_root_buffer',['../dc/d73/structnana_1_1detail_1_1messages.html#abfd923cb01743356e198eb512106c630af8ceed8f8fa4d3944298377fa1865718',1,'nana::detail::messages']]],
+  ['map_5fthread_5froot_5fbuffer',['map_thread_root_buffer',['../dc/d73/structnana_1_1detail_1_1messages.html#ab4647f1680716a0cbace61ab7b671872af8ceed8f8fa4d3944298377fa1865718',1,'nana::detail::messages']]],
   ['margin',['margin',['../de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1ad42f4851e770aa0f758b01388874f67b',1,'nana::place_parts::tokenizer']]],
   ['maroon',['maroon',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a04a3da97880fcedeb087378f29c3a102',1,'nana']]],
   ['max_5flimited',['max_limited',['../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccdadf81804e9b5ad50abc9303631e11872c',1,'nana::widgets::skeletons']]],

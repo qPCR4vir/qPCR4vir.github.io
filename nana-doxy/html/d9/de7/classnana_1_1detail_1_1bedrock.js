@@ -1,5 +1,6 @@
 var classnana_1_1detail_1_1bedrock =
 [
+    [ "flag_guard", "d9/d26/classnana_1_1detail_1_1bedrock_1_1flag__guard.html", "d9/d26/classnana_1_1detail_1_1bedrock_1_1flag__guard" ],
     [ "pi_data", "d0/d29/structnana_1_1detail_1_1bedrock_1_1pi__data.html", "d0/d29/structnana_1_1detail_1_1bedrock_1_1pi__data" ],
     [ "private_impl", "dd/df3/structnana_1_1detail_1_1bedrock_1_1private__impl.html", "dd/df3/structnana_1_1detail_1_1bedrock_1_1private__impl" ],
     [ "thread_context", "dc/dad/structnana_1_1detail_1_1bedrock_1_1thread__context.html", "dc/dad/structnana_1_1detail_1_1bedrock_1_1thread__context" ],
@@ -28,7 +29,7 @@ var classnana_1_1detail_1_1bedrock =
     [ "inc_window", "d9/de7/classnana_1_1detail_1_1bedrock.html#a02a40456e5c95b1b168aa13b61475285", null ],
     [ "instance", "d9/de7/classnana_1_1detail_1_1bedrock.html#a00b7b38c5b0b025b7c1b5cb9211f009b", null ],
     [ "make_scheme", "d9/de7/classnana_1_1detail_1_1bedrock.html#afe8acdf28b31f19916719c89c06245c6", null ],
-    [ "map_thread_root_buffer", "d9/de7/classnana_1_1detail_1_1bedrock.html#a46b0bcecd5f5d386d1f088e2537606c0", null ],
+    [ "map_thread_root_buffer", "d9/de7/classnana_1_1detail_1_1bedrock.html#aea98ef6d0826b4db84b47630db572098", null ],
     [ "map_through_widgets", "d9/de7/classnana_1_1detail_1_1bedrock.html#a83ed413d734607509d44708dbc17a9a8", null ],
     [ "open_thread_context", "d9/de7/classnana_1_1detail_1_1bedrock.html#aa6e2b8cbcad4d4c228ae3d400709e820", null ],
     [ "pump_event", "d9/de7/classnana_1_1detail_1_1bedrock.html#a7ac41f9af5c6f6ce1414d9eaeb40e8f6", null ],

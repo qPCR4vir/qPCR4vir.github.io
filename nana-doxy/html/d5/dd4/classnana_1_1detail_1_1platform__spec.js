@@ -1,6 +1,7 @@
 var classnana_1_1detail_1_1platform__spec =
 [
     [ "co_initializer", "d1/d03/classnana_1_1detail_1_1platform__spec_1_1co__initializer.html", "d1/d03/classnana_1_1detail_1_1platform__spec_1_1co__initializer" ],
+    [ "window_icons", "d5/dad/structnana_1_1detail_1_1platform__spec_1_1window__icons.html", "d5/dad/structnana_1_1detail_1_1platform__spec_1_1window__icons" ],
     [ "event_code", "d5/dd4/classnana_1_1detail_1_1platform__spec.html#a150a9996bad58fde30b67880f8e7b7bb", null ],
     [ "event_code", "d5/dd4/classnana_1_1detail_1_1platform__spec.html#a150a9996bad58fde30b67880f8e7b7bb", null ],
     [ "event_proc_type", "d5/dd4/classnana_1_1detail_1_1platform__spec.html#ae2c64249a11de4acaaa74e0028ffabfb", null ],
@@ -35,8 +36,8 @@ var classnana_1_1detail_1_1platform__spec =
     [ "grab", "d5/dd4/classnana_1_1detail_1_1platform__spec.html#a984334cde8309b728d6cde91ccc78baf", null ],
     [ "instance", "d5/dd4/classnana_1_1detail_1_1platform__spec.html#a7a4a4cd7ff65fe90129f87bc5257eb7b", null ],
     [ "instance", "d5/dd4/classnana_1_1detail_1_1platform__spec.html#a6ba23880ddb4d8d8c2d46fa755e4c20d", null ],
-    [ "keep_window_icon", "d5/dd4/classnana_1_1detail_1_1platform__spec.html#a47c57a166745c611a547ce69ca24a219", null ],
-    [ "keep_window_icon", "d5/dd4/classnana_1_1detail_1_1platform__spec.html#a47c57a166745c611a547ce69ca24a219", null ],
+    [ "keep_window_icon", "d5/dd4/classnana_1_1detail_1_1platform__spec.html#a367869a0c61d4fa98446e74c33f30cda", null ],
+    [ "keep_window_icon", "d5/dd4/classnana_1_1detail_1_1platform__spec.html#adfce12b459ef1edecf5d9b57f7b04f5a", null ],
     [ "kill_timer", "d5/dd4/classnana_1_1detail_1_1platform__spec.html#a1a07817aabb156bd5d92252cea46b05c", null ],
     [ "lock_xlib", "d5/dd4/classnana_1_1detail_1_1platform__spec.html#adf2783e7f71c445174b783490d4f4968", null ],
     [ "make_native_font", "d5/dd4/classnana_1_1detail_1_1platform__spec.html#aa33d6aced58869166d7f3b30a242ca00", null ],

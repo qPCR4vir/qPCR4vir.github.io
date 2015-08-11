@@ -42,7 +42,7 @@ var searchData=
   ['not_5feof',['not_eof',['http://en.cppreference.com/w/cpp/string/char_traits/not_eof.html',1,'std::char_traits']]],
   ['not_5fsaved',['not_saved',['../d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#ac87336fa5a5e4518407542dd2c355e14',1,'nana::widgets::skeletons::textbase']]],
   ['notifications_5fwindow_5fproc',['notifications_window_proc',['../d2/d76/namespacenana.html#abf9f7cf05ee3a502dad15e7c363e32fc',1,'nana']]],
-  ['notifier',['notifier',['../d5/d81/classnana_1_1notifier.html#a2fce9a2c0304f686f36bd08e47a04343',1,'nana::notifier']]],
+  ['notifier',['notifier',['../d5/d81/classnana_1_1notifier.html#a2fce9a2c0304f686f36bd08e47a04343',1,'nana::notifier::notifier()'],['../d1/d52/classnana_1_1widget_1_1notifier.html#a8b1219f476af45b02e7f1e36adcec0eb',1,'nana::widget::notifier::notifier()']]],
   ['notify_5fall',['notify_all',['http://en.cppreference.com/w/cpp/thread/condition_variable_any/notify_all.html',1,'std::condition_variable_any::notify_all()'],['http://en.cppreference.com/w/cpp/thread/condition_variable/notify_all.html',1,'std::condition_variable::notify_all()']]],
   ['notify_5fall_5fat_5fthread_5fexit',['notify_all_at_thread_exit',['http://en.cppreference.com/w/cpp/thread/notify_all_at_thread_exit.html',1,'std']]],
   ['notify_5fone',['notify_one',['http://en.cppreference.com/w/cpp/thread/condition_variable_any/notify_one.html',1,'std::condition_variable_any::notify_one()'],['http://en.cppreference.com/w/cpp/thread/condition_variable/notify_one.html',1,'std::condition_variable::notify_one()']]],

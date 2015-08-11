@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('df/dd6/montihall_8cpp-example.html','.
 <div class="line">  <span class="keyword">public</span>: </div>
 <div class="line">    monty_hall(); </div>
 <div class="line">  <span class="keyword">private</span>: </div>
-<div class="line">    <span class="keywordtype">void</span> _m_pick_door  (<span class="keyword">const</span> <a name="_a1"></a><a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html">nana::arg_mouse</a>&amp; ei); </div>
+<div class="line">    <span class="keywordtype">void</span> _m_pick_door  (<span class="keyword">const</span> <a name="_a1"></a><a class="code" href="../../d6/dc2/structnana_1_1arg__click.html">nana::arg_click</a>&amp; ei); </div>
 <div class="line">    <span class="keywordtype">void</span> _m_play       (<span class="keywordtype">int</span> door); </div>
 <div class="line">    <span class="keywordtype">void</span> _m_remove_door(<span class="keywordtype">int</span> exclude); </div>
 <div class="line">  <span class="keyword">private</span>: </div>
@@ -139,7 +139,7 @@ $(document).ready(function(){initNavTree('df/dd6/montihall_8cpp-example.html','.
 <div class="line">  STR(&quot;One door has a new Car behind it and the other two: Goats.\n&quot;) </div>
 <div class="line">  STR(&quot;Now pick a door to win the Car.&quot;); </div>
 <div class="line"></div>
-<div class="line">  label_.create(*this, nana::size(400, 100)); </div>
+<div class="line">  label_.create(*this, nana::rectangle(nana::size(400, 100))); </div>
 <div class="line">  label_.caption(text); </div>
 <div class="line"></div>
 <div class="line">  nana::<span class="keywordtype">string</span> door_name[3] = </div>
@@ -148,16 +148,16 @@ $(document).ready(function(){initNavTree('df/dd6/montihall_8cpp-example.html','.
 <div class="line">  { </div>
 <div class="line">    door_[i].create(*<span class="keyword">this</span>, <a name="_a6"></a><a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>(50 + 110 * i, 110, 100, 24)); </div>
 <div class="line">    door_[i].caption(door_name[i]); </div>
-<div class="line">    door_[i].events().click([<span class="keyword">this</span>](<span class="keyword">const</span> <a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html">nana::arg_mouse</a>&amp; ei){ _m_pick_door(ei); });</div>
+<div class="line">    door_[i].events().click([<span class="keyword">this</span>](<span class="keyword">const</span> <a class="code" href="../../d6/dc2/structnana_1_1arg__click.html">nana::arg_click</a>&amp; ei){ _m_pick_door(ei); });</div>
 <div class="line">  } </div>
 <div class="line">}</div>
 <div class="line"></div>
-<div class="line"> <span class="keywordtype">void</span> monty_hall::_m_pick_door(<span class="keyword">const</span> <a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html">nana::arg_mouse</a>&amp; ei) </div>
+<div class="line"> <span class="keywordtype">void</span> monty_hall::_m_pick_door(<span class="keyword">const</span> <a class="code" href="../../d6/dc2/structnana_1_1arg__click.html">nana::arg_click</a>&amp; ei)</div>
 <div class="line">{ </div>
 <div class="line">     <span class="keywordtype">int</span> index = 0; </div>
 <div class="line">     <span class="keywordflow">for</span>(; index &lt; 3; ++index) </div>
 <div class="line">     { </div>
-<div class="line">         <span class="keywordflow">if</span>(door_[index] == ei.<a name="a7"></a><a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html#a50641b86783c83c3519ff379052ee3a8">window_handle</a>) </div>
+<div class="line">         <span class="keywordflow">if</span>(door_[index] == ei.<a name="a7"></a><a class="code" href="../../d6/dc2/structnana_1_1arg__click.html#a16e239e67f163a6613bac50ba399fb4b">window_handle</a>) </div>
 <div class="line">            <span class="keywordflow">break</span>; </div>
 <div class="line">     } </div>
 <div class="line">     _m_play(index); </div>

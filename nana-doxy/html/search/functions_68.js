@@ -18,6 +18,8 @@ var searchData=
   ['hide',['hide',['../d9/dd8/classnana_1_1widget.html#adde523b3932c813a5c7d53dec3f33a25',1,'nana::widget']]],
   ['hit_5fselect_5farea',['hit_select_area',['../dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html#aff0d2fe7e769c9d8e330160550a4c5a7',1,'nana::widgets::skeletons::text_editor']]],
   ['hit_5ftext_5farea',['hit_text_area',['../dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html#ae8006a151de48b5a2fa4e3f477e0f1a7',1,'nana::widgets::skeletons::text_editor']]],
+  ['host',['host',['../db/d09/classnana_1_1drawerbase_1_1listbox_1_1inline__indicator.html#a6e77affd247aa4eaa396a92fa4b81ff5',1,'nana::drawerbase::listbox::inline_indicator::host()'],['../d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a6f818724257511638effd93ae5febd03',1,'nana::detail::inline_widget_indicator::host()']]],
   ['hours',['hours',['http://en.cppreference.com/w/cpp/chrono/duration/duration.html',1,'std::chrono::hours']]],
+  ['hovered',['hovered',['../db/d09/classnana_1_1drawerbase_1_1listbox_1_1inline__indicator.html#a6fc2e4ef691347042e4b29a617b4ed84',1,'nana::drawerbase::listbox::inline_indicator::hovered()'],['../d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a429cd8461a40ca9b56743d17d3e1f4c2',1,'nana::detail::inline_widget_indicator::hovered()']]],
   ['hypot',['hypot',['http://en.cppreference.com/w/cpp/numeric/math/hypot.html',1,'std']]]
 ];

@@ -13,11 +13,10 @@ var searchData=
   ['_5fm_5fget_5fgeneral_5fevents',['_m_get_general_events',['../d9/dd8/classnana_1_1widget.html#ad5717af1b4fc9c4d9e54a3f62ee6bc57',1,'nana::widget']]],
   ['_5fm_5fmove',['_m_move',['../d9/dd8/classnana_1_1widget.html#af4b6739eb4b3d38a5ba4d5194686b9d4',1,'nana::widget::_m_move(int x, int y)'],['../d9/dd8/classnana_1_1widget.html#a20e3e33efc32c580f7c846e2b745006e',1,'nana::widget::_m_move(const rectangle &amp;)']]],
   ['_5fm_5fnode',['_m_node',['../d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a9589f2120a2b9c685e21571639940c10',1,'nana::drawerbase::treebox::item_proxy']]],
-  ['_5fm_5foverrided',['_m_overrided',['../d7/d16/classnana_1_1drawer__trigger.html#a2e2b400a54a777c532141a02ec2aa63b',1,'nana::drawer_trigger']]],
-  ['_5fm_5freset_5foverrided',['_m_reset_overrided',['../d7/d16/classnana_1_1drawer__trigger.html#a40bc8d3e467f9f513e1c1c5ba78ec23b',1,'nana::drawer_trigger']]],
   ['_5fm_5fshow',['_m_show',['../d9/dd8/classnana_1_1widget.html#ad3dd6a1f910b1dc5eb007c0528d9f9fa',1,'nana::widget']]],
   ['_5fm_5fsize',['_m_size',['../d9/dd8/classnana_1_1widget.html#a7b3f58c63dfcb33dc94dd08c3a3f9722',1,'nana::widget']]],
   ['_5fm_5ftypeface',['_m_typeface',['../d9/dd8/classnana_1_1widget.html#ae6fc1b146bff6d67fa24b6303659ea9d',1,'nana::widget::_m_typeface(const nana::paint::font &amp;font)'],['../d9/dd8/classnana_1_1widget.html#ad0130bda3a351150fc8dfe7ef2e1b327',1,'nana::widget::_m_typeface() const '],['../de/d10/classnana_1_1textbox.html#a7477dfc330d226a324c3258e109977d5',1,'nana::textbox::_m_typeface()']]],
   ['_5fm_5fvisible',['_m_visible',['../d9/dd8/classnana_1_1widget.html#a85e5cd3a7b6e22fded66d74c98aa6a76',1,'nana::widget']]],
-  ['_5fm_5fvisible_5ffor_5fchild',['_m_visible_for_child',['../dc/d71/classnana_1_1place_1_1implement_1_1division.html#a797e08917e63b6253593de6a0b13f660',1,'nana::place::implement::division']]]
+  ['_5fm_5fvisible_5ffor_5fchild',['_m_visible_for_child',['../dc/d71/classnana_1_1place_1_1implement_1_1division.html#a797e08917e63b6253593de6a0b13f660',1,'nana::place::implement::division']]],
+  ['_5fm_5fwdg_5fnotifier',['_m_wdg_notifier',['../d9/dd8/classnana_1_1widget.html#a8b2e3b39f7d7fdc08c9809f746d1563c',1,'nana::widget']]]
 ];

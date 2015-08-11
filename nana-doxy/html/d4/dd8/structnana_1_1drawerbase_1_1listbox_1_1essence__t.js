@@ -1,5 +1,6 @@
 var structnana_1_1drawerbase_1_1listbox_1_1essence__t =
 [
+    [ "inline_pane", "d4/d82/structnana_1_1drawerbase_1_1listbox_1_1essence__t_1_1inline__pane.html", "d4/d82/structnana_1_1drawerbase_1_1listbox_1_1essence__t_1_1inline__pane" ],
     [ "scroll_part", "dc/d71/structnana_1_1drawerbase_1_1listbox_1_1essence__t_1_1scroll__part.html", "dc/d71/structnana_1_1drawerbase_1_1listbox_1_1essence__t_1_1scroll__part" ],
     [ "item_state", "d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#a5e431ea48864ab01163f2fd2166eae9a", [
       [ "normal", "d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#a5e431ea48864ab01163f2fd2166eae9aafea087517c26fadd409bd4b9dc642555", null ],
@@ -25,6 +26,7 @@ var structnana_1_1drawerbase_1_1listbox_1_1essence__t =
     [ "header_visible_px", "d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#ab2b650561e649f65cc3a501f7f7bf3f0", null ],
     [ "item_xpos", "d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#ae90bc3ec41cc73e6f499bc5bccfcff76", null ],
     [ "number_of_lister_items", "d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#ab49e3771e6ea4786a8c94ef37b9e1ef6", null ],
+    [ "open_inline", "d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#a15db68a86fe36014c76f9347ef13df03", null ],
     [ "rect_header", "d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#acdeca76ab4b8dedc63feff5384cd0e01", null ],
     [ "rect_lister", "d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#a09c7c3f797a78a24701fd49f82940e00", null ],
     [ "scroll_y_abs", "d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#a7612bbcef4e90abd91d2f1e00ea64525", null ],
@@ -50,6 +52,8 @@ var structnana_1_1drawerbase_1_1listbox_1_1essence__t =
     [ "header", "d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#ab745233a756373689539c6d9d102ff3c", null ],
     [ "header_size", "d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#a5f363a860ed186118ce1711cb3b67ed7", null ],
     [ "if_image", "d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#a2bee28c27c5ca8d15ea9b9dd956e00a1", null ],
+    [ "inline_buffered_table", "d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#aff163fcea1540efb5510819e355be831", null ],
+    [ "inline_table", "d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#a948583b96fe2b94b8934be4b6900900f", null ],
     [ "item_size", "d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#a7b367554b5af67b02395713482a77c65", null ],
     [ "lister", "d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#a294cd14c8fdaa9a964b2f7258c9bba7e", null ],
     [ "pointer_where", "d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#ab918772c170bcf1db710c660f6f09c16", null ],

@@ -6,7 +6,7 @@ var structnana_1_1drawerbase_1_1menu_1_1menu__item__type =
     [ "menu_item_type", "da/d89/structnana_1_1drawerbase_1_1menu_1_1menu__item__type.html#a2cbe328fedc16a50e2fc49c0f44eee9f", null ],
     [ "checked", "da/d89/structnana_1_1drawerbase_1_1menu_1_1menu__item__type.html#a087ca84e09a2bbf98d66c922d1aa8201", null ],
     [ "enabled", "da/d89/structnana_1_1drawerbase_1_1menu_1_1menu__item__type.html#a5d897febd3770bd77f5a0698dbab51cf", null ],
-    [ "flags", "da/d89/structnana_1_1drawerbase_1_1menu_1_1menu__item__type.html#a29c3a3b7c8cbdc73045f1d2096c4cede", null ],
+    [ "flags", "da/d89/structnana_1_1drawerbase_1_1menu_1_1menu__item__type.html#a748c5c84aa6ad8f23560a7c94ef878aa", null ],
     [ "functor", "da/d89/structnana_1_1drawerbase_1_1menu_1_1menu__item__type.html#afa00bf2472aa061cae259d58e7fd005b", null ],
     [ "hotkey", "da/d89/structnana_1_1drawerbase_1_1menu_1_1menu__item__type.html#a76c0dab6284e974b9b2f98dfc2f383f2", null ],
     [ "image", "da/d89/structnana_1_1drawerbase_1_1menu_1_1menu__item__type.html#aac769ba5ac1fa422964d546495138445", null ],

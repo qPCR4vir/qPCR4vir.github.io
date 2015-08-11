@@ -3,22 +3,24 @@ var structnana_1_1detail_1_1basic__window =
     [ "edge_nimbus_action", "dc/d1a/structnana_1_1detail_1_1basic__window_1_1edge__nimbus__action.html", "dc/d1a/structnana_1_1detail_1_1basic__window_1_1edge__nimbus__action" ],
     [ "flags_type", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type" ],
     [ "other_tag", "d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html", "d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag" ],
-    [ "root_context", "d9/dea/structnana_1_1detail_1_1basic__window_1_1root__context.html", "d9/dea/structnana_1_1detail_1_1basic__window_1_1root__context" ],
     [ "container", "de/d3c/structnana_1_1detail_1_1basic__window.html#a0686ddb6276505c9c0dfe05f1fa84641", null ],
     [ "update_state", "de/d3c/structnana_1_1detail_1_1basic__window.html#a7a7933ada58a4e852c665aaec7c12b94", [
       [ "none", "de/d3c/structnana_1_1detail_1_1basic__window.html#a7a7933ada58a4e852c665aaec7c12b94a334c4a4c42fdb79d7ebc3e73b517e6f8", null ],
       [ "lazy", "de/d3c/structnana_1_1detail_1_1basic__window.html#a7a7933ada58a4e852c665aaec7c12b94a0ffe34b4e04c2b282c5a388b1ad8aa7a", null ],
       [ "refresh", "de/d3c/structnana_1_1detail_1_1basic__window.html#a7a7933ada58a4e852c665aaec7c12b94a03b62516184fb6ef591f45bd4974b753", null ]
     ] ],
-    [ "basic_window", "de/d3c/structnana_1_1detail_1_1basic__window.html#a168aa40e5d8e692192cb458ebcbd4ee9", null ],
-    [ "basic_window", "de/d3c/structnana_1_1detail_1_1basic__window.html#a26dd041b14c592f782e2b19d088b8686", null ],
+    [ "basic_window", "de/d3c/structnana_1_1detail_1_1basic__window.html#ab4c52f5ce84de1baa95191225550e68d", null ],
+    [ "basic_window", "de/d3c/structnana_1_1detail_1_1basic__window.html#ae5e8ea97f41add95ee922cd8c749c307", null ],
     [ "~basic_window", "de/d3c/structnana_1_1detail_1_1basic__window.html#a22fd7583c22e6ece476ec1ca11ed2c80", null ],
     [ "belong_to_lazy", "de/d3c/structnana_1_1detail_1_1basic__window.html#a9ef79babe67c4931da6102f0dcc0615e", null ],
     [ "bind_native_window", "de/d3c/structnana_1_1detail_1_1basic__window.html#a98848aa191fb313d844314a574e1b634", null ],
+    [ "child_caret", "de/d3c/structnana_1_1detail_1_1basic__window.html#a13b434bbf99609477284654fbfb3fd1e", null ],
+    [ "displayed", "de/d3c/structnana_1_1detail_1_1basic__window.html#a704d817821cde618ac4bb98f70eb9400", null ],
     [ "frame_window", "de/d3c/structnana_1_1detail_1_1basic__window.html#a115af2f2a767c1963358f4a2263f87dc", null ],
     [ "get_events", "de/d3c/structnana_1_1detail_1_1basic__window.html#a0672bcbc4554c157d86acb8a81249eb3", null ],
     [ "is_ancestor_of", "de/d3c/structnana_1_1detail_1_1basic__window.html#a99bf6a4077ac5dfd6f268c540b2af89c", null ],
     [ "is_draw_through", "de/d3c/structnana_1_1detail_1_1basic__window.html#a031baa985d1c301a9a065883fdf9d36f", null ],
+    [ "seek_non_lite_widget_ancestor", "de/d3c/structnana_1_1detail_1_1basic__window.html#ad36457bb4bee0fbe26afdd4683f421af", null ],
     [ "set_events", "de/d3c/structnana_1_1detail_1_1basic__window.html#a3d4ef51fe0fa8319ce088680ef05bc97", null ],
     [ "visible_parents", "de/d3c/structnana_1_1detail_1_1basic__window.html#ad78e49ccd96cbca77c23d2faa144b0e9", null ],
     [ "bground", "de/d3c/structnana_1_1detail_1_1basic__window.html#ac18028dba5c5faf600541ebbb962662c", null ],
@@ -50,5 +52,5 @@ var structnana_1_1detail_1_1basic__window =
     [ "title", "de/d3c/structnana_1_1detail_1_1basic__window.html#a6095594ba898558c66f7e218dced4420", null ],
     [ "together", "de/d3c/structnana_1_1detail_1_1basic__window.html#a8586cad5031401b57c6bf20e4541a14d", null ],
     [ "visible", "de/d3c/structnana_1_1detail_1_1basic__window.html#a39e2279cd450a730189a944dc7482875", null ],
-    [ "widget_ptr", "de/d3c/structnana_1_1detail_1_1basic__window.html#a778503fb267621694415e1ce93c88106", null ]
+    [ "widget_notifier", "de/d3c/structnana_1_1detail_1_1basic__window.html#ac3f337217965dbc845f14c7642feca6a", null ]
 ];

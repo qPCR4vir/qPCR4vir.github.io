@@ -5,6 +5,7 @@ var classnana_1_1listbox =
     [ "columns_indexs", "d1/dda/classnana_1_1listbox.html#aeeee44ab602e88cc9fd49bd4be4bc561", null ],
     [ "export_options", "d1/dda/classnana_1_1listbox.html#a9e9120da002d409f9c3a85549b9da0d5", null ],
     [ "index_pair", "d1/dda/classnana_1_1listbox.html#a024ae672f9b4227e7621de15a058fc9c", null ],
+    [ "inline_notifier_interface", "d1/dda/classnana_1_1listbox.html#ab51f95a83c5bcdd6ad419bbd57df6a15", null ],
     [ "iresolver", "d1/dda/classnana_1_1listbox.html#acbe307133ac81466ef99e23c4c71c0b4", null ],
     [ "item_proxy", "d1/dda/classnana_1_1listbox.html#a1cd49e40c7c6291362692002d7fae89c", null ],
     [ "oresolver", "d1/dda/classnana_1_1listbox.html#a1a385478461ce56bc5876773556aa634", null ],
