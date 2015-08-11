@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"de/dff/structnana_1_1drawerbase_1_1tabbar_1_1item__renderer_1_1item__t.html#a916ac6ee8e05c2e445281729173aa3c5":[7,0,1,7,17,6,0,0],
 "df/d02/structnana_1_1traits_1_1mfptr__traits_3_01_r_07_concept_1_1_5_08_07_p0_00_01_p1_00_01_p2_08_01const_01volatile_01_4.html":[7,0,1,20,23],
 "df/d02/structnana_1_1traits_1_1mfptr__traits_3_01_r_07_concept_1_1_5_08_07_p0_00_01_p1_00_01_p2_08_01const_01volatile_01_4.html#a2f74e00bcd2a03c1ca5f1c8a1029a3ad":[7,0,1,20,23,4],
 "df/d02/structnana_1_1traits_1_1mfptr__traits_3_01_r_07_concept_1_1_5_08_07_p0_00_01_p1_00_01_p2_08_01const_01volatile_01_4.html#a492780e8ded0f7a29035154d54a5b6d8":[7,0,1,20,23,3],
@@ -25,12 +26,12 @@ var NAVTREEINDEX21 =
 "df/d13/classnana_1_1detail_1_1cache.html#aad5e10488336d4af724bc5f7e3f5cd2d":[7,0,1,5,47,7],
 "df/d13/classnana_1_1detail_1_1cache.html#aaf1c945611fdda5b26b6d4604b5c3935":[7,0,1,5,47,2],
 "df/d13/classnana_1_1detail_1_1cache.html#af1367c8b0ae360b21d69b983fc32e056":[7,0,1,5,47,5],
-"df/d13/windows-subclassing_8cpp-example.html":[8,51],
+"df/d13/windows-subclassing_8cpp-example.html":[8,52],
 "df/d14/structnana_1_1arg__dropfiles.html":[7,0,1,58],
 "df/d14/structnana_1_1arg__dropfiles.html#a2c19ba4a2a88d06c79c8c728906ce713":[7,0,1,58,0],
 "df/d14/structnana_1_1arg__dropfiles.html#a37f23767b779c60f191c35198f3cbb9e":[7,0,1,58,2],
 "df/d14/structnana_1_1arg__dropfiles.html#a7ce78ab76b3e5571a3fe2047ec08f77c":[7,0,1,58,1],
-"df/d14/widget_show2_8cpp-example.html":[8,49],
+"df/d14/widget_show2_8cpp-example.html":[8,50],
 "df/d21/draw_8cpp-example.html":[8,11],
 "df/d28/structnana_1_1drawerbase_1_1treebox_1_1node__attribute.html":[7,0,1,7,21,6],
 "df/d28/structnana_1_1drawerbase_1_1treebox_1_1node__attribute.html#a0c40980db218326b95ba2b1c694203ba":[7,0,1,7,21,6,6],
@@ -146,8 +147,8 @@ var NAVTREEINDEX21 =
 "df/d6d/structnana_1_1place_1_1implement.html#a94c69235bfb8d32935064126d1f4effa":[7,0,1,108,0,8],
 "df/d6d/structnana_1_1place_1_1implement.html#aa53f5304274a3a0d6b1970dadece22de":[7,0,1,108,0,9],
 "df/d6d/structnana_1_1place_1_1implement.html#afd1ed9fd5f5c56a7919e232c0af795f5":[7,0,1,108,0,6],
-"df/d6f/namespacenana_1_1widgets.html":[6,0,1,21],
 "df/d6f/namespacenana_1_1widgets.html":[7,0,1,21],
+"df/d6f/namespacenana_1_1widgets.html":[6,0,1,21],
 "df/d72/classnana_1_1agent.html":[7,0,1,107],
 "df/d72/classnana_1_1agent.html#a5c0b3f03d7234a81ca119d581bb4f70a":[7,0,1,107,1],
 "df/d72/classnana_1_1agent.html#ae4e12cf24d9b8e2a6eb1818687f881e8":[7,0,1,107,0],
@@ -157,7 +158,7 @@ var NAVTREEINDEX21 =
 "df/d81/structnana_1_1drawerbase_1_1listbox_1_1item__t_1_1flags__tag.html":[7,0,1,7,8,1,0],
 "df/d81/structnana_1_1drawerbase_1_1listbox_1_1item__t_1_1flags__tag.html#a425148a0d7d48754881698894ef9f1c1":[7,0,1,7,8,1,0,1],
 "df/d81/structnana_1_1drawerbase_1_1listbox_1_1item__t_1_1flags__tag.html#a68f2370501180ad540ebd12b354b0ee3":[7,0,1,7,8,1,0,0],
-"df/d86/subclass_8cpp-example.html":[8,44],
+"df/d86/subclass_8cpp-example.html":[8,45],
 "df/d8b/structnana_1_1paint_1_1detail_1_1rgb__quad.html":[7,0,1,14,0,5],
 "df/d8b/structnana_1_1paint_1_1detail_1_1rgb__quad.html#a04fa2dee0a1e2fd352ff022b4bb25f2b":[7,0,1,14,0,5,2],
 "df/d8b/structnana_1_1paint_1_1detail_1_1rgb__quad.html#a538181bce046bdf90c402f11178fc6d2":[7,0,1,14,0,5,3],
@@ -204,8 +205,8 @@ var NAVTREEINDEX21 =
 "df/da7/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1undo__input__text.html#a68f49bbccc268bf04a8ae26f9b97194b":[7,0,1,21,1,3,7,0],
 "df/da7/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1undo__input__text.html#abc4c8e56c5ed3dbb72b2ae56a2eba7f0":[7,0,1,21,1,3,7,1],
 "df/da9/structnana_1_1drawerbase_1_1treebox_1_1trigger_1_1pseudo__node__type.html":[7,0,1,7,21,8,3],
-"df/dac/namespacenana_1_1pat.html":[6,0,1,15],
 "df/dac/namespacenana_1_1pat.html":[7,0,1,15],
+"df/dac/namespacenana_1_1pat.html":[6,0,1,15],
 "df/db6/structgz_file__s.html":[7,0,5],
 "df/db6/structgz_file__s.html#a8c1f4682372cc228f4e37bf7f95870a8":[7,0,5,1],
 "df/db6/structgz_file__s.html#a98038b7edb4ab55ee321fa388afb687e":[7,0,5,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "df/dc9/structnana_1_1widgets_1_1skeletons_1_1keyword__desc.html#ab88eccfcc2c547643d11dcf8cb9f659d":[7,0,1,21,1,12,3],
 "df/dce/structnana_1_1arg__slider.html":[7,0,1,137],
 "df/dce/structnana_1_1arg__slider.html#a4fbd70f3517da77ebdecd576b458ea11":[7,0,1,137,0],
-"df/dce/structnana_1_1arg__slider.html#a5eff5706b1807ea9c5bc352cda680716":[7,0,1,137,1],
-"df/dd3/classnana_1_1effects_1_1bground__blur.html":[7,0,1,8,4]
+"df/dce/structnana_1_1arg__slider.html#a5eff5706b1807ea9c5bc352cda680716":[7,0,1,137,1]
 };

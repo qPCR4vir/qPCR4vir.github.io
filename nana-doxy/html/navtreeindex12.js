@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"d9/d63/classnana_1_1paint_1_1image__process_1_1stretch__interface.html#a77d92253c75d801150686982b5618fe2":[7,0,1,14,3,1,0],
 "d9/d63/classnana_1_1paint_1_1image__process_1_1stretch__interface.html#a9e29a4f93958bebe47331f514e122866":[7,0,1,14,3,1,1],
 "d9/d63/structnana_1_1filesystem_1_1path_1_1type.html":[7,0,1,11,5,0],
 "d9/d63/structnana_1_1filesystem_1_1path_1_1type.html#acab5ed9b06de3a68a5f407eda7a729d7a190985e9d8031594d7ac7e59376e8fc5":[7,0,1,11,5,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "d9/de7/classnana_1_1detail_1_1bedrock.html#afe34f98f4e5169bbb853dc02ea3ffd62":[7,0,1,5,10,33],
 "d9/de7/classnana_1_1detail_1_1bedrock.html#afe8acdf28b31f19916719c89c06245c6":[7,0,1,5,10,28],
 "d9/de7/classnana_1_1detail_1_1bedrock.html#aff60979923105cee2df697a24cc81bae":[7,0,1,5,10,36],
-"d9/deb/structnana_1_1detail_1_1bedrock_1_1private__impl_1_1cache__type_1_1thread__context__cache.html":[7,0,1,5,10,2,0,0],
-"d9/deb/structnana_1_1detail_1_1bedrock_1_1private__impl_1_1cache__type_1_1thread__context__cache.html#a03cea54fca7a2807d385221da419ee4f":[7,0,1,5,10,2,0,0,1]
+"d9/deb/structnana_1_1detail_1_1bedrock_1_1private__impl_1_1cache__type_1_1thread__context__cache.html":[7,0,1,5,10,2,0,0]
 };

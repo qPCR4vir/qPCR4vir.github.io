@@ -119,7 +119,7 @@ var NAVTREEINDEX6 =
 "d5/d27/structnana_1_1appearance.html#aab72da6e94e0553ebf5ad043dbc18e51":[7,0,1,48,2],
 "d5/d27/structnana_1_1appearance.html#adcc27ac667dc94c770dca61ae5c98014":[7,0,1,48,4],
 "d5/d27/structnana_1_1appearance.html#af8e7fa06ae3f46b485e3e0f2e1ae715d":[7,0,1,48,1],
-"d5/d2a/menu_debug_8cpp-example.html":[8,35],
+"d5/d2a/menu_debug_8cpp-example.html":[8,36],
 "d5/d2c/classnana_1_1concepts_1_1any__objective_3_01_index_type_00_011_01_4.html":[7,0,1,4,1],
 "d5/d2c/classnana_1_1concepts_1_1any__objective_3_01_index_type_00_011_01_4.html#a202f418c5c406cc2eb3b4073462d744e":[7,0,1,4,1,2],
 "d5/d2c/classnana_1_1concepts_1_1any__objective_3_01_index_type_00_011_01_4.html#a55a5b2452c74e0b89e10c884b32b3391":[7,0,1,4,1,1],

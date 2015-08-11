@@ -157,7 +157,7 @@ var NAVTREEINDEX2 =
 "d2/d4e/classnana_1_1drawerbase_1_1combox_1_1event__agent.html#a0094f2d0e058006aa21c0eabd2b0d5d2":[7,0,1,7,3,3,0],
 "d2/d4e/classnana_1_1drawerbase_1_1combox_1_1event__agent.html#a21d34fb4be3195c55fb805a0493c0eae":[7,0,1,7,3,3,2],
 "d2/d4e/classnana_1_1drawerbase_1_1combox_1_1event__agent.html#ab8ea3f765ca7ead828c7ca6d38daa828":[7,0,1,7,3,3,1],
-"d2/d50/various_events_8cpp11_8cpp-example.html":[8,47],
+"d2/d50/various_events_8cpp11_8cpp-example.html":[8,48],
 "d2/d54/structpng__s_p_l_t__entry__struct.html":[7,0,11],
 "d2/d54/structpng__s_p_l_t__entry__struct.html#a05ba3cef8aa2c43d1f52c0300c525fd9":[7,0,11,4],
 "d2/d54/structpng__s_p_l_t__entry__struct.html#a2af6281d3b400362886a43977ebcb7db":[7,0,11,1],

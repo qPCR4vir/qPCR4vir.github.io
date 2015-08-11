@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"db/d8c/structnana_1_1arg__resized.html#a80f4eaa41500eafae5c71a785b81821b":[7,0,1,63,0],
 "db/d8c/structnana_1_1arg__resized.html#acf26c2eb11591af0690f56e60b4918c8":[7,0,1,63,1],
 "db/d8c/structnana_1_1arg__resized.html#af0fdcf190c3f78f8119689f1a0cae2d9":[7,0,1,63,2],
 "db/d9a/helloword_quit_8cpp-example.html":[8,27],
@@ -40,7 +41,7 @@ var NAVTREEINDEX15 =
 "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#afe397e74bafeaba213ec34273cc5a027":[7,0,1,7,5,5,5],
 "db/db7/structnana_1_1traits_1_1make__mf_3_01_r_07_p0_00_01_p1_00_01_p2_00_01_p3_08_00_01_concept_00_01const__volatile__specifier_01_4.html":[7,0,1,20,52],
 "db/db7/structnana_1_1traits_1_1make__mf_3_01_r_07_p0_00_01_p1_00_01_p2_00_01_p3_08_00_01_concept_00_01const__volatile__specifier_01_4.html#a35eb5c99bfe99a8976ca3a817c5564a2":[7,0,1,20,52,0],
-"db/dbb/window-dragger_8cpp-example.html":[8,50],
+"db/dbb/window-dragger_8cpp-example.html":[8,51],
 "db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html":[7,0,1,83],
 "db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#a1a258e58eefa7859a89f735ba74db8d1":[7,0,1,83,6],
 "db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#a5ab10ac7529dc4ed35c1c9edbdfdf2f5":[7,0,1,83,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a6cc52c91890823451b9e10f5219b8dba":[7,0,1,108,0,3,12],
 "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a797e08917e63b6253593de6a0b13f660":[7,0,1,108,0,3,3],
 "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a889a4a5fe5bd0a759b383e99b5d259cb":[7,0,1,108,0,3,7],
-"dc/d71/classnana_1_1place_1_1implement_1_1division.html#aa30c825a1ea039bc73ea0265c52f2c12":[7,0,1,108,0,3,25],
-"dc/d71/classnana_1_1place_1_1implement_1_1division.html#aa4be92dd0fc23487a555e46a2a498f23":[7,0,1,108,0,3,22]
+"dc/d71/classnana_1_1place_1_1implement_1_1division.html#aa30c825a1ea039bc73ea0265c52f2c12":[7,0,1,108,0,3,25]
 };

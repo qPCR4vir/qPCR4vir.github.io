@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"d9/deb/structnana_1_1detail_1_1bedrock_1_1private__impl_1_1cache__type_1_1thread__context__cache.html#a03cea54fca7a2807d385221da419ee4f":[7,0,1,5,10,2,0,0,1],
 "d9/deb/structnana_1_1detail_1_1bedrock_1_1private__impl_1_1cache__type_1_1thread__context__cache.html#a8529eeffab4a59aa88ce85e0c00844fb":[7,0,1,5,10,2,0,0,0],
 "d9/dec/namespacenana_1_1widgets_1_1detail.html":[7,0,1,21,0],
 "d9/dec/namespacenana_1_1widgets_1_1detail.html":[6,0,1,21,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#PNG":[3,5],
 "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#Predefined":[3,1,0],
 "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#appear":[3,3],
-"da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#der":[3,2,0],
-"da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#eve":[3,4,1]
+"da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#der":[3,2,0]
 };

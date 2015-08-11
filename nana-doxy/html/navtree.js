@@ -99,19 +99,19 @@ var NAVTREEINDEX =
 "d5/d81/classnana_1_1notifier.html#a1f302644e0eaf5826565cb4e333a15ab",
 "d6/d00/structnana_1_1traits_1_1make__mf.html#a3f10154d02e19f11100ab6db0cddf579",
 "d6/d8e/structnana_1_1drawerbase_1_1textbox_1_1textbox__events.html#a1846b7b339ce5422383a82736cf1cd43",
-"d7/db7/classnana_1_1paint_1_1detail_1_1image__png.html#a7ac26943bbd7492053bda5bc22e451cf",
-"d8/d7f/classnana_1_1unicode__bidi.html#ab4d218792adebd435c0808cfa7fce137afc37fbde490e37c1258738a18b9aa4c7",
-"d9/d63/classnana_1_1paint_1_1image__process_1_1stretch__interface.html#a9e29a4f93958bebe47331f514e122866",
-"d9/deb/structnana_1_1detail_1_1bedrock_1_1private__impl_1_1cache__type_1_1thread__context__cache.html#a8529eeffab4a59aa88ce85e0c00844fb",
-"da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#event",
-"db/d8c/structnana_1_1arg__resized.html#acf26c2eb11591af0690f56e60b4918c8",
-"dc/d71/classnana_1_1place_1_1implement_1_1division.html#aa917b6218e431ff5b36f620bb2d3acab",
-"dc/de3/classnana_1_1place.html",
-"dd/d47/classnana_1_1paint_1_1image_1_1image__impl__interface.html",
-"dd/db8/classnana_1_1detail_1_1caret__descriptor.html#a78ffd8ad15b7a2e77603fc7fcfa200f1",
-"de/d3c/structnana_1_1detail_1_1basic__window.html#a8ae3f5399f1662e6de584efac0b8ab51",
-"df/d02/structnana_1_1traits_1_1mfptr__traits_3_01_r_07_concept_1_1_5_08_07_p0_00_01_p1_00_01_p2_08_01const_01volatile_01_4.html",
-"df/dd3/classnana_1_1effects_1_1bground__blur.html#a811649709c90b7f11c2f033d5faf7cd3"
+"d7/db7/classnana_1_1paint_1_1detail_1_1image__png.html#a65c9a8a2b6ebd5fcaa98e1e1e1a5b04e",
+"d8/d7f/classnana_1_1unicode__bidi.html#ab4d218792adebd435c0808cfa7fce137af63da11e80f63cbf9212c9abf1bbf87f",
+"d9/d63/classnana_1_1paint_1_1image__process_1_1stretch__interface.html#a77d92253c75d801150686982b5618fe2",
+"d9/deb/structnana_1_1detail_1_1bedrock_1_1private__impl_1_1cache__type_1_1thread__context__cache.html#a03cea54fca7a2807d385221da419ee4f",
+"da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#eve",
+"db/d8c/structnana_1_1arg__resized.html#a80f4eaa41500eafae5c71a785b81821b",
+"dc/d71/classnana_1_1place_1_1implement_1_1division.html#aa4be92dd0fc23487a555e46a2a498f23",
+"dc/dd7/namespacenana_1_1paint_1_1helper.html",
+"dd/d3d/namespacenana_1_1experimental_1_1filesystem_1_1detail.html",
+"dd/db8/classnana_1_1detail_1_1caret__descriptor.html#a3c9ea434d1f4f57042522a632ad2b40e",
+"de/d3c/structnana_1_1detail_1_1basic__window.html#a8586cad5031401b57c6bf20e4541a14d",
+"de/dff/structnana_1_1drawerbase_1_1tabbar_1_1item__renderer_1_1item__t.html#a916ac6ee8e05c2e445281729173aa3c5",
+"df/dd3/classnana_1_1effects_1_1bground__blur.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

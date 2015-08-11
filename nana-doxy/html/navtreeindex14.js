@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#eve":[3,4,1],
 "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#event":[3,4],
 "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#exam":[3,0],
 "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#forms":[3,2],
@@ -122,7 +123,7 @@ var NAVTREEINDEX14 =
 "da/df8/structnana_1_1size.html#ad6164a498a1490e1753c019622d9f45f":[7,0,1,30,2],
 "da/df8/structnana_1_1size.html#af6029a534e26ca73afc26551fa3c0b36":[7,0,1,30,10],
 "da/df8/structnana_1_1size.html#afdff9c14c6ec99ed895508d5cc81c0e2":[7,0,1,30,8],
-"da/dfd/screen_8cpp-example.html":[8,42],
+"da/dfd/screen_8cpp-example.html":[8,43],
 "da/dfe/structnana_1_1arg__move.html":[7,0,1,62],
 "da/dfe/structnana_1_1arg__move.html#a24d577f04036e9b1fc08cac0c8bc84fe":[7,0,1,62,1],
 "da/dfe/structnana_1_1arg__move.html#a7c2d5c5ca5f6f9b133f9a0a45ff4c284":[7,0,1,62,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "db/d88/structnana_1_1detail_1_1restrict_1_1tag_t_r_a_c_k_m_o_u_s_e_e_v_e_n_t.html#a2ff1a0f028d4ebe2f69eeac845ac2bab":[7,0,1,5,1,0,2],
 "db/d88/structnana_1_1detail_1_1restrict_1_1tag_t_r_a_c_k_m_o_u_s_e_e_v_e_n_t.html#a6668e2ac39e857edc4292bdd25c16494":[7,0,1,5,1,0,0],
 "db/d88/structnana_1_1detail_1_1restrict_1_1tag_t_r_a_c_k_m_o_u_s_e_e_v_e_n_t.html#a9719a5c255dec622dce15cc7f73d14f2":[7,0,1,5,1,0,1],
-"db/d8c/structnana_1_1arg__resized.html":[7,0,1,63],
-"db/d8c/structnana_1_1arg__resized.html#a80f4eaa41500eafae5c71a785b81821b":[7,0,1,63,0]
+"db/d8c/structnana_1_1arg__resized.html":[7,0,1,63]
 };

@@ -20,7 +20,7 @@ var NAVTREEINDEX9 =
 "d6/da3/classnana_1_1scroll.html#acda1391348f8df27bed6f13eb1a7efdb":[7,0,1,127,10],
 "d6/da3/classnana_1_1scroll.html#aef330f0d471f474280efdb985c410a39":[7,0,1,127,11],
 "d6/da4/classnana_1_1element_1_1arrow__double.html":[7,0,1,9,13],
-"d6/da9/modal_form_8cpp-example.html":[8,37],
+"d6/da9/modal_form_8cpp-example.html":[8,38],
 "d6/daa/classnana_1_1element_1_1annex__button.html":[7,0,1,9,14],
 "d6/db6/structnana_1_1detail_1_1window__layout_1_1wd__rectangle.html":[7,0,1,5,35,0],
 "d6/db6/structnana_1_1detail_1_1window__layout_1_1wd__rectangle.html#a01da09a5d51dfbf4bdfd40ce626ac3a0":[7,0,1,5,35,0,0],
@@ -183,7 +183,8 @@ var NAVTREEINDEX9 =
 "d7/d56/structnana_1_1traits_1_1make__mf_3_01_r_07_08_00_01_concept_00_01no__specifier_01_4.html#a27915260ec007cf15f96f90104ba0f2b":[7,0,1,20,33,0],
 "d7/d5f/structnana_1_1category_1_1root__tag.html":[7,0,1,3,2],
 "d7/d5f/structnana_1_1category_1_1root__tag.html#af9bf5e36296b1b54da30f4ff22bbc5dc":[7,0,1,3,2,0],
-"d7/d66/loader_1_8cpp-example.html":[8,32],
+"d7/d62/listbox_inline_widget_8cpp-example.html":[8,31],
+"d7/d66/loader_1_8cpp-example.html":[8,33],
 "d7/d72/classnana_1_1paint_1_1detail_1_1algorithms_1_1alpha__blend.html":[7,0,1,14,0,0,2],
 "d7/d74/classnana_1_1audio_1_1detail_1_1audio__stream.html":[7,0,1,1,0,2],
 "d7/d74/classnana_1_1audio_1_1detail_1_1audio__stream.html#a59ee1530ddf0255f14791e5dce222c3f":[7,0,1,1,0,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "d7/db0/classnana_1_1detail_1_1dynamic__drawing_1_1user__draw__function.html#a81b2756bcb253cadcd70c1f3ff756ec8":[7,0,1,5,0,1,0],
 "d7/db7/classnana_1_1paint_1_1detail_1_1image__png.html":[7,0,1,14,0,9],
 "d7/db7/classnana_1_1paint_1_1detail_1_1image__png.html#a0d5ff0ee142793ffd6f6b4872d2b413c":[7,0,1,14,0,9,7],
-"d7/db7/classnana_1_1paint_1_1detail_1_1image__png.html#a5cc989296b6affeb13e9c9c428a9f618":[7,0,1,14,0,9,1],
-"d7/db7/classnana_1_1paint_1_1detail_1_1image__png.html#a65c9a8a2b6ebd5fcaa98e1e1e1a5b04e":[7,0,1,14,0,9,0]
+"d7/db7/classnana_1_1paint_1_1detail_1_1image__png.html#a5cc989296b6affeb13e9c9c428a9f618":[7,0,1,14,0,9,1]
 };

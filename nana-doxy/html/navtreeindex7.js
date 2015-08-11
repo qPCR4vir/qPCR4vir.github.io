@@ -247,7 +247,7 @@ var NAVTREEINDEX7 =
 "d5/ddb/structnana_1_1drawerbase_1_1listbox_1_1listbox__events.html":[7,0,1,7,8,16],
 "d5/ddb/structnana_1_1drawerbase_1_1listbox_1_1listbox__events.html#a2e4d9dfcc39bd9435f28fafccaa0af23":[7,0,1,7,8,16,1],
 "d5/ddb/structnana_1_1drawerbase_1_1listbox_1_1listbox__events.html#a81a4c6e3ac4b6b83f82cfc534d2a125e":[7,0,1,7,8,16,0],
-"d5/de5/mbox_8cpp-example.html":[8,34],
+"d5/de5/mbox_8cpp-example.html":[8,35],
 "d5/de8/folder_tree_std_8cpp-example.html":[8,20],
 "d6/d00/structnana_1_1traits_1_1make__mf.html":[7,0,1,20,32]
 };

@@ -31,6 +31,7 @@ var examples =
     [ "inputbox.cpp", "d4/d1b/inputbox_8cpp-example.html", null ],
     [ "label_listener.cpp", "de/d16/label_listener_8cpp-example.html", null ],
     [ "lambda_event.cpp11.cpp", "de/d6d/lambda_event_8cpp11_8cpp-example.html", null ],
+    [ "listbox_inline_widget.cpp", "d7/d62/listbox_inline_widget_8cpp-example.html", null ],
     [ "listbox_Resolver.cpp", "d8/de2/listbox__resolver_8cpp-example.html", null ],
     [ "loader_1.cpp", "d7/d66/loader_1_8cpp-example.html", null ],
     [ "loader_2.cpp", "de/df4/loader_2_8cpp-example.html", null ],

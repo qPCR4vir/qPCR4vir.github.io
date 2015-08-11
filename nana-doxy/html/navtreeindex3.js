@@ -59,7 +59,7 @@ var NAVTREEINDEX3 =
 "d3/d12/categ_8cpp-example.html":[8,6],
 "d3/d15/structnana_1_1traits_1_1make__mf_3_01_r_07_p0_00_01_p1_00_01_p2_00_01_p3_00_01_p4_00_01_p5_08_00c3794ec15bae9f995d2be8426d4771bc.html":[7,0,1,20,60],
 "d3/d15/structnana_1_1traits_1_1make__mf_3_01_r_07_p0_00_01_p1_00_01_p2_00_01_p3_00_01_p4_00_01_p5_08_00c3794ec15bae9f995d2be8426d4771bc.html#af442d0f1adde2525502885196eff8d04":[7,0,1,20,60,0],
-"d3/d1a/png_8cpp-example.html":[8,41],
+"d3/d1a/png_8cpp-example.html":[8,42],
 "d3/d1b/structnana_1_1detail_1_1window__manager_1_1wdm__private__impl.html":[7,0,1,5,34,0],
 "d3/d1b/structnana_1_1detail_1_1window__manager_1_1wdm__private__impl.html#a13d9ceeb69cadb34a2499bb26f6ff576":[7,0,1,5,34,0,3],
 "d3/d1b/structnana_1_1detail_1_1window__manager_1_1wdm__private__impl.html#a5de53c02279807d541d4cb27c98e3453":[7,0,1,5,34,0,0],

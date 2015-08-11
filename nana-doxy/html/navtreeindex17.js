@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"dc/dd7/namespacenana_1_1paint_1_1helper.html":[6,0,1,14,2],
 "dc/de3/classnana_1_1place.html":[7,0,1,108],
 "dc/de3/classnana_1_1place.html#a0454a4cf6cff07e2bf4f758bb9b790ed":[7,0,1,108,12],
 "dc/de3/classnana_1_1place.html#a3acf41047271c7703509fc24f0593db6":[7,0,1,108,15],
@@ -113,8 +114,8 @@ var NAVTREEINDEX17 =
 "dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html#afd387d4f8600f1998fbedca38f03bf9a":[7,0,1,21,1,3,63],
 "dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html#afd8860976892b02584a07ee280a43fee":[7,0,1,21,1,3,74],
 "dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html#aff0d2fe7e769c9d8e330160550a4c5a7":[7,0,1,21,1,3,33],
-"dd/d00/namespacenana_1_1category.html":[7,0,1,3],
 "dd/d00/namespacenana_1_1category.html":[6,0,1,3],
+"dd/d00/namespacenana_1_1category.html":[7,0,1,3],
 "dd/d01/structnana_1_1detail_1_1color__schemes_1_1implement.html":[7,0,1,5,33,0],
 "dd/d01/structnana_1_1detail_1_1color__schemes_1_1implement.html#a0f5c9b776f8fdd4c64ba795add72331b":[7,0,1,5,33,0,0],
 "dd/d04/classnana_1_1system_1_1shared__wrapper.html":[7,0,1,18,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "dd/d2d/structnana_1_1rectangle.html#ae21c7bf918b6ae1143cf461d14a76bb6":[7,0,1,31,8],
 "dd/d2d/structnana_1_1rectangle.html#af0e39a5d448a752bb34c81b64af67ad5":[7,0,1,31,15],
 "dd/d37/classnana_1_1element_1_1menu__crook.html":[7,0,1,9,8],
-"dd/d3d/namespacenana_1_1experimental_1_1filesystem_1_1detail.html":[6,0,1,10,0,0],
-"dd/d3d/namespacenana_1_1experimental_1_1filesystem_1_1detail.html":[7,0,1,10,0,0]
+"dd/d3d/namespacenana_1_1experimental_1_1filesystem_1_1detail.html":[6,0,1,10,0,0]
 };

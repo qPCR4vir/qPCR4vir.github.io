@@ -92,7 +92,7 @@ var NAVTREEINDEX4 =
 "d3/de6/structnana_1_1drawerbase_1_1toolbar_1_1item__type.html#ab41dcb2e2336584ebbe2a6cae77c9665":[7,0,1,7,19,0,8],
 "d3/de6/structnana_1_1drawerbase_1_1toolbar_1_1item__type.html#ad3d24c53a70df33445f0b9b196721795":[7,0,1,7,19,0,7],
 "d3/de6/structnana_1_1drawerbase_1_1toolbar_1_1item__type.html#adcd1f9bf9e7bf85ad33a2cacddab5dbf":[7,0,1,7,19,0,4],
-"d3/de9/widget_show_8cpp-example.html":[8,48],
+"d3/de9/widget_show_8cpp-example.html":[8,49],
 "d3/deb/namespacenana_1_1drawerbase_1_1menu.html":[6,0,1,7,9],
 "d3/deb/namespacenana_1_1drawerbase_1_1menu.html":[7,0,1,7,9],
 "d3/ded/structnana_1_1internationalization__parts_1_1eval__window.html":[7,0,1,12,2],
