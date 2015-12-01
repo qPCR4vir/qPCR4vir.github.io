@@ -1,10 +1,10 @@
 var classnana_1_1drawerbase_1_1tabbar_1_1trigger =
 [
-    [ "toolbox_button_t", "d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#aaa08cfe2c01a363ba4f735629aa470dd", [
-      [ "ButtonAdd", "d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#aaa08cfe2c01a363ba4f735629aa470ddab2c9a7494fce117702aed5de889e85b7", null ],
-      [ "ButtonScroll", "d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#aaa08cfe2c01a363ba4f735629aa470dda219b82d1d83b487c66e74e16d1c2cee8", null ],
-      [ "ButtonList", "d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#aaa08cfe2c01a363ba4f735629aa470dda96a941209b6f1164b8be146c78fdf34d", null ],
-      [ "ButtonClose", "d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#aaa08cfe2c01a363ba4f735629aa470dda6db8f98c69a358cf43087c187e87d052", null ]
+    [ "kits", "d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#a5d2e23680874011958a86c50435e7959", [
+      [ "add", "d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#a5d2e23680874011958a86c50435e7959a34ec78fcc91ffb1e54cd85e4a0924332", null ],
+      [ "scroll", "d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#a5d2e23680874011958a86c50435e7959a089b0cdd8835d09cb1cabf38b3ce9c09", null ],
+      [ "list", "d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#a5d2e23680874011958a86c50435e7959a10ae9fc7d453b0dd525d0edf2ede7961", null ],
+      [ "close", "d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#a5d2e23680874011958a86c50435e7959a716f6b30598ba30945d84485e61c1027", null ]
     ] ],
     [ "trigger", "d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#aeba9f13401e0f48c6f22ecc01cad08af", null ],
     [ "~trigger", "d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#a50a9c7275182272262e77984c397025b", null ],
@@ -23,5 +23,5 @@ var classnana_1_1drawerbase_1_1tabbar_1_1trigger =
     [ "tab_image", "d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#a1f8cc5523801355a60c67f20a05ef688", null ],
     [ "text", "d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#a45a289470b8602bc6caba154a97e1908", null ],
     [ "text", "d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#a7c482828b74c2a076cb13141fb8c7c9d", null ],
-    [ "toolbox_button", "d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#ab1daa160e71966e4839ddc73f7a58edd", null ]
+    [ "toolbox", "d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#aef29cd75c4f4725b5ebe0582ec7f0199", null ]
 ];

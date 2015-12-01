@@ -26,6 +26,5 @@ var classnana_1_1widgets_1_1skeletons_1_1textbase =
     [ "reset", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#ad2c90ff9672afd6d7166fd87b545f452", null ],
     [ "saved", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#a7135744323893a6789eddacab56b0b93", null ],
     [ "set_event_agent", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#a366e0280c966afe11e26e8ca20b25335", null ],
-    [ "store", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#af4f5b0a618429883e11dec3f8e052fd7", null ],
-    [ "store", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#ac355bf21c9cb7b02588736a0757acc8d", null ]
+    [ "store", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#a61bb8324cbde09c31a5cfb4c40a61c43", null ]
 ];

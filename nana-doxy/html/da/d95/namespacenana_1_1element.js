@@ -1,5 +1,6 @@
 var namespacenana_1_1element =
 [
+    [ "detail", "d7/dbd/namespacenana_1_1element_1_1detail.html", "d7/dbd/namespacenana_1_1element_1_1detail" ],
     [ "element_interface", "db/d57/classnana_1_1element_1_1element__interface.html", "db/d57/classnana_1_1element_1_1element__interface" ],
     [ "crook_interface", "df/d9d/classnana_1_1element_1_1crook__interface.html", "df/d9d/classnana_1_1element_1_1crook__interface" ],
     [ "border_interface", "de/dfe/classnana_1_1element_1_1border__interface.html", "de/dfe/classnana_1_1element_1_1border__interface" ],
@@ -14,5 +15,6 @@ var namespacenana_1_1element =
     [ "arrow_hollow_triangle", "da/ded/classnana_1_1element_1_1arrow__hollow__triangle.html", null ],
     [ "arrowhead", "d3/d33/classnana_1_1element_1_1arrowhead.html", null ],
     [ "arrow_double", "d6/da4/classnana_1_1element_1_1arrow__double.html", null ],
-    [ "annex_button", "d6/daa/classnana_1_1element_1_1annex__button.html", null ]
+    [ "annex_button", "d6/daa/classnana_1_1element_1_1annex__button.html", null ],
+    [ "x_icon", "d3/ddd/classnana_1_1element_1_1x__icon.html", null ]
 ];

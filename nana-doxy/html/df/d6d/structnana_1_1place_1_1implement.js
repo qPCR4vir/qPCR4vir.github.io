@@ -1,15 +1,25 @@
 var structnana_1_1place_1_1implement =
 [
     [ "div_arrange", "d9/db2/classnana_1_1place_1_1implement_1_1div__arrange.html", "d9/db2/classnana_1_1place_1_1implement_1_1div__arrange" ],
+    [ "div_dock", "d1/da6/classnana_1_1place_1_1implement_1_1div__dock.html", "d1/da6/classnana_1_1place_1_1implement_1_1div__dock" ],
+    [ "div_dockpane", "d2/d04/classnana_1_1place_1_1implement_1_1div__dockpane.html", "d2/d04/classnana_1_1place_1_1implement_1_1div__dockpane" ],
     [ "div_grid", "d5/db9/classnana_1_1place_1_1implement_1_1div__grid.html", "d5/db9/classnana_1_1place_1_1implement_1_1div__grid" ],
     [ "div_splitter", "d2/d3e/classnana_1_1place_1_1implement_1_1div__splitter.html", "d2/d3e/classnana_1_1place_1_1implement_1_1div__splitter" ],
     [ "division", "dc/d71/classnana_1_1place_1_1implement_1_1division.html", "dc/d71/classnana_1_1place_1_1implement_1_1division" ],
-    [ "field_impl", "d2/d74/classnana_1_1place_1_1implement_1_1field__impl.html", "d2/d74/classnana_1_1place_1_1implement_1_1field__impl" ],
+    [ "field_dock", "d6/d1d/classnana_1_1place_1_1implement_1_1field__dock.html", "d6/d1d/classnana_1_1place_1_1implement_1_1field__dock" ],
+    [ "field_gather", "df/da8/classnana_1_1place_1_1implement_1_1field__gather.html", "df/da8/classnana_1_1place_1_1implement_1_1field__gather" ],
     [ "~implement", "df/d6d/structnana_1_1place_1_1implement.html#a5195dfc854d803623e8952011eef3ab9", null ],
+    [ "check_unique", "df/d6d/structnana_1_1place_1_1implement.html#a6fe3d98cd2d940ce866cce7452b0a5ad", null ],
+    [ "collocate", "df/d6d/structnana_1_1place_1_1implement.html#a1765d2652c5ebb40b3057358a51e33e5", null ],
+    [ "connect", "df/d6d/structnana_1_1place_1_1implement.html#a4d34e1fc6677f84ebb029aa4285340d3", null ],
+    [ "disconnect", "df/d6d/structnana_1_1place_1_1implement.html#acf6fdcdfea1e399aef768ec4ac2f3788", null ],
     [ "scan_div", "df/d6d/structnana_1_1place_1_1implement.html#afd1ed9fd5f5c56a7919e232c0af795f5", null ],
     [ "search_div_name", "df/d6d/structnana_1_1place_1_1implement.html#a8921c7207f85766bc48b02c7700ec225", null ],
+    [ "dock_factoris", "df/d6d/structnana_1_1place_1_1implement.html#a6ca36adf741f98cfea0345a996d7f450", null ],
+    [ "docks", "df/d6d/structnana_1_1place_1_1implement.html#a2b1ca4727cc5cb5a4ecc8205d3cafcf5", null ],
     [ "event_size_handle", "df/d6d/structnana_1_1place_1_1implement.html#a94c69235bfb8d32935064126d1f4effa", null ],
-    [ "fields", "df/d6d/structnana_1_1place_1_1implement.html#aa53f5304274a3a0d6b1970dadece22de", null ],
+    [ "fields", "df/d6d/structnana_1_1place_1_1implement.html#a4d192c198104bb3f7f766bc8ba53c6c1", null ],
     [ "root_division", "df/d6d/structnana_1_1place_1_1implement.html#a281b9c4036b71abc5b06b756f6e09eee", null ],
+    [ "tmp_replaced", "df/d6d/structnana_1_1place_1_1implement.html#af6ca45b6134ad648a96519cd12d15bb1", null ],
     [ "window_handle", "df/d6d/structnana_1_1place_1_1implement.html#a1b492dfd00101360e1e2cdef433764d6", null ]
 ];

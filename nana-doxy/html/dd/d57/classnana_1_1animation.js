@@ -3,6 +3,7 @@ var classnana_1_1animation =
     [ "impl", "db/d06/structnana_1_1animation_1_1impl.html", "db/d06/structnana_1_1animation_1_1impl" ],
     [ "performance_manager", "d4/df4/classnana_1_1animation_1_1performance__manager.html", "d4/df4/classnana_1_1animation_1_1performance__manager" ],
     [ "animation", "dd/d57/classnana_1_1animation.html#a6b8ac9bbd2d32b1767db8d82e50c6919", null ],
+    [ "~animation", "dd/d57/classnana_1_1animation.html#aab14b98b4061e2fac48670a4ecfec53a", null ],
     [ "fps", "dd/d57/classnana_1_1animation.html#a34dbecbdd99da8dc81173c0cc8758b7d", null ],
     [ "fps", "dd/d57/classnana_1_1animation.html#a7e0a33bac078edd4a4f3beffdfc698fa", null ],
     [ "looped", "dd/d57/classnana_1_1animation.html#ae169af3a7fbbffa2a35159db7aef54eb", null ],

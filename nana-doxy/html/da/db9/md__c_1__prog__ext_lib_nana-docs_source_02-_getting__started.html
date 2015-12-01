@@ -247,7 +247,7 @@ Function Objects</h1>
 <div class="line">    click_stat  cs; </div>
 <div class="line"></div>
 <div class="line">    fun_t       f=foo; </div>
-<div class="line">    fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#afafd1a1bafe56cd6e5903d8db910aad8">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(f); </div>
+<div class="line">    fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#acc81585b443ae00b6d3ac08945638b94">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(f); </div>
 <div class="line"></div>
 <div class="line">    fun_with_param_t fp(foo_with_eventinfo); </div>
 <div class="line">    fm.events().click(fp); </div>
@@ -272,7 +272,7 @@ Figure 2.1 Various methods to make events to respond click.</div></div>
 <div class="line">        <span class="keyword">using namespace </span>nana; </div>
 <div class="line">        form fm; </div>
 <div class="line">        click_stat cs; </div>
-<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#afafd1a1bafe56cd6e5903d8db910aad8">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(foo); </div>
+<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#acc81585b443ae00b6d3ac08945638b94">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(foo); </div>
 <div class="line">        fm.events().click(cs, &amp;click_stat::respond); </div>
 <div class="line">        fm.events().click(foo_with_eventinfo); </div>
 <div class="line">        fm.events().click(cs, &amp;click_stat::respond_ei); </div>
@@ -310,7 +310,7 @@ The Lambda Expression</h2>
 <div class="line"><span class="keywordtype">int</span> main() </div>
 <div class="line">{ </div>
 <div class="line">        <a class="code" href="../../d6/d57/classnana_1_1form.html">nana::form</a> form; </div>
-<div class="line">        form.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#afafd1a1bafe56cd6e5903d8db910aad8">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>( </div>
+<div class="line">        form.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#acc81585b443ae00b6d3ac08945638b94">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>( </div>
 <div class="line">                []{ <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a>&lt;&lt;<span class="stringliteral">&quot;form is clicked&quot;</span>&lt;&lt;<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>; } </div>
 <div class="line">                ); </div>
 <div class="line">        form.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>(); </div>
@@ -319,7 +319,7 @@ The Lambda Expression</h2>
 </div><!-- fragment --><p>The argument []{ <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a>&lt;&lt;"form is clicked"&lt;&lt;<a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>; } is a "lambda" (or "lambda function" or "lambda expression") in C++ language(C++11). A lambda starts with plain [], and compound-state block {} defines a function body. In fact, A lambda defines an anonymous function object, and therefore a lambda could be invoked through a function-call syntax. </p>
 <pre class="fragment">    []{ std::cout&lt;&lt;"hello, Nana"&lt;&lt;std::endl; }(); 
 </pre><p>The use of lambda is creating an anonymous function object and so the arguments should be specified. For example:</p>
-<div class="fragment"><div class="line">form.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#afafd1a1bafe56cd6e5903d8db910aad8">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>( </div>
+<div class="fragment"><div class="line">form.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#acc81585b443ae00b6d3ac08945638b94">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>( </div>
 <div class="line">                [](<span class="keyword">const</span> <a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html">nana::arg_mouse</a>&amp; ei) </div>
 <div class="line">                { <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a>&lt;&lt;<span class="stringliteral">&quot;mouse pos=(&quot;</span>&lt;&lt;ei.<a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html#a9bc3e4160ed6638ab0286a15f0623b60">pos</a>.<a class="code" href="../../d0/d24/structnana_1_1point.html#af41b47be4303c8713b92abfb9a7863d0">x</a>&lt;&lt;<span class="stringliteral">&quot;, &quot;</span>&lt;&lt;ei.<a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html#a9bc3e4160ed6638ab0286a15f0623b60">pos</a>.<a class="code" href="../../d0/d24/structnana_1_1point.html#aeb5848c69ddfe797209eb559898ae6a5">y</a> &lt;&lt;<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;} </div>
 <div class="line">        ); </div>
@@ -474,16 +474,16 @@ Creating An Instance of the Form with form_loader&lt;form&gt;()</h2>
 <div class="line"><span class="keywordtype">int</span> main() </div>
 <div class="line">{ </div>
 <div class="line"><span class="keyword">using namespace </span>nana; </div>
-<div class="line"><a class="code" href="../../d8/d1e/classnana_1_1form__loader.html">form_loader&lt;form&gt;</a>()().show(); </div>
+<div class="line"><a class="code" href="../../d7/dc2/classnana_1_1detail_1_1form__loader.html">form_loader&lt;form&gt;</a>()().show(); </div>
 <div class="line"><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(); </div>
 <div class="line">} </div>
-</div><!-- fragment --><p><a class="el" href="../../d8/d1e/classnana_1_1form__loader.html">nana::form_loader</a> is a template functor class. It creates an object of the template parameter class. <a class="el" href="../../d8/d1e/classnana_1_1form__loader.html">nana::form_loader</a> is useful when you create a form and don't want to take care about the lifetime of the object. Continuing with the next example, we see a form is created when the button is being clicked.</p>
+</div><!-- fragment --><p><a class="el" href="../../d2/d76/namespacenana.html#a7962f32a15843e243afa446dcdb2e37f">nana::form_loader</a> is a template functor class. It creates an object of the template parameter class. <a class="el" href="../../d2/d76/namespacenana.html#a7962f32a15843e243afa446dcdb2e37f">nana::form_loader</a> is useful when you create a form and don't want to take care about the lifetime of the object. Continuing with the next example, we see a form is created when the button is being clicked.</p>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span> </div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/button.hpp&gt;</span> </div>
 <div class="line"><span class="keywordtype">void</span> <a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>() </div>
 <div class="line">{ </div>
 <div class="line">        <span class="keyword">using namespace </span>nana; </div>
-<div class="line">        <a class="code" href="../../d8/d1e/classnana_1_1form__loader.html">form_loader&lt;form&gt;</a>()().show(); </div>
+<div class="line">        <a class="code" href="../../d7/dc2/classnana_1_1detail_1_1form__loader.html">form_loader&lt;form&gt;</a>()().show(); </div>
 <div class="line">} </div>
 <div class="line"><span class="keywordtype">int</span> main() </div>
 <div class="line">{ </div>
@@ -815,7 +815,7 @@ Modal dialog box to prompt a brief message</div></div>
 <div class="line">{</div>
 <div class="line">        <span class="keyword">using namespace </span>nana::gui;</div>
 <div class="line">        form fm;</div>
-<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#afafd1a1bafe56cd6e5903d8db910aad8">events</a>().<a class="code" href="../../d9/d7f/structnana_1_1detail_1_1events__root__extension.html#ac4c367675d9e3ee1fbe775af84a62947">unload</a>(when_exit);</div>
+<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#acc81585b443ae00b6d3ac08945638b94">events</a>().<a class="code" href="../../d9/d7f/structnana_1_1detail_1_1events__root__extension.html#ac4c367675d9e3ee1fbe775af84a62947">unload</a>(when_exit);</div>
 <div class="line">        fm.show();</div>
 <div class="line">        <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>();</div>
 <div class="line">}</div>

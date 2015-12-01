@@ -8,7 +8,7 @@ var classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1editor__behavior__inter
     [ "move_caret_ns", "de/dce/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1editor__behavior__interface.html#a98fbc0ca97aec050d5dab254cf951f62", null ],
     [ "pre_calc_line", "de/dce/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1editor__behavior__interface.html#a2706f59c9d920c6825847cb41e129fed", null ],
     [ "pre_calc_lines", "de/dce/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1editor__behavior__interface.html#a43607bb47b1e012eda61adc9f302c9a6", null ],
-    [ "render", "de/dce/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1editor__behavior__interface.html#a47c79b65bf5c3e94f6c2946f0acf3a43", null ],
+    [ "render", "de/dce/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1editor__behavior__interface.html#a8b66acde110a995e192a4fcfc77c5370", null ],
     [ "screen_to_caret", "de/dce/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1editor__behavior__interface.html#a1389ddf5256de4f06715a5fdc143e9ec", null ],
     [ "take_lines", "de/dce/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1editor__behavior__interface.html#a1f9d1c9e8b358dcd35665b27420cae18", null ],
     [ "take_lines", "de/dce/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1editor__behavior__interface.html#a45832f431b1c3cc1b14067f139084403", null ],

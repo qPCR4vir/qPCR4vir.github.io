@@ -8,6 +8,8 @@ var namespacenana_1_1paint_1_1detail =
     [ "rgb_quad", "df/d8b/structnana_1_1paint_1_1detail_1_1rgb__quad.html", "df/d8b/structnana_1_1paint_1_1detail_1_1rgb__quad" ],
     [ "bitmap_info", "d8/db6/structnana_1_1paint_1_1detail_1_1bitmap__info.html", "d8/db6/structnana_1_1paint_1_1detail_1_1bitmap__info" ],
     [ "image_bmp", "d0/d8e/classnana_1_1paint_1_1detail_1_1image__bmp.html", "d0/d8e/classnana_1_1paint_1_1detail_1_1image__bmp" ],
+    [ "basic_image_pixbuf", "d0/dac/classnana_1_1paint_1_1detail_1_1basic__image__pixbuf.html", "d0/dac/classnana_1_1paint_1_1detail_1_1basic__image__pixbuf" ],
     [ "image_ico", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico" ],
+    [ "image_jpeg", "dc/d69/classnana_1_1paint_1_1detail_1_1image__jpeg.html", "dc/d69/classnana_1_1paint_1_1detail_1_1image__jpeg" ],
     [ "image_png", "d7/db7/classnana_1_1paint_1_1detail_1_1image__png.html", "d7/db7/classnana_1_1paint_1_1detail_1_1image__png" ]
 ];

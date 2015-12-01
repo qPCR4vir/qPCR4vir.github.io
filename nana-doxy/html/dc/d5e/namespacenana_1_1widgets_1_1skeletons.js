@@ -1,6 +1,7 @@
 var namespacenana_1_1widgets_1_1skeletons =
 [
     [ "text_editor_scheme", "d4/d27/structnana_1_1widgets_1_1skeletons_1_1text__editor__scheme.html", "d4/d27/structnana_1_1widgets_1_1skeletons_1_1text__editor__scheme" ],
+    [ "text_editor_event_interface", "d8/d86/classnana_1_1widgets_1_1skeletons_1_1text__editor__event__interface.html", "d8/d86/classnana_1_1widgets_1_1skeletons_1_1text__editor__event__interface" ],
     [ "undoable_command_interface", "df/da3/classnana_1_1widgets_1_1skeletons_1_1undoable__command__interface.html", "df/da3/classnana_1_1widgets_1_1skeletons_1_1undoable__command__interface" ],
     [ "undoable", "d2/d33/classnana_1_1widgets_1_1skeletons_1_1undoable.html", "d2/d33/classnana_1_1widgets_1_1skeletons_1_1undoable" ],
     [ "text_editor", "dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html", "dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor" ],

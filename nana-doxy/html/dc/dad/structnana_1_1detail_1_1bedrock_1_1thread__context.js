@@ -8,6 +8,7 @@ var structnana_1_1detail_1_1bedrock_1_1thread__context =
     [ "event_pump_ref_count", "dc/dad/structnana_1_1detail_1_1bedrock_1_1thread__context.html#a5fd68d2c855e85c726155fb4049d575e", null ],
     [ "event_window", "dc/dad/structnana_1_1detail_1_1bedrock_1_1thread__context.html#a8622a815ae950754d88888ee78d7b326", null ],
     [ "is_alt_pressed", "dc/dad/structnana_1_1detail_1_1bedrock_1_1thread__context.html#a1908d2848d24a8c7efbfcddc1d9f01ea", null ],
+    [ "is_ctrl_pressed", "dc/dad/structnana_1_1detail_1_1bedrock_1_1thread__context.html#a47f9147227fcb96fed951a9e4a185be2", null ],
     [ "platform", "dc/dad/structnana_1_1detail_1_1bedrock_1_1thread__context.html#ac44420bfb6c84317ff657e5bafdb6c0c", null ],
     [ "window_count", "dc/dad/structnana_1_1detail_1_1bedrock_1_1thread__context.html#a0b28480814903123db23098ef82c9c89", null ]
 ];

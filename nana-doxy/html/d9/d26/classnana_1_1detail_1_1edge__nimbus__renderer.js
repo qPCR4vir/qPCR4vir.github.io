@@ -2,7 +2,7 @@ var classnana_1_1detail_1_1edge__nimbus__renderer =
 [
     [ "core_window_t", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#ad96fca37d670cd73038ed8e934518b8d", null ],
     [ "graph_reference", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#a92870017ed67c889df4439271671417f", null ],
-    [ "window_layer", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#a1d875e2695a532955c95090f8a5d2c2c", null ],
+    [ "window_layer", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#a9827441d22ef0c47ee4d5bacbf62580a", null ],
     [ "erase", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#ac7c76a555da9930d1f1c4b237e7d1b3c", null ],
     [ "instance", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#a9d370a1fac6f7c7d685fa6956a35255d", null ],
     [ "render", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#a686cb5e524a920cfc836ffcb7d0fcd4d", null ],

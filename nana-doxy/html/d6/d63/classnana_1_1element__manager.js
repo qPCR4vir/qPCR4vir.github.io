@@ -8,5 +8,9 @@ var classnana_1_1element__manager =
     [ "button", "d6/d63/classnana_1_1element__manager.html#a19a72b9127f8f43aea85362a9f5fb04a", null ],
     [ "crook", "d6/d63/classnana_1_1element__manager.html#a55445fc32fa420394a1f0e10b4321e3d", null ],
     [ "crook", "d6/d63/classnana_1_1element__manager.html#a9b1cf24e8ac870fd19eb2f8a8bd0b85e", null ],
-    [ "instance", "d6/d63/classnana_1_1element__manager.html#aa646a424a7b7cadf4507c440017e012b", null ]
+    [ "cross", "d6/d63/classnana_1_1element__manager.html#a86d0105302fe3184bf725b518c025af7", null ],
+    [ "cross", "d6/d63/classnana_1_1element__manager.html#af82893e1f26e6968650fe1d057514105", null ],
+    [ "instance", "d6/d63/classnana_1_1element__manager.html#aa646a424a7b7cadf4507c440017e012b", null ],
+    [ "x_icon", "d6/d63/classnana_1_1element__manager.html#ad616f2da13ee2d205e21dfb0d908336c", null ],
+    [ "x_icon", "d6/d63/classnana_1_1element__manager.html#aa43fa7d530fe552638b61b0a1fe170cf", null ]
 ];

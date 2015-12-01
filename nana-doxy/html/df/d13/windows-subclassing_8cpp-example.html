@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('df/d13/windows-subclassing_8cpp-exampl
 <div class="line">                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function&lt;bool(UINT, WPARAM, LPARAM, LRESULT*)&gt;</a> after;</div>
 <div class="line">        };</div>
 <div class="line"></div>
-<div class="line">        <span class="keyword">typedef</span> <a name="_a1"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock_guard.html">std::lock_guard&lt;std::recursive_mutex&gt;</a> <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#a4b3945fb416c9e2a75197bbf9e12cb76">lock_guard</a>;</div>
+<div class="line">        <span class="keyword">typedef</span> <a name="_a1"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock_guard.html">std::lock_guard&lt;std::recursive_mutex&gt;</a> <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#ad5db68a5b0273d4dbf8b172f9b7c250c">lock_guard</a>;</div>
 <div class="line"><span class="keyword">public</span>:</div>
 <div class="line">        subclass(<a name="_a2"></a><a class="code" href="../../d2/d87/structnana_1_1detail_1_1window__handle__impl.html">nana::window</a> wd)</div>
 <div class="line">                :       native_(reinterpret_cast&lt;HWND&gt;(<a name="a3"></a><a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a9491861eff3e0ac852a4fdfe457eeba5">nana::API::root</a>(wd))),</div>
@@ -132,21 +132,21 @@ $(document).ready(function(){initNavTree('df/d13/windows-subclassing_8cpp-exampl
 <div class="line"></div>
 <div class="line">        <span class="keywordtype">void</span> make_before(UINT msg, <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt;<span class="keywordtype">bool</span>(UINT, WPARAM, LPARAM, LRESULT*)&gt; fn)</div>
 <div class="line">        {</div>
-<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#a4b3945fb416c9e2a75197bbf9e12cb76">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
+<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#ad5db68a5b0273d4dbf8b172f9b7c250c">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
 <div class="line">                msg_table_[msg].before = <a name="a4"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/move.html">std::move</a>(fn);</div>
 <div class="line">                _m_subclass(<span class="keyword">true</span>);</div>
 <div class="line">        }</div>
 <div class="line"></div>
 <div class="line">        <span class="keywordtype">void</span> make_after(UINT msg, <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt;<span class="keywordtype">bool</span>(UINT, WPARAM, LPARAM, LRESULT*)&gt; fn)</div>
 <div class="line">        {</div>
-<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#a4b3945fb416c9e2a75197bbf9e12cb76">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
+<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#ad5db68a5b0273d4dbf8b172f9b7c250c">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
 <div class="line">                msg_table_[msg].after = <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/move.html">std::move</a>(fn);</div>
 <div class="line">                _m_subclass(<span class="keyword">true</span>);</div>
 <div class="line">        }</div>
 <div class="line"></div>
 <div class="line">        <span class="keywordtype">void</span> umake_before(UINT msg)</div>
 <div class="line">        {</div>
-<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#a4b3945fb416c9e2a75197bbf9e12cb76">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
+<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#ad5db68a5b0273d4dbf8b172f9b7c250c">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
 <div class="line">                <span class="keyword">auto</span> i = msg_table_.find(msg);</div>
 <div class="line">                <span class="keywordflow">if</span>(msg_table_.end() != i)</div>
 <div class="line">                {</div>
@@ -162,7 +162,7 @@ $(document).ready(function(){initNavTree('df/d13/windows-subclassing_8cpp-exampl
 <div class="line"></div>
 <div class="line">        <span class="keywordtype">void</span> umake_after(UINT msg)</div>
 <div class="line">        {</div>
-<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#a4b3945fb416c9e2a75197bbf9e12cb76">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
+<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#ad5db68a5b0273d4dbf8b172f9b7c250c">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
 <div class="line">                <span class="keyword">auto</span> i = msg_table_.find(msg);</div>
 <div class="line">                <span class="keywordflow">if</span>(msg_table_.end() != i)</div>
 <div class="line">                {</div>
@@ -178,7 +178,7 @@ $(document).ready(function(){initNavTree('df/d13/windows-subclassing_8cpp-exampl
 <div class="line"></div>
 <div class="line">        <span class="keywordtype">void</span> umake(UINT msg)</div>
 <div class="line">        {</div>
-<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#a4b3945fb416c9e2a75197bbf9e12cb76">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
+<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#ad5db68a5b0273d4dbf8b172f9b7c250c">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
 <div class="line">                msg_table_.erase(msg);</div>
 <div class="line"></div>
 <div class="line">                <span class="keywordflow">if</span>(msg_table_.empty())</div>
@@ -187,14 +187,14 @@ $(document).ready(function(){initNavTree('df/d13/windows-subclassing_8cpp-exampl
 <div class="line"></div>
 <div class="line">        <span class="keywordtype">void</span> clear()</div>
 <div class="line">        {</div>
-<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#a4b3945fb416c9e2a75197bbf9e12cb76">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
+<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#ad5db68a5b0273d4dbf8b172f9b7c250c">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
 <div class="line">                msg_table_.clear();</div>
 <div class="line">                _m_subclass(<span class="keyword">false</span>);</div>
 <div class="line">        }</div>
 <div class="line"><span class="keyword">private</span>:</div>
 <div class="line">        <span class="keywordtype">void</span> _m_subclass(<span class="keywordtype">bool</span> enable)</div>
 <div class="line">        {</div>
-<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#a4b3945fb416c9e2a75197bbf9e12cb76">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
+<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#ad5db68a5b0273d4dbf8b172f9b7c250c">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
 <div class="line"></div>
 <div class="line">                <span class="keywordflow">if</span>(enable)</div>
 <div class="line">                {</div>
@@ -229,7 +229,7 @@ $(document).ready(function(){initNavTree('df/d13/windows-subclassing_8cpp-exampl
 <div class="line"><span class="keyword">private</span>:</div>
 <div class="line">        <span class="keyword">static</span> LRESULT CALLBACK _m_subclass_proc(HWND wd, UINT msg, WPARAM wp, LPARAM lp)</div>
 <div class="line">        {</div>
-<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#a4b3945fb416c9e2a75197bbf9e12cb76">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
+<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#ad5db68a5b0273d4dbf8b172f9b7c250c">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
 <div class="line"></div>
 <div class="line">                subclass * <span class="keyword">self</span> = _m_find(wd);</div>
 <div class="line">                <span class="keywordflow">if</span>(<span class="keyword">nullptr</span> == <span class="keyword">self</span> || <span class="keyword">nullptr</span> == self-&gt;old_proc_)</div>
@@ -254,7 +254,7 @@ $(document).ready(function(){initNavTree('df/d13/windows-subclassing_8cpp-exampl
 <div class="line"></div>
 <div class="line">        <span class="keyword">static</span> subclass * _m_find(HWND wd)</div>
 <div class="line">        {</div>
-<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#a4b3945fb416c9e2a75197bbf9e12cb76">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
+<div class="line">                <a class="code" href="../../d2/da8/namespacenana_1_1detail.html#ad5db68a5b0273d4dbf8b172f9b7c250c">lock_guard</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/lock.html">lock</a>(mutex_);</div>
 <div class="line">                <a name="_a5"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/map.html">std::map&lt;HWND, subclass*&gt;::iterator</a> i = table_.<a name="a6"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/map/find.html">find</a>(wd);</div>
 <div class="line">                <span class="keywordflow">if</span>(i != table_.<a name="a7"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/map/end.html">end</a>())</div>
 <div class="line">                        <span class="keywordflow">return</span> i-&gt;second;</div>

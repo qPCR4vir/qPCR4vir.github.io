@@ -205,22 +205,22 @@ $(document).ready(function(){initNavTree('d5/d39/a_group_impl_8cpp-example.html'
 <div class="line">        grp.create(fm );</div>
 <div class="line">    grp.create_widget&lt;<a class="code" href="../../dd/d8c/classnana_1_1label.html">label</a>&gt;(<a name="a28"></a><a class="code" href="../../d2/d76/namespacenana.html#a2c61daedac4021de1dc57f8b5924a1b7">nana::string</a>(STR(<span class="stringliteral">&quot;Group:&quot;</span>)));</div>
 <div class="line"></div>
-<div class="line">    plc[<span class="stringliteral">&quot;left&quot;</span>] &lt;&lt; grp;</div>
+<div class="line">    plc[<span class="stringliteral">&quot;left_field&quot;</span>] &lt;&lt; grp;</div>
 <div class="line"></div>
 <div class="line">    dm::group1 grp1(fm, STR(<span class="stringliteral">&quot;A new &lt;bold=true, color=0xff0000, font=\&quot;Consolas\&quot;&gt;Group:&lt;/&gt;&quot;</span>), <span class="keyword">true</span> );</div>
 <div class="line">    <a class="code" href="../../dd/d8c/classnana_1_1label.html">label</a> lab{grp1, STR(<span class="stringliteral">&quot;A label &quot;</span>)};</div>
 <div class="line">    <a name="_a29"></a><a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b1{grp1, STR(<span class="stringliteral">&quot;add button&quot;</span>)};</div>
 <div class="line">    <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b2{grp1, STR(<span class="stringliteral">&quot;button2&quot;</span>)};</div>
 <div class="line">    <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b3{grp1, STR(<span class="stringliteral">&quot;button3&quot;</span>)};</div>
-<div class="line">    grp1.fmt += <span class="stringliteral">&quot;&lt;vertical margin=2 gap= 2 &lt;lab&gt; | 70% &lt; &lt;left&gt; | 70% &lt;right&gt;&gt; &gt;&quot;</span>;</div>
+<div class="line">    grp1.fmt += <span class="stringliteral">&quot;&lt;vertical margin=2 gap= 2 &lt;lab&gt; | 70% &lt; &lt;left_field&gt; | 70% &lt;right_field&gt;&gt; &gt;&quot;</span>;</div>
 <div class="line">    grp1.plc[<span class="stringliteral">&quot;lab&quot;</span>] &lt;&lt; lab.text_align(<a name="a30"></a><a class="code" href="../../d2/d76/namespacenana.html#ad3d2f08c451a6752b3f7d53e0f863087a7c4f29407893c334a6cb7a87bf045c0d">align::right</a>)  ;</div>
-<div class="line">    grp1.plc[<span class="stringliteral">&quot;left&quot;</span>] &lt;&lt; b1  ;</div>
-<div class="line">    grp1.plc[<span class="stringliteral">&quot;right&quot;</span>] &lt;&lt; b2 &lt;&lt; b3;</div>
+<div class="line">    grp1.plc[<span class="stringliteral">&quot;left_field&quot;</span>] &lt;&lt; b1  ;</div>
+<div class="line">    grp1.plc[<span class="stringliteral">&quot;right_field&quot;</span>] &lt;&lt; b2 &lt;&lt; b3;</div>
 <div class="line">    grp1.plc.div(grp1.fmt.c_str());</div>
 <div class="line">    <span class="comment">//grp1.plc.collocate();    // problem !!!!!!!!!!!!!!</span></div>
 <div class="line"></div>
-<div class="line">    plc[<span class="stringliteral">&quot;right&quot;</span>] &lt;&lt; grp1;</div>
-<div class="line">    plc.div(<span class="stringliteral">&quot;horizontal gap=3 margin=30  &lt; &lt;left&gt; | 70% &lt;right&gt;&gt; &quot;</span>);</div>
+<div class="line">    plc[<span class="stringliteral">&quot;right_field&quot;</span>] &lt;&lt; grp1;</div>
+<div class="line">    plc.div(<span class="stringliteral">&quot;horizontal gap=3 margin=30  &lt; &lt;left_field&gt; | 70% &lt;right_field&gt;&gt; &quot;</span>);</div>
 <div class="line">    plc.collocate();</div>
 <div class="line">    grp1.plc.collocate();    <span class="comment">// OK</span></div>
 <div class="line"></div>

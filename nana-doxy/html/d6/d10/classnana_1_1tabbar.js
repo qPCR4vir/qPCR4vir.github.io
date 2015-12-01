@@ -7,6 +7,12 @@ var classnana_1_1tabbar =
     [ "button_scroll", "da/d57/structnana_1_1tabbar_1_1button__scroll.html", null ],
     [ "item_renderer", "d6/d10/classnana_1_1tabbar.html#a7ddf29aea31d3571b25eca72115f2170", null ],
     [ "value_type", "d6/d10/classnana_1_1tabbar.html#a4cc2feacd0b868c4c4c0a6944be7eefc", null ],
+    [ "kits", "d6/d10/classnana_1_1tabbar.html#a9ead204c8505d9d02d22adc46fc9ec54", [
+      [ "add", "d6/d10/classnana_1_1tabbar.html#a9ead204c8505d9d02d22adc46fc9ec54a34ec78fcc91ffb1e54cd85e4a0924332", null ],
+      [ "scroll", "d6/d10/classnana_1_1tabbar.html#a9ead204c8505d9d02d22adc46fc9ec54a089b0cdd8835d09cb1cabf38b3ce9c09", null ],
+      [ "list", "d6/d10/classnana_1_1tabbar.html#a9ead204c8505d9d02d22adc46fc9ec54a10ae9fc7d453b0dd525d0edf2ede7961", null ],
+      [ "close", "d6/d10/classnana_1_1tabbar.html#a9ead204c8505d9d02d22adc46fc9ec54a716f6b30598ba30945d84485e61c1027", null ]
+    ] ],
     [ "tabbar", "d6/d10/classnana_1_1tabbar.html#a9bbde651dccc1c3b8cf87e2888fd68b5", null ],
     [ "tabbar", "d6/d10/classnana_1_1tabbar.html#a7c7b6b9c7ff1bef2dccd6dd053af5f59", null ],
     [ "tabbar", "d6/d10/classnana_1_1tabbar.html#a1ac0b49dfa4a25c55d096e4605f134ac", null ],
@@ -28,6 +34,7 @@ var classnana_1_1tabbar =
     [ "text", "d6/d10/classnana_1_1tabbar.html#a642b6e69eb17397a839d7db7df52a0c9", null ],
     [ "text", "d6/d10/classnana_1_1tabbar.html#a06b011cb2d65d10eb595600da1ec6317", null ],
     [ "toolbox", "d6/d10/classnana_1_1tabbar.html#a7633522c6e5157c28d098acb06bdc6df", null ],
+    [ "toolbox", "d6/d10/classnana_1_1tabbar.html#ac200924e70dd8334122f9ee5afe3efd3", null ],
     [ "__pad0__", "d6/d10/classnana_1_1tabbar.html#ad08f362e449cd966f3c443ef34b784da", null ],
     [ "r", "d6/d10/classnana_1_1tabbar.html#a3a12364407c304e5359d98a16727f44f", null ],
     [ "visible", "d6/d10/classnana_1_1tabbar.html#a3d9d380aa64d045ffd75477da33b4760", null ]

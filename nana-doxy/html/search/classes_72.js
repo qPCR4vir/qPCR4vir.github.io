@@ -46,10 +46,11 @@ var searchData=
   ['remove_5freference',['remove_reference',['http://en.cppreference.com/w/cpp/types/remove_reference.html',1,'std']]],
   ['remove_5fvolatile',['remove_volatile',['http://en.cppreference.com/w/cpp/types/remove_cv.html',1,'std']]],
   ['renderer',['renderer',['../d3/d4c/classnana_1_1drawerbase_1_1label_1_1renderer.html',1,'nana::drawerbase::label']]],
-  ['renderer',['renderer',['../dd/d51/classnana_1_1drawerbase_1_1slider_1_1renderer.html',1,'nana::drawerbase::slider']]],
+  ['renderer',['renderer',['../df/de0/classnana_1_1drawerbase_1_1tabbar__lite_1_1renderer.html',1,'nana::drawerbase::tabbar_lite']]],
   ['renderer',['renderer',['../dd/df9/classnana_1_1drawerbase_1_1categorize_1_1renderer.html',1,'nana::drawerbase::categorize']]],
-  ['renderer_5finterface',['renderer_interface',['../d9/d29/classnana_1_1drawerbase_1_1menu_1_1renderer__interface.html',1,'nana::drawerbase::menu']]],
+  ['renderer',['renderer',['../dd/d51/classnana_1_1drawerbase_1_1slider_1_1renderer.html',1,'nana::drawerbase::slider']]],
   ['renderer_5finterface',['renderer_interface',['../dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html',1,'nana::drawerbase::treebox']]],
+  ['renderer_5finterface',['renderer_interface',['../d9/d29/classnana_1_1drawerbase_1_1menu_1_1renderer__interface.html',1,'nana::drawerbase::menu']]],
   ['rep_5ftag',['rep_tag',['../db/db6/structnana_1_1drawerbase_1_1treebox_1_1trigger_1_1basic__implement_1_1rep__tag.html',1,'nana::drawerbase::treebox::trigger::basic_implement']]],
   ['repeated_5farray',['repeated_array',['../d6/dcf/classnana_1_1place__parts_1_1repeated__array.html',1,'nana::place_parts']]],
   ['result_5fof',['result_of',['http://en.cppreference.com/w/cpp/types/result_of.html',1,'std']]],
@@ -59,7 +60,5 @@ var searchData=
   ['root_5fregister',['root_register',['../d6/d3e/classnana_1_1detail_1_1root__register.html',1,'nana::detail']]],
   ['root_5ftag',['root_tag',['../d7/d5f/structnana_1_1category_1_1root__tag.html',1,'nana::category']]],
   ['round_5fregion_5fspec',['round_region_spec',['../d7/d43/structnana_1_1detail_1_1drawable__impl__type_1_1round__region__spec.html',1,'nana::detail::drawable_impl_type']]],
-  ['runtime_5ferror',['runtime_error',['http://en.cppreference.com/w/cpp/error/runtime_error.html',1,'std']]],
-  ['runtime_5fmanager',['runtime_manager',['../d5/d8c/classnana_1_1detail_1_1runtime__manager.html',1,'nana::detail']]],
-  ['runtime_5fmanager_3c_20nana_3a_3adetail_3a_3abasic_5fwindow_20_2a_2c_20nana_3a_3adetail_3a_3abedrock_20_3e',['runtime_manager&lt; nana::detail::basic_window *, nana::detail::bedrock &gt;',['../d5/d8c/classnana_1_1detail_1_1runtime__manager.html',1,'nana::detail']]]
+  ['runtime_5ferror',['runtime_error',['http://en.cppreference.com/w/cpp/error/runtime_error.html',1,'std']]]
 ];

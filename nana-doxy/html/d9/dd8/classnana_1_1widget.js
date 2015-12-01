@@ -1,6 +1,6 @@
 var classnana_1_1widget =
 [
-    [ "notifier", "d1/d52/classnana_1_1widget_1_1notifier.html", "d1/d52/classnana_1_1widget_1_1notifier" ],
+    [ "inner_widget_notifier", "d4/d83/classnana_1_1widget_1_1inner__widget__notifier.html", "d4/d83/classnana_1_1widget_1_1inner__widget__notifier" ],
     [ "~widget", "d9/dd8/classnana_1_1widget.html#a23b062494f5e94f33add96ec7a017532", null ],
     [ "_m_bgcolor", "d9/dd8/classnana_1_1widget.html#ae6034a4019c607f57e13042c345ae0a7", null ],
     [ "_m_bgcolor", "d9/dd8/classnana_1_1widget.html#a73c88c6dd1cc75c126012bf104d25114", null ],

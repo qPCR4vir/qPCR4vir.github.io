@@ -17,6 +17,7 @@ var classnana_1_1paint_1_1pixel__buffer =
     [ "bytes_per_line", "d0/d07/classnana_1_1paint_1_1pixel__buffer.html#a174214607467390660c20800bc5028f3", null ],
     [ "close", "d0/d07/classnana_1_1paint_1_1pixel__buffer.html#a5d463abc25ce840852641e87b104d542", null ],
     [ "empty", "d0/d07/classnana_1_1paint_1_1pixel__buffer.html#a64ddefda434b46cff104baedc8fef533", null ],
+    [ "fill_row", "d0/d07/classnana_1_1paint_1_1pixel__buffer.html#aafcd6281ce2e06270a94807409a38c14", null ],
     [ "gradual_rectangle", "d0/d07/classnana_1_1paint_1_1pixel__buffer.html#a17bb99bfcd87c2e746c7063d820279f3", null ],
     [ "line", "d0/d07/classnana_1_1paint_1_1pixel__buffer.html#ae03ccc7df976c201e4255f423bcb2051", null ],
     [ "line", "d0/d07/classnana_1_1paint_1_1pixel__buffer.html#a224c5a46db6a4c84fc740ac4e2920e24", null ],

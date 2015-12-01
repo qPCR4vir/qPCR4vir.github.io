@@ -161,6 +161,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3c02fc084c400397363f05aac33240cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a966dbf1fae65a325f246eb322c587923"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d76/namespacenana.html#ad60ea83dc6197f7f89feb496a4de08f3">pixel_color_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d07/classnana_1_1paint_1_1pixel__buffer.html#a966dbf1fae65a325f246eb322c587923">operator[]</a> (<a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> row) const </td></tr>
 <tr class="separator:a966dbf1fae65a325f246eb322c587923"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafcd6281ce2e06270a94807409a38c14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d07/classnana_1_1paint_1_1pixel__buffer.html#aafcd6281ce2e06270a94807409a38c14">fill_row</a> (<a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> row, const unsigned char *buffer, <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> <a class="el" href="../../d0/d07/classnana_1_1paint_1_1pixel__buffer.html#ac566332e74a12ed1faa79ccb3c8b9978">bytes</a>, unsigned bits_per_pixel)</td></tr>
+<tr class="separator:aafcd6281ce2e06270a94807409a38c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66933ffc12a0d8da581713b6c079bb1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d07/classnana_1_1paint_1_1pixel__buffer.html#a66933ffc12a0d8da581713b6c079bb1f">put</a> (const unsigned char *rawbits, <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> width, <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> height, <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> bits_per_pixel, <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> <a class="el" href="../../d0/d07/classnana_1_1paint_1_1pixel__buffer.html#a174214607467390660c20800bc5028f3">bytes_per_line</a>, bool is_negative)</td></tr>
 <tr class="separator:a66933ffc12a0d8da581713b6c079bb1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae03ccc7df976c201e4255f423bcb2051"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d07/classnana_1_1paint_1_1pixel__buffer.html#ae03ccc7df976c201e4255f423bcb2051">line</a> (const <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;name)</td></tr>
@@ -523,6 +525,44 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aafcd6281ce2e06270a94807409a38c14"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nana::paint::pixel_buffer::fill_row </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a>&#160;</td>
+          <td class="paramname"><em>row</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned char *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a>&#160;</td>
+          <td class="paramname"><em>bytes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>bits_per_pixel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">

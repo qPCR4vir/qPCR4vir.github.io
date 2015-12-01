@@ -21,7 +21,6 @@ var searchData=
   ['not_5fequal_5fto',['not_equal_to',['http://en.cppreference.com/w/cpp/utility/functional/not_equal_to.html',1,'std']]],
   ['nothrow_5ft',['nothrow_t',['http://en.cppreference.com/w/cpp/memory/new/nothrow_t.html',1,'std']]],
   ['notifications',['notifications',['../d8/d5c/classnana_1_1notifications.html',1,'nana']]],
-  ['notifier',['notifier',['../d1/d52/classnana_1_1widget_1_1notifier.html',1,'nana::widget']]],
   ['notifier',['notifier',['../d5/d81/classnana_1_1notifier.html',1,'nana']]],
   ['notifier_5fevents',['notifier_events',['../d3/d34/structnana_1_1detail_1_1notifier__events.html',1,'nana::detail']]],
   ['null_5ftype',['null_type',['../d7/dd4/classnana_1_1null__type.html',1,'nana']]],

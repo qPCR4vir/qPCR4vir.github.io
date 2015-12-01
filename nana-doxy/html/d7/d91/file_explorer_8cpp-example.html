@@ -110,6 +110,7 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/treebox.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/filesystem/filesystem.hpp&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;nana/filesystem/fs_utility.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">        #include &lt;nana/gui/widgets/label.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">        #include &lt;nana/gui/widgets/button.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">        #include &lt;nana/gui/widgets/listbox.hpp&gt;</span></div>
@@ -241,6 +242,12 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                kind type;</div>
 <div class="line">                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::string</a> <a class="code" href="../../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccda42aefbae01d2dfd981f7da7d823d689e">target</a>;</div>
 <div class="line">        }    selection_;</div>
+<div class="line">        </div>
+<div class="line">        <span class="keyword">struct </span>tree_node_tag</div>
+<div class="line">        {</div>
+<div class="line">                item_proxy home;</div>
+<div class="line">                item_proxy filesystem;</div>
+<div class="line">        }nodes_;</div>
 <div class="line"></div>
 <div class="line">        <span class="keyword">static</span> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::string</a> saved_init_path;</div>
 <div class="line">        <span class="keyword">static</span> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::string</a> saved_selected_path;</div>
@@ -273,7 +280,7 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                        _m_load_cat_path(path);</div>
 <div class="line">                });</div>
 <div class="line"></div>
-<div class="line">                btn_new_folder_.events().click.connect_unignorable([<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a26"></a><a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html">nana::arg_mouse</a>&amp;)</div>
+<div class="line">                btn_new_folder_.events().click.connect_unignorable([<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a26"></a><a class="code" href="../../d6/dc2/structnana_1_1arg__click.html">nana::arg_click</a>&amp;)</div>
 <div class="line">                {</div>
 <div class="line">              <span class="comment">// use inputbox</span></div>
 <div class="line">                        form fm(this-&gt;<a name="a27"></a><a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a9503ee5c2c8f4ceb14adb6c57c34e3b6">handle</a>(), <a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#aeda48472927c65f3f790297e5fb2df84">nana::API::make_center</a>(*<span class="keyword">this</span>, 300, 35));</div>
@@ -285,12 +292,12 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                        <a class="code" href="../../d7/dc0/classnana_1_1button.html">nana::button</a> btn(fm, <a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>(170, 5, 60, 25));</div>
 <div class="line">                        btn.<a name="a30"></a><a class="code" href="../../d9/dd8/classnana_1_1widget.html#ab4a216a092654c3c539d00fb1db76934">caption</a>(STR(<span class="stringliteral">&quot;Create&quot;</span>));</div>
 <div class="line"></div>
-<div class="line">                        btn.<a name="a31"></a><a class="code" href="../../d3/d95/classnana_1_1widget__object.html#afafd1a1bafe56cd6e5903d8db910aad8">events</a>().<a name="a32"></a><a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>.connect_unignorable(folder_creator(*<span class="keyword">this</span>, fm, folder));</div>
+<div class="line">                        btn.<a name="a31"></a><a class="code" href="../../d3/d95/classnana_1_1widget__object.html#acc81585b443ae00b6d3ac08945638b94">events</a>().<a name="a32"></a><a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>.connect_unignorable(folder_creator(*<span class="keyword">this</span>, fm, folder));</div>
 <div class="line"></div>
 <div class="line">                        <a class="code" href="../../d7/dc0/classnana_1_1button.html">nana::button</a> btn_cancel(fm, <a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>(235, 5, 60, 25));</div>
 <div class="line">                        btn_cancel.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#ab4a216a092654c3c539d00fb1db76934">caption</a>(STR(<span class="stringliteral">&quot;Cancel&quot;</span>));</div>
 <div class="line"></div>
-<div class="line">                        btn_cancel.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#afafd1a1bafe56cd6e5903d8db910aad8">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>.connect_unignorable([&amp;fm](<span class="keyword">const</span> <a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html">nana::arg_mouse</a>&amp;)</div>
+<div class="line">                        btn_cancel.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#acc81585b443ae00b6d3ac08945638b94">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>.connect_unignorable([&amp;fm](<span class="keyword">const</span> <a class="code" href="../../d6/dc2/structnana_1_1arg__click.html">nana::arg_click</a>&amp;)</div>
 <div class="line">                        {</div>
 <div class="line">                                fm.close();</div>
 <div class="line">                        });</div>
@@ -302,15 +309,15 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                ls_file_.append_header(STR(<span class="stringliteral">&quot;Type&quot;</span>    ),  80);</div>
 <div class="line">                ls_file_.append_header(STR(<span class="stringliteral">&quot;Size&quot;</span>    ),  70);</div>
 <div class="line"></div>
-<div class="line">                <span class="keyword">auto</span> fn_sel_file = [<span class="keyword">this</span>](<span class="keyword">const</span> <a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html">nana::arg_mouse</a>&amp; arg){  _m_sel_file(arg);               };</div>
+<div class="line">                <span class="keyword">auto</span> fn_sel_file = [<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a34"></a><a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html">nana::arg_mouse</a>&amp; arg){  _m_sel_file(arg);               };</div>
 <div class="line"></div>
 <div class="line">                ls_file_.events().dbl_click .connect_unignorable(fn_sel_file);</div>
 <div class="line">                ls_file_.events().mouse_down.connect_unignorable(fn_sel_file);</div>
 <div class="line"></div>
-<div class="line">                ls_file_.set_sort_compare(0, [](<span class="keyword">const</span> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::string</a>&amp; a, <a name="_a34"></a><a class="code" href="../../d4/d36/classnana_1_1any.html">nana::any</a>* fs_a, </div>
+<div class="line">                ls_file_.set_sort_compare(0, [](<span class="keyword">const</span> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::string</a>&amp; a, <a name="_a35"></a><a class="code" href="../../d4/d36/classnana_1_1any.html">nana::any</a>* fs_a, </div>
 <div class="line">                                        <span class="keyword">const</span> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::string</a>&amp; b, <a class="code" href="../../d4/d36/classnana_1_1any.html">nana::any</a>* fs_b, <span class="keywordtype">bool</span> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/algorithm/reverse.html">reverse</a>) -&gt; <span class="keywordtype">bool</span></div>
 <div class="line">                        {</div>
-<div class="line">                                <span class="keywordtype">int</span> dira = fs_a-&gt;<a name="a35"></a><a class="code" href="../../d4/d36/classnana_1_1any.html#a80f49074ed033a801b9ae32eed04cebf">get</a>&lt;item_fs&gt;()-&gt;<a class="code" href="../../d7/d51/namespacenana_1_1experimental_1_1filesystem.html#aa715ef1cbd3086ab6ba01bafe427fb37a5f8f22b8cdbaeee8cf857673a9b6ba20">directory</a> ? 1 : 0;</div>
+<div class="line">                                <span class="keywordtype">int</span> dira = fs_a-&gt;<a name="a36"></a><a class="code" href="../../d4/d36/classnana_1_1any.html#a80f49074ed033a801b9ae32eed04cebf">get</a>&lt;item_fs&gt;()-&gt;<a class="code" href="../../d7/d51/namespacenana_1_1experimental_1_1filesystem.html#aa715ef1cbd3086ab6ba01bafe427fb37a5f8f22b8cdbaeee8cf857673a9b6ba20">directory</a> ? 1 : 0;</div>
 <div class="line">                                <span class="keywordtype">int</span> dirb = fs_b-&gt;<a class="code" href="../../d4/d36/classnana_1_1any.html#a80f49074ed033a801b9ae32eed04cebf">get</a>&lt;item_fs&gt;()-&gt;<a class="code" href="../../d7/d51/namespacenana_1_1experimental_1_1filesystem.html#aa715ef1cbd3086ab6ba01bafe427fb37a5f8f22b8cdbaeee8cf857673a9b6ba20">directory</a> ? 1 : 0;</div>
 <div class="line">                                <span class="keywordflow">if</span>(dira != dirb)</div>
 <div class="line">                                        <span class="keywordflow">return</span> (reverse ? dira &lt; dirb : dira &gt; dirb);</div>
@@ -320,18 +327,18 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line"></div>
 <div class="line">                                <span class="keywordflow">while</span>(<span class="keyword">true</span>)</div>
 <div class="line">                                {</div>
-<div class="line">                                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> pos_a = a.<a name="a36"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/find_first_of.html">find_first_of</a>(STR(<span class="stringliteral">&quot;0123456789&quot;</span>), seek_a);</div>
+<div class="line">                                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> pos_a = a.<a name="a37"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/find_first_of.html">find_first_of</a>(STR(<span class="stringliteral">&quot;0123456789&quot;</span>), seek_a);</div>
 <div class="line">                                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> pos_b = b.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/find_first_of.html">find_first_of</a>(STR(<span class="stringliteral">&quot;0123456789&quot;</span>), seek_b);</div>
 <div class="line"></div>
 <div class="line">                                        <span class="keywordflow">if</span>((pos_a != a.npos) &amp;&amp; (pos_a == pos_b))</div>
 <div class="line">                                        {</div>
-<div class="line">                                                <a name="_a37"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::cistring</a> text_a = a.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/substr.html">substr</a>(seek_a, pos_a - seek_a).data();</div>
+<div class="line">                                                <a name="_a38"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::cistring</a> text_a = a.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/substr.html">substr</a>(seek_a, pos_a - seek_a).data();</div>
 <div class="line">                                                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::cistring</a> text_b = b.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/substr.html">substr</a>(seek_b, pos_b - seek_b).data();</div>
 <div class="line"></div>
 <div class="line">                                                <span class="keywordflow">if</span>(text_a != text_b)</div>
 <div class="line">                                                        <span class="keywordflow">return</span> (reverse ? text_a &gt; text_b : text_a &lt; text_b);</div>
 <div class="line"></div>
-<div class="line">                                                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> end_a = a.<a name="a38"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/find_first_not_of.html">find_first_not_of</a>(STR(<span class="stringliteral">&quot;0123456789&quot;</span>), pos_a + 1);</div>
+<div class="line">                                                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> end_a = a.<a name="a39"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/find_first_not_of.html">find_first_not_of</a>(STR(<span class="stringliteral">&quot;0123456789&quot;</span>), pos_a + 1);</div>
 <div class="line">                                                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> end_b = b.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/find_first_not_of.html">find_first_not_of</a>(STR(<span class="stringliteral">&quot;0123456789&quot;</span>), pos_b + 1);</div>
 <div class="line">                        </div>
 <div class="line">                                                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::string</a> num_a = a.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/substr.html">substr</a>(pos_a, end_a != a.npos ? end_a - pos_a : a.npos);</div>
@@ -339,7 +346,7 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                        </div>
 <div class="line">                                                <span class="keywordflow">if</span>(num_a != num_b)</div>
 <div class="line">                                                {</div>
-<div class="line">                                                        <span class="keywordtype">double</span> ai = <a name="a39"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/stof.html">std::stod</a>(num_a, 0);</div>
+<div class="line">                                                        <span class="keywordtype">double</span> ai = <a name="a40"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/stof.html">std::stod</a>(num_a, 0);</div>
 <div class="line">                                                        <span class="keywordtype">double</span> bi = <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/stof.html">std::stod</a>(num_b, 0);</div>
 <div class="line">                                                        <span class="keywordflow">if</span>(ai != bi)</div>
 <div class="line">                                                                <span class="keywordflow">return</span> (reverse ? ai &gt; bi : ai &lt; bi);</div>
@@ -356,11 +363,11 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                                <span class="keywordflow">if</span>(seek_b == b.npos)</div>
 <div class="line">                                        seek_b = 0;</div>
 <div class="line"></div>
-<div class="line">                                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::cistring</a> cia = a.<a name="a40"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/data.html">data</a>();</div>
+<div class="line">                                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::cistring</a> cia = a.<a name="a41"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/data.html">data</a>();</div>
 <div class="line">                                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::cistring</a> cib = b.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/data.html">data</a>();</div>
 <div class="line">                                <span class="keywordflow">if</span>(seek_a == seek_b &amp;&amp; seek_a == 0)</div>
 <div class="line">                                        <span class="keywordflow">return</span> (reverse ? cia &gt; cib : cia &lt; cib);</div>
-<div class="line">                                <span class="keywordflow">return</span> (reverse ? cia.<a name="a41"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/substr.html">substr</a>(seek_a) &gt; cib.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/substr.html">substr</a>(seek_b) : cia.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/substr.html">substr</a>(seek_a) &lt; cib.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/substr.html">substr</a>(seek_b));</div>
+<div class="line">                                <span class="keywordflow">return</span> (reverse ? cia.<a name="a42"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/substr.html">substr</a>(seek_a) &gt; cib.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/substr.html">substr</a>(seek_b) : cia.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/substr.html">substr</a>(seek_a) &lt; cib.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/substr.html">substr</a>(seek_b));</div>
 <div class="line">                        });</div>
 <div class="line">                ls_file_.set_sort_compare(2, [](<span class="keyword">const</span> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::string</a>&amp; a, <a class="code" href="../../d4/d36/classnana_1_1any.html">nana::any</a>* anyptr_a, </div>
 <div class="line">                                        <span class="keyword">const</span> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::string</a>&amp; b, <a class="code" href="../../d4/d36/classnana_1_1any.html">nana::any</a>* anyptr_b, <span class="keywordtype">bool</span> reverse) -&gt; <span class="keywordtype">bool</span></div>
@@ -381,16 +388,16 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                        });</div>
 <div class="line">                tb_file_.multi_lines(<span class="keyword">false</span>);</div>
 <div class="line"></div>
-<div class="line">                tb_file_.events().key_char.connect_unignorable([<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a42"></a><a class="code" href="../../d0/de9/structnana_1_1arg__keyboard.html">nana::arg_keyboard</a>&amp; arg)</div>
+<div class="line">                tb_file_.events().key_char.connect_unignorable([<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a43"></a><a class="code" href="../../d0/de9/structnana_1_1arg__keyboard.html">nana::arg_keyboard</a>&amp; arg)</div>
 <div class="line">                {</div>
-<div class="line">                        <span class="keywordflow">if</span>(arg.<a name="a43"></a><a class="code" href="../../d0/de9/structnana_1_1arg__keyboard.html#a69d666b7e8659d460ac442f18d9cb071">key</a> == <a name="a44"></a><a class="code" href="../../de/d48/structnana_1_1keyboard.html#a02c28a7f05684042e0c8de2ff7cb01e7adb1c9e17a0630b810cd6944325d11588">nana::keyboard::enter</a>)</div>
+<div class="line">                        <span class="keywordflow">if</span>(arg.<a name="a44"></a><a class="code" href="../../d0/de9/structnana_1_1arg__keyboard.html#a69d666b7e8659d460ac442f18d9cb071">key</a> == <a name="a45"></a><a class="code" href="../../de/d48/structnana_1_1keyboard.html#a02c28a7f05684042e0c8de2ff7cb01e7adb1c9e17a0630b810cd6944325d11588">nana::keyboard::enter</a>)</div>
 <div class="line">                                _m_ok();</div>
 <div class="line">                });</div>
 <div class="line"></div>
 <div class="line">                cb_types_.editable(<span class="keyword">false</span>);</div>
-<div class="line">                cb_types_.events().selected.connect_unignorable([<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a45"></a><a class="code" href="../../d5/dd5/structnana_1_1arg__combox.html">nana::arg_combox</a>&amp;){ _m_list_fs(); });</div>
+<div class="line">                cb_types_.events().selected.connect_unignorable([<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a46"></a><a class="code" href="../../d5/dd5/structnana_1_1arg__combox.html">nana::arg_combox</a>&amp;){ _m_list_fs(); });</div>
 <div class="line"></div>
-<div class="line">                selection_.type = <a name="a46"></a><a class="code" href="../../d2/d76/namespacenana.html#a278f991de5b82b0d32a35563193235d0a334c4a4c42fdb79d7ebc3e73b517e6f8">kind::none</a>;</div>
+<div class="line">                selection_.type = <a name="a47"></a><a class="code" href="../../d2/d76/namespacenana.html#a278f991de5b82b0d32a35563193235d0a334c4a4c42fdb79d7ebc3e73b517e6f8">kind::none</a>;</div>
 <div class="line">                _m_layout();</div>
 <div class="line">                _m_init_tree();</div>
 <div class="line">        }</div>
@@ -403,7 +410,7 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                <span class="comment">//Phase 1</span></div>
 <div class="line">                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::string</a> dir;</div>
 <div class="line"></div>
-<div class="line">                <span class="keyword">auto</span> pos = init_file.<a name="a47"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/find_last_of.html">find_last_of</a>(STR(<span class="stringliteral">&quot;\\/&quot;</span>));</div>
+<div class="line">                <span class="keyword">auto</span> pos = init_file.<a name="a48"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/find_last_of.html">find_last_of</a>(STR(<span class="stringliteral">&quot;\\/&quot;</span>));</div>
 <div class="line">                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::string</a> file_with_path_removed = (pos != init_file.npos ? init_file.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/substr.html">substr</a>(pos + 1) : init_file);</div>
 <div class="line"></div>
 <div class="line">                <span class="keywordflow">if</span>(saved_init_path != init_path)</div>
@@ -415,7 +422,7 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                        <span class="keywordflow">if</span>(file_with_path_removed == init_file)</div>
 <div class="line">                        {</div>
 <div class="line">                                <span class="comment">//Phase 3: Check whether init_path is empty</span></div>
-<div class="line">                                <span class="keywordflow">if</span>(init_path.<a name="a48"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/size.html">size</a>())</div>
+<div class="line">                                <span class="keywordflow">if</span>(init_path.<a name="a49"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/size.html">size</a>())</div>
 <div class="line">                                        dir = init_path;</div>
 <div class="line">                        }</div>
 <div class="line">                        <span class="keywordflow">else</span></div>
@@ -440,7 +447,7 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> beg = 0;</div>
 <div class="line">                <span class="keywordflow">while</span>(<span class="keyword">true</span>)</div>
 <div class="line">                {</div>
-<div class="line">                        <span class="keyword">auto</span> pos = type.<a name="a49"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/find.html">find</a>(STR(<span class="charliteral">&#39;;&#39;</span>), beg);</div>
+<div class="line">                        <span class="keyword">auto</span> pos = type.<a name="a50"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/find.html">find</a>(STR(<span class="charliteral">&#39;;&#39;</span>), beg);</div>
 <div class="line">                        <span class="keyword">auto</span> ext = type.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/substr.html">substr</a>(beg, pos == type.npos ? type.npos : pos - beg);</div>
 <div class="line">                        <span class="keyword">auto</span> dot = ext.find(STR(<span class="charliteral">&#39;.&#39;</span>));</div>
 <div class="line">                        <span class="keywordflow">if</span>((dot != ext.npos) &amp;&amp; (dot + 1 &lt; ext.size()))</div>
@@ -448,17 +455,17 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                                ext.erase(0, dot + 1);</div>
 <div class="line">                                <span class="keywordflow">if</span>(ext == STR(<span class="stringliteral">&quot;*&quot;</span>))</div>
 <div class="line">                                {</div>
-<div class="line">                                        v.<a name="a50"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector/clear.html">clear</a>();</div>
+<div class="line">                                        v.<a name="a51"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector/clear.html">clear</a>();</div>
 <div class="line">                                        <span class="keywordflow">break</span>;</div>
 <div class="line">                                }</div>
 <div class="line">                                <span class="keywordflow">else</span></div>
-<div class="line">                                        v.<a name="a51"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector/push_back.html">push_back</a>(ext);</div>
+<div class="line">                                        v.<a name="a52"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector/push_back.html">push_back</a>(ext);</div>
 <div class="line">                        }</div>
 <div class="line">                        <span class="keywordflow">if</span>(pos == type.npos)</div>
 <div class="line">                                <span class="keywordflow">break</span>;</div>
 <div class="line">                        beg = pos + 1;</div>
 <div class="line">                }</div>
-<div class="line">                <span class="keywordflow">if</span>(v.<a name="a52"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector/size.html">size</a>())</div>
+<div class="line">                <span class="keywordflow">if</span>(v.<a name="a53"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector/size.html">size</a>())</div>
 <div class="line">                        cb_types_.anyobj(i, v);</div>
 <div class="line">        }</div>
 <div class="line"></div>
@@ -478,8 +485,7 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">        }</div>
 <div class="line"><span class="keyword">private</span>:</div>
 <div class="line">        <span class="keywordtype">void</span> _m_layout()</div>
-<div class="line">        {</div>
-<div class="line">                place_.bind(*<span class="keyword">this</span>);</div>
+<div class="line">        {       </div>
 <div class="line">                place_.div(     <span class="stringliteral">&quot;vert&quot;</span></div>
 <div class="line">                                <span class="stringliteral">&quot;&lt;weight=34 margin=5          path       arrange=[variable,200] gap=5 &gt;&quot;</span></div>
 <div class="line">                                <span class="stringliteral">&quot;&lt;weight=30 margin=[0,0,5,10] new_folder arrange=[100]                &gt;&quot;</span></div>
@@ -504,11 +510,11 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line"></div>
 <div class="line">                <span class="comment">//The path in linux start with the character &#39;/&#39;, the root key should be</span></div>
 <div class="line">                <span class="comment">//&quot;FS.HOME&quot;, &quot;FS.ROOT&quot;. Because a key of the tree widget should not be &#39;/&#39;</span></div>
-<div class="line">                <span class="keyword">auto</span> node_home = tree_.<a name="a53"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/insert.html">insert</a>(STR(<span class="stringliteral">&quot;FS.HOME&quot;</span>), STR(<span class="stringliteral">&quot;Home&quot;</span>));</div>
+<div class="line">                <span class="keyword">auto</span> node_home = tree_.<a name="a54"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/insert.html">insert</a>(STR(<span class="stringliteral">&quot;FS.HOME&quot;</span>), STR(<span class="stringliteral">&quot;Home&quot;</span>));</div>
 <div class="line">                node_home.value(kind::filesystem);</div>
 <div class="line">                <span class="keyword">auto</span> node_filesystem = tree_.insert(STR(<span class="stringliteral">&quot;FS.ROOT&quot;</span>), STR(<span class="stringliteral">&quot;Filesystem&quot;</span>));</div>
 <div class="line">                node_filesystem.value(kind::filesystem);</div>
-<div class="line">                <span class="keyword">using</span> SubDirectories =  <a name="_a54"></a><a class="code" href="../../de/d1b/classnana_1_1experimental_1_1filesystem_1_1directory__iterator.html">directory_iterator</a>;</div>
+<div class="line">                <span class="keyword">using</span> SubDirectories =  <a name="_a55"></a><a class="code" href="../../de/d1b/classnana_1_1experimental_1_1filesystem_1_1directory__iterator.html">directory_iterator</a>;</div>
 <div class="line"></div>
 <div class="line">                <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; dir : SubDirectories{ <a class="code" href="../../d7/d51/namespacenana_1_1experimental_1_1filesystem.html#a27042983bad2acdf8815ecdcbbcabdb5">path_user</a>() })</div>
 <div class="line">                {</div>
@@ -534,16 +540,16 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                        }</div>
 <div class="line">                }</div>
 <div class="line"></div>
-<div class="line">                tree_.events().expanded.connect_unignorable([<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a55"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html">nana::arg_treebox</a>&amp; arg)</div>
+<div class="line">                tree_.events().expanded.connect_unignorable([<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a56"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html">nana::arg_treebox</a>&amp; arg)</div>
 <div class="line">                {</div>
-<div class="line">                        _m_tr_expand(arg.<a name="a56"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>, arg.<a name="a57"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ad8e07298693767fbb840d04eefb20ce5">operated</a>);</div>
+<div class="line">                        _m_tr_expand(arg.<a name="a57"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>, arg.<a name="a58"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ad8e07298693767fbb840d04eefb20ce5">operated</a>);</div>
 <div class="line">                });</div>
 <div class="line"></div>
 <div class="line">                tree_.events().selected.connect_unignorable([<span class="keyword">this</span>](<span class="keyword">const</span> <a class="code" href="../../df/df9/structnana_1_1arg__treebox.html">nana::arg_treebox</a>&amp; arg)</div>
 <div class="line">                {</div>
-<div class="line">                        <span class="keywordflow">if</span>(arg.<a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ad8e07298693767fbb840d04eefb20ce5">operated</a> &amp;&amp;  ! arg.<a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>.<a name="a58"></a><a class="code" href="../../d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a510a3c6322ac8ab2612c6f7654881524">empty</a>() )</div>
+<div class="line">                        <span class="keywordflow">if</span>(arg.<a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ad8e07298693767fbb840d04eefb20ce5">operated</a> &amp;&amp;  ! arg.<a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>.<a name="a59"></a><a class="code" href="../../d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a510a3c6322ac8ab2612c6f7654881524">empty</a>() )</div>
 <div class="line">                        {</div>
-<div class="line">                                <span class="keyword">auto</span> <a name="_a59"></a><a class="code" href="../../dc/d03/classnana_1_1experimental_1_1filesystem_1_1path.html">path</a> = tree_.make_key_path(arg.<a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>, STR(<span class="stringliteral">&quot;/&quot;</span>)) + STR(<span class="stringliteral">&quot;/&quot;</span>);</div>
+<div class="line">                                <span class="keyword">auto</span> <a name="_a60"></a><a class="code" href="../../dc/d03/classnana_1_1experimental_1_1filesystem_1_1path.html">path</a> = tree_.make_key_path(arg.<a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>, STR(<span class="stringliteral">&quot;/&quot;</span>)) + STR(<span class="stringliteral">&quot;/&quot;</span>);</div>
 <div class="line">                                _m_resolute_path(<a class="code" href="../../dc/d03/classnana_1_1experimental_1_1filesystem_1_1path.html">path</a>);</div>
 <div class="line">                                _m_load_cat_path(<a class="code" href="../../dc/d03/classnana_1_1experimental_1_1filesystem_1_1path.html">path</a>);</div>
 <div class="line">                        }</div>
@@ -557,12 +563,12 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                {</div>
 <div class="line">                        <span class="keyword">auto</span> begstr = path.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/substr.html">substr</a>(0, pos);</div>
 <div class="line">                        <span class="keywordflow">if</span>(begstr == STR(<span class="stringliteral">&quot;FS.HOME&quot;</span>))</div>
-<div class="line">                                path.<a name="a60"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/replace.html">replace</a>(0, 7, <a class="code" href="../../d7/d51/namespacenana_1_1experimental_1_1filesystem.html#a27042983bad2acdf8815ecdcbbcabdb5">nana::experimental::filesystem::path_user</a>());</div>
+<div class="line">                                path.<a name="a61"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/replace.html">replace</a>(0, 7, <a class="code" href="../../d7/d51/namespacenana_1_1experimental_1_1filesystem.html#a27042983bad2acdf8815ecdcbbcabdb5">nana::experimental::filesystem::path_user</a>());</div>
 <div class="line">                        <span class="keywordflow">else</span></div>
-<div class="line">                                path.<a name="a61"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/erase.html">erase</a>(0, pos);</div>
+<div class="line">                                path.<a name="a62"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/erase.html">erase</a>(0, pos);</div>
 <div class="line">                        <span class="keywordflow">return</span> begstr;</div>
 <div class="line">                }</div>
-<div class="line">                <span class="keywordflow">return</span> <a name="a62"></a><a class="code" href="../../d2/d76/namespacenana.html#a2c61daedac4021de1dc57f8b5924a1b7">nana::string</a>();</div>
+<div class="line">                <span class="keywordflow">return</span> <a name="a63"></a><a class="code" href="../../d2/d76/namespacenana.html#a2c61daedac4021de1dc57f8b5924a1b7">nana::string</a>();</div>
 <div class="line">        }</div>
 <div class="line"></div>
 <div class="line">        <span class="keywordtype">void</span> _m_load_path(<span class="keyword">const</span> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::string</a>&amp; path)</div>
@@ -574,7 +580,7 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                file_container_.clear();</div>
 <div class="line"></div>
 <div class="line">                <span class="keyword">using namespace </span>nana::experimental::filesystem;</div>
-<div class="line">                <a name="_a63"></a><a class="code" href="../../d8/d05/structnana_1_1experimental_1_1filesystem_1_1attribute.html">attribute</a> fattr;</div>
+<div class="line">                <a name="_a64"></a><a class="code" href="../../d8/d05/structnana_1_1experimental_1_1filesystem_1_1attribute.html">attribute</a> fattr;</div>
 <div class="line">                <a class="code" href="../../de/d1b/classnana_1_1experimental_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/iterator/end.html">end</a>;</div>
 <div class="line">                <span class="keywordflow">for</span>(<a class="code" href="../../de/d1b/classnana_1_1experimental_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> i(path); i != <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/iterator/end.html">end</a>; ++i)</div>
 <div class="line">                {</div>
@@ -600,7 +606,7 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                        <span class="keywordflow">if</span>(m.directory)</div>
 <div class="line">                                path_.childset(m.name, 0);</div>
 <div class="line">                }</div>
-<div class="line">                <a name="a64"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/algorithm/sort.html">std::sort</a>(file_container_.begin(), file_container_.end(), pred_sort_fs());</div>
+<div class="line">                <a name="a65"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/algorithm/sort.html">std::sort</a>(file_container_.begin(), file_container_.end(), pred_sort_fs());</div>
 <div class="line">        }</div>
 <div class="line"></div>
 <div class="line">        <span class="keywordtype">void</span> _m_load_cat_path(<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::string</a> path)</div>
@@ -612,7 +618,7 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                <span class="keywordflow">while</span>(!beg_node.empty() &amp;&amp; (beg_node != nodes_.home) &amp;&amp; (beg_node != nodes_.filesystem))</div>
 <div class="line">                        beg_node = beg_node.owner();</div>
 <div class="line">                        </div>
-<div class="line">                <span class="keyword">auto</span> head = <a name="a65"></a><a class="code" href="../../d0/d83/namespacenana_1_1filesystem.html#a8b8c1d914b1e5aac44919a21605440f9">nana::filesystem::path_user</a>();</div>
+<div class="line">                <span class="keyword">auto</span> head = <a name="a66"></a><a class="code" href="../../d0/d83/namespacenana_1_1filesystem.html#a8b8c1d914b1e5aac44919a21605440f9">nana::filesystem::path_user</a>();</div>
 <div class="line">                <span class="keywordflow">if</span>(path.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/size.html">size</a>() &gt;= head.size() &amp;&amp; (path.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/substr.html">substr</a>(0, head.size()) == head))</div>
 <div class="line">                {<span class="comment">//This is HOME</span></div>
 <div class="line">                        path_.caption(STR(<span class="stringliteral">&quot;HOME&quot;</span>));</div>
@@ -630,11 +636,12 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                <span class="keywordflow">if</span>(head.size() == 0 || head[head.size() - 1] != STR(<span class="charliteral">&#39;/&#39;</span>))</div>
 <div class="line">                        head += STR(<span class="charliteral">&#39;/&#39;</span>);</div>
 <div class="line"></div>
-<div class="line">                <a class="code" href="../../de/d1b/classnana_1_1experimental_1_1filesystem_1_1directory__iterator.html">nana::experimental::filesystem::directory_iterator</a> <a name="a66"></a><a class="code" href="../../d2/d76/namespacenana.html#a1480f163a64163d468bcdd3d8dd16c25a7f021a1415b86f2d013b2618fb31ae53">end</a>;</div>
-<div class="line">                <span class="keywordflow">for</span>(<a class="code" href="../../de/d1b/classnana_1_1experimental_1_1filesystem_1_1directory__iterator.html">nana::experimental::filesystem::directory_iterator</a> i(head); i != <a class="code" href="../../d2/d76/namespacenana.html#a1480f163a64163d468bcdd3d8dd16c25a7f021a1415b86f2d013b2618fb31ae53">end</a>; ++i)</div>
+<div class="line">                <span class="keyword">using namespace </span>nana::experimental::filesystem;</div>
+<div class="line">                <a class="code" href="../../de/d1b/classnana_1_1experimental_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/iterator/end.html">end</a>;</div>
+<div class="line">                <span class="keywordflow">for</span>(<a class="code" href="../../de/d1b/classnana_1_1experimental_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> i(head); i != <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/iterator/end.html">end</a>; ++i)</div>
 <div class="line">                {</div>
-<div class="line">                        <span class="keywordflow">if</span>(i-&gt;directory)</div>
-<div class="line">                                path_.childset(i-&gt;path().name(), 0);</div>
+<div class="line">                        <span class="keywordflow">if</span>(i-&gt;attr.directory)</div>
+<div class="line">                                path_.childset(i-&gt;path().filename(), 0);</div>
 <div class="line">                }</div>
 <div class="line">                <span class="keyword">auto</span> cat_path = path_.caption();</div>
 <div class="line">                <span class="keywordflow">if</span>(cat_path.size() &amp;&amp; cat_path[cat_path.size() - 1] != STR(<span class="charliteral">&#39;/&#39;</span>))</div>
@@ -650,10 +657,10 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                        (head += folder) += STR(<span class="charliteral">&#39;/&#39;</span>);</div>
 <div class="line">                        path_.caption(cat_path);</div>
 <div class="line">                                </div>
-<div class="line">                        <span class="keywordflow">for</span>(<a class="code" href="../../de/d1b/classnana_1_1experimental_1_1filesystem_1_1directory__iterator.html">nana::experimental::filesystem::directory_iterator</a> i(head); i != <a class="code" href="../../d2/d76/namespacenana.html#a1480f163a64163d468bcdd3d8dd16c25a7f021a1415b86f2d013b2618fb31ae53">end</a>; ++i)</div>
+<div class="line">                        <span class="keywordflow">for</span>(<a class="code" href="../../de/d1b/classnana_1_1experimental_1_1filesystem_1_1directory__iterator.html">nana::experimental::filesystem::directory_iterator</a> i(head); i != <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/iterator/end.html">end</a>; ++i)</div>
 <div class="line">                        {</div>
-<div class="line">                                <span class="keywordflow">if</span>(i-&gt;directory)</div>
-<div class="line">                                        path_.childset(i-&gt;path().name(), 0);</div>
+<div class="line">                                <span class="keywordflow">if</span> (i-&gt;attr.directory)</div>
+<div class="line">                                        path_.childset(i-&gt;path().filename(), 0);</div>
 <div class="line">                        }</div>
 <div class="line"></div>
 <div class="line">                        <span class="keywordflow">if</span>(pos == path.npos)</div>
@@ -853,18 +860,19 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">nana::string</a> path = tree_.make_key_path(node, STR(<span class="stringliteral">&quot;/&quot;</span>)) + STR(<span class="stringliteral">&quot;/&quot;</span>);</div>
 <div class="line">                        _m_resolute_path(path);</div>
 <div class="line"></div>
-<div class="line">                        nana::filesystem::directory_iterator <a class="code" href="../../d2/d76/namespacenana.html#a1480f163a64163d468bcdd3d8dd16c25a7f021a1415b86f2d013b2618fb31ae53">end</a>;</div>
-<div class="line">                        <span class="keywordflow">for</span>(nana::filesystem::directory_iterator i(path); i != <a class="code" href="../../d2/d76/namespacenana.html#a1480f163a64163d468bcdd3d8dd16c25a7f021a1415b86f2d013b2618fb31ae53">end</a>; ++i)</div>
+<div class="line">                        <span class="keyword">using namespace </span>nana::experimental::filesystem;</div>
+<div class="line">                        <a class="code" href="../../de/d1b/classnana_1_1experimental_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/iterator/end.html">end</a>;</div>
+<div class="line">                        <span class="keywordflow">for</span>(<a class="code" href="../../de/d1b/classnana_1_1experimental_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> i(path); i != <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/iterator/end.html">end</a>; ++i)</div>
 <div class="line">                        {</div>
-<div class="line">                                <span class="keywordflow">if</span>((<span class="keyword">false</span> == i-&gt;directory) || (i-&gt;path().name().size() &amp;&amp; i-&gt;path().name()[0] == <span class="charliteral">&#39;.&#39;</span>)) <span class="keywordflow">continue</span>;</div>
-<div class="line">                                <span class="keyword">auto</span> child = node.append(i-&gt;path().name(), i-&gt;path().name(), *i);</div>
+<div class="line">                                <span class="keywordflow">if</span>((<span class="keyword">false</span> == i-&gt;attr.directory) || (i-&gt;path().filename().size() &amp;&amp; i-&gt;path().filename()[0] == <span class="charliteral">&#39;.&#39;</span>)) <span class="keywordflow">continue</span>;</div>
+<div class="line">                                <span class="keyword">auto</span> child = node.append(i-&gt;path().filename(), i-&gt;path().filename(), *i);</div>
 <div class="line">                                <span class="keywordflow">if</span>(!child.empty())</div>
 <div class="line">                                {</div>
-<div class="line">                                        <span class="keywordflow">for</span>(nana::filesystem::directory_iterator u(path + i-&gt;path().name()); u != <a class="code" href="../../d2/d76/namespacenana.html#a1480f163a64163d468bcdd3d8dd16c25a7f021a1415b86f2d013b2618fb31ae53">end</a>; ++u)</div>
+<div class="line">                                        <span class="keywordflow">for</span>(<a class="code" href="../../de/d1b/classnana_1_1experimental_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> u(path + i-&gt;path().filename()); u != <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/iterator/end.html">end</a>; ++u)</div>
 <div class="line">                                        {</div>
-<div class="line">                                                <span class="keywordflow">if</span>(! u-&gt;directory || (u-&gt;path().name().size() &amp;&amp; u-&gt;path().name()[0] == <span class="charliteral">&#39;.&#39;</span>)) <span class="keywordflow">continue</span>;</div>
+<div class="line">                                                <span class="keywordflow">if</span>(! u-&gt;attr.directory || (u-&gt;path().filename().size() &amp;&amp; u-&gt;path().filename()[0] == <span class="charliteral">&#39;.&#39;</span>)) <span class="keywordflow">continue</span>;</div>
 <div class="line"></div>
-<div class="line">                                                child.append(u-&gt;path().name(), u-&gt;path().name(), *i);</div>
+<div class="line">                                                child.append(u-&gt;path().filename(), u-&gt;path().filename(), *i);</div>
 <div class="line">                                                <span class="keywordflow">break</span>;</div>
 <div class="line">                                        }</div>
 <div class="line">                                }</div>

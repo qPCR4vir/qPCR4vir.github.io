@@ -108,14 +108,6 @@ $(document).ready(function(){initNavTree('d2/dd0/group_8cpp-example.html','../..
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/form.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/label.hpp&gt;</span></div>
 <div class="line"></div>
-<div class="line"><span class="comment">// This example need nana/gui/widgets/group.hpp and the corresponding group.cpp. </span></div>
-<div class="line"><span class="comment">// It can be found in branch:</span></div>
-<div class="line"><span class="comment">// https://github.com/cnjinhao/nana/blob/develop/include/nana/gui/widgets/group.hpp</span></div>
-<div class="line"><span class="comment">// or in:</span></div>
-<div class="line"><span class="comment">// https://github.com/qPCR4vir/nana</span></div>
-<div class="line"><span class="comment">// for exapmle in: https://github.com/qPCR4vir/nana/blob/master/include/nana/gui/widgets/group.hpp</span></div>
-<div class="line"><span class="comment">// and: https://github.com/qPCR4vir/nana/blob/master/source/gui/widgets/group.cpp</span></div>
-<div class="line"></div>
 <div class="line"><span class="keyword">using namespace </span>nana;</div>
 <div class="line"></div>
 <div class="line"><span class="keywordtype">int</span> main()</div>
@@ -138,9 +130,9 @@ $(document).ready(function(){initNavTree('d2/dd0/group_8cpp-example.html','../..
 <div class="line">    <a class="code" href="../../d6/d61/classnana_1_1group.html">group</a> grp_left {ext_gr, STR(<span class="stringliteral">&quot;A new &lt;bold=true, color=0xff0000, font=\&quot;Consolas\&quot;&gt;Group:&lt;/&gt;&quot;</span>), <span class="keyword">true</span> };</div>
 <div class="line">    <a class="code" href="../../d6/d61/classnana_1_1group.html">group</a> grp_right{ext_gr, STR(<span class="stringliteral">&quot;A right &lt;bold=true, color=0xff0000, font=\&quot;Consolas\&quot;&gt;Group:&lt;/&gt;&quot;</span>), <span class="keyword">true</span>};</div>
 <div class="line"></div>
-<div class="line">    ext_gr.div(<span class="stringliteral">&quot;horizontal gap=3 margin=20  &lt; &lt;left&gt; | 70% &lt;right&gt;&gt; &quot;</span>);</div>
-<div class="line">    ext_gr[<span class="stringliteral">&quot;left&quot;</span>]  &lt;&lt; grp_left;</div>
-<div class="line">    ext_gr[<span class="stringliteral">&quot;right&quot;</span>] &lt;&lt; grp_right;</div>
+<div class="line">    ext_gr.div(<span class="stringliteral">&quot;horizontal gap=3 margin=20  &lt; &lt;left_field&gt; | 70% &lt;right_field&gt;&gt; &quot;</span>);</div>
+<div class="line">    ext_gr[<span class="stringliteral">&quot;left_field&quot;</span>]  &lt;&lt; grp_left;</div>
+<div class="line">    ext_gr[<span class="stringliteral">&quot;right_field&quot;</span>] &lt;&lt; grp_right;</div>
 <div class="line"></div>
 <div class="line">    <span class="comment">// the left group</span></div>
 <div class="line">    grp_left.div(<span class="stringliteral">&quot;buttons vert gap=5 margin=3&quot;</span>);</div>
@@ -159,10 +151,10 @@ $(document).ready(function(){initNavTree('d2/dd0/group_8cpp-example.html','../..
 <div class="line">        });</div>
 <div class="line">    <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b2  {grp_right, STR(<span class="stringliteral">&quot;button2&quot;</span>)};</div>
 <div class="line">    <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b3  {grp_right, STR(<span class="stringliteral">&quot;button3&quot;</span>)};</div>
-<div class="line">    grp_right.div( <span class="stringliteral">&quot;&lt;vertical margin=2 gap= 2 &lt;vert lab&gt; | 40% &lt; &lt;left&gt; | 70% &lt;right&gt;&gt; &gt;&quot;</span>);</div>
+<div class="line">    grp_right.div( <span class="stringliteral">&quot;&lt;vertical margin=2 gap= 2 &lt;vert lab&gt; | 40% &lt; &lt;left_field&gt; | 70% &lt;right_field&gt;&gt; &gt;&quot;</span>);</div>
 <div class="line">    grp_right[<span class="stringliteral">&quot;lab&quot;</span>]  &lt;&lt; lab.text_align(<a name="a10"></a><a class="code" href="../../d2/d76/namespacenana.html#ad3d2f08c451a6752b3f7d53e0f863087a7c4f29407893c334a6cb7a87bf045c0d">align::right</a>) &lt;&lt; nested ;</div>
-<div class="line">    grp_right[<span class="stringliteral">&quot;left&quot;</span>] &lt;&lt; b1  ;</div>
-<div class="line">    grp_right[<span class="stringliteral">&quot;right&quot;</span>]&lt;&lt; b2 &lt;&lt; b3;</div>
+<div class="line">    grp_right[<span class="stringliteral">&quot;left_field&quot;</span>] &lt;&lt; b1  ;</div>
+<div class="line">    grp_right[<span class="stringliteral">&quot;right_field&quot;</span>]&lt;&lt; b2 &lt;&lt; b3;</div>
 <div class="line"></div>
 <div class="line">    <span class="comment">// the nested (rigth up) group</span></div>
 <div class="line">    <a class="code" href="../../dd/d8c/classnana_1_1label.html">label</a> lab1{nested, STR(<span class="stringliteral">&quot;A very simple group:&quot;</span>)};</div>

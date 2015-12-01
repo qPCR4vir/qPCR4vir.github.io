@@ -9,6 +9,7 @@ var searchData=
   ['checker',['checker',['../d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#a4729ab61fe2d5379f62231283ba09ed0a9bcf0edc75944b260de8279d7a6d8174',1,'nana::drawerbase::listbox::essence_t']]],
   ['chocolate',['chocolate',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98ac378985d629e99a4e86213db0cd5e70d',1,'nana']]],
   ['click',['click',['../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4',1,'nana::click()'],['../dc/d6a/namespacenana_1_1drawerbase_1_1label.html#afb37eee0e7985a68321e521b40cf7cf2aa8affc088cbca89fa20dbd98c91362e4',1,'nana::drawerbase::label::click()']]],
+  ['close',['close',['../d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#a5d2e23680874011958a86c50435e7959a716f6b30598ba30945d84485e61c1027',1,'nana::drawerbase::tabbar::trigger::close()'],['../d6/d10/classnana_1_1tabbar.html#a9ead204c8505d9d02d22adc46fc9ec54a716f6b30598ba30945d84485e61c1027',1,'nana::tabbar::close()']]],
   ['collapse',['collapse',['../de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a1a721faf2df53972bfd0831c64b6146d',1,'nana::place_parts::tokenizer']]],
   ['color',['color',['../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccda70dda5dfb8053dc6d1c492574bce9bfd',1,'nana::widgets::skeletons']]],
   ['comma',['comma',['../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccdab6d00dc1ba038e5901cd6c06b2daa192',1,'nana::widgets::skeletons']]],

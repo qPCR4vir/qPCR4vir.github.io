@@ -2,6 +2,7 @@ var searchData=
 [
   ['active',['active',['../d9/d29/classnana_1_1drawerbase_1_1menu_1_1renderer__interface.html#aa6d2faa52dc7fde9c04c6406c5fb753dac76a5e84e4bdee527e274ea30c680d79',1,'nana::drawerbase::menu::renderer_interface::active()'],['../db/dca/namespacenana_1_1effects.html#af2f1254faa14bc6b00a9d3f4987aebd9ac76a5e84e4bdee527e274ea30c680d79',1,'nana::effects::active()']]],
   ['actived',['actived',['../df/d65/structnana_1_1drawerbase_1_1scroll_1_1drawer_1_1states.html#a2a741ed2308bd176e4855438403b579eaadbdb33aa3e30b6143e2c213ac0f066c',1,'nana::drawerbase::scroll::drawer::states']]],
+  ['add',['add',['../d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#a5d2e23680874011958a86c50435e7959a34ec78fcc91ffb1e54cd85e4a0924332',1,'nana::drawerbase::tabbar::trigger::add()'],['../d6/d10/classnana_1_1tabbar.html#a9ead204c8505d9d02d22adc46fc9ec54a34ec78fcc91ffb1e54cd85e4a0924332',1,'nana::tabbar::add()']]],
   ['al',['AL',['../d8/d7f/classnana_1_1unicode__bidi.html#ab4d218792adebd435c0808cfa7fce137ae892e780304dc3ef15e69b9f3fed3669',1,'nana::unicode_bidi::AL()'],['../d9/d0f/namespacenana_1_1bidi__charmap.html#a35c8c909095bdaeefe7ffcba2fa54828aaf506d796fe624b89aeb0c1b101ed94b',1,'nana::bidi_charmap::AL()']]],
   ['alice_5fblue',['alice_blue',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a6d65173999078f89f8d4e01036aea8a4',1,'nana']]],
   ['alt',['alt',['../de/d48/structnana_1_1keyboard.html#a02c28a7f05684042e0c8de2ff7cb01e7ab54b7fa0638df8934185a0b807e76ccb',1,'nana::keyboard']]],

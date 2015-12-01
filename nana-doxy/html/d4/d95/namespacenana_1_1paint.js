@@ -1,7 +1,6 @@
 var namespacenana_1_1paint =
 [
     [ "detail", "d3/d2a/namespacenana_1_1paint_1_1detail.html", "d3/d2a/namespacenana_1_1paint_1_1detail" ],
-    [ "gadget", "d9/d0c/namespacenana_1_1paint_1_1gadget.html", null ],
     [ "helper", "dc/dd7/namespacenana_1_1paint_1_1helper.html", "dc/dd7/namespacenana_1_1paint_1_1helper" ],
     [ "image_process", "d6/dd1/namespacenana_1_1paint_1_1image__process.html", "d6/dd1/namespacenana_1_1paint_1_1image__process" ],
     [ "font", "d4/d3c/classnana_1_1paint_1_1font.html", "d4/d3c/classnana_1_1paint_1_1font" ],

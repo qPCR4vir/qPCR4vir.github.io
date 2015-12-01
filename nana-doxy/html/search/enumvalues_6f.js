@@ -15,12 +15,14 @@ var searchData=
   ['os_5farrow_5fleft',['os_arrow_left',['../de/d48/structnana_1_1keyboard.html#a02c28a7f05684042e0c8de2ff7cb01e7a17f2ae476e1e20eb8bad79fda8c25f20',1,'nana::keyboard']]],
   ['os_5farrow_5fright',['os_arrow_right',['../de/d48/structnana_1_1keyboard.html#a02c28a7f05684042e0c8de2ff7cb01e7a2503cfb6d963020cb29731c284d72c84',1,'nana::keyboard']]],
   ['os_5farrow_5fup',['os_arrow_up',['../de/d48/structnana_1_1keyboard.html#a02c28a7f05684042e0c8de2ff7cb01e7a4178c30d5adce869d75c643009328209',1,'nana::keyboard']]],
+  ['os_5fctrl',['os_ctrl',['../de/d48/structnana_1_1keyboard.html#a02c28a7f05684042e0c8de2ff7cb01e7a66d2e0beff230253b976ea7542a812f4',1,'nana::keyboard']]],
   ['os_5fdel',['os_del',['../de/d48/structnana_1_1keyboard.html#a02c28a7f05684042e0c8de2ff7cb01e7ac3a786c050d585e9a2ce954b63f7fac4',1,'nana::keyboard']]],
   ['os_5fend',['os_end',['../de/d48/structnana_1_1keyboard.html#a02c28a7f05684042e0c8de2ff7cb01e7a37471636008330df953cf8a7f79469cd',1,'nana::keyboard']]],
   ['os_5fhome',['os_home',['../de/d48/structnana_1_1keyboard.html#a02c28a7f05684042e0c8de2ff7cb01e7a45c352a69139db94cf2f713663798a9e',1,'nana::keyboard']]],
   ['os_5finsert',['os_insert',['../de/d48/structnana_1_1keyboard.html#a02c28a7f05684042e0c8de2ff7cb01e7a88daaf203766f54f7c3e7055b7e97a25',1,'nana::keyboard']]],
   ['os_5fpagedown',['os_pagedown',['../de/d48/structnana_1_1keyboard.html#a02c28a7f05684042e0c8de2ff7cb01e7a4bd12441c56cf10facfd3ef4f9268cb3',1,'nana::keyboard']]],
   ['os_5fpageup',['os_pageup',['../de/d48/structnana_1_1keyboard.html#a02c28a7f05684042e0c8de2ff7cb01e7a5f2950e553b505ba7f82ca6cd1a2a975',1,'nana::keyboard']]],
+  ['os_5fshift',['os_shift',['../de/d48/structnana_1_1keyboard.html#a02c28a7f05684042e0c8de2ff7cb01e7adfb8c82a9c1baf9436e75476c7bce62e',1,'nana::keyboard']]],
   ['over',['over',['../d2/d76/namespacenana.html#a1480f163a64163d468bcdd3d8dd16c25a3b759a9ca80234563d87672350659b2b',1,'nana::over()'],['../db/dca/namespacenana_1_1effects.html#af2f1254faa14bc6b00a9d3f4987aebd9a3b759a9ca80234563d87672350659b2b',1,'nana::effects::over()']]],
   ['overrided',['overrided',['../d3/d42/classnana_1_1detail_1_1drawer.html#ac9f54a9ba004d0e83b733c24da1d7d7ba2d152377fce19916908a53f66bb26a51',1,'nana::detail::drawer']]]
 ];

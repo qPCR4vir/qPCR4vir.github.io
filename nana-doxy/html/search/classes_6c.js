@@ -17,6 +17,8 @@ var searchData=
   ['list_3c_20std_3a_3adeque_3c_20value_20_3e_20_3e',['list&lt; std::deque&lt; value &gt; &gt;',['http://en.cppreference.com/w/cpp/container/list.html',1,'std']]],
   ['listbox',['listbox',['../d1/dda/classnana_1_1listbox.html',1,'nana']]],
   ['listbox_5fevents',['listbox_events',['../d5/ddb/structnana_1_1drawerbase_1_1listbox_1_1listbox__events.html',1,'nana::drawerbase::listbox']]],
+  ['lite_5fmap',['lite_map',['../d4/d56/classnana_1_1detail_1_1lite__map.html',1,'nana::detail']]],
+  ['lite_5fmap_3c_20nana_3a_3adetail_3a_3abasic_5fwindow_20_2a_2c_20std_3a_3avector_3c_20std_3a_3afunction_3c_20void_28_29_3e_20_3e_20_3e',['lite_map&lt; nana::detail::basic_window *, std::vector&lt; std::function&lt; void()&gt; &gt; &gt;',['../d4/d56/classnana_1_1detail_1_1lite__map.html',1,'nana::detail']]],
   ['lite_5fwidget_5ftag',['lite_widget_tag',['../d5/d93/structnana_1_1category_1_1lite__widget__tag.html',1,'nana::category']]],
   ['locale',['locale',['http://en.cppreference.com/w/cpp/locale/locale.html',1,'std']]],
   ['locale_5finitializer',['locale_initializer',['../df/dc8/classnana_1_1detail_1_1locale__initializer.html',1,'nana::detail']]],

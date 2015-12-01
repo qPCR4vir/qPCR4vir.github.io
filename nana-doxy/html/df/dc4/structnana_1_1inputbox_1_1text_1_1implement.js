@@ -2,6 +2,7 @@ var structnana_1_1inputbox_1_1text_1_1implement =
 [
     [ "combox", "df/dc4/structnana_1_1inputbox_1_1text_1_1implement.html#aeafc71a33e777b65744044e19c699a60", null ],
     [ "dock", "df/dc4/structnana_1_1inputbox_1_1text_1_1implement.html#a5ccc0c65ed7e6dd891a6c92ff7443a90", null ],
+    [ "init_text", "df/dc4/structnana_1_1inputbox_1_1text_1_1implement.html#a477cde1c9ae0ce62b72a8e0bc40ee2cb", null ],
     [ "label", "df/dc4/structnana_1_1inputbox_1_1text_1_1implement.html#aa8fc0c60ac08e750d50340fa293148da", null ],
     [ "label_text", "df/dc4/structnana_1_1inputbox_1_1text_1_1implement.html#af5f713978ebfb3d5d9946b849953a3ad", null ],
     [ "mask_character", "df/dc4/structnana_1_1inputbox_1_1text_1_1implement.html#a5f0c144a260e675f12baa68fac159daf", null ],

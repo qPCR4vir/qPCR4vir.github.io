@@ -1,6 +1,7 @@
 var searchData=
 [
   ['text_5feditor',['text_editor',['../db/d33/classnana_1_1drawerbase_1_1textbox_1_1drawer.html#ab0a432bf09bb341ae9d103ec16e29a59',1,'nana::drawerbase::textbox::drawer']]],
+  ['text_5fpositions',['text_positions',['../de/d10/classnana_1_1textbox.html#a188fbd597a52a56813f7d62d9a8ac19d',1,'nana::textbox']]],
   ['thr_5fcontext_5fcontainer',['thr_context_container',['../dd/df3/structnana_1_1detail_1_1bedrock_1_1private__impl.html#a6406ff8cf587a476ef11307d5708c8ea',1,'nana::detail::bedrock::private_impl::thr_context_container()'],['../dd/df3/structnana_1_1detail_1_1bedrock_1_1private__impl.html#a6406ff8cf587a476ef11307d5708c8ea',1,'nana::detail::bedrock::private_impl::thr_context_container()']]],
   ['timer_5fidentifier',['timer_identifier',['../d2/d76/namespacenana.html#a6b1185ef7ac9a0a3bc2a039ff0aceea3',1,'nana']]],
   ['timer_5fproc_5ftype',['timer_proc_type',['../d3/d5f/classnana_1_1detail_1_1msg__dispatcher.html#a0fa9474c378ad91f595cd58bde5ee15a',1,'nana::detail::msg_dispatcher::timer_proc_type()'],['../d5/dd4/classnana_1_1detail_1_1platform__spec.html#a19721eb77ffd72a2e6ac8901404860f0',1,'nana::detail::platform_spec::timer_proc_type()']]],

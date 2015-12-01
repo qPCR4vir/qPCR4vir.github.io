@@ -1,5 +1,6 @@
 var classnana_1_1textbox =
 [
+    [ "text_positions", "de/d10/classnana_1_1textbox.html#a188fbd597a52a56813f7d62d9a8ac19d", null ],
     [ "textbox", "de/d10/classnana_1_1textbox.html#a55ca04107023705e5a8425a868938d89", null ],
     [ "textbox", "de/d10/classnana_1_1textbox.html#ac1ee36c9b0c9d9f1af9a86d18b8929dc", null ],
     [ "textbox", "de/d10/classnana_1_1textbox.html#a3d7159d221cf6c3c0700d50bbbdc775c", null ],
@@ -10,6 +11,7 @@ var classnana_1_1textbox =
     [ "_m_typeface", "de/d10/classnana_1_1textbox.html#a7477dfc330d226a324c3258e109977d5", null ],
     [ "append", "de/d10/classnana_1_1textbox.html#a3b5f8f9291b11ef92a213dd323c46b08", null ],
     [ "caret_pos", "de/d10/classnana_1_1textbox.html#a90c577c1314c992b6b32d8ab733c0eaa", null ],
+    [ "caret_pos", "de/d10/classnana_1_1textbox.html#ae0040a2675120a3141a2239d5bdeaacb", null ],
     [ "copy", "de/d10/classnana_1_1textbox.html#a7683950c632c33a7ee70657b05c4ebb1", null ],
     [ "del", "de/d10/classnana_1_1textbox.html#aaf9e5df254e862339bb5659da7fc2738", null ],
     [ "editable", "de/d10/classnana_1_1textbox.html#a4449f1a489ded6fc48fedb6e0a62a7f8", null ],
@@ -22,6 +24,8 @@ var classnana_1_1textbox =
     [ "from", "de/d10/classnana_1_1textbox.html#ae6ce18d14870628216b676b6b5f4917d", null ],
     [ "from", "de/d10/classnana_1_1textbox.html#aec01280a62a124f0f8c2d970bd922efb", null ],
     [ "getline", "de/d10/classnana_1_1textbox.html#ab816b6ecd082eb524ad0afad114fcaaa", null ],
+    [ "indention", "de/d10/classnana_1_1textbox.html#ac02ac1e98c6ae5cdc58027d3d2dcc28c", null ],
+    [ "line_pixels", "de/d10/classnana_1_1textbox.html#a904153119b8276cdee68bd4e7dfb661d", null ],
     [ "line_wrapped", "de/d10/classnana_1_1textbox.html#a9038f96fc466c7ca7e0f6612a2966472", null ],
     [ "line_wrapped", "de/d10/classnana_1_1textbox.html#a2dfd65ff9185847fa362159f59013e16", null ],
     [ "load", "de/d10/classnana_1_1textbox.html#aa3f39a83117427c1ce03bbca628f1a1b", null ],
@@ -39,6 +43,8 @@ var classnana_1_1textbox =
     [ "set_keywords", "de/d10/classnana_1_1textbox.html#ab4c642356b01a5b329cec86190404b41", null ],
     [ "store", "de/d10/classnana_1_1textbox.html#a9dcb762caeddfefded40c235a8d5eec6", null ],
     [ "store", "de/d10/classnana_1_1textbox.html#a6e2a0ada560ef9b2d8a3a58656d21a96", null ],
+    [ "text_area", "de/d10/classnana_1_1textbox.html#a0c23ac2359a063810884dc3e4a7a9765", null ],
+    [ "text_position", "de/d10/classnana_1_1textbox.html#ae8a08e85fbcfdabb2abcdfe5dd3b116d", null ],
     [ "tip_string", "de/d10/classnana_1_1textbox.html#a15a90164c93a2db0551d22d02b89dd53", null ],
     [ "to_double", "de/d10/classnana_1_1textbox.html#a03f319e0fd9f90c6b20e1bc9b9115d61", null ],
     [ "to_int", "de/d10/classnana_1_1textbox.html#a2f1deedad81884583e18e9ef43a15b1c", null ]

@@ -35,5 +35,7 @@ var searchData=
   ['displayed',['displayed',['../d2/da8/namespacenana_1_1detail.html#a3fcd05af36be0714208b0b4f95f44aa0a5eae21b7e5db4ab6f16887a9249d170c',1,'nana::detail']]],
   ['div_5fend',['div_end',['../de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a3b2724d4929c36388dcb95510fcc2480',1,'nana::place_parts::tokenizer']]],
   ['div_5fstart',['div_start',['../de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a796e7d12b3183b48d16e2b62822093f7',1,'nana::place_parts::tokenizer']]],
+  ['dock',['dock',['../de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a05debdb8b38c7e1e244dd770b62d1d4f',1,'nana::place_parts::tokenizer::dock()'],['../dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8a05debdb8b38c7e1e244dd770b62d1d4f',1,'nana::place::implement::division::dock()']]],
+  ['dockpane',['dockpane',['../dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8a12652cf33ea0a2bdb710a2d9c1e7c081',1,'nana::place::implement::division']]],
   ['dodger_5fblue',['dodger_blue',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a5c090aa7c47fc1b6a05035e07ec9fbb9',1,'nana']]]
 ];

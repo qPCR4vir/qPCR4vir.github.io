@@ -18,6 +18,7 @@ var namespacenana_1_1drawerbase =
     [ "slider", "d0/dac/namespacenana_1_1drawerbase_1_1slider.html", "d0/dac/namespacenana_1_1drawerbase_1_1slider" ],
     [ "spinbox", "d8/d4c/namespacenana_1_1drawerbase_1_1spinbox.html", "d8/d4c/namespacenana_1_1drawerbase_1_1spinbox" ],
     [ "tabbar", "d5/dc0/namespacenana_1_1drawerbase_1_1tabbar.html", "d5/dc0/namespacenana_1_1drawerbase_1_1tabbar" ],
+    [ "tabbar_lite", "d4/da0/namespacenana_1_1drawerbase_1_1tabbar__lite.html", "d4/da0/namespacenana_1_1drawerbase_1_1tabbar__lite" ],
     [ "textbox", "de/d1d/namespacenana_1_1drawerbase_1_1textbox.html", "de/d1d/namespacenana_1_1drawerbase_1_1textbox" ],
     [ "toolbar", "de/d29/namespacenana_1_1drawerbase_1_1toolbar.html", "de/d29/namespacenana_1_1drawerbase_1_1toolbar" ],
     [ "tooltip", "d4/da3/namespacenana_1_1drawerbase_1_1tooltip.html", "d4/da3/namespacenana_1_1drawerbase_1_1tooltip" ],
