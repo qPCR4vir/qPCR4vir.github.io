@@ -1,126 +1,3 @@
-var NAVTREE =
-[
-  [ "Nana C++ Library. Reference for users.", "index.html", [
-    [ "Reference documentation. {for nana users, hotfix-1.2, 25.11.2015 15:36:36}", "index.html", null ],
-    [ "Instructions:", "d2/d75/md__c_1__prog__ext_lib_nana_build_bakefile_readme.html", null ],
-    [ "readme", "dd/da4/md__c_1__prog__ext_lib_nana_build_makefile_readme.html", null ],
-    [ "Nana C++ Library", "da/d2b/md__c_1__prog__ext_lib_nana__r_e_a_d_m_e.html", null ],
-    [ "Nana C++ library.", "d5/d9b/md__c_1__prog__ext_lib_nana-docs_source_01-_introduction.html", [
-      [ "What is Nana C++ Library?", "d5/d9b/md__c_1__prog__ext_lib_nana-docs_source_01-_introduction.html#WhatIs", null ],
-      [ "Installation", "d5/d9b/md__c_1__prog__ext_lib_nana-docs_source_01-_introduction.html#Install", [
-        [ "General", "d5/d9b/md__c_1__prog__ext_lib_nana-docs_source_01-_introduction.html#General", null ],
-        [ "Microsoft Visual C++", "d5/d9b/md__c_1__prog__ext_lib_nana-docs_source_01-_introduction.html#Microsoft", null ],
-        [ "Code::Blocks", "d5/d9b/md__c_1__prog__ext_lib_nana-docs_source_01-_introduction.html#Code", null ]
-      ] ],
-      [ "Introduction", "d5/d9b/md__c_1__prog__ext_lib_nana-docs_source_01-_introduction.html#Intro", [
-        [ "Threading", "d5/d9b/md__c_1__prog__ext_lib_nana-docs_source_01-_introduction.html#Threading", null ],
-        [ "RAII", "d5/d9b/md__c_1__prog__ext_lib_nana-docs_source_01-_introduction.html#RAII", null ],
-        [ "Cross-Platform Programming", "d5/d9b/md__c_1__prog__ext_lib_nana-docs_source_01-_introduction.html#Cross", null ]
-      ] ],
-      [ "Hello World", "d5/d9b/md__c_1__prog__ext_lib_nana-docs_source_01-_introduction.html#Hello", null ]
-    ] ],
-    [ "Getting Started", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html", [
-      [ "Examples", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#exam", [
-        [ "Hello Nana", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#HelloN", null ],
-        [ "Making An Event", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#Event", null ]
-      ] ],
-      [ "Function Objects", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#Functor", [
-        [ "Predefined Function Objects", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#Predefined", null ],
-        [ "The Lambda Expression", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#Lambda", null ]
-      ] ],
-      [ "Creating forms", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#forms", [
-        [ "Defining a form through Derivation", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#der", null ],
-        [ "Creating An Instance of the Form with form_loader<form>()", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#loader", null ],
-        [ "Modal Form", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#mmodal", null ]
-      ] ],
-      [ "Appearance of Window", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#appear", null ],
-      [ "Event Handling", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#event", [
-        [ "Registering and Unregistering an Event", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#reg", null ],
-        [ "Events", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#eve", [
-          [ "Mouse Events", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#mous", null ],
-          [ "Keyboard Events", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#Keyboard", null ]
-        ] ]
-      ] ],
-      [ "Enable the PNG support for Nana C++ Library", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#PNG", [
-        [ "Enable the support for PNG", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#pnge", null ]
-      ] ],
-      [ "Message box", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#msg", null ],
-      [ "Window Icon", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#icon", null ]
-    ] ],
-    [ "Advanced topics", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html", [
-      [ "Think about the Design", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html#desing", null ],
-      [ "How to implement a button", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html#impl_b", [
-        [ "1 Introduction", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html#intro", null ],
-        [ "2. Implementation", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html#impl", [
-          [ "2.1 Window Manipulator", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html#manip", null ],
-          [ "2.2. Drawer Trigger", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html#trig", null ]
-        ] ]
-      ] ],
-      [ "The tabstop in Nana.GUI", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html#tab", null ],
-      [ "A Method to prevent UI from blocking while busy", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html#block", null ]
-    ] ],
-    [ "Deprecated List", "da/d58/deprecated.html", null ],
-    [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
-        [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
-        [ "Variables", "namespacemembers_vars.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ],
-        [ "Enumerator", "namespacemembers_eval.html", "namespacemembers_eval" ]
-      ] ]
-    ] ],
-    [ "Classes", null, [
-      [ "Class List", "annotated.html", "annotated" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", "functions_vars" ],
-        [ "Typedefs", "functions_type.html", "functions_type" ],
-        [ "Enumerations", "functions_enum.html", null ],
-        [ "Enumerator", "functions_eval.html", "functions_eval" ],
-        [ "Related Functions", "functions_rela.html", null ]
-      ] ]
-    ] ],
-    [ "Examples", "examples.html", "examples" ]
-  ] ]
-];
-
-var NAVTREEINDEX =
-[
-".html",
-"d0/dc8/structnana_1_1drawerbase_1_1picture_1_1implement_1_1back__image__tag.html#af73d057b9a572982c75d1e3d81f021e6",
-"d1/df0/structnana_1_1traits_1_1mfptr__traits_3_01_r_07_concept_1_1_5_08_07_p0_00_01_p1_00_01_p2_08_4.html#a7bea549c09e3c6d28ecf0059e32c2267",
-"d2/dd9/structnana_1_1inputbox_1_1path_1_1implement.html#a759d8fb15b55aedbeb7c455a4d41b686",
-"d3/d95/classnana_1_1widget__object.html#ac68f400454431bf4ff81c03a3eeac2ee",
-"d4/d38/classnana_1_1element_1_1detail_1_1factory__abstract.html#a95bd5c44e6d4ecd3f19ae0a49a4ad47f",
-"d4/dc4/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1undo__backspace.html#a5a6c2a6d87035fb661646a2da91fb346",
-"d5/d7d/structnana_1_1traits_1_1mfptr__traits_3_01_r_07_concept_1_1_5_08_07_p0_00_01_p1_00_01_p2_00_01_p3_08_01volatile_01_4.html#a5de25df140548f2e4779c9187ec1bff4",
-"d5/de8/folder_tree_std_8cpp-example.html",
-"d6/d7c/structnana_1_1arg__mouse.html#a40c09634164eeb761bb0d88b50d4e47b",
-"d7/daf/structnana_1_1detail_1_1drawable__impl__type_1_1brush__spec.html#ab4e0929979a6105f5c92495601c08167af617761a68003b98f6ea3b3fecf977f9",
-"d8/d7f/classnana_1_1unicode__bidi.html#ab4d218792adebd435c0808cfa7fce137aae41a6d38b78679b4675941ff0c0c92d",
-"d9/d60/structnana_1_1drawerbase_1_1tabbar_1_1item__t.html#ac7a14ab20dcae7423688ffd0ddadbf33",
-"d9/dec/namespacenana_1_1widgets_1_1detail.html",
-"da/dba/classnana_1_1key.html#a52dc9181ae9043d487a5eb7e107180bd",
-"db/da6/structnana_1_1drawerbase_1_1spinbox_1_1spinbox__events.html#a31f359a1f2bcead1f75a1d8041048eff",
-"dc/d71/classnana_1_1place_1_1implement_1_1division.html#ace732d0f543d8de70e4d343d8cca97cf",
-"dc/de3/classnana_1_1place.html#aa8627ada5f7cfe64c1512c3e5e7f9200",
-"dd/d2d/structnana_1_1rectangle.html#abfd71ece17c7e11db592053183f7d601",
-"dd/db8/classnana_1_1detail_1_1caret__descriptor.html",
-"de/d3c/structnana_1_1detail_1_1basic__window.html#a5960969851f61b6d08380166c55f9a9a",
-"de/df4/loader_2_8cpp-example.html",
-"df/dba/structnana_1_1drawerbase_1_1scroll_1_1metrics__type.html#a39354e343c517269888e80e0e5d72b47",
-"namespacemembers_func_0x65.html"
-];
-
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
 var navTreeSubIndices = new Array();
 
 function getData(varName)
@@ -141,6 +18,21 @@ function stripPath2(uri)
   var s = uri.substring(i+1);
   var m = uri.substring(0,i+1).match(/\/d\w\/d\w\w\/$/);
   return m ? uri.substring(i-6) : s;
+}
+
+function hashValue()
+{
+  return $(location).attr('hash').substring(1).replace(/[^\w\-]/g,'');
+}
+
+function hashUrl()
+{
+  return '#'+hashValue();
+}
+
+function pathName()
+{
+  return $(location).attr('pathname').replace(/[^-A-Za-z0-9+&@#/%?=~_|!:,.;\(\)]/g, '');
 }
 
 function localStorageSupported()
@@ -165,7 +57,7 @@ function deleteLink()
 {
   if (localStorageSupported()) {
     window.localStorage.setItem('navpath','');
-  } 
+  }
 }
 
 function cachedLink()
@@ -213,7 +105,7 @@ function createIndent(o,domNode,node,level)
     node.expandToggle.onclick = function() {
       if (node.expanded) {
         $(node.getChildrenUL()).slideUp("fast");
-        node.plus_img.src = node.relpath+"ftv2pnode.png";
+        node.plus_img.src = node.relpath+"arrowright.png";
         node.expanded = false;
       } else {
         expandNode(o, node, false, false);
@@ -221,13 +113,13 @@ function createIndent(o,domNode,node,level)
     }
     node.expandToggle.appendChild(imgNode);
     domNode.appendChild(node.expandToggle);
-    imgNode.src = node.relpath+"ftv2pnode.png";
+    imgNode.src = node.relpath+"arrowright.png";
   } else {
     var span = document.createElement("span");
     span.style.display = 'inline-block';
     span.style.width   = 16*(level+1)+'px';
     span.style.height  = '22px';
-    span.innerHTML = '&nbsp;';
+    span.innerHTML = '&#160;';
     domNode.appendChild(span);
   } 
 }
@@ -237,11 +129,13 @@ var animationInProgress = false;
 function gotoAnchor(anchor,aname,updateLocation)
 {
   var pos, docContent = $('#doc-content');
-  if (anchor.parent().attr('class')=='memItemLeft' ||
-      anchor.parent().attr('class')=='fieldtype' ||
-      anchor.parent().is(':header')) 
+  var ancParent = $(anchor.parent());
+  if (ancParent.hasClass('memItemLeft') ||
+      ancParent.hasClass('fieldname') ||
+      ancParent.hasClass('fieldtype') ||
+      ancParent.is(':header'))
   {
-    pos = anchor.parent().position().top;
+    pos = ancParent.position().top;
   } else if (anchor.position()) {
     pos = anchor.position().top;
   }
@@ -299,7 +193,7 @@ function newNode(o, po, text, link, childrenData, lastNode)
     a.className = stripPath(link.replace('#',':'));
     if (link.indexOf('#')!=-1) {
       var aname = '#'+link.split('#')[1];
-      var srcPage = stripPath($(location).attr('pathname'));
+      var srcPage = stripPath(pathName());
       var targetPage = stripPath(link.split('#')[0]);
       a.href = srcPage!=targetPage ? url : "javascript:void(0)"; 
       a.onclick = function(){
@@ -375,9 +269,9 @@ function expandNode(o, node, imm, showRoot)
         $(node.getChildrenUL()).slideDown("fast");
       }
       if (node.isLast) {
-        node.plus_img.src = node.relpath+"ftv2mlastnode.png";
+        node.plus_img.src = node.relpath+"arrowdown.png";
       } else {
-        node.plus_img.src = node.relpath+"ftv2mnode.png";
+        node.plus_img.src = node.relpath+"arrowdown.png";
       }
       node.expanded = true;
     }
@@ -393,14 +287,13 @@ function glowEffect(n,duration)
 
 function highlightAnchor()
 {
-  var aname = $(location).attr('hash');
+  var aname = hashUrl();
   var anchor = $(aname);
   if (anchor.parent().attr('class')=='memItemLeft'){
-    var rows = $('.memberdecls tr[class$="'+
-               window.location.hash.substring(1)+'"]');
+    var rows = $('.memberdecls tr[class$="'+hashValue()+'"]');
     glowEffect(rows.children(),300); // member without details
-  } else if (anchor.parents().slice(2).prop('tagName')=='TR') {
-    glowEffect(anchor.parents('div.memitem'),1000); // enum value
+  } else if (anchor.parent().attr('class')=='fieldname'){
+    glowEffect(anchor.parent().parent(),1000); // enum value
   } else if (anchor.parent().attr('class')=='fieldtype'){
     glowEffect(anchor.parent().parent(),1000); // struct field
   } else if (anchor.parent().is(":header")) {
@@ -415,7 +308,7 @@ function selectAndHighlight(hash,n)
 {
   var a;
   if (hash) {
-    var link=stripPath($(location).attr('pathname'))+':'+hash.substring(1);
+    var link=stripPath(pathName())+':'+hash.substring(1);
     a=$('.item a[class$="'+link+'"]');
   }
   if (a && a.length) {
@@ -448,11 +341,7 @@ function showNode(o, node, index, hash)
         getNode(o, node);
       }
       $(node.getChildrenUL()).css({'display':'block'});
-      if (node.isLast) {
-        node.plus_img.src = node.relpath+"ftv2mlastnode.png";
-      } else {
-        node.plus_img.src = node.relpath+"ftv2mnode.png";
-      }
+      node.plus_img.src = node.relpath+"arrowdown.png";
       node.expanded = true;
       var n = node.children[o.breadcrumbs[index]];
       if (index+1<o.breadcrumbs.length) {
@@ -526,14 +415,13 @@ function navTo(o,root,hash,relpath)
   if (link) {
     var parts = link.split('#');
     root = parts[0];
-    if (parts.length>1) hash = '#'+parts[1];
+    if (parts.length>1) hash = '#'+parts[1].replace(/[^\w\-]/g,'');
     else hash='';
   }
   if (hash.match(/^#l\d+$/)) {
     var anchor=$('a[name='+hash.substring(1)+']');
     glowEffect(anchor.parent(),1000); // line number
     hash=''; // strip line number anchors
-    //root=root.replace(/_source\./,'.'); // source link to doc link
   }
   var url=root+hash;
   var i=-1;
@@ -567,7 +455,7 @@ function toggleSyncButton(relpath)
   if (navSync.hasClass('sync')) {
     navSync.removeClass('sync');
     showSyncOff(navSync,relpath);
-    storeLink(stripPath2($(location).attr('pathname'))+$(location).attr('hash'));
+    storeLink(stripPath2(pathName())+hashUrl());
   } else {
     navSync.addClass('sync');
     showSyncOn(navSync,relpath);
@@ -591,7 +479,7 @@ function initNavTree(toroot,relpath)
   o.node.expanded = false;
   o.node.isLast = true;
   o.node.plus_img = document.createElement("img");
-  o.node.plus_img.src = relpath+"ftv2pnode.png";
+  o.node.plus_img.src = relpath+"arrowright.png";
   o.node.plus_img.width = 16;
   o.node.plus_img.height = 22;
 
@@ -607,7 +495,7 @@ function initNavTree(toroot,relpath)
   }
 
   $(window).load(function(){
-    navTo(o,toroot,window.location.hash,relpath);
+    navTo(o,toroot,hashUrl(),relpath);
     showRoot();
   });
 
@@ -615,21 +503,20 @@ function initNavTree(toroot,relpath)
      if (window.location.hash && window.location.hash.length>1){
        var a;
        if ($(location).attr('hash')){
-         var clslink=stripPath($(location).attr('pathname'))+':'+
-                               $(location).attr('hash').substring(1);
-         a=$('.item a[class$="'+clslink+'"]');
+         var clslink=stripPath(pathName())+':'+hashValue();
+         a=$('.item a[class$="'+clslink.replace(/</g,'\\3c ')+'"]');
        }
        if (a==null || !$(a).parent().parent().hasClass('selected')){
          $('.item').removeClass('selected');
          $('.item').removeAttr('id');
        }
-       var link=stripPath2($(location).attr('pathname'));
-       navTo(o,link,$(location).attr('hash'),relpath);
+       var link=stripPath2(pathName());
+       navTo(o,link,hashUrl(),relpath);
      } else if (!animationInProgress) {
        $('#doc-content').scrollTop(0);
        $('.item').removeClass('selected');
        $('.item').removeAttr('id');
-       navTo(o,toroot,window.location.hash,relpath);
+       navTo(o,toroot,hashUrl(),relpath);
      }
   })
 }

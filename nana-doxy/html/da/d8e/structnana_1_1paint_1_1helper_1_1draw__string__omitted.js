@@ -1,7 +1,7 @@
 var structnana_1_1paint_1_1helper_1_1draw__string__omitted =
 [
     [ "draw_string_omitted", "da/d8e/structnana_1_1paint_1_1helper_1_1draw__string__omitted.html#adf7f87f7c59169da079998292a5dcf99", null ],
-    [ "operator()", "da/d8e/structnana_1_1paint_1_1helper_1_1draw__string__omitted.html#a7ddffb2d9416288d9accb5d23fdc36b0", null ],
+    [ "operator()", "da/d8e/structnana_1_1paint_1_1helper_1_1draw__string__omitted.html#ae41b4383abee90e60ec0151cb172e770", null ],
     [ "bidi", "da/d8e/structnana_1_1paint_1_1helper_1_1draw__string__omitted.html#acf2f05bb5283ec26a2b6284f87deec20", null ],
     [ "endpos", "da/d8e/structnana_1_1paint_1_1helper_1_1draw__string__omitted.html#afe6f128eedf3824683e6186640e43d3e", null ],
     [ "graph", "da/d8e/structnana_1_1paint_1_1helper_1_1draw__string__omitted.html#a3f7822cc881b77068339ae57ed5cc7a2", null ],

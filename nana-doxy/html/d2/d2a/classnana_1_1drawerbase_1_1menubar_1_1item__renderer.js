@@ -8,5 +8,5 @@ var classnana_1_1drawerbase_1_1menubar_1_1item__renderer =
     ] ],
     [ "item_renderer", "d2/d2a/classnana_1_1drawerbase_1_1menubar_1_1item__renderer.html#aca51828a6ab2b5b38170e57f1e0296e6", null ],
     [ "background", "d2/d2a/classnana_1_1drawerbase_1_1menubar_1_1item__renderer.html#a6c337d239627e1e5a2ed19b9550ea999", null ],
-    [ "caption", "d2/d2a/classnana_1_1drawerbase_1_1menubar_1_1item__renderer.html#aff68bb99c351e0f11d0aa14c4b438af0", null ]
+    [ "caption", "d2/d2a/classnana_1_1drawerbase_1_1menubar_1_1item__renderer.html#acac0b651f4ffcd9a86fee5d98608aab2", null ]
 ];

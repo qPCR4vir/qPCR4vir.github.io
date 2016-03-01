@@ -8,5 +8,5 @@ var structnana_1_1drawerbase_1_1treebox_1_1node__attribute =
     [ "icon_normal", "df/d28/structnana_1_1drawerbase_1_1treebox_1_1node__attribute.html#aaa4d5ccb863ec15a7929caa9d91a044b", null ],
     [ "mouse_pointed", "df/d28/structnana_1_1drawerbase_1_1treebox_1_1node__attribute.html#a0c40980db218326b95ba2b1c694203ba", null ],
     [ "selected", "df/d28/structnana_1_1drawerbase_1_1treebox_1_1node__attribute.html#a46cef5a981143c690a1a2a8d0d2f9f18", null ],
-    [ "text", "df/d28/structnana_1_1drawerbase_1_1treebox_1_1node__attribute.html#ab5da5f1cadcb9a669ed37b79cc8a3499", null ]
+    [ "text", "df/d28/structnana_1_1drawerbase_1_1treebox_1_1node__attribute.html#a57c54cc75607bcc3f8d42a6743446f7e", null ]
 ];

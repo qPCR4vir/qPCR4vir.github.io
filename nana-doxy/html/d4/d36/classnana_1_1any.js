@@ -1,17 +1,16 @@
 var classnana_1_1any =
 [
-    [ "any", "d4/d36/classnana_1_1any.html#ae0c4b3b3e6f74e70ca3d3860f8ab44ca", null ],
-    [ "any", "d4/d36/classnana_1_1any.html#a3f90528704fc44af522839fdc698d74e", null ],
-    [ "any", "d4/d36/classnana_1_1any.html#a2a024e2759aeef1376d8b67a19541d40", null ],
-    [ "any", "d4/d36/classnana_1_1any.html#a676013b3bcb852848789cb7fde48130e", null ],
-    [ "any", "d4/d36/classnana_1_1any.html#a07634cd550290d1ae93d6724e994dad7", null ],
+    [ "any", "d4/d36/classnana_1_1any.html#ac5ea9a258b30f64183bbb61ee770ccb8", null ],
+    [ "any", "d4/d36/classnana_1_1any.html#aefd3b4860a288e42ee08d1f7c34c5742", null ],
+    [ "any", "d4/d36/classnana_1_1any.html#a75c6a49cbc2e4eea58854b10a5bc9a32", null ],
+    [ "any", "d4/d36/classnana_1_1any.html#a52b8617f22fd158a79e352d0c1ef8e64", null ],
     [ "~any", "d4/d36/classnana_1_1any.html#a4e66bfc7cab80e9afd2e84dc96ecdfbb", null ],
-    [ "get", "d4/d36/classnana_1_1any.html#a80f49074ed033a801b9ae32eed04cebf", null ],
-    [ "operator T &", "d4/d36/classnana_1_1any.html#aa593385fa41abb1cb854ffba06ba2d22", null ],
-    [ "operator T *", "d4/d36/classnana_1_1any.html#a57bb7f9b490c1defe1739b7f06fd0d30", null ],
-    [ "operator=", "d4/d36/classnana_1_1any.html#ab914504c09b7e0faa1bbc86b21873490", null ],
-    [ "operator=", "d4/d36/classnana_1_1any.html#a1010d6175ca3f02c7a77ca68c8a3989e", null ],
-    [ "operator=", "d4/d36/classnana_1_1any.html#ab1e8e12fd61096caaf4226244e28c867", null ],
-    [ "operator=", "d4/d36/classnana_1_1any.html#ab8e0575b9a57fe5f10b87043322892ff", null ],
-    [ "same", "d4/d36/classnana_1_1any.html#a379258a79bfb929b234b8526827092a2", null ]
+    [ "clear", "d4/d36/classnana_1_1any.html#ad1b1efc430c3cd3e873c0a02b1608822", null ],
+    [ "empty", "d4/d36/classnana_1_1any.html#a6afc4821d9de92c1d244dc8934449b9b", null ],
+    [ "operator=", "d4/d36/classnana_1_1any.html#a0d669d52461f39e99675454b9aa8bdd4", null ],
+    [ "operator=", "d4/d36/classnana_1_1any.html#a7fbbc4204f20946e1924e2dff3fc3018", null ],
+    [ "operator=", "d4/d36/classnana_1_1any.html#a5eabb4f93cc6118f30ac7b17c9b2128f", null ],
+    [ "swap", "d4/d36/classnana_1_1any.html#ad104467ebd8673e31aa1723f5a369846", null ],
+    [ "type", "d4/d36/classnana_1_1any.html#ac9e54cd21167c64f37b24f55cd3533c7", null ],
+    [ "any_cast", "d4/d36/classnana_1_1any.html#ab2ef8421c626f48e0fe20e7c2c34a348", null ]
 ];

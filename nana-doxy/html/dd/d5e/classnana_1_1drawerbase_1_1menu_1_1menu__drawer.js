@@ -13,7 +13,7 @@ var classnana_1_1drawerbase_1_1menu_1_1menu__drawer =
     [ "mouse_leave", "dd/d5e/classnana_1_1drawerbase_1_1menu_1_1menu__drawer.html#adecd45ef0abc70bc911aff83bc05640d", null ],
     [ "mouse_move", "dd/d5e/classnana_1_1drawerbase_1_1menu_1_1menu__drawer.html#aa7564d5bb13973cd3bb5201745a27215", null ],
     [ "refresh", "dd/d5e/classnana_1_1drawerbase_1_1menu_1_1menu__drawer.html#a88f016bcf2a421526c2e931604a465a4", null ],
-    [ "send_shortkey", "dd/d5e/classnana_1_1drawerbase_1_1menu_1_1menu__drawer.html#a7c6c4056199e56ae6505e01a569a8793", null ],
+    [ "send_shortkey", "dd/d5e/classnana_1_1drawerbase_1_1menu_1_1menu__drawer.html#ad04d17a2aa7001d05ab9203c38d5f6bf", null ],
     [ "set_sub_window", "dd/d5e/classnana_1_1drawerbase_1_1menu_1_1menu__drawer.html#a8ed23207033d7f0fa1941a9ca52585bf", null ],
     [ "track_mouse", "dd/d5e/classnana_1_1drawerbase_1_1menu_1_1menu__drawer.html#ad1651893239383808301ce76ef6ac203", null ],
     [ "renderer", "dd/d5e/classnana_1_1drawerbase_1_1menu_1_1menu__drawer.html#a628e0c197d013822b98821143ef11001", null ]

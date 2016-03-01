@@ -4,8 +4,8 @@ var classnana_1_1combox =
     [ "item_renderer", "de/d10/classnana_1_1combox.html#ab0ad526f9ba27354027deb118c5bb21e", null ],
     [ "combox", "de/d10/classnana_1_1combox.html#abe34dcb9ffcd38dc26e1d251d804f3ad", null ],
     [ "combox", "de/d10/classnana_1_1combox.html#ace504c5c3394cd12220f1026ae98f433", null ],
-    [ "combox", "de/d10/classnana_1_1combox.html#ad73698e8732bb8ff600c758cc4cad90a", null ],
-    [ "combox", "de/d10/classnana_1_1combox.html#a63711affe824cc466050869d8924b4e5", null ],
+    [ "combox", "de/d10/classnana_1_1combox.html#a6dee9d3e568e86a05a2912e4a558fe97", null ],
+    [ "combox", "de/d10/classnana_1_1combox.html#aac85c67a680edc2ddc7fb7208fa2f99f", null ],
     [ "combox", "de/d10/classnana_1_1combox.html#a2928850ec4e9b0c905cff44646a3ae7c", null ],
     [ "clear", "de/d10/classnana_1_1combox.html#a44d788683d662825d86d0497da39731c", null ],
     [ "editable", "de/d10/classnana_1_1combox.html#a16f685b6b1d2e43d8cbb99d53910d272", null ],
@@ -19,9 +19,9 @@ var classnana_1_1combox =
     [ "operator[]", "de/d10/classnana_1_1combox.html#a4d5c5f5ac4d2e8a1b16c9a58287487c9", null ],
     [ "option", "de/d10/classnana_1_1combox.html#a0ef13780990389dca63394bc35202790", null ],
     [ "option", "de/d10/classnana_1_1combox.html#a207a14dab0e622c8f0356008517d3369", null ],
-    [ "push_back", "de/d10/classnana_1_1combox.html#aaa0b298ae019a621a4e3bd684d89eb66", null ],
+    [ "push_back", "de/d10/classnana_1_1combox.html#a213e382261c7441de911a81dd68c9477", null ],
     [ "renderer", "de/d10/classnana_1_1combox.html#a0df0d0de35623eac4e7285a2def2b7f9", null ],
-    [ "set_accept", "de/d10/classnana_1_1combox.html#add98fa492dbeeb3a9ceb141bd30e1012", null ],
-    [ "text", "de/d10/classnana_1_1combox.html#a7fd911f28b1e31d63f636327f9dfb775", null ],
+    [ "set_accept", "de/d10/classnana_1_1combox.html#a1564c995797d668ad0c4252874f10100", null ],
+    [ "text", "de/d10/classnana_1_1combox.html#abf292d244bd218b661f7dcd9f96e5eaf", null ],
     [ "the_number_of_options", "de/d10/classnana_1_1combox.html#a7dc05f90d784f5669a05b3f14f76e6e9", null ]
 ];

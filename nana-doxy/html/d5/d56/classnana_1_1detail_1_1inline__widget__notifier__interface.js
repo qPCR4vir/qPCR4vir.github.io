@@ -9,5 +9,5 @@ var classnana_1_1detail_1_1inline__widget__notifier__interface =
     [ "create", "d5/d56/classnana_1_1detail_1_1inline__widget__notifier__interface.html#a9993762e6ab64fc4736827af7512a314", null ],
     [ "resize", "d5/d56/classnana_1_1detail_1_1inline__widget__notifier__interface.html#a0ab446e34ed19e7d3cac9d9417f8e3df", null ],
     [ "set", "d5/d56/classnana_1_1detail_1_1inline__widget__notifier__interface.html#ae818f179291f239b96d85ab98739b275", null ],
-    [ "whether_to_draw", "d5/d56/classnana_1_1detail_1_1inline__widget__notifier__interface.html#a9a0c482aeccce88c14d6c8c825fb5ab1", null ]
+    [ "whether_to_draw", "d5/d56/classnana_1_1detail_1_1inline__widget__notifier__interface.html#a304e8749789cbdd7c6333fef4a4aa101", null ]
 ];

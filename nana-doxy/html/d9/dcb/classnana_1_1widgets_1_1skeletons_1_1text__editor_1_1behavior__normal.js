@@ -10,7 +10,7 @@ var classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__normal =
     [ "pre_calc_lines", "d9/dcb/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__normal.html#ad624a682ea5edc7195968d40d5d8fc74", null ],
     [ "render", "d9/dcb/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__normal.html#a33142beca6dcb1d0919e03d7f7755c05", null ],
     [ "screen_to_caret", "d9/dcb/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__normal.html#a5fb0a7e08978da70650b0dc1e8097a08", null ],
-    [ "take_lines", "d9/dcb/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__normal.html#ae2f50687cb9ca919205b047a0a99c435", null ],
-    [ "take_lines", "d9/dcb/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__normal.html#a2cceb09c6f90eec8de15b89958c1fdfb", null ],
+    [ "take_lines", "d9/dcb/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__normal.html#aaa40215cfec89c1f679dbd6338a57fcd", null ],
+    [ "take_lines", "d9/dcb/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__normal.html#a23956e03ed7852692a082eccda6d68e3", null ],
     [ "update_line", "d9/dcb/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__normal.html#aaf73fe0b6321c0be207fe96d6b56d053", null ]
 ];

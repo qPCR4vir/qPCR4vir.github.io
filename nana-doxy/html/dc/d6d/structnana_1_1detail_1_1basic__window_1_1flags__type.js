@@ -14,6 +14,7 @@ var structnana_1_1detail_1_1basic__window_1_1flags__type =
     [ "modal", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#a6699d9c3cffcf0ae6e152343fc1eddba", null ],
     [ "refreshing", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#af9a0291326d078e8c665ca180f8dc3c5", null ],
     [ "Reserved", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#ab11f94eea869136211e0bbd8e5b39f3d", null ],
+    [ "space_click_enabled", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#af641f4e25fdb0de74ba4b750f7e6e8a0", null ],
     [ "tab", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#aa1987e7bb5dbfbd7f9e6125423099e2c", null ],
     [ "take_active", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#af83f9a126f76492b0235ab257dda1a5a", null ]
 ];

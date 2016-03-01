@@ -5,7 +5,7 @@ var classnana_1_1inputbox =
     [ "path", "d7/d25/classnana_1_1inputbox_1_1path.html", "d7/d25/classnana_1_1inputbox_1_1path" ],
     [ "real", "d3/ddd/classnana_1_1inputbox_1_1real.html", "d3/ddd/classnana_1_1inputbox_1_1real" ],
     [ "text", "d3/dd2/classnana_1_1inputbox_1_1text.html", "d3/dd2/classnana_1_1inputbox_1_1text" ],
-    [ "inputbox", "d0/d9b/classnana_1_1inputbox.html#a4a0a58f737e7a657ad021ac495611d95", null ],
+    [ "inputbox", "d0/d9b/classnana_1_1inputbox.html#af69c888195c3cf9d7f412b40bad21353", null ],
     [ "image", "d0/d9b/classnana_1_1inputbox.html#a096da8ea9be906c4521bd1da36378d45", null ],
     [ "image_v", "d0/d9b/classnana_1_1inputbox.html#a7d64f987da3c2aae503e1f91926aff6a", null ],
     [ "show", "d0/d9b/classnana_1_1inputbox.html#ab7f1a10007514ec3e65a70842c87f6b4", null ],

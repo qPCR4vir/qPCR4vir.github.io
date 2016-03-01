@@ -8,6 +8,6 @@ var classnana_1_1widget__object_3_01category_1_1frame__tag_00_01int_00_01_events
     [ "create", "db/d30/classnana_1_1widget__object_3_01category_1_1frame__tag_00_01int_00_01_events_00_01_scheme_01_4.html#aee39ce4b7fe95ceb49730fb25e8a87aa", null ],
     [ "create", "db/d30/classnana_1_1widget__object_3_01category_1_1frame__tag_00_01int_00_01_events_00_01_scheme_01_4.html#a14cc497af63bcd8d14c68941fa23ece9", null ],
     [ "events", "db/d30/classnana_1_1widget__object_3_01category_1_1frame__tag_00_01int_00_01_events_00_01_scheme_01_4.html#a745707030b31f1ae852beeff7948ba59", null ],
-    [ "handle", "db/d30/classnana_1_1widget__object_3_01category_1_1frame__tag_00_01int_00_01_events_00_01_scheme_01_4.html#a0edc5febf5e5c5152ddb5328e2717810", null ],
+    [ "handle", "db/d30/classnana_1_1widget__object_3_01category_1_1frame__tag_00_01int_00_01_events_00_01_scheme_01_4.html#af215c4364ca75dbacebe9a21ba537514", null ],
     [ "scheme", "db/d30/classnana_1_1widget__object_3_01category_1_1frame__tag_00_01int_00_01_events_00_01_scheme_01_4.html#ac5cce8df76a9d4cf763f920dc606c763", null ]
 ];

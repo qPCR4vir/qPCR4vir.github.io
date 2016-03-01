@@ -11,7 +11,7 @@ var classnana_1_1drawerbase_1_1menu_1_1menu__builder =
     [ "data", "d4/df9/classnana_1_1drawerbase_1_1menu_1_1menu__builder.html#ac13d2e2c2ffc66e1615f1679aea537bc", null ],
     [ "data", "d4/df9/classnana_1_1drawerbase_1_1menu_1_1menu__builder.html#a35d90b53436a43eb430794e0d626a1bc", null ],
     [ "destroy", "d4/df9/classnana_1_1drawerbase_1_1menu_1_1menu__builder.html#ab3fcf6ed5b70f9c5b0b9a0c464254ede", null ],
-    [ "insert", "d4/df9/classnana_1_1drawerbase_1_1menu_1_1menu__builder.html#aa3305d840004ac12d3d60f36d296423d", null ],
+    [ "insert", "d4/df9/classnana_1_1drawerbase_1_1menu_1_1menu__builder.html#a951b082d8101aacce7d2322944518e25", null ],
     [ "renderer", "d4/df9/classnana_1_1drawerbase_1_1menu_1_1menu__builder.html#add4eb625359c75b5e9e30d2d0e1569e0", null ],
     [ "renderer", "d4/df9/classnana_1_1drawerbase_1_1menu_1_1menu__builder.html#aecf7fe6cc3083eab14a81c2653a8885d", null ],
     [ "set_sub_menu", "d4/df9/classnana_1_1drawerbase_1_1menu_1_1menu__builder.html#aaefc17389e24f6f795c9d6f61ec444f3", null ]

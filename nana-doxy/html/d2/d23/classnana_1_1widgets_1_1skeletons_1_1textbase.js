@@ -12,13 +12,13 @@ var classnana_1_1widgets_1_1skeletons_1_1textbase =
     [ "erase", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#aa0d9dc65969a2151144f66d7cf60baa2", null ],
     [ "erase", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#a55a9d41e6901e9daabd57ff1df1a984a", null ],
     [ "erase_all", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#a0a356f25a6fbaf5e32769de82cb512d4", null ],
-    [ "filename", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#a3cedca6b2a7498155e9706067c29bf7b", null ],
+    [ "filename", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#aab433f12c0b6638527b5400756901b60", null ],
     [ "getline", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#a524811973f0dd39672e53f21e6a32f76", null ],
     [ "insert", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#a8ed3520cc5e98abdb853f3862ee4c877", null ],
     [ "insertln", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#aea805ddbe7992f90e9ba284c010551b6", null ],
     [ "lines", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#a9e68d160a7dd3fe60f894839563f9601", null ],
-    [ "load", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#a769ed4785663246c95d96522eaa13e2b", null ],
-    [ "load", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#a4a7dfebfeff54417c6e4b47b54b8192d", null ],
+    [ "load", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#acf1883144e83eca979a7728ca4ea6ebf", null ],
+    [ "load", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#a941941141ab929caabd8a8e194fc490b", null ],
     [ "max_line", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#aa525e33d8a6df32215c59d24e7e4e352", null ],
     [ "merge", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#a5823059629ec8f3f2fe5f3fb8b5c716e", null ],
     [ "not_saved", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#ac87336fa5a5e4518407542dd2c355e14", null ],
@@ -26,5 +26,5 @@ var classnana_1_1widgets_1_1skeletons_1_1textbase =
     [ "reset", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#ad2c90ff9672afd6d7166fd87b545f452", null ],
     [ "saved", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#a7135744323893a6789eddacab56b0b93", null ],
     [ "set_event_agent", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#a366e0280c966afe11e26e8ca20b25335", null ],
-    [ "store", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#a61bb8324cbde09c31a5cfb4c40a61c43", null ]
+    [ "store", "d2/d23/classnana_1_1widgets_1_1skeletons_1_1textbase.html#a9823bdebaf1b727172bae6a48ff88da1", null ]
 ];

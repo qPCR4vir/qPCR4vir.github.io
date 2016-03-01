@@ -6,10 +6,10 @@ var classnana_1_1drawerbase_1_1treebox_1_1renderer__interface =
     [ "graph_reference", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#ad3bcf43aa1b61b581c8f62e28a636832", null ],
     [ "item_attribute_t", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#a4fbb30704baff8277757c41e0366a240", null ],
     [ "~renderer_interface", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#a1c7849d89271b1bd5099576275cac88a", null ],
-    [ "bground", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#ac9054b10f886bd3a0eaab85763a35402", null ],
-    [ "crook", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#aecece06fa021f05998ef3575da4d5dc4", null ],
-    [ "expander", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#a58831856665af6b4be7daf3ba409df18", null ],
-    [ "icon", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#a59d4c9f68890d485da0cf163865588da", null ],
+    [ "bground", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#a80ca66712d6c954d6ef315f7201ee16a", null ],
+    [ "crook", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#ab3b2aa9dbbd41d430c4070fa6909840c", null ],
+    [ "expander", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#af408068e2feb6f69d0e654f8e34cb480", null ],
+    [ "icon", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#a4473624162edda0ec577fcae1af0bdb9", null ],
     [ "set_color", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#adc975187ddad13370ad11cdeb5041ec9", null ],
-    [ "text", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#ae9864e387688f6f1d5a188288f117ec2", null ]
+    [ "text", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#ad76fa51f7d73d81af0833a8174846541", null ]
 ];

@@ -1,6 +1,6 @@
 var structnana_1_1general__events =
 [
-    [ "~general_events", "dd/d19/structnana_1_1general__events.html#a1643c5b85dda98642edb4c6db1bd9bd7", null ],
+    [ "~general_events", "dd/d19/structnana_1_1general__events.html#a48f69775b5fc7c594ea45b2f1897482e", null ],
     [ "click", "dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc", null ],
     [ "dbl_click", "dd/d19/structnana_1_1general__events.html#ad38af11ed74bbef67da62485c2712bb6", null ],
     [ "destroy", "dd/d19/structnana_1_1general__events.html#a390beb61eddc6a8f71e0694fcc250db2", null ],

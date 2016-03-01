@@ -22,7 +22,7 @@ var classnana_1_1drawerbase_1_1date__chooser_1_1trigger =
     [ "trigger", "d4/d00/classnana_1_1drawerbase_1_1date__chooser_1_1trigger.html#ab9eda75ef7a95280967405e85c30ccb5", null ],
     [ "chose", "d4/d00/classnana_1_1drawerbase_1_1date__chooser_1_1trigger.html#a5b73ab9cfd73b032a600444aeddc5bef", null ],
     [ "read", "d4/d00/classnana_1_1drawerbase_1_1date__chooser_1_1trigger.html#af3b74ab0e456f13677b72f77e7837ca2", null ],
-    [ "week_name", "d4/d00/classnana_1_1drawerbase_1_1date__chooser_1_1trigger.html#ac14ca124c731686a35618c61e24f2602", null ],
+    [ "week_name", "d4/d00/classnana_1_1drawerbase_1_1date__chooser_1_1trigger.html#a4627a403d1bf37a37ad7d6c5425f7891", null ],
     [ "border_size", "d4/d00/classnana_1_1drawerbase_1_1date__chooser_1_1trigger.html#ad3da2ebca124c504c80505db38115c5c", null ],
     [ "day", "d4/d00/classnana_1_1drawerbase_1_1date__chooser_1_1trigger.html#ad277ce3510039a34e5992f660e6c204e", null ],
     [ "month", "d4/d00/classnana_1_1drawerbase_1_1date__chooser_1_1trigger.html#aecdf5a4ae358fb5986bb4c6136ee9aea", null ],

@@ -1,6 +1,7 @@
 var structnana_1_1detail_1_1native__interface =
 [
     [ "window_result", "de/d84/structnana_1_1detail_1_1native__interface_1_1window__result.html", "de/d84/structnana_1_1detail_1_1native__interface_1_1window__result" ],
+    [ "native_string_type", "d4/d06/structnana_1_1detail_1_1native__interface.html#af9cc02dffd0725d9a732ed4545806b13", null ],
     [ "activate_owner", "d4/d06/structnana_1_1detail_1_1native__interface.html#a82b1e23f767142e16d9ff23db0152cfe", null ],
     [ "activate_window", "d4/d06/structnana_1_1detail_1_1native__interface.html#a89a56f74d44ee6a7633f8d7e597e02c1", null ],
     [ "bring_top", "d4/d06/structnana_1_1detail_1_1native__interface.html#a3e836cbeb2419b9c5cb3060039fbfe5c", null ],
@@ -27,6 +28,8 @@ var structnana_1_1detail_1_1native__interface =
     [ "is_window_zoomed", "d4/d06/structnana_1_1detail_1_1native__interface.html#a121f711530eb6d439436f9f1fdb4cb91", null ],
     [ "move_window", "d4/d06/structnana_1_1detail_1_1native__interface.html#a34caa75abdbfdb0c6c83473abd8be28b", null ],
     [ "move_window", "d4/d06/structnana_1_1detail_1_1native__interface.html#a0df500625cc6d72481fa96db31d6afd4", null ],
+    [ "parent_window", "d4/d06/structnana_1_1detail_1_1native__interface.html#a5902c4701f04ce3e712b19ce5ca034b6", null ],
+    [ "parent_window", "d4/d06/structnana_1_1detail_1_1native__interface.html#a49fd340ce995a502cbb229407f454e0b", null ],
     [ "primary_monitor_size", "d4/d06/structnana_1_1detail_1_1native__interface.html#a92ee9ec46197315efd36c5cadc8c8473", null ],
     [ "refresh_window", "d4/d06/structnana_1_1detail_1_1native__interface.html#ac9c59206e7e87fbccdefb39f0f180d0f", null ],
     [ "restore_window", "d4/d06/structnana_1_1detail_1_1native__interface.html#a4e714e85f8fcfefae52bce981fa48438", null ],
@@ -34,8 +37,8 @@ var structnana_1_1detail_1_1native__interface =
     [ "set_focus", "d4/d06/structnana_1_1detail_1_1native__interface.html#a86eae1693da987c9c52a3d8e84f65c56", null ],
     [ "set_window_z_order", "d4/d06/structnana_1_1detail_1_1native__interface.html#ab6143349dd56e6f0cc36ad39395af806", null ],
     [ "show_window", "d4/d06/structnana_1_1detail_1_1native__interface.html#aa3341684693c9de70785af2ef7cde795", null ],
-    [ "window_caption", "d4/d06/structnana_1_1detail_1_1native__interface.html#ac43c886bb495484c834291211629d76f", null ],
-    [ "window_caption", "d4/d06/structnana_1_1detail_1_1native__interface.html#aaacba6c2dc4e1058c925f2d9f05d2686", null ],
+    [ "window_caption", "d4/d06/structnana_1_1detail_1_1native__interface.html#a4a40dc3e3c884624a4e9a199e0bc4ef3", null ],
+    [ "window_caption", "d4/d06/structnana_1_1detail_1_1native__interface.html#a4defeb6395fe46ea64f8a50611ac6815", null ],
     [ "window_icon", "d4/d06/structnana_1_1detail_1_1native__interface.html#a76512658e35315578ee339c90289ebc7", null ],
     [ "window_position", "d4/d06/structnana_1_1detail_1_1native__interface.html#ace782c7437aa4694fdd87de2d968d562", null ],
     [ "window_size", "d4/d06/structnana_1_1detail_1_1native__interface.html#a9905ae4ab67e8699b1c96ebc81b38d31", null ],

@@ -2,8 +2,8 @@ var classnana_1_1button =
 [
     [ "button", "d7/dc0/classnana_1_1button.html#a40e24d5b77e95f07cac5df11bcaeb15e", null ],
     [ "button", "d7/dc0/classnana_1_1button.html#a7dc6e0183f51ed02b47c0e601a4d691c", null ],
-    [ "button", "d7/dc0/classnana_1_1button.html#ab8d6263927e4e3372f7ac53a37f14f99", null ],
-    [ "button", "d7/dc0/classnana_1_1button.html#adbf98a9313e923a374218596321a058e", null ],
+    [ "button", "d7/dc0/classnana_1_1button.html#a84d93d5a2aba83c49e64c640a49cb982", null ],
+    [ "button", "d7/dc0/classnana_1_1button.html#abfd02e2d93054b3b4dfe5beb1fa288bd", null ],
     [ "button", "d7/dc0/classnana_1_1button.html#a5a02dd4c80c70857c89a8d15942d6fe3", null ],
     [ "edge_effects", "d7/dc0/classnana_1_1button.html#af59f2a15ed4ed4d8adc2a1c26d36c8f2", null ],
     [ "enable_focus_color", "d7/dc0/classnana_1_1button.html#ad4c864a2aa33e881abaebb61c29d376a", null ],

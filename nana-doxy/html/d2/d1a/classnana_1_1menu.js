@@ -9,7 +9,7 @@ var classnana_1_1menu =
     [ "menu", "d2/d1a/classnana_1_1menu.html#a5c188413c9d3e0c20a8b93a17aade8ef", null ],
     [ "~menu", "d2/d1a/classnana_1_1menu.html#a22c18fa9ae4f6f2428f92004a0b5cf95", null ],
     [ "answerer", "d2/d1a/classnana_1_1menu.html#a94e876c7911a3d618c9f0f179f645a37", null ],
-    [ "append", "d2/d1a/classnana_1_1menu.html#aab9c4f6c6791a8a8d198ce3e1a079dd5", null ],
+    [ "append", "d2/d1a/classnana_1_1menu.html#a664f4246f4260438c5fc6b8e35e906fd", null ],
     [ "append_splitter", "d2/d1a/classnana_1_1menu.html#a2b5bb80775ba625e039246a340b7a4dc", null ],
     [ "check_style", "d2/d1a/classnana_1_1menu.html#ab63f051613375bcfed6723e176ec3a55", null ],
     [ "checked", "d2/d1a/classnana_1_1menu.html#af072963ca32906c883cc6d957260dd18", null ],
@@ -37,7 +37,7 @@ var classnana_1_1menu =
     [ "popup_await", "d2/d1a/classnana_1_1menu.html#a2a376aeb3f2d4127092e2f6aff988e14", null ],
     [ "renderer", "d2/d1a/classnana_1_1menu.html#a383966b23050506accb0b0306ee3fc82", null ],
     [ "renderer", "d2/d1a/classnana_1_1menu.html#a9b853c29e5b6d934e05d7fb20e1e4a7e", null ],
-    [ "send_shortkey", "d2/d1a/classnana_1_1menu.html#a2cc4ce73d155b2495fd130c7bb782e17", null ],
+    [ "send_shortkey", "d2/d1a/classnana_1_1menu.html#a94c088fdc29f6fea47225e0130d79811", null ],
     [ "size", "d2/d1a/classnana_1_1menu.html#ac3e7d0feeafd44c3267e46d46b5ae791", null ],
     [ "menu_accessor", "d2/d1a/classnana_1_1menu.html#a01d0098baede98c35e6b9bb6ab3372d5", null ]
 ];

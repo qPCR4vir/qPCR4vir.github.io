@@ -22,7 +22,7 @@ var classnana_1_1detail_1_1window__manager =
     [ "create_frame", "dc/d72/classnana_1_1detail_1_1window__manager.html#a04251040dbcfdad679ecdf7d6b75c42a", null ],
     [ "create_root", "dc/d72/classnana_1_1detail_1_1window__manager.html#ae8856f227574c54583983b692d5b5901", null ],
     [ "create_widget", "dc/d72/classnana_1_1detail_1_1window__manager.html#a392bb14a716798f9677682316468ad01", null ],
-    [ "default_icon", "dc/d72/classnana_1_1detail_1_1window__manager.html#aca891987279ea5bfaa79067aecc25ac4", null ],
+    [ "default_icon", "dc/d72/classnana_1_1detail_1_1window__manager.html#ae26c5b9d658148a88f39371bd8690f24", null ],
     [ "destroy", "dc/d72/classnana_1_1detail_1_1window__manager.html#ac0ebdedc9dc6aa0798bdf265b67d1e11", null ],
     [ "destroy_handle", "dc/d72/classnana_1_1detail_1_1window__manager.html#af12d4d3efdbc514d08d2d6c12bcef376", null ],
     [ "do_lazy_refresh", "dc/d72/classnana_1_1detail_1_1window__manager.html#aa69ace68b44d6061639a8e14aeb3c1b6", null ],
