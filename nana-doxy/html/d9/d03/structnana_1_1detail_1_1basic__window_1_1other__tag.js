@@ -5,7 +5,7 @@ var structnana_1_1detail_1_1basic__window_1_1other__tag =
     [ "other_tag", "d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#ab210e2b8ac5fa41d1b2c37ab4a1619f0", null ],
     [ "~other_tag", "d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#a39fd95be0d8c8df53a067a23b6bcf165", null ],
     [ "active_window", "d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#a7b5ed30779d4ea2043fa44c7ac2bb828", null ],
-    [ "attribute", "d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#a8693e5cace9d9f415d6f7bc97f7074be", null ],
+    [ "attribute", "d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#a188a4ca243e3c5db5bc2e5241cd6140f", null ],
     [ "category", "d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#aa51cc786207f2aeaf6f5990e4e945552", null ],
     [ "frame", "d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#ab48735bb88833e269d543b0b62b9a976", null ],
     [ "glass_buffer", "d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#a947553ff220a100d03e27d9b2c6bf4a3", null ],

@@ -13,7 +13,7 @@ var classnana_1_1widget__object_3_01category_1_1root__tag_00_01_drawer_trigger_0
     [ "events", "d9/d3b/classnana_1_1widget__object_3_01category_1_1root__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#afb5209184248a24e1ab4b5ec30721ec2", null ],
     [ "get_drawer_trigger", "d9/d3b/classnana_1_1widget__object_3_01category_1_1root__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#a64b6807563ed612cccfbe3aa93ddc69f", null ],
     [ "get_drawer_trigger", "d9/d3b/classnana_1_1widget__object_3_01category_1_1root__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#ad335fdbb84c73a24937a0b7958e580cc", null ],
-    [ "handle", "d9/d3b/classnana_1_1widget__object_3_01category_1_1root__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#a1043f2bf84b1151d2c1011a6a2e10d5e", null ],
+    [ "handle", "d9/d3b/classnana_1_1widget__object_3_01category_1_1root__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#a0a19da5097c8eabe5132a21e3a3a6384", null ],
     [ "icon", "d9/d3b/classnana_1_1widget__object_3_01category_1_1root__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#a563fce81a281471edd23efda999671b2", null ],
     [ "is_zoomed", "d9/d3b/classnana_1_1widget__object_3_01category_1_1root__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#ac5f54bea5b40c719751de40567bbfb80", null ],
     [ "map_through_widgets", "d9/d3b/classnana_1_1widget__object_3_01category_1_1root__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#ac6df036df2ab4c66a2806a4936b70625", null ],

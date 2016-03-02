@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['fifo',['fifo',['../d7/d51/namespacenana_1_1experimental_1_1filesystem.html#aa715ef1cbd3086ab6ba01bafe427fb37acf54937a2330ac17aa523bf7130911a3',1,'nana::experimental::filesystem']]],
-  ['file',['file',['../d9/d63/structnana_1_1filesystem_1_1path_1_1type.html#acab5ed9b06de3a68a5f407eda7a729d7abeca19f2de1dd821c4299899eb5ab7ba',1,'nana::filesystem::path::type']]],
+  ['fifo',['fifo',['../d1/d20/namespacenana_1_1experimental_1_1filesystem_1_1v1.html#a2d3bec36c284d06a437a3d7533032aeaacf54937a2330ac17aa523bf7130911a3',1,'nana::experimental::filesystem::v1']]],
   ['finished',['finished',['../d5/d08/classnana_1_1threads_1_1pool_1_1impl.html#a7da23dc57b56c444500639c3714ebfc7aa5d7ceb2c59b8cee46c2953fec9abc19',1,'nana::threads::pool::impl']]],
   ['firebrick',['firebrick',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a293bdec991862602079dcb56ca72dcfc',1,'nana']]],
   ['first',['first',['../d8/dbb/namespacenana_1_1drawerbase_1_1scroll.html#ae3e4b4e65e3abe9227e030f9187829a1a8b04d5e3775d298e78455efc5ca404d5',1,'nana::drawerbase::scroll']]],

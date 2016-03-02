@@ -225,6 +225,8 @@ var hierarchy =
     [ "nana::drawerbase::menu::menu_item_type", "da/d89/structnana_1_1drawerbase_1_1menu_1_1menu__item__type.html", null ],
     [ "nana::drawerbase::menu::menu_item_type::item_proxy", "d5/d55/classnana_1_1drawerbase_1_1menu_1_1menu__item__type_1_1item__proxy.html", null ],
     [ "nana::drawerbase::menu::menu_type", "d4/de0/structnana_1_1drawerbase_1_1menu_1_1menu__type.html", null ],
+    [ "nana::drawerbase::menu::menu_window::state_type", "da/da7/structnana_1_1drawerbase_1_1menu_1_1menu__window_1_1state__type.html", null ],
+    [ "nana::drawerbase::menu::menu_window::submenu_type", "dd/d8d/structnana_1_1drawerbase_1_1menu_1_1menu__window_1_1submenu__type.html", null ],
     [ "nana::drawerbase::menu::renderer_interface", "d9/d29/classnana_1_1drawerbase_1_1menu_1_1renderer__interface.html", [
       [ "nana::drawerbase::menu::internal_renderer", "d9/d1d/classnana_1_1drawerbase_1_1menu_1_1internal__renderer.html", null ]
     ] ],
@@ -542,9 +544,10 @@ var hierarchy =
           [ "nana::progress", "d2/d93/classnana_1_1progress.html", null ]
         ] ],
         [ "nana::widget_object< category::widget_tag, drawerbase::scroll::trigger< Vertical >, drawerbase::scroll::scroll_events >", "d3/d95/classnana_1_1widget__object.html", [
-          [ "nana::scroll< Vertical >", "d6/da3/classnana_1_1scroll.html", null ],
+          [ "nana::scroll< Vert >", "d6/da3/classnana_1_1scroll.html", null ],
           [ "nana::scroll< false >", "d6/da3/classnana_1_1scroll.html", null ],
-          [ "nana::scroll< true >", "d6/da3/classnana_1_1scroll.html", null ]
+          [ "nana::scroll< true >", "d6/da3/classnana_1_1scroll.html", null ],
+          [ "nana::scroll< Vertical >", "d6/da3/classnana_1_1scroll.html", null ]
         ] ],
         [ "nana::widget_object< category::widget_tag, drawerbase::slider::trigger, drawerbase::slider::slider_events >", "d3/d95/classnana_1_1widget__object.html", [
           [ "nana::slider", "d8/d54/classnana_1_1slider.html", null ]
@@ -552,11 +555,8 @@ var hierarchy =
         [ "nana::widget_object< category::widget_tag, drawerbase::spinbox::drawer, drawerbase::spinbox::spinbox_events,::nana::widgets::skeletons::text_editor_scheme >", "d3/d95/classnana_1_1widget__object.html", [
           [ "nana::spinbox", "d7/d43/classnana_1_1spinbox.html", null ]
         ] ],
-        [ "nana::widget_object< category::widget_tag, drawerbase::tabbar::trigger, drawerbase::tabbar::tabbar_events< T > >", "d3/d95/classnana_1_1widget__object.html", [
-          [ "nana::tabbar< T >", "d6/d10/classnana_1_1tabbar.html", null ]
-        ] ],
         [ "nana::widget_object< category::widget_tag, drawerbase::tabbar::trigger, drawerbase::tabbar::tabbar_events< Type > >", "d3/d95/classnana_1_1widget__object.html", [
-          [ "nana::tabbar< Type >", "d6/d10/classnana_1_1tabbar.html", null ]
+          [ "nana::tabbar< T >", "d6/d10/classnana_1_1tabbar.html", null ]
         ] ],
         [ "nana::widget_object< category::widget_tag, drawerbase::tabbar_lite::driver, drawerbase::tabbar_lite::events >", "d3/d95/classnana_1_1widget__object.html", [
           [ "nana::tabbar_lite", "dc/deb/classnana_1_1tabbar__lite.html", null ]
@@ -679,9 +679,10 @@ var hierarchy =
     [ "nana::screen", "d4/d02/classnana_1_1screen.html", null ],
     [ "nana::screen::implement", "d6/d86/structnana_1_1screen_1_1implement.html", null ],
     [ "nana::scroll_interface", "df/d77/classnana_1_1scroll__interface.html", [
-      [ "nana::scroll< Vertical >", "d6/da3/classnana_1_1scroll.html", null ],
+      [ "nana::scroll< Vert >", "d6/da3/classnana_1_1scroll.html", null ],
       [ "nana::scroll< false >", "d6/da3/classnana_1_1scroll.html", null ],
-      [ "nana::scroll< true >", "d6/da3/classnana_1_1scroll.html", null ]
+      [ "nana::scroll< true >", "d6/da3/classnana_1_1scroll.html", null ],
+      [ "nana::scroll< Vertical >", "d6/da3/classnana_1_1scroll.html", null ]
     ] ],
     [ "nana::size", "da/df8/structnana_1_1size.html", null ],
     [ "nana::state_cursor", "d6/d46/classnana_1_1state__cursor.html", null ],

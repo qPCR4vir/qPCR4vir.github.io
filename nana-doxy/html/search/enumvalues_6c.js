@@ -28,7 +28,7 @@ var searchData=
   ['lime',['lime',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a67c0ecaf5a1b782b11146e9fbe80f016',1,'nana']]],
   ['lime_5fgreen',['lime_green',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a68db9bf9d92a944f0138e197b7b02fc2',1,'nana']]],
   ['linen',['linen',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98aa6ab62e9da89b20d720c70602624bfc2',1,'nana']]],
-  ['list',['list',['../d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#a5d2e23680874011958a86c50435e7959a10ae9fc7d453b0dd525d0edf2ede7961',1,'nana::drawerbase::tabbar::trigger::list()'],['../d6/d10/classnana_1_1tabbar.html#a9ead204c8505d9d02d22adc46fc9ec54a10ae9fc7d453b0dd525d0edf2ede7961',1,'nana::tabbar::list()']]],
+  ['list',['list',['../d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#a5d2e23680874011958a86c50435e7959a10ae9fc7d453b0dd525d0edf2ede7961',1,'nana::drawerbase::tabbar::trigger']]],
   ['lister',['lister',['../d4/dd8/structnana_1_1drawerbase_1_1listbox_1_1essence__t.html#a4729ab61fe2d5379f62231283ba09ed0afe35ce4b4d3b3b45f19df6b7b0669fd9',1,'nana::drawerbase::listbox::essence_t']]],
   ['lite_5fwidget',['lite_widget',['../dd/d00/namespacenana_1_1category.html#a85512d536658f20d199b9fa20df34818ad96b1ca2a48f77513077bcdd1ed050e4',1,'nana::category']]],
   ['lre',['LRE',['../d8/d7f/classnana_1_1unicode__bidi.html#ab4d218792adebd435c0808cfa7fce137af63da11e80f63cbf9212c9abf1bbf87f',1,'nana::unicode_bidi::LRE()'],['../d9/d0f/namespacenana_1_1bidi__charmap.html#a35c8c909095bdaeefe7ffcba2fa54828a1f1ff5e860840da7fbdb1197611b1413',1,'nana::bidi_charmap::LRE()']]],

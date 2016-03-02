@@ -12,6 +12,6 @@ var classnana_1_1widget__object =
     [ "events", "d3/d95/classnana_1_1widget__object.html#acc81585b443ae00b6d3ac08945638b94", null ],
     [ "get_drawer_trigger", "d3/d95/classnana_1_1widget__object.html#ab82c0acca649d5f7f876c555ef5c1350", null ],
     [ "get_drawer_trigger", "d3/d95/classnana_1_1widget__object.html#a53aba9703ef32718a95d06ef1d61f786", null ],
-    [ "handle", "d3/d95/classnana_1_1widget__object.html#a0bfb9caca987cf5780a79cc2f9ae3e09", null ],
+    [ "handle", "d3/d95/classnana_1_1widget__object.html#a9503ee5c2c8f4ceb14adb6c57c34e3b6", null ],
     [ "scheme", "d3/d95/classnana_1_1widget__object.html#a07b2fe5290c28844229d34957ec825da", null ]
 ];

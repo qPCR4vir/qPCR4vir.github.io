@@ -29,7 +29,7 @@ var searchData=
   ['destroy',['destroy',['../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3afb14982288108e1fbd6207ef55f05027',1,'nana']]],
   ['dim_5fgray',['dim_gray',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a75435e6bea50867263766b9e5f9bc08d',1,'nana']]],
   ['dim_5fgrey',['dim_grey',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98abc048b83e68b33c13b917f0ba4028f42',1,'nana']]],
-  ['directory',['directory',['../d9/d63/structnana_1_1filesystem_1_1path_1_1type.html#acab5ed9b06de3a68a5f407eda7a729d7a190985e9d8031594d7ac7e59376e8fc5',1,'nana::filesystem::path::type::directory()'],['../d7/d51/namespacenana_1_1experimental_1_1filesystem.html#aa715ef1cbd3086ab6ba01bafe427fb37a5f8f22b8cdbaeee8cf857673a9b6ba20',1,'nana::experimental::filesystem::directory()']]],
+  ['directory',['directory',['../d1/d20/namespacenana_1_1experimental_1_1filesystem_1_1v1.html#a2d3bec36c284d06a437a3d7533032aeaa5f8f22b8cdbaeee8cf857673a9b6ba20',1,'nana::experimental::filesystem::v1']]],
   ['disable',['disable',['../d0/d4f/classnana_1_1drawerbase_1_1tabbar_1_1item__renderer.html#ae1fd263bad8ac6a8e84a2780e1b8207fa496d63fe8bf37ee71bba8fa78776384c',1,'nana::drawerbase::tabbar::item_renderer']]],
   ['disabled',['disabled',['../d2/d76/namespacenana.html#a940c1bfd833b23d54d10b1f77dc06874a075ae3d2fc31640504f814f60e5ef713',1,'nana']]],
   ['displayed',['displayed',['../d2/da8/namespacenana_1_1detail.html#a3fcd05af36be0714208b0b4f95f44aa0a5eae21b7e5db4ab6f16887a9249d170c',1,'nana::detail']]],

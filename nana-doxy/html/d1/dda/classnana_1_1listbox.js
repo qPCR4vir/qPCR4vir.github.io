@@ -52,7 +52,7 @@ var classnana_1_1listbox =
     [ "scroll", "d1/dda/classnana_1_1listbox.html#a5b8c8fe8d79db50dfd20363597660680", null ],
     [ "scroll", "d1/dda/classnana_1_1listbox.html#aba3bdfcc02485f750728438974ea705a", null ],
     [ "selected", "d1/dda/classnana_1_1listbox.html#ab717b76ea128138dd7d30808078ae190", null ],
-    [ "set_sort_compare", "d1/dda/classnana_1_1listbox.html#acf412fb2e8fafdb0218bdc3b9b4c4d9b", null ],
+    [ "set_sort_compare", "d1/dda/classnana_1_1listbox.html#ac0850751bfe4df7c664e41e5ac762061", null ],
     [ "show_header", "d1/dda/classnana_1_1listbox.html#acd571821ef7711f89d5a236e56dbede5", null ],
     [ "size_categ", "d1/dda/classnana_1_1listbox.html#ae2318be56e2e61cbc0e8b8ee3b7518bc", null ],
     [ "size_item", "d1/dda/classnana_1_1listbox.html#a8b73b894890dde5d1208326f01ccbfe5", null ],

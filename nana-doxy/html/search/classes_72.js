@@ -37,6 +37,7 @@ var searchData=
   ['regex_5fiterator',['regex_iterator',['http://en.cppreference.com/w/cpp/regex/regex_iterator.html',1,'std']]],
   ['regex_5ftoken_5fiterator',['regex_token_iterator',['http://en.cppreference.com/w/cpp/regex/regex_token_iterator.html',1,'std']]],
   ['regex_5ftraits',['regex_traits',['http://en.cppreference.com/w/cpp/regex/regex_traits.html',1,'std']]],
+  ['regular_5ffile_5fonly_5fiterator',['regular_file_only_iterator',['../df/df2/classnana_1_1experimental_1_1filesystem_1_1ext_1_1regular__file__only__iterator.html',1,'nana::experimental::filesystem::ext']]],
   ['remember',['remember',['../da/da4/structnana_1_1unicode__bidi_1_1remember.html',1,'nana::unicode_bidi']]],
   ['remove_5fall_5fextents',['remove_all_extents',['http://en.cppreference.com/w/cpp/types/remove_all_extents.html',1,'std']]],
   ['remove_5fconst',['remove_const',['http://en.cppreference.com/w/cpp/types/remove_cv.html',1,'std']]],
@@ -45,8 +46,8 @@ var searchData=
   ['remove_5fpointer',['remove_pointer',['http://en.cppreference.com/w/cpp/types/remove_pointer.html',1,'std']]],
   ['remove_5freference',['remove_reference',['http://en.cppreference.com/w/cpp/types/remove_reference.html',1,'std']]],
   ['remove_5fvolatile',['remove_volatile',['http://en.cppreference.com/w/cpp/types/remove_cv.html',1,'std']]],
-  ['renderer',['renderer',['../d3/d4c/classnana_1_1drawerbase_1_1label_1_1renderer.html',1,'nana::drawerbase::label']]],
   ['renderer',['renderer',['../df/de0/classnana_1_1drawerbase_1_1tabbar__lite_1_1renderer.html',1,'nana::drawerbase::tabbar_lite']]],
+  ['renderer',['renderer',['../d3/d4c/classnana_1_1drawerbase_1_1label_1_1renderer.html',1,'nana::drawerbase::label']]],
   ['renderer',['renderer',['../dd/df9/classnana_1_1drawerbase_1_1categorize_1_1renderer.html',1,'nana::drawerbase::categorize']]],
   ['renderer',['renderer',['../dd/d51/classnana_1_1drawerbase_1_1slider_1_1renderer.html',1,'nana::drawerbase::slider']]],
   ['renderer_5finterface',['renderer_interface',['../dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html',1,'nana::drawerbase::treebox']]],
@@ -59,6 +60,5 @@ var searchData=
   ['root_5fmisc',['root_misc',['../d1/d35/structnana_1_1detail_1_1root__misc.html',1,'nana::detail']]],
   ['root_5fregister',['root_register',['../d6/d3e/classnana_1_1detail_1_1root__register.html',1,'nana::detail']]],
   ['root_5ftag',['root_tag',['../d7/d5f/structnana_1_1category_1_1root__tag.html',1,'nana::category']]],
-  ['round_5fregion_5fspec',['round_region_spec',['../d7/d43/structnana_1_1detail_1_1drawable__impl__type_1_1round__region__spec.html',1,'nana::detail::drawable_impl_type']]],
   ['runtime_5ferror',['runtime_error',['http://en.cppreference.com/w/cpp/error/runtime_error.html',1,'std']]]
 ];

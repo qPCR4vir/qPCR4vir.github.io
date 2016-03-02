@@ -17,7 +17,7 @@ var structnana_1_1detail_1_1basic__window =
     [ "child_caret", "de/d3c/structnana_1_1detail_1_1basic__window.html#a13b434bbf99609477284654fbfb3fd1e", null ],
     [ "displayed", "de/d3c/structnana_1_1detail_1_1basic__window.html#a704d817821cde618ac4bb98f70eb9400", null ],
     [ "frame_window", "de/d3c/structnana_1_1detail_1_1basic__window.html#a115af2f2a767c1963358f4a2263f87dc", null ],
-    [ "get_events", "de/d3c/structnana_1_1detail_1_1basic__window.html#ad943328f3dd4ca8fba4b09e61652ed34", null ],
+    [ "get_events", "de/d3c/structnana_1_1detail_1_1basic__window.html#a0672bcbc4554c157d86acb8a81249eb3", null ],
     [ "is_ancestor_of", "de/d3c/structnana_1_1detail_1_1basic__window.html#a99bf6a4077ac5dfd6f268c540b2af89c", null ],
     [ "is_draw_through", "de/d3c/structnana_1_1detail_1_1basic__window.html#a031baa985d1c301a9a065883fdf9d36f", null ],
     [ "seek_non_lite_widget_ancestor", "de/d3c/structnana_1_1detail_1_1basic__window.html#ad36457bb4bee0fbe26afdd4683f421af", null ],
@@ -30,7 +30,7 @@ var structnana_1_1detail_1_1basic__window =
     [ "dimension", "de/d3c/structnana_1_1detail_1_1basic__window.html#a065b9b5afcf112c824f55295d31dd9b6", null ],
     [ "drawer", "de/d3c/structnana_1_1detail_1_1basic__window.html#a6bfef62a0f87bd3a8df114b1b101da73", null ],
     [ "edge_nimbus", "de/d3c/structnana_1_1detail_1_1basic__window.html#adc4e33f084a2c979ab63f2132da87224", null ],
-    [ "effect", "de/d3c/structnana_1_1detail_1_1basic__window.html#a4341f6f71e08addfd557b4d53f312fbd", null ],
+    [ "effect", "de/d3c/structnana_1_1detail_1_1basic__window.html#aecec3d97500f202f1ac516772cf90413", null ],
     [ "events_ptr", "de/d3c/structnana_1_1detail_1_1basic__window.html#a446420eff505349a20cd6d58d37ae4cb", null ],
     [ "extra_height", "de/d3c/structnana_1_1detail_1_1basic__window.html#a8ba4b18d6edf363b594c6243fe66d499", null ],
     [ "extra_width", "de/d3c/structnana_1_1detail_1_1basic__window.html#a3b759dccac4d3f997571075665e80d1c", null ],
@@ -50,7 +50,7 @@ var structnana_1_1detail_1_1basic__window =
     [ "scheme", "de/d3c/structnana_1_1detail_1_1basic__window.html#acc83256a8a87ed9390fd02ea4f62d4d4", null ],
     [ "thread_id", "de/d3c/structnana_1_1detail_1_1basic__window.html#a04e273f8105839daef67fda965052365", null ],
     [ "title", "de/d3c/structnana_1_1detail_1_1basic__window.html#a667627db219952ac0e1bfd91cf61de26", null ],
-    [ "together", "de/d3c/structnana_1_1detail_1_1basic__window.html#af3f7825b72a7b16e0d65678cfbe34ff9", null ],
+    [ "together", "de/d3c/structnana_1_1detail_1_1basic__window.html#a69b4f7b53a4717ae2190641ec7cf0743", null ],
     [ "visible", "de/d3c/structnana_1_1detail_1_1basic__window.html#a39e2279cd450a730189a944dc7482875", null ],
     [ "widget_notifier", "de/d3c/structnana_1_1detail_1_1basic__window.html#ac3f337217965dbc845f14c7642feca6a", null ]
 ];
