@@ -103,15 +103,14 @@ $(document).ready(function(){initNavTree('d5/de8/folder_tree_std_8cpp-example.ht
 <div class="contents">
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/treebox.hpp&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;nana/filesystem/filesystem_selector.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/filesystem/filesystem_ext.hpp&gt;</span></div>
 <div class="line"></div>
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
 <div class="line">        <span class="keyword">using namespace </span>nana;</div>
-<div class="line">        <span class="keyword">using namespace </span>nana::experimental::filesystem::ext;</div>
-<div class="line">        <span class="keyword">using namespace </span>std::experimental;</div>
-<div class="line">        <span class="keyword">using</span> SubDirectories = filesystem::directory_iterator;</div>
+<div class="line">        <span class="keyword">namespace </span>fs = std::experimental::filesystem;</div>
+<div class="line">        <span class="keyword">namespace </span>fs_ext = nana::filesystem_ext;</div>
+<div class="line">        <span class="keyword">using</span> SubDirectories = fs::directory_iterator;</div>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line">        <a name="_a0"></a><a class="code" href="../../d6/d57/classnana_1_1form.html">form</a> fm{ <a name="a1"></a><a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#aeda48472927c65f3f790297e5fb2df84">API::make_center</a>(400, 500), <a name="_a2"></a><a class="code" href="../../d6/d12/structnana_1_1appear_1_1decorate.html">appear::decorate&lt;appear::taskbar&gt;</a>() };</div>
@@ -119,11 +118,11 @@ $(document).ready(function(){initNavTree('d5/de8/folder_tree_std_8cpp-example.ht
 <div class="line"></div>
 <div class="line">        <a name="_a3"></a><a class="code" href="../../da/de1/classnana_1_1treebox.html">nana::treebox</a> tree{ fm,{ 10, 10, 380, 480 } };</div>
 <div class="line"></div>
-<div class="line">        <span class="keyword">auto</span> node = tree.<a name="a4"></a><a class="code" href="../../da/de1/classnana_1_1treebox.html#a2fe8cb7a9b0d893b8a30a470d338472f">insert</a>(def_root, def_rootname);</div>
+<div class="line">        <span class="keyword">auto</span> node = tree.<a name="a4"></a><a class="code" href="../../da/de1/classnana_1_1treebox.html#a2fe8cb7a9b0d893b8a30a470d338472f">insert</a>(fs_ext::def_root, fs_ext::def_rootname);</div>
 <div class="line"></div>
-<div class="line">        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; dir : SubDirectories{ def_rootstr })</div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; dir : SubDirectories{ fs_ext::def_rootstr })</div>
 <div class="line">        {</div>
-<div class="line">                <span class="keywordflow">if</span> (! filesystem::is_directory(dir) ) <span class="keywordflow">continue</span>;</div>
+<div class="line">                <span class="keywordflow">if</span> (! fs::is_directory(dir) ) <span class="keywordflow">continue</span>;</div>
 <div class="line">                tree.insert(node, dir.path().filename().generic_u8string() , </div>
 <div class="line">                                      dir.path().filename().generic_u8string());</div>
 <div class="line">                <span class="keywordflow">break</span>;</div>
@@ -142,7 +141,7 @@ $(document).ready(function(){initNavTree('d5/de8/folder_tree_std_8cpp-example.ht
 <div class="line">                <span class="comment">//Walk in the path directory for sub directories.</span></div>
 <div class="line">                <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; dir : SubDirectories{ Path })</div>
 <div class="line">                {</div>
-<div class="line">                        <span class="keywordflow">if</span> (!filesystem::is_directory(dir)) <span class="keywordflow">continue</span>; <span class="comment">//If it is not a directory.</span></div>
+<div class="line">                        <span class="keywordflow">if</span> (!fs::is_directory(dir)) <span class="keywordflow">continue</span>; <span class="comment">//If it is not a directory.</span></div>
 <div class="line"></div>
 <div class="line">                        <span class="keyword">auto</span> child = tree.insert(arg.<a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>, dir.path().filename().generic_u8string(), </div>
 <div class="line">                                                               dir.path().filename().generic_u8string());</div>
@@ -154,7 +153,7 @@ $(document).ready(function(){initNavTree('d5/de8/folder_tree_std_8cpp-example.ht
 <div class="line">                        <span class="comment">//front of the node.</span></div>
 <div class="line">                        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; dr : SubDirectories{ dir.path() })</div>
 <div class="line">                        {</div>
-<div class="line">                                <span class="keywordflow">if</span> (!filesystem::is_directory(dr)) <span class="keywordflow">continue</span>; <span class="comment">//If it is not a directory.</span></div>
+<div class="line">                                <span class="keywordflow">if</span> (!fs::is_directory(dr)) <span class="keywordflow">continue</span>; <span class="comment">//If it is not a directory.</span></div>
 <div class="line">                                tree.insert(child, dr.path().filename().generic_u8string(), </div>
 <div class="line">                                                       dr.path().filename().generic_u8string());</div>
 <div class="line">                                <span class="keywordflow">break</span>;</div>
@@ -164,7 +163,10 @@ $(document).ready(function(){initNavTree('d5/de8/folder_tree_std_8cpp-example.ht
 <div class="line">        });</div>
 <div class="line"></div>
 <div class="line">        fm.show();</div>
-<div class="line">        <a name="a9"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>();</div>
+<div class="line">        <a name="a9"></a><a class="code" href="../../d2/d76/namespacenana.html#a36f8eb51da338977c6af8d711605ce6b">exec</a>(2, 1, [&amp;node]()</div>
+<div class="line">        {</div>
+<div class="line">                node.expand(<span class="keyword">true</span>);</div>
+<div class="line">        });</div>
 <div class="line">}</div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->

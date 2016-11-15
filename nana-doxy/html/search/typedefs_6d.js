@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['make_5fpack',['make_pack',['../da/d02/namespacenana_1_1pat_1_1detail.html#a15be9f48ce0c0abc488343ef1c5d1e54',1,'nana::pat::detail']]],
   ['module_5ft',['module_t',['../db/d75/namespacenana_1_1system_1_1detail_1_1shared__helper.html#acf151990eda9bdaa0fb23f59e214a211',1,'nana::system::detail::shared_helper']]],
   ['module_5ftype',['module_type',['../d3/d32/classnana_1_1float__listbox.html#a02ef3472168fd7adc826c0512ffd6dda',1,'nana::float_listbox']]],
   ['msg_5fpacket',['msg_packet',['../d3/d5f/classnana_1_1detail_1_1msg__dispatcher.html#ab3cbae8982f261693670a040c52bd34c',1,'nana::detail::msg_dispatcher']]],

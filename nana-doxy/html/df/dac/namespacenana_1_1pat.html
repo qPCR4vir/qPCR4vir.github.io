@@ -133,11 +133,11 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a04d42c922892694d133494ebd2f7c6b3"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
-<tr class="memitem:a04d42c922892694d133494ebd2f7c6b3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d2/de3/classnana_1_1pat_1_1cloneable.html">pat::cloneable</a><br class="typebreak"/>
+<tr class="memitem:a84ed99a03c3950a04cf455ecf5d37e77"><td class="memTemplParams" colspan="2">template&lt;typename Type , typename... Args&gt; </td></tr>
+<tr class="memitem:a84ed99a03c3950a04cf455ecf5d37e77"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d2/de3/classnana_1_1pat_1_1cloneable.html">pat::cloneable</a><br class="typebreak"/>
 &lt; <a class="el" href="../../d0/d7e/classnana_1_1pat_1_1abstract__factory.html">abstract_factory</a>&lt; typename <br class="typebreak"/>
-Type::factory_interface &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/dac/namespacenana_1_1pat.html#a04d42c922892694d133494ebd2f7c6b3">make_factory</a> ()</td></tr>
-<tr class="separator:a04d42c922892694d133494ebd2f7c6b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Type::factory_interface &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/dac/namespacenana_1_1pat.html#a84ed99a03c3950a04cf455ecf5d37e77">make_factory</a> (Args &amp;&amp;...args)</td></tr>
+<tr class="separator:a84ed99a03c3950a04cf455ecf5d37e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a class="anchor" id="ac5a109672787abecbd7aa2b0c58d6370"></a>
@@ -155,16 +155,17 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a04d42c922892694d133494ebd2f7c6b3"></a>
+<a class="anchor" id="a84ed99a03c3950a04cf455ecf5d37e77"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Type &gt; </div>
+template&lt;typename Type , typename... Args&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d2/de3/classnana_1_1pat_1_1cloneable.html">pat::cloneable</a>&lt;<a class="el" href="../../d0/d7e/classnana_1_1pat_1_1abstract__factory.html">abstract_factory</a>&lt;typename Type::factory_interface&gt; &gt; nana::pat::make_factory </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

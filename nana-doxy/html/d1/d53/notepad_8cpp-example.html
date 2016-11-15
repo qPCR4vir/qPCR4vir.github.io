@@ -109,6 +109,9 @@ $(document).ready(function(){initNavTree('d1/d53/notepad_8cpp-example.html','../
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/place.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/msgbox.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/filebox.hpp&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;thread&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"></div>
 <div class="line"></div>
 <div class="line"><span class="keyword">using namespace </span>nana;</div>
 <div class="line"></div>
@@ -143,6 +146,8 @@ $(document).ready(function(){initNavTree('d1/d53/notepad_8cpp-example.html','../
 <div class="line">                arg.<a name="a11"></a><a class="code" href="../../d0/d2c/structnana_1_1arg__unload.html#ab5228dd3e0e98380b6f869c2419ce063">cancel</a> = <span class="keyword">true</span>;</div>
 <div class="line">        });</div>
 <div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <a class="code" href="../../de/d10/classnana_1_1textbox.html">textbox</a>&amp; get_tb(){<span class="keywordflow">return</span> textbox_;}</div>
 <div class="line"><span class="keyword">private</span>:</div>
 <div class="line">    <a name="_a12"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> _m_pick_file(<span class="keywordtype">bool</span> is_open)<span class="keyword"> const</span></div>
 <div class="line"><span class="keyword">    </span>{</div>
@@ -221,12 +226,31 @@ $(document).ready(function(){initNavTree('d1/d53/notepad_8cpp-example.html','../
 <div class="line">    }</div>
 <div class="line"></div>
 <div class="line">};</div>
+<div class="line"><span class="keywordtype">void</span> <a name="a25"></a><a class="code" href="../../d2/d76/namespacenana.html#a798b90b1406b5004e24a3b2d1f457a8e">Wait</a>(<span class="keywordtype">unsigned</span> wait=0)</div>
+<div class="line">{</div>
+<div class="line">    <span class="keywordflow">if</span> (wait)</div>
+<div class="line">        <a name="a26"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/thread/sleep_for.html">std::this_thread::sleep_for</a>(<a name="_a27"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/chrono/duration.html">std::chrono::seconds</a>{ <a class="code" href="../../d2/d76/namespacenana.html#a4b97848023a9ea678b4d40459c07eba1a49256b9819abacbb8e6e031a03abe81b">wait</a> } );</div>
+<div class="line">}</div>
 <div class="line"></div>
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
 <div class="line">    notepad_form npform;</div>
 <div class="line">    npform.show();</div>
-<div class="line">    <a name="a25"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>();</div>
+<div class="line">    <a name="a28"></a><a class="code" href="../../d2/d76/namespacenana.html#a36f8eb51da338977c6af8d711605ce6b">exec</a>( 2,2, [&amp;npform]()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">/*</span></div>
+<div class="line"><span class="comment">        arg_keyboard k;</span></div>
+<div class="line"><span class="comment">        k.shift=k.ctrl=false;</span></div>
+<div class="line"><span class="comment">        k.evt_code=event_code::key_char;</span></div>
+<div class="line"><span class="comment">        k.window_handle = npform.get_tb().handle();</span></div>
+<div class="line"><span class="comment">        for (char c : nana::to_nstring( &quot;Testing our notepad&quot;))</span></div>
+<div class="line"><span class="comment">        {</span></div>
+<div class="line"><span class="comment">            k.key=c;</span></div>
+<div class="line"><span class="comment">            std::cout&lt;&lt;c;</span></div>
+<div class="line"><span class="comment">            npform.get_tb().events().key_char.emit(k); Wait(1);</span></div>
+<div class="line"><span class="comment">        }</span></div>
+<div class="line"><span class="comment">        */</span></div>
+<div class="line">    }  );</div>
 <div class="line">}</div>
 <div class="line"></div>
 <div class="line"></div>

@@ -177,6 +177,23 @@ $(document).ready(function(){initNavTree('d7/d62/listbox_inline_widget_8cpp-exam
 <div class="line">                pos_ = pos;</div>
 <div class="line">        }</div>
 <div class="line"></div>
+<div class="line">        <span class="comment">//Notify the item status</span></div>
+<div class="line">        <span class="comment">//This method is introduced since 1.4.1</span></div>
+<div class="line">        <span class="keywordtype">void</span> notify_status(status_type status, <span class="keywordtype">bool</span> status_on) <span class="comment">/*override*/</span> </div>
+<div class="line">        {</div>
+<div class="line">                <span class="keywordflow">switch</span>(status)</div>
+<div class="line">                {</div>
+<div class="line">                <span class="keywordflow">case</span> status_type::selecting:</div>
+<div class="line">                        <span class="comment">//If status_on is true, the item is selecting.</span></div>
+<div class="line">                        <span class="comment">//If status on is false, the item is unselecting</span></div>
+<div class="line">                        <span class="keywordflow">break</span>;</div>
+<div class="line">                <span class="keywordflow">case</span> status_type::checking:</div>
+<div class="line">                        <span class="comment">//If status_on is true, the item is checking</span></div>
+<div class="line">                        <span class="comment">//If status_on is false, the item is unchecking</span></div>
+<div class="line">                        <span class="keywordflow">break</span>;</div>
+<div class="line">                }</div>
+<div class="line">        }</div>
+<div class="line"></div>
 <div class="line">        <span class="comment">//Sets the inline widget size</span></div>
 <div class="line">        <span class="comment">//dimension represents the max size can be set</span></div>
 <div class="line">        <span class="comment">//The coordinate of inline widget is a logical coordinate to the sub item of listbox</span></div>
@@ -191,7 +208,7 @@ $(document).ready(function(){initNavTree('d7/d62/listbox_inline_widget_8cpp-exam
 <div class="line">        }</div>
 <div class="line"></div>
 <div class="line">        <span class="comment">//Sets the value of inline widget with the value of the sub item</span></div>
-<div class="line">        <span class="keywordtype">void</span> set(<span class="keyword">const</span> value_type&amp; value)<span class="keyword"> override</span></div>
+<div class="line">        <span class="keywordtype">void</span> <a name="a14"></a><a class="code" href="../../d2/d76/namespacenana.html#a24aac8d9596c5685744cc832855ea430">set</a>(<span class="keyword">const</span> value_type&amp; value)<span class="keyword"> override</span></div>
 <div class="line"><span class="keyword">        </span>{</div>
 <div class="line">                txt_.caption(value);</div>
 <div class="line">        }</div>
@@ -210,15 +227,15 @@ $(document).ready(function(){initNavTree('d7/d62/listbox_inline_widget_8cpp-exam
 <div class="line">{</div>
 <div class="line">        <span class="keyword">using namespace </span>nana;</div>
 <div class="line"></div>
-<div class="line">        <a name="_a14"></a><a class="code" href="../../d6/d57/classnana_1_1form.html">form</a> fm;</div>
+<div class="line">        <a name="_a15"></a><a class="code" href="../../d6/d57/classnana_1_1form.html">form</a> fm;</div>
 <div class="line">        <a class="code" href="../../d1/dda/classnana_1_1listbox.html">listbox</a> lsbox(fm, <a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">rectangle</a>{ 10, 10, 300, 200 });</div>
 <div class="line"></div>
 <div class="line">        <span class="comment">//Create two columns</span></div>
-<div class="line">        lsbox.<a name="a15"></a><a class="code" href="../../d1/dda/classnana_1_1listbox.html#ad5ddcf10f14886a3f8dc99ddeb29e6cf">append_header</a>(<span class="stringliteral">&quot;column 0&quot;</span>);</div>
+<div class="line">        lsbox.<a name="a16"></a><a class="code" href="../../d1/dda/classnana_1_1listbox.html#ad5ddcf10f14886a3f8dc99ddeb29e6cf">append_header</a>(<span class="stringliteral">&quot;column 0&quot;</span>);</div>
 <div class="line">        lsbox.append_header(<span class="stringliteral">&quot;column 1&quot;</span>);</div>
 <div class="line"></div>
 <div class="line">        <span class="comment">//Then append items</span></div>
-<div class="line">        lsbox.at(0).append({ <a name="_a16"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>(<span class="stringliteral">&quot;Hello0&quot;</span>), <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>(<span class="stringliteral">&quot;World0&quot;</span>) });</div>
+<div class="line">        lsbox.at(0).append({ <a name="_a17"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>(<span class="stringliteral">&quot;Hello0&quot;</span>), <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>(<span class="stringliteral">&quot;World0&quot;</span>) });</div>
 <div class="line">        lsbox.at(0).append({ <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>(<span class="stringliteral">&quot;Hello1&quot;</span>), <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>(<span class="stringliteral">&quot;World1&quot;</span>) });</div>
 <div class="line">        lsbox.at(0).append({ <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>(<span class="stringliteral">&quot;Hello2&quot;</span>), <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>(<span class="stringliteral">&quot;World2&quot;</span>) });</div>
 <div class="line">        lsbox.at(0).append({ <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>(<span class="stringliteral">&quot;Hello3&quot;</span>), <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>(<span class="stringliteral">&quot;World3&quot;</span>) });</div>
@@ -237,7 +254,7 @@ $(document).ready(function(){initNavTree('d7/d62/listbox_inline_widget_8cpp-exam
 <div class="line">        lsbox.at(1).inline_factory(1, pat::make_factory&lt;inline_widget&gt;());</div>
 <div class="line"></div>
 <div class="line">        fm.show();</div>
-<div class="line">        <a name="a17"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>();</div>
+<div class="line">        <a name="a18"></a><a class="code" href="../../d2/d76/namespacenana.html#a36f8eb51da338977c6af8d711605ce6b">exec</a>();</div>
 <div class="line">}</div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->

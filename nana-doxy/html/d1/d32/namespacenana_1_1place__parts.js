@@ -6,7 +6,7 @@ var namespacenana_1_1place__parts =
     [ "splitter", "dd/dcd/classnana_1_1place__parts_1_1splitter.html", null ],
     [ "dock_notifier_interface", "db/d5a/classnana_1_1place__parts_1_1dock__notifier__interface.html", "db/d5a/classnana_1_1place__parts_1_1dock__notifier__interface" ],
     [ "dockcaption_dtrigger", "d3/ddf/classnana_1_1place__parts_1_1dockcaption__dtrigger.html", "d3/ddf/classnana_1_1place__parts_1_1dockcaption__dtrigger" ],
-    [ "dockarea_caption", "d7/d64/classnana_1_1place__parts_1_1dockarea__caption.html", "d7/d64/classnana_1_1place__parts_1_1dockarea__caption" ],
+    [ "dockarea_caption", "d7/d64/classnana_1_1place__parts_1_1dockarea__caption.html", null ],
     [ "dockarea", "d2/d10/classnana_1_1place__parts_1_1dockarea.html", "d2/d10/classnana_1_1place__parts_1_1dockarea" ],
     [ "number_t", "d8/d09/classnana_1_1place__parts_1_1number__t.html", "d8/d09/classnana_1_1place__parts_1_1number__t" ],
     [ "margin", "d4/d9f/classnana_1_1place__parts_1_1margin.html", "d4/d9f/classnana_1_1place__parts_1_1margin" ],

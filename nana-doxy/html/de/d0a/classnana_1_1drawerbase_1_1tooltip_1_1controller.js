@@ -5,5 +5,5 @@ var classnana_1_1drawerbase_1_1tooltip_1_1controller =
     [ "instance", "de/d0a/classnana_1_1drawerbase_1_1tooltip_1_1controller.html#aa61ae39618df37f1c08699ebf6a3d6a6", null ],
     [ "set", "de/d0a/classnana_1_1drawerbase_1_1tooltip_1_1controller.html#a89d2e40947480cdee0194ac096ae825b", null ],
     [ "show", "de/d0a/classnana_1_1drawerbase_1_1tooltip_1_1controller.html#a3793b765adcdefbe3e965010c7446fb6", null ],
-    [ "show_duration", "de/d0a/classnana_1_1drawerbase_1_1tooltip_1_1controller.html#a5a4e78d7ee2731b6efdea410bec79456", null ]
+    [ "show_duration", "de/d0a/classnana_1_1drawerbase_1_1tooltip_1_1controller.html#a4ea95209ab2cde8a1a1120d6153df30b", null ]
 ];

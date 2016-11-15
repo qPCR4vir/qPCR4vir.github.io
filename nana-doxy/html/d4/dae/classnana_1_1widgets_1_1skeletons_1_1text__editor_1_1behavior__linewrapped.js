@@ -1,5 +1,6 @@
 var classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped =
 [
+    [ "row_coordinate", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#afafd09490ce780f81675df1ac37ba0dc", null ],
     [ "behavior_linewrapped", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a3c79313dde1ebcc77841ebba7eafec8d", null ],
     [ "add_lines", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a86cf6ac66dc7c6aa308c159a5d5962be", null ],
     [ "adjust_caret_into_screen", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a6e1b0f8ce52816a2a8af090ac17aac24", null ],

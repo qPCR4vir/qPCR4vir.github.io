@@ -1,7 +1,8 @@
 var classnana_1_1drawerbase_1_1listbox_1_1drawer__lister__impl =
 [
-    [ "item_state", "da/d6a/classnana_1_1drawerbase_1_1listbox_1_1drawer__lister__impl.html#a58d52279d1208b370ebc3928c93cc0de", null ],
-    [ "parts", "da/d6a/classnana_1_1drawerbase_1_1listbox_1_1drawer__lister__impl.html#a779d8d610c609e1e1ccd428e0f95127c", null ],
-    [ "drawer_lister_impl", "da/d6a/classnana_1_1drawerbase_1_1listbox_1_1drawer__lister__impl.html#add7f8f46279f997d43bc877edba48393", null ],
-    [ "draw", "da/d6a/classnana_1_1drawerbase_1_1listbox_1_1drawer__lister__impl.html#a22133af7cb5cbac616cb1cdc986419b0", null ]
+    [ "item_state", "da/d6a/classnana_1_1drawerbase_1_1listbox_1_1drawer__lister__impl.html#a5e8b2496e3afbbb9a587e66100a106f3", null ],
+    [ "parts", "da/d6a/classnana_1_1drawerbase_1_1listbox_1_1drawer__lister__impl.html#a9b45f97bfd0a5ed7cc21cef104accfd4", null ],
+    [ "status_type", "da/d6a/classnana_1_1drawerbase_1_1listbox_1_1drawer__lister__impl.html#a3dfe1807476fc26f3cbd2dd803729016", null ],
+    [ "drawer_lister_impl", "da/d6a/classnana_1_1drawerbase_1_1listbox_1_1drawer__lister__impl.html#a46e0dce29c68a8c9305683e1e8354c83", null ],
+    [ "draw", "da/d6a/classnana_1_1drawerbase_1_1listbox_1_1drawer__lister__impl.html#acee8852c9fdc42b77c4ae0610ae4f8db", null ]
 ];

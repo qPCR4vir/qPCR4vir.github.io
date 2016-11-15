@@ -3,6 +3,7 @@ var classnana_1_1element_1_1bground =
     [ "draw_graph", "dc/d98/structnana_1_1element_1_1bground_1_1draw__graph.html", "dc/d98/structnana_1_1element_1_1bground_1_1draw__graph" ],
     [ "draw_image", "d0/de2/structnana_1_1element_1_1bground_1_1draw__image.html", "d0/de2/structnana_1_1element_1_1bground_1_1draw__image" ],
     [ "draw_method", "db/dd5/structnana_1_1element_1_1bground_1_1draw__method.html", "db/dd5/structnana_1_1element_1_1bground_1_1draw__method" ],
+    [ "implementation", "d6/d7a/structnana_1_1element_1_1bground_1_1implementation.html", "d6/d7a/structnana_1_1element_1_1bground_1_1implementation" ],
     [ "graph_reference", "d7/d45/classnana_1_1element_1_1bground.html#a8bab06925b410770e12274131a40e5b9", null ],
     [ "bground", "d7/d45/classnana_1_1element_1_1bground.html#ab9d85f1b604280ebd7d4663e2b8113df", null ],
     [ "bground", "d7/d45/classnana_1_1element_1_1bground.html#a65322b3f9737121339bf5d4bad88a61b", null ],

@@ -1,6 +1,6 @@
 var structnana_1_1drawerbase_1_1listbox_1_1category__t =
 [
-    [ "container", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#a5878fda5008aa3868193a428f62d8e57", null ],
+    [ "container", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#a4d1c6c9b14149fbacfa58a229393b3a0", null ],
     [ "category_t", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#abfc2ab57f2e82f802b0ed1ff14b327dc", null ],
     [ "category_t", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#ac251e56f14389c5261e91fb45f644c6b", null ],
     [ "selected", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#addb0608f90fee797c082c0332b3610d6", null ],
@@ -9,6 +9,7 @@ var structnana_1_1drawerbase_1_1listbox_1_1category__t =
     [ "indicators", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#a7193a3be826dbe1895c6e9ac5cfd1680", null ],
     [ "items", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#a927ac3428cdc2e02a51429a24ed28e29", null ],
     [ "key_ptr", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#ab1c24bd793bb6e5390f43a439b7a8424", null ],
+    [ "model_ptr", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#a7adc26e9c9db7549c893c02f1f4abc2e", null ],
     [ "sorted", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#a1dce08c9e165a56fcc51c46a5237a14d", null ],
     [ "text", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#a2907e902165f261b24571ab16dc5a5fa", null ]
 ];

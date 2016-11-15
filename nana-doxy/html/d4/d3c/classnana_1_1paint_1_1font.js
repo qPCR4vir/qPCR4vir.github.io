@@ -20,6 +20,8 @@ var classnana_1_1paint_1_1font =
     [ "release", "d4/d3c/classnana_1_1paint_1_1font.html#a660b48d98291d7476b0e0e4f16222ef0", null ],
     [ "set_default", "d4/d3c/classnana_1_1paint_1_1font.html#a5adf5d272fc1fb376332b5ba4e53974f", null ],
     [ "size", "d4/d3c/classnana_1_1paint_1_1font.html#a14665907caf882818c4e946ecf56ef10", null ],
+    [ "strikeout", "d4/d3c/classnana_1_1paint_1_1font.html#a3508ac2ac856eb9e85739b80ebb26629", null ],
+    [ "underline", "d4/d3c/classnana_1_1paint_1_1font.html#ac3f89d93565a3b9a7c234b1fec51124c", null ],
     [ "weight", "d4/d3c/classnana_1_1paint_1_1font.html#a93f868077c4f1a06a32f07b578fa5e9c", null ],
     [ "graphics", "d4/d3c/classnana_1_1paint_1_1font.html#a216edca43961f35a056c78fee42d95d1", null ]
 ];

@@ -2,6 +2,7 @@ var classnana_1_1widgets_1_1skeletons_1_1undoable =
 [
     [ "command", "d2/d33/classnana_1_1widgets_1_1skeletons_1_1undoable.html#af7b5f641c687d87c8c9b6d0a08e4fc35", null ],
     [ "container", "d2/d33/classnana_1_1widgets_1_1skeletons_1_1undoable.html#a8f149857c6caf0b22cd8b6830ddc0254", null ],
+    [ "clear", "d2/d33/classnana_1_1widgets_1_1skeletons_1_1undoable.html#ad2af1a3e4a71afced9b1d149ecd7035f", null ],
     [ "count", "d2/d33/classnana_1_1widgets_1_1skeletons_1_1undoable.html#aeed05e932cc589d265714f56b0be1985", null ],
     [ "enable", "d2/d33/classnana_1_1widgets_1_1skeletons_1_1undoable.html#ad5a65140590831351084c273b011f7e3", null ],
     [ "enabled", "d2/d33/classnana_1_1widgets_1_1skeletons_1_1undoable.html#a201033fa117002edf28669b4badbefa4", null ],

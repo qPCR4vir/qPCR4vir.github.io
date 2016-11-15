@@ -15,6 +15,7 @@ var structnana_1_1place_1_1implement =
     [ "disconnect", "df/d6d/structnana_1_1place_1_1implement.html#acf6fdcdfea1e399aef768ec4ac2f3788", null ],
     [ "scan_div", "df/d6d/structnana_1_1place_1_1implement.html#afd1ed9fd5f5c56a7919e232c0af795f5", null ],
     [ "search_div_name", "df/d6d/structnana_1_1place_1_1implement.html#a8921c7207f85766bc48b02c7700ec225", null ],
+    [ "div_text", "df/d6d/structnana_1_1place_1_1implement.html#a8e31f62045356767464b4b2e90fc6ac4", null ],
     [ "dock_factoris", "df/d6d/structnana_1_1place_1_1implement.html#a6ca36adf741f98cfea0345a996d7f450", null ],
     [ "docks", "df/d6d/structnana_1_1place_1_1implement.html#a2b1ca4727cc5cb5a4ecc8205d3cafcf5", null ],
     [ "event_size_handle", "df/d6d/structnana_1_1place_1_1implement.html#a94c69235bfb8d32935064126d1f4effa", null ],

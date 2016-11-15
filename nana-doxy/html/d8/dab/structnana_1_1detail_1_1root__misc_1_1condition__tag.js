@@ -1,6 +1,0 @@
-var structnana_1_1detail_1_1root__misc_1_1condition__tag =
-[
-    [ "hovered", "d8/dab/structnana_1_1detail_1_1root__misc_1_1condition__tag.html#a694ca3e4c4fbceaf7cfe1b426e1df232", null ],
-    [ "pressed", "d8/dab/structnana_1_1detail_1_1root__misc_1_1condition__tag.html#a389b1454c4db45293beff04cb96971a1", null ],
-    [ "pressed_by_space", "d8/dab/structnana_1_1detail_1_1root__misc_1_1condition__tag.html#aa9a6752c345251f8fe2af999ab24b768", null ]
-];

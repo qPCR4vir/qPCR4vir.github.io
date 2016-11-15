@@ -23,5 +23,6 @@ var classnana_1_1color =
     [ "operator==", "dd/d1e/classnana_1_1color.html#a58e66a7eda25c916512b8c8edeac6a28", null ],
     [ "px_color", "dd/d1e/classnana_1_1color.html#a0ed42b936bf63dd044f9258d2d99b601", null ],
     [ "r", "dd/d1e/classnana_1_1color.html#a097b647cde627a019a249eeda768846f", null ],
-    [ "rgba", "dd/d1e/classnana_1_1color.html#a9dede8ae72956128769741aeceafe7a4", null ]
+    [ "rgba", "dd/d1e/classnana_1_1color.html#a9dede8ae72956128769741aeceafe7a4", null ],
+    [ "operator+", "dd/d1e/classnana_1_1color.html#aaaa73de59a6b81ba170ce7a18b491917", null ]
 ];

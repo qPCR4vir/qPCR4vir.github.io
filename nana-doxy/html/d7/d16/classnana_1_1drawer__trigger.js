@@ -2,7 +2,8 @@ var classnana_1_1drawer__trigger =
 [
     [ "graph_reference", "d7/d16/classnana_1_1drawer__trigger.html#a4d446946785fb5c5e14b19dcc46dfdbe", null ],
     [ "widget_reference", "d7/d16/classnana_1_1drawer__trigger.html#a6b1867c971a97438e1a2eebc949270ff", null ],
-    [ "~drawer_trigger", "d7/d16/classnana_1_1drawer__trigger.html#a87fc27c310e6fd637c2208d8c77fe6fa", null ],
+    [ "drawer_trigger", "d7/d16/classnana_1_1drawer__trigger.html#ae9f663f728fe9c6d26791853162c397c", null ],
+    [ "~drawer_trigger", "d7/d16/classnana_1_1drawer__trigger.html#a792c491d4cff8fc1f8391f1277fd8fd8", null ],
     [ "attached", "d7/d16/classnana_1_1drawer__trigger.html#a0c265ab15c33caa45d3f207cf77b0d14", null ],
     [ "click", "d7/d16/classnana_1_1drawer__trigger.html#ad46a275985281eb236c74f0f1bdb379d", null ],
     [ "dbl_click", "d7/d16/classnana_1_1drawer__trigger.html#a922f7fa06da565766f22323f2ade16cc", null ],

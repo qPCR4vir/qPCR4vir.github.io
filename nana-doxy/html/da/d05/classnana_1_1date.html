@@ -417,7 +417,18 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">{</div>
+<div class="line">                        <span class="keywordflow">if</span>(1601 &lt;= year &amp;&amp; year &lt; 30827 &amp;&amp; 0 &lt; month &amp;&amp; month &lt; 13 &amp;&amp; day &gt; 0)</div>
+<div class="line">                        {</div>
+<div class="line">                                <span class="keywordflow">if</span>(day &lt;= static_cast&lt;int&gt;(<a class="code" href="../../da/d05/classnana_1_1date.html#ae5c701f44ed056e37662628843527e80">date::month_days</a>(year, month)))</div>
+<div class="line">                                        <span class="keywordflow">return</span>;</div>
+<div class="line">                        }</div>
+<div class="line"></div>
+<div class="line">                        <a class="code" href="../../da/d05/classnana_1_1date.html#a54701be4c6145ad1cdea85d46bcc9e1c">set</a>(<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/chrono/c/localtime.html">localtime</a>())</div>
+<div class="ttc" id="classnana_1_1date_html_ae5c701f44ed056e37662628843527e80"><div class="ttname"><a href="../../da/d05/classnana_1_1date.html#ae5c701f44ed056e37662628843527e80">nana::date::month_days</a></div><div class="ttdeci">static unsigned month_days(unsigned year, unsigned month)</div><div class="ttdoc">the number of days in the specified month. </div><div class="ttdef"><b>Definition:</b> datetime.cpp:242</div></div>
+<div class="ttc" id="classnana_1_1date_html_a54701be4c6145ad1cdea85d46bcc9e1c"><div class="ttname"><a href="../../da/d05/classnana_1_1date.html#a54701be4c6145ad1cdea85d46bcc9e1c">nana::date::set</a></div><div class="ttdeci">void set(const std::tm &amp;)</div><div class="ttdef"><b>Definition:</b> datetime.cpp:54</div></div>
+<div class="ttc" id="localtime_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/chrono/c/localtime.html">std::localtime</a></div><div class="ttdeci">T localtime(T...args)</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a57ed1c2472659f3bfbc09d1d5fd31011"></a>

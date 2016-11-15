@@ -34,6 +34,7 @@ var classnana_1_1paint_1_1pixel__buffer =
     [ "put", "d0/d07/classnana_1_1paint_1_1pixel__buffer.html#a66933ffc12a0d8da581713b6c079bb1f", null ],
     [ "raw_ptr", "d0/d07/classnana_1_1paint_1_1pixel__buffer.html#a3c02fc084c400397363f05aac33240cb", null ],
     [ "rectangle", "d0/d07/classnana_1_1paint_1_1pixel__buffer.html#a4da84f9aec8ec1a3bd19396345e78f1b", null ],
+    [ "rotate", "d0/d07/classnana_1_1paint_1_1pixel__buffer.html#a7603480e3dc6d16410855a6d0c8a6ef9", null ],
     [ "size", "d0/d07/classnana_1_1paint_1_1pixel__buffer.html#a2b8d8642e704bcddf8211932481fb84f", null ],
     [ "stretch", "d0/d07/classnana_1_1paint_1_1pixel__buffer.html#a5852f46c53e4fc4d06da26836e39624c", null ],
     [ "stretch", "d0/d07/classnana_1_1paint_1_1pixel__buffer.html#aaa110ed4bf998bc5583179199a7cf671", null ]

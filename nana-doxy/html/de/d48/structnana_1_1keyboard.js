@@ -20,6 +20,7 @@ var structnana_1_1keyboard =
     [ "cut", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea06f60cdf9b75b1c051f368cdaebd15c1", null ],
     [ "redo", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea06f5dc82cbf207ec8b4650671dd8e4da", null ],
     [ "undo", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eaf44aee5ec32f42b1ce81dfaced242a42", null ],
+    [ "os_tab", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eaa4a25af1636e127d8293f27228b294b3", null ],
     [ "os_shift", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eadfb8c82a9c1baf9436e75476c7bce62e", null ],
     [ "os_ctrl", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea66d2e0beff230253b976ea7542a812f4", null ],
     [ "os_pageup", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea5f2950e553b505ba7f82ca6cd1a2a975", null ],

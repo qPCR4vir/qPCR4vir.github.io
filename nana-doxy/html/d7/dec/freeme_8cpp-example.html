@@ -117,10 +117,10 @@ UI of The FreeMe</div></div>
 <p>form, picture, label, button, progressbar, file_iterator, thread and less than 400 lines source code. Click here to download the package that contains the source code and binrary.</p>
 <div class="fragment"><div class="line"></div>
 <div class="line"><span class="comment">// http://nanapro.sourceforge.net/help/tutorials/thefreeme.htm</span></div>
-<div class="line"></div>
-<div class="line"><span class="preprocessor">#ifndef PATH_CREATOR_HPP</span></div>
-<div class="line"><span class="preprocessor"></span><span class="preprocessor">#define PATH_CREATOR_HPP</span></div>
-<div class="line"><span class="preprocessor"></span><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span></div>
+<div class="line"><span class="preprocessor">#ifdef NANA_WINDOWS</span></div>
+<div class="line"><span class="preprocessor"></span><span class="preprocessor">#ifdef BUILD_FreeMe</span></div>
+<div class="line"><span class="preprocessor"></span></div>
+<div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;shlobj.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;windows.h&gt;</span></div>
 <div class="line"><span class="keyword">using</span> wstring = <a name="_a0"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::wstring</a>;</div>
@@ -309,8 +309,8 @@ UI of The FreeMe</div></div>
 <div class="line">        };</div>
 <div class="line">}</div>
 <div class="line"></div>
-<div class="line"><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="preprocessor"></span></div>
+<div class="line"></div>
+<div class="line"></div>
 <div class="line"><span class="comment">/*</span></div>
 <div class="line"><span class="comment"> *      The FreeMe - A sample of Nana C++ Library</span></div>
 <div class="line"><span class="comment"> *      Copyright(C) 2007-2009 Jinhao</span></div>
@@ -329,9 +329,7 @@ UI of The FreeMe</div></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/progress.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/label.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/place.hpp&gt;</span></div>
-<div class="line"><span class="comment">//#include &lt;nana/filesystem/file_iterator.hpp&gt;</span></div>
-<div class="line"><span class="comment">//#include &lt;nana/filesystem/fs_utility.hpp&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;nana/filesystem/filesystem.hpp&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;nana/filesystem/filesystem_ext.hpp&gt;</span></div>
 <div class="line"></div>
 <div class="line"><span class="preprocessor">#include &lt;thread&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;vector&gt;</span></div>
@@ -359,7 +357,7 @@ UI of The FreeMe</div></div>
 <div class="line">        <span class="keyword">using</span> self_type = junk_sweeper ;</div>
 <div class="line"></div>
 <div class="line"> <span class="keyword">public</span>:</div>
-<div class="line">         <span class="keyword">using</span> file_iterator = nana::experimental::filesystem::directory_iterator; <span class="comment">// ::file_iterator file_iterator;</span></div>
+<div class="line">         <span class="keyword">using</span> file_iterator = std::experimental::filesystem::directory_iterator; <span class="comment">// ::file_iterator file_iterator;</span></div>
 <div class="line">         <span class="keyword">using</span> file_info_type =  file_iterator::value_type       ;</div>
 <div class="line"></div>
 <div class="line">        junk_sweeper() {}</div>
@@ -687,10 +685,12 @@ UI of The FreeMe</div></div>
 <div class="line"><span class="keywordtype">int</span>  main( )</div>
 <div class="line">{</div>
 <div class="line">        frm_main main;</div>
-<div class="line">        <a name="a23"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">nana::exec</a>();</div>
+<div class="line">        <a name="a23"></a><a class="code" href="../../d2/d76/namespacenana.html#a36f8eb51da338977c6af8d711605ce6b">nana::exec</a>();</div>
 <div class="line"></div>
 <div class="line">        <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
+<div class="line"><span class="preprocessor">#endif // BUILD_FreeMe</span></div>
+<div class="line"><span class="preprocessor"></span><span class="preprocessor">#endif // NANA_WINDOWS</span></div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

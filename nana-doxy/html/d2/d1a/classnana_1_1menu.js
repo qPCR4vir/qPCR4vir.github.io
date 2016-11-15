@@ -9,7 +9,7 @@ var classnana_1_1menu =
     [ "menu", "d2/d1a/classnana_1_1menu.html#a5c188413c9d3e0c20a8b93a17aade8ef", null ],
     [ "~menu", "d2/d1a/classnana_1_1menu.html#a22c18fa9ae4f6f2428f92004a0b5cf95", null ],
     [ "answerer", "d2/d1a/classnana_1_1menu.html#a94e876c7911a3d618c9f0f179f645a37", null ],
-    [ "append", "d2/d1a/classnana_1_1menu.html#a664f4246f4260438c5fc6b8e35e906fd", null ],
+    [ "append", "d2/d1a/classnana_1_1menu.html#a78393f2474ce1b06abc142956f3c2572", null ],
     [ "append_splitter", "d2/d1a/classnana_1_1menu.html#a2b5bb80775ba625e039246a340b7a4dc", null ],
     [ "check_style", "d2/d1a/classnana_1_1menu.html#ab63f051613375bcfed6723e176ec3a55", null ],
     [ "checked", "d2/d1a/classnana_1_1menu.html#af072963ca32906c883cc6d957260dd18", null ],
@@ -17,7 +17,7 @@ var classnana_1_1menu =
     [ "clear", "d2/d1a/classnana_1_1menu.html#a687a9a583e2f5611e2e2fc95e0cf6a3a", null ],
     [ "close", "d2/d1a/classnana_1_1menu.html#a5170c5810784ad7fde1f42e9e6eefa0a", null ],
     [ "create_sub_menu", "d2/d1a/classnana_1_1menu.html#ad77d60c0394949d17468af3377b94b40", null ],
-    [ "destroy_answer", "d2/d1a/classnana_1_1menu.html#a325a535eb9a2ad48882f93fd7fe5328e", null ],
+    [ "destroy_answer", "d2/d1a/classnana_1_1menu.html#adb118ea13f6d272fee8dc81e1939b853", null ],
     [ "enabled", "d2/d1a/classnana_1_1menu.html#a7182211c42103117eda4970c67c199f4", null ],
     [ "enabled", "d2/d1a/classnana_1_1menu.html#a17261bdf290eee26de6c7ee82648e54a", null ],
     [ "erase", "d2/d1a/classnana_1_1menu.html#a917a288d76ea66d1b793c0c09897a621", null ],
@@ -39,5 +39,6 @@ var classnana_1_1menu =
     [ "renderer", "d2/d1a/classnana_1_1menu.html#a9b853c29e5b6d934e05d7fb20e1e4a7e", null ],
     [ "send_shortkey", "d2/d1a/classnana_1_1menu.html#a94c088fdc29f6fea47225e0130d79811", null ],
     [ "size", "d2/d1a/classnana_1_1menu.html#ac3e7d0feeafd44c3267e46d46b5ae791", null ],
+    [ "text", "d2/d1a/classnana_1_1menu.html#a7f6e82fa138790280cb9924a542285dd", null ],
     [ "menu_accessor", "d2/d1a/classnana_1_1menu.html#a01d0098baede98c35e6b9bb6ab3372d5", null ]
 ];

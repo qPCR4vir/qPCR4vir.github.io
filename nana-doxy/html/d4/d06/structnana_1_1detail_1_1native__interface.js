@@ -4,6 +4,7 @@ var structnana_1_1detail_1_1native__interface =
     [ "native_string_type", "d4/d06/structnana_1_1detail_1_1native__interface.html#af9cc02dffd0725d9a732ed4545806b13", null ],
     [ "activate_owner", "d4/d06/structnana_1_1detail_1_1native__interface.html#a82b1e23f767142e16d9ff23db0152cfe", null ],
     [ "activate_window", "d4/d06/structnana_1_1detail_1_1native__interface.html#a89a56f74d44ee6a7633f8d7e597e02c1", null ],
+    [ "affinity_execute", "d4/d06/structnana_1_1detail_1_1native__interface.html#affff80af0f4dcd69a8fbdcb45f4609f9", null ],
     [ "bring_top", "d4/d06/structnana_1_1detail_1_1native__interface.html#a3e836cbeb2419b9c5cb3060039fbfe5c", null ],
     [ "calc_screen_point", "d4/d06/structnana_1_1detail_1_1native__interface.html#ae7b31a527c819d774cf346c04a199531", null ],
     [ "calc_window_point", "d4/d06/structnana_1_1detail_1_1native__interface.html#a176b3e5e5143dc90eb8e35139c2b1036", null ],

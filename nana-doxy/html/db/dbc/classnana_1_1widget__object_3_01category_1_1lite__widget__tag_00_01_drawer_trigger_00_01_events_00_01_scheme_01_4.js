@@ -8,6 +8,5 @@ var classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_t
     [ "create", "db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#ab4325562ed48d01c57cfa7a9741b1cd5", null ],
     [ "create", "db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#a9a27fdbba1fc6bdb775cffd0d32c71d7", null ],
     [ "events", "db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#a9a3e9b907098087d23c1ce5ef409db7e", null ],
-    [ "handle", "db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#a7bacdc7f03b09aa0700cb6d6b84eb13a", null ],
     [ "scheme", "db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#aca7582f36e6db7e4eda8d3fc6d73b042", null ]
 ];

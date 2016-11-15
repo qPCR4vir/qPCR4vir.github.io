@@ -115,6 +115,15 @@ Screenshot of Calculator</div></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/label.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/place.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;forward_list&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;cassert&gt;</span></div>
+<div class="line"></div>
+<div class="line"><span class="comment">//#include &lt;nana/paint/graphics.hpp&quot;</span></div>
+<div class="line"></div>
+<div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;chrono&gt;</span></div>
+<div class="line"></div>
+<div class="line"><span class="preprocessor">#include &lt;thread&gt;</span></div>
 <div class="line"></div>
 <div class="line"><span class="keyword">using namespace </span>nana;</div>
 <div class="line"></div>
@@ -291,11 +300,12 @@ Screenshot of Calculator</div></div>
 <div class="line">        stateinfo state(procedure, result);</div>
 <div class="line"></div>
 <div class="line">        <a name="_a22"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/forward_list.html">std::forward_list&lt;button&gt;</a> op_keys;</div>
+<div class="line">        <a name="_a23"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/map.html">std::map&lt;char,button*&gt;</a> bts;</div>
 <div class="line"></div>
 <div class="line">        <span class="keywordtype">char</span> keys[] = <span class="stringliteral">&quot;Cm%/789X456-123+0.=&quot;</span>; <span class="comment">// \261</span></div>
-<div class="line">        <a class="code" href="../../d4/d3c/classnana_1_1paint_1_1font.html">nana::paint::font</a> keyfont(<span class="stringliteral">&quot;&quot;</span>, 10, <span class="keyword">true</span>);</div>
+<div class="line">        <a class="code" href="../../d4/d3c/classnana_1_1paint_1_1font.html">paint::font</a> keyfont(<span class="stringliteral">&quot;&quot;</span>, 10, <span class="keyword">true</span>);</div>
 <div class="line"></div>
-<div class="line">        <span class="keywordflow">for</span> (<span class="keyword">auto</span> <a name="_a23"></a><a class="code" href="../../da/dba/classnana_1_1key.html">key</a> : keys)</div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keyword">auto</span> <a name="_a24"></a><a class="code" href="../../da/dba/classnana_1_1key.html">key</a> : keys)</div>
 <div class="line">        {</div>
 <div class="line">                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> Key;</div>
 <div class="line">                <span class="keywordflow">if</span> (<a class="code" href="../../da/dba/classnana_1_1key.html">key</a> == <span class="charliteral">&#39;m&#39;</span>)</div>
@@ -303,15 +313,16 @@ Screenshot of Calculator</div></div>
 <div class="line">        <span class="keywordflow">else</span></div>
 <div class="line">                        Key = <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>(1, <a class="code" href="../../da/dba/classnana_1_1key.html">key</a>);</div>
 <div class="line"></div>
-<div class="line">                op_keys.<a name="a24"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/forward_list/emplace_front.html">emplace_front</a>(fm.<a name="a25"></a><a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a9503ee5c2c8f4ceb14adb6c57c34e3b6">handle</a>());</div>
-<div class="line">                <span class="keyword">auto</span> &amp; key_btn = op_keys.<a name="a26"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/forward_list/front.html">front</a>();</div>
+<div class="line">                op_keys.<a name="a25"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/forward_list/emplace_front.html">emplace_front</a>(fm.<a name="a26"></a><a class="code" href="../../df/df9/classnana_1_1detail_1_1widget__base.html#a646b68d9a1b066a0e499cadf5c675c28">handle</a>());</div>
+<div class="line">                <span class="keyword">auto</span> &amp; key_btn = op_keys.<a name="a27"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/forward_list/front.html">front</a>();</div>
+<div class="line">                bts[<a class="code" href="../../da/dba/classnana_1_1key.html">key</a>]=&amp;key_btn;</div>
 <div class="line"></div>
 <div class="line">                key_btn.caption(Key);</div>
 <div class="line">                key_btn.typeface(keyfont);</div>
 <div class="line"></div>
 <div class="line">                <span class="keywordflow">if</span> (<span class="charliteral">&#39;=&#39;</span> == <a class="code" href="../../da/dba/classnana_1_1key.html">key</a>)</div>
 <div class="line">                {</div>
-<div class="line">                        key_btn.bgcolor(<a name="a27"></a><a class="code" href="../../d2/d76/namespacenana.html#a6fae8ac394c3ea0a8d1040fb1dcc5955">color_rgb</a>(0x7ACC));</div>
+<div class="line">                        key_btn.bgcolor(<a name="a28"></a><a class="code" href="../../d2/d76/namespacenana.html#a6fae8ac394c3ea0a8d1040fb1dcc5955">color_rgb</a>(0x7ACC));</div>
 <div class="line">                        key_btn.fgcolor(<a class="code" href="../../d2/d76/namespacenana.html#a6fae8ac394c3ea0a8d1040fb1dcc5955">color_rgb</a>(0xFFFFFF));</div>
 <div class="line">                }</div>
 <div class="line">                <a class="code" href="../../dc/de3/classnana_1_1place.html">place</a>[<span class="stringliteral">&quot;opkeys&quot;</span>] &lt;&lt; key_btn;</div>
@@ -326,9 +337,27 @@ Screenshot of Calculator</div></div>
 <div class="line">                });</div>
 <div class="line">        }</div>
 <div class="line"></div>
-<div class="line">        <a class="code" href="../../dc/de3/classnana_1_1place.html">place</a>.<a name="a28"></a><a class="code" href="../../dc/de3/classnana_1_1place.html#aec97ac368d0357cb3222b3316f2306ff">collocate</a>();</div>
-<div class="line">        fm.<a name="a29"></a><a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>();</div>
-<div class="line">        <a name="a30"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>();</div>
+<div class="line">        <a class="code" href="../../dc/de3/classnana_1_1place.html">place</a>.<a name="a29"></a><a class="code" href="../../dc/de3/classnana_1_1place.html#aec97ac368d0357cb3222b3316f2306ff">collocate</a>();</div>
+<div class="line">        fm.<a name="a30"></a><a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>();</div>
+<div class="line">        <a name="a31"></a><a class="code" href="../../d2/d76/namespacenana.html#a36f8eb51da338977c6af8d711605ce6b">exec</a>( 1, 10, [&amp;bts, &amp;result ]()</div>
+<div class="line">        {</div>
+<div class="line">                <a name="a32"></a><a class="code" href="../../d2/d76/namespacenana.html#a3f42920f283b0835d457749e899b3879">click</a>(*bts[<span class="charliteral">&#39;2&#39;</span>]); <a name="a33"></a><a class="code" href="../../d2/d76/namespacenana.html#a798b90b1406b5004e24a3b2d1f457a8e">Wait</a>( 1);</div>
+<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#a3f42920f283b0835d457749e899b3879">click</a>(*bts[<span class="charliteral">&#39;+&#39;</span>]); <a class="code" href="../../d2/d76/namespacenana.html#a798b90b1406b5004e24a3b2d1f457a8e">Wait</a>( 1);</div>
+<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#a3f42920f283b0835d457749e899b3879">click</a>(*bts[<span class="charliteral">&#39;2&#39;</span>]); <a class="code" href="../../d2/d76/namespacenana.html#a798b90b1406b5004e24a3b2d1f457a8e">Wait</a>( 1);</div>
+<div class="line"></div>
+<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#a3f42920f283b0835d457749e899b3879">click</a>(*bts[<span class="charliteral">&#39;=&#39;</span>]);</div>
+<div class="line"></div>
+<div class="line"></div>
+<div class="line">                <a name="_a34"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;The result of 2 + 2 is: &quot;</span> &lt;&lt; result.caption() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line">                <span class="keywordtype">int</span> r=<a name="a35"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/stol.html">std::stoi</a>(result.caption());</div>
+<div class="line"></div>
+<div class="line">                <span class="comment">//char c; std::cin &gt;&gt; c;</span></div>
+<div class="line"></div>
+<div class="line">                <span class="keywordflow">if</span> ( r != 4 )</div>
+<div class="line">                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/program/exit.html">exit</a>(r?r:1);</div>
+<div class="line">                <span class="comment">//assert(r != 4);</span></div>
+<div class="line">                <span class="comment">//API::exit();</span></div>
+<div class="line">        });</div>
 <div class="line">}</div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->

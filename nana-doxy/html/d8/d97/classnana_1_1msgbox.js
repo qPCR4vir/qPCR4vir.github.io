@@ -27,6 +27,8 @@ var classnana_1_1msgbox =
     [ "operator()", "d8/d97/classnana_1_1msgbox.html#a96c035502f15487704a3dfcb64796056", null ],
     [ "operator<<", "d8/d97/classnana_1_1msgbox.html#a37ffbb8a9af4d7c058f574bb6bc60847", null ],
     [ "operator<<", "d8/d97/classnana_1_1msgbox.html#a6bc74328809c82429ce84823bdc4ec34", null ],
+    [ "operator<<", "d8/d97/classnana_1_1msgbox.html#ab7f969f1344ba779e6890bb1bbab2a7f", null ],
+    [ "operator<<", "d8/d97/classnana_1_1msgbox.html#a2b6a71f2b521d8a2b7569d4e26aa48d5", null ],
     [ "operator<<", "d8/d97/classnana_1_1msgbox.html#adff482fd5f00053ae53095b3839b2696", null ],
     [ "operator<<", "d8/d97/classnana_1_1msgbox.html#affc8766dbe71a27bd33fc0a75b58a47b", null ],
     [ "operator<<", "d8/d97/classnana_1_1msgbox.html#a48c6bb0b032e515f19747d7c74830df0", null ],

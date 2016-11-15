@@ -115,6 +115,9 @@ $(document).ready(function(){initNavTree('de/d3c/structnana_1_1detail_1_1basic__
 <div class="title">nana::detail::basic_window Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>a window data structure descriptor  
+ <a href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for nana::detail::basic_window:</div>
 <div class="dyncontent">
@@ -127,6 +130,8 @@ Inheritance diagram for nana::detail::basic_window:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d64/structnana_1_1detail_1_1basic__window_1_1annex__components.html">annex_components</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1a/structnana_1_1detail_1_1basic__window_1_1edge__nimbus__action.html">edge_nimbus_action</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html">flags_type</a></td></tr>
@@ -138,7 +143,8 @@ Classes</h2></td></tr>
 Public Types</h2></td></tr>
 <tr class="memitem:a7a7933ada58a4e852c665aaec7c12b94"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a7a7933ada58a4e852c665aaec7c12b94">update_state</a> { <a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a7a7933ada58a4e852c665aaec7c12b94a334c4a4c42fdb79d7ebc3e73b517e6f8">update_state::none</a>, 
 <a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a7a7933ada58a4e852c665aaec7c12b94a0ffe34b4e04c2b282c5a388b1ad8aa7a">update_state::lazy</a>, 
-<a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a7a7933ada58a4e852c665aaec7c12b94a03b62516184fb6ef591f45bd4974b753">update_state::refresh</a>
+<a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a7a7933ada58a4e852c665aaec7c12b94a1472d4aed54bb23f96a1d6370f01410a">update_state::refreshed</a>, 
+<a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a7a7933ada58a4e852c665aaec7c12b94a6989ba409fb911eee24d38a4fa019466">update_state::request_refresh</a>
  }</td></tr>
 <tr class="separator:a7a7933ada58a4e852c665aaec7c12b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0686ddb6276505c9c0dfe05f1fa84641"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a0686ddb6276505c9c0dfe05f1fa84641">container</a> = <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html">basic_window</a> * &gt;</td></tr>
@@ -147,6 +153,7 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4c52f5ce84de1baa95191225550e68d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#ab4c52f5ce84de1baa95191225550e68d">basic_window</a> (<a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html">basic_window</a> *<a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a8f3faa2d4c746e1e828b70db4bfe2b9f">owner</a>, <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt; <a class="el" href="../../df/d3c/classnana_1_1detail_1_1widget__notifier__interface.html">widget_notifier_interface</a> &gt; &amp;&amp;, <a class="el" href="../../d7/d5f/structnana_1_1category_1_1root__tag.html">category::root_tag</a> **)</td></tr>
+<tr class="memdesc:ab4c52f5ce84de1baa95191225550e68d"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor for the root window  <a href="#ab4c52f5ce84de1baa95191225550e68d">More...</a><br/></td></tr>
 <tr class="separator:ab4c52f5ce84de1baa95191225550e68d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5e8ea97f41add95ee922cd8c749c307"><td class="memTemplParams" colspan="2">template&lt;typename Category &gt; </td></tr>
 <tr class="memitem:ae5e8ea97f41add95ee922cd8c749c307"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#ae5e8ea97f41add95ee922cd8c749c307">basic_window</a> (<a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html">basic_window</a> *<a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#af9a7284cbdc9860b625fa57a825e2c53">parent</a>, <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt; <a class="el" href="../../df/d3c/classnana_1_1detail_1_1widget__notifier__interface.html">widget_notifier_interface</a> &gt; &amp;&amp;wdg_notifier, const <a class="el" href="../../dd/d2d/structnana_1_1rectangle.html">rectangle</a> &amp;r, Category **)</td></tr>
@@ -154,6 +161,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a22fd7583c22e6ece476ec1ca11ed2c80"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a22fd7583c22e6ece476ec1ca11ed2c80">~basic_window</a> ()</td></tr>
 <tr class="separator:a22fd7583c22e6ece476ec1ca11ed2c80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98848aa191fb313d844314a574e1b634"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a98848aa191fb313d844314a574e1b634">bind_native_window</a> (<a class="el" href="../../d2/d76/namespacenana.html#a50fb9cb16eb6093d4900ad929a457c12">native_window_type</a>, unsigned width, unsigned height, unsigned <a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a3b759dccac4d3f997571075665e80d1c">extra_width</a>, unsigned <a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a8ba4b18d6edf363b594c6243fe66d499">extra_height</a>, <a class="el" href="../../d6/d47/classnana_1_1paint_1_1graphics.html">paint::graphics</a> &amp;)</td></tr>
+<tr class="memdesc:a98848aa191fb313d844314a574e1b634"><td class="mdescLeft">&#160;</td><td class="mdescRight">bind a native window and baisc_window  <a href="#a98848aa191fb313d844314a574e1b634">More...</a><br/></td></tr>
 <tr class="separator:a98848aa191fb313d844314a574e1b634"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a115af2f2a767c1963358f4a2263f87dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a115af2f2a767c1963358f4a2263f87dc">frame_window</a> (<a class="el" href="../../d2/d76/namespacenana.html#a50fb9cb16eb6093d4900ad929a457c12">native_window_type</a>)</td></tr>
 <tr class="separator:a115af2f2a767c1963358f4a2263f87dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,13 +174,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9ef79babe67c4931da6102f0dcc0615e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a9ef79babe67c4931da6102f0dcc0615e">belong_to_lazy</a> () const </td></tr>
 <tr class="separator:a9ef79babe67c4931da6102f0dcc0615e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13b434bbf99609477284654fbfb3fd1e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html">basic_window</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a13b434bbf99609477284654fbfb3fd1e">child_caret</a> () const </td></tr>
+<tr class="memdesc:a13b434bbf99609477284654fbfb3fd1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the child which owns the caret.  <a href="#a13b434bbf99609477284654fbfb3fd1e">More...</a><br/></td></tr>
 <tr class="separator:a13b434bbf99609477284654fbfb3fd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a031baa985d1c301a9a065883fdf9d36f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a031baa985d1c301a9a065883fdf9d36f">is_draw_through</a> () const </td></tr>
 <tr class="memdesc:a031baa985d1c301a9a065883fdf9d36f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether it is a draw-through window.  <a href="#a031baa985d1c301a9a065883fdf9d36f">More...</a><br/></td></tr>
 <tr class="separator:a031baa985d1c301a9a065883fdf9d36f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad36457bb4bee0fbe26afdd4683f421af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html">basic_window</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#ad36457bb4bee0fbe26afdd4683f421af">seek_non_lite_widget_ancestor</a> () const </td></tr>
 <tr class="separator:ad36457bb4bee0fbe26afdd4683f421af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac26edceeda4f30ddfdf28eb0402ba46a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#ac26edceeda4f30ddfdf28eb0402ba46a">set_action</a> (<a class="el" href="../../d2/d76/namespacenana.html#a1480f163a64163d468bcdd3d8dd16c25">mouse_action</a>)</td></tr>
+<tr class="separator:ac26edceeda4f30ddfdf28eb0402ba46a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d4ef51fe0fa8319ce088680ef05bc97"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a3d4ef51fe0fa8319ce088680ef05bc97">set_events</a> (const <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/memory/shared_ptr.html">std::shared_ptr</a>&lt; <a class="el" href="../../dd/d19/structnana_1_1general__events.html">general_events</a> &gt; &amp;) override</td></tr>
+<tr class="memdesc:a3d4ef51fe0fa8319ce088680ef05bc97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override event_holder.  <a href="#a3d4ef51fe0fa8319ce088680ef05bc97">More...</a><br/></td></tr>
 <tr class="separator:a3d4ef51fe0fa8319ce088680ef05bc97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0672bcbc4554c157d86acb8a81249eb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d19/structnana_1_1general__events.html">general_events</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a0672bcbc4554c157d86acb8a81249eb3">get_events</a> () const override</td></tr>
 <tr class="separator:a0672bcbc4554c157d86acb8a81249eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,9 +194,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a08700c36675a54fa82188ae7a2830493"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d24/structnana_1_1point.html">point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a08700c36675a54fa82188ae7a2830493">pos_root</a></td></tr>
+<tr class="memitem:a08700c36675a54fa82188ae7a2830493"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a08700c36675a54fa82188ae7a2830493">pos_root</a></td></tr>
+<tr class="memdesc:a08700c36675a54fa82188ae7a2830493"><td class="mdescLeft">&#160;</td><td class="mdescRight">coordinates of the root window  <a href="#a08700c36675a54fa82188ae7a2830493">More...</a><br/></td></tr>
 <tr class="separator:a08700c36675a54fa82188ae7a2830493"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a847e5c2bdd14b46391aa76b52780898d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d24/structnana_1_1point.html">point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a847e5c2bdd14b46391aa76b52780898d">pos_owner</a></td></tr>
+<tr class="memitem:a847e5c2bdd14b46391aa76b52780898d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a847e5c2bdd14b46391aa76b52780898d">pos_owner</a></td></tr>
 <tr class="separator:a847e5c2bdd14b46391aa76b52780898d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a065b9b5afcf112c824f55295d31dd9b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df8/structnana_1_1size.html">size</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a065b9b5afcf112c824f55295d31dd9b6">dimension</a></td></tr>
 <tr class="separator:a065b9b5afcf112c824f55295d31dd9b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,10 +218,13 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a667627db219952ac0e1bfd91cf61de26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/da8/namespacenana_1_1detail.html#a352002c0a57ac43971fb9d7f72b2c91a">native_string_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a667627db219952ac0e1bfd91cf61de26">title</a></td></tr>
 <tr class="separator:a667627db219952ac0e1bfd91cf61de26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bfef62a0f87bd3a8df114b1b101da73"><td class="memItemLeft" align="right" valign="top">::<a class="el" href="../../d3/d42/classnana_1_1detail_1_1drawer.html">nana::detail::drawer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a6bfef62a0f87bd3a8df114b1b101da73">drawer</a></td></tr>
+<tr class="memdesc:a6bfef62a0f87bd3a8df114b1b101da73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Self Drawer with owen graphics.  <a href="#a6bfef62a0f87bd3a8df114b1b101da73">More...</a><br/></td></tr>
 <tr class="separator:a6bfef62a0f87bd3a8df114b1b101da73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34ada2bd291b1292028419d90b42ef22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html">basic_window</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a34ada2bd291b1292028419d90b42ef22">root_widget</a></td></tr>
+<tr class="memdesc:a34ada2bd291b1292028419d90b42ef22"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pointer refers to the root basic window, if the window is a root, the pointer refers to itself.  <a href="#a34ada2bd291b1292028419d90b42ef22">More...</a><br/></td></tr>
 <tr class="separator:a34ada2bd291b1292028419d90b42ef22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad79e86508977f9fae3e42708eaf1d798"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d47/classnana_1_1paint_1_1graphics.html">paint::graphics</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#ad79e86508977f9fae3e42708eaf1d798">root_graph</a></td></tr>
+<tr class="memdesc:ad79e86508977f9fae3e42708eaf1d798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refer to the root buffer graphics.  <a href="#ad79e86508977f9fae3e42708eaf1d798">More...</a><br/></td></tr>
 <tr class="separator:ad79e86508977f9fae3e42708eaf1d798"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f3d97dd5bfd677236496b37c86c42d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d76/namespacenana.html#a4b97848023a9ea678b4d40459c07eba1">cursor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a9f3d97dd5bfd677236496b37c86c42d5">predef_cursor</a></td></tr>
 <tr class="separator:a9f3d97dd5bfd677236496b37c86c42d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -218,37 +234,35 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:adad72b6ec266dae8d26327e89c125db5"><td class="memItemLeft" align="right" valign="top">struct <br class="typebreak"/>
 <a class="el" href="../../dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html">nana::detail::basic_window::flags_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#adad72b6ec266dae8d26327e89c125db5">flags</a></td></tr>
 <tr class="separator:adad72b6ec266dae8d26327e89c125db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69b4f7b53a4717ae2190641ec7cf0743"><td class="memItemLeft" >struct {</td></tr>
-<tr class="memitem:a6e612eb52717bddcf2d2844197ded7ee"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="../../dd/db8/classnana_1_1detail_1_1caret__descriptor.html">caret_descriptor</a> *&#160;&#160;&#160;<a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a8ae3f5399f1662e6de584efac0b8ab51">caret</a></td></tr>
-<tr class="separator:a6e612eb52717bddcf2d2844197ded7ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94a571bb6e8891ba593861374096f29c"><td class="memItemLeft" >&#160;&#160;&#160;<a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/memory/shared_ptr.html">std::shared_ptr</a>&lt; <a class="el" href="../../dd/d19/structnana_1_1general__events.html">general_events</a> &gt;&#160;&#160;&#160;<a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a446420eff505349a20cd6d58d37ae4cb">events_ptr</a></td></tr>
-<tr class="separator:a94a571bb6e8891ba593861374096f29c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69b4f7b53a4717ae2190641ec7cf0743"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a69b4f7b53a4717ae2190641ec7cf0743">together</a></td></tr>
-<tr class="separator:a69b4f7b53a4717ae2190641ec7cf0743"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc83256a8a87ed9390fd02ea4f62d4d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d97/structnana_1_1widget__colors.html">widget_colors</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#acc83256a8a87ed9390fd02ea4f62d4d4">scheme</a> { nullptr }</td></tr>
-<tr class="separator:acc83256a8a87ed9390fd02ea4f62d4d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecec3d97500f202f1ac516772cf90413"><td class="memItemLeft" >struct {</td></tr>
-<tr class="memitem:ad1427bd965265bf47df901a3316e0e62"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="../../db/dca/namespacenana_1_1effects.html#af2f1254faa14bc6b00a9d3f4987aebd9">effects::edge_nimbus</a>&#160;&#160;&#160;<a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#adc4e33f084a2c979ab63f2132da87224">edge_nimbus</a></td></tr>
-<tr class="separator:ad1427bd965265bf47df901a3316e0e62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99c911fb2e591e5eac07bba15f5805a6"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="../../db/d6f/classnana_1_1effects_1_1bground__interface.html">effects::bground_interface</a> *&#160;&#160;&#160;<a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#ac18028dba5c5faf600541ebbb962662c">bground</a></td></tr>
-<tr class="separator:a99c911fb2e591e5eac07bba15f5805a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a471d8763bec517992730291c2452f7eb"><td class="memItemLeft" >&#160;&#160;&#160;double&#160;&#160;&#160;<a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a0c370cd6b91dafb6df5713241ebe677e">bground_fade_rate</a></td></tr>
-<tr class="separator:a471d8763bec517992730291c2452f7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecec3d97500f202f1ac516772cf90413"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#aecec3d97500f202f1ac516772cf90413">effect</a></td></tr>
-<tr class="separator:aecec3d97500f202f1ac516772cf90413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b2699281249487fa8e7f6bcba3d40eb"><td class="memItemLeft" align="right" valign="top">struct <br class="typebreak"/>
+<a class="el" href="../../d3/d64/structnana_1_1detail_1_1basic__window_1_1annex__components.html">nana::detail::basic_window::annex_components</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a7b2699281249487fa8e7f6bcba3d40eb">annex</a></td></tr>
+<tr class="separator:a7b2699281249487fa8e7f6bcba3d40eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac43ab29a6e86d883f507f96eaf73df5d"><td class="memItemLeft" >struct {</td></tr>
+<tr class="memitem:a6bce968fcd53f1c4ce59be4f2a436ecb"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="../../db/dca/namespacenana_1_1effects.html#af2f1254faa14bc6b00a9d3f4987aebd9">effects::edge_nimbus</a>&#160;&#160;&#160;<a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#adc4e33f084a2c979ab63f2132da87224">edge_nimbus</a></td></tr>
+<tr class="separator:a6bce968fcd53f1c4ce59be4f2a436ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21f87a1da63120ccffe790312d81973c"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="../../db/d6f/classnana_1_1effects_1_1bground__interface.html">effects::bground_interface</a> *&#160;&#160;&#160;<a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#ac18028dba5c5faf600541ebbb962662c">bground</a></td></tr>
+<tr class="separator:a21f87a1da63120ccffe790312d81973c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac868158ef02f840a2e5c6df4edf15054"><td class="memItemLeft" >&#160;&#160;&#160;double&#160;&#160;&#160;<a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a0c370cd6b91dafb6df5713241ebe677e">bground_fade_rate</a></td></tr>
+<tr class="separator:ac868158ef02f840a2e5c6df4edf15054"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac43ab29a6e86d883f507f96eaf73df5d"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#ac43ab29a6e86d883f507f96eaf73df5d">effect</a></td></tr>
+<tr class="separator:ac43ab29a6e86d883f507f96eaf73df5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5280f89ac3c370e78141698d142df58c"><td class="memItemLeft" align="right" valign="top">struct <br class="typebreak"/>
 <a class="el" href="../../d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html">nana::detail::basic_window::other_tag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a5280f89ac3c370e78141698d142df58c">other</a></td></tr>
 <tr class="separator:a5280f89ac3c370e78141698d142df58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57351ea2f0c7f6b1d69789d49e06f483"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d76/namespacenana.html#a50fb9cb16eb6093d4900ad929a457c12">native_window_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a57351ea2f0c7f6b1d69789d49e06f483">root</a></td></tr>
+<tr class="memdesc:a57351ea2f0c7f6b1d69789d49e06f483"><td class="mdescLeft">&#160;</td><td class="mdescRight">root Window handle  <a href="#a57351ea2f0c7f6b1d69789d49e06f483">More...</a><br/></td></tr>
 <tr class="separator:a57351ea2f0c7f6b1d69789d49e06f483"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04e273f8105839daef67fda965052365"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a04e273f8105839daef67fda965052365">thread_id</a></td></tr>
+<tr class="memdesc:a04e273f8105839daef67fda965052365"><td class="mdescLeft">&#160;</td><td class="mdescRight">the identifier of the thread that created the window.  <a href="#a04e273f8105839daef67fda965052365">More...</a><br/></td></tr>
 <tr class="separator:a04e273f8105839daef67fda965052365"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee6c4a4c091e9b99315da82f3893df28"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#aee6c4a4c091e9b99315da82f3893df28">index</a></td></tr>
 <tr class="separator:aee6c4a4c091e9b99315da82f3893df28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a585341eb7617369313b531f882115e4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a0686ddb6276505c9c0dfe05f1fa84641">container</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a585341eb7617369313b531f882115e4e">children</a></td></tr>
 <tr class="separator:a585341eb7617369313b531f882115e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>a window data structure descriptor </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a0686ddb6276505c9c0dfe05f1fa84641"></a>
 <div class="memitem">
 <div class="memproto">
@@ -284,7 +298,9 @@ Public Attributes</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a7a7933ada58a4e852c665aaec7c12b94a0ffe34b4e04c2b282c5a388b1ad8aa7a"></a>lazy</em>&nbsp;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="a7a7933ada58a4e852c665aaec7c12b94a03b62516184fb6ef591f45bd4974b753"></a>refresh</em>&nbsp;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="a7a7933ada58a4e852c665aaec7c12b94a1472d4aed54bb23f96a1d6370f01410a"></a>refreshed</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a7a7933ada58a4e852c665aaec7c12b94a6989ba409fb911eee24d38a4fa019466"></a>request_refresh</em>&nbsp;</td><td class="fielddoc">
 </td></tr>
 </table>
 
@@ -320,6 +336,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>constructor for the root window </p>
 
 </div>
 </div>
@@ -450,6 +468,8 @@ template&lt;typename Category &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>bind a native window and baisc_window </p>
+
 </div>
 </div>
 <a class="anchor" id="a13b434bbf99609477284654fbfb3fd1e"></a>
@@ -464,6 +484,8 @@ template&lt;typename Category &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns the child which owns the caret. </p>
 
 </div>
 </div>
@@ -571,6 +593,22 @@ template&lt;typename Category &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="ac26edceeda4f30ddfdf28eb0402ba46a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nana::detail::basic_window::set_action </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d76/namespacenana.html#a1480f163a64163d468bcdd3d8dd16c25">mouse_action</a>&#160;</td>
+          <td class="paramname"><em>act</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a3d4ef51fe0fa8319ce088680ef05bc97"></a>
 <div class="memitem">
 <div class="memproto">
@@ -593,6 +631,8 @@ template&lt;typename Category &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Override event_holder. </p>
+
 <p>Implements <a class="el" href="../../d2/d74/classnana_1_1detail_1_1events__holder.html#a7d4cad4ab66b202276ee470d9a7c4bee">nana::detail::events_holder</a>.</p>
 
 </div>
@@ -613,6 +653,18 @@ template&lt;typename Category &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a7b2699281249487fa8e7f6bcba3d40eb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="../../d3/d64/structnana_1_1detail_1_1basic__window_1_1annex__components.html">nana::detail::basic_window::annex_components</a> nana::detail::basic_window::annex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ac18028dba5c5faf600541ebbb962662c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -631,18 +683,6 @@ template&lt;typename Category &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">double nana::detail::basic_window::bground_fade_rate</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8ae3f5399f1662e6de584efac0b8ab51"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dd/db8/classnana_1_1detail_1_1caret__descriptor.html">caret_descriptor</a>* nana::detail::basic_window::caret</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -683,6 +723,8 @@ template&lt;typename Category &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Self Drawer with owen graphics. </p>
+
 </div>
 </div>
 <a class="anchor" id="adc4e33f084a2c979ab63f2132da87224"></a>
@@ -697,24 +739,12 @@ template&lt;typename Category &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aecec3d97500f202f1ac516772cf90413"></a>
+<a class="anchor" id="ac43ab29a6e86d883f507f96eaf73df5d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">struct { ... }  nana::detail::basic_window::effect</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a446420eff505349a20cd6d58d37ae4cb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/memory/shared_ptr.html">std::shared_ptr</a>&lt;<a class="el" href="../../dd/d19/structnana_1_1general__events.html">general_events</a>&gt; nana::detail::basic_window::events_ptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -834,7 +864,7 @@ template&lt;typename Category &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d24/structnana_1_1point.html">point</a> nana::detail::basic_window::pos_owner</td>
+          <td class="memname"><a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">point</a> nana::detail::basic_window::pos_owner</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -846,10 +876,12 @@ template&lt;typename Category &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d24/structnana_1_1point.html">point</a> nana::detail::basic_window::pos_root</td>
+          <td class="memname"><a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">point</a> nana::detail::basic_window::pos_root</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>coordinates of the root window </p>
 
 </div>
 </div>
@@ -875,6 +907,8 @@ template&lt;typename Category &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>root Window handle </p>
+
 </div>
 </div>
 <a class="anchor" id="ad79e86508977f9fae3e42708eaf1d798"></a>
@@ -886,6 +920,8 @@ template&lt;typename Category &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Refer to the root buffer graphics. </p>
 
 </div>
 </div>
@@ -899,17 +935,7 @@ template&lt;typename Category &gt; </div>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="acc83256a8a87ed9390fd02ea4f62d4d4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d97/structnana_1_1widget__colors.html">widget_colors</a>* nana::detail::basic_window::scheme { nullptr }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>A pointer refers to the root basic window, if the window is a root, the pointer refers to itself. </p>
 
 </div>
 </div>
@@ -923,6 +949,8 @@ template&lt;typename Category &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>the identifier of the thread that created the window. </p>
+
 </div>
 </div>
 <a class="anchor" id="a667627db219952ac0e1bfd91cf61de26"></a>
@@ -931,18 +959,6 @@ template&lt;typename Category &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d2/da8/namespacenana_1_1detail.html#a352002c0a57ac43971fb9d7f72b2c91a">native_string_type</a> nana::detail::basic_window::title</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a69b4f7b53a4717ae2190641ec7cf0743"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct { ... }  nana::detail::basic_window::together</td>
         </tr>
       </table>
 </div><div class="memdoc">

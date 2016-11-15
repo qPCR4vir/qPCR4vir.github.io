@@ -107,6 +107,7 @@ $(document).ready(function(){initNavTree('d2/dd0/group_8cpp-example.html','../..
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/button.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/form.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/label.hpp&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"></div>
 <div class="line"><span class="keyword">using namespace </span>nana;</div>
 <div class="line"></div>
@@ -148,11 +149,12 @@ $(document).ready(function(){initNavTree('d2/dd0/group_8cpp-example.html','../..
 <div class="line"></div>
 <div class="line">                grp_left[<span class="stringliteral">&quot;buttons&quot;</span>] &lt;&lt; *btns.<a name="a12"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector/back.html">back</a>();</div>
 <div class="line">                grp_left.collocate();</div>
+<div class="line">                <a name="_a13"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;button added\n&quot;</span>;</div>
 <div class="line">        });</div>
 <div class="line">    <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b2  {grp_right,  <span class="stringliteral">&quot;button2&quot;</span>};</div>
 <div class="line">    <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> b3  {grp_right,  <span class="stringliteral">&quot;button3&quot;</span>};</div>
 <div class="line">    grp_right.div( <span class="stringliteral">&quot;&lt;vertical margin=2 gap= 2 &lt;vert lab&gt; | 40% &lt; &lt;left_field&gt; | 70% &lt;right_field&gt;&gt; &gt;&quot;</span>);</div>
-<div class="line">    grp_right[<span class="stringliteral">&quot;lab&quot;</span>]  &lt;&lt; lab.text_align(<a name="a13"></a><a class="code" href="../../d2/d76/namespacenana.html#ad3d2f08c451a6752b3f7d53e0f863087a7c4f29407893c334a6cb7a87bf045c0d">align::right</a>) &lt;&lt; nested ;</div>
+<div class="line">    grp_right[<span class="stringliteral">&quot;lab&quot;</span>]  &lt;&lt; lab.text_align(<a name="a14"></a><a class="code" href="../../d2/d76/namespacenana.html#ad3d2f08c451a6752b3f7d53e0f863087a7c4f29407893c334a6cb7a87bf045c0d">align::right</a>) &lt;&lt; nested ;</div>
 <div class="line">    grp_right[<span class="stringliteral">&quot;left_field&quot;</span>] &lt;&lt; b1  ;</div>
 <div class="line">    grp_right[<span class="stringliteral">&quot;right_field&quot;</span>]&lt;&lt; b2 &lt;&lt; b3;</div>
 <div class="line"></div>
@@ -165,13 +167,21 @@ $(document).ready(function(){initNavTree('d2/dd0/group_8cpp-example.html','../..
 <div class="line">    nested[<span class="stringliteral">&quot;all&quot;</span>]  &lt;&lt; lab1 &lt;&lt; b4 &lt;&lt; b5 &lt;&lt; b6;</div>
 <div class="line"></div>
 <div class="line"></div>
-<div class="line">    plc.<a name="a14"></a><a class="code" href="../../dc/de3/classnana_1_1place.html#aec97ac368d0357cb3222b3316f2306ff">collocate</a>();</div>
+<div class="line">    plc.<a name="a15"></a><a class="code" href="../../dc/de3/classnana_1_1place.html#aec97ac368d0357cb3222b3316f2306ff">collocate</a>();</div>
 <div class="line">    <span class="comment">//grp1.plc.collocate();    // OK</span></div>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line">        fm.show();</div>
 <div class="line"></div>
-<div class="line">        ::nana::exec();</div>
+<div class="line">        ::nana::exec(1, 1, [&amp;b1, &amp;out, &amp;grp_right]()</div>
+<div class="line">        {</div>
+<div class="line">                <a name="a16"></a><a class="code" href="../../d2/d76/namespacenana.html#a3f42920f283b0835d457749e899b3879">click</a>(b1);</div>
+<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#a3f42920f283b0835d457749e899b3879">click</a>(b1);</div>
+<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#a3f42920f283b0835d457749e899b3879">click</a>(b1);</div>
+<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#a3f42920f283b0835d457749e899b3879">click</a>(out);</div>
+<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#a3f42920f283b0835d457749e899b3879">click</a>(grp_right);</div>
+<div class="line"></div>
+<div class="line">        });</div>
 <div class="line">}</div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->

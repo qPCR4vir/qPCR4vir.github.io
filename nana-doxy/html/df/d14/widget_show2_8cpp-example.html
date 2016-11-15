@@ -127,16 +127,16 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/tooltip.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;map&gt;</span></div>
 <div class="line"></div>
-<div class="line"><span class="preprocessor">#include &lt;nana/filesystem/filesystem_selector.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/filesystem/filesystem_ext.hpp&gt;</span></div>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line"><span class="keyword">namespace </span>demo</div>
 <div class="line">{</div>
 <div class="line">        <span class="keyword">using namespace </span>nana;</div>
-<div class="line">        <span class="keyword">namespace </span>filesystem = std::experimental::filesystem;</div>
-<div class="line">        <span class="keyword">using namespace </span>nana::experimental::filesystem::ext;</div>
+<div class="line">        <span class="keyword">namespace </span>fs = std::experimental::filesystem;</div>
+<div class="line">        <span class="keyword">namespace </span>fs_ext = nana::filesystem_ext;</div>
 <div class="line"></div>
 <div class="line">        <span class="keyword">class </span>tab_page_listbox  : <span class="keyword">public</span> <a name="_a0"></a><a class="code" href="../../d1/d87/classnana_1_1panel.html">panel</a>&lt;false&gt;</div>
 <div class="line">        {</div>
@@ -190,12 +190,12 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                        place_.div(<span class="stringliteral">&quot;&lt;tree&gt;&quot;</span>);</div>
 <div class="line">                        place_[<span class="stringliteral">&quot;tree&quot;</span>]&lt;&lt;treebox_;</div>
 <div class="line"></div>
-<div class="line">                        item_proxy root_node = treebox_.insert(def_root, def_rootname);</div>
+<div class="line">                        item_proxy root_node = treebox_.insert(fs_ext::def_root, fs_ext::def_rootname);</div>
 <div class="line"></div>
 <div class="line">                        <span class="comment">// find first directory --&gt; use std::find ?</span></div>
-<div class="line">                        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; dir : filesystem::directory_iterator{ def_rootstr })</div>
+<div class="line">                        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; dir : fs::directory_iterator{ fs_ext::def_rootstr })</div>
 <div class="line">                        {</div>
-<div class="line">                                <span class="keywordflow">if</span> (!filesystem::is_directory(dir)) <span class="keywordflow">continue</span>;</div>
+<div class="line">                                <span class="keywordflow">if</span> (!fs::is_directory(dir)) <span class="keywordflow">continue</span>;</div>
 <div class="line">                                <a name="_a10"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> fname = dir.path().filename().generic_u8string();</div>
 <div class="line">                                treebox_.<a name="a11"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/insert.html">insert</a>(root_node, fname, fname);</div>
 <div class="line">                                <span class="keywordflow">break</span>;</div>
@@ -218,9 +218,9 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                        treebox_.auto_draw(<span class="keyword">false</span>);</div>
 <div class="line"></div>
 <div class="line">                        <span class="comment">//Walk in the path directory for sub directories.</span></div>
-<div class="line">                        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; dir : filesystem::directory_iterator{ path })</div>
+<div class="line">                        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; dir : fs::directory_iterator{ path })</div>
 <div class="line">                        {</div>
-<div class="line">                                <span class="keywordflow">if</span> (!filesystem::is_directory(dir)) <span class="keywordflow">continue</span>;</div>
+<div class="line">                                <span class="keywordflow">if</span> (!fs::is_directory(dir)) <span class="keywordflow">continue</span>;</div>
 <div class="line">                                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> fname = dir.path().filename().generic_u8string();</div>
 <div class="line">                                <span class="keyword">auto</span> child = treebox_.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/insert.html">insert</a>(node, fname, fname);</div>
 <div class="line">                                <span class="keywordflow">if</span> (child.empty()) <span class="keywordflow">continue</span>;</div>
@@ -229,9 +229,9 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                                <span class="comment">//insert it into the child, just insert one node to indicate the</span></div>
 <div class="line">                                <span class="comment">//node has a child and an arrow symbol will be displayed in the</span></div>
 <div class="line">                                <span class="comment">//front of the node.   use std::find_first ??</span></div>
-<div class="line">                                <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; sdir : filesystem::directory_iterator{ dir.path() })</div>
+<div class="line">                                <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; sdir : fs::directory_iterator{ dir.path() })</div>
 <div class="line">                                {</div>
-<div class="line">                                        <span class="keywordflow">if</span> (!filesystem::is_directory(sdir)) <span class="keywordflow">continue</span>; <span class="comment">//If it is not a directory.</span></div>
+<div class="line">                                        <span class="keywordflow">if</span> (!fs::is_directory(sdir)) <span class="keywordflow">continue</span>; <span class="comment">//If it is not a directory.</span></div>
 <div class="line">                                        </div>
 <div class="line">                                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> fname = sdir.path().filename().generic_u8string();</div>
 <div class="line">                                        treebox_.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/insert.html">insert</a>(child, fname, fname);</div>
@@ -491,7 +491,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">        {</div>
 <div class="line">                widget_show wdshow;</div>
 <div class="line">                wdshow.show();</div>
-<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>();</div>
+<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#a36f8eb51da338977c6af8d711605ce6b">exec</a>();</div>
 <div class="line">        }</div>
 <div class="line">}</div>
 <div class="line"></div>

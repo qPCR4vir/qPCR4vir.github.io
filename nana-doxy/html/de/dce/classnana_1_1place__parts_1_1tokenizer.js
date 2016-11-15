@@ -23,6 +23,8 @@ var classnana_1_1place__parts_1_1tokenizer =
       [ "right", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a7c4f29407893c334a6cb7a87bf045c0d", null ],
       [ "top", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1ab28354b543375bfa94dabaeda722927f", null ],
       [ "bottom", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a71f262d796bed1ab30e8a2d5a8ddee6f", null ],
+      [ "undisplayed", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a2af5cb6dab0e9f245ae70e4f03d03876", null ],
+      [ "invisible", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a4c4999ac17adcef1a5a75fab71e5c857", null ],
       [ "collapse", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a1a721faf2df53972bfd0831c64b6146d", null ],
       [ "parameters", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a166e64f6c3677d0c513901242a3e702d", null ],
       [ "equal", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a465289687a70db7aa7217cc240c29f0f", null ],

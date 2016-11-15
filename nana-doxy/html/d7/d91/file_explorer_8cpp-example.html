@@ -123,10 +123,10 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/categorize.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/menubar.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/toolbar.hpp&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;nana/filesystem/filesystem_ext.hpp&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;nana/filesystem/filesystem_ext.hpp&gt;</span>  <span class="comment">// #include &lt;nana/filesystem/filesystem_selector.hpp&gt;</span></div>
 <div class="line"></div>
-<div class="line"><span class="keyword">namespace </span>fs = std::experimental::filesystem;</div>
-<div class="line"><span class="keyword">using namespace </span>nana::experimental::filesystem::ext;</div>
+<div class="line"><span class="keyword">namespace </span>fs     = std::experimental::filesystem;</div>
+<div class="line"><span class="keyword">namespace </span>fs_ext = nana::filesystem_ext;</div>
 <div class="line"></div>
 <div class="line"><span class="comment">//inline directory_only_iterator children(const fs::directory_entry&amp; f) { return directory_only_iterator{ f.path() }; }</span></div>
 <div class="line"><span class="comment">//inline fs::directory_iterator  l_items (const fs::directory_entry&amp; f) { return fs::directory_iterator { f.path() }; }</span></div>
@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line"><span class="comment">// the following types could be converted into types parametrs for a generic treelistpathview explorer</span></div>
 <div class="line"><span class="keyword">using</span> d_node            = fs::directory_entry ;</div>
 <div class="line"><span class="keyword">using</span> d_item            = fs::directory_entry ;</div>
-<div class="line"><span class="keyword">using</span> ct_n_children     = <a name="_a0"></a><a class="code" href="../../db/df1/classnana_1_1experimental_1_1filesystem_1_1ext_1_1directory__only__iterator.html">directory_only_iterator</a>;</div>
+<div class="line"><span class="keyword">using</span> ct_n_children     = <a name="_a0"></a><a class="code" href="../../d2/d5e/classnana_1_1filesystem__ext_1_1directory__only__iterator.html">fs_ext::directory_only_iterator</a>;</div>
 <div class="line"><span class="keyword">using</span> ct_l_items        = fs::directory_iterator ;</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">auto</span> children = [](<span class="keyword">const</span> d_node&amp; f)-&gt;ct_n_children<span class="comment">//&amp; </span></div>
@@ -158,7 +158,7 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line"><a name="_a1"></a><a class="code" href="../../d0/d3c/classnana_1_1drawerbase_1_1listbox_1_1oresolver.html">nana::listbox::oresolver</a>&amp; operator&lt;&lt;(<a class="code" href="../../d0/d3c/classnana_1_1drawerbase_1_1listbox_1_1oresolver.html">nana::listbox::oresolver</a>&amp; ores, <span class="keyword">const</span> d_node&amp; item)</div>
 <div class="line">{</div>
 <div class="line">        ores &lt;&lt; f_name(item);</div>
-<div class="line">    ores &lt;&lt; <a name="a2"></a><a class="code" href="../../db/d34/namespacenana_1_1experimental_1_1filesystem_1_1ext.html#a9cf0bab3a05a8eb5d3df09ff97ece73c">pretty_file_date</a>(item);<span class="comment">//.path()</span></div>
+<div class="line">    ores &lt;&lt; <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a16f589a3d74c38dfe07968d092f3dfc0">fs_ext::pretty_file_date</a>(item);<span class="comment">//.path()</span></div>
 <div class="line"></div>
 <div class="line">        <span class="keywordflow">if</span> (fs::is_directory(item))</div>
 <div class="line">                ores &lt;&lt; (<span class="stringliteral">&quot;Directory&quot;</span>) &lt;&lt; <span class="stringliteral">&quot;&quot;</span>;</div>
@@ -169,13 +169,13 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                <span class="keywordflow">else</span></div>
 <div class="line">                        ores &lt;&lt; (<span class="stringliteral">&quot;File&quot;</span>);</div>
 <div class="line"></div>
-<div class="line">        ores &lt;&lt; <a name="a3"></a><a class="code" href="../../db/d34/namespacenana_1_1experimental_1_1filesystem_1_1ext.html#a04255af2802129669043341cc8395a3e">pretty_file_size</a>(item);</div>
+<div class="line">        ores &lt;&lt; <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a5ca1ec17fd5a07ca11392b2eef836c0c">fs_ext::pretty_file_size</a>(item);</div>
 <div class="line">        }</div>
 <div class="line"></div>
 <div class="line">        <span class="keywordflow">return</span> ores;</div>
 <div class="line">}</div>
 <div class="line"></div>
-<div class="line"><a name="_a4"></a><a class="code" href="../../d6/d05/classnana_1_1drawerbase_1_1listbox_1_1iresolver.html">nana::listbox::iresolver</a>&amp; operator&gt;&gt;(<a class="code" href="../../d6/d05/classnana_1_1drawerbase_1_1listbox_1_1iresolver.html">nana::listbox::iresolver</a>&amp; ires, d_node&amp; m)</div>
+<div class="line"><a name="_a2"></a><a class="code" href="../../d6/d05/classnana_1_1drawerbase_1_1listbox_1_1iresolver.html">nana::listbox::iresolver</a>&amp; operator&gt;&gt;(<a class="code" href="../../d6/d05/classnana_1_1drawerbase_1_1listbox_1_1iresolver.html">nana::listbox::iresolver</a>&amp; ires, d_node&amp; m)</div>
 <div class="line">{</div>
 <div class="line">        <span class="comment">/*std::string  type;</span></div>
 <div class="line"><span class="comment">        ires &gt;&gt; m.name &gt;&gt; type &gt;&gt; type;</span></div>
@@ -188,23 +188,23 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line"><span class="comment">//                class ctn_list_items    = std::vector&lt;d_item&gt;&amp; F(d_node&amp;) ,</span></div>
 <div class="line"><span class="comment">//                class ft_node_title = std::string /* title_to_node */(const d_node::value_type&amp; value)</span></div>
 <div class="line"><span class="comment">//         &gt;   // some data_node -like template</span></div>
-<div class="line"><span class="keyword">class </span>explorer :<span class="keyword">public</span> <a name="_a5"></a><a class="code" href="../../d6/d57/classnana_1_1form.html">nana::form</a></div>
+<div class="line"><span class="keyword">class </span>explorer :<span class="keyword">public</span> <a name="_a3"></a><a class="code" href="../../d6/d57/classnana_1_1form.html">nana::form</a></div>
 <div class="line">{</div>
-<div class="line">        <a name="_a6"></a><a class="code" href="../../dc/de3/classnana_1_1place.html">nana::place</a>                place_ {*<span class="keyword">this</span>};</div>
-<div class="line">        <a name="_a7"></a><a class="code" href="../../da/de1/classnana_1_1treebox.html">nana::treebox</a>          tree_  {*<span class="keyword">this</span>};</div>
-<div class="line">        <a name="_a8"></a><a class="code" href="../../d1/dda/classnana_1_1listbox.html">nana::listbox</a>          list_  {*<span class="keyword">this</span>};</div>
-<div class="line">        <a name="_a9"></a><a class="code" href="../../d5/d30/classnana_1_1categorize.html">nana::categorize&lt;d_node&gt;</a> path_  {*<span class="keyword">this</span>};</div>
-<div class="line">        <a name="_a10"></a><a class="code" href="../../d3/dc0/classnana_1_1menubar.html">nana::menubar</a>          menu_  {*<span class="keyword">this</span>};</div>
-<div class="line">        <a name="_a11"></a><a class="code" href="../../d1/d87/classnana_1_1panel.html">nana::panel&lt;false&gt;</a>     view_  {*<span class="keyword">this</span>},</div>
+<div class="line">        <a name="_a4"></a><a class="code" href="../../dc/de3/classnana_1_1place.html">nana::place</a>                place_ {*<span class="keyword">this</span>};</div>
+<div class="line">        <a name="_a5"></a><a class="code" href="../../da/de1/classnana_1_1treebox.html">nana::treebox</a>          tree_  {*<span class="keyword">this</span>};</div>
+<div class="line">        <a name="_a6"></a><a class="code" href="../../d1/dda/classnana_1_1listbox.html">nana::listbox</a>          list_  {*<span class="keyword">this</span>};</div>
+<div class="line">        <a name="_a7"></a><a class="code" href="../../d5/d30/classnana_1_1categorize.html">nana::categorize&lt;d_node&gt;</a> path_  {*<span class="keyword">this</span>};</div>
+<div class="line">        <a name="_a8"></a><a class="code" href="../../d3/dc0/classnana_1_1menubar.html">nana::menubar</a>          menu_  {*<span class="keyword">this</span>};</div>
+<div class="line">        <a name="_a9"></a><a class="code" href="../../d1/d87/classnana_1_1panel.html">nana::panel&lt;false&gt;</a>     view_  {*<span class="keyword">this</span>},</div>
 <div class="line">                               status_{*<span class="keyword">this</span>};</div>
-<div class="line">        <a name="_a12"></a><a class="code" href="../../dc/d3d/classnana_1_1toolbar.html">nana::toolbar</a>          tools_ {*<span class="keyword">this</span>},</div>
+<div class="line">        <a name="_a10"></a><a class="code" href="../../dc/d3d/classnana_1_1toolbar.html">nana::toolbar</a>          tools_ {*<span class="keyword">this</span>},</div>
 <div class="line">                               nav_   {*<span class="keyword">this</span>};</div>
 <div class="line"></div>
 <div class="line">        f_node_title           &amp;node_to_title;</div>
 <div class="line">        f_node_children        &amp;node_children;</div>
 <div class="line">        f_list_items           &amp;list_items;</div>
 <div class="line"></div>
-<div class="line">        <a name="_a13"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>            div_    =</div>
+<div class="line">        <a name="_a11"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>            div_    =</div>
 <div class="line">                R<span class="stringliteral">&quot;(
                                 vertical &lt;weight=23 menu&gt;
                          &lt;weight=23 path&gt;
@@ -219,17 +219,17 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line"><span class="stringliteral"></span></div>
 <div class="line"><span class="stringliteral"></span><span class="keyword">public</span>:</div>
 <div class="line">        <span class="keywordtype">bool</span>                               force_refresh{<span class="keyword">false</span>};</div>
-<div class="line">        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>            fake_item{<span class="stringliteral">&quot;Sorry, this is a fake item!&quot;</span>};</div>
+<div class="line">        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>            fake_item;<span class="comment">// { &quot;Sorry, this is a fake item!&quot; }; //workaround for VC2013 error C2797: &#39;explorer::fake_item&#39;: list initialization inside member initializer list or non-static data member initializer is not implemented</span></div>
 <div class="line"></div>
-<div class="line">        <span class="keyword">using</span> t_node = <a name="a14"></a><a class="code" href="../../da/de1/classnana_1_1treebox.html#a38932561c58a77ff473619e20c3329b9">nana::treebox::item_proxy</a>;</div>
+<div class="line">        <span class="keyword">using</span> t_node = <a name="a12"></a><a class="code" href="../../da/de1/classnana_1_1treebox.html#a38932561c58a77ff473619e20c3329b9">nana::treebox::item_proxy</a>;</div>
 <div class="line">        explorer ( <span class="comment">/*d_node&amp; root,*/</span> </div>
 <div class="line">                       f_node_title     fnt,</div>
 <div class="line">                       f_node_children  ctnc,</div>
 <div class="line">                       f_list_items     ctni,</div>
-<div class="line">                       <a name="_a15"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt;<a name="_a16"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/pair.html">std::pair&lt;std::string, unsigned&gt;</a>&gt; columns,</div>
-<div class="line">                       <a name="_a17"></a><a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a> r= <a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>{ <a name="_a18"></a><a class="code" href="../../d0/d24/structnana_1_1point.html">nana::point</a>{50,10}, <a name="_a19"></a><a class="code" href="../../da/df8/structnana_1_1size.html">nana::size</a>{900,600} },</div>
+<div class="line">                       <a name="_a13"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt;<a name="_a14"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/pair.html">std::pair&lt;std::string, unsigned&gt;</a>&gt; columns,</div>
+<div class="line">                       <a name="_a15"></a><a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a> r= <a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>{ <a name="_a16"></a><a class="code" href="../../de/da3/structnana_1_1basic__point.html">nana::point</a>{50,10}, <a name="_a17"></a><a class="code" href="../../da/df8/structnana_1_1size.html">nana::size</a>{900,600} },</div>
 <div class="line">                       <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> title={} )</div>
-<div class="line">        :form{r}, node_to_title{fnt}, node_children{ ctnc }, list_items{ ctni }</div>
+<div class="line">        :form{r}, node_to_title{fnt}, node_children{ ctnc }, list_items{ ctni }, fake_item(<span class="stringliteral">&quot;Sorray, this is a fake item&quot;</span>)</div>
 <div class="line">        {</div>
 <div class="line">                place_.div(div_.c_str());</div>
 <div class="line">                place_[<span class="stringliteral">&quot;menu&quot;</span>]  &lt;&lt; menu_ ;</div>
@@ -243,9 +243,9 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                place_.collocate();</div>
 <div class="line"></div>
 <div class="line">                <span class="comment">//t_node tree_root = add_root(root);</span></div>
-<div class="line">                tree_.events().<a name="a20"></a><a class="code" href="../../d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a1d8f408f6ceda111c6bd053b141c6f95">selected</a>( [<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a21"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html">nana::arg_treebox</a> &amp;tb_msg)</div>
+<div class="line">                tree_.events().<a name="a18"></a><a class="code" href="../../d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a1d8f408f6ceda111c6bd053b141c6f95">selected</a>( [<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a19"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html">nana::arg_treebox</a> &amp;tb_msg)</div>
 <div class="line">                                                                 { </div>
-<div class="line">                                                                        <span class="keywordflow">if</span> (!tb_msg.<a name="a22"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ad8e07298693767fbb840d04eefb20ce5">operated</a>  ) <span class="keywordflow">return</span>;</div>
+<div class="line">                                                                        <span class="keywordflow">if</span> (!tb_msg.<a name="a20"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ad8e07298693767fbb840d04eefb20ce5">operated</a>  ) <span class="keywordflow">return</span>;</div>
 <div class="line"></div>
 <div class="line">                                            <span class="comment">//d_node d{ tree_.make_key_path(tb_msg.item, &quot;/&quot; /*nana::to_utf8(fs::path::preferred_separator)*/ ) </span></div>
 <div class="line">                                                                        <span class="comment">//              + &quot;/&quot; /*d_node::separator*/ };</span></div>
@@ -254,7 +254,7 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                                                                        list_.auto_draw(<span class="keyword">false</span>);</div>
 <div class="line">                                                                        <span class="comment">//path_.auto_draw(false);</span></div>
 <div class="line"></div>
-<div class="line">                                                                        refresh_tnode(tb_msg.<a name="a23"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>,      force_refresh);</div>
+<div class="line">                                                                        refresh_tnode(tb_msg.<a name="a21"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>,      force_refresh);</div>
 <div class="line">                                                                        refresh_list(tb_msg.<a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>);</div>
 <div class="line">                                                                        refresh_path(tb_msg.<a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>);</div>
 <div class="line">        </div>
@@ -308,8 +308,8 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                clear_children(node);</div>
 <div class="line">                <span class="keyword">auto</span>&amp; <a class="code" href="../../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccda8d777f385d3dfec8815d20f7496026dc">data</a> = node.value&lt;d_node&gt;();</div>
 <div class="line">                <span class="keyword">const</span> ct_n_children&amp; d_c = node_children(data);</div>
-<div class="line">                <span class="keyword">const</span> <span class="keyword">auto</span>&amp; child_1 = <a name="a24"></a><a class="code" href="../../db/d34/namespacenana_1_1experimental_1_1filesystem_1_1ext.html#ae08450202cc622e3437ca8719ba6facd">begin</a>(d_c);</div>
-<div class="line">                <span class="keywordflow">if</span> (child_1 != <a name="a25"></a><a class="code" href="../../db/d34/namespacenana_1_1experimental_1_1filesystem_1_1ext.html#a8a7f6392c9da05c368e8bfa713aa3141">end</a>(d_c))</div>
+<div class="line">                <span class="keyword">const</span> <span class="keyword">auto</span>&amp; child_1 = <a name="a22"></a><a class="code" href="../../d2/d76/namespacenana.html#a1480f163a64163d468bcdd3d8dd16c25a8d589afa4dfaeeed85fff5aa78e5ff6a">begin</a>(d_c);</div>
+<div class="line">                <span class="keywordflow">if</span> (child_1 != <a name="a23"></a><a class="code" href="../../d2/d76/namespacenana.html#a1480f163a64163d468bcdd3d8dd16c25a7f021a1415b86f2d013b2618fb31ae53">end</a>(d_c))</div>
 <div class="line">                        tree_.insert(node, fake_item, <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line"></div>
@@ -361,7 +361,7 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line"></div>
 <div class="line"><span class="comment">//using namespace nana;</span></div>
 <div class="line"></div>
-<div class="line"><span class="keyword">using</span> dir_it = <a class="code" href="../../db/df1/classnana_1_1experimental_1_1filesystem_1_1ext_1_1directory__only__iterator.html">directory_only_iterator</a>;</div>
+<div class="line"><span class="keyword">using</span> dir_it = <a class="code" href="../../d2/d5e/classnana_1_1filesystem__ext_1_1directory__only__iterator.html">fs_ext::directory_only_iterator</a>;</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">template</span> &lt;<span class="keyword">class </span>V,</div>
 <div class="line"><span class="keyword">class </span>C_I, </div>
@@ -393,16 +393,16 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line"></div>
 <div class="line"><span class="keyword">struct </span>dir_node</div>
 <div class="line">{</div>
-<div class="line">        <span class="keyword">using</span> value_type = std::experimental::filesystem::directory_entry;</div>
-<div class="line">        <span class="keyword">using</span> cont_it_t = std::experimental::filesystem::directory_iterator;</div>
-<div class="line">        <span class="keyword">using</span> cont_nd_t = <a class="code" href="../../db/df1/classnana_1_1experimental_1_1filesystem_1_1ext_1_1directory__only__iterator.html">directory_only_iterator</a>;</div>
+<div class="line">        <span class="keyword">using</span> value_type = fs::directory_entry;</div>
+<div class="line">        <span class="keyword">using</span> cont_it_t = fs::directory_iterator;</div>
+<div class="line">        <span class="keyword">using</span> cont_nd_t = <a class="code" href="../../d2/d5e/classnana_1_1filesystem__ext_1_1directory__only__iterator.html">fs_ext::directory_only_iterator</a>;</div>
 <div class="line"></div>
 <div class="line">        value_type     value;</div>
 <div class="line">        cont_it_t      items;</div>
 <div class="line">        cont_nd_t      nodes;</div>
 <div class="line">        <span class="keyword">static</span> <span class="keyword">const</span> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> separator;</div>
 <div class="line"></div>
-<div class="line">        dir_node(std::experimental::filesystem::path path)</div>
+<div class="line">        dir_node(fs::path path)</div>
 <div class="line">                : value{ path }, items{ path }, nodes { path }</div>
 <div class="line">        {}</div>
 <div class="line">                <span class="comment">//separator{ &quot;/&quot;  },     /*  std::experimental::filesystem::path::preferred_separator  */</span></div>
@@ -1206,21 +1206,21 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line"></div>
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">using namespace </span>nana;</div>
+<div class="line">    <span class="comment">// using namespace nana;</span></div>
 <div class="line">        <span class="comment">// d_node d{ def_rootstr };</span></div>
 <div class="line">        explorer fb( f_name, </div>
 <div class="line">                         children, </div>
 <div class="line">                         l_items,</div>
 <div class="line">                                 { { (<span class="stringliteral">&quot;Name&quot;</span>), 190 }, { (<span class="stringliteral">&quot;Modified&quot;</span>), 145 }, { (<span class="stringliteral">&quot;Type&quot;</span>), 80 }, { (<span class="stringliteral">&quot;Size&quot;</span>), 70 }  });</div>
 <div class="line"></div>
-<div class="line">        fb.add_root( def_root, def_rootname, d_node{ def_rootstr }).select(<span class="keyword">true</span>);</div>
+<div class="line">        fb.add_root(fs_ext::def_root, fs_ext::def_rootname, d_node{ fs_ext::def_rootstr }).<a class="code" href="../../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a0fd7869430e15570cd19e2a4bdd28647a99938282f04071859941e18f16efcf42">select</a>(<span class="keyword">true</span>);</div>
 <div class="line"></div>
 <div class="line">    fb.show();</div>
-<div class="line">    <a name="a26"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">nana::exec</a>();</div>
-<div class="line">    <span class="keywordtype">char</span> a;</div>
-<div class="line">    <a name="_a27"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; a;</div>
+<div class="line">    <a name="a24"></a><a class="code" href="../../d2/d76/namespacenana.html#a36f8eb51da338977c6af8d711605ce6b">nana::exec</a>();</div>
+<div class="line">    <span class="comment">//char a;</span></div>
+<div class="line">    <span class="comment">//std::cin &gt;&gt; a;</span></div>
 <div class="line">}</div>
-</div><!-- fragment --> </div><!-- contents -->
+<div class="line"></div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

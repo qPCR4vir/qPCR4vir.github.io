@@ -1,6 +1,7 @@
 var structnana_1_1detail_1_1basic__window_1_1flags__type =
 [
     [ "action", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#a0ba26f66e6117c5151fa6cd97c48bcce", null ],
+    [ "action_before", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#a202760471d4b9fad1e2328f85d2e01a2", null ],
     [ "borderless", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#a255c73178bd3e5d28da9684f3452caee", null ],
     [ "captured", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#a3c72c4391dfd071b381432372e8da1d2", null ],
     [ "dbl_click", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#a8a365feaa23e8be1a29c171d3f9fe208", null ],

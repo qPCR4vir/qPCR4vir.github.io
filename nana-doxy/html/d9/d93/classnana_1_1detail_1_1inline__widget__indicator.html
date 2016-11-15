@@ -131,6 +131,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f818724257511638effd93ae5febd03"><td class="memItemLeft" align="right" valign="top">virtual ::<a class="el" href="../../d9/dd8/classnana_1_1widget.html">nana::widget</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a6f818724257511638effd93ae5febd03">host</a> () const =0</td></tr>
 <tr class="memdesc:a6f818724257511638effd93ae5febd03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the host widget of the indicator.  <a href="#a6f818724257511638effd93ae5febd03">More...</a><br/></td></tr>
 <tr class="separator:a6f818724257511638effd93ae5febd03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a243e1ddf925669cbdf9ae64ed62cdd55"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a243e1ddf925669cbdf9ae64ed62cdd55">column</a> () const =0</td></tr>
+<tr class="memdesc:a243e1ddf925669cbdf9ae64ed62cdd55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the position of column.  <a href="#a243e1ddf925669cbdf9ae64ed62cdd55">More...</a><br/></td></tr>
+<tr class="separator:a243e1ddf925669cbdf9ae64ed62cdd55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a599fae759800b00df5fa2e7761c95cc3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a599fae759800b00df5fa2e7761c95cc3">modify</a> (<a class="el" href="../../d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a6f46b3ac1667b5db2d8db7bdfcc5667f">index_type</a> pos, const <a class="el" href="../../d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a53d9a55f8f159312a2ccddbfe4a0a1ce">value_type</a> &amp;) const =0</td></tr>
 <tr class="memdesc:a599fae759800b00df5fa2e7761c95cc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies the value of a item specified by pos.  <a href="#a599fae759800b00df5fa2e7761c95cc3">More...</a><br/></td></tr>
 <tr class="separator:a599fae759800b00df5fa2e7761c95cc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,6 +206,35 @@ template&lt;typename Index, typename Value&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a243e1ddf925669cbdf9ae64ed62cdd55"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Index, typename Value&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> <a class="el" href="../../d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html">nana::detail::inline_widget_indicator</a>&lt; Index, Value &gt;::column </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the position of column. </p>
+
+<p>Implemented in <a class="el" href="../../db/d09/classnana_1_1drawerbase_1_1listbox_1_1inline__indicator.html#a1d34a2876ddb16f31b16f81a77ae1fc1">nana::drawerbase::listbox::inline_indicator</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a6f818724257511638effd93ae5febd03"></a>
 <div class="memitem">
 <div class="memproto">
@@ -258,6 +290,8 @@ template&lt;typename Index, typename Value&gt; </div>
 
 <p>Sends a signal that a specified item is hovered. </p>
 
+<p>Implemented in <a class="el" href="../../db/d09/classnana_1_1drawerbase_1_1listbox_1_1inline__indicator.html#a6fc2e4ef691347042e4b29a617b4ed84">nana::drawerbase::listbox::inline_indicator</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a599fae759800b00df5fa2e7761c95cc3"></a>
@@ -296,6 +330,8 @@ template&lt;typename Index, typename Value&gt; </div>
 
 <p>Modifies the value of a item specified by pos. </p>
 
+<p>Implemented in <a class="el" href="../../db/d09/classnana_1_1drawerbase_1_1listbox_1_1inline__indicator.html#ac158c5e2cb1f48a5a4cb661ad95ab029">nana::drawerbase::listbox::inline_indicator</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a53b9fbe5f16852fa7c9b80dd63530cd2"></a>
@@ -323,6 +359,8 @@ template&lt;typename Index, typename Value&gt; </div>
 </div><div class="memdoc">
 
 <p>Sends a signal that a specified item is selected. </p>
+
+<p>Implemented in <a class="el" href="../../db/d09/classnana_1_1drawerbase_1_1listbox_1_1inline__indicator.html#a319c65611fdaf85440a7aad264d6ab1d">nana::drawerbase::listbox::inline_indicator</a>.</p>
 
 </div>
 </div>

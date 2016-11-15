@@ -6,6 +6,7 @@ var classnana_1_1detail_1_1msg__dispatcher =
     [ "msg_queue_type", "d3/d5f/classnana_1_1detail_1_1msg__dispatcher.html#a02da60dd6ba16fa9c1b488a612be7043", null ],
     [ "timer_proc_type", "d3/d5f/classnana_1_1detail_1_1msg__dispatcher.html#a0fa9474c378ad91f595cd58bde5ee15a", null ],
     [ "msg_dispatcher", "d3/d5f/classnana_1_1detail_1_1msg__dispatcher.html#a20d611347499eb5c5fa210da2ff33ff5", null ],
+    [ "~msg_dispatcher", "d3/d5f/classnana_1_1detail_1_1msg__dispatcher.html#a66ecd4d51e309db9844db0c89cad901e", null ],
     [ "dispatch", "d3/d5f/classnana_1_1detail_1_1msg__dispatcher.html#a0e02936fb75aae9f164218aaa849c833", null ],
     [ "erase", "d3/d5f/classnana_1_1detail_1_1msg__dispatcher.html#a4a81cbb9a2139dd9aadb43f32ba88af5", null ],
     [ "insert", "d3/d5f/classnana_1_1detail_1_1msg__dispatcher.html#a13195f1352be83ee168d79b69226e538", null ],

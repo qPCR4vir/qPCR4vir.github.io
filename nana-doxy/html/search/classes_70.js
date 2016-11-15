@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['pack',['pack',['../da/daa/structnana_1_1pat_1_1detail_1_1pack.html',1,'nana::pat::detail']]],
+  ['pack_3c_20useless_2c_20vals_2e_2e_2e_3e',['pack&lt; Useless, Vals...&gt;',['../da/daa/structnana_1_1pat_1_1detail_1_1pack.html',1,'nana::pat::detail']]],
   ['packaged_5ftask',['packaged_task',['http://en.cppreference.com/w/cpp/thread/packaged_task.html',1,'std']]],
   ['pair',['pair',['http://en.cppreference.com/w/cpp/utility/pair.html',1,'std']]],
   ['pair_3c_20int_2c_20int_20_3e',['pair&lt; int, int &gt;',['http://en.cppreference.com/w/cpp/utility/pair.html',1,'std']]],
@@ -12,11 +14,10 @@ var searchData=
   ['panel_3c_20false_20_3e',['panel&lt; false &gt;',['../d1/d87/classnana_1_1panel.html',1,'nana']]],
   ['panel_3c_20true_20_3e',['panel&lt; true &gt;',['../d1/d87/classnana_1_1panel.html',1,'nana']]],
   ['path',['path',['../d7/d25/classnana_1_1inputbox_1_1path.html',1,'nana::inputbox']]],
-  ['path',['path',['../d5/d5f/classnana_1_1experimental_1_1filesystem_1_1v1_1_1path.html',1,'nana::experimental::filesystem::v1']]],
-  ['pattern',['pattern',['http://en.cppreference.com/w/cpp/locale/money_base.html',1,'std::money_get']]],
   ['pattern',['pattern',['http://en.cppreference.com/w/cpp/locale/money_base.html',1,'std::money_put']]],
   ['pattern',['pattern',['http://en.cppreference.com/w/cpp/locale/money_base.html',1,'std::moneypunct']]],
   ['pattern',['pattern',['http://en.cppreference.com/w/cpp/locale/money_base.html',1,'std::moneypunct_byname']]],
+  ['pattern',['pattern',['http://en.cppreference.com/w/cpp/locale/money_base.html',1,'std::money_get']]],
   ['pattern',['pattern',['http://en.cppreference.com/w/cpp/locale/money_base.html',1,'std::money_base']]],
   ['performance_5fmanager',['performance_manager',['../d4/df4/classnana_1_1animation_1_1performance__manager.html',1,'nana::animation']]],
   ['peta',['peta',['http://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
@@ -35,7 +36,6 @@ var searchData=
   ['placeholders',['placeholders',['http://en.cppreference.com/w/cpp/utility/functional/placeholders.html',1,'std']]],
   ['plus',['plus',['http://en.cppreference.com/w/cpp/utility/functional/plus.html',1,'std']]],
   ['png_5freader',['png_reader',['../dc/d86/classnana_1_1paint_1_1detail_1_1image__png_1_1png__reader.html',1,'nana::paint::detail::image_png']]],
-  ['point',['point',['../d0/d24/structnana_1_1point.html',1,'nana']]],
   ['pointer_5fsafety',['pointer_safety',['http://en.cppreference.com/w/cpp/memory/gc/pointer_safety.html',1,'std']]],
   ['pointer_5ftraits',['pointer_traits',['http://en.cppreference.com/w/cpp/memory/pointer_traits.html',1,'std']]],
   ['poisson_5fdistribution',['poisson_distribution',['http://en.cppreference.com/w/cpp/numeric/random/poisson_distribution.html',1,'std']]],
@@ -47,7 +47,6 @@ var searchData=
   ['progress',['progress',['../d2/d93/classnana_1_1progress.html',1,'nana']]],
   ['promise',['promise',['http://en.cppreference.com/w/cpp/thread/promise.html',1,'std']]],
   ['provider',['provider',['../d7/d34/classnana_1_1element_1_1provider.html',1,'nana::element']]],
-  ['provider',['provider',['../dc/d0d/classnana_1_1drawerbase_1_1slider_1_1provider.html',1,'nana::drawerbase::slider']]],
   ['proximal_5finteroplation',['proximal_interoplation',['../d3/d7f/classnana_1_1paint_1_1detail_1_1algorithms_1_1proximal__interoplation.html',1,'nana::paint::detail::algorithms']]],
   ['pseudo_5fnode_5ftype',['pseudo_node_type',['../df/da9/structnana_1_1drawerbase_1_1treebox_1_1trigger_1_1pseudo__node__type.html',1,'nana::drawerbase::treebox::trigger']]],
   ['ptrdiff_5ft',['ptrdiff_t',['http://en.cppreference.com/w/cpp/types/ptrdiff_t.html',1,'std']]]

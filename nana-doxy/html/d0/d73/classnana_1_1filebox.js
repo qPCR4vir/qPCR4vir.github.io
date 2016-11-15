@@ -10,7 +10,7 @@ var classnana_1_1filebox =
     [ "add_filter", "d0/d73/classnana_1_1filebox.html#a240da168581a9d4c0e1160cf7898c98f", null ],
     [ "file", "d0/d73/classnana_1_1filebox.html#a3b70e6c1d4fb36bfaa251de05c10f678", null ],
     [ "init_file", "d0/d73/classnana_1_1filebox.html#ad54a7abdb80be27551ae5761814bf71d", null ],
-    [ "init_path", "d0/d73/classnana_1_1filebox.html#ae768b9eee5f22b91b70bf82a9140ee86", null ],
+    [ "init_path", "d0/d73/classnana_1_1filebox.html#ac1e546ebead2d7b324498f46e9eef1b0", null ],
     [ "operator()", "d0/d73/classnana_1_1filebox.html#a2b6f6920ba135e2e891cface6bc94cf9", null ],
     [ "operator=", "d0/d73/classnana_1_1filebox.html#accba1e1201d76a686048e4d548f68219", null ],
     [ "owner", "d0/d73/classnana_1_1filebox.html#af011bf4c86f978c5a1218bdee923c6f8", null ],

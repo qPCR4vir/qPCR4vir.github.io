@@ -2,6 +2,7 @@ var classnana_1_1widget =
 [
     [ "inner_widget_notifier", "d4/d83/classnana_1_1widget_1_1inner__widget__notifier.html", "d4/d83/classnana_1_1widget_1_1inner__widget__notifier" ],
     [ "native_string_type", "d9/dd8/classnana_1_1widget.html#a21545b10550d07ebcbe00da47fbc6a8c", null ],
+    [ "widget", "d9/dd8/classnana_1_1widget.html#abbfb9d6c68fa6418c6863ef569caf43e", null ],
     [ "~widget", "d9/dd8/classnana_1_1widget.html#a23b062494f5e94f33add96ec7a017532", null ],
     [ "_m_bgcolor", "d9/dd8/classnana_1_1widget.html#ae6034a4019c607f57e13042c345ae0a7", null ],
     [ "_m_bgcolor", "d9/dd8/classnana_1_1widget.html#a73c88c6dd1cc75c126012bf104d25114", null ],
@@ -55,6 +56,8 @@ var classnana_1_1widget =
     [ "parent", "d9/dd8/classnana_1_1widget.html#add6bdf62b403ac752e0bcf91cd7a1862", null ],
     [ "pos", "d9/dd8/classnana_1_1widget.html#acc4a83b2a224b0e4f9670fcd56ea6302", null ],
     [ "register_shortkey", "d9/dd8/classnana_1_1widget.html#a9839caa38cc795b74b2eca0f7532319f", null ],
+    [ "release_capture", "d9/dd8/classnana_1_1widget.html#a0245faac7a96e415ddcbf9d175c5be1c", null ],
+    [ "set_capture", "d9/dd8/classnana_1_1widget.html#a551f76496344599f76eb749091cdcdf5", null ],
     [ "show", "d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5", null ],
     [ "size", "d9/dd8/classnana_1_1widget.html#a8038638ca3173cebb098c3aa2edce0a2", null ],
     [ "size", "d9/dd8/classnana_1_1widget.html#a54f4a4c0e8c71ce55326d41c9bdb621e", null ],
