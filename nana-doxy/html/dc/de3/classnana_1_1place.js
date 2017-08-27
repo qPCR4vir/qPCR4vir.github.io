@@ -20,5 +20,6 @@ var classnana_1_1place =
     [ "field_visible", "dc/de3/classnana_1_1place.html#ac91bfdc3afd31375931912fb9f8b2dc0", null ],
     [ "modify", "dc/de3/classnana_1_1place.html#aa8627ada5f7cfe64c1512c3e5e7f9200", null ],
     [ "operator[]", "dc/de3/classnana_1_1place.html#aec4e85a9056ab761b81dbab145036e84", null ],
+    [ "splitter_renderer", "dc/de3/classnana_1_1place.html#a71b66e51140b399fe6c0c96c91551fe8", null ],
     [ "window_handle", "dc/de3/classnana_1_1place.html#a3acf41047271c7703509fc24f0593db6", null ]
 ];

@@ -149,6 +149,7 @@ var hierarchy =
       [ "nana::detail::basic_window", "de/d3c/structnana_1_1detail_1_1basic__window.html", null ]
     ] ],
     [ "nana::detail::events_operation", "df/d90/classnana_1_1detail_1_1events__operation.html", null ],
+    [ "nana::detail::font_style", "d6/d50/structnana_1_1detail_1_1font__style.html", null ],
     [ "nana::detail::form_loader< Form, IsVisible >", "d7/dc2/classnana_1_1detail_1_1form__loader.html", null ],
     [ "nana::detail::form_loader_private", "df/dc1/structnana_1_1detail_1_1form__loader__private.html", null ],
     [ "nana::detail::inline_widget_indicator< Index, Value >", "d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html", null ],
@@ -181,6 +182,7 @@ var hierarchy =
     [ "nana::detail::shortkey_container", "d4/d80/classnana_1_1detail_1_1shortkey__container.html", null ],
     [ "nana::detail::shortkey_container::implementation", "d1/d3d/structnana_1_1detail_1_1shortkey__container_1_1implementation.html", null ],
     [ "nana::detail::shortkey_rep", "d1/d81/structnana_1_1detail_1_1shortkey__rep.html", null ],
+    [ "nana::detail::storage< T >", "d4/dc4/classnana_1_1detail_1_1storage.html", null ],
     [ "nana::detail::tab_type", "d9/d57/structnana_1_1detail_1_1tab__type.html", null ],
     [ "nana::detail::thread_refcount", "d5/dbd/structnana_1_1detail_1_1thread__refcount.html", null ],
     [ "nana::detail::type_escape< T >", "d9/dd8/structnana_1_1detail_1_1type__escape.html", null ],
@@ -203,6 +205,12 @@ var hierarchy =
     [ "nana::detail::window_manager::attribute::captured", "de/d24/structnana_1_1detail_1_1window__manager_1_1attribute_1_1captured.html", null ],
     [ "nana::detail::window_manager::revertible_mutex::implementation", "da/d89/structnana_1_1detail_1_1window__manager_1_1revertible__mutex_1_1implementation.html", null ],
     [ "nana::detail::window_manager::wdm_private_impl", "d3/d1b/structnana_1_1detail_1_1window__manager_1_1wdm__private__impl.html", null ],
+    [ "nana::detail::window_register", "dd/d53/classnana_1_1detail_1_1window__register.html", null ],
+    [ "nana::dev::widget_content_measurer_interface", "d5/d3c/classnana_1_1dev_1_1widget__content__measurer__interface.html", [
+      [ "nana::drawerbase::button::trigger::measurer", "d9/d5b/classnana_1_1drawerbase_1_1button_1_1trigger_1_1measurer.html", null ],
+      [ "nana::drawerbase::label::trigger::implement::measurer", "d1/dd3/classnana_1_1drawerbase_1_1label_1_1trigger_1_1implement_1_1measurer.html", null ],
+      [ "nana::drawerbase::picture::content_measurer", "d4/dac/classnana_1_1drawerbase_1_1picture_1_1content__measurer.html", null ]
+    ] ],
     [ "nana::dev::widget_traits< Widget >", "dc/d5e/structnana_1_1dev_1_1widget__traits.html", null ],
     [ "nana::dev::widget_traits< widget >", "da/dcb/structnana_1_1dev_1_1widget__traits_3_01widget_01_4.html", null ],
     [ "nana::display", "d5/d8f/classnana_1_1display.html", [
@@ -235,7 +243,7 @@ var hierarchy =
       [ "nana::drawerbase::treebox::tlwnd_drawer", "da/df8/classnana_1_1drawerbase_1_1treebox_1_1tlwnd__drawer.html", null ],
       [ "nana::drawerbase::treebox::trigger", "dd/dae/classnana_1_1drawerbase_1_1treebox_1_1trigger.html", null ],
       [ "nana::place_parts::dockcaption_dtrigger", "d3/ddf/classnana_1_1place__parts_1_1dockcaption__dtrigger.html", null ],
-      [ "nana::place_parts::splitter_dtrigger", "d9/da2/classnana_1_1place__parts_1_1splitter__dtrigger.html", null ]
+      [ "nana::place_parts::drawer_splitter", "d8/d7d/classnana_1_1place__parts_1_1drawer__splitter.html", null ]
     ] ],
     [ "nana::drawerbase::categorize::event_agent_holder", "dc/d40/structnana_1_1drawerbase_1_1categorize_1_1event__agent__holder.html", null ],
     [ "nana::drawerbase::categorize::event_agent_interface", "d5/d9e/classnana_1_1drawerbase_1_1categorize_1_1event__agent__interface.html", [
@@ -263,7 +271,7 @@ var hierarchy =
     ] ],
     [ "nana::drawerbase::float_listbox::module_def", "d6/d5b/structnana_1_1drawerbase_1_1float__listbox_1_1module__def.html", null ],
     [ "nana::drawerbase::label::renderer", "d3/d4c/classnana_1_1drawerbase_1_1label_1_1renderer.html", null ],
-    [ "nana::drawerbase::label::trigger::impl_t", "d8/d93/structnana_1_1drawerbase_1_1label_1_1trigger_1_1impl__t.html", null ],
+    [ "nana::drawerbase::label::trigger::implement", "d8/d5e/structnana_1_1drawerbase_1_1label_1_1trigger_1_1implement.html", null ],
     [ "nana::drawerbase::listbox::category_t", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html", null ],
     [ "nana::drawerbase::listbox::cell", "d3/d01/structnana_1_1drawerbase_1_1listbox_1_1cell.html", null ],
     [ "nana::drawerbase::listbox::cell::format", "d3/d59/structnana_1_1drawerbase_1_1listbox_1_1cell_1_1format.html", null ],
@@ -283,14 +291,18 @@ var hierarchy =
     [ "nana::drawerbase::listbox::drawer_lister_impl", "da/d6a/classnana_1_1drawerbase_1_1listbox_1_1drawer__lister__impl.html", null ],
     [ "nana::drawerbase::listbox::es_header", "d5/d57/classnana_1_1drawerbase_1_1listbox_1_1es__header.html", null ],
     [ "nana::drawerbase::listbox::es_lister", "dc/d94/classnana_1_1drawerbase_1_1listbox_1_1es__lister.html", null ],
+    [ "nana::drawerbase::listbox::es_lister::emit_cancel", "db/dc0/structnana_1_1drawerbase_1_1listbox_1_1es__lister_1_1emit__cancel.html", null ],
+    [ "nana::drawerbase::listbox::es_lister::pred_cancel", "d6/d95/structnana_1_1drawerbase_1_1listbox_1_1es__lister_1_1pred__cancel.html", null ],
+    [ "nana::drawerbase::listbox::es_lister::sort_attributes", "d4/d35/structnana_1_1drawerbase_1_1listbox_1_1es__lister_1_1sort__attributes.html", null ],
     [ "nana::drawerbase::listbox::essence", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html", null ],
-    [ "nana::drawerbase::listbox::essence::scroll_part", "d6/d3e/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1scroll__part.html", null ],
+    [ "nana::drawerbase::listbox::essence::mouse_selection_part", "d7/d3c/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1mouse__selection__part.html", null ],
+    [ "nana::drawerbase::listbox::essence::pred_mouse_selection", "d0/d9c/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1pred__mouse__selection.html", null ],
     [ "nana::drawerbase::listbox::export_options", "d3/dfa/structnana_1_1drawerbase_1_1listbox_1_1export__options.html", null ],
     [ "nana::drawerbase::listbox::index_pair", "de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html", null ],
     [ "nana::drawerbase::listbox::inline_pane", "d6/d6a/structnana_1_1drawerbase_1_1listbox_1_1inline__pane.html", null ],
     [ "nana::drawerbase::listbox::iresolver", "d6/d05/classnana_1_1drawerbase_1_1listbox_1_1iresolver.html", null ],
     [ "nana::drawerbase::listbox::item_data", "d8/deb/structnana_1_1drawerbase_1_1listbox_1_1item__data.html", null ],
-    [ "nana::drawerbase::listbox::item_data::flags_tag", "d4/d09/structnana_1_1drawerbase_1_1listbox_1_1item__data_1_1flags__tag.html", null ],
+    [ "nana::drawerbase::listbox::item_data::inner_flags", "d5/df0/structnana_1_1drawerbase_1_1listbox_1_1item__data_1_1inner__flags.html", null ],
     [ "nana::drawerbase::listbox::model_guard", "d5/d20/classnana_1_1drawerbase_1_1listbox_1_1model__guard.html", null ],
     [ "nana::drawerbase::listbox::model_interface", "d6/d7a/classnana_1_1drawerbase_1_1listbox_1_1model__interface.html", [
       [ "nana::drawerbase::listbox::shared_model_container< STLContainer, Mutex >", "de/d5d/classnana_1_1drawerbase_1_1listbox_1_1shared__model__container.html", null ],
@@ -448,6 +460,9 @@ var hierarchy =
     [ "nana::filebox", "d0/d73/classnana_1_1filebox.html", null ],
     [ "nana::filebox::implement", "da/ddb/structnana_1_1filebox_1_1implement.html", null ],
     [ "nana::filebox::implement::filter", "d3/dba/structnana_1_1filebox_1_1implement_1_1filter.html", null ],
+    [ "nana::font_interface", "de/d6b/classnana_1_1font__interface.html", [
+      [ "nana::internal_font", "d3/d77/classnana_1_1internal__font.html", null ]
+    ] ],
     [ "nana::frame::uframes", "df/d8f/unionnana_1_1frame_1_1uframes.html", null ],
     [ "nana::framebuilder", "d7/df6/structnana_1_1framebuilder.html", null ],
     [ "nana::frameset", "dc/d2f/classnana_1_1frameset.html", null ],
@@ -473,6 +488,8 @@ var hierarchy =
     [ "nana::i18n_eval::arg_eval", "d8/de5/classnana_1_1i18n__eval_1_1arg__eval.html", null ],
     [ "nana::i18n_eval::arg_string", "d8/d9e/classnana_1_1i18n__eval_1_1arg__string.html", null ],
     [ "nana::inputbox", "d0/d9b/classnana_1_1inputbox.html", null ],
+    [ "nana::inputbox::boolean", "d9/d67/classnana_1_1inputbox_1_1boolean.html", null ],
+    [ "nana::inputbox::boolean::implement", "d8/d35/structnana_1_1inputbox_1_1boolean_1_1implement.html", null ],
     [ "nana::inputbox::date", "db/d35/classnana_1_1inputbox_1_1date.html", null ],
     [ "nana::inputbox::date::implement", "d9/d5c/structnana_1_1inputbox_1_1date_1_1implement.html", null ],
     [ "nana::inputbox::integer", "dc/d61/classnana_1_1inputbox_1_1integer.html", null ],
@@ -498,15 +515,13 @@ var hierarchy =
     [ "nana::meta::fixed_type_set< Param0, Param1, Param2, Param3, Param4, Param5, Param6, Param7, Param8, Param9 >::count< T >", "d8/dbe/structnana_1_1meta_1_1fixed__type__set_1_1count.html", null ],
     [ "nana::msgbox", "d8/d97/classnana_1_1msgbox.html", null ],
     [ "nana::noncopyable", "da/d17/classnana_1_1noncopyable.html", [
-      [ "nana::detail::cache< const handle_type, bool, 5 >", "df/d13/classnana_1_1detail_1_1cache.html", null ],
+      [ "nana::detail::cache< nana::detail::basic_window, bool, 5 >", "df/d13/classnana_1_1detail_1_1cache.html", null ],
       [ "nana::element_object< element::arrow_interface >", "d9/d79/classnana_1_1element__object.html", null ],
       [ "nana::element_object< element::border_interface >", "d9/d79/classnana_1_1element__object.html", null ],
       [ "nana::element_object< element::crook_interface >", "d9/d79/classnana_1_1element__object.html", null ],
       [ "nana::element_object< element::element_interface >", "d9/d79/classnana_1_1element__object.html", null ],
-      [ "nana::detail::handle_manager< nana::detail::basic_window *, nana::detail::window_manager, nana::detail::window_handle_deleter >", "d8/d5e/classnana_1_1detail_1_1handle__manager.html", null ],
       [ "nana::detail::cache< Key, Value, CacheSize >", "df/d13/classnana_1_1detail_1_1cache.html", null ],
       [ "nana::detail::drawer", "d3/d42/classnana_1_1detail_1_1drawer.html", null ],
-      [ "nana::detail::handle_manager< HandleType, Condition, Deleter >", "d8/d5e/classnana_1_1detail_1_1handle__manager.html", null ],
       [ "nana::dragger", "d6/dec/classnana_1_1dragger.html", null ],
       [ "nana::drawerbase::menu::menu_builder", "d4/df9/classnana_1_1drawerbase_1_1menu_1_1menu__builder.html", null ],
       [ "nana::drawing", "d9/d46/classnana_1_1drawing.html", null ],
@@ -517,11 +532,11 @@ var hierarchy =
       [ "nana::paint::image::image_impl_interface", "dd/d47/classnana_1_1paint_1_1image_1_1image__impl__interface.html", [
         [ "nana::paint::detail::basic_image_pixbuf", "d0/dac/classnana_1_1paint_1_1detail_1_1basic__image__pixbuf.html", [
           [ "nana::paint::detail::image_bmp", "d0/d8e/classnana_1_1paint_1_1detail_1_1image__bmp.html", null ],
-          [ "nana::paint::detail::image_ico_ex", "db/d47/classnana_1_1paint_1_1detail_1_1image__ico__ex.html", null ],
+          [ "nana::paint::detail::image_ico", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html", null ],
           [ "nana::paint::detail::image_jpeg", "dc/d69/classnana_1_1paint_1_1detail_1_1image__jpeg.html", null ],
           [ "nana::paint::detail::image_png", "d7/db7/classnana_1_1paint_1_1detail_1_1image__png.html", null ]
         ] ],
-        [ "nana::paint::detail::image_ico", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html", null ]
+        [ "nana::paint::detail::image_ico_resource", "d9/d36/classnana_1_1paint_1_1detail_1_1image__ico__resource.html", null ]
       ] ],
       [ "nana::paint::pixel_buffer::pixel_buffer_storage", "d3/d61/structnana_1_1paint_1_1pixel__buffer_1_1pixel__buffer__storage.html", null ],
       [ "nana::place", "dc/de3/classnana_1_1place.html", null ],
@@ -541,11 +556,12 @@ var hierarchy =
     [ "nana::notifier", "d5/d81/classnana_1_1notifier.html", null ],
     [ "nana::notifier::implement", "d4/d51/structnana_1_1notifier_1_1implement.html", null ],
     [ "nana::null_type", "d7/dd4/classnana_1_1null__type.html", null ],
+    [ "nana::optional< T >", "d3/d62/classnana_1_1optional.html", null ],
     [ "nana::output_t", "d5/d50/structnana_1_1output__t.html", null ],
     [ "nana::paint::aligner", "d4/dff/classnana_1_1paint_1_1aligner.html", null ],
     [ "nana::paint::calc_rotate", "d1/d7d/classnana_1_1paint_1_1calc__rotate.html", null ],
+    [ "nana::paint::detail::bitmap_core_header", "d1/dc5/structnana_1_1paint_1_1detail_1_1bitmap__core__header.html", null ],
     [ "nana::paint::detail::bitmap_file_header", "db/d10/structnana_1_1paint_1_1detail_1_1bitmap__file__header.html", null ],
-    [ "nana::paint::detail::bitmap_info", "d8/db6/structnana_1_1paint_1_1detail_1_1bitmap__info.html", null ],
     [ "nana::paint::detail::bitmap_info_header", "d5/d2d/structnana_1_1paint_1_1detail_1_1bitmap__info__header.html", null ],
     [ "nana::paint::detail::drawable_deleter", "d1/de3/structnana_1_1paint_1_1detail_1_1drawable__deleter.html", null ],
     [ "nana::paint::detail::ICONDIR", "dc/d1d/structnana_1_1paint_1_1detail_1_1_i_c_o_n_d_i_r.html", null ],
@@ -610,6 +626,7 @@ var hierarchy =
       [ "nana::place::implement::div_grid", "d5/db9/classnana_1_1place_1_1implement_1_1div__grid.html", null ],
       [ "nana::place::implement::div_splitter", "d2/d3e/classnana_1_1place_1_1implement_1_1div__splitter.html", null ]
     ] ],
+    [ "nana::place::implement::division::run_data", "d9/d08/structnana_1_1place_1_1implement_1_1division_1_1run__data.html", null ],
     [ "nana::place::implement::field_dock", "d6/d1d/classnana_1_1place_1_1implement_1_1field__dock.html", null ],
     [ "nana::place::implement::field_gather", "df/da8/classnana_1_1place_1_1implement_1_1field__gather.html", null ],
     [ "nana::place::implement::field_gather::element_t", "d7/d88/structnana_1_1place_1_1implement_1_1field__gather_1_1element__t.html", null ],
@@ -620,10 +637,11 @@ var hierarchy =
     [ "nana::place_parts::number_t", "d8/d09/classnana_1_1place__parts_1_1number__t.html", null ],
     [ "nana::place_parts::repeated_array", "d6/dcf/classnana_1_1place__parts_1_1repeated__array.html", null ],
     [ "nana::place_parts::splitter_interface", "da/d7f/classnana_1_1place__parts_1_1splitter__interface.html", [
-      [ "nana::place_parts::splitter< IsLite >", "dd/dcd/classnana_1_1place__parts_1_1splitter.html", null ],
-      [ "nana::place_parts::splitter< true >", "dd/dcd/classnana_1_1place__parts_1_1splitter.html", null ]
+      [ "nana::place_parts::splitter", "dd/dcd/classnana_1_1place__parts_1_1splitter.html", null ]
     ] ],
     [ "nana::place_parts::tokenizer", "de/dce/classnana_1_1place__parts_1_1tokenizer.html", null ],
+    [ "nana::platform_abstraction", "da/d6f/classnana_1_1platform__abstraction.html", null ],
+    [ "nana::platform_runtime", "d7/dfe/structnana_1_1platform__runtime.html", null ],
     [ "nana::radio_group", "d4/de4/classnana_1_1radio__group.html", null ],
     [ "nana::rectangle", "dd/d2d/structnana_1_1rectangle.html", null ],
     [ "nana::rectangle_rotator", "d3/d59/classnana_1_1rectangle__rotator.html", null ],
@@ -636,6 +654,7 @@ var hierarchy =
       [ "nana::scroll< Vertical >", "d6/da3/classnana_1_1scroll.html", null ]
     ] ],
     [ "nana::size", "da/df8/structnana_1_1size.html", null ],
+    [ "nana::spec::truetype", "d0/d5b/classnana_1_1spec_1_1truetype.html", null ],
     [ "nana::state_cursor", "d6/d46/classnana_1_1state__cursor.html", null ],
     [ "nana::system::dataexch", "d9/da7/classnana_1_1system_1_1dataexch.html", null ],
     [ "nana::system::shared_wrapper", "dd/d04/classnana_1_1system_1_1shared__wrapper.html", null ],
@@ -693,6 +712,9 @@ var hierarchy =
         [ "nana::widget_object< category::widget_tag, dockcaption_dtrigger >", "d3/d95/classnana_1_1widget__object.html", [
           [ "nana::place_parts::dockarea_caption", "d7/d64/classnana_1_1place__parts_1_1dockarea__caption.html", null ]
         ] ],
+        [ "nana::widget_object< category::widget_tag, drawer_splitter >", "d3/d95/classnana_1_1widget__object.html", [
+          [ "nana::place_parts::splitter", "dd/dcd/classnana_1_1place__parts_1_1splitter.html", null ]
+        ] ],
         [ "nana::widget_object< category::widget_tag, drawerbase::button::trigger >", "d3/d95/classnana_1_1widget__object.html", [
           [ "nana::button", "d7/dc0/classnana_1_1button.html", null ]
         ] ],
@@ -717,7 +739,7 @@ var hierarchy =
         [ "nana::widget_object< category::widget_tag, drawerbase::listbox::trigger, drawerbase::listbox::listbox_events, drawerbase::listbox::scheme >", "d3/d95/classnana_1_1widget__object.html", [
           [ "nana::listbox", "d1/dda/classnana_1_1listbox.html", null ]
         ] ],
-        [ "nana::widget_object< category::widget_tag, drawerbase::menubar::trigger >", "d3/d95/classnana_1_1widget__object.html", [
+        [ "nana::widget_object< category::widget_tag, drawerbase::menubar::trigger,::nana::general_events, drawerbase::menubar::scheme >", "d3/d95/classnana_1_1widget__object.html", [
           [ "nana::menubar", "d3/dc0/classnana_1_1menubar.html", null ]
         ] ],
         [ "nana::widget_object< category::widget_tag, drawerbase::picture::drawer >", "d3/d95/classnana_1_1widget__object.html", [
@@ -759,16 +781,13 @@ var hierarchy =
           [ "nana::panel< true >", "d1/d87/classnana_1_1panel.html", [
             [ "nana::group", "d6/d61/classnana_1_1group.html", null ]
           ] ]
-        ] ],
-        [ "nana::widget_object< std::conditional< IsLite, category::lite_widget_tag, category::widget_tag >::type, splitter_dtrigger >", "d3/d95/classnana_1_1widget__object.html", [
-          [ "nana::place_parts::splitter< IsLite >", "dd/dcd/classnana_1_1place__parts_1_1splitter.html", null ],
-          [ "nana::place_parts::splitter< true >", "dd/dcd/classnana_1_1place__parts_1_1splitter.html", null ]
         ] ]
       ] ],
       [ "nana::widget_object< category::frame_tag, Drawer, Events, Scheme >", "d4/d16/classnana_1_1widget__object_3_01category_1_1frame__tag_00_01_drawer_00_01_events_00_01_scheme_01_4.html", null ]
     ] ],
     [ "nana::widget_geometrics", "df/d63/structnana_1_1widget__geometrics.html", [
       [ "nana::drawerbase::listbox::scheme", "dc/d9d/structnana_1_1drawerbase_1_1listbox_1_1scheme.html", null ],
+      [ "nana::drawerbase::menubar::scheme", "d9/df6/structnana_1_1drawerbase_1_1menubar_1_1scheme.html", null ],
       [ "nana::drawerbase::slider::scheme_impl", "df/dd8/structnana_1_1drawerbase_1_1slider_1_1scheme__impl.html", null ],
       [ "nana::widgets::skeletons::text_editor_scheme", "d4/d27/structnana_1_1widgets_1_1skeletons_1_1text__editor__scheme.html", null ]
     ] ],
@@ -782,6 +801,14 @@ var hierarchy =
     ] ],
     [ "nana::widgets::detail::tree_cont< UserData >", "d8/d6b/classnana_1_1widgets_1_1detail_1_1tree__cont.html", null ],
     [ "nana::widgets::detail::tree_node< T >", "d5/d6d/structnana_1_1widgets_1_1detail_1_1tree__node.html", null ],
+    [ "nana::widgets::skeletons::colored_area_access_interface", "d1/d29/classnana_1_1widgets_1_1skeletons_1_1colored__area__access__interface.html", [
+      [ "nana::widgets::skeletons::colored_area_access", "dd/d10/classnana_1_1widgets_1_1skeletons_1_1colored__area__access.html", null ]
+    ] ],
+    [ "nana::widgets::skeletons::colored_area_type", "de/d86/structnana_1_1widgets_1_1skeletons_1_1colored__area__type.html", null ],
+    [ "nana::widgets::skeletons::content_view", "d7/dd1/classnana_1_1widgets_1_1skeletons_1_1content__view.html", null ],
+    [ "nana::widgets::skeletons::content_view::events_type", "d2/d14/structnana_1_1widgets_1_1skeletons_1_1content__view_1_1events__type.html", null ],
+    [ "nana::widgets::skeletons::content_view::implementation", "db/d9f/structnana_1_1widgets_1_1skeletons_1_1content__view_1_1implementation.html", null ],
+    [ "nana::widgets::skeletons::content_view::implementation::conf_provider", "d6/daf/structnana_1_1widgets_1_1skeletons_1_1content__view_1_1implementation_1_1conf__provider.html", null ],
     [ "nana::widgets::skeletons::data", "da/d3c/classnana_1_1widgets_1_1skeletons_1_1data.html", [
       [ "nana::widgets::skeletons::data_image", "d1/daa/classnana_1_1widgets_1_1skeletons_1_1data__image.html", null ],
       [ "nana::widgets::skeletons::data_text", "d2/d6c/classnana_1_1widgets_1_1skeletons_1_1data__text.html", null ]
@@ -803,9 +830,9 @@ var hierarchy =
     [ "nana::widgets::skeletons::text_editor::implementation::inner_capacities", "d1/dcf/structnana_1_1widgets_1_1skeletons_1_1text__editor_1_1implementation_1_1inner__capacities.html", null ],
     [ "nana::widgets::skeletons::text_editor::implementation::inner_counterpart", "d2/d41/structnana_1_1widgets_1_1skeletons_1_1text__editor_1_1implementation_1_1inner__counterpart.html", null ],
     [ "nana::widgets::skeletons::text_editor::implementation::inner_keywords", "df/d3b/structnana_1_1widgets_1_1skeletons_1_1text__editor_1_1implementation_1_1inner__keywords.html", null ],
-    [ "nana::widgets::skeletons::text_editor::implementation::inner_widgets", "d5/dd4/structnana_1_1widgets_1_1skeletons_1_1text__editor_1_1implementation_1_1inner__widgets.html", null ],
     [ "nana::widgets::skeletons::text_editor::keyword_parser", "db/de6/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1keyword__parser.html", null ],
     [ "nana::widgets::skeletons::text_editor::renderers", "d2/d51/structnana_1_1widgets_1_1skeletons_1_1text__editor_1_1renderers.html", null ],
+    [ "nana::widgets::skeletons::text_editor::text_section", "d5/d96/structnana_1_1widgets_1_1skeletons_1_1text__editor_1_1text__section.html", null ],
     [ "nana::widgets::skeletons::text_editor::undo_backspace", "d4/dc4/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1undo__backspace.html", null ],
     [ "nana::widgets::skeletons::text_editor::undo_input_text", "df/da7/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1undo__input__text.html", null ],
     [ "nana::widgets::skeletons::text_editor::undo_move_text", "d1/d97/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1undo__move__text.html", null ],
@@ -814,7 +841,6 @@ var hierarchy =
     ] ],
     [ "nana::widgets::skeletons::textbase_event_agent_interface", "d6/dbd/classnana_1_1widgets_1_1skeletons_1_1textbase__event__agent__interface.html", [
       [ "nana::drawerbase::combox::event_agent", "d2/d4e/classnana_1_1drawerbase_1_1combox_1_1event__agent.html", null ],
-      [ "nana::drawerbase::spinbox::event_agent", "d4/d71/classnana_1_1drawerbase_1_1spinbox_1_1event__agent.html", null ],
       [ "nana::drawerbase::textbox::event_agent", "d4/dbc/classnana_1_1drawerbase_1_1textbox_1_1event__agent.html", null ]
     ] ],
     [ "nana::widgets::skeletons::tokenizer", "dc/d00/classnana_1_1widgets_1_1skeletons_1_1tokenizer.html", null ],
@@ -829,6 +855,9 @@ var hierarchy =
     [ "directory_iterator", null, [
       [ "nana::filesystem_ext::directory_only_iterator", "d2/d5e/classnana_1_1filesystem__ext_1_1directory__only__iterator.html", null ],
       [ "nana::filesystem_ext::regular_file_only_iterator", "db/d84/classnana_1_1filesystem__ext_1_1regular__file__only__iterator.html", null ]
+    ] ],
+    [ "std::logic_error", "http://en.cppreference.com/w/cpp/error/logic_error.html", [
+      [ "nana::bad_optional_access", "d3/d43/classnana_1_1bad__optional__access.html", null ]
     ] ],
     [ "std::runtime_error", "http://en.cppreference.com/w/cpp/error/runtime_error.html", [
       [ "nana::utf8_Error", "d4/d16/structnana_1_1utf8___error.html", null ]

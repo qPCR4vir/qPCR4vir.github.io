@@ -103,11 +103,6 @@ $(document).ready(function(){initNavTree('d1/de0/audio_player_8cpp-example.html'
 <div class="contents">
 <p>Play an audio file asynchronously. Play the audio when a button is clicked, and it does not block the UI thread.</p>
 <div class="fragment"><div class="line"></div>
-<div class="line"><span class="comment">// Please, put a test audio file in &quot;../Examples/audio1.wav&quot;  in WAV PCM format</span></div>
-<div class="line"><span class="comment">//</span></div>
-<div class="line"><span class="comment">// you can donwload (an rename) an example from: </span></div>
-<div class="line"><span class="comment">// http://download.wavetlan.com/SVV/Media/HTTP/WAV/NeroSoundTrax/NeroSoundTrax_test3_PCM_Mono_CBR_8SS_8000Hz.wav</span></div>
-<div class="line"></div>
 <div class="line"></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/button.hpp&gt;</span></div>
@@ -140,10 +135,19 @@ $(document).ready(function(){initNavTree('d1/de0/audio_player_8cpp-example.html'
 <div class="line"></div>
 <div class="line">    fm.show();</div>
 <div class="line"></div>
-<div class="line">    <a name="a7"></a><a class="code" href="../../d2/d76/namespacenana.html#a36f8eb51da338977c6af8d711605ce6b">exec</a>(1,5,[&amp;btn]()</div>
+<div class="line">    <a name="a7"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(</div>
+<div class="line"></div>
+<div class="line">#ifdef NANA_AUTOMATIC_GUI_TESTING</div>
+<div class="line"></div>
+<div class="line">                1,</div>
+<div class="line">                5,    <span class="comment">// it will wait for the entery sound to finish !! be aweare</span></div>
+<div class="line">                [&amp;btn]()</div>
 <div class="line">        {</div>
-<div class="line">                <a name="a8"></a><a class="code" href="../../d2/d76/namespacenana.html#a3f42920f283b0835d457749e899b3879">click</a>(btn);</div>
-<div class="line">        });</div>
+<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>(btn);</div>
+<div class="line">        }</div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="preprocessor"></span></div>
+<div class="line">        );</div>
 <div class="line"><span class="preprocessor">#endif  //NANA_ENABLE_AUDIO</span></div>
 <div class="line"><span class="preprocessor"></span>}</div>
 </div><!-- fragment --> </div><!-- contents -->

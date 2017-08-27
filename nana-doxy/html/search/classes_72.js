@@ -46,12 +46,12 @@ var searchData=
   ['remove_5fpointer',['remove_pointer',['http://en.cppreference.com/w/cpp/types/remove_pointer.html',1,'std']]],
   ['remove_5freference',['remove_reference',['http://en.cppreference.com/w/cpp/types/remove_reference.html',1,'std']]],
   ['remove_5fvolatile',['remove_volatile',['http://en.cppreference.com/w/cpp/types/remove_cv.html',1,'std']]],
-  ['renderer',['renderer',['../d3/d4c/classnana_1_1drawerbase_1_1label_1_1renderer.html',1,'nana::drawerbase::label']]],
   ['renderer',['renderer',['../dd/df9/classnana_1_1drawerbase_1_1categorize_1_1renderer.html',1,'nana::drawerbase::categorize']]],
+  ['renderer',['renderer',['../d3/d4c/classnana_1_1drawerbase_1_1label_1_1renderer.html',1,'nana::drawerbase::label']]],
   ['renderer',['renderer',['../df/de0/classnana_1_1drawerbase_1_1tabbar__lite_1_1renderer.html',1,'nana::drawerbase::tabbar_lite']]],
+  ['renderer_5finterface',['renderer_interface',['../d9/d29/classnana_1_1drawerbase_1_1menu_1_1renderer__interface.html',1,'nana::drawerbase::menu']]],
   ['renderer_5finterface',['renderer_interface',['../dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html',1,'nana::drawerbase::treebox']]],
   ['renderer_5finterface',['renderer_interface',['../d6/d77/classnana_1_1drawerbase_1_1slider_1_1renderer__interface.html',1,'nana::drawerbase::slider']]],
-  ['renderer_5finterface',['renderer_interface',['../d9/d29/classnana_1_1drawerbase_1_1menu_1_1renderer__interface.html',1,'nana::drawerbase::menu']]],
   ['renderers',['renderers',['../d2/d51/structnana_1_1widgets_1_1skeletons_1_1text__editor_1_1renderers.html',1,'nana::widgets::skeletons::text_editor']]],
   ['rep_5ftag',['rep_tag',['../db/db6/structnana_1_1drawerbase_1_1treebox_1_1trigger_1_1basic__implement_1_1rep__tag.html',1,'nana::drawerbase::treebox::trigger::basic_implement']]],
   ['repeated_5farray',['repeated_array',['../d6/dcf/classnana_1_1place__parts_1_1repeated__array.html',1,'nana::place_parts']]],
@@ -61,5 +61,6 @@ var searchData=
   ['root_5fmisc',['root_misc',['../d1/d35/structnana_1_1detail_1_1root__misc.html',1,'nana::detail']]],
   ['root_5fregister',['root_register',['../d6/d3e/classnana_1_1detail_1_1root__register.html',1,'nana::detail']]],
   ['root_5ftag',['root_tag',['../d7/d5f/structnana_1_1category_1_1root__tag.html',1,'nana::category']]],
+  ['run_5fdata',['run_data',['../d9/d08/structnana_1_1place_1_1implement_1_1division_1_1run__data.html',1,'nana::place::implement::division']]],
   ['runtime_5ferror',['runtime_error',['http://en.cppreference.com/w/cpp/error/runtime_error.html',1,'std']]]
 ];

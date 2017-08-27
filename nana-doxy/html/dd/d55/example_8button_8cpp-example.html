@@ -135,7 +135,14 @@ $(document).ready(function(){initNavTree('dd/d55/example_8button_8cpp-example.ht
 <div class="line">    btn.<a name="a5"></a><a class="code" href="../../d7/dc0/classnana_1_1button.html#a102d37d5366ea2769cd6b66931ea00fe">set_bground</a>(<a class="code" href="../../d0/d60/namespacenana_1_1drawerbase_1_1treebox.html#a264d0232fc4a37766c0f8d30ebab824bab37c8081ee0ea0775b1e344ddfa736cc">bground</a>);</div>
 <div class="line"></div>
 <div class="line">    fm.<a name="a6"></a><a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>();</div>
-<div class="line">        <a name="a7"></a><a class="code" href="../../d2/d76/namespacenana.html#a36f8eb51da338977c6af8d711605ce6b">exec</a>(1, 2, [&amp;btn]() {<a name="a8"></a><a class="code" href="../../d2/d76/namespacenana.html#a3f42920f283b0835d457749e899b3879">click</a>(btn); });</div>
+<div class="line">        <a name="a7"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(</div>
+<div class="line"></div>
+<div class="line">#ifdef NANA_AUTOMATIC_GUI_TESTING</div>
+<div class="line"></div>
+<div class="line">                1, 1, [&amp;btn]() {<a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>(btn); }</div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="preprocessor"></span></div>
+<div class="line">        );</div>
 <div class="line">}</div>
 <div class="line"></div>
 </div><!-- fragment --> </div><!-- contents -->

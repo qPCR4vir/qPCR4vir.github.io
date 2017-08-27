@@ -1,13 +1,7 @@
 var classnana_1_1paint_1_1detail_1_1image__ico =
 [
-    [ "image_ico", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html#a5022fa09c1dcb76f0f1366388d52495f", null ],
-    [ "alpha_channel", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html#ad87060f3bff9d35a2432795444820412", null ],
-    [ "close", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html#afbec0e5d372e01a98b8d706dd30734ba", null ],
-    [ "empty", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html#ab248539ad78dc809d811f05af7e8b196", null ],
-    [ "open", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html#ac8d1ea893a141bbc5458e0494b24ebe4", null ],
-    [ "open", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html#af5680e83f6b70aeb8c2bef3538884dec", null ],
-    [ "paste", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html#ac81b630ce86ff7760f42ce9253f6e5c1", null ],
-    [ "ptr", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html#a01f8dff0428f318f4ce2a1f079cc529c", null ],
-    [ "size", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html#a96cddf544292a1603f12d639622fe515", null ],
-    [ "stretch", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html#a8ef933248698fcd750fce19c6236f2fa", null ]
+    [ "~image_ico", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html#a6cda9e50dc32a64e65a312101e27af2f", null ],
+    [ "native_handle", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html#a94a468ea2f84f89b6841105c03a17f23", null ],
+    [ "open", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html#aef6cdb69b897df7691da4c5132ea7115", null ],
+    [ "open", "dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html#af5680e83f6b70aeb8c2bef3538884dec", null ]
 ];

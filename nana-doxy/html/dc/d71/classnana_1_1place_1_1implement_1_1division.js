@@ -1,5 +1,6 @@
 var classnana_1_1place_1_1implement_1_1division =
 [
+    [ "run_data", "d9/d08/structnana_1_1place_1_1implement_1_1division_1_1run__data.html", "d9/d08/structnana_1_1place_1_1implement_1_1division_1_1run__data" ],
     [ "kind", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8", [
       [ "arrange", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8a38d05e65a44270fbdb0fc1427257be1d", null ],
       [ "vertical_arrange", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8a14f42ab8dc4dfef6e50465d90b098baf", null ],
@@ -8,16 +9,19 @@ var classnana_1_1place_1_1implement_1_1division =
       [ "dock", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8a05debdb8b38c7e1e244dd770b62d1d4f", null ],
       [ "dockpane", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8a12652cf33ea0a2bdb710a2d9c1e7c081", null ]
     ] ],
-    [ "division", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a6088dd6a56afe636b7c830f687d5143a", null ],
+    [ "division", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#adc066b74a0c983b8fa8a1b84c08d67ed", null ],
     [ "~division", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#aa917b6218e431ff5b36f620bb2d3acab", null ],
-    [ "_m_visible_for_child", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a797e08917e63b6253593de6a0b13f660", null ],
+    [ "_m_extend_with_margin", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a2a7d07d2a07b5fb80bd82d5fca4812f6", null ],
+    [ "_m_visible_for_child", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a216c70b6d7df7cb4ab68b42a4eabbc3d", null ],
+    [ "calc_number", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a46f613a2dd926eb13cbb82c6587c9f97", null ],
+    [ "calc_weight_floor", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#af5a931860b31833d8a2ec57ef251b000", null ],
     [ "collocate", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#af2bc13d1b230b159d7cd9594904a82f0", null ],
-    [ "is_back", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#aae2a597213a9046c75e9bb284f4f9b6d", null ],
+    [ "is_back", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#ac9265cdeb7d79ff090d9ccd61714b4ae", null ],
     [ "is_fixed", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#aecb1bb21a3e82fab895f08b28c959c9f", null ],
     [ "is_percent", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a889a4a5fe5bd0a759b383e99b5d259cb", null ],
-    [ "limit_px", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1d6759329b882468383518f69fa7dd12", null ],
+    [ "limit_px", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#aee2695e5486289339aa2def9ff22a36f", null ],
     [ "margin_area", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a40b206cb3c388d381bda79c411c5dddd", null ],
-    [ "previous", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a6c7d63f19d8db550c75a0a89e27f1c68", null ],
+    [ "previous", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a0eff1da813102a2a22f59221339b191b", null ],
     [ "set_display", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a5fa70458431d3f240f494c9003052aac", null ],
     [ "set_visible", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a42ac2b93e3830e8d0d98bca67ddfbd9b", null ],
     [ "children", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a6cc52c91890823451b9e10f5219b8dba", null ],
@@ -27,12 +31,15 @@ var classnana_1_1place_1_1implement_1_1division =
     [ "div_owner", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a8b452775b29e3abd019a2e9a114c0e90", null ],
     [ "field", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#ae68492a5684fa30e6d51a7a8a16dbb4b", null ],
     [ "field_area", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#abc6e3b390c0da71fc68c828c954894f6", null ],
+    [ "fit", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a46daf5838960d6e4784c5f7bba1339fd", null ],
+    [ "fit_parameters", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#ae4628b67c875ab4763321eda0a9ef57f", null ],
     [ "gap", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a406f648829eaf4321eb52cef5f509e20", null ],
     [ "kind_of_division", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a58e0e87592dc75903c1e0061818ed827", null ],
     [ "margin", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a097f71da5741e281863d3f3996ebc634", null ],
     [ "max_px", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#ad01e69fcb5747a72022abf6bb10bfff7", null ],
     [ "min_px", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#aa4be92dd0fc23487a555e46a2a498f23", null ],
     [ "name", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#ad44fe18fa3435d5c1a27df59be32fdcb", null ],
+    [ "run_", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a4edbf67859f3e18bf782da7a39f46947", null ],
     [ "visible", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#ac340ede31df8b271f44de4a6913e3809", null ],
     [ "weight", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#aa30c825a1ea039bc73ea0265c52f2c12", null ]
 ];

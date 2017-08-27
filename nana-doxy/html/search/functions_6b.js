@@ -10,6 +10,6 @@ var searchData=
   ['keys',['keys',['../d4/d80/classnana_1_1detail_1_1shortkey__container.html#af99e69d51371bf3d78115662a28ed59b',1,'nana::detail::shortkey_container']]],
   ['keyword_5fdesc',['keyword_desc',['../df/dc9/structnana_1_1widgets_1_1skeletons_1_1keyword__desc.html#a3aa3fcf7abfd530898b46b9bc35983f6',1,'nana::widgets::skeletons::keyword_desc']]],
   ['kill_5fdependency',['kill_dependency',['http://en.cppreference.com/w/cpp/atomic/kill_dependency.html',1,'std']]],
-  ['kind_5fof',['kind_of',['../d8/d09/classnana_1_1place__parts_1_1number__t.html#a41994ded407b55d553985ae2a6e39941',1,'nana::place_parts::number_t']]],
+  ['kind_5fof',['kind_of',['../d8/d09/classnana_1_1place__parts_1_1number__t.html#a2d1ad40f37aff0b382de9b8dfa984102',1,'nana::place_parts::number_t']]],
   ['knuth_5fb',['knuth_b',['http://en.cppreference.com/w/cpp/numeric/random/shuffle_order_engine/shuffle_order_engine.html',1,'std::knuth_b']]]
 ];

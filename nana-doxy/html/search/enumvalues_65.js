@@ -19,6 +19,6 @@ var searchData=
   ['escape',['escape',['../de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eadc25f8b94d6fb3a82c137bbb17607fcc',1,'nana::keyboard']]],
   ['et',['ET',['../d8/d7f/classnana_1_1unicode__bidi.html#ab4d218792adebd435c0808cfa7fce137aae41a6d38b78679b4675941ff0c0c92d',1,'nana::unicode_bidi::ET()'],['../d9/d0f/namespacenana_1_1bidi__charmap.html#a35c8c909095bdaeefe7ffcba2fa54828a679c246a93e612c914d9963f951e27ef',1,'nana::bidi_charmap::ET()']]],
   ['event_5fsize',['event_size',['../d2/da8/namespacenana_1_1detail.html#a91b5e900ba758663c99d4758d5d3e893a41edcecd11a42a8fe17bbd6126a6aff9',1,'nana::detail']]],
-  ['expender',['expender',['../d0/d60/namespacenana_1_1drawerbase_1_1treebox.html#a264d0232fc4a37766c0f8d30ebab824ba4d55d5df8775fb55c98a04530b442e1d',1,'nana::drawerbase::treebox']]],
+  ['expander',['expander',['../d0/d60/namespacenana_1_1drawerbase_1_1treebox.html#a264d0232fc4a37766c0f8d30ebab824ba2cf6e836789d8f553fad15072b274c12',1,'nana::drawerbase::treebox']]],
   ['expose',['expose',['../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3a366c789263d9c6d20f049b97bb1c99aa',1,'nana']]]
 ];

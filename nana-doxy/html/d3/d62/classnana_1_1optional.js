@@ -1,0 +1,28 @@
+var classnana_1_1optional =
+[
+    [ "value_type", "d3/d62/classnana_1_1optional.html#ad9339014332030551cd451df7ce46edf", null ],
+    [ "optional", "d3/d62/classnana_1_1optional.html#a812f391eda013b730da9d5de0032cd21", null ],
+    [ "optional", "d3/d62/classnana_1_1optional.html#ad1ab34bb7404d299a5c047aee66a29d9", null ],
+    [ "optional", "d3/d62/classnana_1_1optional.html#ac3c4042244975cb772e891c8bd2ae47e", null ],
+    [ "optional", "d3/d62/classnana_1_1optional.html#adc785bdb264470474ea9742b66dba978", null ],
+    [ "optional", "d3/d62/classnana_1_1optional.html#a04bda23238e0edca613e0a2b4bd51d3a", null ],
+    [ "optional", "d3/d62/classnana_1_1optional.html#a04d9ea1651d04c81bcf8e565e734a356", null ],
+    [ "emplace", "d3/d62/classnana_1_1optional.html#ad77e3e222cef415ec0fb2c5b2158028d", null ],
+    [ "emplace", "d3/d62/classnana_1_1optional.html#a93a3972d6e74e2606a71da73f4ee3825", null ],
+    [ "has_value", "d3/d62/classnana_1_1optional.html#a33e47461a743d6e52a03f40dea4439c4", null ],
+    [ "operator bool", "d3/d62/classnana_1_1optional.html#acd7724ee147ecfd4dbc4b3a9d4ba4498", null ],
+    [ "operator*", "d3/d62/classnana_1_1optional.html#a9ed051a7be170aa2a5cdf0ae80af4428", null ],
+    [ "operator*", "d3/d62/classnana_1_1optional.html#aa381a87804c956fe0c28a74ce7cdfe65", null ],
+    [ "operator->", "d3/d62/classnana_1_1optional.html#ae6b8a1d8c2506f70cc2d9b3f7932cc1a", null ],
+    [ "operator->", "d3/d62/classnana_1_1optional.html#a960d830420b8771e3a34ac639dfdb481", null ],
+    [ "operator=", "d3/d62/classnana_1_1optional.html#ac381152b163fdc1bee6083f80e3d9464", null ],
+    [ "operator=", "d3/d62/classnana_1_1optional.html#aeb79377da6d079577f272062710d7ce1", null ],
+    [ "operator=", "d3/d62/classnana_1_1optional.html#a7bd7d752958960bea6472fea98a06c20", null ],
+    [ "operator=", "d3/d62/classnana_1_1optional.html#a35b5d590b02209f2a70e6953222b466f", null ],
+    [ "reset", "d3/d62/classnana_1_1optional.html#a154ea942985ad6090f26ce232c3bd267", null ],
+    [ "swap", "d3/d62/classnana_1_1optional.html#ae8643d553085fce89a42ad2ce856f98a", null ],
+    [ "value", "d3/d62/classnana_1_1optional.html#a289a3d2d6ce8e8fea60350998fe0385d", null ],
+    [ "value", "d3/d62/classnana_1_1optional.html#ad3f707db72f17d591f99697afa7f657d", null ],
+    [ "value_or", "d3/d62/classnana_1_1optional.html#a05461016009f993dbb8e5772c6cf751a", null ],
+    [ "value_or", "d3/d62/classnana_1_1optional.html#add431408eecb7c1012496f486e3f8487", null ]
+];

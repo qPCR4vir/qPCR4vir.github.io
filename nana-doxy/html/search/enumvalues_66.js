@@ -3,6 +3,7 @@ var searchData=
   ['finished',['finished',['../d5/d08/classnana_1_1threads_1_1pool_1_1impl.html#a7da23dc57b56c444500639c3714ebfc7aa5d7ceb2c59b8cee46c2953fec9abc19',1,'nana::threads::pool::impl']]],
   ['firebrick',['firebrick',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a293bdec991862602079dcb56ca72dcfc',1,'nana']]],
   ['first',['first',['../d8/dbb/namespacenana_1_1drawerbase_1_1scroll.html#ae3e4b4e65e3abe9227e030f9187829a1a8b04d5e3775d298e78455efc5ca404d5',1,'nana::drawerbase::scroll']]],
+  ['fit',['fit',['../de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a1977c9daa1d67de51a4651abdb160c09',1,'nana::place_parts::tokenizer']]],
   ['floated',['floated',['../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ae4c11c9e585708c50fe3b884c3d687a8ae19250085b8bacf4d0fce9c8e972dfa5',1,'nana::drawerbase::listbox::essence']]],
   ['floatlist',['floatlist',['../d3/d90/classnana_1_1drawerbase_1_1categorize_1_1trigger_1_1scheme.html#a50452af9b0700e240b7042bea6defae5adaa0eff338a0a73ad0899f423360fc33',1,'nana::drawerbase::categorize::trigger::scheme']]],
   ['floral_5fwhite',['floral_white',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a996483b6f227bb90a1a066a4d1d6ce10',1,'nana']]],

@@ -9,10 +9,11 @@ var classnana_1_1drawerbase_1_1spinbox_1_1implementation =
     [ "mouse_button", "d8/d18/classnana_1_1drawerbase_1_1spinbox_1_1implementation.html#a042f7d8c93c6e7240a33122b317d1f5c", null ],
     [ "mouse_move", "d8/d18/classnana_1_1drawerbase_1_1spinbox_1_1implementation.html#a69c0ae2892576688c6b62b62147139bc", null ],
     [ "mouse_wheel", "d8/d18/classnana_1_1drawerbase_1_1spinbox_1_1implementation.html#af50d5a5d4769d0d32f612129de443640", null ],
+    [ "range", "d8/d18/classnana_1_1drawerbase_1_1spinbox_1_1implementation.html#a1f7bb8755b93c424b9f0f1edd5b8093c", null ],
     [ "render", "d8/d18/classnana_1_1drawerbase_1_1spinbox_1_1implementation.html#a38f593c7401b15b73bdb1017381650b3", null ],
     [ "reset_text", "d8/d18/classnana_1_1drawerbase_1_1spinbox_1_1implementation.html#a1b4babbc788a399532b33bdd840998c7", null ],
     [ "reset_text_area", "d8/d18/classnana_1_1drawerbase_1_1spinbox_1_1implementation.html#a99b3b4625de7c9dfba5bdac4545efc07", null ],
     [ "set_range", "d8/d18/classnana_1_1drawerbase_1_1spinbox_1_1implementation.html#a918c4581bdef17780ad974404fc71841", null ],
     [ "value", "d8/d18/classnana_1_1drawerbase_1_1spinbox_1_1implementation.html#a4d93aa194ee48d5dd3f0ff535c733427", null ],
-    [ "value", "d8/d18/classnana_1_1drawerbase_1_1spinbox_1_1implementation.html#a37c484682c12f2cd97e2bf08c1b68d80", null ]
+    [ "value", "d8/d18/classnana_1_1drawerbase_1_1spinbox_1_1implementation.html#a9a0c9d5885d4f07daafbd055c0cf4419", null ]
 ];

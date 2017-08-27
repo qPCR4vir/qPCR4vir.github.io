@@ -6,7 +6,8 @@ var classnana_1_1system_1_1dataexch =
     ] ],
     [ "get", "d9/da7/classnana_1_1system_1_1dataexch.html#a1eff2947aab8bbfb80c02d9327ad63b5", null ],
     [ "get", "d9/da7/classnana_1_1system_1_1dataexch.html#a8fd82a4c41baa0b5d03cda4987ea1b63", null ],
-    [ "set", "d9/da7/classnana_1_1system_1_1dataexch.html#a4f06eba40a5245f93bd494b7c1d3df15", null ],
-    [ "set", "d9/da7/classnana_1_1system_1_1dataexch.html#ab64a0b78a069f9624661b6198b27c04e", null ],
-    [ "set", "d9/da7/classnana_1_1system_1_1dataexch.html#a369b45a73b2a90fbbca97f0802c5ebd1", null ]
+    [ "set", "d9/da7/classnana_1_1system_1_1dataexch.html#a4985282bfa35880d97aba37605cccbbf", null ],
+    [ "set", "d9/da7/classnana_1_1system_1_1dataexch.html#a1b8abff33840b5e33648ddd8bdf6f7bb", null ],
+    [ "set", "d9/da7/classnana_1_1system_1_1dataexch.html#a4128c301b956d71bdf69c614eafcb68f", null ],
+    [ "wget", "d9/da7/classnana_1_1system_1_1dataexch.html#a08519ae888777092a5ca06bfddf85177", null ]
 ];

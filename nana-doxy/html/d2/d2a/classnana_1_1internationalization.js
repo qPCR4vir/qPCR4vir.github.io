@@ -6,5 +6,6 @@ var classnana_1_1internationalization =
     [ "load_utf8", "d2/d2a/classnana_1_1internationalization.html#a79208637c154d4cb4c0de36ca9e7d4b5", null ],
     [ "operator()", "d2/d2a/classnana_1_1internationalization.html#ab10624901b9b3a5443e7a14a336211a4", null ],
     [ "set", "d2/d2a/classnana_1_1internationalization.html#af086ec8240a311c832ac1ed17f92ddd1", null ],
+    [ "set_missing", "d2/d2a/classnana_1_1internationalization.html#aea94d631ab7e18ae5abccabb8ea51d14", null ],
     [ "i18n_eval", "d2/d2a/classnana_1_1internationalization.html#af71e16bcf62ea6d8a4f02337e441013e", null ]
 ];

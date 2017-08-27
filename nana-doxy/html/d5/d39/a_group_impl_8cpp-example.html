@@ -174,8 +174,8 @@ $(document).ready(function(){initNavTree('d5/d39/a_group_impl_8cpp-example.html'
 <div class="line">            plc[<span class="stringliteral">&quot;titel&quot;</span>] &lt;&lt; titel;</div>
 <div class="line"></div>
 <div class="line">            <a name="_a18"></a><a class="code" href="../../dd/d1e/classnana_1_1color.html">color</a> obg = owner.<a name="a19"></a><a class="code" href="../../d9/dd8/classnana_1_1widget.html#a7aa74edbc2bb11f769043cbf0475446f">bgcolor</a>();</div>
-<div class="line">            titel.bgcolor(obg.<a name="a20"></a><a class="code" href="../../dd/d1e/classnana_1_1color.html#a74a0546c9a0b9bac31a7ff6eeb9cfd73">blend</a>(<a name="a21"></a><a class="code" href="../../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a1ffd9e753c8054cc61456ac7fac1ac89">colors::black</a>, 0.975) );</div>
-<div class="line">            <a class="code" href="../../dd/d1e/classnana_1_1color.html">color</a> bg=obg.<a class="code" href="../../dd/d1e/classnana_1_1color.html#a74a0546c9a0b9bac31a7ff6eeb9cfd73">blend</a>(<a class="code" href="../../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a1ffd9e753c8054cc61456ac7fac1ac89">colors::black</a>, 0.950 );</div>
+<div class="line">            titel.bgcolor(obg.<a name="a20"></a><a class="code" href="../../dd/d1e/classnana_1_1color.html#a604b1607af89685849c63899598dbe0b">blend</a>(<a name="a21"></a><a class="code" href="../../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a1ffd9e753c8054cc61456ac7fac1ac89">colors::black</a>, 0.975) );</div>
+<div class="line">            <a class="code" href="../../dd/d1e/classnana_1_1color.html">color</a> bg=obg.<a class="code" href="../../dd/d1e/classnana_1_1color.html#a604b1607af89685849c63899598dbe0b">blend</a>(<a class="code" href="../../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a1ffd9e753c8054cc61456ac7fac1ac89">colors::black</a>, 0.950 );</div>
 <div class="line">            <a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a7c9f0212bd8dd426ab2e0cb9bbb4ef1d">bgcolor</a>(bg);</div>
 <div class="line"></div>
 <div class="line">            <a class="code" href="../../d9/d46/classnana_1_1drawing.html">drawing</a> dw(*<span class="keyword">this</span>);</div>
@@ -232,7 +232,17 @@ $(document).ready(function(){initNavTree('d5/d39/a_group_impl_8cpp-example.html'
 <div class="line"></div>
 <div class="line">        fm.<a name="a33"></a><a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>();</div>
 <div class="line"></div>
-<div class="line">        ::nana::exec();</div>
+<div class="line">        ::nana::exec(</div>
+<div class="line"></div>
+<div class="line">#ifdef NANA_AUTOMATIC_GUI_TESTING</div>
+<div class="line">                1, 1, [&amp;b1, &amp;b2]()</div>
+<div class="line">        {</div>
+<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>(b1);</div>
+<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>(b2);</div>
+<div class="line">        }</div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="preprocessor"></span></div>
+<div class="line">        );</div>
 <div class="line">}</div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->

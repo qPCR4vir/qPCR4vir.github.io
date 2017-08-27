@@ -126,11 +126,11 @@ Inheritance diagram for nana::detail::key_interface:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0fde49a190acf3dc40104b73598100ef"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/classnana_1_1detail_1_1key__interface.html#a0fde49a190acf3dc40104b73598100ef">~key_interface</a> ()</td></tr>
 <tr class="separator:a0fde49a190acf3dc40104b73598100ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6797c7e8843038088f26c65185653095"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/classnana_1_1detail_1_1key__interface.html#a6797c7e8843038088f26c65185653095">same_type</a> (const <a class="el" href="../../d4/d49/classnana_1_1detail_1_1key__interface.html">key_interface</a> *) const =0</td></tr>
-<tr class="separator:a6797c7e8843038088f26c65185653095"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7480fbe6a4f843aca66bb990cbce20c0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/classnana_1_1detail_1_1key__interface.html#a7480fbe6a4f843aca66bb990cbce20c0">compare</a> (const <a class="el" href="../../d4/d49/classnana_1_1detail_1_1key__interface.html">key_interface</a> *) const =0</td></tr>
-<tr class="memdesc:a7480fbe6a4f843aca66bb990cbce20c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">is this key less than right key? [call it less(rk), less_than(rk) or compare_less(rk)?: if (lk.less_than(rk )) ]  <a href="#a7480fbe6a4f843aca66bb990cbce20c0">More...</a><br/></td></tr>
-<tr class="separator:a7480fbe6a4f843aca66bb990cbce20c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdeecb500e37a94c78a3c74c5cd87779"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/classnana_1_1detail_1_1key__interface.html#acdeecb500e37a94c78a3c74c5cd87779">same_type</a> (const <a class="el" href="../../d4/d49/classnana_1_1detail_1_1key__interface.html">key_interface</a> *) const noexcept=0</td></tr>
+<tr class="separator:acdeecb500e37a94c78a3c74c5cd87779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2baa8198a5e0d57fc9589a48050d5628"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/classnana_1_1detail_1_1key__interface.html#a2baa8198a5e0d57fc9589a48050d5628">compare</a> (const <a class="el" href="../../d4/d49/classnana_1_1detail_1_1key__interface.html">key_interface</a> *) const noexcept=0</td></tr>
+<tr class="memdesc:a2baa8198a5e0d57fc9589a48050d5628"><td class="mdescLeft">&#160;</td><td class="mdescRight">is this key less than right key? [call it less(rk), less_than(rk) or compare_less(rk)?: if (lk.less_than(rk )) ]  <a href="#a2baa8198a5e0d57fc9589a48050d5628">More...</a><br/></td></tr>
+<tr class="separator:a2baa8198a5e0d57fc9589a48050d5628"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a0fde49a190acf3dc40104b73598100ef"></a>
@@ -157,7 +157,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a7480fbe6a4f843aca66bb990cbce20c0"></a>
+<a class="anchor" id="a2baa8198a5e0d57fc9589a48050d5628"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -174,18 +174,18 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>is this key less than right key? [call it less(rk), less_than(rk) or compare_less(rk)?: if (lk.less_than(rk )) ] </p>
 
-<p>Implemented in <a class="el" href="../../da/dba/classnana_1_1key.html#aafc841d290f61a5bd67180cc302445b7">nana::key&lt; T, Compare &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../da/dba/classnana_1_1key.html#ab671bba829c2f6a654f02551b3b08d1c">nana::key&lt; T, Compare &gt;</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6797c7e8843038088f26c65185653095"></a>
+<a class="anchor" id="acdeecb500e37a94c78a3c74c5cd87779"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -202,12 +202,12 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../da/dba/classnana_1_1key.html#a52dc9181ae9043d487a5eb7e107180bd">nana::key&lt; T, Compare &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../da/dba/classnana_1_1key.html#a14139da8c1b109bd9c8e05d256470b33">nana::key&lt; T, Compare &gt;</a>.</p>
 
 </div>
 </div>

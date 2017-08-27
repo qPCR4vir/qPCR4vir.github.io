@@ -1,5 +1,6 @@
 var classnana_1_1inputbox =
 [
+    [ "boolean", "d9/d67/classnana_1_1inputbox_1_1boolean.html", "d9/d67/classnana_1_1inputbox_1_1boolean" ],
     [ "date", "db/d35/classnana_1_1inputbox_1_1date.html", "db/d35/classnana_1_1inputbox_1_1date" ],
     [ "integer", "dc/d61/classnana_1_1inputbox_1_1integer.html", "dc/d61/classnana_1_1inputbox_1_1integer" ],
     [ "path", "d7/d25/classnana_1_1inputbox_1_1path.html", "d7/d25/classnana_1_1inputbox_1_1path" ],

@@ -131,10 +131,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad683ddf6071cd1695923c04b9b563d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af17287bc1679943bc8b154996b4dfd05"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d7a/classnana_1_1drawerbase_1_1listbox_1_1model__interface.html#af17287bc1679943bc8b154996b4dfd05">unlock</a> ()=0</td></tr>
 <tr class="separator:af17287bc1679943bc8b154996b4dfd05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af478cfdb1886edae16612da807f8f186"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../dd/d3e/classnana_1_1drawerbase_1_1listbox_1_1container__interface.html">container_interface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d7a/classnana_1_1drawerbase_1_1listbox_1_1model__interface.html#af478cfdb1886edae16612da807f8f186">container</a> ()=0</td></tr>
-<tr class="separator:af478cfdb1886edae16612da807f8f186"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad61ccbc05edf38f9d5eb06e2e175bc80"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="../../dd/d3e/classnana_1_1drawerbase_1_1listbox_1_1container__interface.html">container_interface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d7a/classnana_1_1drawerbase_1_1listbox_1_1model__interface.html#ad61ccbc05edf38f9d5eb06e2e175bc80">container</a> () const =0</td></tr>
-<tr class="separator:ad61ccbc05edf38f9d5eb06e2e175bc80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed7552ebf7b220c4a362a466aa0a6d9e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../dd/d3e/classnana_1_1drawerbase_1_1listbox_1_1container__interface.html">container_interface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d7a/classnana_1_1drawerbase_1_1listbox_1_1model__interface.html#aed7552ebf7b220c4a362a466aa0a6d9e">container</a> () noexcept=0</td></tr>
+<tr class="separator:aed7552ebf7b220c4a362a466aa0a6d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fa5446f01d55733795c313f166533f9"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="../../dd/d3e/classnana_1_1drawerbase_1_1listbox_1_1container__interface.html">container_interface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d7a/classnana_1_1drawerbase_1_1listbox_1_1model__interface.html#a7fa5446f01d55733795c313f166533f9">container</a> () const noexcept=0</td></tr>
+<tr class="separator:a7fa5446f01d55733795c313f166533f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="abc264219833d7e2503c4548ff1af5734"></a>
@@ -161,7 +161,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="af478cfdb1886edae16612da807f8f186"></a>
+<a class="anchor" id="aed7552ebf7b220c4a362a466aa0a6d9e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -177,16 +177,16 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../de/d5d/classnana_1_1drawerbase_1_1listbox_1_1shared__model__container.html#a35bc7a339024df977188735d17cb0760">nana::drawerbase::listbox::shared_model_container&lt; STLContainer, Mutex &gt;</a>, and <a class="el" href="../../d9/d88/classnana_1_1drawerbase_1_1listbox_1_1standalone__model__container.html#a1ab581e42c3da945395681b504f0049e">nana::drawerbase::listbox::standalone_model_container&lt; STLContainer, Mutex &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../de/d5d/classnana_1_1drawerbase_1_1listbox_1_1shared__model__container.html#a07782db5f1d8a888e8de0ad3eb8dfa68">nana::drawerbase::listbox::shared_model_container&lt; STLContainer, Mutex &gt;</a>, and <a class="el" href="../../d9/d88/classnana_1_1drawerbase_1_1listbox_1_1standalone__model__container.html#ad4a29b01a28e5b24f26c5a17e5acf5c0">nana::drawerbase::listbox::standalone_model_container&lt; STLContainer, Mutex &gt;</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad61ccbc05edf38f9d5eb06e2e175bc80"></a>
+<a class="anchor" id="a7fa5446f01d55733795c313f166533f9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -202,12 +202,12 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../de/d5d/classnana_1_1drawerbase_1_1listbox_1_1shared__model__container.html#ac7e120f1a6045c2a8ff98b4b22724661">nana::drawerbase::listbox::shared_model_container&lt; STLContainer, Mutex &gt;</a>, and <a class="el" href="../../d9/d88/classnana_1_1drawerbase_1_1listbox_1_1standalone__model__container.html#a364262ff60a8fb9a7d6efe5199a6df7f">nana::drawerbase::listbox::standalone_model_container&lt; STLContainer, Mutex &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../de/d5d/classnana_1_1drawerbase_1_1listbox_1_1shared__model__container.html#ac0dcd355dd02f69aac5b8024021d45ac">nana::drawerbase::listbox::shared_model_container&lt; STLContainer, Mutex &gt;</a>, and <a class="el" href="../../d9/d88/classnana_1_1drawerbase_1_1listbox_1_1standalone__model__container.html#a7514cd8ec2658b5460a49056eeef6acc">nana::drawerbase::listbox::standalone_model_container&lt; STLContainer, Mutex &gt;</a>.</p>
 
 </div>
 </div>

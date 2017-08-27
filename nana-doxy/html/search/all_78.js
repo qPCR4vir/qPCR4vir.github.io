@@ -4,7 +4,6 @@ var searchData=
   ['x_5ficon',['x_icon',['../d3/ddd/classnana_1_1element_1_1x__icon.html',1,'nana::element']]],
   ['x_5ficon',['x_icon',['../d6/d63/classnana_1_1element__manager.html#ad616f2da13ee2d205e21dfb0d908336c',1,'nana::element_manager::x_icon(const std::string &amp;name, const pat::cloneable&lt; element::provider::factory_interface&lt; element::element_interface &gt;&gt; &amp;factory)'],['../d6/d63/classnana_1_1element__manager.html#aa43fa7d530fe552638b61b0a1fe170cf',1,'nana::element_manager::x_icon(const std::string &amp;name) const ']]],
   ['x_5ficon_5f',['x_icon_',['../d3/ddf/classnana_1_1place__parts_1_1dockcaption__dtrigger.html#a755aad0d7464f25e513a81d857e162b6',1,'nana::place_parts::dockcaption_dtrigger']]],
-  ['x_5foffset',['x_offset',['../d6/d3e/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1scroll__part.html#aabf49cb20c471b9e8ac31ebd5600270c',1,'nana::drawerbase::listbox::essence::scroll_part']]],
   ['x_5fpointed_5f',['x_pointed_',['../d3/ddf/classnana_1_1place__parts_1_1dockcaption__dtrigger.html#adc98830cf38ec0a01f1b944f3ba6a69a',1,'nana::place_parts::dockcaption_dtrigger']]],
   ['x_5fref',['x_ref',['../d3/d59/classnana_1_1rectangle__rotator.html#a1463bb8ba87bc0339b02244234556cbb',1,'nana::rectangle_rotator']]],
   ['x_5fstate_5f',['x_state_',['../d3/ddf/classnana_1_1place__parts_1_1dockcaption__dtrigger.html#a5e973e8bccb37538d61ad4989b6b8fd5',1,'nana::place_parts::dockcaption_dtrigger']]],

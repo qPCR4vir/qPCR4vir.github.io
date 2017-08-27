@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('d1/d90/example_menu_8cpp-example.html'
 <div class="line"></div>
 <div class="line">        ;<span class="comment">//We need a menu object</span></div>
 <div class="line">        <a name="_a7"></a><a class="code" href="../../d2/d1a/classnana_1_1menu.html">menu</a> mobj;</div>
-<div class="line">        mobj.<a name="a8"></a><a class="code" href="../../d2/d1a/classnana_1_1menu.html#a78393f2474ce1b06abc142956f3c2572">append</a> ( <span class="stringliteral">&quot;Item 0&quot;</span>, &amp;on_menu_item);</div>
+<div class="line">        mobj.<a name="a8"></a><a class="code" href="../../d2/d1a/classnana_1_1menu.html#a8a58e7b6de33abcd3f51534b510aabe8">append</a> ( <span class="stringliteral">&quot;Item 0&quot;</span>, &amp;on_menu_item);</div>
 <div class="line">        mobj.append_splitter();</div>
 <div class="line">        mobj.append ( <span class="stringliteral">&quot;Item 1&quot;</span>, &amp;on_menu_item);</div>
 <div class="line"></div>
@@ -135,7 +135,14 @@ $(document).ready(function(){initNavTree('d1/d90/example_menu_8cpp-example.html'
 <div class="line">        btn.events().mouse_down( <a name="a13"></a><a class="code" href="../../d2/d76/namespacenana.html#aec6c8a2c2f45d76f0533ff4b7fb72a5e">menu_popuper</a>( mobj, btn, <a class="code" href="../../de/da3/structnana_1_1basic__point.html">nana::point</a>(100, 36),   <a name="a14"></a><a class="code" href="../../d2/d76/namespacenana.html#a19ba554a683a93eb1f6ba803c2959c8aa003a8f30ec2c1f46c4d08117d72dc4ff">mouse::any_button</a> ));</div>
 <div class="line"></div>
 <div class="line">        fm.show();</div>
-<div class="line">        <a name="a15"></a><a class="code" href="../../d2/d76/namespacenana.html#a36f8eb51da338977c6af8d711605ce6b">exec</a>( 1, 2, [&amp;btn]() {<a name="a16"></a><a class="code" href="../../d2/d76/namespacenana.html#a3f42920f283b0835d457749e899b3879">click</a>(btn); });</div>
+<div class="line">        <a name="a15"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(</div>
+<div class="line"></div>
+<div class="line">#ifdef NANA_AUTOMATIC_GUI_TESTING</div>
+<div class="line"></div>
+<div class="line">                1, 2, [&amp;btn]() {<a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>(btn); }</div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="preprocessor"></span></div>
+<div class="line">        );</div>
 <div class="line">}</div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->

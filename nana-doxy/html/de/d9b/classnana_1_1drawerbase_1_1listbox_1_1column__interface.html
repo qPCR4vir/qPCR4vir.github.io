@@ -139,6 +139,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a70ec73d39224e7896c2d101ec6a01bb7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9b/classnana_1_1drawerbase_1_1listbox_1_1column__interface.html#a70ec73d39224e7896c2d101ec6a01bb7">width</a> (unsigned minimum, unsigned maximum)=0</td></tr>
 <tr class="memdesc:a70ec73d39224e7896c2d101ec6a01bb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Automatically adjusted width.  <a href="#a70ec73d39224e7896c2d101ec6a01bb7">More...</a><br/></td></tr>
 <tr class="separator:a70ec73d39224e7896c2d101ec6a01bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac27532793e47b3c9d691ee4ef60d1cfa"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d7/d3b/namespacenana_1_1drawerbase_1_1listbox.html#a2ee4f137e570b088e08066f96d287198">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9b/classnana_1_1drawerbase_1_1listbox_1_1column__interface.html#ac27532793e47b3c9d691ee4ef60d1cfa">position</a> (bool disp_order) const noexcept=0</td></tr>
+<tr class="memdesc:ac27532793e47b3c9d691ee4ef60d1cfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the position of the column.  <a href="#ac27532793e47b3c9d691ee4ef60d1cfa">More...</a><br/></td></tr>
+<tr class="separator:ac27532793e47b3c9d691ee4ef60d1cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85a9f02e1e14dd3403b7dc0a941fa232"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9b/classnana_1_1drawerbase_1_1listbox_1_1column__interface.html#a85a9f02e1e14dd3403b7dc0a941fa232">text</a> () const noexcept=0</td></tr>
+<tr class="memdesc:a85a9f02e1e14dd3403b7dc0a941fa232"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the caption of column.  <a href="#a85a9f02e1e14dd3403b7dc0a941fa232">More...</a><br/></td></tr>
+<tr class="separator:a85a9f02e1e14dd3403b7dc0a941fa232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4ae713c97a9feb6ddc746084a404837"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9b/classnana_1_1drawerbase_1_1listbox_1_1column__interface.html#ab4ae713c97a9feb6ddc746084a404837">text</a> (<a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> text_utf8)=0</td></tr>
+<tr class="memdesc:ab4ae713c97a9feb6ddc746084a404837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the caption of column.  <a href="#ab4ae713c97a9feb6ddc746084a404837">More...</a><br/></td></tr>
+<tr class="separator:ab4ae713c97a9feb6ddc746084a404837"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbf8791ef1e388bbcbf4f227c3861dcd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9b/classnana_1_1drawerbase_1_1listbox_1_1column__interface.html#acbf8791ef1e388bbcbf4f227c3861dcd">text_align</a> (::<a class="el" href="../../d2/d76/namespacenana.html#ad3d2f08c451a6752b3f7d53e0f863087">nana::align</a> <a class="el" href="../../d2/d76/namespacenana.html#ad3d2f08c451a6752b3f7d53e0f863087">align</a>) noexcept=0</td></tr>
 <tr class="memdesc:acbf8791ef1e388bbcbf4f227c3861dcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets alignment of column text.  <a href="#acbf8791ef1e388bbcbf4f227c3861dcd">More...</a><br/></td></tr>
 <tr class="separator:acbf8791ef1e388bbcbf4f227c3861dcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,6 +222,102 @@ Public Member Functions</h2></td></tr>
 </dl>
 
 <p>Implemented in <a class="el" href="../../d6/d67/structnana_1_1drawerbase_1_1listbox_1_1es__header_1_1column.html#a188161b0b58ca4255fec40024b86645f">nana::drawerbase::listbox::es_header::column</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac27532793e47b3c9d691ee4ef60d1cfa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../d7/d3b/namespacenana_1_1drawerbase_1_1listbox.html#a2ee4f137e570b088e08066f96d287198">size_type</a> nana::drawerbase::listbox::column_interface::position </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>disp_order</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the position of the column. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">disp_order</td><td>Indicates whether the display position or absolute position to be returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the position of the column. </dd></dl>
+
+<p>Implemented in <a class="el" href="../../d6/d67/structnana_1_1drawerbase_1_1listbox_1_1es__header_1_1column.html#af15792832c08d176047a3994e6db7242">nana::drawerbase::listbox::es_header::column</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a85a9f02e1e14dd3403b7dc0a941fa232"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> nana::drawerbase::listbox::column_interface::text </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the caption of column. </p>
+
+<p>Implemented in <a class="el" href="../../d6/d67/structnana_1_1drawerbase_1_1listbox_1_1es__header_1_1column.html#ae8fc6a33e61f55872027526c37690566">nana::drawerbase::listbox::es_header::column</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab4ae713c97a9feb6ddc746084a404837"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void nana::drawerbase::listbox::column_interface::text </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td>
+          <td class="paramname"><em>text_utf8</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the caption of column. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text_utf8</td><td>A UTF-8 string for the caption. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="../../d6/d67/structnana_1_1drawerbase_1_1listbox_1_1es__header_1_1column.html#ad60149d9858f6f3335eddec8b103df9f">nana::drawerbase::listbox::es_header::column</a>.</p>
 
 </div>
 </div>
@@ -414,7 +519,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="../../d6/d67/structnana_1_1drawerbase_1_1listbox_1_1es__header_1_1column.html#af70fbb47af7a154789a34306737c0635">nana::drawerbase::listbox::es_header::column</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/d67/structnana_1_1drawerbase_1_1listbox_1_1es__header_1_1column.html#a2e7476c6823f47f86c253a882f70ba09">nana::drawerbase::listbox::es_header::column</a>.</p>
 
 </div>
 </div>

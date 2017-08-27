@@ -1,5 +1,6 @@
 var classnana_1_1drawerbase_1_1button_1_1trigger =
 [
+    [ "measurer", "d9/d5b/classnana_1_1drawerbase_1_1button_1_1trigger_1_1measurer.html", "d9/d5b/classnana_1_1drawerbase_1_1button_1_1trigger_1_1measurer" ],
     [ "trigger", "d2/d13/classnana_1_1drawerbase_1_1button_1_1trigger.html#a3b4199eadcd444e710c462f48add08b1", null ],
     [ "~trigger", "d2/d13/classnana_1_1drawerbase_1_1button_1_1trigger.html#ae40125aa87dd9f7c4909d10cf0182d98", null ],
     [ "cite", "d2/d13/classnana_1_1drawerbase_1_1button_1_1trigger.html#a0a72ef7766386a6f077d9ce562c80f34", null ],

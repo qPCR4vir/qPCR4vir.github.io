@@ -1,9 +1,11 @@
 var structnana_1_1drawerbase_1_1listbox_1_1category__t =
 [
     [ "container", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#a4d1c6c9b14149fbacfa58a229393b3a0", null ],
-    [ "category_t", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#abfc2ab57f2e82f802b0ed1ff14b327dc", null ],
-    [ "category_t", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#ac251e56f14389c5261e91fb45f644c6b", null ],
-    [ "selected", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#addb0608f90fee797c082c0332b3610d6", null ],
+    [ "category_t", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#a0c1756477a0072d45222e0d0b1468ee2", null ],
+    [ "cells", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#ab3d1b822c76e6a6d2f3480a900aebb60", null ],
+    [ "make_sort_order", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#a31ba00628b9eea575eac270a52ad530f", null ],
+    [ "selected", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#a1aed0812ab55b2290150a69daa55c937", null ],
+    [ "display_number", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#afc0f080518927cdb1e8fcec7bd703204", null ],
     [ "expand", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#a6a80b6172b6d6e1f64e38df15a030221", null ],
     [ "factories", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#a537f778439fca060857e627dd8d1495b", null ],
     [ "indicators", "d9/dbf/structnana_1_1drawerbase_1_1listbox_1_1category__t.html#a7193a3be826dbe1895c6e9ac5cfd1680", null ],

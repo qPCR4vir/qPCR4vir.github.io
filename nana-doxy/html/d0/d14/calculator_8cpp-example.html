@@ -339,17 +339,21 @@ Screenshot of Calculator</div></div>
 <div class="line"></div>
 <div class="line">        <a class="code" href="../../dc/de3/classnana_1_1place.html">place</a>.<a name="a29"></a><a class="code" href="../../dc/de3/classnana_1_1place.html#aec97ac368d0357cb3222b3316f2306ff">collocate</a>();</div>
 <div class="line">        fm.<a name="a30"></a><a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>();</div>
-<div class="line">        <a name="a31"></a><a class="code" href="../../d2/d76/namespacenana.html#a36f8eb51da338977c6af8d711605ce6b">exec</a>( 1, 10, [&amp;bts, &amp;result ]()</div>
+<div class="line">        <a name="a31"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(</div>
+<div class="line"></div>
+<div class="line">#ifdef NANA_AUTOMATIC_GUI_TESTING</div>
+<div class="line">                </div>
+<div class="line">                1, 1, [&amp;bts, &amp;result ]()</div>
 <div class="line">        {</div>
-<div class="line">                <a name="a32"></a><a class="code" href="../../d2/d76/namespacenana.html#a3f42920f283b0835d457749e899b3879">click</a>(*bts[<span class="charliteral">&#39;2&#39;</span>]); <a name="a33"></a><a class="code" href="../../d2/d76/namespacenana.html#a798b90b1406b5004e24a3b2d1f457a8e">Wait</a>( 1);</div>
-<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#a3f42920f283b0835d457749e899b3879">click</a>(*bts[<span class="charliteral">&#39;+&#39;</span>]); <a class="code" href="../../d2/d76/namespacenana.html#a798b90b1406b5004e24a3b2d1f457a8e">Wait</a>( 1);</div>
-<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#a3f42920f283b0835d457749e899b3879">click</a>(*bts[<span class="charliteral">&#39;2&#39;</span>]); <a class="code" href="../../d2/d76/namespacenana.html#a798b90b1406b5004e24a3b2d1f457a8e">Wait</a>( 1);</div>
+<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>(*bts[<span class="charliteral">&#39;2&#39;</span>]); Wait( 1);</div>
+<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>(*bts[<span class="charliteral">&#39;+&#39;</span>]); Wait( 1);</div>
+<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>(*bts[<span class="charliteral">&#39;2&#39;</span>]); Wait( 1);</div>
 <div class="line"></div>
-<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#a3f42920f283b0835d457749e899b3879">click</a>(*bts[<span class="charliteral">&#39;=&#39;</span>]);</div>
+<div class="line">                <a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>(*bts[<span class="charliteral">&#39;=&#39;</span>]);</div>
 <div class="line"></div>
 <div class="line"></div>
-<div class="line">                <a name="_a34"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;The result of 2 + 2 is: &quot;</span> &lt;&lt; result.caption() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line">                <span class="keywordtype">int</span> r=<a name="a35"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/stol.html">std::stoi</a>(result.caption());</div>
+<div class="line">                <a name="_a32"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;The result of 2 + 2 is: &quot;</span> &lt;&lt; result.caption() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line">                <span class="keywordtype">int</span> r=<a name="a33"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/stol.html">std::stoi</a>(result.caption());</div>
 <div class="line"></div>
 <div class="line">                <span class="comment">//char c; std::cin &gt;&gt; c;</span></div>
 <div class="line"></div>
@@ -357,7 +361,10 @@ Screenshot of Calculator</div></div>
 <div class="line">                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/program/exit.html">exit</a>(r?r:1);</div>
 <div class="line">                <span class="comment">//assert(r != 4);</span></div>
 <div class="line">                <span class="comment">//API::exit();</span></div>
-<div class="line">        });</div>
+<div class="line">        }</div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="preprocessor"></span></div>
+<div class="line">        );</div>
 <div class="line">}</div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->

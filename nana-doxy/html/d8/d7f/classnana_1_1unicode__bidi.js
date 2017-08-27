@@ -34,7 +34,7 @@ var classnana_1_1unicode__bidi =
       [ "right_to_left", "d8/d7f/classnana_1_1unicode__bidi.html#a308c88692fd887e78e0a1b7c03f9daaea74ecbc5c277e2952aac1ac167699d74c", null ],
       [ "left_to_right", "d8/d7f/classnana_1_1unicode__bidi.html#a308c88692fd887e78e0a1b7c03f9daaea1f8f6a66881ca551a945cf0ab4765dc1", null ]
     ] ],
-    [ "linestr", "d8/d7f/classnana_1_1unicode__bidi.html#a1656ac6788815234eb761e5e2ebacfc9", null ],
+    [ "reorder", "d8/d7f/classnana_1_1unicode__bidi.html#a38fd23244aefffcae0ff1155be73f677", null ],
     [ "LRE", "d8/d7f/classnana_1_1unicode__bidi.html#acf61e79dec5d04ece11d68be96db3566", null ],
     [ "LRM", "d8/d7f/classnana_1_1unicode__bidi.html#ace1b0d42776a0951ed20028923cec4a6", null ],
     [ "LRO", "d8/d7f/classnana_1_1unicode__bidi.html#a8091b4a4b55a235e359644ceb8b00b97", null ],

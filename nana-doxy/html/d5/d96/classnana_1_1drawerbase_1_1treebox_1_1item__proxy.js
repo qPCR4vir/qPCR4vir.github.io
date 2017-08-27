@@ -9,6 +9,7 @@ var classnana_1_1drawerbase_1_1treebox_1_1item__proxy =
     [ "check", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#af9cf4f4afaef562af17bfc4430e83ff2", null ],
     [ "checked", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a7c5e8ff63e777f4e6aab8667aef95689", null ],
     [ "child", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a490ad2e4aaa40fbbf0315e049ceb5937", null ],
+    [ "clear", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a7b0e052e6b614ad78bbe7dbc20c090de", null ],
     [ "empty", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a510a3c6322ac8ab2612c6f7654881524", null ],
     [ "end", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a83cc6be4e4ee55593cd9f8644d40ade1", null ],
     [ "expand", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#aa6682a85ea776e06c16b0a75fb7ae61f", null ],

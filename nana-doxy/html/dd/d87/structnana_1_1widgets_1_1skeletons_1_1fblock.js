@@ -6,7 +6,7 @@ var structnana_1_1widgets_1_1skeletons_1_1fblock =
     [ "bold_empty", "dd/d87/structnana_1_1widgets_1_1skeletons_1_1fblock.html#a3686c81372d9d7adec547679bbf03521", null ],
     [ "fgcolor", "dd/d87/structnana_1_1widgets_1_1skeletons_1_1fblock.html#ae53cb0b40f2ee0ba6a30d80cbacf28fc", null ],
     [ "font", "dd/d87/structnana_1_1widgets_1_1skeletons_1_1fblock.html#a2236e36ee730c70d0ac9ef0312262f67", null ],
-    [ "font_size", "dd/d87/structnana_1_1widgets_1_1skeletons_1_1fblock.html#a27795a6d215ce17530457863c7c1111f", null ],
+    [ "font_size", "dd/d87/structnana_1_1widgets_1_1skeletons_1_1fblock.html#a1274aa23e4f4abc7d81adb1ecc62a37f", null ],
     [ "parent", "dd/d87/structnana_1_1widgets_1_1skeletons_1_1fblock.html#a24ed8301d83096653d847d9e32d7433a", null ],
     [ "target", "dd/d87/structnana_1_1widgets_1_1skeletons_1_1fblock.html#a14a5fc12b56ecfb72d45f395e0e384ab", null ],
     [ "text_align", "dd/d87/structnana_1_1widgets_1_1skeletons_1_1fblock.html#a0556785656bc61c755f4121aaa0ab30a", null ],

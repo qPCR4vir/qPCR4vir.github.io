@@ -4,6 +4,7 @@ var searchData=
   ['real',['real',['../d8/d09/classnana_1_1place__parts_1_1number__t.html#a37cb37e9944306603fcb5b319adb766ca4bca24304861acde5770fdbe3cc2503b',1,'nana::place_parts::number_t::real()'],['../dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html#a45489e1af036620396e7819c0798f89ea4bca24304861acde5770fdbe3cc2503b',1,'nana::widgets::skeletons::text_editor::real()']]],
   ['red',['red',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98abda9643ac6601722a28f238714274da4',1,'nana::red()'],['../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccdabda9643ac6601722a28f238714274da4',1,'nana::widgets::skeletons::red()']]],
   ['redo',['redo',['../de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea06f5dc82cbf207ec8b4650671dd8e4da',1,'nana::keyboard']]],
+  ['refresh',['refresh',['../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a29de11518d0331b5f9227ecad0b5a1d2a03b62516184fb6ef591f45bd4974b753',1,'nana::widgets::skeletons']]],
   ['refreshed',['refreshed',['../de/d3c/structnana_1_1detail_1_1basic__window.html#a7a7933ada58a4e852c665aaec7c12b94a1472d4aed54bb23f96a1d6370f01410a',1,'nana::detail::basic_window']]],
   ['reparray',['reparray',['../de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a8a3edc1df41b5994964d063de4f2f81a',1,'nana::place_parts::tokenizer']]],
   ['repeated',['repeated',['../de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a810d2233ad75a602c921cea08bca312b',1,'nana::place_parts::tokenizer']]],

@@ -8,7 +8,7 @@ var classnana_1_1widgets_1_1detail_1_1tree__cont =
     [ "advance_if", "d8/d6b/classnana_1_1widgets_1_1detail_1_1tree__cont.html#ab8330930b3da2c26dd666c55df674b89", null ],
     [ "child_size_if", "d8/d6b/classnana_1_1widgets_1_1detail_1_1tree__cont.html#ada1ddb101feebf41ac93f767de093f0f", null ],
     [ "child_size_if", "d8/d6b/classnana_1_1widgets_1_1detail_1_1tree__cont.html#ac8630423275602198e3313391c3a8632", null ],
-    [ "clear", "d8/d6b/classnana_1_1widgets_1_1detail_1_1tree__cont.html#afd7304bbea70a84fb12c1e605f8e5907", null ],
+    [ "clear", "d8/d6b/classnana_1_1widgets_1_1detail_1_1tree__cont.html#a684e691aa5f5e98d3964ca93c8636392", null ],
     [ "distance_if", "d8/d6b/classnana_1_1widgets_1_1detail_1_1tree__cont.html#a0525a905016dcffa5aed8e46374e4eac", null ],
     [ "find", "d8/d6b/classnana_1_1widgets_1_1detail_1_1tree__cont.html#a01dfa8c2eefdcc4b599a37eba9435f41", null ],
     [ "for_each", "d8/d6b/classnana_1_1widgets_1_1detail_1_1tree__cont.html#af2ce5722e4c9a85ae8cf7a00f29fa4b2", null ],

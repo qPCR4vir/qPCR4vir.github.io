@@ -121,7 +121,9 @@ $(document).ready(function(){initNavTree('dc/d0c/structnana_1_1drawerbase_1_1lis
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3e/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1scroll__part.html">scroll_part</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d3c/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1mouse__selection__part.html">mouse_selection_part</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9c/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1pred__mouse__selection.html">pred_mouse_selection</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -136,10 +138,14 @@ Public Types</h2></td></tr>
 <br/>
  }</td></tr>
 <tr class="separator:ae4c11c9e585708c50fe3b884c3d687a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83d543213092a5cc549a5275b01709ee"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a83d543213092a5cc549a5275b01709ee">parts</a> { <a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a83d543213092a5cc549a5275b01709eeaad921d60486366258809553a3db49a4a">parts::unknown</a> = -1, 
+<tr class="memitem:a83d543213092a5cc549a5275b01709ee"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a83d543213092a5cc549a5275b01709ee">parts</a> { <br/>
+&#160;&#160;<a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a83d543213092a5cc549a5275b01709eeaad921d60486366258809553a3db49a4a">parts::unknown</a> = -1, 
 <a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a83d543213092a5cc549a5275b01709eea099fb995346f31c749f6e40db0f395e3">parts::header</a>, 
-<a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a83d543213092a5cc549a5275b01709eeafe35ce4b4d3b3b45f19df6b7b0669fd9">parts::lister</a>, 
-<a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a83d543213092a5cc549a5275b01709eea9bcf0edc75944b260de8279d7a6d8174">parts::checker</a>
+<a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a83d543213092a5cc549a5275b01709eea10ae9fc7d453b0dd525d0edf2ede7961">parts::list</a>, 
+<a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a83d543213092a5cc549a5275b01709eea2181192eb5684195a2ca93efbea5a8b3">parts::list_blank</a>, 
+<br/>
+&#160;&#160;<a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a83d543213092a5cc549a5275b01709eea9bcf0edc75944b260de8279d7a6d8174">parts::checker</a>
+<br/>
  }</td></tr>
 <tr class="separator:a83d543213092a5cc549a5275b01709ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -147,53 +153,58 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a37285ff039603381dccd8b930d33a714"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a37285ff039603381dccd8b930d33a714">essence</a> ()</td></tr>
 <tr class="separator:a37285ff039603381dccd8b930d33a714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7d6f1003ce2beec4ed8eb824a2698b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ad7d6f1003ce2beec4ed8eb824a2698b9">resize_disp_area</a> ()</td></tr>
+<tr class="separator:ad7d6f1003ce2beec4ed8eb824a2698b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5de34ca1514fc7a7084df4a62c24ff84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d3b/namespacenana_1_1drawerbase_1_1listbox.html#a2ee4f137e570b088e08066f96d287198">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a5de34ca1514fc7a7084df4a62c24ff84">column_from_pos</a> (int screen_x) const </td></tr>
+<tr class="separator:a5de34ca1514fc7a7084df4a62c24ff84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d70063f11484ed47695645b29e4de5c"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a4d70063f11484ed47695645b29e4de5c">to_string</a> (const <a class="el" href="../../d3/dfa/structnana_1_1drawerbase_1_1listbox_1_1export__options.html">export_options</a> &amp;exp_opt) const </td></tr>
 <tr class="separator:a4d70063f11484ed47695645b29e4de5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab234cda3f351161174a1044dc9fcef5c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ab234cda3f351161174a1044dc9fcef5c">scroll_y_abs</a> () const </td></tr>
-<tr class="separator:ab234cda3f351161174a1044dc9fcef5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a234a0b69769a2c35acaf2b7a6f023589"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a234a0b69769a2c35acaf2b7a6f023589">scroll_y_dpl</a> () const </td></tr>
-<tr class="separator:a234a0b69769a2c35acaf2b7a6f023589"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdbc67fd91009dfd3cdb5177f6632956"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#abdbc67fd91009dfd3cdb5177f6632956">scroll_y_dpl_refresh</a> ()</td></tr>
-<tr class="separator:abdbc67fd91009dfd3cdb5177f6632956"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a729af0ba6ea51944d096a3f1d4ef6b4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a729af0ba6ea51944d096a3f1d4ef6b4d">scroll_y_abs</a> (const <a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a> &amp;pos_abs)</td></tr>
-<tr class="separator:a729af0ba6ea51944d096a3f1d4ef6b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36a8baa186783c4c95c633e8c57fbf1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a36a8baa186783c4c95c633e8c57fbf1c">set_scroll_y_dpl</a> (<a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a> pos_dpl)</td></tr>
-<tr class="memdesc:a36a8baa186783c4c95c633e8c57fbf1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">directly set a tested relative display pos  <a href="#a36a8baa186783c4c95c633e8c57fbf1c">More...</a><br/></td></tr>
-<tr class="separator:a36a8baa186783c4c95c633e8c57fbf1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03921ea67eedb994b1ae35e47644ff0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d3b/namespacenana_1_1drawerbase_1_1listbox.html#a2ee4f137e570b088e08066f96d287198">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a03921ea67eedb994b1ae35e47644ff0c">number_of_lister_items</a> (bool with_rest) const </td></tr>
-<tr class="memdesc:a03921ea67eedb994b1ae35e47644ff0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of items that are contained on screen.  <a href="#a03921ea67eedb994b1ae35e47644ff0c">More...</a><br/></td></tr>
-<tr class="separator:a03921ea67eedb994b1ae35e47644ff0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeaa22cc63f02b28f0f189adb638ba529"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#aeaa22cc63f02b28f0f189adb638ba529">trace_item_dpl</a> (<a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a> dpl_pos)</td></tr>
-<tr class="separator:aeaa22cc63f02b28f0f189adb638ba529"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a011a08fdb61e14e22c0ae6ed0bd70dd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a011a08fdb61e14e22c0ae6ed0bd70dd0">trace_last_selected_item</a> ()</td></tr>
-<tr class="separator:a011a08fdb61e14e22c0ae6ed0bd70dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb44afe1f21ca9da894a80b61025c2da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#acb44afe1f21ca9da894a80b61025c2da">update</a> ()</td></tr>
-<tr class="separator:acb44afe1f21ca9da894a80b61025c2da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09fc3510502b9513e2b550788d480162"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a09fc3510502b9513e2b550788d480162">adjust_scroll_value</a> ()</td></tr>
-<tr class="separator:a09fc3510502b9513e2b550788d480162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42a4f16036a0cfa2ec3b92af056d9a61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a42a4f16036a0cfa2ec3b92af056d9a61">adjust_scroll_life</a> ()</td></tr>
-<tr class="separator:a42a4f16036a0cfa2ec3b92af056d9a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77151af58e3d29c4f5d39ed41ca6148c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a77151af58e3d29c4f5d39ed41ca6148c">set_auto_draw</a> (bool ad)</td></tr>
-<tr class="separator:a77151af58e3d29c4f5d39ed41ca6148c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05f539857ae705663b1f008d1dab7c08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a05f539857ae705663b1f008d1dab7c08">checkarea</a> (int x, int y) const </td></tr>
-<tr class="memdesc:a05f539857ae705663b1f008d1dab7c08"><td class="mdescLeft">&#160;</td><td class="mdescRight">move to scheme ?? 16 ?  <a href="#a05f539857ae705663b1f008d1dab7c08">More...</a><br/></td></tr>
-<tr class="separator:a05f539857ae705663b1f008d1dab7c08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd3255892eb0bbcd62210424cdeb054d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#afd3255892eb0bbcd62210424cdeb054d">content_position</a> (const <a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a> &amp;pos) const </td></tr>
+<tr class="separator:afd3255892eb0bbcd62210424cdeb054d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a640aab17d82ea233d8213790e541b76a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a640aab17d82ea233d8213790e541b76a">first_display</a> () const noexcept</td></tr>
+<tr class="separator:a640aab17d82ea233d8213790e541b76a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a292a06a47b529bb1783420d767053ea2"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a292a06a47b529bb1783420d767053ea2">item_height</a> () const noexcept</td></tr>
+<tr class="separator:a292a06a47b529bb1783420d767053ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a2930458f44faf8db0377729d345200"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a3a2930458f44faf8db0377729d345200">coordinate_cast</a> (const <a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">point</a> &amp;from, bool from_screen) noexcept</td></tr>
+<tr class="separator:a3a2930458f44faf8db0377729d345200"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3709b636a5a9f1156268d17e008e5f19"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/pair.html">std::pair</a>&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a3709b636a5a9f1156268d17e008e5f19">columns_range</a> () const </td></tr>
+<tr class="separator:a3709b636a5a9f1156268d17e008e5f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73a5f78b28920ea8d8f9749dc71db205"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a73a5f78b28920ea8d8f9749dc71db205">start_mouse_selection</a> (const <a class="el" href="../../d6/d7c/structnana_1_1arg__mouse.html">arg_mouse</a> &amp;arg)</td></tr>
+<tr class="separator:a73a5f78b28920ea8d8f9749dc71db205"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d1506b1e345d4abb5d276aaec54028a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a7d1506b1e345d4abb5d276aaec54028a">update_mouse_selection</a> (const <a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">point</a> &amp;screen_pos)</td></tr>
+<tr class="separator:a7d1506b1e345d4abb5d276aaec54028a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a2246ab54d66afd4df1fbe6ae6b4861"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a9a2246ab54d66afd4df1fbe6ae6b4861">stop_mouse_selection</a> () noexcept</td></tr>
+<tr class="separator:a9a2246ab54d66afd4df1fbe6ae6b4861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc77e5db75d43f6099e7ad2e728056a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d3b/namespacenana_1_1drawerbase_1_1listbox.html#a2ee4f137e570b088e08066f96d287198">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#abc77e5db75d43f6099e7ad2e728056a1">count_of_exposed</a> (bool with_rest) const </td></tr>
+<tr class="memdesc:abc77e5db75d43f6099e7ad2e728056a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of items that are contained on on screen.  <a href="#abc77e5db75d43f6099e7ad2e728056a1">More...</a><br/></td></tr>
+<tr class="separator:abc77e5db75d43f6099e7ad2e728056a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9336f2196dbca230b71827f6f12e7730"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a9336f2196dbca230b71827f6f12e7730">update</a> (bool ignore_auto_draw=false) noexcept</td></tr>
+<tr class="separator:a9336f2196dbca230b71827f6f12e7730"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b9489f735f41c8252005ee37335d380"><td class="memItemLeft" align="right" valign="top">::<a class="el" href="../../da/df8/structnana_1_1size.html">nana::size</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a4b9489f735f41c8252005ee37335d380">calc_content_size</a> (bool try_update=true)</td></tr>
+<tr class="separator:a4b9489f735f41c8252005ee37335d380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a032157c9d99a4aaf4286461e720f5bc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a032157c9d99a4aaf4286461e720f5bc8">checkarea</a> (int x, int y) const noexcept</td></tr>
+<tr class="memdesc:a032157c9d99a4aaf4286461e720f5bc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">move to scheme ?? 16 ?  <a href="#a032157c9d99a4aaf4286461e720f5bc8">More...</a><br/></td></tr>
+<tr class="separator:a032157c9d99a4aaf4286461e720f5bc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8eabf6257279aa7acc4a29909e18db43"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a8eabf6257279aa7acc4a29909e18db43">item_xpos</a> (const <a class="el" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a> &amp;r) const </td></tr>
 <tr class="separator:a8eabf6257279aa7acc4a29909e18db43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd17f9197b1bc62316d8856de05b4066"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/pair.html">std::pair</a>&lt; <a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a83d543213092a5cc549a5275b01709ee">parts</a>, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#abd17f9197b1bc62316d8856de05b4066">where</a> (int x, int y)</td></tr>
-<tr class="separator:abd17f9197b1bc62316d8856de05b4066"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0190d5bf7958eab56c2ffafe91eefc02"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a0190d5bf7958eab56c2ffafe91eefc02">calc_where</a> (const <a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">point</a> &amp;pos)</td></tr>
-<tr class="separator:a0190d5bf7958eab56c2ffafe91eefc02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0637ecd58f2e216720659690470db38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#af0637ecd58f2e216720659690470db38">widget_to_header</a> (<a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">nana::point</a> &amp;pos)</td></tr>
-<tr class="separator:af0637ecd58f2e216720659690470db38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0268bc233c045a52e750bd3deb1d183"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ae0268bc233c045a52e750bd3deb1d183">rect_header</a> (<a class="el" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a> &amp;r) const </td></tr>
-<tr class="separator:ae0268bc233c045a52e750bd3deb1d183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50292dc7377cbe73b03281f5866548ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a50292dc7377cbe73b03281f5866548ab">item_coordinate</a> (const <a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a> &amp;pos) const </td></tr>
+<tr class="separator:a50292dc7377cbe73b03281f5866548ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a498630f873dc9a8365c203930c3e4b7b"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/pair.html">std::pair</a>&lt; <a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a83d543213092a5cc549a5275b01709ee">parts</a>, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a498630f873dc9a8365c203930c3e4b7b">where</a> (const <a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">nana::point</a> &amp;pos) const noexcept</td></tr>
+<tr class="separator:a498630f873dc9a8365c203930c3e4b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a447aa140fea259a0159353a8f2c147b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a447aa140fea259a0159353a8f2c147b8">calc_where</a> (const <a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">point</a> &amp;pos) noexcept</td></tr>
+<tr class="separator:a447aa140fea259a0159353a8f2c147b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c7618d9c1955d48e0827301978487ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a5c7618d9c1955d48e0827301978487ca">widget_to_header</a> (<a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">nana::point</a> &amp;pos) noexcept</td></tr>
+<tr class="separator:a5c7618d9c1955d48e0827301978487ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a09175e22772ed1d8abad225da1b3cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a0a09175e22772ed1d8abad225da1b3cb">draw_peripheral</a> ()</td></tr>
+<tr class="separator:a0a09175e22772ed1d8abad225da1b3cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ac4c79cc802a2b68f51f59b25a559cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2d/structnana_1_1rectangle.html">rectangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a4ac4c79cc802a2b68f51f59b25a559cc">content_area</a> () const </td></tr>
+<tr class="separator:a4ac4c79cc802a2b68f51f59b25a559cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add73d5b407b56dd188703e6a829f0175"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#add73d5b407b56dd188703e6a829f0175">header_visible_px</a> () const </td></tr>
 <tr class="separator:add73d5b407b56dd188703e6a829f0175"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0268bc233c045a52e750bd3deb1d183"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ae0268bc233c045a52e750bd3deb1d183">rect_header</a> (<a class="el" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a> &amp;r) const </td></tr>
+<tr class="separator:ae0268bc233c045a52e750bd3deb1d183"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bfb506c08b4d33e8d654ec81fe90cd1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a5bfb506c08b4d33e8d654ec81fe90cd1">rect_lister</a> (<a class="el" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a> &amp;r) const </td></tr>
 <tr class="separator:a5bfb506c08b4d33e8d654ec81fe90cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae424c19365f9b122e4088e381430c91"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#aae424c19365f9b122e4088e381430c91">wheel</a> (bool upwards)</td></tr>
-<tr class="separator:aae424c19365f9b122e4088e381430c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6ed994f409371542cf7d6a90a8b12b4"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="el" href="../../d7/d3b/namespacenana_1_1drawerbase_1_1listbox.html#a2ee4f137e570b088e08066f96d287198">size_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ab6ed994f409371542cf7d6a90a8b12b4">header_seq</a> (unsigned lister_w) const </td></tr>
 <tr class="separator:ab6ed994f409371542cf7d6a90a8b12b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adec6dcb6fc41c392f09f4794d4bb4da3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d6a/structnana_1_1drawerbase_1_1listbox_1_1inline__pane.html">inline_pane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#adec6dcb6fc41c392f09f4794d4bb4da3">open_inline</a> (<a class="el" href="../../d0/d7e/classnana_1_1pat_1_1abstract__factory.html">pat::abstract_factory</a>&lt; <a class="el" href="../../d7/d3b/namespacenana_1_1drawerbase_1_1listbox.html#a6b20dec0ce53371749c2b89143432938">inline_notifier_interface</a> &gt; *factory, <a class="el" href="../../db/d09/classnana_1_1drawerbase_1_1listbox_1_1inline__indicator.html">inline_indicator</a> *indicator)</td></tr>
@@ -213,6 +224,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a90612163fa6864f9fd09dc594189f282"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5c4f9a0f7a48ae4cec40b22626739e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#af5c4f9a0f7a48ae4cec40b22626739e8">if_image</a> {false}</td></tr>
 <tr class="separator:af5c4f9a0f7a48ae4cec40b22626739e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a686965535a7c74f06cf843959b6eaf1c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a686965535a7c74f06cf843959b6eaf1c">deselect_deferred</a> { false }</td></tr>
+<tr class="separator:a686965535a7c74f06cf843959b6eaf1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a440adc01b7baf770baf09e6031d932fd"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a440adc01b7baf770baf09e6031d932fd">text_height</a></td></tr>
+<tr class="separator:a440adc01b7baf770baf09e6031d932fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33488c6edded4ab9ee6c04dda8ced58d"><td class="memItemLeft" align="right" valign="top">::<a class="el" href="../../d1/dda/classnana_1_1listbox.html#a9e9120da002d409f9c3a85549b9da0d5">nana::listbox::export_options</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a33488c6edded4ab9ee6c04dda8ced58d">def_exp_options</a></td></tr>
 <tr class="separator:a33488c6edded4ab9ee6c04dda8ced58d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb410c49fcd41d366f0154127f69d484"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d57/classnana_1_1drawerbase_1_1listbox_1_1es__header.html">es_header</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#adb410c49fcd41d366f0154127f69d484">header</a></td></tr>
@@ -223,9 +238,16 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ab391c299c48b6f5e5e32f9b512ff429b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaff5c2261a68049a4978df2e4176ed3e"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/pair.html">std::pair</a>&lt; <a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a83d543213092a5cc549a5275b01709ee">parts</a>, <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#aaff5c2261a68049a4978df2e4176ed3e">pointer_where</a></td></tr>
 <tr class="separator:aaff5c2261a68049a4978df2e4176ed3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5625898072637c3e4a229652b335be21"><td class="memItemLeft" align="right" valign="top">struct <br class="typebreak"/>
-<a class="el" href="../../d6/d3e/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1scroll__part.html">nana::drawerbase::listbox::essence::scroll_part</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a5625898072637c3e4a229652b335be21">scroll</a></td></tr>
-<tr class="separator:a5625898072637c3e4a229652b335be21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab43ec69733be4bc1a6cdabb8576f92a6"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a><br class="typebreak"/>
+&lt; <a class="el" href="../../d7/dd1/classnana_1_1widgets_1_1skeletons_1_1content__view.html">widgets::skeletons::content_view</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ab43ec69733be4bc1a6cdabb8576f92a6">content_view</a></td></tr>
+<tr class="separator:ab43ec69733be4bc1a6cdabb8576f92a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a076718a06d72a6ce3ed3562c02787678"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt; void(<a class="el" href="../../d6/d47/classnana_1_1paint_1_1graphics.html">paint::graphics</a> <br class="typebreak"/>
+&amp;, const <a class="el" href="../../dd/d2d/structnana_1_1rectangle.html">rectangle</a> &amp;, bool)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a076718a06d72a6ce3ed3562c02787678">ctg_icon_renderer</a></td></tr>
+<tr class="memdesc:a076718a06d72a6ce3ed3562c02787678"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renderer for the category icon.  <a href="#a076718a06d72a6ce3ed3562c02787678">More...</a><br/></td></tr>
+<tr class="separator:a076718a06d72a6ce3ed3562c02787678"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa88d81fa900cbd476dc1034faaddb86a"><td class="memItemLeft" align="right" valign="top">struct <br class="typebreak"/>
+<a class="el" href="../../d7/d3c/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1mouse__selection__part.html">nana::drawerbase::listbox::essence::mouse_selection_part</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#aa88d81fa900cbd476dc1034faaddb86a">mouse_selection</a></td></tr>
+<tr class="separator:aa88d81fa900cbd476dc1034faaddb86a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c49a4498b782d4cdfa2457c83d24c1d"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/map.html">std::map</a><br class="typebreak"/>
 &lt; <a class="el" href="../../da/d5c/classnana_1_1pat_1_1detail_1_1abstract__factory__base.html">pat::detail::abstract_factory_base</a> <br class="typebreak"/>
 *, <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/deque.html">std::deque</a>&lt; <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a><br class="typebreak"/>
@@ -294,7 +316,9 @@ Public Attributes</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a83d543213092a5cc549a5275b01709eea099fb995346f31c749f6e40db0f395e3"></a>header</em>&nbsp;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="a83d543213092a5cc549a5275b01709eeafe35ce4b4d3b3b45f19df6b7b0669fd9"></a>lister</em>&nbsp;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="a83d543213092a5cc549a5275b01709eea10ae9fc7d453b0dd525d0edf2ede7961"></a>list</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a83d543213092a5cc549a5275b01709eea2181192eb5684195a2ca93efbea5a8b3"></a>list_blank</em>&nbsp;</td><td class="fielddoc">
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a83d543213092a5cc549a5275b01709eea9bcf0edc75944b260de8279d7a6d8174"></a>checker</em>&nbsp;</td><td class="fielddoc">
 </td></tr>
@@ -327,7 +351,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a42a4f16036a0cfa2ec3b92af056d9a61"></a>
+<a class="anchor" id="a4b9489f735f41c8252005ee37335d380"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -335,9 +359,10 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void nana::drawerbase::listbox::essence::adjust_scroll_life </td>
+          <td class="memname">::<a class="el" href="../../da/df8/structnana_1_1size.html">nana::size</a> nana::drawerbase::listbox::essence::calc_content_size </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>try_update</em> = <code>true</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -350,30 +375,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a09fc3510502b9513e2b550788d480162"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void nana::drawerbase::listbox::essence::adjust_scroll_value </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a0190d5bf7958eab56c2ffafe91eefc02"></a>
+<a class="anchor" id="a447aa140fea259a0159353a8f2c147b8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -390,14 +392,14 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a05f539857ae705663b1f008d1dab7c08"></a>
+<a class="anchor" id="a032157c9d99a4aaf4286461e720f5bc8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -424,12 +426,214 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>move to scheme ?? 16 ? </p>
+
+</div>
+</div>
+<a class="anchor" id="a5de34ca1514fc7a7084df4a62c24ff84"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/d3b/namespacenana_1_1drawerbase_1_1listbox.html#a2ee4f137e570b088e08066f96d287198">size_type</a> nana::drawerbase::listbox::essence::column_from_pos </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>screen_x</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3709b636a5a9f1156268d17e008e5f19"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/pair.html">std::pair</a>&lt;int, int&gt; nana::drawerbase::listbox::essence::columns_range </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4ac4c79cc802a2b68f51f59b25a559cc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d2d/structnana_1_1rectangle.html">rectangle</a> nana::drawerbase::listbox::essence::content_area </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afd3255892eb0bbcd62210424cdeb054d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int nana::drawerbase::listbox::essence::content_position </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3a2930458f44faf8db0377729d345200"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">point</a> nana::drawerbase::listbox::essence::coordinate_cast </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">point</a> &amp;&#160;</td>
+          <td class="paramname"><em>from</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>from_screen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abc77e5db75d43f6099e7ad2e728056a1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/d3b/namespacenana_1_1drawerbase_1_1listbox.html#a2ee4f137e570b088e08066f96d287198">size_type</a> nana::drawerbase::listbox::essence::count_of_exposed </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>with_rest</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of items that are contained on on screen. </p>
+<p>with_rest Indicates whether the extra one item which is not completely contained in rest pixels to be included. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of items </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0a09175e22772ed1d8abad225da1b3cb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nana::drawerbase::listbox::essence::draw_peripheral </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a640aab17d82ea233d8213790e541b76a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a> nana::drawerbase::listbox::essence::first_display </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -480,6 +684,53 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a50292dc7377cbe73b03281f5866548ab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">point</a> nana::drawerbase::listbox::essence::item_coordinate </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a292a06a47b529bb1783420d767053ea2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned nana::drawerbase::listbox::essence::item_height </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a8eabf6257279aa7acc4a29909e18db43"></a>
 <div class="memitem">
 <div class="memproto">
@@ -501,38 +752,6 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a03921ea67eedb994b1ae35e47644ff0c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/d3b/namespacenana_1_1drawerbase_1_1listbox.html#a2ee4f137e570b088e08066f96d287198">size_type</a> nana::drawerbase::listbox::essence::number_of_lister_items </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>with_rest</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the number of items that are contained on screen. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">with_rest,:</td><td>Means whether including extra one item that is not completely contained in reset pixels. </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -618,7 +837,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab234cda3f351161174a1044dc9fcef5c"></a>
+<a class="anchor" id="ad7d6f1003ce2beec4ed8eb824a2698b9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -626,77 +845,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a>&amp; nana::drawerbase::listbox::essence::scroll_y_abs </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a729af0ba6ea51944d096a3f1d4ef6b4d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void nana::drawerbase::listbox::essence::scroll_y_abs </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a> &amp;&#160;</td>
-          <td class="paramname"><em>pos_abs</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a234a0b69769a2c35acaf2b7a6f023589"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a>&amp; nana::drawerbase::listbox::essence::scroll_y_dpl </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="abdbc67fd91009dfd3cdb5177f6632956"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a>&amp; nana::drawerbase::listbox::essence::scroll_y_dpl_refresh </td>
+          <td class="memname">void nana::drawerbase::listbox::essence::resize_disp_area </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -711,7 +860,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a77151af58e3d29c4f5d39ed41ca6148c"></a>
+<a class="anchor" id="a73a5f78b28920ea8d8f9749dc71db205"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -719,10 +868,10 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void nana::drawerbase::listbox::essence::set_auto_draw </td>
+          <td class="memname">void nana::drawerbase::listbox::essence::start_mouse_selection </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>ad</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="../../d6/d7c/structnana_1_1arg__mouse.html">arg_mouse</a> &amp;&#160;</td>
+          <td class="paramname"><em>arg</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -735,7 +884,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a36a8baa186783c4c95c633e8c57fbf1c"></a>
+<a class="anchor" id="a9a2246ab54d66afd4df1fbe6ae6b4861"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -743,21 +892,18 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void nana::drawerbase::listbox::essence::set_scroll_y_dpl </td>
+          <td class="memname">void nana::drawerbase::listbox::essence::stop_mouse_selection </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a>&#160;</td>
-          <td class="paramname"><em>pos_dpl</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>directly set a tested relative display pos </p>
 
 </div>
 </div>
@@ -785,54 +931,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aeaa22cc63f02b28f0f189adb638ba529"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void nana::drawerbase::listbox::essence::trace_item_dpl </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html">index_pair</a>&#160;</td>
-          <td class="paramname"><em>dpl_pos</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a011a08fdb61e14e22c0ae6ed0bd70dd0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void nana::drawerbase::listbox::essence::trace_last_selected_item </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="acb44afe1f21ca9da894a80b61025c2da"></a>
+<a class="anchor" id="a9336f2196dbca230b71827f6f12e7730"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -842,20 +941,21 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">void nana::drawerbase::listbox::essence::update </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ignore_auto_draw</em> = <code>false</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="aae424c19365f9b122e4088e381430c91"></a>
+<a class="anchor" id="a7d1506b1e345d4abb5d276aaec54028a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -863,10 +963,10 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool nana::drawerbase::listbox::essence::wheel </td>
+          <td class="memname">void nana::drawerbase::listbox::essence::update_mouse_selection </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>upwards</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">point</a> &amp;&#160;</td>
+          <td class="paramname"><em>screen_pos</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -879,7 +979,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abd17f9197b1bc62316d8856de05b4066"></a>
+<a class="anchor" id="a498630f873dc9a8365c203930c3e4b7b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -889,24 +989,14 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/pair.html">std::pair</a>&lt;<a class="el" href="../../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a83d543213092a5cc549a5275b01709ee">parts</a>, size_t&gt; nana::drawerbase::listbox::essence::where </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/d76/namespacenana.html#aa7e9212e5b7fb64cf0aa54c37a095283">nana::point</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -915,7 +1005,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af0637ecd58f2e216720659690470db38"></a>
+<a class="anchor" id="a5c7618d9c1955d48e0827301978487ca"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -932,7 +1022,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -964,12 +1054,50 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab43ec69733be4bc1a6cdabb8576f92a6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt;<a class="el" href="../../d7/dd1/classnana_1_1widgets_1_1skeletons_1_1content__view.html">widgets::skeletons::content_view</a>&gt; nana::drawerbase::listbox::essence::content_view</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a076718a06d72a6ce3ed3562c02787678"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt;void(<a class="el" href="../../d6/d47/classnana_1_1paint_1_1graphics.html">paint::graphics</a>&amp;, const <a class="el" href="../../dd/d2d/structnana_1_1rectangle.html">rectangle</a>&amp;, bool)&gt; nana::drawerbase::listbox::essence::ctg_icon_renderer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Renderer for the category icon. </p>
+
+</div>
+</div>
 <a class="anchor" id="a33488c6edded4ab9ee6c04dda8ced58d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">::<a class="el" href="../../d1/dda/classnana_1_1listbox.html#a9e9120da002d409f9c3a85549b9da0d5">nana::listbox::export_options</a> nana::drawerbase::listbox::essence::def_exp_options</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a686965535a7c74f06cf843959b6eaf1c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool nana::drawerbase::listbox::essence::deselect_deferred { false }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1060,6 +1188,18 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aa88d81fa900cbd476dc1034faaddb86a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="../../d7/d3c/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1mouse__selection__part.html">nana::drawerbase::listbox::essence::mouse_selection_part</a> nana::drawerbase::listbox::essence::mouse_selection</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="aaff5c2261a68049a4978df2e4176ed3e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1096,12 +1236,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5625898072637c3e4a229652b335be21"></a>
+<a class="anchor" id="a440adc01b7baf770baf09e6031d932fd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../d6/d3e/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1scroll__part.html">nana::drawerbase::listbox::essence::scroll_part</a> nana::drawerbase::listbox::essence::scroll</td>
+          <td class="memname">unsigned nana::drawerbase::listbox::essence::text_height</td>
         </tr>
       </table>
 </div><div class="memdoc">

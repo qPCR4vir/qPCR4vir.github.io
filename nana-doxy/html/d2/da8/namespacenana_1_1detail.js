@@ -12,6 +12,7 @@ var namespacenana_1_1detail =
     [ "utf8_error_police_system", "dd/d19/structnana_1_1detail_1_1utf8__error__police__system.html", "dd/d19/structnana_1_1detail_1_1utf8__error__police__system" ],
     [ "charset_string", "dd/d75/classnana_1_1detail_1_1charset__string.html", "dd/d75/classnana_1_1detail_1_1charset__string" ],
     [ "charset_wstring", "d2/da0/classnana_1_1detail_1_1charset__wstring.html", "d2/da0/classnana_1_1detail_1_1charset__wstring" ],
+    [ "font_style", "d6/d50/structnana_1_1detail_1_1font__style.html", "d6/d50/structnana_1_1detail_1_1font__style" ],
     [ "native_window_handle_impl", "da/d4d/structnana_1_1detail_1_1native__window__handle__impl.html", null ],
     [ "window_handle_impl", "d2/d87/structnana_1_1detail_1_1window__handle__impl.html", null ],
     [ "event_handle_impl", "d7/dc4/structnana_1_1detail_1_1event__handle__impl.html", null ],
@@ -29,6 +30,7 @@ var namespacenana_1_1detail =
     [ "event_base", "d3/de7/classnana_1_1detail_1_1event__base.html", "d3/de7/classnana_1_1detail_1_1event__base" ],
     [ "events_root_extension", "d9/d7f/structnana_1_1detail_1_1events__root__extension.html", "d9/d7f/structnana_1_1detail_1_1events__root__extension" ],
     [ "events_holder", "d2/d74/classnana_1_1detail_1_1events__holder.html", "d2/d74/classnana_1_1detail_1_1events__holder" ],
+    [ "storage", "d4/dc4/classnana_1_1detail_1_1storage.html", "d4/dc4/classnana_1_1detail_1_1storage" ],
     [ "widget_notifier_interface", "df/d3c/classnana_1_1detail_1_1widget__notifier__interface.html", "df/d3c/classnana_1_1detail_1_1widget__notifier__interface" ],
     [ "element_store", "da/dd4/classnana_1_1detail_1_1element__store.html", "da/dd4/classnana_1_1detail_1_1element__store" ],
     [ "scheme_factory_interface", "d6/d13/classnana_1_1detail_1_1scheme__factory__interface.html", "d6/d13/classnana_1_1detail_1_1scheme__factory__interface" ],
@@ -44,7 +46,7 @@ var namespacenana_1_1detail =
     [ "window_handle_deleter", "dc/d96/structnana_1_1detail_1_1window__handle__deleter.html", "dc/d96/structnana_1_1detail_1_1window__handle__deleter" ],
     [ "thread_refcount", "d5/dbd/structnana_1_1detail_1_1thread__refcount.html", "d5/dbd/structnana_1_1detail_1_1thread__refcount" ],
     [ "cache", "df/d13/classnana_1_1detail_1_1cache.html", "df/d13/classnana_1_1detail_1_1cache" ],
-    [ "handle_manager", "d8/d5e/classnana_1_1detail_1_1handle__manager.html", "d8/d5e/classnana_1_1detail_1_1handle__manager" ],
+    [ "window_register", "dd/d53/classnana_1_1detail_1_1window__register.html", "dd/d53/classnana_1_1detail_1_1window__register" ],
     [ "shortkey_container", "d4/d80/classnana_1_1detail_1_1shortkey__container.html", "d4/d80/classnana_1_1detail_1_1shortkey__container" ],
     [ "root_misc", "d1/d35/structnana_1_1detail_1_1root__misc.html", "d1/d35/structnana_1_1detail_1_1root__misc" ],
     [ "root_register", "d6/d3e/classnana_1_1detail_1_1root__register.html", "d6/d3e/classnana_1_1detail_1_1root__register" ],
@@ -62,9 +64,9 @@ var namespacenana_1_1detail =
     [ "type_escape< wchar_t[Size]>", "d4/d16/structnana_1_1detail_1_1type__escape_3_01wchar__t[_size]_4.html", "d4/d16/structnana_1_1detail_1_1type__escape_3_01wchar__t[_size]_4" ],
     [ "type_escape< const wchar_t[Size]>", "d4/dc3/structnana_1_1detail_1_1type__escape_3_01const_01wchar__t[_size]_4.html", "d4/dc3/structnana_1_1detail_1_1type__escape_3_01const_01wchar__t[_size]_4" ],
     [ "popuper", "d2/d98/classnana_1_1detail_1_1popuper.html", "d2/d98/classnana_1_1detail_1_1popuper" ],
-    [ "msg_packet_tag", "d4/d00/structnana_1_1detail_1_1msg__packet__tag.html", "d4/d00/structnana_1_1detail_1_1msg__packet__tag" ],
     [ "inline_widget_indicator", "d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html", "d9/d93/classnana_1_1detail_1_1inline__widget__indicator" ],
     [ "inline_widget_notifier_interface", "d5/d56/classnana_1_1detail_1_1inline__widget__notifier__interface.html", "d5/d56/classnana_1_1detail_1_1inline__widget__notifier__interface" ],
     [ "inline_widget_manager", "d4/d27/classnana_1_1detail_1_1inline__widget__manager.html", "d4/d27/classnana_1_1detail_1_1inline__widget__manager" ],
-    [ "msg_dispatcher", "d3/d5f/classnana_1_1detail_1_1msg__dispatcher.html", "d3/d5f/classnana_1_1detail_1_1msg__dispatcher" ]
+    [ "msg_dispatcher", "d3/d5f/classnana_1_1detail_1_1msg__dispatcher.html", "d3/d5f/classnana_1_1detail_1_1msg__dispatcher" ],
+    [ "msg_packet_tag", "d4/d00/structnana_1_1detail_1_1msg__packet__tag.html", "d4/d00/structnana_1_1detail_1_1msg__packet__tag" ]
 ];

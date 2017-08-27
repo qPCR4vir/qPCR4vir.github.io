@@ -144,8 +144,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aac5137542cfae8d5156d9fc4640f9821"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#aac5137542cfae8d5156d9fc4640f9821">~renderer_interface</a> ()=default</td></tr>
 <tr class="separator:aac5137542cfae8d5156d9fc4640f9821"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc975187ddad13370ad11cdeb5041ec9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#adc975187ddad13370ad11cdeb5041ec9">set_color</a> (const <a class="el" href="../../dd/d1e/classnana_1_1color.html">nana::color</a> &amp;bgcolor, const <a class="el" href="../../dd/d1e/classnana_1_1color.html">nana::color</a> &amp;fgcolor)=0</td></tr>
-<tr class="separator:adc975187ddad13370ad11cdeb5041ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9d2a4bf87d55b55e8bedae85cad8327"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#ad9d2a4bf87d55b55e8bedae85cad8327">begin_paint</a> (::<a class="el" href="../../d9/dd8/classnana_1_1widget.html">nana::widget</a> &amp;)=0</td></tr>
+<tr class="separator:ad9d2a4bf87d55b55e8bedae85cad8327"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9054b10f886bd3a0eaab85763a35402"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#ac9054b10f886bd3a0eaab85763a35402">bground</a> (<a class="el" href="../../dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#ad3bcf43aa1b61b581c8f62e28a636832">graph_reference</a>, const <a class="el" href="../../dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#a2b9a3a23542a0db3d5013ab67dd56293">compset_interface</a> *) const =0</td></tr>
 <tr class="separator:ac9054b10f886bd3a0eaab85763a35402"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58831856665af6b4be7daf3ba409df18"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#a58831856665af6b4be7daf3ba409df18">expander</a> (<a class="el" href="../../dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#ad3bcf43aa1b61b581c8f62e28a636832">graph_reference</a>, const <a class="el" href="../../dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#a2b9a3a23542a0db3d5013ab67dd56293">compset_interface</a> *) const =0</td></tr>
@@ -243,6 +243,30 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ad9d2a4bf87d55b55e8bedae85cad8327"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void nana::drawerbase::treebox::renderer_interface::begin_paint </td>
+          <td>(</td>
+          <td class="paramtype">::<a class="el" href="../../d9/dd8/classnana_1_1widget.html">nana::widget</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ac9054b10f886bd3a0eaab85763a35402"></a>
 <div class="memitem">
 <div class="memproto">
@@ -368,40 +392,6 @@ Public Member Functions</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="adc975187ddad13370ad11cdeb5041ec9"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void nana::drawerbase::treebox::renderer_interface::set_color </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dd/d1e/classnana_1_1color.html">nana::color</a> &amp;&#160;</td>
-          <td class="paramname"><em>bgcolor</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../dd/d1e/classnana_1_1color.html">nana::color</a> &amp;&#160;</td>
-          <td class="paramname"><em>fgcolor</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>

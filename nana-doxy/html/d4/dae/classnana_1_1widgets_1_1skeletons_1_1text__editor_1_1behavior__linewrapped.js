@@ -1,17 +1,13 @@
 var classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped =
 [
-    [ "row_coordinate", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#afafd09490ce780f81675df1ac37ba0dc", null ],
     [ "behavior_linewrapped", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a3c79313dde1ebcc77841ebba7eafec8d", null ],
     [ "add_lines", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a86cf6ac66dc7c6aa308c159a5d5962be", null ],
-    [ "adjust_caret_into_screen", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a6e1b0f8ce52816a2a8af090ac17aac24", null ],
-    [ "caret_to_screen", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a6ad4440b5040b79d3523cb47f636abe5", null ],
+    [ "line", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a6017375dfaa0f7df1a099a97112ffad0", null ],
+    [ "max_pixels", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a8ba9cb28bde352d05beff49ea8e3c061", null ],
     [ "merge_lines", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#ae57847a4329f7dfe527258710e3261ab", null ],
-    [ "move_caret_ns", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#ab5161ddcc21d3827e6bc55a8e33a8f98", null ],
     [ "pre_calc_line", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#acba81ac942b98fd184040a2c0eebaaf4", null ],
     [ "pre_calc_lines", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a62e1c10d5d9bb95c9e4e33e4db01e626", null ],
-    [ "render", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a5baf583bbb0d05b019e7a2ddf63d06d5", null ],
-    [ "screen_to_caret", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a4bedc0003e9b6b67e29a6fb0325745cc", null ],
     [ "take_lines", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a1b545f1ae77b05ebae3563f12c5a2b5e", null ],
     [ "take_lines", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a2c0834f7ea104904f1da94c7bc8d018f", null ],
-    [ "update_line", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#aa89852f975dbbfc4ac1bd29eb5c5953e", null ]
+    [ "text_position_from_screen", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a913027ca1a879cf375bfc2da99f9fcc1", null ]
 ];

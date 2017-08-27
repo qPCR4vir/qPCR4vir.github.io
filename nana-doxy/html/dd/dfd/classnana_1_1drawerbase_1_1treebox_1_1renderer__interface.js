@@ -6,10 +6,10 @@ var classnana_1_1drawerbase_1_1treebox_1_1renderer__interface =
     [ "graph_reference", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#ad3bcf43aa1b61b581c8f62e28a636832", null ],
     [ "item_attribute_t", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#a4fbb30704baff8277757c41e0366a240", null ],
     [ "~renderer_interface", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#aac5137542cfae8d5156d9fc4640f9821", null ],
+    [ "begin_paint", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#ad9d2a4bf87d55b55e8bedae85cad8327", null ],
     [ "bground", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#ac9054b10f886bd3a0eaab85763a35402", null ],
     [ "crook", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#aecece06fa021f05998ef3575da4d5dc4", null ],
     [ "expander", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#a58831856665af6b4be7daf3ba409df18", null ],
     [ "icon", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#a59d4c9f68890d485da0cf163865588da", null ],
-    [ "set_color", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#adc975187ddad13370ad11cdeb5041ec9", null ],
     [ "text", "dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#ae9864e387688f6f1d5a188288f117ec2", null ]
 ];

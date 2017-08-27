@@ -34,7 +34,6 @@ var classnana_1_1drawerbase_1_1combox_1_1drawer__impl =
     [ "scroll_items", "dd/d1d/classnana_1_1drawerbase_1_1combox_1_1drawer__impl.html#a14cf27697ce260a0a24de4e48a8f8b53", null ],
     [ "set_button_state", "dd/d1d/classnana_1_1drawerbase_1_1combox_1_1drawer__impl.html#ae47ac2ed787af695096fc07737f1b270", null ],
     [ "set_focused", "dd/d1d/classnana_1_1drawerbase_1_1combox_1_1drawer__impl.html#a544d2100f41958ac3bb2c1860f999ca1", null ],
-    [ "text_area", "dd/d1d/classnana_1_1drawerbase_1_1combox_1_1drawer__impl.html#a9cf330916de3e021f098e1993657dbab", null ],
     [ "the_number_of_options", "dd/d1d/classnana_1_1drawerbase_1_1combox_1_1drawer__impl.html#a5345f1ee7a48ff8b7bd56e4cd7b9fc7c", null ],
     [ "widget_ptr", "dd/d1d/classnana_1_1drawerbase_1_1combox_1_1drawer__impl.html#aef8eefc9a621f7519df11ade721bc2c6", null ]
 ];

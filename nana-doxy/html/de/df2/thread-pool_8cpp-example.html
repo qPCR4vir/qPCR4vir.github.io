@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('de/df2/thread-pool_8cpp-example.html',
 <div class="line"></div>
 <div class="line"><span class="keywordtype">void</span> foo2()</div>
 <div class="line">{</div>
-<div class="line">    <a name="a2"></a><a class="code" href="../../d4/dfd/namespacenana_1_1system.html#a3123b041593ab0baed2c9ad8db97589d">nana:: system::sleep</a>(1000);</div>
+<div class="line">    <a name="a2"></a><a class="code" href="../../d4/dfd/namespacenana_1_1system.html#a3123b041593ab0baed2c9ad8db97589d">nana:: system::sleep</a>(500);</div>
 <div class="line">    <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a>&lt;&lt;<span class="stringliteral">&quot;This is foo2&quot;</span>&lt;&lt;<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
 <div class="line">}</div>
 <div class="line"></div>
@@ -130,7 +130,7 @@ $(document).ready(function(){initNavTree('de/df2/thread-pool_8cpp-example.html',
 <div class="line">    pool.<a name="a6"></a><a class="code" href="../../d5/da5/classnana_1_1threads_1_1pool.html#a6ad4361e0b4e6718310dfc987ed067db">wait_for_signal</a>(); <span class="comment">//Wait until the signal is triggered. The wait might be finished</span></div>
 <div class="line">                            <span class="comment">//before finish of foo2, because the signal is made before pushing foo2.</span></div>
 <div class="line"></div>
-<div class="line">        <a name="a7"></a><a class="code" href="../../d2/d76/namespacenana.html#a798b90b1406b5004e24a3b2d1f457a8e">nana::Wait</a>(3);</div>
+<div class="line">        nana::Wait(1);</div>
 <div class="line"></div>
 <div class="line">}</div>
 <div class="line"></div>

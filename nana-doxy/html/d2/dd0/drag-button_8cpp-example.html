@@ -118,7 +118,14 @@ $(document).ready(function(){initNavTree('d2/dd0/drag-button_8cpp-example.html',
 <div class="line">    dg.target(btn);   <span class="comment">//move the btn</span></div>
 <div class="line"></div>
 <div class="line">    fm.show();</div>
-<div class="line">        <a name="a6"></a><a class="code" href="../../d2/d76/namespacenana.html#a36f8eb51da338977c6af8d711605ce6b">exec</a>(2, 3, [&amp;btn]() {<a name="a7"></a><a class="code" href="../../d2/d76/namespacenana.html#a3f42920f283b0835d457749e899b3879">click</a>(btn); });</div>
+<div class="line">        <a name="a6"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(</div>
+<div class="line"></div>
+<div class="line">#ifdef NANA_AUTOMATIC_GUI_TESTING</div>
+<div class="line"></div>
+<div class="line">                1, 1, [&amp;btn]() {<a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>(btn); }</div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="preprocessor"></span></div>
+<div class="line">        );</div>
 <div class="line">}</div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->

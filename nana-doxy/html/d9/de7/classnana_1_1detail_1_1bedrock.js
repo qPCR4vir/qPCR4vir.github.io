@@ -5,6 +5,7 @@ var classnana_1_1detail_1_1bedrock =
     [ "core_window_t", "d9/de7/classnana_1_1detail_1_1bedrock.html#a0354689dd8cfd387e51fe7208524ba3f", null ],
     [ "~bedrock", "d9/de7/classnana_1_1detail_1_1bedrock.html#ae37d455f89227f07fe128ffe159b38bb", null ],
     [ "close_menu_if_focus_other_window", "d9/de7/classnana_1_1detail_1_1bedrock.html#a8701c8bb865b71525196fe49045c11ea", null ],
+    [ "close_thread_window", "d9/de7/classnana_1_1detail_1_1bedrock.html#a2cbb071b4263eba4dda68ddd7a87af20", null ],
     [ "define_state_cursor", "d9/de7/classnana_1_1detail_1_1bedrock.html#a4311ee47c0eefa93ee8ac3d68cd8691f", null ],
     [ "delay_restore", "d9/de7/classnana_1_1detail_1_1bedrock.html#a2870a0b65d65f8990734cc7bd682219b", null ],
     [ "emit", "d9/de7/classnana_1_1detail_1_1bedrock.html#adae78fdb8f746aba4a1322612c2711c2", null ],
