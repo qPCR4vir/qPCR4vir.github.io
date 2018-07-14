@@ -47,6 +47,7 @@ var namespacenana =
     [ "frameset", "dc/d2f/classnana_1_1frameset.html", "dc/d2f/classnana_1_1frameset" ],
     [ "animation", "dd/d57/classnana_1_1animation.html", "dd/d57/classnana_1_1animation" ],
     [ "drawing", "d9/d46/classnana_1_1drawing.html", "d9/d46/classnana_1_1drawing" ],
+    [ "accel_key", "d2/d6e/structnana_1_1accel__key.html", "d2/d6e/structnana_1_1accel__key" ],
     [ "keyboard", "de/d48/structnana_1_1keyboard.html", "de/d48/structnana_1_1keyboard" ],
     [ "appearance", "d5/d27/structnana_1_1appearance.html", "d5/d27/structnana_1_1appearance" ],
     [ "appear", "d1/d1c/structnana_1_1appear.html", [
@@ -61,6 +62,8 @@ var namespacenana =
       [ "taskbar", "de/d73/structnana_1_1appear_1_1taskbar.html", null ]
     ] ],
     [ "caret_interface", "d1/dff/classnana_1_1caret__interface.html", "d1/dff/classnana_1_1caret__interface" ],
+    [ "scroll_operation_interface", "df/dd3/classnana_1_1scroll__operation__interface.html", "df/dd3/classnana_1_1scroll__operation__interface" ],
+    [ "event_filter_status", "d1/d59/classnana_1_1event__filter__status.html", "d1/d59/classnana_1_1event__filter__status" ],
     [ "drawer_trigger", "d7/d16/classnana_1_1drawer__trigger.html", "d7/d16/classnana_1_1drawer__trigger" ],
     [ "event_arg", "d7/d9d/classnana_1_1event__arg.html", "d7/d9d/classnana_1_1event__arg" ],
     [ "basic_event", "db/d7b/classnana_1_1basic__event.html", "db/d7b/classnana_1_1basic__event" ],
@@ -84,8 +87,6 @@ var namespacenana =
     [ "internal_revert_guard", "d6/df6/classnana_1_1internal__revert__guard.html", "d6/df6/classnana_1_1internal__revert__guard" ],
     [ "color_proxy", "d0/d1b/classnana_1_1color__proxy.html", "d0/d1b/classnana_1_1color__proxy" ],
     [ "widget_geometrics", "df/d63/structnana_1_1widget__geometrics.html", "df/d63/structnana_1_1widget__geometrics" ],
-    [ "bad_optional_access", "d3/d43/classnana_1_1bad__optional__access.html", "d3/d43/classnana_1_1bad__optional__access" ],
-    [ "optional", "d3/d62/classnana_1_1optional.html", "d3/d62/classnana_1_1optional" ],
     [ "facade", "d7/d15/classnana_1_1facade.html", null ],
     [ "facade< element::crook >", "dd/d92/classnana_1_1facade_3_01element_1_1crook_01_4.html", "dd/d92/classnana_1_1facade_3_01element_1_1crook_01_4" ],
     [ "facade< element::cross >", "d4/de7/classnana_1_1facade_3_01element_1_1cross_01_4.html", "d4/de7/classnana_1_1facade_3_01element_1_1cross_01_4" ],
@@ -107,6 +108,7 @@ var namespacenana =
     [ "element_object", "d9/d79/classnana_1_1element__object.html", "d9/d79/classnana_1_1element__object" ],
     [ "element_manager", "d6/d63/classnana_1_1element__manager.html", "d6/d63/classnana_1_1element__manager" ],
     [ "filebox", "d0/d73/classnana_1_1filebox.html", "d0/d73/classnana_1_1filebox" ],
+    [ "folderbox", "d2/d8d/classnana_1_1folderbox.html", "d2/d8d/classnana_1_1folderbox" ],
     [ "inputbox_window", "de/da0/classnana_1_1inputbox__window.html", "de/da0/classnana_1_1inputbox__window" ],
     [ "form", "d6/d57/classnana_1_1form.html", "d6/d57/classnana_1_1form" ],
     [ "nested_form", "dd/d8b/classnana_1_1nested__form.html", "dd/d8b/classnana_1_1nested__form" ],

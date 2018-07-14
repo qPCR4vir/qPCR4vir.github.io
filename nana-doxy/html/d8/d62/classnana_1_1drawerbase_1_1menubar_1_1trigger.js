@@ -1,9 +1,7 @@
 var classnana_1_1drawerbase_1_1menubar_1_1trigger =
 [
-    [ "itembase", "d3/d4b/classnana_1_1drawerbase_1_1menubar_1_1trigger_1_1itembase.html", "d3/d4b/classnana_1_1drawerbase_1_1menubar_1_1trigger_1_1itembase" ],
+    [ "essence", "df/d3d/structnana_1_1drawerbase_1_1menubar_1_1trigger_1_1essence.html", "df/d3d/structnana_1_1drawerbase_1_1menubar_1_1trigger_1_1essence" ],
     [ "trigger", "d8/d62/classnana_1_1drawerbase_1_1menubar_1_1trigger.html#a15e6c6363004b58c6282aa0dc4df4bf4", null ],
     [ "~trigger", "d8/d62/classnana_1_1drawerbase_1_1menubar_1_1trigger.html#ac5702e37bfde549cbbe4e89cb671653c", null ],
-    [ "at", "d8/d62/classnana_1_1drawerbase_1_1menubar_1_1trigger.html#a5be39632ae10bbf052175fc4b5faa9bc", null ],
-    [ "push_back", "d8/d62/classnana_1_1drawerbase_1_1menubar_1_1trigger.html#a69f622bf79ade96ff30f6066b535a76e", null ],
-    [ "size", "d8/d62/classnana_1_1drawerbase_1_1menubar_1_1trigger.html#a5e3b70232d4b492093545b40691076de", null ]
+    [ "ess", "d8/d62/classnana_1_1drawerbase_1_1menubar_1_1trigger.html#a7202c27c278afc39ba16b25627ec9c59", null ]
 ];

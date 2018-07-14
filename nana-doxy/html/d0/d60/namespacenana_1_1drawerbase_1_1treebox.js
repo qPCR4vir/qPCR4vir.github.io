@@ -1,5 +1,6 @@
 var namespacenana_1_1drawerbase_1_1treebox =
 [
+    [ "exclusive_scroll_operation", "d2/d69/classnana_1_1drawerbase_1_1treebox_1_1exclusive__scroll__operation.html", "d2/d69/classnana_1_1drawerbase_1_1treebox_1_1exclusive__scroll__operation" ],
     [ "tlwnd_drawer", "da/df8/classnana_1_1drawerbase_1_1treebox_1_1tlwnd__drawer.html", "da/df8/classnana_1_1drawerbase_1_1treebox_1_1tlwnd__drawer" ],
     [ "tooltip_window", "df/d72/classnana_1_1drawerbase_1_1treebox_1_1tooltip__window.html", "df/d72/classnana_1_1drawerbase_1_1treebox_1_1tooltip__window" ],
     [ "pred_allow_child", "d9/db3/structnana_1_1drawerbase_1_1treebox_1_1pred__allow__child.html", "d9/db3/structnana_1_1drawerbase_1_1treebox_1_1pred__allow__child" ],

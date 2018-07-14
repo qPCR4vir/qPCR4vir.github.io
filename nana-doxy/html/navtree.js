@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "Nana C++ Library. Reference for users.", "index.html", [
-    [ "Reference documentation. {for nana users, hotfix-1.5.4, 2017-08-27}", "index.html", null ],
+    [ "Reference documentation. {for nana users, hotfix-1.6.1, 2018-07-14}", "index.html", null ],
     [ "Instructions:", "d2/d75/md__c_1__prog__ext_lib_nana_build_bakefile_readme.html", null ],
     [ "Building Nana C++ Library directly with make", "dd/da4/md__c_1__prog__ext_lib_nana_build_makefile_readme.html", null ],
     [ "Nana C++ Library", "da/d2b/md__c_1__prog__ext_lib_nana__r_e_a_d_m_e.html", null ],
@@ -86,28 +86,29 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"d0/dcd/structnana_1_1drawerbase_1_1treebox_1_1trigger_1_1basic__implement.html#a47a7c5ddcf0e6a84b0754330256bac54",
-"d1/dda/classnana_1_1listbox.html#a92baaf39343c33caf36778ee06eace39",
-"d2/d93/classnana_1_1progress.html#a7aa39cbdd6c672d5e6ecf456b4bb1e3d",
-"d3/d62/classnana_1_1optional.html#a05461016009f993dbb8e5772c6cf751a",
-"d4/d06/structnana_1_1detail_1_1native__interface.html#a92ee9ec46197315efd36c5cadc8c8473",
-"d4/da7/namespacenana_1_1drawerbase_1_1combox.html",
-"d5/d81/classnana_1_1notifier.html#a926ff4858efdf65768db4ce48d84a0af",
-"d6/d47/classnana_1_1paint_1_1graphics.html#a37ac2b7efe8ea60a2a8ecc1e24996726",
-"d6/db6/structnana_1_1detail_1_1window__layout_1_1wd__rectangle.html#a01da09a5d51dfbf4bdfd40ce626ac3a0",
-"d7/dd1/classnana_1_1widgets_1_1skeletons_1_1content__view.html",
-"d8/d86/classnana_1_1widgets_1_1skeletons_1_1text__editor__event__interface.html",
-"d9/d60/structnana_1_1drawerbase_1_1tabbar_1_1item__t.html#ac7a14ab20dcae7423688ffd0ddadbf33",
-"d9/de7/classnana_1_1detail_1_1bedrock.html#acc3e22886266e96c5c421722e6299d7c",
-"da/da7/structnana_1_1drawerbase_1_1menu_1_1menu__window_1_1state__type.html#a3e05eeb3f3dd22b022ad8d808d6dfe09",
-"db/d96/classnana_1_1drawerbase_1_1listbox_1_1basic__container.html",
-"dc/d4f/classnana_1_1paint_1_1detail_1_1image__ico.html#aef6cdb69b897df7691da4c5132ea7115",
-"dc/dc0/classnana_1_1drawerbase_1_1spinbox_1_1range__text.html#acd0e1f6d23e86201726675b22a004a3c",
-"dd/d27/classnana_1_1widgets_1_1detail_1_1compset.html#a5e7c53d53413b887249cb7546ebf2ec6",
-"dd/ddc/classnana_1_1drawerbase_1_1float__listbox_1_1item__renderer.html#a6ad7f0caf77d5f0580abbe98266e843c",
-"de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eafaa29c90a80089ce71d35f76c63b1bbf",
-"df/d3b/classnana_1_1facade_3_01element_1_1arrow_01_4.html#a968e431e0e9b7d3ab98fdfc8f2b5fbf6",
-"df/dd8/structnana_1_1drawerbase_1_1slider_1_1scheme__impl.html#a8f24cee1107691b605b7f8ababb320b8"
+"d0/dcd/structnana_1_1drawerbase_1_1treebox_1_1trigger_1_1basic__implement.html#a6a242f99a0b84f5b3552ae7866897b7e",
+"d1/dda/classnana_1_1listbox.html#a44fad6e46f8e8ed9c54a9153f1a9cb32",
+"d2/d5e/classnana_1_1filesystem__ext_1_1directory__only__iterator.html",
+"d3/d5f/classnana_1_1detail_1_1msg__dispatcher.html#a02da60dd6ba16fa9c1b488a612be7043",
+"d4/d06/structnana_1_1detail_1_1native__interface.html#a5902c4701f04ce3e712b19ce5ca034b6",
+"d4/d9f/classnana_1_1place__parts_1_1margin.html#ad83183d7b5268245456cdf315b92e519",
+"d5/d86/classnana_1_1drawerbase_1_1treebox_1_1trigger_1_1item__locator.html#a110ebe3ef3a23afcf875179851068e49",
+"d6/d47/classnana_1_1paint_1_1graphics.html#a2774eb3c7f798e99e3068e9b463e902d",
+"d6/da3/classnana_1_1scroll.html#a72350ef5ae0bd1ebd4e9b2dad16c092e",
+"d7/db7/classnana_1_1paint_1_1detail_1_1image__png.html",
+"d8/d7f/classnana_1_1unicode__bidi.html#ab4d218792adebd435c0808cfa7fce137",
+"d9/d48/classnana_1_1concepts_1_1any__objective.html#a9eb593e2d68a28b8fcf90dff7abef370",
+"d9/de1/classnana_1_1paint_1_1image.html#a8d448dcab82417b6d2618c4e48b2e5c4",
+"da/d89/structnana_1_1drawerbase_1_1menu_1_1menu__item__type.html#a470ae79b65148a68724c5ed636d5a1c9",
+"db/d5a/classnana_1_1place__parts_1_1dock__notifier__interface.html#a3c92f1a2b5a92bec6b7a289bb4a79860",
+"dc/d1d/structnana_1_1paint_1_1detail_1_1_i_c_o_n_d_i_r.html",
+"dc/d94/classnana_1_1drawerbase_1_1listbox_1_1es__lister.html#ae5de8675b6701b5134f0358ffbb76ad4",
+"dd/d1d/classnana_1_1drawerbase_1_1combox_1_1drawer__impl.html#a153925f737a6e6f0d3c2e7e421b72bbc",
+"dd/d92/classnana_1_1facade_3_01element_1_1crook_01_4.html#afb19a64f11c3c394ce69d1c5d7cc6ee7",
+"de/d3c/structnana_1_1detail_1_1basic__window.html#a98848aa191fb313d844314a574e1b634",
+"de/dea/namespacenana_1_1paint_1_1detail_1_1algorithms.html",
+"df/da3/classnana_1_1widgets_1_1skeletons_1_1undoable__command__interface.html#a6a7dff04462b00bfab955c8a1908d989",
+"namespacemembers_0x63.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

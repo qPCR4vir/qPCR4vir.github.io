@@ -5,6 +5,7 @@ var structnana_1_1place_1_1implement =
     [ "div_dockpane", "d2/d04/classnana_1_1place_1_1implement_1_1div__dockpane.html", "d2/d04/classnana_1_1place_1_1implement_1_1div__dockpane" ],
     [ "div_grid", "d5/db9/classnana_1_1place_1_1implement_1_1div__grid.html", "d5/db9/classnana_1_1place_1_1implement_1_1div__grid" ],
     [ "div_splitter", "d2/d3e/classnana_1_1place_1_1implement_1_1div__splitter.html", "d2/d3e/classnana_1_1place_1_1implement_1_1div__splitter" ],
+    [ "div_switchable", "d0/dd0/classnana_1_1place_1_1implement_1_1div__switchable.html", "d0/dd0/classnana_1_1place_1_1implement_1_1div__switchable" ],
     [ "division", "dc/d71/classnana_1_1place_1_1implement_1_1division.html", "dc/d71/classnana_1_1place_1_1implement_1_1division" ],
     [ "field_dock", "d6/d1d/classnana_1_1place_1_1implement_1_1field__dock.html", "d6/d1d/classnana_1_1place_1_1implement_1_1field__dock" ],
     [ "field_gather", "df/da8/classnana_1_1place_1_1implement_1_1field__gather.html", "df/da8/classnana_1_1place_1_1implement_1_1field__gather" ],

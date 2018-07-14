@@ -1,13 +1,15 @@
 var classnana_1_1place_1_1implement_1_1division =
 [
     [ "run_data", "d9/d08/structnana_1_1place_1_1implement_1_1division_1_1run__data.html", "d9/d08/structnana_1_1place_1_1implement_1_1division_1_1run__data" ],
+    [ "token", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a31a6a5cd7d7ff366c8d594f227401254", null ],
     [ "kind", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8", [
       [ "arrange", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8a38d05e65a44270fbdb0fc1427257be1d", null ],
       [ "vertical_arrange", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8a14f42ab8dc4dfef6e50465d90b098baf", null ],
       [ "grid", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8aff4a008470319a22d9cf3d14af485977", null ],
       [ "splitter", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8aed8430dc53fe9c99911b7c85e45aa6a2", null ],
       [ "dock", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8a05debdb8b38c7e1e244dd770b62d1d4f", null ],
-      [ "dockpane", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8a12652cf33ea0a2bdb710a2d9c1e7c081", null ]
+      [ "dockpane", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8a12652cf33ea0a2bdb710a2d9c1e7c081", null ],
+      [ "switchable", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8aaced8f4e5aec630577d46733ecb2cca0", null ]
     ] ],
     [ "division", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#adc066b74a0c983b8fa8a1b84c08d67ed", null ],
     [ "~division", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#aa917b6218e431ff5b36f620bb2d3acab", null ],
@@ -41,5 +43,6 @@ var classnana_1_1place_1_1implement_1_1division =
     [ "name", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#ad44fe18fa3435d5c1a27df59be32fdcb", null ],
     [ "run_", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#a4edbf67859f3e18bf782da7a39f46947", null ],
     [ "visible", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#ac340ede31df8b271f44de4a6913e3809", null ],
-    [ "weight", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#aa30c825a1ea039bc73ea0265c52f2c12", null ]
+    [ "weight", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#aa30c825a1ea039bc73ea0265c52f2c12", null ],
+    [ "weigth_type", "dc/d71/classnana_1_1place_1_1implement_1_1division.html#aa80a572ff111bf366d9ea204d5338656", null ]
 ];

@@ -12,7 +12,7 @@ var classnana_1_1color =
     [ "alpha", "dd/d1e/classnana_1_1color.html#a00258f675e5a91888300ce5c8e57ebc6", null ],
     [ "argb", "dd/d1e/classnana_1_1color.html#aaad6df2aa827c483e2d017b3a5fbde53", null ],
     [ "b", "dd/d1e/classnana_1_1color.html#a79a4ca562e6a30f185e0f52ee63e49f5", null ],
-    [ "blend", "dd/d1e/classnana_1_1color.html#a604b1607af89685849c63899598dbe0b", null ],
+    [ "blend", "dd/d1e/classnana_1_1color.html#ab64512b6a6f921af9902145a0d8bc882", null ],
     [ "from_hsl", "dd/d1e/classnana_1_1color.html#a5eeb97c6fe6c199350c39f1ac0fcaf0d", null ],
     [ "from_rgb", "dd/d1e/classnana_1_1color.html#adda4d78fca530b74eae0f4fb031b4a8c", null ],
     [ "g", "dd/d1e/classnana_1_1color.html#a5e7f802604d6916c38de419982b5c92f", null ],

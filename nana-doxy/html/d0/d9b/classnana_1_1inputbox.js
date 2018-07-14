@@ -9,6 +9,7 @@ var classnana_1_1inputbox =
     [ "inputbox", "d0/d9b/classnana_1_1inputbox.html#af69c888195c3cf9d7f412b40bad21353", null ],
     [ "image", "d0/d9b/classnana_1_1inputbox.html#a096da8ea9be906c4521bd1da36378d45", null ],
     [ "image_v", "d0/d9b/classnana_1_1inputbox.html#a7d64f987da3c2aae503e1f91926aff6a", null ],
+    [ "min_width_entry_field", "d0/d9b/classnana_1_1inputbox.html#ab82b65755b098cf8560ab80ff0c781f4", null ],
     [ "show", "d0/d9b/classnana_1_1inputbox.html#ab7f1a10007514ec3e65a70842c87f6b4", null ],
     [ "show_modal", "d0/d9b/classnana_1_1inputbox.html#ad3153e2f7fad73607f3e78ff8f365e1e", null ],
     [ "verify", "d0/d9b/classnana_1_1inputbox.html#a947dbc8ebefe3c8eab7d1e815a8e51b1", null ]

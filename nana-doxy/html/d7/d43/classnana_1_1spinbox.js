@@ -13,6 +13,7 @@ var classnana_1_1spinbox =
     [ "range_double", "d7/d43/classnana_1_1spinbox.html#a5c17078d5bfe21848d46c847a5ce11a9", null ],
     [ "range_int", "d7/d43/classnana_1_1spinbox.html#a1d7d987e2ca45569f6cf576beffbc7b8", null ],
     [ "range_string", "d7/d43/classnana_1_1spinbox.html#a85747823e5143260ff1265e730e5b4ba", null ],
+    [ "select", "d7/d43/classnana_1_1spinbox.html#aa4dbb47b8c150405cf2a009f06ecf5b3", null ],
     [ "to_double", "d7/d43/classnana_1_1spinbox.html#af4aa13087a3fdde9ca791f35feff475d", null ],
     [ "to_int", "d7/d43/classnana_1_1spinbox.html#acaa25636317b37b1bf11cfd5454462e8", null ],
     [ "value", "d7/d43/classnana_1_1spinbox.html#a04b13db419125e6febd6fcdfdc56d0f4", null ],

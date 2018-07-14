@@ -46,5 +46,6 @@ var searchData=
   ['strong',['strong',['../d8/d7f/classnana_1_1unicode__bidi.html#adf135c82592dcde7bb26fd90d84f3f83a6f7f9432d35dea629c8384dab312259a',1,'nana::unicode_bidi']]],
   ['substitute',['substitute',['../de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eaf1f5ff37b991e596a69d595d009083a8',1,'nana::keyboard']]],
   ['super',['super',['../dd/d00/namespacenana_1_1category.html#a85512d536658f20d199b9fa20df34818a1b3231655cebb7a1f783eddf27d254ca',1,'nana::category']]],
+  ['switchable',['switchable',['../de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1aaced8f4e5aec630577d46733ecb2cca0',1,'nana::place_parts::tokenizer::switchable()'],['../dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8aaced8f4e5aec630577d46733ecb2cca0',1,'nana::place::implement::division::switchable()']]],
   ['sync_5fidel',['sync_idel',['../de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea908165096f4a3a7e86a6cc339478c39c',1,'nana::keyboard']]]
 ];

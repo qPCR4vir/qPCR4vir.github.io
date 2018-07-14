@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['key',['key',['../d0/de9/structnana_1_1arg__keyboard.html#acfd23f22574a43fdd414d4f46e9727a7',1,'nana::arg_keyboard::key()'],['../dd/d29/structnana_1_1drawerbase_1_1combox_1_1item.html#a13a66ffe6f31fce0b22f825b08bbcc28',1,'nana::drawerbase::combox::item::key()']]],
+  ['key',['key',['../d2/d6e/structnana_1_1accel__key.html#adc034de8161e17af3b5714134100587a',1,'nana::accel_key::key()'],['../d0/de9/structnana_1_1arg__keyboard.html#acfd23f22574a43fdd414d4f46e9727a7',1,'nana::arg_keyboard::key()'],['../dd/d29/structnana_1_1drawerbase_1_1combox_1_1item.html#a13a66ffe6f31fce0b22f825b08bbcc28',1,'nana::drawerbase::combox::item::key()']]],
   ['key_5fbuf',['key_buf',['../d4/d47/structnana_1_1drawerbase_1_1treebox_1_1trigger_1_1basic__implement_1_1track__node__tag.html#abb3d5baad6b52c5ee6e93e84a2c0ce2a',1,'nana::drawerbase::treebox::trigger::basic_implement::track_node_tag']]],
   ['key_5fchar',['key_char',['../dd/d19/structnana_1_1general__events.html#aa8f07e5c2db7c3913fdfdb2d0b9d55af',1,'nana::general_events']]],
   ['key_5fpress',['key_press',['../dd/d19/structnana_1_1general__events.html#a4509433d673823a86974cc511b87518e',1,'nana::general_events']]],

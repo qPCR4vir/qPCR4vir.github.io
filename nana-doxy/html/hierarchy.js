@@ -25,18 +25,15 @@ var hierarchy =
     [ "nana::detail::inline_widget_indicator< index_pair, std::string >", "d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html", [
       [ "nana::drawerbase::listbox::inline_indicator", "db/d09/classnana_1_1drawerbase_1_1listbox_1_1inline__indicator.html", null ]
     ] ],
-    [ "std::iterator< std::input_iterator_tag, cat_proxy >", "http://en.cppreference.com/w/cpp/iterator/iterator.html", [
-      [ "nana::drawerbase::listbox::cat_proxy", "da/d11/classnana_1_1drawerbase_1_1listbox_1_1cat__proxy.html", null ]
-    ] ],
     [ "std::iterator< std::input_iterator_tag, item_proxy >", "http://en.cppreference.com/w/cpp/iterator/iterator.html", [
       [ "nana::drawerbase::combox::item_proxy", "d4/d65/classnana_1_1drawerbase_1_1combox_1_1item__proxy.html", null ],
-      [ "nana::drawerbase::listbox::item_proxy", "df/d3e/classnana_1_1drawerbase_1_1listbox_1_1item__proxy.html", null ],
       [ "nana::drawerbase::treebox::item_proxy", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html", null ]
     ] ],
     [ "nana::detail::lite_map< nana::detail::basic_window *, std::vector< std::function< void()> > >", "d4/d56/classnana_1_1detail_1_1lite__map.html", null ],
     [ "nana::pat::detail::make_pack_helper< false, X==1, std::integral_constant< std::size_t, X-1 >, pack< Useless, X-1, Vals...> >", "df/d90/structnana_1_1pat_1_1detail_1_1make__pack__helper.html", [
       [ "nana::pat::detail::make_pack_helper< false, false, std::integral_constant< std::size_t, X >, pack< Useless, Vals...> >", "d8/deb/structnana_1_1pat_1_1detail_1_1make__pack__helper_3_01false_00_01false_00_01std_1_1integral__con1f78f0aa4180fd84c3f8df4ccde70c9b.html", null ]
     ] ],
+    [ "nana::accel_key", "d2/d6e/structnana_1_1accel__key.html", null ],
     [ "nana::animation", "dd/d57/classnana_1_1animation.html", null ],
     [ "nana::animation::impl", "db/d06/structnana_1_1animation_1_1impl.html", null ],
     [ "nana::animation::impl::state_t", "dd/dcc/structnana_1_1animation_1_1impl_1_1state__t.html", null ],
@@ -182,7 +179,6 @@ var hierarchy =
     [ "nana::detail::shortkey_container", "d4/d80/classnana_1_1detail_1_1shortkey__container.html", null ],
     [ "nana::detail::shortkey_container::implementation", "d1/d3d/structnana_1_1detail_1_1shortkey__container_1_1implementation.html", null ],
     [ "nana::detail::shortkey_rep", "d1/d81/structnana_1_1detail_1_1shortkey__rep.html", null ],
-    [ "nana::detail::storage< T >", "d4/dc4/classnana_1_1detail_1_1storage.html", null ],
     [ "nana::detail::tab_type", "d9/d57/structnana_1_1detail_1_1tab__type.html", null ],
     [ "nana::detail::thread_refcount", "d5/dbd/structnana_1_1detail_1_1thread__refcount.html", null ],
     [ "nana::detail::type_escape< T >", "d9/dd8/structnana_1_1detail_1_1type__escape.html", null ],
@@ -197,7 +193,6 @@ var hierarchy =
     [ "nana::detail::widget_notifier_interface", "df/d3c/classnana_1_1detail_1_1widget__notifier__interface.html", [
       [ "nana::widget::inner_widget_notifier", "d4/d83/classnana_1_1widget_1_1inner__widget__notifier.html", null ]
     ] ],
-    [ "nana::detail::window_handle_deleter", "dc/d96/structnana_1_1detail_1_1window__handle__deleter.html", null ],
     [ "nana::detail::window_handle_impl", "d2/d87/structnana_1_1detail_1_1window__handle__impl.html", null ],
     [ "nana::detail::window_layout", "df/d4e/classnana_1_1detail_1_1window__layout.html", null ],
     [ "nana::detail::window_layout::wd_rectangle", "d6/db6/structnana_1_1detail_1_1window__layout_1_1wd__rectangle.html", null ],
@@ -288,6 +283,7 @@ var hierarchy =
     ] ],
     [ "nana::drawerbase::listbox::container_translator< Value >", "da/d02/structnana_1_1drawerbase_1_1listbox_1_1container__translator.html", null ],
     [ "nana::drawerbase::listbox::drawer_header_impl", "d8/d43/classnana_1_1drawerbase_1_1listbox_1_1drawer__header__impl.html", null ],
+    [ "nana::drawerbase::listbox::drawer_header_impl::column_rendering_parameter", "db/d92/structnana_1_1drawerbase_1_1listbox_1_1drawer__header__impl_1_1column__rendering__parameter.html", null ],
     [ "nana::drawerbase::listbox::drawer_lister_impl", "da/d6a/classnana_1_1drawerbase_1_1listbox_1_1drawer__lister__impl.html", null ],
     [ "nana::drawerbase::listbox::es_header", "d5/d57/classnana_1_1drawerbase_1_1listbox_1_1es__header.html", null ],
     [ "nana::drawerbase::listbox::es_lister", "dc/d94/classnana_1_1drawerbase_1_1listbox_1_1es__lister.html", null ],
@@ -296,7 +292,6 @@ var hierarchy =
     [ "nana::drawerbase::listbox::es_lister::sort_attributes", "d4/d35/structnana_1_1drawerbase_1_1listbox_1_1es__lister_1_1sort__attributes.html", null ],
     [ "nana::drawerbase::listbox::essence", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html", null ],
     [ "nana::drawerbase::listbox::essence::mouse_selection_part", "d7/d3c/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1mouse__selection__part.html", null ],
-    [ "nana::drawerbase::listbox::essence::pred_mouse_selection", "d0/d9c/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1pred__mouse__selection.html", null ],
     [ "nana::drawerbase::listbox::export_options", "d3/dfa/structnana_1_1drawerbase_1_1listbox_1_1export__options.html", null ],
     [ "nana::drawerbase::listbox::index_pair", "de/d8a/structnana_1_1drawerbase_1_1listbox_1_1index__pair.html", null ],
     [ "nana::drawerbase::listbox::inline_pane", "d6/d6a/structnana_1_1drawerbase_1_1listbox_1_1inline__pane.html", null ],
@@ -321,10 +316,12 @@ var hierarchy =
     [ "nana::drawerbase::menu::renderer_interface::attr", "d6/dfe/structnana_1_1drawerbase_1_1menu_1_1renderer__interface_1_1attr.html", null ],
     [ "nana::drawerbase::menubar::item_renderer", "d2/d2a/classnana_1_1drawerbase_1_1menubar_1_1item__renderer.html", null ],
     [ "nana::drawerbase::menubar::item_type", "d8/dd5/structnana_1_1drawerbase_1_1menubar_1_1item__type.html", null ],
-    [ "nana::drawerbase::menubar::trigger::itembase", "d3/d4b/classnana_1_1drawerbase_1_1menubar_1_1trigger_1_1itembase.html", null ],
+    [ "nana::drawerbase::menubar::trigger::essence", "df/d3d/structnana_1_1drawerbase_1_1menubar_1_1trigger_1_1essence.html", null ],
+    [ "nana::drawerbase::menubar::trigger::essence::state_type", "d6/df2/structnana_1_1drawerbase_1_1menubar_1_1trigger_1_1essence_1_1state__type.html", null ],
     [ "nana::drawerbase::picture::implement", "dd/d67/structnana_1_1drawerbase_1_1picture_1_1implement.html", null ],
     [ "nana::drawerbase::picture::implement::back_image_tag", "d0/dc8/structnana_1_1drawerbase_1_1picture_1_1implement_1_1back__image__tag.html", null ],
     [ "nana::drawerbase::picture::implement::gradual_bground_tag", "d4/d96/structnana_1_1drawerbase_1_1picture_1_1implement_1_1gradual__bground__tag.html", null ],
+    [ "nana::drawerbase::progress::substance", "d5/dea/classnana_1_1drawerbase_1_1progress_1_1substance.html", null ],
     [ "nana::drawerbase::scroll::drawer", "dc/db0/classnana_1_1drawerbase_1_1scroll_1_1drawer.html", null ],
     [ "nana::drawerbase::scroll::drawer::states", "df/d65/structnana_1_1drawerbase_1_1scroll_1_1drawer_1_1states.html", null ],
     [ "nana::drawerbase::scroll::metrics_type", "df/dba/structnana_1_1drawerbase_1_1scroll_1_1metrics__type.html", null ],
@@ -356,6 +353,7 @@ var hierarchy =
     [ "nana::drawerbase::tabbar_lite::renderer", "df/de0/classnana_1_1drawerbase_1_1tabbar__lite_1_1renderer.html", null ],
     [ "nana::drawerbase::toolbar::drawer::drawer_impl_type", "dd/df9/structnana_1_1drawerbase_1_1toolbar_1_1drawer_1_1drawer__impl__type.html", null ],
     [ "nana::drawerbase::toolbar::item_container", "df/da7/classnana_1_1drawerbase_1_1toolbar_1_1item__container.html", null ],
+    [ "nana::drawerbase::toolbar::item_proxy", "d1/d80/structnana_1_1drawerbase_1_1toolbar_1_1item__proxy.html", null ],
     [ "nana::drawerbase::toolbar::item_renderer", "d6/ddc/classnana_1_1drawerbase_1_1toolbar_1_1item__renderer.html", null ],
     [ "nana::drawerbase::toolbar::item_type", "d3/de6/structnana_1_1drawerbase_1_1toolbar_1_1item__type.html", null ],
     [ "nana::drawerbase::tooltip::controller", "de/d0a/classnana_1_1drawerbase_1_1tooltip_1_1controller.html", null ],
@@ -456,10 +454,13 @@ var hierarchy =
       [ "nana::arg_treebox", "df/df9/structnana_1_1arg__treebox.html", null ],
       [ "nana::arg_unload", "d0/d2c/structnana_1_1arg__unload.html", null ]
     ] ],
+    [ "nana::event_filter_status", "d1/d59/classnana_1_1event__filter__status.html", null ],
     [ "nana::facade< Element >", "d7/d15/classnana_1_1facade.html", null ],
     [ "nana::filebox", "d0/d73/classnana_1_1filebox.html", null ],
     [ "nana::filebox::implement", "da/ddb/structnana_1_1filebox_1_1implement.html", null ],
     [ "nana::filebox::implement::filter", "d3/dba/structnana_1_1filebox_1_1implement_1_1filter.html", null ],
+    [ "nana::folderbox", "d2/d8d/classnana_1_1folderbox.html", null ],
+    [ "nana::folderbox::implement", "dc/d7d/structnana_1_1folderbox_1_1implement.html", null ],
     [ "nana::font_interface", "de/d6b/classnana_1_1font__interface.html", [
       [ "nana::internal_font", "d3/d77/classnana_1_1internal__font.html", null ]
     ] ],
@@ -556,7 +557,6 @@ var hierarchy =
     [ "nana::notifier", "d5/d81/classnana_1_1notifier.html", null ],
     [ "nana::notifier::implement", "d4/d51/structnana_1_1notifier_1_1implement.html", null ],
     [ "nana::null_type", "d7/dd4/classnana_1_1null__type.html", null ],
-    [ "nana::optional< T >", "d3/d62/classnana_1_1optional.html", null ],
     [ "nana::output_t", "d5/d50/structnana_1_1output__t.html", null ],
     [ "nana::paint::aligner", "d4/dff/classnana_1_1paint_1_1aligner.html", null ],
     [ "nana::paint::calc_rotate", "d1/d7d/classnana_1_1paint_1_1calc__rotate.html", null ],
@@ -624,7 +624,8 @@ var hierarchy =
       [ "nana::place::implement::div_dock", "d1/da6/classnana_1_1place_1_1implement_1_1div__dock.html", null ],
       [ "nana::place::implement::div_dockpane", "d2/d04/classnana_1_1place_1_1implement_1_1div__dockpane.html", null ],
       [ "nana::place::implement::div_grid", "d5/db9/classnana_1_1place_1_1implement_1_1div__grid.html", null ],
-      [ "nana::place::implement::div_splitter", "d2/d3e/classnana_1_1place_1_1implement_1_1div__splitter.html", null ]
+      [ "nana::place::implement::div_splitter", "d2/d3e/classnana_1_1place_1_1implement_1_1div__splitter.html", null ],
+      [ "nana::place::implement::div_switchable", "d0/dd0/classnana_1_1place_1_1implement_1_1div__switchable.html", null ]
     ] ],
     [ "nana::place::implement::division::run_data", "d9/d08/structnana_1_1place_1_1implement_1_1division_1_1run__data.html", null ],
     [ "nana::place::implement::field_dock", "d6/d1d/classnana_1_1place_1_1implement_1_1field__dock.html", null ],
@@ -652,6 +653,10 @@ var hierarchy =
       [ "nana::scroll< false >", "d6/da3/classnana_1_1scroll.html", null ],
       [ "nana::scroll< true >", "d6/da3/classnana_1_1scroll.html", null ],
       [ "nana::scroll< Vertical >", "d6/da3/classnana_1_1scroll.html", null ]
+    ] ],
+    [ "nana::scroll_operation_interface", "df/dd3/classnana_1_1scroll__operation__interface.html", [
+      [ "nana::drawerbase::treebox::exclusive_scroll_operation", "d2/d69/classnana_1_1drawerbase_1_1treebox_1_1exclusive__scroll__operation.html", null ],
+      [ "nana::widgets::skeletons::scroll_operation", "dc/dbe/classnana_1_1widgets_1_1skeletons_1_1scroll__operation.html", null ]
     ] ],
     [ "nana::size", "da/df8/structnana_1_1size.html", null ],
     [ "nana::spec::truetype", "d0/d5b/classnana_1_1spec_1_1truetype.html", null ],
@@ -742,10 +747,13 @@ var hierarchy =
         [ "nana::widget_object< category::widget_tag, drawerbase::menubar::trigger,::nana::general_events, drawerbase::menubar::scheme >", "d3/d95/classnana_1_1widget__object.html", [
           [ "nana::menubar", "d3/dc0/classnana_1_1menubar.html", null ]
         ] ],
+        [ "nana::widget_object< category::widget_tag, drawerbase::panel::drawer, general_events, drawerbase::group::scheme >", "d3/d95/classnana_1_1widget__object.html", [
+          [ "nana::group", "d6/d61/classnana_1_1group.html", null ]
+        ] ],
         [ "nana::widget_object< category::widget_tag, drawerbase::picture::drawer >", "d3/d95/classnana_1_1widget__object.html", [
           [ "nana::picture", "d2/d9f/classnana_1_1picture.html", null ]
         ] ],
-        [ "nana::widget_object< category::widget_tag, drawerbase::progress::trigger >", "d3/d95/classnana_1_1widget__object.html", [
+        [ "nana::widget_object< category::widget_tag, drawerbase::progress::trigger,::nana::general_events, drawerbase::progress::scheme >", "d3/d95/classnana_1_1widget__object.html", [
           [ "nana::progress", "d2/d93/classnana_1_1progress.html", null ]
         ] ],
         [ "nana::widget_object< category::widget_tag, drawerbase::scroll::trigger< Vertical >, drawerbase::scroll::scroll_events >", "d3/d95/classnana_1_1widget__object.html", [
@@ -778,16 +786,16 @@ var hierarchy =
         [ "nana::widget_object< std::conditional< HasBackground, category::widget_tag, category::lite_widget_tag >::type, drawerbase::panel::drawer >", "d3/d95/classnana_1_1widget__object.html", [
           [ "nana::panel< HasBackground >", "d1/d87/classnana_1_1panel.html", null ],
           [ "nana::panel< false >", "d1/d87/classnana_1_1panel.html", null ],
-          [ "nana::panel< true >", "d1/d87/classnana_1_1panel.html", [
-            [ "nana::group", "d6/d61/classnana_1_1group.html", null ]
-          ] ]
+          [ "nana::panel< true >", "d1/d87/classnana_1_1panel.html", null ]
         ] ]
       ] ],
       [ "nana::widget_object< category::frame_tag, Drawer, Events, Scheme >", "d4/d16/classnana_1_1widget__object_3_01category_1_1frame__tag_00_01_drawer_00_01_events_00_01_scheme_01_4.html", null ]
     ] ],
     [ "nana::widget_geometrics", "df/d63/structnana_1_1widget__geometrics.html", [
+      [ "nana::drawerbase::group::scheme", "db/dd8/structnana_1_1drawerbase_1_1group_1_1scheme.html", null ],
       [ "nana::drawerbase::listbox::scheme", "dc/d9d/structnana_1_1drawerbase_1_1listbox_1_1scheme.html", null ],
       [ "nana::drawerbase::menubar::scheme", "d9/df6/structnana_1_1drawerbase_1_1menubar_1_1scheme.html", null ],
+      [ "nana::drawerbase::progress::scheme", "d0/ddf/structnana_1_1drawerbase_1_1progress_1_1scheme.html", null ],
       [ "nana::drawerbase::slider::scheme_impl", "df/dd8/structnana_1_1drawerbase_1_1slider_1_1scheme__impl.html", null ],
       [ "nana::widgets::skeletons::text_editor_scheme", "d4/d27/structnana_1_1widgets_1_1skeletons_1_1text__editor__scheme.html", null ]
     ] ],
@@ -801,6 +809,7 @@ var hierarchy =
     ] ],
     [ "nana::widgets::detail::tree_cont< UserData >", "d8/d6b/classnana_1_1widgets_1_1detail_1_1tree__cont.html", null ],
     [ "nana::widgets::detail::tree_node< T >", "d5/d6d/structnana_1_1widgets_1_1detail_1_1tree__node.html", null ],
+    [ "nana::widgets::detail::widget_iterator< Category, T >", "d8/df6/classnana_1_1widgets_1_1detail_1_1widget__iterator.html", null ],
     [ "nana::widgets::skeletons::colored_area_access_interface", "d1/d29/classnana_1_1widgets_1_1skeletons_1_1colored__area__access__interface.html", [
       [ "nana::widgets::skeletons::colored_area_access", "dd/d10/classnana_1_1widgets_1_1skeletons_1_1colored__area__access.html", null ]
     ] ],
@@ -809,6 +818,7 @@ var hierarchy =
     [ "nana::widgets::skeletons::content_view::events_type", "d2/d14/structnana_1_1widgets_1_1skeletons_1_1content__view_1_1events__type.html", null ],
     [ "nana::widgets::skeletons::content_view::implementation", "db/d9f/structnana_1_1widgets_1_1skeletons_1_1content__view_1_1implementation.html", null ],
     [ "nana::widgets::skeletons::content_view::implementation::conf_provider", "d6/daf/structnana_1_1widgets_1_1skeletons_1_1content__view_1_1implementation_1_1conf__provider.html", null ],
+    [ "nana::widgets::skeletons::cv_scroll_rep", "de/d98/structnana_1_1widgets_1_1skeletons_1_1cv__scroll__rep.html", null ],
     [ "nana::widgets::skeletons::data", "da/d3c/classnana_1_1widgets_1_1skeletons_1_1data.html", [
       [ "nana::widgets::skeletons::data_image", "d1/daa/classnana_1_1widgets_1_1skeletons_1_1data__image.html", null ],
       [ "nana::widgets::skeletons::data_text", "d2/d6c/classnana_1_1widgets_1_1skeletons_1_1data__text.html", null ]
@@ -856,9 +866,6 @@ var hierarchy =
       [ "nana::filesystem_ext::directory_only_iterator", "d2/d5e/classnana_1_1filesystem__ext_1_1directory__only__iterator.html", null ],
       [ "nana::filesystem_ext::regular_file_only_iterator", "db/d84/classnana_1_1filesystem__ext_1_1regular__file__only__iterator.html", null ]
     ] ],
-    [ "std::logic_error", "http://en.cppreference.com/w/cpp/error/logic_error.html", [
-      [ "nana::bad_optional_access", "d3/d43/classnana_1_1bad__optional__access.html", null ]
-    ] ],
     [ "std::runtime_error", "http://en.cppreference.com/w/cpp/error/runtime_error.html", [
       [ "nana::utf8_Error", "d4/d16/structnana_1_1utf8___error.html", null ]
     ] ],
@@ -866,5 +873,11 @@ var hierarchy =
     [ "nana::widgets::detail::tree_cont< treebox_node_type >", "d8/d6b/classnana_1_1widgets_1_1detail_1_1tree__cont.html", null ],
     [ "nana::widgets::detail::tree_node< element_type >", "d5/d6d/structnana_1_1widgets_1_1detail_1_1tree__node.html", null ],
     [ "nana::widgets::skeletons::undoable< command >", "d2/d33/classnana_1_1widgets_1_1skeletons_1_1undoable.html", null ],
-    [ "nana::widgets::skeletons::undoable_command_interface< command >", "df/da3/classnana_1_1widgets_1_1skeletons_1_1undoable__command__interface.html", null ]
+    [ "nana::widgets::skeletons::undoable_command_interface< command >", "df/da3/classnana_1_1widgets_1_1skeletons_1_1undoable__command__interface.html", null ],
+    [ "nana::widgets::detail::widget_iterator< std::input_iterator_tag, cat_proxy >", "d8/df6/classnana_1_1widgets_1_1detail_1_1widget__iterator.html", [
+      [ "nana::drawerbase::listbox::cat_proxy", "da/d11/classnana_1_1drawerbase_1_1listbox_1_1cat__proxy.html", null ]
+    ] ],
+    [ "nana::widgets::detail::widget_iterator< std::input_iterator_tag, item_proxy >", "d8/df6/classnana_1_1widgets_1_1detail_1_1widget__iterator.html", [
+      [ "nana::drawerbase::listbox::item_proxy", "df/d3e/classnana_1_1drawerbase_1_1listbox_1_1item__proxy.html", null ]
+    ] ]
 ];

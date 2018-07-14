@@ -2,7 +2,7 @@ var classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl =
 [
     [ "graph_reference", "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#aacba5743dfd923955e0b12bd7390d1f6", null ],
     [ "widget_reference", "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#ae24dc4cfcf3c57cbb5d2acc637baa595", null ],
-    [ "attach", "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#a1dda1b869b5ed0c0f92258ffc4ffa5ad", null ],
+    [ "attach", "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#a28e50a8cdd36364417482f049ce1419c", null ],
     [ "clear_state", "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#af073071c5a957974f3cc9d3b758f0beb", null ],
     [ "detach", "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#a3f51e3f980e4870fa3ee6715a61e2c06", null ],
     [ "draw", "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#afe397e74bafeaba213ec34273cc5a027", null ],

@@ -6,6 +6,8 @@ var classnana_1_1drawerbase_1_1listbox_1_1column__interface =
     [ "text", "de/d9b/classnana_1_1drawerbase_1_1listbox_1_1column__interface.html#a85a9f02e1e14dd3403b7dc0a941fa232", null ],
     [ "text", "de/d9b/classnana_1_1drawerbase_1_1listbox_1_1column__interface.html#ab4ae713c97a9feb6ddc746084a404837", null ],
     [ "text_align", "de/d9b/classnana_1_1drawerbase_1_1listbox_1_1column__interface.html#acbf8791ef1e388bbcbf4f227c3861dcd", null ],
+    [ "typeface", "de/d9b/classnana_1_1drawerbase_1_1listbox_1_1column__interface.html#a989b863aee37458a17f84501575071c6", null ],
+    [ "typeface", "de/d9b/classnana_1_1drawerbase_1_1listbox_1_1column__interface.html#ad8f877bd1cdecc7cc5cf86665373518b", null ],
     [ "visible", "de/d9b/classnana_1_1drawerbase_1_1listbox_1_1column__interface.html#a0b0d6a1f0416f191e0243ab6acbd579c", null ],
     [ "visible", "de/d9b/classnana_1_1drawerbase_1_1listbox_1_1column__interface.html#aceb4b281faa59444055d6cf0344591cb", null ],
     [ "width", "de/d9b/classnana_1_1drawerbase_1_1listbox_1_1column__interface.html#ab7d2b4ad03afb84fc2e4db71489a1357", null ],

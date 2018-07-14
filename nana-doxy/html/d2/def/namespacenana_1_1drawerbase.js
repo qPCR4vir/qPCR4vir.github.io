@@ -7,6 +7,7 @@ var namespacenana_1_1drawerbase =
     [ "date_chooser", "d4/d4f/namespacenana_1_1drawerbase_1_1date__chooser.html", "d4/d4f/namespacenana_1_1drawerbase_1_1date__chooser" ],
     [ "float_listbox", "dd/dcb/namespacenana_1_1drawerbase_1_1float__listbox.html", "dd/dcb/namespacenana_1_1drawerbase_1_1float__listbox" ],
     [ "form", "d0/d10/namespacenana_1_1drawerbase_1_1form.html", "d0/d10/namespacenana_1_1drawerbase_1_1form" ],
+    [ "group", "d6/dd4/namespacenana_1_1drawerbase_1_1group.html", "d6/dd4/namespacenana_1_1drawerbase_1_1group" ],
     [ "label", "dc/d6a/namespacenana_1_1drawerbase_1_1label.html", "dc/d6a/namespacenana_1_1drawerbase_1_1label" ],
     [ "listbox", "d7/d3b/namespacenana_1_1drawerbase_1_1listbox.html", "d7/d3b/namespacenana_1_1drawerbase_1_1listbox" ],
     [ "menu", "d3/deb/namespacenana_1_1drawerbase_1_1menu.html", "d3/deb/namespacenana_1_1drawerbase_1_1menu" ],

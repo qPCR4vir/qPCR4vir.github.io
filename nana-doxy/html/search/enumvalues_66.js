@@ -7,7 +7,7 @@ var searchData=
   ['floated',['floated',['../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ae4c11c9e585708c50fe3b884c3d687a8ae19250085b8bacf4d0fce9c8e972dfa5',1,'nana::drawerbase::listbox::essence']]],
   ['floatlist',['floatlist',['../d3/d90/classnana_1_1drawerbase_1_1categorize_1_1trigger_1_1scheme.html#a50452af9b0700e240b7042bea6defae5adaa0eff338a0a73ad0899f423360fc33',1,'nana::drawerbase::categorize::trigger::scheme']]],
   ['floral_5fwhite',['floral_white',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a996483b6f227bb90a1a066a4d1d6ce10',1,'nana']]],
-  ['focus',['focus',['../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3a1818d506396d77b3d035f719885c4cd1',1,'nana']]],
+  ['focus',['focus',['../df/d3d/structnana_1_1drawerbase_1_1menubar_1_1trigger_1_1essence.html#ae9e8ba234b75793f8aefb897aad285e1a1818d506396d77b3d035f719885c4cd1',1,'nana::drawerbase::menubar::trigger::essence::focus()'],['../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3a1818d506396d77b3d035f719885c4cd1',1,'nana::focus()']]],
   ['focus_5fhovered',['focus_hovered',['../d2/d76/namespacenana.html#a940c1bfd833b23d54d10b1f77dc06874a20d72f9ebdeb4afaf7fd849b708a69ae',1,'nana']]],
   ['focus_5fnormal',['focus_normal',['../d2/d76/namespacenana.html#a940c1bfd833b23d54d10b1f77dc06874a141884bc15a01cce0fe19822e4467d35',1,'nana']]],
   ['font',['font',['../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccda47a282dfe68a42d302e22c4920ed9b5e',1,'nana::widgets::skeletons']]],

@@ -32,6 +32,7 @@ var searchData=
   ['vector_3c_20nana_3a_3adrawerbase_3a_3alistbox_3a_3acell_20_3e',['vector&lt; nana::drawerbase::listbox::cell &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
   ['vector_3c_20nana_3a_3adrawerbase_3a_3alistbox_3a_3ainline_5fpane_20_2a_20_3e',['vector&lt; nana::drawerbase::listbox::inline_pane * &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
   ['vector_3c_20nana_3a_3adrawerbase_3a_3amenu_3a_3amenu_5ftype_20_2a_20_3e',['vector&lt; nana::drawerbase::menu::menu_type * &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
+  ['vector_3c_20nana_3a_3adrawerbase_3a_3amenubar_3a_3aitem_5ftype_20_2a_20_3e',['vector&lt; nana::drawerbase::menubar::item_type * &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
   ['vector_3c_20nana_3a_3afilebox_3a_3aimplement_3a_3afilter_20_3e',['vector&lt; nana::filebox::implement::filter &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
   ['vector_3c_20nana_3a_3anana_3a_3abasic_5fpoint_20_3e',['vector&lt; nana::nana::basic_point &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
   ['vector_3c_20nana_3a_3aplace_3a_3aimplement_3a_3afield_5fgather_3a_3aelement_5ft_20_3e',['vector&lt; nana::place::implement::field_gather::element_t &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],

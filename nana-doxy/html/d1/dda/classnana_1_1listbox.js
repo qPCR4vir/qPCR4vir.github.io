@@ -37,6 +37,7 @@ var classnana_1_1listbox =
     [ "checked", "d1/dda/classnana_1_1listbox.html#adfda9ae5f4c9c0555ce5d45eb0618ec8", null ],
     [ "clear", "d1/dda/classnana_1_1listbox.html#a783a45d2707b250ac72c5ff98515a26e", null ],
     [ "clear", "d1/dda/classnana_1_1listbox.html#a9b1ff772406634d024f2d3587aef5316", null ],
+    [ "clear_headers", "d1/dda/classnana_1_1listbox.html#a4e9fde6151d0dd858d25de77c9f31a6d", null ],
     [ "column_at", "d1/dda/classnana_1_1listbox.html#a145c233e0eb82fcd1858fdc9001bd972", null ],
     [ "column_at", "d1/dda/classnana_1_1listbox.html#aeb601432b89c7907d6c3f75215a5c38e", null ],
     [ "column_from_pos", "d1/dda/classnana_1_1listbox.html#a75ec63fd6040fe31c5e3bb3517670609", null ],

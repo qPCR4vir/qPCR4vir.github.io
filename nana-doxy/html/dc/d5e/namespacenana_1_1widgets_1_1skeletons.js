@@ -13,6 +13,8 @@ var namespacenana_1_1widgets_1_1skeletons =
     [ "data_image", "d1/daa/classnana_1_1widgets_1_1skeletons_1_1data__image.html", "d1/daa/classnana_1_1widgets_1_1skeletons_1_1data__image" ],
     [ "dstream", "d3/d2d/classnana_1_1widgets_1_1skeletons_1_1dstream.html", "d3/d2d/classnana_1_1widgets_1_1skeletons_1_1dstream" ],
     [ "content_view", "d7/dd1/classnana_1_1widgets_1_1skeletons_1_1content__view.html", "d7/dd1/classnana_1_1widgets_1_1skeletons_1_1content__view" ],
+    [ "cv_scroll_rep", "de/d98/structnana_1_1widgets_1_1skeletons_1_1cv__scroll__rep.html", "de/d98/structnana_1_1widgets_1_1skeletons_1_1cv__scroll__rep" ],
+    [ "scroll_operation", "dc/dbe/classnana_1_1widgets_1_1skeletons_1_1scroll__operation.html", "dc/dbe/classnana_1_1widgets_1_1skeletons_1_1scroll__operation" ],
     [ "undoable_command_interface", "df/da3/classnana_1_1widgets_1_1skeletons_1_1undoable__command__interface.html", "df/da3/classnana_1_1widgets_1_1skeletons_1_1undoable__command__interface" ],
     [ "undoable", "d2/d33/classnana_1_1widgets_1_1skeletons_1_1undoable.html", "d2/d33/classnana_1_1widgets_1_1skeletons_1_1undoable" ],
     [ "keyword_scheme", "dc/d28/structnana_1_1widgets_1_1skeletons_1_1keyword__scheme.html", "dc/d28/structnana_1_1widgets_1_1skeletons_1_1keyword__scheme" ],

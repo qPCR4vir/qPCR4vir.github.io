@@ -27,7 +27,7 @@ var searchData=
   ['map_3c_20std_3a_3astring_2c_20std_3a_3ashared_5fptr_3c_20nana_3a_3aelement_5fobject_3c_20element_3a_3aelement_5finterface_20_3e_20_3e_20_3e',['map&lt; std::string, std::shared_ptr&lt; nana::element_object&lt; element::element_interface &gt; &gt; &gt;',['http://en.cppreference.com/w/cpp/container/map.html',1,'std']]],
   ['map_3c_20std_3a_3astring_2c_20std_3a_3ashared_5fptr_3c_20nana_3a_3aelement_5fobject_3c_20elementinterface_20_3e_20_3e_20_3e',['map&lt; std::string, std::shared_ptr&lt; nana::element_object&lt; ElementInterface &gt; &gt; &gt;',['http://en.cppreference.com/w/cpp/container/map.html',1,'std']]],
   ['map_3c_20std_3a_3astring_2c_20std_3a_3ashared_5fptr_3c_20nana_3a_3awidgets_3a_3askeletons_3a_3akeyword_5fscheme_20_3e_20_3e',['map&lt; std::string, std::shared_ptr&lt; nana::widgets::skeletons::keyword_scheme &gt; &gt;',['http://en.cppreference.com/w/cpp/container/map.html',1,'std']]],
-  ['map_3c_20unsigned_2c_20thread_5fbinder_20_2a_20_3e',['map&lt; unsigned, thread_binder * &gt;',['http://en.cppreference.com/w/cpp/container/map.html',1,'std']]],
+  ['map_3c_20thread_5ft_2c_20thread_5fbinder_20_2a_20_3e',['map&lt; thread_t, thread_binder * &gt;',['http://en.cppreference.com/w/cpp/container/map.html',1,'std']]],
   ['map_3c_20window_2c_20thread_5fbinder_20_2a_20_3e',['map&lt; Window, thread_binder * &gt;',['http://en.cppreference.com/w/cpp/container/map.html',1,'std']]],
   ['margin',['margin',['../d4/d9f/classnana_1_1place__parts_1_1margin.html',1,'nana::place_parts']]],
   ['mask',['mask',['http://en.cppreference.com/w/cpp/locale/ctype_base.html',1,'std::ctype']]],

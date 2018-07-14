@@ -14,6 +14,7 @@ var searchData=
   ['medium_5fspring_5fgreen',['medium_spring_green',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a5157a28c83d98d39066c60c83a6983f8',1,'nana']]],
   ['medium_5fturquoise',['medium_turquoise',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a4db3022648c31d28b86ad95583d6c3c7',1,'nana']]],
   ['medium_5fviolet_5fred',['medium_violet_red',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98ae8c7ad982a8c98a38c7e3381043b94d8',1,'nana']]],
+  ['menu',['menu',['../df/d3d/structnana_1_1drawerbase_1_1menubar_1_1trigger_1_1essence.html#ae9e8ba234b75793f8aefb897aad285e1a8d6ab84ca2af9fccd4e4048694176ebf',1,'nana::drawerbase::menubar::trigger::essence']]],
   ['middle_5fbutton',['middle_button',['../d2/d76/namespacenana.html#a19ba554a683a93eb1f6ba803c2959c8aa7f83eb1a2ea4019a866724f0baa49f6b',1,'nana']]],
   ['midnight_5fblue',['midnight_blue',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a83d1d60e0de07e8b1bf164247a77e28b',1,'nana']]],
   ['min_5flimited',['min_limited',['../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccda2c53d7adf127734c4b1ec79cb17f9bd0',1,'nana::widgets::skeletons']]],

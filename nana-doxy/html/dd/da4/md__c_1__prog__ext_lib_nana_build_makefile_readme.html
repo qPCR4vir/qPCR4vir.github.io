@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('dd/da4/md__c_1__prog__ext_lib_nana_bui
 <h2>Example of writing a makefile for creating applications with Nana C++ Library </h2>
 <p>``` GCC = g++ NANAPATH = [The folder of Nana C++ Library] BIN = [The bin file what you want to create.] SOURCES = [The source file of your application.]</p>
 <p>NANAINC = /include NANALIB = /build/bin</p>
-<p>INCS = -I LIBS = -L -lnana -lX11 -lpthread -lrt -lXft -lpng -lasound</p>
+<p>INCS = -I LIBS = -L -lnana -lX11 -lpthread -lrt -lXft -lpng -lasound -lfontconfig</p>
 <p>LINKOBJ = $(SOURCES:.cpp=.o)</p>
 <p>:  /libnana.a     -o  -std=c++0x</p>
 <p>.cpp.o:  -g -c $&lt; -o $@  -std=c++0x</p>

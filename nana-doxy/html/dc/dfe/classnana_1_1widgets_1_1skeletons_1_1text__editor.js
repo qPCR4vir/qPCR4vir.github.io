@@ -75,6 +75,7 @@ var classnana_1_1widgets_1_1skeletons_1_1text__editor =
     [ "respond_key", "dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html#a9c9b1a8a22a912cf41fedd52ab2d5630", null ],
     [ "screen_lines", "dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html#ad0bc32e8e15ac6d23b5f4efb3b0fa361", null ],
     [ "scroll", "dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html#a8226945789ef41de7ffec6ef6cd59676", null ],
+    [ "scroll_operation", "dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html#ac650bdfd5c68029d8d5dfa16ffbc95bf", null ],
     [ "select", "dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html#a50f05add2c4312cdbfab7990f1dd976f", null ],
     [ "select_behavior", "dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html#adb64390202cdfe9ae727cced0ef32e91", null ],
     [ "select_word", "dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html#ad8c8ba31526df4fe898910353e7f1a63", null ],

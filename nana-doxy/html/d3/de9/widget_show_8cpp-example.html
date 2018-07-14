@@ -112,6 +112,7 @@ $(document).ready(function(){initNavTree('d3/de9/widget_show_8cpp-example.html',
 <div class="line"><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;map&gt;</span></div>
 <div class="line"></div>
+<div class="line"><span class="preprocessor">#include &lt;nana/deploy.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/place.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/button.hpp&gt;</span></div>
@@ -188,16 +189,20 @@ $(document).ready(function(){initNavTree('d3/de9/widget_show_8cpp-example.html',
 <div class="line"></div>
 <div class="line"> </div>
 <div class="line">                        item_proxy node = treebox_.insert(fs_ext::def_root, fs_ext::def_rootname);</div>
-<div class="line">                        fs::directory_iterator i(fs_ext::def_rootstr), <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/iterator/end.html">end</a>;</div>
 <div class="line"> </div>
-<div class="line">                        <span class="keywordflow">for</span>(; i != end; ++i)</div>
-<div class="line">                        {</div>
-<div class="line">                                <span class="keywordflow">if</span>(!<a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a7211521f92374129d1ef32e03a43f4e1">is_directory</a>(*i)  ) <span class="keywordflow">continue</span>;</div>
+<div class="line">                        <span class="comment">// Boost can throw an exception &quot;Access is denied&quot;</span></div>
+<div class="line">                        <span class="comment">// when accessing some system paths, like &quot;C:\Config.Msi&quot;</span></div>
+<div class="line">                        <span class="keywordflow">try</span> {</div>
+<div class="line">                                fs::directory_iterator i(fs_ext::def_rootstr), <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/iterator/end.html">end</a>; </div>
+<div class="line">                                <span class="keywordflow">for</span>(; i != end; ++i)</div>
+<div class="line">                                {</div>
+<div class="line">                                        <span class="keywordflow">if</span>(!<a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a7211521f92374129d1ef32e03a43f4e1">is_directory</a>(*i)  ) <span class="keywordflow">continue</span>;</div>
 <div class="line"></div>
-<div class="line">                                treebox_.insert(node,  i-&gt;path().filename().generic_u8string(),</div>
-<div class="line">                                                           i-&gt;path().filename().generic_u8string());</div>
-<div class="line">                                <span class="keywordflow">break</span>;</div>
-<div class="line">                        }</div>
+<div class="line">                                    treebox_.insert(node, <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a626594deea328e1f748029d0279560a4">fs_ext::generic_u8string</a>(i-&gt;path().filename()),</div>
+<div class="line">                                                              <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a626594deea328e1f748029d0279560a4">fs_ext::generic_u8string</a>(i-&gt;path().filename()));</div>
+<div class="line">                                        <span class="keywordflow">break</span>;</div>
+<div class="line">                                }</div>
+<div class="line">                        } <span class="keywordflow">catch</span> (...) {}</div>
 <div class="line">            treebox_.events().expanded([<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a8"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html">arg_treebox</a>&amp; a){_m_expand(a.<a name="a9"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#a5e1cd27e43212cfe328b6e516e91df41">widget</a>, a.<a name="a10"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>, a.<a name="a11"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ad8e07298693767fbb840d04eefb20ce5">operated</a>);});</div>
 <div class="line"><span class="comment">//( [&amp;]( const nana::arg_treebox &amp;tbox_arg_info ) { if (tbox_arg_info.operated) RefreshList(tbox_arg_info.item); });</span></div>
 <div class="line">                }</div>
@@ -213,29 +218,33 @@ $(document).ready(function(){initNavTree('d3/de9/widget_show_8cpp-example.html',
 <div class="line">                        <span class="keywordflow">if</span>(path_start_pos != std::string::npos)</div>
 <div class="line">                                path.<a name="a14"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/erase.html">erase</a>(0, path_start_pos);</div>
 <div class="line"></div>
+<div class="line">                        <span class="keywordflow">try</span> {</div>
 <div class="line">                        <span class="comment">//Walk in the path directory for sub directories.</span></div>
 <div class="line">                        fs::directory_iterator i(path), <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/iterator/end.html">end</a>;</div>
 <div class="line">                        <span class="keywordflow">for</span>(; i != end; ++i)</div>
 <div class="line">                        {</div>
 <div class="line">                                <span class="keywordflow">if</span> (!fs::is_directory(*i))  <span class="keywordflow">continue</span>; <span class="comment">//If it is not a directory.</span></div>
 <div class="line"></div>
-<div class="line">                                item_proxy child = treebox_.insert(node, i-&gt;path().filename().generic_u8string(),</div>
-<div class="line">                                                                             i-&gt;path().filename().generic_u8string());</div>
+<div class="line">                                item_proxy child = treebox_.insert(node, <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a626594deea328e1f748029d0279560a4">fs_ext::generic_u8string</a>(i-&gt;path().filename()),</div>
+<div class="line">                                                                             <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a626594deea328e1f748029d0279560a4">fs_ext::generic_u8string</a>(i-&gt;path().filename()));</div>
 <div class="line">                                <span class="keywordflow">if</span> ( child.empty() ) <span class="keywordflow">continue</span>;</div>
 <div class="line">            </div>
 <div class="line">                                <span class="comment">//Find a directory in child directory, if there is a directory,</span></div>
 <div class="line">                                <span class="comment">//insert it into the child, just insert one node to indicate the</span></div>
 <div class="line">                                <span class="comment">//node has a child and an arrow symbol will be displayed in the</span></div>
 <div class="line">                                <span class="comment">//front of the node.</span></div>
+<div class="line">                                        <span class="keywordflow">try</span> {</div>
 <div class="line">                                fs::directory_iterator u(i-&gt;path());</div>
 <div class="line">                                <span class="keywordflow">for</span>(; u != end; ++u)</div>
 <div class="line">                                {</div>
 <div class="line">                                        <span class="keywordflow">if</span> (!fs::is_directory(*u))  <span class="keywordflow">continue</span>; <span class="comment">//If it is not a directory.</span></div>
-<div class="line">                                        treebox_.insert(child, u-&gt;path().filename().generic_u8string(),</div>
-<div class="line">                                                                   u-&gt;path().filename().generic_u8string());</div>
+<div class="line">                                        treebox_.insert(child, <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a626594deea328e1f748029d0279560a4">fs_ext::generic_u8string</a>(u-&gt;path().filename()),</div>
+<div class="line">                                                                   <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a626594deea328e1f748029d0279560a4">fs_ext::generic_u8string</a>(u-&gt;path().filename()));</div>
 <div class="line">                                        <span class="keywordflow">break</span>;</div>
 <div class="line">                                }</div>
+<div class="line">                                        } <span class="keywordflow">catch</span> (...) {}</div>
 <div class="line">                        }</div>
+<div class="line">                        } <span class="keywordflow">catch</span> (...) {}</div>
 <div class="line">                }</div>
 <div class="line">        <span class="keyword">private</span>:</div>
 <div class="line">                <a class="code" href="../../dc/de3/classnana_1_1place.html">place</a> place_;</div>

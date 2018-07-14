@@ -26,6 +26,7 @@ var searchData=
   ['decrease',['decrease',['../d8/d4c/namespacenana_1_1drawerbase_1_1spinbox.html#a845110c6ec82fba80935629b6ce4b54eab0fe2606af48e49fd3746844798eb6a0',1,'nana::drawerbase::spinbox']]],
   ['deep_5fpink',['deep_pink',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a350b14335681ec97282ca0452dd5e7dc',1,'nana']]],
   ['deep_5fsky_5fblue',['deep_sky_blue',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a384d3f701794afb076dd9e92980bdd91',1,'nana']]],
+  ['del',['del',['../de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eab690bd3177e09152f8d3a1df97e8c135',1,'nana::keyboard']]],
   ['destroy',['destroy',['../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3afb14982288108e1fbd6207ef55f05027',1,'nana']]],
   ['dim_5fgray',['dim_gray',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a75435e6bea50867263766b9e5f9bc08d',1,'nana']]],
   ['dim_5fgrey',['dim_grey',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98abc048b83e68b33c13b917f0ba4028f42',1,'nana']]],

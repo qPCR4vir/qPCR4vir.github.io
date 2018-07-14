@@ -28,7 +28,7 @@ var structnana_1_1detail_1_1native__interface =
     [ "is_window_visible", "d4/d06/structnana_1_1detail_1_1native__interface.html#a678a77b57735331ad21def9d04c68677", null ],
     [ "is_window_zoomed", "d4/d06/structnana_1_1detail_1_1native__interface.html#a121f711530eb6d439436f9f1fdb4cb91", null ],
     [ "move_window", "d4/d06/structnana_1_1detail_1_1native__interface.html#a34caa75abdbfdb0c6c83473abd8be28b", null ],
-    [ "move_window", "d4/d06/structnana_1_1detail_1_1native__interface.html#a0df500625cc6d72481fa96db31d6afd4", null ],
+    [ "move_window", "d4/d06/structnana_1_1detail_1_1native__interface.html#a5d4030d04def6bf7878b3da6b5d192be", null ],
     [ "parent_window", "d4/d06/structnana_1_1detail_1_1native__interface.html#a5902c4701f04ce3e712b19ce5ca034b6", null ],
     [ "parent_window", "d4/d06/structnana_1_1detail_1_1native__interface.html#a49fd340ce995a502cbb229407f454e0b", null ],
     [ "primary_monitor_size", "d4/d06/structnana_1_1detail_1_1native__interface.html#a92ee9ec46197315efd36c5cadc8c8473", null ],
@@ -42,6 +42,6 @@ var structnana_1_1detail_1_1native__interface =
     [ "window_caption", "d4/d06/structnana_1_1detail_1_1native__interface.html#a4defeb6395fe46ea64f8a50611ac6815", null ],
     [ "window_icon", "d4/d06/structnana_1_1detail_1_1native__interface.html#a76512658e35315578ee339c90289ebc7", null ],
     [ "window_position", "d4/d06/structnana_1_1detail_1_1native__interface.html#ace782c7437aa4694fdd87de2d968d562", null ],
-    [ "window_size", "d4/d06/structnana_1_1detail_1_1native__interface.html#a9905ae4ab67e8699b1c96ebc81b38d31", null ],
+    [ "window_size", "d4/d06/structnana_1_1detail_1_1native__interface.html#aa7f8d3119a76ae633ed0ef546df89786", null ],
     [ "zoom_window", "d4/d06/structnana_1_1detail_1_1native__interface.html#a56ed3c0d5ff34da321e7a59ac86d5541", null ]
 ];

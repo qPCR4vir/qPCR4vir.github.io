@@ -24,6 +24,7 @@ var classnana_1_1widgets_1_1skeletons_1_1content__view =
     [ "origin", "d7/dd1/classnana_1_1widgets_1_1skeletons_1_1content__view.html#af8ca275b9a5c94ea067e72b16f2cd5f8", null ],
     [ "pursue", "d7/dd1/classnana_1_1widgets_1_1skeletons_1_1content__view.html#a4f01f58c8da66a39d4f9a45de0529fd7", null ],
     [ "scroll", "d7/dd1/classnana_1_1widgets_1_1skeletons_1_1content__view.html#ae0d0e385049333249d8fd1a210d4640e", null ],
+    [ "scroll_operation", "d7/dd1/classnana_1_1widgets_1_1skeletons_1_1content__view.html#af461b5de404300236e97b554106229c0", null ],
     [ "set_wheel_speed", "d7/dd1/classnana_1_1widgets_1_1skeletons_1_1content__view.html#a45fab442bbf60509608fa109e1cb14f7", null ],
     [ "space", "d7/dd1/classnana_1_1widgets_1_1skeletons_1_1content__view.html#a9445687ab68a091e8ba3e0bc6edb8e11", null ],
     [ "step", "d7/dd1/classnana_1_1widgets_1_1skeletons_1_1content__view.html#a9ce597d2ccc809b133cde3ff19a5c0d5", null ],

@@ -7,6 +7,7 @@ var classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped =
     [ "merge_lines", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#ae57847a4329f7dfe527258710e3261ab", null ],
     [ "pre_calc_line", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#acba81ac942b98fd184040a2c0eebaaf4", null ],
     [ "pre_calc_lines", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a62e1c10d5d9bb95c9e4e33e4db01e626", null ],
+    [ "prepare", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#adb5a1f0a485e6bb7015df1a96d760034", null ],
     [ "take_lines", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a1b545f1ae77b05ebae3563f12c5a2b5e", null ],
     [ "take_lines", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a2c0834f7ea104904f1da94c7bc8d018f", null ],
     [ "text_position_from_screen", "d4/dae/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1behavior__linewrapped.html#a913027ca1a879cf375bfc2da99f9fcc1", null ]

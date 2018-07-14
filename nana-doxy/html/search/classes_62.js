@@ -10,7 +10,6 @@ var searchData=
   ['bad_5fexception',['bad_exception',['http://en.cppreference.com/w/cpp/error/bad_exception.html',1,'std']]],
   ['bad_5ffunction_5fcall',['bad_function_call',['http://en.cppreference.com/w/cpp/utility/functional/bad_function_call.html',1,'std']]],
   ['bad_5foptional_5faccess',['bad_optional_access',['http://en.cppreference.com/w/cpp/utility/bad_optional_access.html',1,'std']]],
-  ['bad_5foptional_5faccess',['bad_optional_access',['../d3/d43/classnana_1_1bad__optional__access.html',1,'nana']]],
   ['bad_5ftypeid',['bad_typeid',['http://en.cppreference.com/w/cpp/types/bad_typeid.html',1,'std']]],
   ['bad_5fweak_5fptr',['bad_weak_ptr',['http://en.cppreference.com/w/cpp/memory/bad_weak_ptr.html',1,'std']]],
   ['bald',['bald',['../df/dc3/structnana_1_1appear_1_1bald.html',1,'nana::appear']]],

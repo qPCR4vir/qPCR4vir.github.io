@@ -24,6 +24,7 @@ var classnana_1_1menu =
     [ "gaps", "d2/d1a/classnana_1_1menu.html#addb83a348a5c9347dfca9f6c12ef0ddb", null ],
     [ "goto_next", "d2/d1a/classnana_1_1menu.html#ab00a974e03b7f409153634a216d0554b", null ],
     [ "goto_submen", "d2/d1a/classnana_1_1menu.html#ad725b288f9e84aa4562b46c72ff367b4", null ],
+    [ "handle", "d2/d1a/classnana_1_1menu.html#a884b58eafca84987e16eae9cde2ed42d", null ],
     [ "image", "d2/d1a/classnana_1_1menu.html#affa6d88e26c4a3e6f9962acbb6bb782f", null ],
     [ "insert", "d2/d1a/classnana_1_1menu.html#a3f4b11a6093dfc2fb09893fdd8c8ac0d", null ],
     [ "item_pixels", "d2/d1a/classnana_1_1menu.html#ac819d47edb3865a8590122be598117b3", null ],

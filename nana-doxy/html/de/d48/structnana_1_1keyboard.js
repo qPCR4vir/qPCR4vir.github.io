@@ -14,6 +14,8 @@ var structnana_1_1keyboard =
     [ "substitute", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eaf1f5ff37b991e596a69d595d009083a8", null ],
     [ "escape", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eadc25f8b94d6fb3a82c137bbb17607fcc", null ],
     [ "space", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea8768e301255911e78a1bd515e3561563", null ],
+    [ "del", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eab690bd3177e09152f8d3a1df97e8c135", null ],
+    [ "os_del", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eac3a786c050d585e9a2ce954b63f7fac4", null ],
     [ "select_all", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea684639eb3544aa90baaea983c2452e51", null ],
     [ "copy", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea41be3e79c6cdc1052ac9cb75c679c139", null ],
     [ "paste", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea9b2dff61d40ee7c1823d3c5b8328ff5f", null ],
@@ -30,7 +32,6 @@ var structnana_1_1keyboard =
     [ "os_arrow_right", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea2503cfb6d963020cb29731c284d72c84", null ],
     [ "os_arrow_down", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea4145926a69ee781abd668a1380d81e74", null ],
     [ "os_insert", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea88daaf203766f54f7c3e7055b7e97a25", null ],
-    [ "os_del", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eac3a786c050d585e9a2ce954b63f7fac4", null ],
     [ "os_end", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea37471636008330df953cf8a7f79469cd", null ],
     [ "os_home", "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea45c352a69139db94cf2f713663798a9e", null ]
 ];

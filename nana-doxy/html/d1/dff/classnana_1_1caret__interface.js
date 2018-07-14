@@ -1,6 +1,7 @@
 var classnana_1_1caret__interface =
 [
     [ "~caret_interface", "d1/dff/classnana_1_1caret__interface.html#aace3ea60369734d90d5cb770c0d10256", null ],
+    [ "activated", "d1/dff/classnana_1_1caret__interface.html#ac8c861075e5a0870078af895bc37e156", null ],
     [ "dimension", "d1/dff/classnana_1_1caret__interface.html#a3516714b9dedc1dc9562548e84926267", null ],
     [ "dimension", "d1/dff/classnana_1_1caret__interface.html#ac60efc402315879b9a89e807909c3ad1", null ],
     [ "disable_throw", "d1/dff/classnana_1_1caret__interface.html#a67f2f5adf62a51f8d2709092f8dd46f3", null ],

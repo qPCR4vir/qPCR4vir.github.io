@@ -1,7 +1,6 @@
 var structnana_1_1drawerbase_1_1listbox_1_1essence =
 [
     [ "mouse_selection_part", "d7/d3c/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1mouse__selection__part.html", "d7/d3c/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1mouse__selection__part" ],
-    [ "pred_mouse_selection", "d0/d9c/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1pred__mouse__selection.html", "d0/d9c/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1pred__mouse__selection" ],
     [ "item_state", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ae4c11c9e585708c50fe3b884c3d687a8", [
       [ "normal", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ae4c11c9e585708c50fe3b884c3d687a8afea087517c26fadd409bd4b9dc642555", null ],
       [ "highlighted", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ae4c11c9e585708c50fe3b884c3d687a8a1abbba778c2f73b54b6c8244a894f074", null ],
@@ -26,14 +25,16 @@ var structnana_1_1drawerbase_1_1listbox_1_1essence =
     [ "content_position", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#afd3255892eb0bbcd62210424cdeb054d", null ],
     [ "coordinate_cast", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a3a2930458f44faf8db0377729d345200", null ],
     [ "count_of_exposed", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#abc77e5db75d43f6099e7ad2e728056a1", null ],
+    [ "cs_status", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#af9cdaa5299996c3e35d8773cb80677a5", null ],
     [ "draw_peripheral", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a0a09175e22772ed1d8abad225da1b3cb", null ],
     [ "first_display", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a640aab17d82ea233d8213790e541b76a", null ],
-    [ "header_seq", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ab6ed994f409371542cf7d6a90a8b12b4", null ],
+    [ "header_font_px", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a869b869cdc6eff71c2aa173e01a36a3f", null ],
     [ "header_visible_px", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#add73d5b407b56dd188703e6a829f0175", null ],
     [ "item_coordinate", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a50292dc7377cbe73b03281f5866548ab", null ],
     [ "item_height", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a292a06a47b529bb1783420d767053ea2", null ],
     [ "item_xpos", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a8eabf6257279aa7acc4a29909e18db43", null ],
     [ "open_inline", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#adec6dcb6fc41c392f09f4794d4bb4da3", null ],
+    [ "ordered_columns", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#aedda691e071d8111fd09dac7e3cef994", null ],
     [ "rect_header", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ae0268bc233c045a52e750bd3deb1d183", null ],
     [ "rect_lister", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a5bfb506c08b4d33e8d654ec81fe90cd1", null ],
     [ "resize_disp_area", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ad7d6f1003ce2beec4ed8eb824a2698b9", null ],

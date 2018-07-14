@@ -7,7 +7,7 @@ var classnana_1_1treebox =
     [ "treebox", "da/de1/classnana_1_1treebox.html#a99df2981ae61470ef8d2b74e5e2e355e", null ],
     [ "treebox", "da/de1/classnana_1_1treebox.html#a5bf5de5de789e426fe0a6fdd0efe8444", null ],
     [ "treebox", "da/de1/classnana_1_1treebox.html#ae50c62b468fee2a9026b24d9b8707c30", null ],
-    [ "auto_draw", "da/de1/classnana_1_1treebox.html#ad4590bb81d6ed640a6831248367b4249", null ],
+    [ "auto_draw", "da/de1/classnana_1_1treebox.html#ad9cdb3b95f4f2e11266f018d10429159", null ],
     [ "checkable", "da/de1/classnana_1_1treebox.html#ad1f3ce7027a3ffb680fccb6664985140", null ],
     [ "checkable", "da/de1/classnana_1_1treebox.html#a078141a1b586136b04fcc74ecf65a73b", null ],
     [ "clear", "da/de1/classnana_1_1treebox.html#a0accae92862f9823b06ba2de692cb8c6", null ],

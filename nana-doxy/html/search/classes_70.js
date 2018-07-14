@@ -47,7 +47,6 @@ var searchData=
   ['popuper',['popuper',['../d2/d98/classnana_1_1detail_1_1popuper.html',1,'nana::detail']]],
   ['pred_5fallow_5fchild',['pred_allow_child',['../d9/db3/structnana_1_1drawerbase_1_1treebox_1_1pred__allow__child.html',1,'nana::drawerbase::treebox']]],
   ['pred_5fcancel',['pred_cancel',['../d6/d95/structnana_1_1drawerbase_1_1listbox_1_1es__lister_1_1pred__cancel.html',1,'nana::drawerbase::listbox::es_lister']]],
-  ['pred_5fmouse_5fselection',['pred_mouse_selection',['../d0/d9c/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1pred__mouse__selection.html',1,'nana::drawerbase::listbox::essence']]],
   ['priority_5fqueue',['priority_queue',['http://en.cppreference.com/w/cpp/container/priority_queue.html',1,'std']]],
   ['progress',['progress',['../d2/d93/classnana_1_1progress.html',1,'nana']]],
   ['promise',['promise',['http://en.cppreference.com/w/cpp/thread/promise.html',1,'std']]],

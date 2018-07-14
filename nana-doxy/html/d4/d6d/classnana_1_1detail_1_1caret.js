@@ -3,6 +3,7 @@ var classnana_1_1detail_1_1caret =
     [ "caret", "d4/d6d/classnana_1_1detail_1_1caret.html#aaaaf3e852a303eaa8bb27ead04b5f843", null ],
     [ "~caret", "d4/d6d/classnana_1_1detail_1_1caret.html#ab880b1aaa2bde919fd8dbb0b2be4b816", null ],
     [ "activate", "d4/d6d/classnana_1_1detail_1_1caret.html#a2e1e138b688385a02207922f001645ea", null ],
+    [ "activated", "d4/d6d/classnana_1_1detail_1_1caret.html#acdaf06080ed660e87c1051fd59d4e9a0", null ],
     [ "dimension", "d4/d6d/classnana_1_1detail_1_1caret.html#ab27708ab4ad6059404beada9e8d186b1", null ],
     [ "dimension", "d4/d6d/classnana_1_1detail_1_1caret.html#a7258fb5f3365fac6183a8c8af3c7726c", null ],
     [ "disable_throw", "d4/d6d/classnana_1_1detail_1_1caret.html#a5b06627bc1e114751fbf78d84da8c5dc", null ],
