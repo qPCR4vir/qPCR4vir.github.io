@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('d0/deb/animate-bmp_8cpp-example.html',
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Properties</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -104,27 +104,28 @@ $(document).ready(function(){initNavTree('d0/deb/animate-bmp_8cpp-example.html',
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/animation.hpp&gt;</span></div>
 <div class="line"></div>
-<div class="line"><span class="keywordtype">int</span> main()</div>
+<div class="line"><span class="keywordtype">int</span> <a class="code" href="../../d9/da0/namespacepip_1_1__internal.html#af45dd17747a42e9a88101c77858cf019">main</a>()</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">using namespace </span>nana;</div>
 <div class="line">   </div>
 <div class="line">    <span class="comment">//Build frames</span></div>
 <div class="line">    <a name="_a0"></a><a class="code" href="../../dc/d2f/classnana_1_1frameset.html">frameset</a> fset;</div>
-<div class="line">    fset.<a name="a1"></a><a class="code" href="../../dc/d2f/classnana_1_1frameset.html#a19401d92d2233b30e88aa29305938c16">push_back</a>(<a name="_a2"></a><a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>(<span class="stringliteral">&quot;../Examples/a_pic0.bmp&quot;</span>));</div>
-<div class="line">    fset.push_back(<a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>(<span class="stringliteral">&quot;../Examples/a_pic1.bmp&quot;</span>));</div>
-<div class="line">    fset.push_back(<a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>(<span class="stringliteral">&quot;../Examples/a_pic2.bmp&quot;</span>));</div>
+<div class="line">    <span class="keyword">auto</span> grs = {<span class="stringliteral">&quot;000&quot;</span>, <span class="stringliteral">&quot;015&quot;</span>, <span class="stringliteral">&quot;030&quot;</span>, <span class="stringliteral">&quot;045&quot;</span>, <span class="stringliteral">&quot;060&quot;</span>, <span class="stringliteral">&quot;075&quot;</span>, <span class="stringliteral">&quot;090&quot;</span>, <span class="stringliteral">&quot;105&quot;</span>, <span class="stringliteral">&quot;120&quot;</span>, <span class="stringliteral">&quot;135&quot;</span>, <span class="stringliteral">&quot;150&quot;</span>, <span class="stringliteral">&quot;170&quot;</span>,</div>
+<div class="line">                <span class="stringliteral">&quot;180&quot;</span>, <span class="stringliteral">&quot;195&quot;</span>, <span class="stringliteral">&quot;210&quot;</span>, <span class="stringliteral">&quot;225&quot;</span>, <span class="stringliteral">&quot;240&quot;</span>, <span class="stringliteral">&quot;260&quot;</span>, <span class="stringliteral">&quot;270&quot;</span>, <span class="stringliteral">&quot;285&quot;</span>, <span class="stringliteral">&quot;300&quot;</span>, <span class="stringliteral">&quot;315&quot;</span>, <span class="stringliteral">&quot;330&quot;</span>, <span class="stringliteral">&quot;345&quot;</span>};</div>
+<div class="line">    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; gr: grs)</div>
+<div class="line">        fset.<a name="a1"></a><a class="code" href="../../dc/d2f/classnana_1_1frameset.html#a19401d92d2233b30e88aa29305938c16">push_back</a>(<a name="_a2"></a><a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>(<a name="_a3"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>(<span class="stringliteral">&quot;../Examples/a_pic&quot;</span>)+gr+<span class="stringliteral">&quot;.bmp&quot;</span>));</div>
 <div class="line"></div>
 <div class="line">    <span class="comment">//A widget to display animation.</span></div>
-<div class="line">    <a name="_a3"></a><a class="code" href="../../d6/d57/classnana_1_1form.html">form</a> fm;</div>
-<div class="line">    fm.<a name="a4"></a><a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>();</div>
+<div class="line">    <a name="_a4"></a><a class="code" href="../../d6/d57/classnana_1_1form.html">form</a> fm;</div>
+<div class="line">    fm.<a name="a5"></a><a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>();</div>
 <div class="line"></div>
-<div class="line">    <a name="_a5"></a><a class="code" href="../../dd/d57/classnana_1_1animation.html">animation</a> ani;</div>
-<div class="line">    ani.<a name="a6"></a><a class="code" href="../../dd/d57/classnana_1_1animation.html#ae3074689e53818f63c237c186d1a9faf">push_back</a>(fset);</div>
-<div class="line">    ani.output(fm, <a name="_a7"></a><a class="code" href="../../de/da3/structnana_1_1basic__point.html">nana::point</a>());</div>
+<div class="line">    <a name="_a6"></a><a class="code" href="../../dd/d57/classnana_1_1animation.html">animation</a> ani;</div>
+<div class="line">    ani.<a name="a7"></a><a class="code" href="../../dd/d57/classnana_1_1animation.html#ae3074689e53818f63c237c186d1a9faf">push_back</a>(fset);</div>
+<div class="line">    ani.output(fm, <a name="_a8"></a><a class="code" href="../../de/da3/structnana_1_1basic__point.html">nana::point</a>());</div>
 <div class="line">    ani.looped(<span class="keyword">true</span>);</div>
 <div class="line">    ani.play();</div>
 <div class="line"></div>
-<div class="line">    <a name="a8"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>();</div>
+<div class="line">    <a name="a9"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>();</div>
 <div class="line">}</div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->

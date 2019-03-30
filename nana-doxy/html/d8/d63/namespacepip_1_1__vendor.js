@@ -1,0 +1,25 @@
+var namespacepip_1_1__vendor =
+[
+    [ "appdirs", "df/d94/namespacepip_1_1__vendor_1_1appdirs.html", "df/d94/namespacepip_1_1__vendor_1_1appdirs" ],
+    [ "cachecontrol", "da/dae/namespacepip_1_1__vendor_1_1cachecontrol.html", "da/dae/namespacepip_1_1__vendor_1_1cachecontrol" ],
+    [ "certifi", "d4/d0c/namespacepip_1_1__vendor_1_1certifi.html", "d4/d0c/namespacepip_1_1__vendor_1_1certifi" ],
+    [ "chardet", "d9/d0a/namespacepip_1_1__vendor_1_1chardet.html", "d9/d0a/namespacepip_1_1__vendor_1_1chardet" ],
+    [ "colorama", "d5/d02/namespacepip_1_1__vendor_1_1colorama.html", "d5/d02/namespacepip_1_1__vendor_1_1colorama" ],
+    [ "distlib", "dd/d98/namespacepip_1_1__vendor_1_1distlib.html", "dd/d98/namespacepip_1_1__vendor_1_1distlib" ],
+    [ "distro", "d3/d87/namespacepip_1_1__vendor_1_1distro.html", null ],
+    [ "html5lib", "d2/d6a/namespacepip_1_1__vendor_1_1html5lib.html", "d2/d6a/namespacepip_1_1__vendor_1_1html5lib" ],
+    [ "idna", "d5/d09/namespacepip_1_1__vendor_1_1idna.html", "d5/d09/namespacepip_1_1__vendor_1_1idna" ],
+    [ "ipaddress", "dd/d25/namespacepip_1_1__vendor_1_1ipaddress.html", "dd/d25/namespacepip_1_1__vendor_1_1ipaddress" ],
+    [ "lockfile", "df/d95/namespacepip_1_1__vendor_1_1lockfile.html", "df/d95/namespacepip_1_1__vendor_1_1lockfile" ],
+    [ "msgpack", "dc/d2c/namespacepip_1_1__vendor_1_1msgpack.html", "dc/d2c/namespacepip_1_1__vendor_1_1msgpack" ],
+    [ "packaging", "db/d6b/namespacepip_1_1__vendor_1_1packaging.html", "db/d6b/namespacepip_1_1__vendor_1_1packaging" ],
+    [ "pkg_resources", "d7/dcc/namespacepip_1_1__vendor_1_1pkg__resources.html", "d7/dcc/namespacepip_1_1__vendor_1_1pkg__resources" ],
+    [ "progress", "df/d45/namespacepip_1_1__vendor_1_1progress.html", "df/d45/namespacepip_1_1__vendor_1_1progress" ],
+    [ "pyparsing", "da/db0/namespacepip_1_1__vendor_1_1pyparsing.html", "da/db0/namespacepip_1_1__vendor_1_1pyparsing" ],
+    [ "pytoml", "d4/d87/namespacepip_1_1__vendor_1_1pytoml.html", "d4/d87/namespacepip_1_1__vendor_1_1pytoml" ],
+    [ "requests", "d7/dbf/namespacepip_1_1__vendor_1_1requests.html", "d7/dbf/namespacepip_1_1__vendor_1_1requests" ],
+    [ "retrying", "d9/d67/namespacepip_1_1__vendor_1_1retrying.html", "d9/d67/namespacepip_1_1__vendor_1_1retrying" ],
+    [ "six", "df/d13/namespacepip_1_1__vendor_1_1six.html", "df/d13/namespacepip_1_1__vendor_1_1six" ],
+    [ "urllib3", "d3/dd2/namespacepip_1_1__vendor_1_1urllib3.html", "d3/dd2/namespacepip_1_1__vendor_1_1urllib3" ],
+    [ "webencodings", "da/d8d/namespacepip_1_1__vendor_1_1webencodings.html", "da/d8d/namespacepip_1_1__vendor_1_1webencodings" ]
+];

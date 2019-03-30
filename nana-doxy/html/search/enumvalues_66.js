@@ -13,9 +13,9 @@ var searchData=
   ['font',['font',['../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccda47a282dfe68a42d302e22c4920ed9b5e',1,'nana::widgets::skeletons']]],
   ['foreground',['foreground',['../d2/d76/namespacenana.html#a4f8f3220e1c97f01f3ecfd297e269472a0fa009a743944a032eb54727acec48d6',1,'nana']]],
   ['forest_5fgreen',['forest_green',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a95084a1747e0d0fbdd9cf4de527e93a6',1,'nana']]],
+  ['format',['format',['../d2/d76/namespacenana.html#a22bdac88b71610cc4c8655a46dec8ddca1ddcb92ade31c8fbd370001f9b29a7d9',1,'nana']]],
   ['format_5fend',['format_end',['../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccdaa3f82dfaf14d1b9f79378e309eff1276',1,'nana::widgets::skeletons']]],
   ['forward',['forward',['../d8/dbb/namespacenana_1_1drawerbase_1_1scroll.html#ae3e4b4e65e3abe9227e030f9187829a1a965dbaac085fc891bfbbd4f9d145bbc8',1,'nana::drawerbase::scroll::forward()'],['../d0/dac/namespacenana_1_1drawerbase_1_1slider.html#ad84442efbaf2eb6548d08a22f57d9b20a965dbaac085fc891bfbbd4f9d145bbc8',1,'nana::drawerbase::slider::forward()']]],
-  ['frame',['frame',['../dd/d00/namespacenana_1_1category.html#a85512d536658f20d199b9fa20df34818adcf3e36ee8115282aad46485cab6a4be',1,'nana::category']]],
   ['framebuilder',['framebuilder',['../da/dd2/structnana_1_1frame.html#a217ef16102b78e1bb00560e2062f1d47a3ea5fb880ce9a971a49a795329eee491',1,'nana::frame']]],
   ['fuchsia',['fuchsia',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a9f370737a8ad22210a0dd6b1c8f00896',1,'nana']]]
 ];

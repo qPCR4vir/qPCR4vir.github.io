@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Properties</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -136,7 +136,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line"><span class="keyword">namespace </span>demo</div>
 <div class="line">{</div>
 <div class="line">        <span class="keyword">using namespace </span>nana;</div>
-<div class="line">        <span class="keyword">namespace </span>fs = std::experimental::filesystem;</div>
+<div class="line">        <span class="keyword">namespace </span>fs = std::filesystem;</div>
 <div class="line">        <span class="keyword">namespace </span>fs_ext = nana::filesystem_ext;</div>
 <div class="line"></div>
 <div class="line">        <span class="keyword">class </span>tab_page_listbox  : <span class="keyword">public</span> <a name="_a0"></a><a class="code" href="../../d1/d87/classnana_1_1panel.html">panel</a>&lt;false&gt;</div>
@@ -171,7 +171,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">            cat.append( {<span class="stringliteral">&quot;Visual C++  &quot;</span>, <span class="stringliteral">&quot; 2015 Update 2 and later&quot;</span> }); <span class="comment">// Another item</span></div>
 <div class="line">            cat.append( {<span class="stringliteral">&quot;Clang  &quot;</span>, <span class="stringliteral">&quot; ?&quot;</span> });                            <span class="comment">// Another item</span></div>
 <div class="line"></div>
-<div class="line">            checkbox_.<a name="a6"></a><a class="code" href="../../d3/d95/classnana_1_1widget__object.html#acc81585b443ae00b6d3ac08945638b94">events</a>().<a name="a7"></a><a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>([<span class="keyword">this</span>](){ listbox_.checkable(checkbox_.checked()); });</div>
+<div class="line">            checkbox_.<a name="a6"></a><a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a name="a7"></a><a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>([<span class="keyword">this</span>](){ listbox_.checkable(checkbox_.checked()); });</div>
 <div class="line"></div>
 <div class="line">                        place_.field(<span class="stringliteral">&quot;list&quot;</span>)&lt;&lt;listbox_; </div>
 <div class="line">            place_[<span class="stringliteral">&quot;check&quot;</span>]&lt;&lt;checkbox_;</div>
@@ -201,7 +201,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line"></div>
 <div class="line">                        {</div>
 <div class="line">                                <span class="keywordflow">if</span> (!fs::is_directory(dir)) <span class="keywordflow">continue</span>;</div>
-<div class="line">                                <a name="_a10"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> fname = <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a626594deea328e1f748029d0279560a4">fs_ext::generic_u8string</a>(dir.path().filename());</div>
+<div class="line">                                <a name="_a10"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> fname = <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(dir.path().filename());</div>
 <div class="line">                                treebox_.<a name="a11"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/insert.html">insert</a>(root_node, fname, fname);</div>
 <div class="line">                                <span class="keywordflow">break</span>;</div>
 <div class="line">                        }</div>
@@ -214,7 +214,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                {</div>
 <div class="line">                        <span class="keywordflow">if</span>(!exp) <span class="keywordflow">return</span>; <span class="comment">//If this is contracted.</span></div>
 <div class="line"></div>
-<div class="line">                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> path = treebox_.make_key_path(node, <span class="stringliteral">&quot;/&quot;</span>) + <span class="stringliteral">&quot;/&quot;</span>;</div>
+<div class="line">                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> <a class="code" href="../../de/dc4/namespacepip_1_1____main____.html#aa2d5c04b2d8daff6d918bbef3fa0cfa1">path</a> = treebox_.make_key_path(node, <span class="stringliteral">&quot;/&quot;</span>) + <span class="stringliteral">&quot;/&quot;</span>;</div>
 <div class="line">                        <span class="comment">//Trim the head of whitespace, more portable, because the root</span></div>
 <div class="line">                        <span class="comment">//under Linux is a whitespace</span></div>
 <div class="line">                        std::string::size_type path_start_pos = path.<a name="a16"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/find_first_not_of.html">find_first_not_of</a>(<span class="stringliteral">&quot; &quot;</span>);</div>
@@ -228,7 +228,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; dir : fs::directory_iterator{ path })</div>
 <div class="line">                        {</div>
 <div class="line">                                <span class="keywordflow">if</span> (!fs::is_directory(dir)) <span class="keywordflow">continue</span>;</div>
-<div class="line">                                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> fname = <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a626594deea328e1f748029d0279560a4">fs_ext::generic_u8string</a>(dir.path().filename());</div>
+<div class="line">                                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> fname = <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(dir.path().filename());</div>
 <div class="line">                                <span class="keyword">auto</span> child = treebox_.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/insert.html">insert</a>(node, fname, fname);</div>
 <div class="line">                                <span class="keywordflow">if</span> (child.empty()) <span class="keywordflow">continue</span>;</div>
 <div class="line"></div>
@@ -241,7 +241,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                                {</div>
 <div class="line">                                        <span class="keywordflow">if</span> (!fs::is_directory(sdir)) <span class="keywordflow">continue</span>; <span class="comment">//If it is not a directory.</span></div>
 <div class="line">                                        </div>
-<div class="line">                                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> fname = <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a626594deea328e1f748029d0279560a4">fs_ext::generic_u8string</a>(sdir.path().filename());</div>
+<div class="line">                                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> fname = <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(sdir.path().filename());</div>
 <div class="line">                                        treebox_.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/insert.html">insert</a>(child, fname, fname);</div>
 <div class="line">                                        <span class="keywordflow">break</span>;</div>
 <div class="line">                                }</div>
@@ -262,7 +262,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                {</div>
 <div class="line">                        textbox_.tip_string(<span class="stringliteral">&quot;Input a date:&quot;</span>);</div>
 <div class="line"></div>
-<div class="line">            date_.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#acc81585b443ae00b6d3ac08945638b94">events</a>().<a name="a21"></a><a class="code" href="../../dd/d19/structnana_1_1general__events.html#ad38af11ed74bbef67da62485c2712bb6">dbl_click</a>([<span class="keyword">this</span>]()</div>
+<div class="line">            date_.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a name="a21"></a><a class="code" href="../../dd/d19/structnana_1_1general__events.html#ad38af11ed74bbef67da62485c2712bb6">dbl_click</a>([<span class="keyword">this</span>]()</div>
 <div class="line">            {</div>
 <div class="line">                <span class="keyword">auto</span> dt=date_.read().read();</div>
 <div class="line">                textbox_.reset(<a name="_a22"></a><a class="code" href="../../d3/d99/classnana_1_1charset.html">charset</a>(<a name="a23"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string</a>(dt.year) + <span class="stringliteral">&quot;-&quot;</span> + <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string</a>(dt.month)+ <span class="stringliteral">&quot;-&quot;</span> + <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string</a>(dt.day)));</div>
@@ -290,7 +290,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
                          )&quot;);</span></div>
 <div class="line"><span class="stringliteral">                        rgr_.radio_mode(</span><span class="keyword">true</span>);</div>
 <div class="line">            place_[<span class="stringliteral">&quot;real_gr&quot;</span>]&lt;&lt;rgr_ ;</div>
-<div class="line">                        <span class="keyword">const</span> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> str[6] = { <span class="stringliteral">&quot;Airbus&quot;</span>, <span class="stringliteral">&quot;AHTOHOB&quot;</span>,</div>
+<div class="line">                        <span class="keyword">const</span> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> <a class="code" href="../../d8/d2a/namespacepip_1_1__vendor_1_1requests_1_1compat.html#a0a3891b273b8f1ce270e9356700eb984">str</a>[6] = { <span class="stringliteral">&quot;Airbus&quot;</span>, <span class="stringliteral">&quot;AHTOHOB&quot;</span>,</div>
 <div class="line">                                                             <span class="stringliteral">&quot;Boeing&quot;</span>, <span class="stringliteral">&quot;Bombardier&quot;</span>,</div>
 <div class="line">                                         <span class="stringliteral">&quot;Cessna&quot;</span>, <span class="stringliteral">&quot;EMBRAER&quot;</span>     };</div>
 <div class="line">                        <a name="_a29"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/map.html">std::map&lt;std::string, std::vector&lt;std::string&gt;</a>&gt; airplanes</div>
@@ -505,7 +505,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">        }</div>
 <div class="line">}</div>
 <div class="line"></div>
-<div class="line"><span class="keywordtype">int</span> main()</div>
+<div class="line"><span class="keywordtype">int</span> <a class="code" href="../../d9/da0/namespacepip_1_1__internal.html#af45dd17747a42e9a88101c77858cf019">main</a>()</div>
 <div class="line">{</div>
 <div class="line">        demo::go();     </div>
 <div class="line">}</div>

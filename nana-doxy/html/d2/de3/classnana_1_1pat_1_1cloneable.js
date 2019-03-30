@@ -7,7 +7,7 @@ var classnana_1_1pat_1_1cloneable =
     [ "cloneable", "d2/de3/classnana_1_1pat_1_1cloneable.html#acca3e0f42535e480dc91f3f56ad7a6b0", null ],
     [ "cloneable", "d2/de3/classnana_1_1pat_1_1cloneable.html#a33f4ad1e26f9c01916cce84e821fb288", null ],
     [ "get", "d2/de3/classnana_1_1pat_1_1cloneable.html#a55df065fd1133be3de53b925e2657e5b", null ],
-    [ "operator operator_bool_t", "d2/de3/classnana_1_1pat_1_1cloneable.html#a63a16b9abce7dfe619e7877325612c57", null ],
+    [ "operator operator_bool_t", "d2/de3/classnana_1_1pat_1_1cloneable.html#acbfb5626544a6b060f13f46fcbf3005b", null ],
     [ "operator*", "d2/de3/classnana_1_1pat_1_1cloneable.html#a3bc1eebe2f123be51d75d3e9f12f2563", null ],
     [ "operator*", "d2/de3/classnana_1_1pat_1_1cloneable.html#a5dcdfcff0da5cf70033b722a74c615e3", null ],
     [ "operator->", "d2/de3/classnana_1_1pat_1_1cloneable.html#a443616a2b7d72729133f7820f6803d96", null ],

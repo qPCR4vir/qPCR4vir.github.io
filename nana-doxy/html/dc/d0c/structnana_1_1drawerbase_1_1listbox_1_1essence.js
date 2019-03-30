@@ -1,6 +1,7 @@
 var structnana_1_1drawerbase_1_1listbox_1_1essence =
 [
     [ "mouse_selection_part", "d7/d3c/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1mouse__selection__part.html", "d7/d3c/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1mouse__selection__part" ],
+    [ "operation_rep", "d1/d27/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1operation__rep.html", "d1/d27/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1operation__rep" ],
     [ "item_state", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ae4c11c9e585708c50fe3b884c3d687a8", [
       [ "normal", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ae4c11c9e585708c50fe3b884c3d687a8afea087517c26fadd409bd4b9dc642555", null ],
       [ "highlighted", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ae4c11c9e585708c50fe3b884c3d687a8a1abbba778c2f73b54b6c8244a894f074", null ],
@@ -30,8 +31,8 @@ var structnana_1_1drawerbase_1_1listbox_1_1essence =
     [ "first_display", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a640aab17d82ea233d8213790e541b76a", null ],
     [ "header_font_px", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a869b869cdc6eff71c2aa173e01a36a3f", null ],
     [ "header_visible_px", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#add73d5b407b56dd188703e6a829f0175", null ],
-    [ "item_coordinate", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a50292dc7377cbe73b03281f5866548ab", null ],
     [ "item_height", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a292a06a47b529bb1783420d767053ea2", null ],
+    [ "item_window_top", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a07281e56f2310ecb316600ade3146c6b", null ],
     [ "item_xpos", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a8eabf6257279aa7acc4a29909e18db43", null ],
     [ "open_inline", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#adec6dcb6fc41c392f09f4794d4bb4da3", null ],
     [ "ordered_columns", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#aedda691e071d8111fd09dac7e3cef994", null ],
@@ -50,7 +51,6 @@ var structnana_1_1drawerbase_1_1listbox_1_1essence =
     [ "content_view", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ab43ec69733be4bc1a6cdabb8576f92a6", null ],
     [ "ctg_icon_renderer", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a076718a06d72a6ce3ed3562c02787678", null ],
     [ "def_exp_options", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a33488c6edded4ab9ee6c04dda8ced58d", null ],
-    [ "deselect_deferred", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a686965535a7c74f06cf843959b6eaf1c", null ],
     [ "graph", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a69f66a4a44f6a03f1f37d348fb63d314", null ],
     [ "header", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#adb410c49fcd41d366f0154127f69d484", null ],
     [ "if_image", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#af5c4f9a0f7a48ae4cec40b22626739e8", null ],
@@ -59,6 +59,7 @@ var structnana_1_1drawerbase_1_1listbox_1_1essence =
     [ "listbox_ptr", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a63124e415dcfa95a8fcf4b404fc290c9", null ],
     [ "lister", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a92b08a12920a8d7929e673603e448070", null ],
     [ "mouse_selection", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#aa88d81fa900cbd476dc1034faaddb86a", null ],
+    [ "operation", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a8fd56f1f142b4d61fc9f966d252a2e02", null ],
     [ "pointer_where", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#aaff5c2261a68049a4978df2e4176ed3e", null ],
     [ "ptr_state", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ab391c299c48b6f5e5e32f9b512ff429b", null ],
     [ "scheme_ptr", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ad03ca196c2e6fcd869b09c81795a9a2e", null ],

@@ -37,5 +37,6 @@ var searchData=
   ['div_5fstart',['div_start',['../de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a796e7d12b3183b48d16e2b62822093f7',1,'nana::place_parts::tokenizer']]],
   ['dock',['dock',['../de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a05debdb8b38c7e1e244dd770b62d1d4f',1,'nana::place_parts::tokenizer::dock()'],['../dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8a05debdb8b38c7e1e244dd770b62d1d4f',1,'nana::place::implement::division::dock()']]],
   ['dockpane',['dockpane',['../dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8a12652cf33ea0a2bdb710a2d9c1e7c081',1,'nana::place::implement::division']]],
-  ['dodger_5fblue',['dodger_blue',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a5c090aa7c47fc1b6a05035e07ec9fbb9',1,'nana']]]
+  ['dodger_5fblue',['dodger_blue',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a5c090aa7c47fc1b6a05035e07ec9fbb9',1,'nana']]],
+  ['drop',['drop',['../d5/dcc/classnana_1_1detail_1_1xdnd__protocol.html#acc7fc1fae3e117fcbb2b97fb5fbed902a6e9d25362c485bc3c90c818dfac5dc49',1,'nana::detail::xdnd_protocol']]]
 ];

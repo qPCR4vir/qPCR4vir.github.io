@@ -2,6 +2,7 @@ var classnana_1_1detail_1_1bedrock =
 [
     [ "flag_guard", "d9/d26/classnana_1_1detail_1_1bedrock_1_1flag__guard.html", "d9/d26/classnana_1_1detail_1_1bedrock_1_1flag__guard" ],
     [ "pi_data", "d0/d29/structnana_1_1detail_1_1bedrock_1_1pi__data.html", "d0/d29/structnana_1_1detail_1_1bedrock_1_1pi__data" ],
+    [ "thread_context", "dc/dad/structnana_1_1detail_1_1bedrock_1_1thread__context.html", "dc/dad/structnana_1_1detail_1_1bedrock_1_1thread__context" ],
     [ "core_window_t", "d9/de7/classnana_1_1detail_1_1bedrock.html#a0354689dd8cfd387e51fe7208524ba3f", null ],
     [ "~bedrock", "d9/de7/classnana_1_1detail_1_1bedrock.html#ae37d455f89227f07fe128ffe159b38bb", null ],
     [ "close_menu_if_focus_other_window", "d9/de7/classnana_1_1detail_1_1bedrock.html#a8701c8bb865b71525196fe49045c11ea", null ],
@@ -17,7 +18,7 @@ var classnana_1_1detail_1_1bedrock =
     [ "event_msleave", "d9/de7/classnana_1_1detail_1_1bedrock.html#ad62a40399d1b4e6e0684058ebf5b7fdf", null ],
     [ "evt_operation", "d9/de7/classnana_1_1detail_1_1bedrock.html#a84ff2e6c5399f0ceb8b94b6a7c2df7ff", null ],
     [ "flush_surface", "d9/de7/classnana_1_1detail_1_1bedrock.html#aa3ed374776b98a4b08db0897044f15c5", null ],
-    [ "focus", "d9/de7/classnana_1_1detail_1_1bedrock.html#a0d4857120a85e500f4ca115a6da3f7f4", null ],
+    [ "focus", "d9/de7/classnana_1_1detail_1_1bedrock.html#afa387577be68ea97872a047b4e4c3640", null ],
     [ "get_element_store", "d9/de7/classnana_1_1detail_1_1bedrock.html#afdd00161c4ab2c48633c4905cbd15a30", null ],
     [ "get_key_state", "d9/de7/classnana_1_1detail_1_1bedrock.html#ae09d3418c4163d94cc3d08c6ff3f2425", null ],
     [ "get_menu", "d9/de7/classnana_1_1detail_1_1bedrock.html#a546b0b6972393de7499edbdb31a6e778", null ],

@@ -19,7 +19,6 @@ var classnana_1_1drawerbase_1_1combox_1_1item__proxy =
     [ "text", "d4/d65/classnana_1_1drawerbase_1_1combox_1_1item__proxy.html#a9ab667dfa3427b36d5dd365c13ebfa82", null ],
     [ "text", "d4/d65/classnana_1_1drawerbase_1_1combox_1_1item__proxy.html#afcc15bda553a12e8f6b0f51aec0e14e4", null ],
     [ "value", "d4/d65/classnana_1_1drawerbase_1_1combox_1_1item__proxy.html#a1b1686bfb86a4a3508304c495fe664e0", null ],
-    [ "value", "d4/d65/classnana_1_1drawerbase_1_1combox_1_1item__proxy.html#ad47cf21e28ffb0edbd5ca7418065b50a", null ],
-    [ "value", "d4/d65/classnana_1_1drawerbase_1_1combox_1_1item__proxy.html#ac5a9548857536831ceb71418835465e8", null ],
+    [ "value", "d4/d65/classnana_1_1drawerbase_1_1combox_1_1item__proxy.html#a5d28f5fbae4e0daaff854d6218bac1f1", null ],
     [ "value_ptr", "d4/d65/classnana_1_1drawerbase_1_1combox_1_1item__proxy.html#ae77886f8ebf34d695475bc58e7a9ca25", null ]
 ];

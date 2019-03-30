@@ -10,7 +10,7 @@ var classnana_1_1drawer__trigger =
     [ "dbl_click", "d7/d16/classnana_1_1drawer__trigger.html#a922f7fa06da565766f22323f2ade16cc", null ],
     [ "detached", "d7/d16/classnana_1_1drawer__trigger.html#a57766f1ec455e1370ce8510d424a1cc1", null ],
     [ "filter_event", "d7/d16/classnana_1_1drawer__trigger.html#a853256a0b5031248fda22fa5b3af2f7f", null ],
-    [ "filter_event", "d7/d16/classnana_1_1drawer__trigger.html#a1ed3782d9ab2b1a978a1819a3f973671", null ],
+    [ "filter_event", "d7/d16/classnana_1_1drawer__trigger.html#ab9a6175e5096fdfb253eb8e63996fbe7", null ],
     [ "filter_event", "d7/d16/classnana_1_1drawer__trigger.html#a58c7084bf2d2fa2a79301da076bb807c", null ],
     [ "filter_event", "d7/d16/classnana_1_1drawer__trigger.html#a9fe0d40ab245e26d8a0e4e4dee062350", null ],
     [ "filter_event", "d7/d16/classnana_1_1drawer__trigger.html#a764efe1ab9f9b22b21a089ffecd3bf27", null ],

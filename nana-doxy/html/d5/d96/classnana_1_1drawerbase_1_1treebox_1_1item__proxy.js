@@ -4,7 +4,7 @@ var classnana_1_1drawerbase_1_1treebox_1_1item__proxy =
     [ "item_proxy", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#ae8d147a31f93905f75d638eb0fb41326", null ],
     [ "_m_node", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a9589f2120a2b9c685e21571639940c10", null ],
     [ "append", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#aea68a3afc48b335204568871872be226", null ],
-    [ "append", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#ab1dba0181318bfe01b446e5c7822f5ff", null ],
+    [ "append", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a57f8f271789a2ac6241c55a85e74f68d", null ],
     [ "begin", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a53d0e5a1516d63af3c39d14b2c3999db", null ],
     [ "check", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#af9cf4f4afaef562af17bfc4430e83ff2", null ],
     [ "checked", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a7c5e8ff63e777f4e6aab8667aef95689", null ],
@@ -39,7 +39,6 @@ var classnana_1_1drawerbase_1_1treebox_1_1item__proxy =
     [ "text", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a5c0b2b4f62a80b35a0aeec64eef8d1e7", null ],
     [ "text", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#aeff04d95f18c6458f6f445ee2dede68b", null ],
     [ "value", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a400ffa91cc78e357a325a62352c4863f", null ],
-    [ "value", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a25c64385a7c9d505c47bcf2663ff4e95", null ],
     [ "value", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a8cf3bccf6fb0865da2cb69aec49e92eb", null ],
     [ "value_ptr", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a29e364b4c8d96033646cbac30ad641b2", null ],
     [ "visit_recursively", "d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a536122c8fbb024d36e3b0aa5f4124335", null ]

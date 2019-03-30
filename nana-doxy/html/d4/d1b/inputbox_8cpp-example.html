@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('d4/d1b/inputbox_8cpp-example.html','..
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Properties</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('d4/d1b/inputbox_8cpp-example.html','..
 <div class="contents">
 <p>![]( )</p>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span></div>
-<div class="line"><span class="keywordtype">int</span> main()</div>
+<div class="line"><span class="keywordtype">int</span> <a class="code" href="../../d9/da0/namespacepip_1_1__internal.html#af45dd17747a42e9a88101c77858cf019">main</a>()</div>
 <div class="line">{</div>
 <div class="line">        <span class="keyword">using namespace </span>nana;</div>
 <div class="line">    <a name="_a0"></a><a class="code" href="../../d6/d57/classnana_1_1form.html">form</a> fm;</div>
@@ -113,13 +113,13 @@ $(document).ready(function(){initNavTree('d4/d1b/inputbox_8cpp-example.html','..
 <div class="line">        </div>
 <div class="line">        <a name="_a2"></a><a class="code" href="../../d2/d2a/classnana_1_1internationalization.html">internationalization</a> i18n;</div>
 <div class="line">        <span class="comment">//Translate these 2 words into Chinese.</span></div>
-<div class="line">        i18n.<a name="a3"></a><a class="code" href="../../d2/d2a/classnana_1_1internationalization.html#af086ec8240a311c832ac1ed17f92ddd1">set</a>(<span class="stringliteral">&quot;OK&quot;</span>, u8<span class="stringliteral">&quot;确定&quot;</span>);</div>
-<div class="line">        i18n.set(<span class="stringliteral">&quot;Cancel&quot;</span>, u8<span class="stringliteral">&quot;取消&quot;</span>);</div>
+<div class="line">        i18n.<a name="a3"></a><a class="code" href="../../d2/d2a/classnana_1_1internationalization.html#af086ec8240a311c832ac1ed17f92ddd1">set</a>(<span class="stringliteral">&quot;NANA_BUTTON_OK&quot;</span>, u8<span class="stringliteral">&quot;确定&quot;</span>);</div>
+<div class="line">        i18n.set(<span class="stringliteral">&quot;NANA_BUTTON_CANCEL&quot;</span>, u8<span class="stringliteral">&quot;取消&quot;</span>);</div>
 <div class="line">                </div>
 <div class="line">        <span class="comment">//Show an inputbox when the form is clicked.</span></div>
 <div class="line">        fm.events().click([&amp;fm]</div>
 <div class="line">        {</div>
-<div class="line">                <a name="_a4"></a><a class="code" href="../../d3/dd2/classnana_1_1inputbox_1_1text.html">inputbox::text</a> name(<span class="stringliteral">&quot;&lt;bold blue&gt;Name&lt;/&gt;&quot;</span>);      <span class="comment">//The format text is also available.</span></div>
+<div class="line">                <a name="_a4"></a><a class="code" href="../../d3/dd2/classnana_1_1inputbox_1_1text.html">inputbox::text</a> <a class="code" href="../../d0/ddd/namespacepip_1_1__vendor_1_1html5lib_1_1__ihatexml.html#a5d38d6964a59655b647f740b8a13aa1d">name</a>(<span class="stringliteral">&quot;&lt;bold blue&gt;Name&lt;/&gt;&quot;</span>);      <span class="comment">//The format text is also available.</span></div>
 <div class="line">                <a class="code" href="../../d3/dd2/classnana_1_1inputbox_1_1text.html">inputbox::text</a> gender(<span class="stringliteral">&quot;Gender&quot;</span>, {<span class="stringliteral">&quot;Male&quot;</span>, <span class="stringliteral">&quot;Female&quot;</span>, <span class="stringliteral">&quot;bisexual&quot;</span>});</div>
 <div class="line">                <a name="_a5"></a><a class="code" href="../../db/d35/classnana_1_1inputbox_1_1date.html">inputbox::date</a> birth(<span class="stringliteral">&quot;Date of birth&quot;</span>);</div>
 <div class="line">                <a name="_a6"></a><a class="code" href="../../d3/ddd/classnana_1_1inputbox_1_1real.html">inputbox::real</a> height(<span class="stringliteral">&quot;Height(cm)&quot;</span>, 100, 1, 300, 1);</div>
@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('d4/d1b/inputbox_8cpp-example.html','..
 <div class="line">                {</div>
 <div class="line">                        <span class="keyword">auto</span> n = name.<a class="code" href="../../d3/dd2/classnana_1_1inputbox_1_1text.html#a22e6b3b7ee13ea93e127ece11f4c1828">value</a>();          <span class="comment">//nana::string</span></div>
 <div class="line">                        <span class="keyword">auto</span> g = gender.value();        <span class="comment">//nana::string</span></div>
-<div class="line">                        <span class="keyword">auto</span> b = birth.value();         <span class="comment">//nana::string</span></div>
+<div class="line">                        <span class="keyword">auto</span> <a class="code" href="../../df/d13/namespacepip_1_1__vendor_1_1six.html#a0baa05505e6c0231ced262cb415be8f6">b</a> = birth.value();         <span class="comment">//nana::string</span></div>
 <div class="line">                        <span class="keyword">auto</span> year = birth.year();       <span class="comment">//int</span></div>
 <div class="line">                        <span class="keyword">auto</span> month = birth.month(); <span class="comment">//int</span></div>
 <div class="line">                        <span class="keyword">auto</span> day = birth.day();         <span class="comment">//int</span></div>

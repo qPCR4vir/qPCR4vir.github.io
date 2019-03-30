@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['background_5fmode',['background_mode',['../d6/d61/classnana_1_1group.html#a7ad334905ab796cbf56f4047850187e8',1,'nana::group']]],
   ['behavior',['behavior',['../df/d3d/structnana_1_1drawerbase_1_1menubar_1_1trigger_1_1essence.html#ae9e8ba234b75793f8aefb897aad285e1',1,'nana::drawerbase::menubar::trigger::essence']]],
   ['bground_5fmode',['bground_mode',['../d2/d76/namespacenana.html#a3b26751d087eb0d978b895f876c65a3d',1,'nana']]],
   ['bidi_5fcategory',['bidi_category',['../d8/d7f/classnana_1_1unicode__bidi.html#adf135c82592dcde7bb26fd90d84f3f83',1,'nana::unicode_bidi']]],

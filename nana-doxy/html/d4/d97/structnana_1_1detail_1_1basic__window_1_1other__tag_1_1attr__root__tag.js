@@ -3,7 +3,6 @@ var structnana_1_1detail_1_1basic__window_1_1other__tag_1_1attr__root__tag =
     [ "draw_through", "d4/d97/structnana_1_1detail_1_1basic__window_1_1other__tag_1_1attr__root__tag.html#a59bf36ddb7ca082171737ef91eecebca", null ],
     [ "effects_edge_nimbus", "d4/d97/structnana_1_1detail_1_1basic__window_1_1other__tag_1_1attr__root__tag.html#a4b631363b8bf67561028352807c7791e", null ],
     [ "focus", "d4/d97/structnana_1_1detail_1_1basic__window_1_1other__tag_1_1attr__root__tag.html#a7d32d45dc0a01376c0212f1577ea78a4", null ],
-    [ "frames", "d4/d97/structnana_1_1detail_1_1basic__window_1_1other__tag_1_1attr__root__tag.html#ab4df9369737d2e2d9d093f916d2237b1", null ],
     [ "ime_enabled", "d4/d97/structnana_1_1detail_1_1basic__window_1_1other__tag_1_1attr__root__tag.html#aaa79bdfe94283341349772a1651116d1", null ],
     [ "menubar", "d4/d97/structnana_1_1detail_1_1basic__window_1_1other__tag_1_1attr__root__tag.html#ad89582df94171e9419d9e41381a02421", null ],
     [ "state_cursor", "d4/d97/structnana_1_1detail_1_1basic__window_1_1other__tag_1_1attr__root__tag.html#a492b0d52f8c6ba1d465381ef561b359a", null ],

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['r',['R',['../d8/d7f/classnana_1_1unicode__bidi.html#ab4d218792adebd435c0808cfa7fce137ae1e1d3d40573127e9ee0480caf1283d6',1,'nana::unicode_bidi::R()'],['../d9/d0f/namespacenana_1_1bidi__charmap.html#a35c8c909095bdaeefe7ffcba2fa54828a36db9717c81e53f6488b36658a01c018',1,'nana::bidi_charmap::R()']]],
+  ['ready',['ready',['../d2/d76/namespacenana.html#a963f44ce0d79143490b743e307c557ddab2fdab230a2c39f3595a947861863cb7',1,'nana']]],
   ['real',['real',['../d8/d09/classnana_1_1place__parts_1_1number__t.html#a37cb37e9944306603fcb5b319adb766ca4bca24304861acde5770fdbe3cc2503b',1,'nana::place_parts::number_t::real()'],['../dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html#a45489e1af036620396e7819c0798f89ea4bca24304861acde5770fdbe3cc2503b',1,'nana::widgets::skeletons::text_editor::real()']]],
   ['red',['red',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98abda9643ac6601722a28f238714274da4',1,'nana::red()'],['../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccdabda9643ac6601722a28f238714274da4',1,'nana::widgets::skeletons::red()']]],
   ['redo',['redo',['../de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea06f5dc82cbf207ec8b4650671dd8e4da',1,'nana::keyboard']]],

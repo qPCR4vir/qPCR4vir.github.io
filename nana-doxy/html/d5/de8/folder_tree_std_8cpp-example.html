@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('d5/de8/folder_tree_std_8cpp-example.ht
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Properties</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -106,10 +106,10 @@ $(document).ready(function(){initNavTree('d5/de8/folder_tree_std_8cpp-example.ht
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/treebox.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/filesystem/filesystem_ext.hpp&gt;</span></div>
 <div class="line"></div>
-<div class="line"><span class="keywordtype">int</span> main()</div>
+<div class="line"><span class="keywordtype">int</span> <a class="code" href="../../d9/da0/namespacepip_1_1__internal.html#af45dd17747a42e9a88101c77858cf019">main</a>()</div>
 <div class="line">{</div>
 <div class="line">        <span class="keyword">using namespace </span>nana;</div>
-<div class="line">        <span class="keyword">namespace </span>fs = std::experimental::filesystem;</div>
+<div class="line">        <span class="keyword">namespace </span>fs = std::filesystem;</div>
 <div class="line">        <span class="keyword">namespace </span>fs_ext = nana::filesystem_ext;</div>
 <div class="line">        <span class="keyword">using</span> SubDirectories = fs::directory_iterator;</div>
 <div class="line"></div>
@@ -117,9 +117,9 @@ $(document).ready(function(){initNavTree('d5/de8/folder_tree_std_8cpp-example.ht
 <div class="line">        <a name="_a0"></a><a class="code" href="../../d6/d57/classnana_1_1form.html">form</a> fm{ <a name="a1"></a><a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#aeda48472927c65f3f790297e5fb2df84">API::make_center</a>(400, 500), <a name="_a2"></a><a class="code" href="../../d6/d12/structnana_1_1appear_1_1decorate.html">appear::decorate&lt;appear::taskbar&gt;</a>() };</div>
 <div class="line">        fm.caption(<span class="stringliteral">&quot;Nana C++ Library - Treebox-nana::experimental::filesystem example.&quot;</span>);</div>
 <div class="line"></div>
-<div class="line">        <a name="_a3"></a><a class="code" href="../../da/de1/classnana_1_1treebox.html">nana::treebox</a> tree{ fm,{ 10, 10, 380, 480 } };</div>
+<div class="line">        <a name="_a3"></a><a class="code" href="../../da/de1/classnana_1_1treebox.html">nana::treebox</a> <a class="code" href="../../d2/d86/namespacepip_1_1__vendor_1_1html5lib_1_1html5parser.html#adc619b05e0c27fef24254640b81ab765">tree</a>{ fm,{ 10, 10, 380, 480 } };</div>
 <div class="line"></div>
-<div class="line">        <span class="keyword">auto</span> node = tree.<a name="a4"></a><a class="code" href="../../da/de1/classnana_1_1treebox.html#a2fe8cb7a9b0d893b8a30a470d338472f">insert</a>(fs_ext::def_root, fs_ext::def_rootname);</div>
+<div class="line">        <span class="keyword">auto</span> node = <a class="code" href="../../d2/d86/namespacepip_1_1__vendor_1_1html5lib_1_1html5parser.html#adc619b05e0c27fef24254640b81ab765">tree</a>.insert(fs_ext::def_root, fs_ext::def_rootname);</div>
 <div class="line"></div>
 <div class="line">        <span class="comment">// Boost can throw an exception &quot;Access is denied&quot;</span></div>
 <div class="line">        <span class="comment">// when accessing some system paths, like &quot;C:\Config.Msi&quot;</span></div>
@@ -127,21 +127,21 @@ $(document).ready(function(){initNavTree('d5/de8/folder_tree_std_8cpp-example.ht
 <div class="line">        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; dir : SubDirectories{ fs_ext::def_rootstr })</div>
 <div class="line">        {</div>
 <div class="line">                <span class="keywordflow">if</span> (! fs::is_directory(dir) ) <span class="keywordflow">continue</span>;</div>
-<div class="line">                tree.insert(node, <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a626594deea328e1f748029d0279560a4">fs_ext::generic_u8string</a>(dir.path().filename()) ,</div>
-<div class="line">                        <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a626594deea328e1f748029d0279560a4">fs_ext::generic_u8string</a>(dir.path().filename()));</div>
+<div class="line">                <a class="code" href="../../d2/d86/namespacepip_1_1__vendor_1_1html5lib_1_1html5parser.html#adc619b05e0c27fef24254640b81ab765">tree</a>.insert(node, <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(dir.path().filename()) ,</div>
+<div class="line">                        <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(dir.path().filename()));</div>
 <div class="line">                <span class="keywordflow">break</span>;</div>
 <div class="line">        }</div>
 <div class="line">        } <span class="keywordflow">catch</span> (...) {}</div>
 <div class="line"></div>
-<div class="line">        tree.events().<a name="a5"></a><a class="code" href="../../d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html#a1a537dd2e21f9b3ae7030133202cf3cc">expanded</a>([&amp;tree](<span class="keyword">const</span> <a name="_a6"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html">arg_treebox</a>&amp; arg)</div>
+<div class="line">        <a class="code" href="../../d2/d86/namespacepip_1_1__vendor_1_1html5lib_1_1html5parser.html#adc619b05e0c27fef24254640b81ab765">tree</a>.events().expanded([&amp;<a class="code" href="../../d2/d86/namespacepip_1_1__vendor_1_1html5lib_1_1html5parser.html#adc619b05e0c27fef24254640b81ab765">tree</a>](<span class="keyword">const</span> <a name="_a4"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html">arg_treebox</a>&amp; arg)</div>
 <div class="line">        {</div>
-<div class="line">                <span class="keywordflow">if</span> (!arg.<a name="a7"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ad8e07298693767fbb840d04eefb20ce5">operated</a>) <span class="keywordflow">return</span>; <span class="comment">//If this is contracted.</span></div>
+<div class="line">                <span class="keywordflow">if</span> (!arg.<a name="a5"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ad8e07298693767fbb840d04eefb20ce5">operated</a>) <span class="keywordflow">return</span>; <span class="comment">//If this is contracted.</span></div>
 <div class="line"></div>
 <div class="line">                <span class="comment">//Windows supports the path separator &#39;/&#39;</span></div>
-<div class="line">                <span class="keyword">auto</span> Path = tree.make_key_path(arg.<a name="a8"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>, <span class="stringliteral">&quot;/&quot;</span>) + <span class="stringliteral">&quot;/&quot;</span>;</div>
+<div class="line">                <span class="keyword">auto</span> Path = <a class="code" href="../../d2/d86/namespacepip_1_1__vendor_1_1html5lib_1_1html5parser.html#adc619b05e0c27fef24254640b81ab765">tree</a>.make_key_path(arg.<a name="a6"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>, <span class="stringliteral">&quot;/&quot;</span>) + <span class="stringliteral">&quot;/&quot;</span>;</div>
 <div class="line"></div>
 <div class="line">                <span class="comment">//avoids frequent useless refreshing</span></div>
-<div class="line">                tree.auto_draw(<span class="keyword">false</span>);</div>
+<div class="line">                <a class="code" href="../../d2/d86/namespacepip_1_1__vendor_1_1html5lib_1_1html5parser.html#adc619b05e0c27fef24254640b81ab765">tree</a>.auto_draw(<span class="keyword">false</span>);</div>
 <div class="line"></div>
 <div class="line">                <span class="keywordflow">try</span> {</div>
 <div class="line">                <span class="comment">//Walk in the path directory for sub directories.</span></div>
@@ -149,8 +149,8 @@ $(document).ready(function(){initNavTree('d5/de8/folder_tree_std_8cpp-example.ht
 <div class="line">                {</div>
 <div class="line">                        <span class="keywordflow">if</span> (!fs::is_directory(dir)) <span class="keywordflow">continue</span>; <span class="comment">//If it is not a directory.</span></div>
 <div class="line"></div>
-<div class="line">                        <span class="keyword">auto</span> child = tree.insert(arg.<a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>, <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a626594deea328e1f748029d0279560a4">fs_ext::generic_u8string</a>(dir.path().filename()),</div>
-<div class="line">                                                               <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a626594deea328e1f748029d0279560a4">fs_ext::generic_u8string</a>(dir.path().filename()));</div>
+<div class="line">                        <span class="keyword">auto</span> child = <a class="code" href="../../d2/d86/namespacepip_1_1__vendor_1_1html5lib_1_1html5parser.html#adc619b05e0c27fef24254640b81ab765">tree</a>.insert(arg.<a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>, <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(dir.path().filename()),</div>
+<div class="line">                                                               <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(dir.path().filename()));</div>
 <div class="line">                        <span class="keywordflow">if</span> (child.empty()) <span class="keywordflow">continue</span>;</div>
 <div class="line"></div>
 <div class="line">                        <span class="comment">//Find a directory in child directory, if there is a directory,</span></div>
@@ -161,18 +161,18 @@ $(document).ready(function(){initNavTree('d5/de8/folder_tree_std_8cpp-example.ht
 <div class="line">                        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; dr : SubDirectories{ dir.path() })</div>
 <div class="line">                        {</div>
 <div class="line">                                <span class="keywordflow">if</span> (!fs::is_directory(dr)) <span class="keywordflow">continue</span>; <span class="comment">//If it is not a directory.</span></div>
-<div class="line">                                tree.insert(child, <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a626594deea328e1f748029d0279560a4">fs_ext::generic_u8string</a>(dr.path().filename()),</div>
-<div class="line">                                                       <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a626594deea328e1f748029d0279560a4">fs_ext::generic_u8string</a>(dr.path().filename()));</div>
+<div class="line">                                <a class="code" href="../../d2/d86/namespacepip_1_1__vendor_1_1html5lib_1_1html5parser.html#adc619b05e0c27fef24254640b81ab765">tree</a>.insert(child, <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(dr.path().filename()),</div>
+<div class="line">                                                       <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(dr.path().filename()));</div>
 <div class="line">                                <span class="keywordflow">break</span>;</div>
 <div class="line">                        }</div>
 <div class="line">                        } <span class="keywordflow">catch</span> (...) {}</div>
 <div class="line">                }</div>
 <div class="line">                } <span class="keywordflow">catch</span> (...) {}</div>
-<div class="line">                tree.auto_draw(<span class="keyword">true</span>);</div>
+<div class="line">                <a class="code" href="../../d2/d86/namespacepip_1_1__vendor_1_1html5lib_1_1html5parser.html#adc619b05e0c27fef24254640b81ab765">tree</a>.auto_draw(<span class="keyword">true</span>);</div>
 <div class="line">        });</div>
 <div class="line"></div>
 <div class="line">        fm.show();</div>
-<div class="line">        <a name="a9"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(</div>
+<div class="line">        <a name="a7"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(</div>
 <div class="line"></div>
 <div class="line">#ifdef NANA_AUTOMATIC_GUI_TESTING</div>
 <div class="line">                2, 1, [&amp;node]()</div>

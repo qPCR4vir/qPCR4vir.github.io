@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('d3/d1a/png_8cpp-example.html','../../'
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Properties</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -104,23 +104,33 @@ $(document).ready(function(){initNavTree('d3/d1a/png_8cpp-example.html','../../'
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/picture.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/place.hpp&gt;</span></div>
-<div class="line"><span class="keywordtype">int</span> main()</div>
+<div class="line"><span class="keywordtype">int</span> <a class="code" href="../../d9/da0/namespacepip_1_1__internal.html#af45dd17747a42e9a88101c77858cf019">main</a>()</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">using namespace </span>nana;</div>
 <div class="line">    <a name="_a0"></a><a class="code" href="../../d6/d57/classnana_1_1form.html">form</a> fm;</div>
-<div class="line">    <a name="_a1"></a><a class="code" href="../../d2/d9f/classnana_1_1picture.html">picture</a> pic(fm);</div>
+<div class="line">    <a name="_a1"></a><a class="code" href="../../d2/d9f/classnana_1_1picture.html">picture</a> picPNG  {fm},</div>
+<div class="line">            picJPEG {fm},</div>
+<div class="line">            picBMP  {fm};</div>
+<div class="line"></div>
 <div class="line">    <a name="_a2"></a><a class="code" href="../../dc/de3/classnana_1_1place.html">place</a> p{fm};</div>
 <div class="line">    p.<a name="a3"></a><a class="code" href="../../dc/de3/classnana_1_1place.html#abc9b2545606145127c2bf63c3780b79d">div</a>(<span class="stringliteral">&quot;pic&quot;</span>); </div>
-<div class="line">    p[<span class="stringliteral">&quot;pic&quot;</span>] &lt;&lt; pic ;</div>
-<div class="line"><span class="preprocessor">#ifdef    NANA_ENABLE_PNG</span></div>
-<div class="line"><span class="preprocessor"></span>    pic.<a name="a4"></a><a class="code" href="../../d2/d9f/classnana_1_1picture.html#ae6e2a3a892f80c9a436f63e33f5215bb">load</a>( <a name="_a5"></a><a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">paint::image</a>(<span class="stringliteral">&quot;../Examples/drawing.png&quot;</span>) );</div>
-<div class="line"><span class="preprocessor">#elifdef   NANA_ENABLE_JPGG     </span></div>
-<div class="line"><span class="preprocessor"></span>   <span class="comment">// pic.load( paint::image(&quot;../Examples/drawing.jpg&quot;) );</span></div>
-<div class="line"><span class="preprocessor">#else </span></div>
-<div class="line"><span class="preprocessor"></span>    pic.<a class="code" href="../../d2/d9f/classnana_1_1picture.html#ae6e2a3a892f80c9a436f63e33f5215bb">load</a>( <a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">paint::image</a>(<span class="stringliteral">&quot;../Examples/Save.bmp&quot;</span>) );</div>
+<div class="line"></div>
+<div class="line"><span class="preprocessor">#ifdef  NANA_ENABLE_PNG</span></div>
+<div class="line"><span class="preprocessor"></span>    picPNG.load( <a name="_a4"></a><a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">paint::image</a>(<span class="stringliteral">&quot;../Examples/png.png&quot;</span>) );</div>
+<div class="line">    p[<span class="stringliteral">&quot;pic&quot;</span>] &lt;&lt; picPNG ;</div>
 <div class="line"><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="preprocessor"></span>    fm.show();</div>
-<div class="line">    <a name="a6"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>();</div>
+<div class="line"><span class="preprocessor"></span></div>
+<div class="line"><span class="preprocessor">#ifdef  NANA_ENABLE_JPEG</span></div>
+<div class="line"><span class="preprocessor"></span>    picJPEG.load( <a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">paint::image</a>(<span class="stringliteral">&quot;../Examples/jpeg.jpg&quot;</span>) );</div>
+<div class="line">    p[<span class="stringliteral">&quot;pic&quot;</span>] &lt;&lt; picJPEG ;</div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="preprocessor"></span></div>
+<div class="line">    picBMP.load( <a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">paint::image</a>(<span class="stringliteral">&quot;../Examples/bmp.bmp&quot;</span>) );</div>
+<div class="line">    p[<span class="stringliteral">&quot;pic&quot;</span>] &lt;&lt; picBMP ;</div>
+<div class="line">    p.collocate();</div>
+<div class="line"></div>
+<div class="line">    fm.show();</div>
+<div class="line">    <a name="a5"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>();</div>
 <div class="line">}</div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->

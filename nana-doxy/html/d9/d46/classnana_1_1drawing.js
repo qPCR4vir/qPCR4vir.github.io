@@ -1,7 +1,7 @@
 var classnana_1_1drawing =
 [
-    [ "diehard_t", "d5/dc2/structnana_1_1drawing_1_1diehard__t.html", null ],
-    [ "draw_fn_t", "d9/d46/classnana_1_1drawing.html#a4c9da5bb97776368bc9d2e6abee23937", null ],
+    [ "diehard_t", "d9/d46/classnana_1_1drawing.html#ad747d9c5c977ec9b2191ce2146ce7554", null ],
+    [ "draw_fn_t", "d9/d46/classnana_1_1drawing.html#a92d522768878cc24e83f7dc1b09d37bf", null ],
     [ "drawing", "d9/d46/classnana_1_1drawing.html#ad81a80b07b2b0981520ab229b8514e4b", null ],
     [ "~drawing", "d9/d46/classnana_1_1drawing.html#a5e7ee8228820d8b40054137f75368078", null ],
     [ "clear", "d9/d46/classnana_1_1drawing.html#af158df5d8d3887f1120ae1940d205982", null ],

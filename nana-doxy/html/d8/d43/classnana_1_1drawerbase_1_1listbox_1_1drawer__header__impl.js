@@ -6,7 +6,7 @@ var classnana_1_1drawerbase_1_1listbox_1_1drawer__header__impl =
     [ "parts", "d8/d43/classnana_1_1drawerbase_1_1listbox_1_1drawer__header__impl.html#ade85b2085666965398d8a2057e68b8c5", null ],
     [ "drawer_header_impl", "d8/d43/classnana_1_1drawerbase_1_1listbox_1_1drawer__header__impl.html#ab4e71bd09a55f4158e714937bc36c780", null ],
     [ "cancel_splitter", "d8/d43/classnana_1_1drawerbase_1_1listbox_1_1drawer__header__impl.html#a25335e812d270f1cd39b6543a7b6935b", null ],
-    [ "detect_splitter", "d8/d43/classnana_1_1drawerbase_1_1listbox_1_1drawer__header__impl.html#ac5a4def785e2bfb24b78a3e0df171db9", null ],
+    [ "detect_splitter", "d8/d43/classnana_1_1drawerbase_1_1listbox_1_1drawer__header__impl.html#a6df5758dc0106d6f72b4417443d0e94e", null ],
     [ "draw", "d8/d43/classnana_1_1drawerbase_1_1listbox_1_1drawer__header__impl.html#ac50c39d717918447ca015c5d6fb21415", null ],
     [ "grab", "d8/d43/classnana_1_1drawerbase_1_1listbox_1_1drawer__header__impl.html#aeb20d6c654309eec088eac0136db47e7", null ],
     [ "grab_move", "d8/d43/classnana_1_1drawerbase_1_1listbox_1_1drawer__header__impl.html#aa28bd77027f2ea0afb9316d1dfbb2369", null ],

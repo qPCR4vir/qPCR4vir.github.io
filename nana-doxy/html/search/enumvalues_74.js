@@ -21,6 +21,7 @@ var searchData=
   ['top_5fview',['top_view',['../d7/d3b/namespacenana_1_1drawerbase_1_1listbox.html#a10cdf9fc7fff28d320fd299ef3fb5a6ca5258b314934b26e0cc2bb30a89982280',1,'nana::drawerbase::listbox']]],
   ['topbar',['topbar',['../d1/d43/classnana_1_1drawerbase_1_1date__chooser_1_1trigger_1_1model.html#a6b75898d7bcf54c7e5e98c34e0b0246ea030f03b10e59d2ed290786c563d93ca9',1,'nana::drawerbase::date_chooser::trigger::model']]],
   ['topmost',['topmost',['../d2/d76/namespacenana.html#a4f8f3220e1c97f01f3ecfd297e269472aed6a4e717d07486254e573ee1f3aff6a',1,'nana']]],
+  ['transparent',['transparent',['../d6/d61/classnana_1_1group.html#a7ad334905ab796cbf56f4047850187e8a5e96bf62b9b2c18fdb65564b4a18fd1f',1,'nana::group']]],
   ['triangle_5fpi',['triangle_pi',['../d1/d7d/classnana_1_1paint_1_1calc__rotate.html#a8e121b5dea643d65308b4ab3c65e4eefa488da2c93bb6d5547a17fce7ec3ed08f',1,'nana::paint::calc_rotate']]],
   ['try_5frefresh',['try_refresh',['../df/d4e/classnana_1_1detail_1_1window__layout.html#aa949a2aa2a629950e3685c39ce1e282fa3715c4470986e4e1744c496cc55120a7',1,'nana::detail::window_layout']]],
   ['turquoise',['turquoise',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98adcbb31fdf774bcd3f09d54c4487377c0',1,'nana']]]

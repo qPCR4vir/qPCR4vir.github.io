@@ -14,7 +14,7 @@ var classnana_1_1slider =
     [ "seek", "d8/d54/classnana_1_1slider.html#a71d63dd55af3e17abbbc103e5b384736", null ],
     [ "transparent", "d8/d54/classnana_1_1slider.html#a91a19f301908a012319207630b9f8d15", null ],
     [ "transparent", "d8/d54/classnana_1_1slider.html#aa6c0f5f8b7b29e5bc6a1702d42e47eb0", null ],
-    [ "value", "d8/d54/classnana_1_1slider.html#a234cf7e00a97f724999c6bad3cac1d73", null ],
+    [ "value", "d8/d54/classnana_1_1slider.html#acee504b26fdf12a6f52532562abc7d28", null ],
     [ "value", "d8/d54/classnana_1_1slider.html#a633bdf9d4aac9504106f81a4f39678bb", null ],
     [ "vernier", "d8/d54/classnana_1_1slider.html#a47b4db278d891569113734bf93eb8aa0", null ],
     [ "vertical", "d8/d54/classnana_1_1slider.html#a8a619eea8be5f2996f5e7928bc407b9b", null ],

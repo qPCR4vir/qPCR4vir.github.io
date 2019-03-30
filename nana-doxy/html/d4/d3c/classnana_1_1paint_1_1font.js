@@ -2,7 +2,7 @@ var classnana_1_1paint_1_1font =
 [
     [ "impl_type", "d0/d4c/structnana_1_1paint_1_1font_1_1impl__type.html", "d0/d4c/structnana_1_1paint_1_1font_1_1impl__type" ],
     [ "font_style", "d4/d3c/classnana_1_1paint_1_1font.html#a5e021fba06f8cacdf4b556401d204044", null ],
-    [ "path_type", "d4/d3c/classnana_1_1paint_1_1font.html#a11306919b4522b13ad6658016a06d989", null ],
+    [ "path_type", "d4/d3c/classnana_1_1paint_1_1font.html#a2011dbf4d9c718edd8480c513168e0cc", null ],
     [ "font", "d4/d3c/classnana_1_1paint_1_1font.html#a0ef743be312b63a5f20f171e23839182", null ],
     [ "font", "d4/d3c/classnana_1_1paint_1_1font.html#ad0f7e85384b5f63e1bd54b25c0c60c0c", null ],
     [ "font", "d4/d3c/classnana_1_1paint_1_1font.html#af3d54775aec8e8360a9102e9201386b1", null ],

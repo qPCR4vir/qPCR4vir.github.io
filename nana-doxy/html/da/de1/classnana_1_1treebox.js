@@ -8,13 +8,14 @@ var classnana_1_1treebox =
     [ "treebox", "da/de1/classnana_1_1treebox.html#a5bf5de5de789e426fe0a6fdd0efe8444", null ],
     [ "treebox", "da/de1/classnana_1_1treebox.html#ae50c62b468fee2a9026b24d9b8707c30", null ],
     [ "auto_draw", "da/de1/classnana_1_1treebox.html#ad9cdb3b95f4f2e11266f018d10429159", null ],
+    [ "avoid_drawing", "da/de1/classnana_1_1treebox.html#a11f3810fe863ba579b3801dc56e08b57", null ],
     [ "checkable", "da/de1/classnana_1_1treebox.html#ad1f3ce7027a3ffb680fccb6664985140", null ],
     [ "checkable", "da/de1/classnana_1_1treebox.html#a078141a1b586136b04fcc74ecf65a73b", null ],
     [ "clear", "da/de1/classnana_1_1treebox.html#a0accae92862f9823b06ba2de692cb8c6", null ],
     [ "erase", "da/de1/classnana_1_1treebox.html#a53e1751325c718af0dee6412aa160c8a", null ],
     [ "erase", "da/de1/classnana_1_1treebox.html#a563da2ea1aed80ecf5027688966fc4b7", null ],
     [ "find", "da/de1/classnana_1_1treebox.html#a07cb56fa397428ce7645af0d004240db", null ],
-    [ "icon", "da/de1/classnana_1_1treebox.html#ad648a5f08d4979c5e7e35c2a18a61e04", null ],
+    [ "icon", "da/de1/classnana_1_1treebox.html#af88d0e3f5f791640896cdcdc7ffd2e60", null ],
     [ "icon_erase", "da/de1/classnana_1_1treebox.html#a2a90da0d2f40a677222ee1d2ea103223", null ],
     [ "insert", "da/de1/classnana_1_1treebox.html#a2fe8cb7a9b0d893b8a30a470d338472f", null ],
     [ "insert", "da/de1/classnana_1_1treebox.html#aa662ad1acabfc0648a3c184b73484df9", null ],
@@ -23,5 +24,7 @@ var classnana_1_1treebox =
     [ "placer", "da/de1/classnana_1_1treebox.html#a7d6f5ba167a7c736663a466669f25607", null ],
     [ "renderer", "da/de1/classnana_1_1treebox.html#ae8d2ea0b09aff0082c65a7869df0bfe8", null ],
     [ "renderer", "da/de1/classnana_1_1treebox.html#a3ab447dc6c09f26781897ee1e5b0dbfa", null ],
+    [ "scroll_into_view", "da/de1/classnana_1_1treebox.html#a435d56d2e3a976b2b656a8626b3f49b1", null ],
+    [ "scroll_into_view", "da/de1/classnana_1_1treebox.html#a0a30d767a726614e329e5ed6421e126a", null ],
     [ "selected", "da/de1/classnana_1_1treebox.html#a8d3d7d075a3226dfc76bdbb656ca1241", null ]
 ];

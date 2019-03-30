@@ -9,6 +9,7 @@ var searchData=
   ['identifier',['identifier',['../de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1af393f3f5e496869a15bc72cbfd56f541',1,'nana::place_parts::tokenizer']]],
   ['idle',['idle',['../d5/d08/classnana_1_1threads_1_1pool_1_1impl.html#a7da23dc57b56c444500639c3714ebfc7aec2f993aec2c27fc750119ab17b16cdb',1,'nana::threads::pool::impl']]],
   ['image',['image',['../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccda78805a221a988e79ef3f42d7c5bfd418',1,'nana::widgets::skeletons']]],
+  ['in_5fprogress',['in_progress',['../d2/d76/namespacenana.html#a963f44ce0d79143490b743e307c557ddaf7222d1de86ad4d56764a2be21b792e2',1,'nana']]],
   ['increase',['increase',['../d8/d4c/namespacenana_1_1drawerbase_1_1spinbox.html#a845110c6ec82fba80935629b6ce4b54ea11198b294adbcf089f9d27990258fd22',1,'nana::drawerbase::spinbox']]],
   ['indian_5fred',['indian_red',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a8e150fc012f9d2eb7b61e16abca9462a',1,'nana']]],
   ['indigo',['indigo',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a8a99d28c3c43cafed58cdbac5f4e9201',1,'nana']]],

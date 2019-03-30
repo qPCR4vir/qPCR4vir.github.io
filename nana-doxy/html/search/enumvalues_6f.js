@@ -23,6 +23,8 @@ var searchData=
   ['os_5fpageup',['os_pageup',['../de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea5f2950e553b505ba7f82ca6cd1a2a975',1,'nana::keyboard']]],
   ['os_5fshift',['os_shift',['../de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eadfb8c82a9c1baf9436e75476c7bce62e',1,'nana::keyboard']]],
   ['os_5ftab',['os_tab',['../de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eaa4a25af1636e127d8293f27228b294b3',1,'nana::keyboard']]],
+  ['other',['other',['../d2/d76/namespacenana.html#a22bdac88b71610cc4c8655a46dec8ddca795f3202b17cb6bc3d4b771d8c6c9eaf',1,'nana']]],
   ['over',['over',['../db/dca/namespacenana_1_1effects.html#af2f1254faa14bc6b00a9d3f4987aebd9a3b759a9ca80234563d87672350659b2b',1,'nana::effects']]],
-  ['overrided',['overrided',['../d3/d42/classnana_1_1detail_1_1drawer.html#ac9f54a9ba004d0e83b733c24da1d7d7ba2d152377fce19916908a53f66bb26a51',1,'nana::detail::drawer']]]
+  ['overrided',['overrided',['../d3/d42/classnana_1_1detail_1_1drawer.html#ac9f54a9ba004d0e83b733c24da1d7d7ba2d152377fce19916908a53f66bb26a51',1,'nana::detail::drawer']]],
+  ['owner',['owner',['../d2/d76/namespacenana.html#aa4898897807b6c9c7e8f25f1ed09392fa72122ce96bfec66e2396d2e25225d70a',1,'nana']]]
 ];

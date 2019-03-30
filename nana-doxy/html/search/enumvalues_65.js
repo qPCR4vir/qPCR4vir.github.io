@@ -2,6 +2,7 @@ var searchData=
 [
   ['east',['east',['../d2/d76/namespacenana.html#a4dad70e3dd72ae2d6a69dde9cb9c6d04a320381dbf7cd2f31c04baa6b36e1c682',1,'nana']]],
   ['eating',['eating',['../d9/d57/structnana_1_1detail_1_1tab__type.html#a95ffbe094bc7f76d852fd2a872caf2cfad14f21a78d6fa62cb9512a4fb162e167',1,'nana::detail::tab_type']]],
+  ['either_5fpo',['either_po',['../d2/d76/namespacenana.html#aa4898897807b6c9c7e8f25f1ed09392fa111f5c8bd3e50dd37fafc73e393b01a4',1,'nana']]],
   ['elapse',['elapse',['../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3a84fb87d3de5a14b12cd6730ee1afcac8',1,'nana']]],
   ['en',['EN',['../d8/d7f/classnana_1_1unicode__bidi.html#ab4d218792adebd435c0808cfa7fce137aaa85f1840e282d8a8304dbc2c0d7c9b2',1,'nana::unicode_bidi::EN()'],['../d9/d0f/namespacenana_1_1bidi__charmap.html#a35c8c909095bdaeefe7ffcba2fa54828ac4eead32799928dfe85379e85ebb917f',1,'nana::bidi_charmap::EN()']]],
   ['end',['end',['../d2/d76/namespacenana.html#a1480f163a64163d468bcdd3d8dd16c25a7f021a1415b86f2d013b2618fb31ae53',1,'nana::end()'],['../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3a7f021a1415b86f2d013b2618fb31ae53',1,'nana::end()'],['../d0/d60/namespacenana_1_1drawerbase_1_1treebox.html#a264d0232fc4a37766c0f8d30ebab824ba7f021a1415b86f2d013b2618fb31ae53',1,'nana::drawerbase::treebox::end()']]],
@@ -19,6 +20,7 @@ var searchData=
   ['escape',['escape',['../de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eadc25f8b94d6fb3a82c137bbb17607fcc',1,'nana::keyboard']]],
   ['et',['ET',['../d8/d7f/classnana_1_1unicode__bidi.html#ab4d218792adebd435c0808cfa7fce137aae41a6d38b78679b4675941ff0c0c92d',1,'nana::unicode_bidi::ET()'],['../d9/d0f/namespacenana_1_1bidi__charmap.html#a35c8c909095bdaeefe7ffcba2fa54828a679c246a93e612c914d9963f951e27ef',1,'nana::bidi_charmap::ET()']]],
   ['event_5fsize',['event_size',['../d2/da8/namespacenana_1_1detail.html#a91b5e900ba758663c99d4758d5d3e893a41edcecd11a42a8fe17bbd6126a6aff9',1,'nana::detail']]],
+  ['exit',['exit',['../d2/da8/namespacenana_1_1detail.html#a9367931c663e447da174ad2c17451740af24f62eeb789199b9b2e467df3b1876b',1,'nana::detail']]],
   ['expander',['expander',['../d0/d60/namespacenana_1_1drawerbase_1_1treebox.html#a264d0232fc4a37766c0f8d30ebab824ba2cf6e836789d8f553fad15072b274c12',1,'nana::drawerbase::treebox']]],
   ['expose',['expose',['../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3a366c789263d9c6d20f049b97bb1c99aa',1,'nana']]]
 ];

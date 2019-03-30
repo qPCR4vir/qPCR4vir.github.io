@@ -83,6 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions_type.html"><span>Typedefs</span></a></li>
       <li><a href="functions_enum.html"><span>Enumerations</span></a></li>
       <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
+      <li><a href="functions_prop.html"><span>Properties</span></a></li>
       <li><a href="functions_rela.html"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
@@ -129,7 +130,7 @@ $(document).ready(function(){initNavTree('functions_type_0x69.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Properties</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -169,7 +170,7 @@ $(document).ready(function(){initNavTree('functions_type_0x69.html','');});
 <li>item_attribute_t
 : <a class="el" href="dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#a4fbb30704baff8277757c41e0366a240">nana::drawerbase::treebox::renderer_interface</a>
 , <a class="el" href="dd/d27/classnana_1_1widgets_1_1detail_1_1compset.html#acb3f13d1145245bab25a2162e575156a">nana::widgets::detail::compset&lt; Component, ItemAttribute &gt;</a>
-, <a class="el" href="da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#aa2b71cb9b4dd305129c3209f8bf6a05c">nana::widgets::detail::compset_placer&lt; Component, ItemAttribute &gt;</a>
+, <a class="el" href="da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#a8914ede51d6f5aab461c31fc10806e66">nana::widgets::detail::compset_placer&lt; Component, ItemAttribute, WidgetScheme &gt;</a>
 </li>
 <li>item_container
 : <a class="el" href="d4/de0/structnana_1_1drawerbase_1_1menu_1_1menu__type.html#a1736ffb19ad02f5fd897e0eb12ffe802">nana::drawerbase::menu::menu_type</a>
@@ -193,21 +194,24 @@ $(document).ready(function(){initNavTree('functions_type_0x69.html','');});
 : <a class="el" href="d0/d4f/classnana_1_1drawerbase_1_1tabbar_1_1item__renderer.html#a397e0f82890bdba9a48e8bdbd62916e8">nana::drawerbase::tabbar::item_renderer</a>
 </li>
 <li>item_state
-: <a class="el" href="da/d6a/classnana_1_1drawerbase_1_1listbox_1_1drawer__lister__impl.html#a5e8b2496e3afbbb9a587e66100a106f3">nana::drawerbase::listbox::drawer_lister_impl</a>
-, <a class="el" href="d8/d43/classnana_1_1drawerbase_1_1listbox_1_1drawer__header__impl.html#a89dfecdd4ae2605183cf9f80dd1f60c3">nana::drawerbase::listbox::drawer_header_impl</a>
+: <a class="el" href="d8/d43/classnana_1_1drawerbase_1_1listbox_1_1drawer__header__impl.html#a89dfecdd4ae2605183cf9f80dd1f60c3">nana::drawerbase::listbox::drawer_header_impl</a>
+, <a class="el" href="da/d6a/classnana_1_1drawerbase_1_1listbox_1_1drawer__lister__impl.html#a5e8b2496e3afbbb9a587e66100a106f3">nana::drawerbase::listbox::drawer_lister_impl</a>
 </li>
 <li>item_type
-: <a class="el" href="dd/d65/classnana_1_1drawerbase_1_1menu_1_1menu__window.html#a02b12b9c0000e29ab444a951ce5dc86f">nana::drawerbase::menu::menu_window</a>
+: <a class="el" href="dc/d94/classnana_1_1drawerbase_1_1listbox_1_1es__lister.html#a50c2cee2e73d5c4346e93cec99200b22">nana::drawerbase::listbox::es_lister</a>
+, <a class="el" href="dd/d65/classnana_1_1drawerbase_1_1menu_1_1menu__window.html#a02b12b9c0000e29ab444a951ce5dc86f">nana::drawerbase::menu::menu_window</a>
 , <a class="el" href="d4/df9/classnana_1_1drawerbase_1_1menu_1_1menu__builder.html#a46fa2f670f10f27c574ded8a06c23249">nana::drawerbase::menu::menu_builder</a>
-, <a class="el" href="dc/d94/classnana_1_1drawerbase_1_1listbox_1_1es__lister.html#a50c2cee2e73d5c4346e93cec99200b22">nana::drawerbase::listbox::es_lister</a>
 , <a class="el" href="d4/de0/structnana_1_1drawerbase_1_1menu_1_1menu__type.html#aeedf257d88a52f243da4d6023249f2a2">nana::drawerbase::menu::menu_type</a>
 </li>
 <li>iterator
 : <a class="el" href="d4/d56/classnana_1_1detail_1_1lite__map.html#aba8b93cc9e2961872cf9a5fd59dcb011">nana::detail::lite_map&lt; Key, Value &gt;</a>
+, <a class="el" href="d4/de0/structnana_1_1drawerbase_1_1menu_1_1menu__type.html#a03e1732204306ebfa3c5808ba0970406">nana::drawerbase::menu::menu_type</a>
 , <a class="el" href="da/d79/classnana_1_1drawerbase_1_1tabbar_1_1layouter.html#a8d2f6d34edea1cc957ba4a9d247b821f">nana::drawerbase::tabbar::layouter</a>
 , <a class="el" href="d3/d2d/classnana_1_1widgets_1_1skeletons_1_1dstream.html#a63df0bd3e897ae9f5876b5c29c03b548">nana::widgets::skeletons::dstream</a>
 , <a class="el" href="d4/df9/classnana_1_1drawerbase_1_1menu_1_1menu__builder.html#ae51200c39c8eb7d1b52914f6c3c33e2d">nana::drawerbase::menu::menu_builder</a>
-, <a class="el" href="d4/de0/structnana_1_1drawerbase_1_1menu_1_1menu__type.html#a03e1732204306ebfa3c5808ba0970406">nana::drawerbase::menu::menu_type</a>
+</li>
+<li>iterator_category
+: <a class="el" href="d8/df6/classnana_1_1widgets_1_1detail_1_1widget__iterator.html#aabf79a479f8a4ee7e823648dc3d5b4f5">nana::widgets::detail::widget_iterator&lt; Category, T &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

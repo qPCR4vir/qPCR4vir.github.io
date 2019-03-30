@@ -49,6 +49,7 @@ var classnana_1_1drawerbase_1_1listbox_1_1es__lister =
     [ "index_cast", "dc/d94/classnana_1_1drawerbase_1_1listbox_1_1es__lister.html#a38879f6cfcfad13532ae37827d4bd6c5", null ],
     [ "index_cast_noexcept", "dc/d94/classnana_1_1drawerbase_1_1listbox_1_1es__lister.html#a9b999e955d918f6170630ec0ac8c7946", null ],
     [ "insert", "dc/d94/classnana_1_1drawerbase_1_1listbox_1_1es__lister.html#aba80a18b9bdeece8a7cedad143374c0e", null ],
+    [ "is_single_enabled", "dc/d94/classnana_1_1drawerbase_1_1listbox_1_1es__lister.html#a16516e2b75ffefb498a325002b036b8c", null ],
     [ "last", "dc/d94/classnana_1_1drawerbase_1_1listbox_1_1es__lister.html#afdb414ff538dae99507b67e7b89b2453", null ],
     [ "move_select", "dc/d94/classnana_1_1drawerbase_1_1listbox_1_1es__lister.html#a6543ea8e43ea899bbd985c8d35b2925b", null ],
     [ "pick_items", "dc/d94/classnana_1_1drawerbase_1_1listbox_1_1es__lister.html#aa66d24000c7f1a70fc8c12848d4f8819", null ],

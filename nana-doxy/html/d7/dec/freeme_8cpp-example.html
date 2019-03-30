@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('d7/dec/freeme_8cpp-example.html','../.
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Properties</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -125,21 +125,21 @@ UI of The FreeMe</div></div>
 <div class="line"><span class="preprocessor">#include &lt;windows.h&gt;</span></div>
 <div class="line"><span class="keyword">using</span> wstring = <a name="_a0"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::wstring</a>;</div>
 <div class="line"></div>
-<div class="line"><span class="keyword">namespace </span>path</div>
+<div class="line"><span class="keyword">namespace </span><a class="code" href="../../de/dc4/namespacepip_1_1____main____.html#aa2d5c04b2d8daff6d918bbef3fa0cfa1">path</a></div>
 <div class="line">{</div>
 <div class="line">        <span class="keyword">namespace </span>detail</div>
 <div class="line">        {</div>
 <div class="line">                 wstring reg_string(HKEY hkey, <span class="keyword">const</span> <span class="keywordtype">wchar_t</span> * subkey, <span class="keyword">const</span>  <span class="keywordtype">wchar_t</span> * value)</div>
 <div class="line">                {</div>
 <div class="line">                        HKEY key;</div>
-<div class="line">                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::wstring</a> str;</div>
+<div class="line">                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::wstring</a> <a class="code" href="../../d8/d2a/namespacepip_1_1__vendor_1_1requests_1_1compat.html#a0a3891b273b8f1ce270e9356700eb984">str</a>;</div>
 <div class="line">                        <span class="keywordflow">if</span>(::RegOpenKey(hkey, subkey, &amp;key) != ERROR_SUCCESS  )</div>
 <div class="line">                                <span class="keywordflow">return</span> str;</div>
 <div class="line">                        </div>
 <div class="line">                        DWORD len = MAX_PATH;</div>
 <div class="line">                        <span class="keyword">auto</span> buf = std::make_unique&lt; wchar_t[]&gt;( len );</div>
 <div class="line"></div>
-<div class="line">                        LONG result;</div>
+<div class="line">                        LONG <a class="code" href="../../d6/d75/namespacepip_1_1__vendor_1_1distlib_1_1locators.html#a3e1c02255858365abed0583b6ea79dc3">result</a>;</div>
 <div class="line">                        <span class="keywordflow">while</span>(ERROR_MORE_DATA == (result = ::RegQueryValueEx(key, value, 0, 0, reinterpret_cast&lt;LPBYTE&gt;(buf.get()), &amp;len)))</div>
 <div class="line">                                buf = std::make_unique&lt; wchar_t[]&gt;( len );</div>
 <div class="line"></div>
@@ -369,7 +369,7 @@ UI of The FreeMe</div></div>
 <div class="line">                ready_ = <span class="keyword">false</span>;</div>
 <div class="line">                files_.clear();</div>
 <div class="line">                </div>
-<div class="line">                <span class="keyword">using namespace </span>path;</div>
+<div class="line">                <span class="keyword">using namespace </span><a class="code" href="../../de/dc4/namespacepip_1_1____main____.html#aa2d5c04b2d8daff6d918bbef3fa0cfa1">path</a>;</div>
 <div class="line">                files_.resize(tasks::count);</div>
 <div class="line"></div>
 <div class="line">                implment&lt;tasks::dllcache&gt;::job(*<span class="keyword">this</span>, m);</div>
@@ -410,27 +410,27 @@ UI of The FreeMe</div></div>
 <div class="line">                        }       </div>
 <div class="line">        }</div>
 <div class="line">        </div>
-<div class="line">        <span class="keywordtype">bool</span>            ready()<span class="keyword"> const   </span>{       <span class="keywordflow">return</span> ready_;  }</div>
-<div class="line">        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a>     bytes()<span class="keyword"> const   </span>{       <span class="keywordflow">return</span> bytes_;  }</div>
+<div class="line">        <span class="keywordtype">bool</span>            <a class="code" href="../../d2/d76/namespacenana.html#a963f44ce0d79143490b743e307c557ddab2fdab230a2c39f3595a947861863cb7">ready</a>()<span class="keyword"> const   </span>{       <span class="keywordflow">return</span> ready_;  }</div>
+<div class="line">        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a>     <a class="code" href="../../d8/d2a/namespacepip_1_1__vendor_1_1requests_1_1compat.html#acdad6163620499e5156d111c77f6b709">bytes</a>()<span class="keyword"> const   </span>{       <span class="keywordflow">return</span> bytes_;  }</div>
 <div class="line">        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a>     <a class="code" href="../../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccdaf7bd60b75b29d79b660a2859395c1a24">size</a>()<span class="keyword"> const    </span>{       <span class="keywordflow">return</span> size_;   }</div>
 <div class="line">        <span class="keywordtype">void</span> reset()                            {       ready_ = <span class="keyword">false</span>; }</div>
 <div class="line"> <span class="keyword">private</span>:</div>
 <div class="line">        <span class="keyword">struct </span>helper</div>
 <div class="line">        {</div>
-<div class="line">                wstring path;</div>
-<div class="line">                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a>             bytes;</div>
+<div class="line">                wstring <a class="code" href="../../de/dc4/namespacepip_1_1____main____.html#aa2d5c04b2d8daff6d918bbef3fa0cfa1">path</a>;</div>
+<div class="line">                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a>             <a class="code" href="../../d8/d2a/namespacepip_1_1__vendor_1_1requests_1_1compat.html#acdad6163620499e5156d111c77f6b709">bytes</a>;</div>
 <div class="line">                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a>             <a class="code" href="../../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccdaf7bd60b75b29d79b660a2859395c1a24">size</a>;</div>
 <div class="line">                <a name="_a5"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/deque.html">std::deque&lt;std::pair&lt;wstring, bool&gt;</a> &gt; files;</div>
 <div class="line">         <span class="keyword">private</span>:</div>
 <div class="line">                messenger&amp; msnger_;</div>
 <div class="line">         <span class="keyword">public</span>:</div>
 <div class="line">                helper(<span class="keyword">const</span> wstring&amp; path, messenger&amp; m)</div>
-<div class="line">                        :path(path + (<a class="code" href="../../d9/d0f/namespacenana_1_1bidi__charmap.html#a35c8c909095bdaeefe7ffcba2fa54828a1d8100999aa7b93a2f397b8f631f13d7">L</a><span class="stringliteral">&#39;\\&#39;</span>)), bytes(0), <a class="code" href="../../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccdaf7bd60b75b29d79b660a2859395c1a24">size</a>(0), msnger_(m)</div>
+<div class="line">                        :path(path + (<a class="code" href="../../d9/d0f/namespacenana_1_1bidi__charmap.html#a35c8c909095bdaeefe7ffcba2fa54828a1d8100999aa7b93a2f397b8f631f13d7">L</a><span class="stringliteral">&#39;\\&#39;</span>)), <a class="code" href="../../d8/d2a/namespacepip_1_1__vendor_1_1requests_1_1compat.html#acdad6163620499e5156d111c77f6b709">bytes</a>(0), <a class="code" href="../../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccdaf7bd60b75b29d79b660a2859395c1a24">size</a>(0), msnger_(m)</div>
 <div class="line">                {}</div>
 <div class="line"></div>
 <div class="line">                <span class="keywordtype">void</span> operator()(<span class="keyword">const</span> file_info_type&amp; v)</div>
 <div class="line">                {</div>
-<div class="line">                        wstring file = path + v.name;</div>
+<div class="line">                        wstring file = <a class="code" href="../../de/dc4/namespacepip_1_1____main____.html#aa2d5c04b2d8daff6d918bbef3fa0cfa1">path</a> + v.name;</div>
 <div class="line">                        <span class="keywordflow">if</span>(v.directory)</div>
 <div class="line">                        {</div>
 <div class="line">                                helper hlp(file, msnger_);</div>
@@ -440,12 +440,12 @@ UI of The FreeMe</div></div>
 <div class="line">                                        hlp(*sub_dir);</div>
 <div class="line">                                }</div>
 <div class="line">                                <span class="comment">//std::for_each&lt;file_iterator, helper&amp;&gt;(file_iterator(hlp.path), file_iterator(), hlp);</span></div>
-<div class="line">                                bytes += hlp.bytes;</div>
+<div class="line">                                <a class="code" href="../../d8/d2a/namespacepip_1_1__vendor_1_1requests_1_1compat.html#acdad6163620499e5156d111c77f6b709">bytes</a> += hlp.bytes;</div>
 <div class="line">                                <a class="code" href="../../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccdaf7bd60b75b29d79b660a2859395c1a24">size</a> += hlp.size;</div>
 <div class="line">                                files.insert(files.end(), hlp.files.begin(), hlp.files.end());</div>
 <div class="line">                        }</div>
 <div class="line">                        <span class="keywordflow">else</span></div>
-<div class="line">                                bytes += nana::experimental::filesystem::filesize(file.c_str());</div>
+<div class="line">                                <a class="code" href="../../d8/d2a/namespacepip_1_1__vendor_1_1requests_1_1compat.html#acdad6163620499e5156d111c77f6b709">bytes</a> += nana::experimental::filesystem::filesize(file.c_str());</div>
 <div class="line">                        </div>
 <div class="line">                        files.push_back(<a name="a6"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/pair/make_pair.html">std::make_pair</a>(file, v.directory));</div>
 <div class="line">                        msnger_.active();</div>
@@ -459,7 +459,7 @@ UI of The FreeMe</div></div>
 <div class="line">        {</div>
 <div class="line">                <span class="keyword">static</span> <span class="keywordtype">void</span> job(junk_sweeper&amp; js, messenger&amp; msnger)</div>
 <div class="line">                {</div>
-<div class="line">                        wstring path = path::creator&lt;ID&gt;::fetch();</div>
+<div class="line">                        wstring <a class="code" href="../../de/dc4/namespacepip_1_1____main____.html#aa2d5c04b2d8daff6d918bbef3fa0cfa1">path</a> = path::creator&lt;ID&gt;::fetch();</div>
 <div class="line">                        <span class="keywordflow">if</span> ( path.empty() )  <span class="keywordflow">return</span>;</div>
 <div class="line">                        wstring::size_type envbeg = path.find(<span class="charliteral">&#39;%&#39;</span>);</div>
 <div class="line">                        <span class="keywordflow">if</span>(envbeg != path.npos)</div>
@@ -682,9 +682,9 @@ UI of The FreeMe</div></div>
 <div class="line">        }</div>
 <div class="line">};</div>
 <div class="line"></div>
-<div class="line"><span class="keywordtype">int</span>  main( )</div>
+<div class="line"><span class="keywordtype">int</span>  <a class="code" href="../../d9/da0/namespacepip_1_1__internal.html#af45dd17747a42e9a88101c77858cf019">main</a>( )</div>
 <div class="line">{</div>
-<div class="line">        frm_main main;</div>
+<div class="line">        frm_main <a class="code" href="../../d9/da0/namespacepip_1_1__internal.html#af45dd17747a42e9a88101c77858cf019">main</a>;</div>
 <div class="line">        <a name="a23"></a><a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">nana::exec</a>();</div>
 <div class="line"></div>
 <div class="line">        <span class="keywordflow">return</span> 0;</div>

@@ -1,12 +1,13 @@
 var classnana_1_1widgets_1_1detail_1_1compset__placer =
 [
-    [ "component_t", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#aa06dad4fd18688ee635cf7dee6b4a39c", null ],
-    [ "graph_reference", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#ab4072fa6d890855730be87082ef4f3b8", null ],
-    [ "item_attribute_t", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#aa2b71cb9b4dd305129c3209f8bf6a05c", null ],
-    [ "~compset_placer", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#adc80c185ba1c832cbfa220f46ebf49cf", null ],
-    [ "enable", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#a4da6903e3a0eafab579beaa22c213be6", null ],
-    [ "enabled", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#a11d83792b5729af177abad71aff8c03b", null ],
-    [ "item_height", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#a332a9f7c2b3244bb563029f095fdb018", null ],
-    [ "item_width", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#ab470f2470af3b916b6e6f2a856f3bdc8", null ],
-    [ "locate", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#aa8ff88df206a6d02222b0550c08f5357", null ]
+    [ "component_t", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#ab07ac0318987ccf1536bbfc974d507d0", null ],
+    [ "graph_reference", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#abc3cf7e40f1f45b2afeb5fdec02ecb19", null ],
+    [ "item_attribute_t", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#a8914ede51d6f5aab461c31fc10806e66", null ],
+    [ "widget_scheme_t", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#a33f5f7d37b62df7dda7dda4f8a1dbdc6", null ],
+    [ "~compset_placer", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#a8b542fe40857d134115dd7bcdd86e267", null ],
+    [ "enable", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#a8a1b6b20673be0da417468f31a85250c", null ],
+    [ "enabled", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#a2edf0f3f02cc22866921239c7cfe3075", null ],
+    [ "item_height", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#ac4ff1d314db5b26063b36cc725eeca58", null ],
+    [ "item_width", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#a7f4b56ceb1b2eb5ee75bb64b1eba311e", null ],
+    [ "locate", "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#aa12ac1c75616e0c5f546eaae369f59aa", null ]
 ];
