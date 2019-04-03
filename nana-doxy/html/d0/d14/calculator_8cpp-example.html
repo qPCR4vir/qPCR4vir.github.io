@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('d0/d14/calculator_8cpp-example.html','
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Properties</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -136,17 +136,17 @@ Screenshot of Calculator</div></div>
 <div class="line"><span class="preprocessor"></span></div>
 <div class="line"><span class="keyword">struct </span>stateinfo</div>
 <div class="line">{</div>
-<div class="line">        <span class="keyword">enum class</span> state{<a class="code" href="../../dd/d05/namespacepip_1_1__vendor_1_1colorama_1_1initialise.html#a510c4ad6f7b0f49fab4c791846a647a5">init</a>, operated, assigned};</div>
+<div class="line">        <span class="keyword">enum class</span> state{init, operated, assigned};</div>
 <div class="line"></div>
 <div class="line">        state          opstate{ state::init };</div>
 <div class="line">    <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>    operation;</div>
 <div class="line">        <span class="keywordtype">double</span>         oprand { 0 };</div>
 <div class="line">        <span class="keywordtype">double</span>         outcome{ 0 };</div>
 <div class="line">        <a name="_a2"></a><a class="code" href="../../dd/d8c/classnana_1_1label.html">label</a>        &amp; procedure;</div>
-<div class="line">        <a class="code" href="../../dd/d8c/classnana_1_1label.html">label</a>        &amp; <a class="code" href="../../d6/d75/namespacepip_1_1__vendor_1_1distlib_1_1locators.html#a3e1c02255858365abed0583b6ea79dc3">result</a>;</div>
+<div class="line">        <a class="code" href="../../dd/d8c/classnana_1_1label.html">label</a>        &amp; result;</div>
 <div class="line"></div>
 <div class="line">        stateinfo(<a class="code" href="../../dd/d8c/classnana_1_1label.html">label</a>&amp; proc, <a class="code" href="../../dd/d8c/classnana_1_1label.html">label</a>&amp; resl)</div>
-<div class="line">                : operation(<span class="stringliteral">&quot;+&quot;</span>),  procedure(proc), <a class="code" href="../../d6/d75/namespacepip_1_1__vendor_1_1distlib_1_1locators.html#a3e1c02255858365abed0583b6ea79dc3">result</a>(resl)</div>
+<div class="line">                : operation(<span class="stringliteral">&quot;+&quot;</span>),  procedure(proc), result(resl)</div>
 <div class="line">        {       }</div>
 <div class="line">};</div>
 <div class="line"></div>
@@ -166,7 +166,7 @@ Screenshot of Calculator</div></div>
 <div class="line">        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> rstr = state.result.caption();</div>
 <div class="line">        <span class="keywordflow">if</span>(rstr == <span class="stringliteral">&quot;0&quot;</span>) rstr.<a name="a4"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/clear.html">clear</a>();</div>
 <div class="line"></div>
-<div class="line">        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> <a class="code" href="../../d6/d99/namespacepip_1_1__vendor_1_1distlib_1_1util.html#ab445ce6847dd9286f90acc09bc1a07a0">d</a> = <a name="a5"></a><a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a24b80c81ca08c998a33069f9034df620">API::window_caption</a>(arg.<a name="a6"></a><a class="code" href="../../d6/dc2/structnana_1_1arg__click.html#a16e239e67f163a6613bac50ba399fb4b">window_handle</a>);</div>
+<div class="line">        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> d = <a name="a5"></a><a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a24b80c81ca08c998a33069f9034df620">API::window_caption</a>(arg.<a name="a6"></a><a class="code" href="../../d6/dc2/structnana_1_1arg__click.html#a16e239e67f163a6613bac50ba399fb4b">window_handle</a>);</div>
 <div class="line">        <span class="keywordflow">if</span>(d == <span class="stringliteral">&quot;.&quot;</span>)</div>
 <div class="line">        {</div>
 <div class="line">                <span class="keywordflow">if</span>(rstr.<a name="a7"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/find.html">find</a>(<span class="charliteral">&#39;.&#39;</span>) == rstr.npos)</div>
@@ -277,7 +277,7 @@ Screenshot of Calculator</div></div>
 <div class="line">}</div>
 <div class="line"></div>
 <div class="line"></div>
-<div class="line"><span class="keywordtype">int</span> <a class="code" href="../../d9/da0/namespacepip_1_1__internal.html#af45dd17747a42e9a88101c77858cf019">main</a>()</div>
+<div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
 <div class="line">        <a name="_a16"></a><a class="code" href="../../d6/d57/classnana_1_1form.html">form</a> fm;</div>
 <div class="line">        fm.<a name="a17"></a><a class="code" href="../../d9/dd8/classnana_1_1widget.html#a064762b8a9d8cfdaf9e9d1fc990c2b24">caption</a>((<span class="stringliteral">&quot;Calculator&quot;</span>));</div>
@@ -287,15 +287,15 @@ Screenshot of Calculator</div></div>
 <div class="line">        <a class="code" href="../../dc/de3/classnana_1_1place.html">place</a>.<a name="a19"></a><a class="code" href="../../dc/de3/classnana_1_1place.html#abc9b2545606145127c2bf63c3780b79d">div</a>(      <span class="stringliteral">&quot;vert&lt;procedure weight=10%&gt;&lt;result weight=15%&gt;&quot;</span></div>
 <div class="line">                <span class="stringliteral">&quot;&lt;weight=2&gt;&lt;opkeys margin=2 grid=[4, 5] gap=2 collapse(0,4,2,1)&gt;&quot;</span>);</div>
 <div class="line"></div>
-<div class="line">        <a class="code" href="../../dd/d8c/classnana_1_1label.html">label</a> procedure(fm), <a class="code" href="../../d6/d75/namespacepip_1_1__vendor_1_1distlib_1_1locators.html#a3e1c02255858365abed0583b6ea79dc3">result</a>(fm);</div>
+<div class="line">        <a class="code" href="../../dd/d8c/classnana_1_1label.html">label</a> procedure(fm), result(fm);</div>
 <div class="line"></div>
 <div class="line">        <span class="comment">//Make the label right aligned.</span></div>
 <div class="line">        procedure.text_align(<a name="a20"></a><a class="code" href="../../d2/d76/namespacenana.html#ad3d2f08c451a6752b3f7d53e0f863087a7c4f29407893c334a6cb7a87bf045c0d">nana::align::right</a>);</div>
-<div class="line">        <a class="code" href="../../d6/d75/namespacepip_1_1__vendor_1_1distlib_1_1locators.html#a3e1c02255858365abed0583b6ea79dc3">result</a>.text_align(<a class="code" href="../../d2/d76/namespacenana.html#ad3d2f08c451a6752b3f7d53e0f863087a7c4f29407893c334a6cb7a87bf045c0d">nana::align::right</a>);</div>
-<div class="line">        <a class="code" href="../../d6/d75/namespacepip_1_1__vendor_1_1distlib_1_1locators.html#a3e1c02255858365abed0583b6ea79dc3">result</a>.typeface(<a name="_a21"></a><a class="code" href="../../d4/d3c/classnana_1_1paint_1_1font.html">nana::paint::font</a>(<span class="stringliteral">&quot;&quot;</span>, 14, <span class="keyword">true</span>));</div>
+<div class="line">        result.text_align(<a class="code" href="../../d2/d76/namespacenana.html#ad3d2f08c451a6752b3f7d53e0f863087a7c4f29407893c334a6cb7a87bf045c0d">nana::align::right</a>);</div>
+<div class="line">        result.typeface(<a name="_a21"></a><a class="code" href="../../d4/d3c/classnana_1_1paint_1_1font.html">nana::paint::font</a>(<span class="stringliteral">&quot;&quot;</span>, 14, <span class="keyword">true</span>));</div>
 <div class="line"></div>
 <div class="line">        <a class="code" href="../../dc/de3/classnana_1_1place.html">place</a>[<span class="stringliteral">&quot;procedure&quot;</span>] &lt;&lt; procedure;</div>
-<div class="line">        <a class="code" href="../../dc/de3/classnana_1_1place.html">place</a>[<span class="stringliteral">&quot;result&quot;</span>] &lt;&lt; <a class="code" href="../../d6/d75/namespacepip_1_1__vendor_1_1distlib_1_1locators.html#a3e1c02255858365abed0583b6ea79dc3">result</a>;</div>
+<div class="line">        <a class="code" href="../../dc/de3/classnana_1_1place.html">place</a>[<span class="stringliteral">&quot;result&quot;</span>] &lt;&lt; result;</div>
 <div class="line"></div>
 <div class="line">        stateinfo state(procedure, result);</div>
 <div class="line"></div>

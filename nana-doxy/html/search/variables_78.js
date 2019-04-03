@@ -4,10 +4,5 @@ var searchData=
   ['x_5ficon_5f',['x_icon_',['../d3/ddf/classnana_1_1place__parts_1_1dockcaption__dtrigger.html#a755aad0d7464f25e513a81d857e162b6',1,'nana::place_parts::dockcaption_dtrigger']]],
   ['x_5fpointed_5f',['x_pointed_',['../d3/ddf/classnana_1_1place__parts_1_1dockcaption__dtrigger.html#adc98830cf38ec0a01f1b944f3ba6a69a',1,'nana::place_parts::dockcaption_dtrigger']]],
   ['x_5fstate_5f',['x_state_',['../d3/ddf/classnana_1_1place__parts_1_1dockcaption__dtrigger.html#a5e973e8bccb37538d61ad4989b6b8fd5',1,'nana::place_parts::dockcaption_dtrigger']]],
-  ['xevent',['xevent',['../d4/d00/structnana_1_1detail_1_1msg__packet__tag.html#aacae9305e1c4af2858af0b06a1ac0746',1,'nana::detail::msg_packet_tag']]],
-  ['xgltype',['XGLTYPE',['../d4/df2/namespacepip_1_1__vendor_1_1distlib_1_1__backport_1_1tarfile.html#a771faf2724f692e49b74d702d1f741da',1,'pip::_vendor::distlib::_backport::tarfile']]],
-  ['xhdtype',['XHDTYPE',['../d4/df2/namespacepip_1_1__vendor_1_1distlib_1_1__backport_1_1tarfile.html#a99a3b16ef5c68d8d1f2b2113921f624e',1,'pip::_vendor::distlib::_backport::tarfile']]],
-  ['xmlentities',['xmlEntities',['../d5/dd3/namespacepip_1_1__vendor_1_1html5lib_1_1constants.html#aa4d3cda69cbfa57ba77d043473312103',1,'pip::_vendor::html5lib::constants']]],
-  ['xrange',['xrange',['../d9/d38/namespacepip_1_1__vendor_1_1msgpack_1_1fallback.html#a25fe5239944dc61c77a2abfb6c69859f',1,'pip._vendor.msgpack.fallback.xrange()'],['../df/dae/namespacepip_1_1__vendor_1_1urllib3_1_1connectionpool.html#af4fe29676fd273dfca039e3b53b7c92d',1,'pip._vendor.urllib3.connectionpool.xrange()']]],
-  ['xz_5fextensions',['XZ_EXTENSIONS',['../de/dc3/namespacepip_1_1__internal_1_1utils_1_1misc.html#ae0a183a5b46eaf418f3e3fc54379277a',1,'pip::_internal::utils::misc']]]
+  ['xevent',['xevent',['../d4/d00/structnana_1_1detail_1_1msg__packet__tag.html#aacae9305e1c4af2858af0b06a1ac0746',1,'nana::detail::msg_packet_tag']]]
 ];

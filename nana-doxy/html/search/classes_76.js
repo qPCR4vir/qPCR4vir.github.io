@@ -3,13 +3,9 @@ var searchData=
   ['va_5flist',['va_list',['http://en.cppreference.com/w/cpp/utility/variadic/va_list.html',1,'']]],
   ['valarray',['valarray',['http://en.cppreference.com/w/cpp/numeric/valarray.html',1,'std']]],
   ['value',['value',['../d9/df6/structnana_1_1date_1_1value.html',1,'nana::date']]],
-  ['value',['Value',['../d7/d18/classpip_1_1__vendor_1_1packaging_1_1markers_1_1_value.html',1,'pip::_vendor::packaging::markers']]],
   ['value',['value',['../de/d89/structnana_1_1time_1_1value.html',1,'nana::time']]],
   ['value_5fcompare',['value_compare',['http://en.cppreference.com/w/cpp/container/map/value_compare.html',1,'std::map']]],
   ['value_5fcompare',['value_compare',['http://en.cppreference.com/w/cpp/container/multimap/value_compare.html',1,'std::multimap']]],
-  ['variable',['Variable',['../d7/dda/classpip_1_1__vendor_1_1packaging_1_1markers_1_1_variable.html',1,'pip::_vendor::packaging::markers']]],
-  ['vcshashunsupported',['VcsHashUnsupported',['../dd/df6/classpip_1_1__internal_1_1exceptions_1_1_vcs_hash_unsupported.html',1,'pip::_internal::exceptions']]],
-  ['vcssupport',['VcsSupport',['../dc/d7e/classpip_1_1__internal_1_1vcs_1_1_vcs_support.html',1,'pip::_internal::vcs']]],
   ['vector',['vector',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
   ['vector_3c_20_3a_3astd_3a_3astring_20_3e',['vector&lt; ::std::string &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
   ['vector_3c_20basic_5fwindow_20_2a_20_3e',['vector&lt; basic_window * &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
@@ -68,11 +64,5 @@ var searchData=
   ['vector_3c_20unsigned_20_3e',['vector&lt; unsigned &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
   ['vector_3c_20unsigned_20long_20_3e',['vector&lt; unsigned long &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
   ['vector_3c_20visual_5fline_20_3e',['vector&lt; visual_line &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
-  ['verifiedhttpsconnection',['VerifiedHTTPSConnection',['../d7/d35/classpip_1_1__vendor_1_1urllib3_1_1connection_1_1_verified_h_t_t_p_s_connection.html',1,'pip::_vendor::urllib3::connection']]],
-  ['version',['Version',['../da/d0e/classpip_1_1__vendor_1_1distlib_1_1version_1_1_version.html',1,'pip::_vendor::distlib::version']]],
-  ['version',['Version',['../d6/d65/classpip_1_1__vendor_1_1packaging_1_1version_1_1_version.html',1,'pip::_vendor::packaging::version']]],
-  ['versionconflict',['VersionConflict',['../d2/d23/classpip_1_1__vendor_1_1pkg__resources_1_1_version_conflict.html',1,'pip::_vendor::pkg_resources']]],
-  ['versioncontrol',['VersionControl',['../d8/d4b/classpip_1_1__internal_1_1vcs_1_1_version_control.html',1,'pip::_internal::vcs']]],
-  ['view_5fmonth_5frep',['view_month_rep',['../d6/d5d/structnana_1_1drawerbase_1_1date__chooser_1_1trigger_1_1model_1_1view__month__rep.html',1,'nana::drawerbase::date_chooser::trigger::model']]],
-  ['virtualenvselfcheckstate',['VirtualenvSelfCheckState',['../d9/d49/classpip_1_1__internal_1_1utils_1_1outdated_1_1_virtualenv_self_check_state.html',1,'pip::_internal::utils::outdated']]]
+  ['view_5fmonth_5frep',['view_month_rep',['../d6/d5d/structnana_1_1drawerbase_1_1date__chooser_1_1trigger_1_1model_1_1view__month__rep.html',1,'nana::drawerbase::date_chooser::trigger::model']]]
 ];

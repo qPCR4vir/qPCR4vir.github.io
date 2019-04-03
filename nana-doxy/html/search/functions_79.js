@@ -4,6 +4,5 @@ var searchData=
   ['y_5fref',['y_ref',['../d3/d59/classnana_1_1rectangle__rotator.html#aad78d36f3fb6c0cfb00b501be165c343',1,'nana::rectangle_rotator']]],
   ['year',['year',['../db/d35/classnana_1_1inputbox_1_1date.html#a2f1c736cba659f49a5f822c1459bf008',1,'nana::inputbox::date']]],
   ['year_5fdays',['year_days',['../da/d05/classnana_1_1date.html#a6ef2ef16c43bc7938956ad908a04d843',1,'nana::date']]],
-  ['yield',['yield',['http://en.cppreference.com/w/cpp/thread/yield.html',1,'std::this_thread']]],
-  ['yield_5flines',['yield_lines',['../d7/dcc/namespacepip_1_1__vendor_1_1pkg__resources.html#a50d22787e267013a13dace60a6765cdb',1,'pip::_vendor::pkg_resources']]]
+  ['yield',['yield',['http://en.cppreference.com/w/cpp/thread/yield.html',1,'std::this_thread']]]
 ];

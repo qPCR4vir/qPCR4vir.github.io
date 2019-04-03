@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('d3/de9/widget_show_8cpp-example.html',
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Properties</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -211,7 +211,7 @@ $(document).ready(function(){initNavTree('d3/de9/widget_show_8cpp-example.html',
 <div class="line">                {</div>
 <div class="line">                        <span class="keywordflow">if</span>(!exp) <span class="keywordflow">return</span>; <span class="comment">//If this is contracted.</span></div>
 <div class="line"></div>
-<div class="line">                        <a name="_a12"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> <a class="code" href="../../de/dc4/namespacepip_1_1____main____.html#aa2d5c04b2d8daff6d918bbef3fa0cfa1">path</a> = treebox_.make_key_path(node,  (<span class="stringliteral">&quot;/&quot;</span>)) +  (<span class="stringliteral">&quot;/&quot;</span>);</div>
+<div class="line">                        <a name="_a12"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> path = treebox_.make_key_path(node,  (<span class="stringliteral">&quot;/&quot;</span>)) +  (<span class="stringliteral">&quot;/&quot;</span>);</div>
 <div class="line">                        <span class="comment">//Trim the head of whitespace, more portable, because the root</span></div>
 <div class="line">                        <span class="comment">//under Linux is a whitespace</span></div>
 <div class="line">                        std::string::size_type path_start_pos = path.<a name="a13"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/find_first_not_of.html">find_first_not_of</a>( (<span class="stringliteral">&quot; &quot;</span>));</div>
@@ -234,12 +234,12 @@ $(document).ready(function(){initNavTree('d3/de9/widget_show_8cpp-example.html',
 <div class="line">                                <span class="comment">//node has a child and an arrow symbol will be displayed in the</span></div>
 <div class="line">                                <span class="comment">//front of the node.</span></div>
 <div class="line">                                        <span class="keywordflow">try</span> {</div>
-<div class="line">                                fs::directory_iterator <a class="code" href="../../df/d13/namespacepip_1_1__vendor_1_1six.html#a25d670d1f54111284d60bfb623a0af93">u</a>(i-&gt;path());</div>
-<div class="line">                                <span class="keywordflow">for</span>(; <a class="code" href="../../df/d13/namespacepip_1_1__vendor_1_1six.html#a25d670d1f54111284d60bfb623a0af93">u</a> != end; ++<a class="code" href="../../df/d13/namespacepip_1_1__vendor_1_1six.html#a25d670d1f54111284d60bfb623a0af93">u</a>)</div>
+<div class="line">                                fs::directory_iterator u(i-&gt;path());</div>
+<div class="line">                                <span class="keywordflow">for</span>(; u != end; ++u)</div>
 <div class="line">                                {</div>
-<div class="line">                                        <span class="keywordflow">if</span> (!fs::is_directory(*<a class="code" href="../../df/d13/namespacepip_1_1__vendor_1_1six.html#a25d670d1f54111284d60bfb623a0af93">u</a>))  <span class="keywordflow">continue</span>; <span class="comment">//If it is not a directory.</span></div>
-<div class="line">                                        treebox_.insert(child, <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(<a class="code" href="../../df/d13/namespacepip_1_1__vendor_1_1six.html#a25d670d1f54111284d60bfb623a0af93">u</a>-&gt;path().filename()),</div>
-<div class="line">                                                                   <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(<a class="code" href="../../df/d13/namespacepip_1_1__vendor_1_1six.html#a25d670d1f54111284d60bfb623a0af93">u</a>-&gt;path().filename()));</div>
+<div class="line">                                        <span class="keywordflow">if</span> (!fs::is_directory(*u))  <span class="keywordflow">continue</span>; <span class="comment">//If it is not a directory.</span></div>
+<div class="line">                                        treebox_.insert(child, <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(u-&gt;path().filename()),</div>
+<div class="line">                                                                   <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(u-&gt;path().filename()));</div>
 <div class="line">                                        <span class="keywordflow">break</span>;</div>
 <div class="line">                                }</div>
 <div class="line">                                        } <span class="keywordflow">catch</span> (...) {}</div>
@@ -284,7 +284,7 @@ $(document).ready(function(){initNavTree('d3/de9/widget_show_8cpp-example.html',
 <div class="line"></div>
 <div class="line">                        place_.div(<span class="stringliteral">&quot;&lt;weight=5&gt;&lt;vertical &lt;weight=5&gt;&lt; weight=150 gap=5 check vertical&gt; &lt;bottom_cat vertical gap=5 weight=50&gt;&gt;&lt;weight=5&gt;&quot;</span>);</div>
 <div class="line"></div>
-<div class="line">                        <span class="keyword">const</span> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> <a class="code" href="../../d8/d2a/namespacepip_1_1__vendor_1_1requests_1_1compat.html#a0a3891b273b8f1ce270e9356700eb984">str</a>[6] = {</div>
+<div class="line">                        <span class="keyword">const</span> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> str[6] = {</div>
 <div class="line">                                         (<span class="stringliteral">&quot;Airbus&quot;</span>),  (<span class="stringliteral">&quot;AHTOHOB&quot;</span>),</div>
 <div class="line">                                         (<span class="stringliteral">&quot;Boeing&quot;</span>),  (<span class="stringliteral">&quot;Bombardier&quot;</span>),</div>
 <div class="line">                                         (<span class="stringliteral">&quot;Cessna&quot;</span>),  (<span class="stringliteral">&quot;EMBRAER&quot;</span>)};</div>
@@ -292,7 +292,7 @@ $(document).ready(function(){initNavTree('d3/de9/widget_show_8cpp-example.html',
 <div class="line">                        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; 6; ++i)</div>
 <div class="line">                        {</div>
 <div class="line">                                <span class="keyword">auto</span> p = std::make_shared&lt;checkbox&gt;(*this);</div>
-<div class="line">                                box_.push_back(p);</div>
+<div class="line">                                box_.<a name="a21"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/push_back.html">push_back</a>(p);</div>
 <div class="line"></div>
 <div class="line">                                <span class="comment">//Add the checkbox to the radio group. The radio group does not</span></div>
 <div class="line">                                <span class="comment">//manage the life of checkboxs.</span></div>
@@ -302,7 +302,7 @@ $(document).ready(function(){initNavTree('d3/de9/widget_show_8cpp-example.html',
 <div class="line">                                p-&gt;caption(str[i]);</div>
 <div class="line">                                p-&gt;events().click([<span class="keyword">this</span>]()</div>
 <div class="line">                                        {</div>
-<div class="line">                                                <a name="_a21"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> index = this-&gt;group_.checked();</div>
+<div class="line">                                                <a name="_a22"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> index = this-&gt;group_.checked();</div>
 <div class="line">                                                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> str = this-&gt;box_[index]-&gt;caption();</div>
 <div class="line"></div>
 <div class="line">                                                this-&gt;label_.caption( (<span class="stringliteral">&quot;You have selected &quot;</span>) + str);</div>
@@ -317,7 +317,7 @@ $(document).ready(function(){initNavTree('d3/de9/widget_show_8cpp-example.html',
 <div class="line"></div>
 <div class="line">                        place_.field(<span class="stringliteral">&quot;bottom_cat&quot;</span>)&lt;&lt; label_ &lt;&lt; categorize_ ;</div>
 <div class="line"></div>
-<div class="line">                        <a name="_a22"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/map.html">std::map&lt;std::string, std::vector&lt;std::string&gt;</a>&gt; map;</div>
+<div class="line">                        <a name="_a23"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/map.html">std::map&lt;std::string, std::vector&lt;std::string&gt;</a>&gt; map;</div>
 <div class="line">                        <span class="keyword">auto</span> p = &amp;(map[str[0]]);</div>
 <div class="line">                        p-&gt;push_back( (<span class="stringliteral">&quot;320&quot;</span>));</div>
 <div class="line">                        p-&gt;push_back( (<span class="stringliteral">&quot;330&quot;</span>));</div>
@@ -345,25 +345,25 @@ $(document).ready(function(){initNavTree('d3/de9/widget_show_8cpp-example.html',
 <div class="line">                        <span class="keywordflow">for</span>(<span class="keyword">auto</span> &amp; mstr: str)</div>
 <div class="line">                        {</div>
 <div class="line">                                categorize_.caption( (<span class="stringliteral">&quot;Manufacturer&quot;</span>));</div>
-<div class="line">                                categorize_.<a name="a23"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/map/insert.html">insert</a>(mstr, 0);</div>
+<div class="line">                                categorize_.<a name="a24"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/map/insert.html">insert</a>(mstr, 0);</div>
 <div class="line">                                <span class="keywordflow">for</span>(<span class="keyword">auto</span> &amp; astr : map[mstr])</div>
 <div class="line">                                        categorize_.childset(astr, 0);</div>
 <div class="line">                        }</div>
 <div class="line">                }</div>
 <div class="line">        <span class="keyword">private</span>:</div>
 <div class="line">                <a class="code" href="../../dc/de3/classnana_1_1place.html">place</a> place_;</div>
-<div class="line">                <a name="_a24"></a><a class="code" href="../../d4/de4/classnana_1_1radio__group.html">radio_group</a> group_;</div>
-<div class="line">                <a name="_a25"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::shared_ptr&lt;checkbox&gt;</a>&gt; box_;</div>
-<div class="line">                <a name="_a26"></a><a class="code" href="../../dd/d8c/classnana_1_1label.html">label</a> label_;</div>
-<div class="line">                <a name="_a27"></a><a class="code" href="../../d5/d30/classnana_1_1categorize.html">categorize&lt;int&gt;</a> categorize_;</div>
+<div class="line">                <a name="_a25"></a><a class="code" href="../../d4/de4/classnana_1_1radio__group.html">radio_group</a> group_;</div>
+<div class="line">                <a name="_a26"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::shared_ptr&lt;checkbox&gt;</a>&gt; box_;</div>
+<div class="line">                <a name="_a27"></a><a class="code" href="../../dd/d8c/classnana_1_1label.html">label</a> label_;</div>
+<div class="line">                <a name="_a28"></a><a class="code" href="../../d5/d30/classnana_1_1categorize.html">categorize&lt;int&gt;</a> categorize_;</div>
 <div class="line">        };</div>
 <div class="line"></div>
 <div class="line">        <span class="keyword">class </span>widget_show</div>
-<div class="line">                : <span class="keyword">public</span> <a name="_a28"></a><a class="code" href="../../d6/d57/classnana_1_1form.html">form</a></div>
+<div class="line">                : <span class="keyword">public</span> <a name="_a29"></a><a class="code" href="../../d6/d57/classnana_1_1form.html">form</a></div>
 <div class="line">        {</div>
 <div class="line">        <span class="keyword">public</span>:</div>
 <div class="line">                widget_show()</div>
-<div class="line">                        : <a class="code" href="../../d6/d57/classnana_1_1form.html">form</a>(API::make_center(500, 400), <a name="_a29"></a><a class="code" href="../../d6/d12/structnana_1_1appear_1_1decorate.html">appear::decorate&lt;appear::sizable&gt;</a>())</div>
+<div class="line">                        : <a class="code" href="../../d6/d57/classnana_1_1form.html">form</a>(API::make_center(500, 400), <a name="_a30"></a><a class="code" href="../../d6/d12/structnana_1_1appear_1_1decorate.html">appear::decorate&lt;appear::sizable&gt;</a>())</div>
 <div class="line">                {</div>
 <div class="line">                        this-&gt;caption( (<span class="stringliteral">&quot;This is a demo of Nana C++ Library&quot;</span>));</div>
 <div class="line">                        place_.bind(*<span class="keyword">this</span>);</div>
@@ -381,12 +381,12 @@ $(document).ready(function(){initNavTree('d3/de9/widget_show_8cpp-example.html',
 <div class="line">                        _m_init_progresses();</div>
 <div class="line">                        _m_init_tabbar();</div>
 <div class="line"></div>
-<div class="line">                        this-&gt;<a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a0a5fa378a313bd333b3ab8ae86d69bcc">events</a>().unload([<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a30"></a><a class="code" href="../../d0/d2c/structnana_1_1arg__unload.html">arg_unload</a>&amp; ei)</div>
+<div class="line">                        this-&gt;<a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a0a5fa378a313bd333b3ab8ae86d69bcc">events</a>().unload([<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a31"></a><a class="code" href="../../d0/d2c/structnana_1_1arg__unload.html">arg_unload</a>&amp; ei)</div>
 <div class="line">                                {</div>
-<div class="line">                                        <a name="_a31"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html">msgbox</a> mb(this-&gt;handle(),  (<span class="stringliteral">&quot;Question&quot;</span>), msgbox::yes_no);</div>
-<div class="line">                                        mb.<a name="a32"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#aa7a087be7daafa4ffcfe17a64cceee14">icon</a>(mb.<a name="a33"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#a31f60532b1939da3197181648f1fe803a6543efef522647218229fab72b80dc0b">icon_question</a>);</div>
+<div class="line">                                        <a name="_a32"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html">msgbox</a> mb(this-&gt;handle(),  (<span class="stringliteral">&quot;Question&quot;</span>), msgbox::yes_no);</div>
+<div class="line">                                        mb.<a name="a33"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#aa7a087be7daafa4ffcfe17a64cceee14">icon</a>(mb.<a name="a34"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#a31f60532b1939da3197181648f1fe803a6543efef522647218229fab72b80dc0b">icon_question</a>);</div>
 <div class="line">                                        mb&lt;&lt; (<span class="stringliteral">&quot;Are you sure you want to exit the demo?&quot;</span>);</div>
-<div class="line">                                        ei.<a name="a34"></a><a class="code" href="../../d0/d2c/structnana_1_1arg__unload.html#ab5228dd3e0e98380b6f869c2419ce063">cancel</a> = (mb.<a name="a35"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#a4f96465b7fc07ca07e5ebe969c9991f5a2912f588106a9a1531603d6c5959ffac">pick_no</a> == mb());</div>
+<div class="line">                                        ei.<a name="a35"></a><a class="code" href="../../d0/d2c/structnana_1_1arg__unload.html#ab5228dd3e0e98380b6f869c2419ce063">cancel</a> = (mb.<a name="a36"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#a4f96465b7fc07ca07e5ebe969c9991f5a2912f588106a9a1531603d6c5959ffac">pick_no</a> == mb());</div>
 <div class="line">                                });</div>
 <div class="line"></div>
 <div class="line">                        place_.collocate();</div>
@@ -396,7 +396,7 @@ $(document).ready(function(){initNavTree('d3/de9/widget_show_8cpp-example.html',
 <div class="line">                {</div>
 <div class="line"></div>
 <div class="line">                        <a class="code" href="../../d8/d97/classnana_1_1msgbox.html">msgbox</a> mb(*<span class="keyword">this</span>,  (<span class="stringliteral">&quot;Msgbox&quot;</span>));</div>
-<div class="line">                        mb.<a class="code" href="../../d8/d97/classnana_1_1msgbox.html#aa7a087be7daafa4ffcfe17a64cceee14">icon</a>(mb.<a name="a36"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#a31f60532b1939da3197181648f1fe803a59e22cb792a266e173f955ad3f27a1c3">icon_information</a>);</div>
+<div class="line">                        mb.<a class="code" href="../../d8/d97/classnana_1_1msgbox.html#aa7a087be7daafa4ffcfe17a64cceee14">icon</a>(mb.<a name="a37"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#a31f60532b1939da3197181648f1fe803a59e22cb792a266e173f955ad3f27a1c3">icon_information</a>);</div>
 <div class="line">                        mb&lt;&lt; (<span class="stringliteral">&quot;Button Clicked&quot;</span>);</div>
 <div class="line">                        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; 3; ++i)</div>
 <div class="line">                        {</div>
@@ -412,7 +412,7 @@ $(document).ready(function(){initNavTree('d3/de9/widget_show_8cpp-example.html',
 <div class="line">                        ptr = buttons_[1];</div>
 <div class="line">                        <span class="comment">//Nana does not support ICON under Linux now</span></div>
 <div class="line"><span class="preprocessor">#if defined(NANA_WINDOWS)</span></div>
-<div class="line"><span class="preprocessor"></span>                        ptr-&gt;<a class="code" href="../../d8/d97/classnana_1_1msgbox.html#aa7a087be7daafa4ffcfe17a64cceee14">icon</a>( <a name="_a37"></a><a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>(<span class="stringliteral">&quot;../Examples/image.ico&quot;</span>));</div>
+<div class="line"><span class="preprocessor"></span>                        ptr-&gt;<a class="code" href="../../d8/d97/classnana_1_1msgbox.html#aa7a087be7daafa4ffcfe17a64cceee14">icon</a>( <a name="_a38"></a><a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>(<span class="stringliteral">&quot;../Examples/image.ico&quot;</span>));</div>
 <div class="line"><span class="preprocessor">#else</span></div>
 <div class="line"><span class="preprocessor"></span>                        ptr-&gt;<a class="code" href="../../d8/d97/classnana_1_1msgbox.html#aa7a087be7daafa4ffcfe17a64cceee14">icon</a>(<a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>(<span class="stringliteral">&quot;../Examples/image.bmp&quot;</span>));</div>
 <div class="line"><span class="preprocessor">#endif</span></div>
@@ -440,13 +440,13 @@ $(document).ready(function(){initNavTree('d3/de9/widget_show_8cpp-example.html',
 <div class="line">                        <span class="keyword">auto</span> ptr = comboxs_[0];</div>
 <div class="line">                        ptr-&gt;editable(<span class="keyword">true</span>);</div>
 <div class="line">                        ptr-&gt;caption( (<span class="stringliteral">&quot;This is an editable combox&quot;</span>));</div>
-<div class="line">                        ptr-&gt;events().selected( [<span class="keyword">this</span>, mb](<span class="keyword">const</span> <a name="_a38"></a><a class="code" href="../../d5/dd5/structnana_1_1arg__combox.html">nana::arg_combox</a>&amp; acmb) <span class="keyword">mutable</span></div>
+<div class="line">                        ptr-&gt;events().selected( [<span class="keyword">this</span>, mb](<span class="keyword">const</span> <a name="_a39"></a><a class="code" href="../../d5/dd5/structnana_1_1arg__combox.html">nana::arg_combox</a>&amp; acmb) <span class="keyword">mutable</span></div>
 <div class="line">                        {</div>
-<div class="line">                                mb&lt;&lt; (<span class="stringliteral">&quot;The item &quot;</span>)&lt;&lt;acmb.<a name="a39"></a><a class="code" href="../../d5/dd5/structnana_1_1arg__combox.html#a3eeb7f1fc21af40312f5a2a922b640d0">widget</a>.<a name="a40"></a><a class="code" href="../../de/d10/classnana_1_1combox.html#a0ef13780990389dca63394bc35202790">option</a>()&lt;&lt; (<span class="stringliteral">&quot; is selected in editable combox&quot;</span>);</div>
+<div class="line">                                mb&lt;&lt; (<span class="stringliteral">&quot;The item &quot;</span>)&lt;&lt;acmb.<a name="a40"></a><a class="code" href="../../d5/dd5/structnana_1_1arg__combox.html#a3eeb7f1fc21af40312f5a2a922b640d0">widget</a>.<a name="a41"></a><a class="code" href="../../de/d10/classnana_1_1combox.html#a0ef13780990389dca63394bc35202790">option</a>()&lt;&lt; (<span class="stringliteral">&quot; is selected in editable combox&quot;</span>);</div>
 <div class="line">                                mb();</div>
 <div class="line">                                <span class="comment">//Clear the buffer, otherwise the mb shows the text generated in</span></div>
 <div class="line">                                <span class="comment">//the last selected event.</span></div>
-<div class="line">                                mb.<a name="a41"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#a6a459f570e4f8e134d8229c525dba922">clear</a>();</div>
+<div class="line">                                mb.<a name="a42"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#a6a459f570e4f8e134d8229c525dba922">clear</a>();</div>
 <div class="line">                        });</div>
 <div class="line"></div>
 <div class="line">                        ptr = comboxs_[1];</div>
@@ -485,7 +485,7 @@ $(document).ready(function(){initNavTree('d3/de9/widget_show_8cpp-example.html',
 <div class="line">                        {</div>
 <div class="line">                                <span class="keyword">auto</span> p = std::make_shared&lt;progress&gt;(*this);</div>
 <div class="line">                                place_.field(<span class="stringliteral">&quot;progresses&quot;</span>)&lt;&lt;*p; <span class="comment">//place_.room(, 3, 1);</span></div>
-<div class="line">                                progresses_.<a name="a42"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/push_back.html">push_back</a>(p);</div>
+<div class="line">                                progresses_.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/push_back.html">push_back</a>(p);</div>
 <div class="line">                                p-&gt;unknown(i == 0);     <span class="comment">//The first progress is unknown mode, the second is known mode.</span></div>
 <div class="line">                                tooltip_.set(*p, tipstr[i]);</div>
 <div class="line">                        }</div>
@@ -553,7 +553,7 @@ $(document).ready(function(){initNavTree('d3/de9/widget_show_8cpp-example.html',
 <div class="line">        }</div>
 <div class="line">}</div>
 <div class="line"></div>
-<div class="line"><span class="keywordtype">int</span> <a class="code" href="../../d9/da0/namespacepip_1_1__internal.html#af45dd17747a42e9a88101c77858cf019">main</a>()</div>
+<div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
 <div class="line">        demo::go();     </div>
 <div class="line">}</div>
