@@ -102,7 +102,10 @@ $(document).ready(function(){initNavTree('d4/d1b/inputbox_8cpp-example.html','..
 </div><!--header-->
 <div class="contents">
 <p>![]( )</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span></div>
+<div class="fragment"><div class="line"><span class="comment">// demo and test for nana::internationalization,</span></div>
+<div class="line"><span class="comment">//                   nana::inputbox,</span></div>
+<div class="line"><span class="comment">//                   nana::paint::image</span></div>
+<div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span></div>
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
 <div class="line">        <span class="keyword">using namespace </span>nana;</div>
@@ -132,13 +135,13 @@ $(document).ready(function(){initNavTree('d4/d1b/inputbox_8cpp-example.html','..
 <div class="line">                </div>
 <div class="line">                <span class="comment">//Use &#39;copy&#39; to assign the image, these image objects refer to the same</span></div>
 <div class="line">                <span class="comment">//image resource.</span></div>
-<div class="line">                inbox.<a name="a10"></a><a class="code" href="../../d0/d9b/classnana_1_1inputbox.html#a096da8ea9be906c4521bd1da36378d45">image</a>(img, <span class="keyword">true</span>, { 380, 0, 40, 100 });</div>
-<div class="line">                inbox.<a class="code" href="../../d0/d9b/classnana_1_1inputbox.html#a096da8ea9be906c4521bd1da36378d45">image</a>(img, <span class="keyword">false</span>, { 420, 0, 40, 100 });</div>
+<div class="line">                inbox.<a name="a10"></a><a class="code" href="../../d0/d9b/classnana_1_1inputbox.html#a34af49e48c23edffa16d135cd626efa1">image</a>(img, <span class="keyword">true</span>, { 380, 0, 40, 100 });</div>
+<div class="line">                inbox.<a class="code" href="../../d0/d9b/classnana_1_1inputbox.html#a34af49e48c23edffa16d135cd626efa1">image</a>(img, <span class="keyword">false</span>, { 420, 0, 40, 100 });</div>
 <div class="line">                inbox.<a name="a11"></a><a class="code" href="../../d0/d9b/classnana_1_1inputbox.html#a7d64f987da3c2aae503e1f91926aff6a">image_v</a>(img, <span class="keyword">true</span>, { 0, 0, 380, 50 });</div>
 <div class="line">                inbox.<a class="code" href="../../d0/d9b/classnana_1_1inputbox.html#a7d64f987da3c2aae503e1f91926aff6a">image_v</a>(img, <span class="keyword">false</span>, { 0, 50, 380, 50 });</div>
 <div class="line">                </div>
 <div class="line">                <span class="comment">//Sets a verifier</span></div>
-<div class="line">                inbox.<a name="a12"></a><a class="code" href="../../d0/d9b/classnana_1_1inputbox.html#a947dbc8ebefe3c8eab7d1e815a8e51b1">verify</a>([&amp;name](<a name="_a13"></a><a class="code" href="../../d2/d87/structnana_1_1detail_1_1window__handle__impl.html">window</a> handle)</div>
+<div class="line">                inbox.<a name="a12"></a><a class="code" href="../../d0/d9b/classnana_1_1inputbox.html#a947dbc8ebefe3c8eab7d1e815a8e51b1">verify</a>([&amp;name](<a name="_a13"></a><a class="code" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html">window</a> handle)</div>
 <div class="line">                {</div>
 <div class="line">                        <span class="keywordflow">if</span> (name.<a name="a14"></a><a class="code" href="../../d3/dd2/classnana_1_1inputbox_1_1text.html#a22e6b3b7ee13ea93e127ece11f4c1828">value</a>().<a name="a15"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/empty.html">empty</a>())</div>
 <div class="line">                        {</div>

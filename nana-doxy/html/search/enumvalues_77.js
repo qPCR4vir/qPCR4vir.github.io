@@ -9,5 +9,6 @@ var searchData=
   ['white_5fsmoke',['white_smoke',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a37ecf1e4670c4944a0f98bcb39728578',1,'nana']]],
   ['widget',['widget',['../dd/d00/namespacenana_1_1category.html#a85512d536658f20d199b9fa20df34818a9d2b1ad5bbc16c44d49116dc213c53f2',1,'nana::category']]],
   ['width',['width',['../de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1aeaae26a6fb20ed3ef54fb23bfa0b1fcc',1,'nana::place_parts::tokenizer']]],
+  ['word_5fwrap',['word_wrap',['../db/d57/classnana_1_1paint_1_1text__renderer.html#a55c8dec1673d5a3a67fd0d27207fa7e1a3f8a435fa02f33725f826f7259c4488b',1,'nana::paint::text_renderer']]],
   ['ws',['WS',['../d8/d7f/classnana_1_1unicode__bidi.html#ab4d218792adebd435c0808cfa7fce137a54df3baef130c81e6ae8432a2567320a',1,'nana::unicode_bidi::WS()'],['../d9/d0f/namespacenana_1_1bidi__charmap.html#a35c8c909095bdaeefe7ffcba2fa54828a1b9e54d060f87c7b9f521adb7f5cce1f',1,'nana::bidi_charmap::WS()']]]
 ];

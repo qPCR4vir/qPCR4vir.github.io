@@ -10,7 +10,6 @@ var structnana_1_1detail_1_1basic__window_1_1flags__type =
     [ "dropable", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#a6ca5ec18e906e62c918ccc50a72eeed3", null ],
     [ "enabled", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#ac0a1a58eab58ce7113223749625bc867", null ],
     [ "fullscreen", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#ace83da0cf3c46fabcd4ab5f7ad651ba2", null ],
-    [ "ignore_child_mapping", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#adf356cf89677d8098e243dfe9d97fa57", null ],
     [ "ignore_menubar_focus", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#a9041234ebd28d55a80d4bff14f62e967", null ],
     [ "ignore_mouse_focus", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#ad1d7d2da04e8fc45f803359bea51215f", null ],
     [ "make_bground_declared", "dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#aaaddd6fb88a5e55615a32a5e08ee9f77", null ],

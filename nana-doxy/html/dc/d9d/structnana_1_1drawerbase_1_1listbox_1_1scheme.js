@@ -16,6 +16,5 @@ var structnana_1_1drawerbase_1_1listbox_1_1scheme =
     [ "min_column_width", "dc/d9d/structnana_1_1drawerbase_1_1listbox_1_1scheme.html#a76c547f7b30a6b6df64a9c8837a74db8", null ],
     [ "mouse_wheel", "dc/d9d/structnana_1_1drawerbase_1_1listbox_1_1scheme.html#aec5f24164f43326d7b6c2e7fba4ce09b", null ],
     [ "selection_box", "dc/d9d/structnana_1_1drawerbase_1_1listbox_1_1scheme.html#abf1299d58de1390cd8a8a84922923179", null ],
-    [ "suspension_width", "dc/d9d/structnana_1_1drawerbase_1_1listbox_1_1scheme.html#a4502ea563ed33b39eb594958a5255e07", null ],
     [ "text_margin", "dc/d9d/structnana_1_1drawerbase_1_1listbox_1_1scheme.html#aec934e89a58dc9ffa5bb16e67542d111", null ]
 ];

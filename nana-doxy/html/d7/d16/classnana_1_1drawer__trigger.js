@@ -16,6 +16,7 @@ var classnana_1_1drawer__trigger =
     [ "filter_event", "d7/d16/classnana_1_1drawer__trigger.html#a764efe1ab9f9b22b21a089ffecd3bf27", null ],
     [ "focus", "d7/d16/classnana_1_1drawer__trigger.html#a1cef498bace62500116e40062993bb6b", null ],
     [ "key_char", "d7/d16/classnana_1_1drawer__trigger.html#ab252206d63cf53379164083847ebd6fd", null ],
+    [ "key_ime", "d7/d16/classnana_1_1drawer__trigger.html#a6fbabee533655d1b738f2a317e3a222a", null ],
     [ "key_press", "d7/d16/classnana_1_1drawer__trigger.html#a5341c26c03ed2a7ea6f5dacb575078a5", null ],
     [ "key_release", "d7/d16/classnana_1_1drawer__trigger.html#a2829037e496245d222370a30776e447b", null ],
     [ "mouse_down", "d7/d16/classnana_1_1drawer__trigger.html#a3fa72f43854a5a23aded006500d332e0", null ],

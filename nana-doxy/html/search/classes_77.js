@@ -59,7 +59,6 @@ var searchData=
   ['widget_5ftraits',['widget_traits',['../dc/d5e/structnana_1_1dev_1_1widget__traits.html',1,'nana::dev']]],
   ['widget_5ftraits_3c_20widget_20_3e',['widget_traits&lt; widget &gt;',['../da/dcb/structnana_1_1dev_1_1widget__traits_3_01widget_01_4.html',1,'nana::dev']]],
   ['wifstream',['wifstream',['http://en.cppreference.com/w/cpp/io/basic_ifstream.html',1,'std']]],
-  ['window_5fhandle_5fimpl',['window_handle_impl',['../d2/d87/structnana_1_1detail_1_1window__handle__impl.html',1,'nana::detail']]],
   ['window_5flayout',['window_layout',['../df/d4e/classnana_1_1detail_1_1window__layout.html',1,'nana::detail']]],
   ['window_5fmanager',['window_manager',['../dc/d72/classnana_1_1detail_1_1window__manager.html',1,'nana::detail']]],
   ['window_5fregister',['window_register',['../dd/d53/classnana_1_1detail_1_1window__register.html',1,'nana::detail']]],

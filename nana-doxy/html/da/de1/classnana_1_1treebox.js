@@ -15,6 +15,7 @@ var classnana_1_1treebox =
     [ "erase", "da/de1/classnana_1_1treebox.html#a53e1751325c718af0dee6412aa160c8a", null ],
     [ "erase", "da/de1/classnana_1_1treebox.html#a563da2ea1aed80ecf5027688966fc4b7", null ],
     [ "find", "da/de1/classnana_1_1treebox.html#a07cb56fa397428ce7645af0d004240db", null ],
+    [ "hovered", "da/de1/classnana_1_1treebox.html#a413a3656eb377cd35adf3bf9e79f942a", null ],
     [ "icon", "da/de1/classnana_1_1treebox.html#af88d0e3f5f791640896cdcdc7ffd2e60", null ],
     [ "icon_erase", "da/de1/classnana_1_1treebox.html#a2a90da0d2f40a677222ee1d2ea103223", null ],
     [ "insert", "da/de1/classnana_1_1treebox.html#a2fe8cb7a9b0d893b8a30a470d338472f", null ],

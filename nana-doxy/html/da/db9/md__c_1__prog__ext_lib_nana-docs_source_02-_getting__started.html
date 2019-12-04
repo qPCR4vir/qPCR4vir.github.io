@@ -129,7 +129,7 @@ $(document).ready(function(){initNavTree('da/db9/md__c_1__prog__ext_lib_nana-doc
 </ul>
 </div>
 <div class="textblock"><p>See also:</p>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000005">Todo:</a></b></dt><dd>check and actualise links. Add new themes from the Reference and blogs post.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000010">Todo:</a></b></dt><dd>check and actualise links. Add new themes from the Reference and blogs post.</dd></dl>
 <ul>
 <li><a href="http://nanaproject.wordpress.com/2011/03/20/clone_method/">An application of Clone Method to Nana C++ Library</a> (March 20, 2011 )</li>
 <li><a href="http://nanaproject.wordpress.com/2012/04/17/an-introduction-to-the-image-processing-interfaces-from-release-of-0-2-2/">An introduction to the image processing interfaces from release of 0.2.2</a> (April 17, 2012)</li>
@@ -157,7 +157,7 @@ Hello Nana</h2>
 <div class="line">9     <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">nana::exec</a>(); </div>
 <div class="line">  } </div>
 </div><!-- fragment --><p>Lines 1 and 2 include the definitions of class <code>form</code> and class <code>label</code> in namespace <code>nana</code>. Every GUI application written with Nana C++ Library must include the header file <code>nana/gui/wvl.hpp</code>.</p>
-<p>Line 5 defines a <code><a class="el" href="../../d6/d57/classnana_1_1form.html" title="Pop-up window. Is different from other window widgets: its default constructor create the window...">nana::form</a> object</code>. It is a window used for placing a label widget in this example.</p>
+<p>Line 5 defines a <code><a class="el" href="../../d6/d57/classnana_1_1form.html" title="Pop-up window. Is different from other window widgets: its default constructor creates the window...">nana::form</a> object</code>. It is a window used for placing a label widget in this example.</p>
 <p>Line 6 defines a <code><a class="el" href="../../dd/d8c/classnana_1_1label.html" title="Define a label widget (can dispaly a formated text string and images). Provides the interfaces to be ...">nana::label</a></code> object to display a text string. The label object is created in the form. A widget is a visual element in the user interface.</p>
 <p>Line 7 sets the caption of the label object. Every widget has a "caption" to display a title or similar function, like a text in a label.</p>
 <p>Line 8 makes the form visible.</p>
@@ -166,12 +166,12 @@ Hello Nana</h2>
 <img src="../../HelloNana.jpg" alt="HelloNana.jpg"/>
 <div class="caption">
 Figure 1.1 Hello Nana</div></div>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000006">Todo:</a></b></dt><dd>correct links</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000011">Todo:</a></b></dt><dd>correct links</dd></dl>
 <p>Now, you can run the program on your own machine. But firstly you should have Nana C++ Library installed in your system. A method to install is explained in <a href="http://nanapro.org/en-us/help/instl_lib_doc.htm">Installation Library Documentation</a> in Nana Programmer`s Guide or <a href="https://github.com/qPCR4vir/nana-docs/wiki/Installation">in the wiki</a></p>
 <h2><a class="anchor" id="Event"></a>
 Responding an Event</h2>
 <p>The second example shows how to respond a user action. To receive a user action, an event handler should be registered to a widget. Nana waits for a user action and invokes the event handler of the corresponding event. This example application consists of a button that the user can click to quit.</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include&lt;nana/gui/wvl.hpp&gt;</span></div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include&lt;nana/gui.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/button.hpp&gt;</span></div>
 <div class="line"></div>
 <div class="line"><span class="keywordtype">int</span> main()</div>
@@ -258,7 +258,7 @@ Simple Notepad</h2>
 <div class="line">        fbox.add_filter(<span class="stringliteral">&quot;All Files&quot;</span>, <span class="stringliteral">&quot;*.*&quot;</span>);</div>
 <div class="line"></div>
 <div class="line">        <span class="keyword">auto</span> files = fbox.show();</div>
-<div class="line">        <span class="keywordflow">return</span> (files.empty() ? std::filesystem::path{} : files.front());</div>
+<div class="line">            <span class="keywordflow">return</span> (files.empty() ? std::filesystem::path{} : files.front());</div>
 <div class="line">    }</div>
 <div class="line"></div>
 <div class="line">    <span class="keywordtype">bool</span> _m_ask_save()</div>
@@ -277,8 +277,8 @@ Simple Notepad</h2>
 <div class="line">                    fs = _m_pick_file(<span class="keyword">false</span>);</div>
 <div class="line">                    <span class="keywordflow">if</span> (fs.empty())</div>
 <div class="line">                        <span class="keywordflow">break</span>;</div>
-<div class="line">                    <span class="keywordflow">if</span> (fs.extension() != <span class="stringliteral">&quot;.txt&quot;</span>)</div>
-<div class="line">                        fs += <span class="stringliteral">&quot;.txt&quot;</span>;</div>
+<div class="line">                    <span class="keywordflow">if</span> (fs.extension().string() != <span class="stringliteral">&quot;.txt&quot;</span>)</div>
+<div class="line">                        fs = fs.extension().string() + <span class="stringliteral">&quot;.txt&quot;</span>;</div>
 <div class="line">                }</div>
 <div class="line">                textbox_.store(fs);</div>
 <div class="line">                <span class="keywordflow">break</span>;</div>
@@ -383,7 +383,7 @@ Simple Notepad</h2>
 <p><div class="fragment"><div class="line">    std::filesystem::path _m_pick_file(<span class="keywordtype">bool</span> is_open) <span class="keyword">const</span></div>
 </div><!-- fragment --> We start with private member functions. <code>_m_pick_file()</code> is to tell user to select a file.</p>
 <p><div class="fragment"><div class="line">        <span class="keyword">auto</span> files = fbox.show();</div>
-<div class="line">        <span class="keywordflow">return</span> (files.empty() ? std::filesystem::path{} : files.front());</div>
+<div class="line">            <span class="keywordflow">return</span> (files.empty() ? std::filesystem::path{} : files.front());</div>
 </div><!-- fragment --> If the user clicks the "cancel" button or closes the dialogue by clicking the 'X' close button, <code>fbox.show()</code> returns an empty vector of file names.</p>
 <p><div class="fragment"><div class="line">    <span class="keywordtype">bool</span> _m_ask_save()</div>
 </div><!-- fragment --> This function will ask the user to save the text to a file by the time the text is closed.</p>
@@ -435,7 +435,7 @@ Function Objects</h1>
 <div class="caption">
 Figure 2.1 Various methods to make events to respond click.</div></div>
 <p> Or more elaborated: </p>
-<div class="fragment"><div class="line"><span class="preprocessor">    #include &lt;nana/gui/wvl.hpp&gt;</span> </div>
+<div class="fragment"><div class="line"><span class="preprocessor">    #include &lt;nana/gui.hpp&gt;</span> </div>
 <div class="line"><span class="preprocessor">    #include &lt;iostream&gt;</span> </div>
 <div class="line">    <span class="keywordtype">void</span> foo() </div>
 <div class="line">    { </div>
@@ -541,14 +541,14 @@ Creating forms</h1>
 <p>This chapter will teach you how to create a window using Nana C++ Library. A window is a visual element in the operation system or window environment. Form is a window that like a container can contain other widgets, such as button, textbox and listbox. Every GUI program created with the Nana C++ Library need to create one form at least, as in examples of chapter 1. Many forms are created by creating an instance of form. This way of creating a form is easy, but it will make your program complicated if you want to create a bit larger program.</p>
 <h2><a class="anchor" id="der"></a>
 Defining a form through Derivation</h2>
-<p>Nana C++ Library is implemented using Object-oriented methods. We can define an own form by deriving from <a class="el" href="../../d6/d57/classnana_1_1form.html" title="Pop-up window. Is different from other window widgets: its default constructor create the window...">nana::form</a>.</p>
+<p>Nana C++ Library is implemented using Object-oriented methods. We can define an own form by deriving from <a class="el" href="../../d6/d57/classnana_1_1form.html" title="Pop-up window. Is different from other window widgets: its default constructor creates the window...">nana::form</a>.</p>
 <p>Our first example is a Monty Hall Problem. This is a game that tests you whether change your choice after you picked a door to win a new Car.</p>
 <div class="image">
 <img src="../../MontyHall.jpg" alt="MontyHall.jpg"/>
 <div class="caption">
 Figure. The Monty Hall Problem.</div></div>
 <p>Let's start creating this application. First we are going to design architecture for the application. As we saw in figure 3.1, the application needs a form, a label and three buttons.</p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span> </div>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span> </div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;nana/gui/widgets/label.hpp&gt;</span> </div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;nana/gui/widgets/button.hpp&gt;</span> </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;nana/system/platform.hpp&gt;</span> </div>
@@ -647,8 +647,8 @@ Figure. The Monty Hall Problem.</div></div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;     label_.caption(text); </div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;} </div>
 <div class="ttc" id="classnana_1_1label_html"><div class="ttname"><a href="../../dd/d8c/classnana_1_1label.html">nana::label</a></div><div class="ttdoc">Define a label widget (can dispaly a formated text string and images). Provides the interfaces to be ...</div><div class="ttdef"><b>Definition:</b> label.hpp:52</div></div>
-<div class="ttc" id="structnana_1_1arg__click_html"><div class="ttname"><a href="../../d6/dc2/structnana_1_1arg__click.html">nana::arg_click</a></div><div class="ttdoc">a higher level event argument than just mouse down </div><div class="ttdef"><b>Definition:</b> general_events.hpp:509</div></div>
-<div class="ttc" id="classnana_1_1form_html"><div class="ttname"><a href="../../d6/d57/classnana_1_1form.html">nana::form</a></div><div class="ttdoc">Pop-up window. Is different from other window widgets: its default constructor create the window...</div><div class="ttdef"><b>Definition:</b> form.hpp:56</div></div>
+<div class="ttc" id="structnana_1_1arg__click_html"><div class="ttname"><a href="../../d6/dc2/structnana_1_1arg__click.html">nana::arg_click</a></div><div class="ttdoc">a higher level event argument than just mouse down </div><div class="ttdef"><b>Definition:</b> general_events.hpp:526</div></div>
+<div class="ttc" id="classnana_1_1form_html"><div class="ttname"><a href="../../d6/d57/classnana_1_1form.html">nana::form</a></div><div class="ttdoc">Pop-up window. Is different from other window widgets: its default constructor creates the window...</div><div class="ttdef"><b>Definition:</b> form.hpp:56</div></div>
 <div class="ttc" id="basic_string_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a></div></div>
 <div class="ttc" id="namespacenana_1_1drawerbase_1_1treebox_html_a264d0232fc4a37766c0f8d30ebab824ba1cb251ec0d568de6a929b520c4aed8d1"><div class="ttname"><a href="../../d0/d60/namespacenana_1_1drawerbase_1_1treebox.html#a264d0232fc4a37766c0f8d30ebab824ba1cb251ec0d568de6a929b520c4aed8d1">nana::drawerbase::treebox::component::text</a></div></div>
 <div class="ttc" id="push_back_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector/push_back.html">std::vector::push_back</a></div><div class="ttdeci">T push_back(T...args)</div></div>
@@ -660,12 +660,12 @@ Figure. The Monty Hall Problem.</div></div>
 <div class="ttc" id="vector_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a></div></div>
 <div class="ttc" id="begin_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector/begin.html">std::vector::begin</a></div><div class="ttdeci">T begin(T...args)</div></div>
 <div class="ttc" id="structnana_1_1rectangle_html"><div class="ttname"><a href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a></div><div class="ttdef"><b>Definition:</b> basic_types.hpp:439</div></div>
-<div class="ttc" id="structnana_1_1arg__click_html_a16e239e67f163a6613bac50ba399fb4b"><div class="ttname"><a href="../../d6/dc2/structnana_1_1arg__click.html#a16e239e67f163a6613bac50ba399fb4b">nana::arg_click::window_handle</a></div><div class="ttdeci">::nana::window window_handle</div><div class="ttdoc">A handle to the event window. </div><div class="ttdef"><b>Definition:</b> general_events.hpp:511</div></div>
-<div class="ttc" id="namespacenana_1_1_a_p_i_html_aeda48472927c65f3f790297e5fb2df84"><div class="ttname"><a href="../../d5/d1e/namespacenana_1_1_a_p_i.html#aeda48472927c65f3f790297e5fb2df84">nana::API::make_center</a></div><div class="ttdeci">rectangle make_center(unsigned width, unsigned height)</div><div class="ttdoc">Retrieves a rectangle which is in the center of the screen. </div><div class="ttdef"><b>Definition:</b> programming_interface.cpp:506</div></div>
-<div class="ttc" id="namespacenana_html_adfeaf4a48fd8f02161268cde0ae797d9"><div class="ttname"><a href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">nana::exec</a></div><div class="ttdeci">void exec()</div><div class="ttdef"><b>Definition:</b> wvl.cpp:98</div></div>
+<div class="ttc" id="structnana_1_1arg__click_html_a16e239e67f163a6613bac50ba399fb4b"><div class="ttname"><a href="../../d6/dc2/structnana_1_1arg__click.html#a16e239e67f163a6613bac50ba399fb4b">nana::arg_click::window_handle</a></div><div class="ttdeci">::nana::window window_handle</div><div class="ttdoc">A handle to the event window. </div><div class="ttdef"><b>Definition:</b> general_events.hpp:528</div></div>
+<div class="ttc" id="namespacenana_1_1_a_p_i_html_aeda48472927c65f3f790297e5fb2df84"><div class="ttname"><a href="../../d5/d1e/namespacenana_1_1_a_p_i.html#aeda48472927c65f3f790297e5fb2df84">nana::API::make_center</a></div><div class="ttdeci">rectangle make_center(unsigned width, unsigned height)</div><div class="ttdoc">Retrieves a rectangle which is in the center of the screen. </div><div class="ttdef"><b>Definition:</b> programming_interface.cpp:490</div></div>
+<div class="ttc" id="namespacenana_html_adfeaf4a48fd8f02161268cde0ae797d9"><div class="ttname"><a href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">nana::exec</a></div><div class="ttdeci">void exec()</div><div class="ttdef"><b>Definition:</b> wvl.cpp:99</div></div>
 <div class="ttc" id="structnana_1_1size_html"><div class="ttname"><a href="../../da/df8/structnana_1_1size.html">nana::size</a></div><div class="ttdef"><b>Definition:</b> basic_types.hpp:421</div></div>
 </div><!-- fragment --><p>  MontiHall.cpp Lines 1 to 4 include the headers that are required by this application. The <code>wvl.hpp</code> provides the basis of Nana C++ Library that all GUI program required. <code>label.hpp</code> and <code>button.hpp</code> include the definitions of label and button, and we will specify the door which has the new Car randomly by using <code>timestamp()</code> - function provided in <code>platform.hpp</code>.</p>
-<p>Lines 6 to 21 define the class <code>monty_hall</code> derived from <a class="el" href="../../d6/d57/classnana_1_1form.html" title="Pop-up window. Is different from other window widgets: its default constructor create the window...">nana::form</a>. In other words, class <code>monty_hall</code> is defined as a <code>form</code> and we will put all handlers in this class scope to keep the program clear.</p>
+<p>Lines 6 to 21 define the class <code>monty_hall</code> derived from <a class="el" href="../../d6/d57/classnana_1_1form.html" title="Pop-up window. Is different from other window widgets: its default constructor creates the window...">nana::form</a>. In other words, class <code>monty_hall</code> is defined as a <code>form</code> and we will put all handlers in this class scope to keep the program clear.</p>
 <p>Line 9 defines a state type that contains three states. <code>state_begin</code> is a state that indicates the first pick, <code>state_picked</code> indicates the second pick, and <code>state_over</code> indicates the result.</p>
 <p>Line 11 declares a default constructor. It will initialize the widgets and set the initial state.</p>
 <p>Line 13 declares a private member function to respond the user action on buttons.</p>
@@ -696,7 +696,7 @@ Figure. The Monty Hall Problem.</div></div>
 <h2><a class="anchor" id="loader"></a>
 Creating An Instance of the Form with form_loader&lt;form&gt;()</h2>
 <p>In the previous chapters we provided examples of defining the form objects. They are usually local objects. When the local object goes out of scope, its destructor is called automatically. Sometimes we need to keep the object alive when it goes out of the scope: another way to create an object is to declare a pointer variable to the class of object and call the C++ new operator, which will allocate space for the object and call the constructor. In this case, the pointer variable must be explicitly deallocated with the delete operator. But the question is when shall we delete the pointer variable? In fact, we can create a form object by using form_loader. Nana C++ Library will manage the form objects created by form_loader and destroy the objects when the user closes the form. For example:</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span> </div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span> </div>
 <div class="line"></div>
 <div class="line"><span class="keywordtype">int</span> main() </div>
 <div class="line">{ </div>
@@ -705,7 +705,7 @@ Creating An Instance of the Form with form_loader&lt;form&gt;()</h2>
 <div class="line">    <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(); </div>
 <div class="line">} </div>
 </div><!-- fragment --><p> <a class="el" href="../../d2/d76/namespacenana.html#a7962f32a15843e243afa446dcdb2e37f">nana::form_loader</a> is a template functor class. It creates an object of the template parameter class. This is useful when you create a form and don't want to take care about the lifetime of the object. Continuing with the next example, we see a form is created when the button is being clicked.</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span> </div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span> </div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/button.hpp&gt;</span> </div>
 <div class="line"></div>
 <div class="line"><span class="keywordtype">void</span> Click() </div>
@@ -741,7 +741,7 @@ Creating An Instance of the Form with form_loader&lt;form&gt;()</h2>
 <h2><a class="anchor" id="mmodal"></a>
 Modal Form</h2>
 <p>Modal form is a modality of forms. It would handle all interactions with the user while the form is active. This is what makes the form modal, the user can not interact with its owner window until the form is closed. Modal form is useful to block the program execution and wait for a user input. For example:</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span> </div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span> </div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/button.hpp&gt;</span> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span> </div>
 <div class="line"><span class="keywordtype">void</span> foo(<span class="keyword">const</span> <a class="code" href="../../d6/dc2/structnana_1_1arg__click.html">nana::arg_click</a>&amp; ei)</div>
@@ -765,10 +765,10 @@ Modal Form</h2>
 </div><!-- fragment --><p>Call <a class="el" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#ae6e1fbc1c0c422296f0124a05d0486ee" title="Blocks the execution and other windows&#39; messages until the specified window is closed. ">nana::API::modal_window()</a> to enable modal form. Only if an owner is specified for the form initialization, will be the form enable as modal form. The object <code>fm</code> in function <code>foo()</code> is created and specified <code>ei.window</code> as its owner. The <code>ei.window</code> refers to the form that is defined in function <code>main()</code>, and passed by the event argument.</p>
 <h1><a class="anchor" id="appear_doc"></a>
 Appearance of Window</h1>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000007">Todo:</a></b></dt><dd>add doxy comments to <a class="el" href="../../d5/d27/structnana_1_1appearance.html" title="Window appearance structure defined to specify the appearance of a form. ">nana::appearance</a></dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000012">Todo:</a></b></dt><dd>add doxy comments to <a class="el" href="../../d5/d27/structnana_1_1appearance.html" title="Window appearance structure defined to specify the appearance of a form. ">nana::appearance</a></dd></dl>
 <p>A window has an appearance. This appearance can be specified when a window is being created. To determine the appearance of a window there is a structure named <a class="el" href="../../d5/d27/structnana_1_1appearance.html" title="Window appearance structure defined to specify the appearance of a form. ">nana::appearance</a> with a bool member for each feature with can be included or excluded in the "apereance" of the windows form. But in practical development is hard to describe the style of the appearance using the struct <a class="el" href="../../d5/d27/structnana_1_1appearance.html" title="Window appearance structure defined to specify the appearance of a form. ">nana::appearance</a>. If a form would to be defined without min/max button and sizable border, then</p>
 <div class="fragment"><div class="line"><a class="code" href="../../d6/d57/classnana_1_1form.html">nana::form</a> form(x, y, width, height, <a class="code" href="../../d5/d27/structnana_1_1appearance.html">nana::appearance</a>(<span class="keyword">false</span>, <span class="keyword">false</span>, <span class="keyword">false</span>, <span class="keyword">true</span>, <span class="keyword">false</span>));</div>
-</div><!-- fragment --><p>This piece of code may be confusing because of the 5 parameters of the constructor of <code><a class="el" href="../../d6/d57/classnana_1_1form.html" title="Pop-up window. Is different from other window widgets: its default constructor create the window...">nana::form</a></code>. So the library provides a helper class for making it easy. For better readability and understandability Nana provides three templates classes to generate an appearance object: <a class="el" href="../../d6/d12/structnana_1_1appear_1_1decorate.html" title="Create an appearance of a window with &quot;decoration&quot; in non-client area, such as title bar...">nana::appear::decorate</a>, <a class="el" href="../../df/dc3/structnana_1_1appear_1_1bald.html" title="Create an appearance of a window without &quot;decoration&quot; with no titlebar and no 3D-look borders...">nana::appear::bald</a> and <a class="el" href="../../da/d19/structnana_1_1appear_1_1optional.html" title="Create a window with decoration depending on the first non-type template parameter. ">nana::appear::optional</a>. Each provide an operator that return a corresponding <a class="el" href="../../d5/d27/structnana_1_1appearance.html" title="Window appearance structure defined to specify the appearance of a form. ">nana::appearance</a> with predefined values.</p>
+</div><!-- fragment --><p>This piece of code may be confusing because of the 5 parameters of the constructor of <code><a class="el" href="../../d6/d57/classnana_1_1form.html" title="Pop-up window. Is different from other window widgets: its default constructor creates the window...">nana::form</a></code>. So the library provides a helper class for making it easy. For better readability and understandability Nana provides three templates classes to generate an appearance object: <a class="el" href="../../d6/d12/structnana_1_1appear_1_1decorate.html" title="Create an appearance of a window with &quot;decoration&quot; in non-client area, such as title bar...">nana::appear::decorate</a>, <a class="el" href="../../df/dc3/structnana_1_1appear_1_1bald.html" title="Create an appearance of a window without &quot;decoration&quot; with no titlebar and no 3D-look borders...">nana::appear::bald</a> and <a class="el" href="../../da/d19/structnana_1_1appear_1_1optional.html" title="Create a window with decoration depending on the first non-type template parameter. ">nana::appear::optional</a>. Each provide an operator that return a corresponding <a class="el" href="../../d5/d27/structnana_1_1appearance.html" title="Window appearance structure defined to specify the appearance of a form. ">nana::appearance</a> with predefined values.</p>
 <div class="fragment"><div class="line"><span class="keyword">namespace </span>nana {</div>
 <div class="line">    <span class="keyword">struct </span>appear </div>
 <div class="line">    { </div>
@@ -812,7 +812,7 @@ Decoration appear::decorate&lt;&gt;() - generating an appearance with a border a
 No decoration appear::bald&lt;&gt;()</div></div>
 <p>The appearance created by nana::appear::bald&lt;&gt;() has no titlebar and no 3D-look borders.</p>
 <p>The appearances of these figures were created by templates without specifying the template parameters. Each template provides some parameters, and each template parameter name indicates what attribute is supported by the template. For example template <a class="el" href="../../d6/d12/structnana_1_1appear_1_1decorate.html" title="Create an appearance of a window with &quot;decoration&quot; in non-client area, such as title bar...">nana::appear::decorate</a> receives the parameters <a class="el" href="../../d6/d46/structnana_1_1appear_1_1minimize.html">nana::appear::minimize</a>, appear::maximize, appear::sizable, appear::floating and appear::no_activate. So, creating an appearance with decoration that has a minimize button and maximize button will be:</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span> </div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span> </div>
 <div class="line"><span class="keywordtype">int</span> main() </div>
 <div class="line">{ </div>
 <div class="line">    <span class="keyword">using namespace </span>nana; </div>
@@ -852,7 +852,7 @@ Registering and Unregistering an Event</h2>
 <div class="line">} </div>
 </div><!-- fragment --><p>As shown in above code, <code>events()</code> is a member template of class widget, and it is used for registering an event handler. The above code makes a click event for the <code>form</code> object. When the user clicks the body of the form, Nana is responsible for invoking the function <code>foo()</code> registered as a handler of the specified event. Additionally, the function <code>foo()</code> can be specified with a parameter of type <code>const <a class="el" href="../../d6/dc2/structnana_1_1arg__click.html" title="a higher level event argument than just mouse down ">nana::arg_click</a>&amp;</code> to receive the information of the event. See details of <code><a class="el" href="../../dd/d19/structnana_1_1general__events.html" title="provides some fundamental events that every widget owns. ">nana::general_events</a></code> are described in section 6.2. </p>
 <dl class="section see"><dt>See Also</dt><dd></dd></dl>
-<p>The <code>events()</code> returns a handle of event handler if the registration is successful. The type of the return value is <a class="el" href="../../d2/d76/namespacenana.html#a68bd9618c0dd5b14783422f6e5cc683a">nana::event_handle</a>. With this handle, we can delete the event handler manually. For example:</p>
+<p>The <code>events()</code> returns a handle of event handler if the registration is successful. The type of the return value is <a class="el" href="../../d2/d76/namespacenana.html#a68bd9618c0dd5b14783422f6e5cc683a" title="The event handle type representing nana window events. ">nana::event_handle</a>. With this handle, we can delete the event handler manually. For example:</p>
 <div class="fragment"><div class="line"><a class="code" href="../../d2/d76/namespacenana.html#a68bd9618c0dd5b14783422f6e5cc683a">event_handle</a> handle = fm.events().click(foo); </div>
 <div class="line">fm.umake_event(handle); </div>
 </div><!-- fragment --><p>After calling the umake_event(), the <code>foo()</code> function would be not invoked when the user clicks the body of form. In most situations, we don't need to take care of deleting the event handler, because the event handlers will be deleted when the form is closed.</p>
@@ -875,7 +875,7 @@ Events</h2>
 <div class="line">} </div>
 </div><!-- fragment --><p>Nana.GUI provides some raw events, such as <code>click</code>, <code>mouse_move</code> and so on. Most of these events can work with all widgets implemented by Nana.GUI, but some of them are individual, like <code>unload</code> for <code>root widget</code> and <code>elapse</code> for <code>timer</code>.</p>
 <p>Every widget has an interface for registering an event, named <code>events()</code>.</p>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000008">Todo:</a></b></dt><dd>Actualize events and arg!</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000013">Todo:</a></b></dt><dd>Actualize events and arg!</dd></dl>
 <p>: <a class="el" href="../../dd/d19/structnana_1_1general__events.html" title="provides some fundamental events that every widget owns. ">nana::general_events</a> and <a class="el" href="../../d7/d9d/classnana_1_1event__arg.html" title="base class for all event argument types ">nana::event_arg</a></p>
 <table class="doxtable">
 <tr>
@@ -940,9 +940,9 @@ Mouse Events</h3>
 <div class="line">    : <span class="keyword">public</span> event_arg</div>
 <div class="line">{</div>
 <div class="line">    <a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3">event_code</a> evt_code;           </div>
-<div class="line">    <a class="code" href="../../d2/d87/structnana_1_1detail_1_1window__handle__impl.html">::nana::window</a> window_handle;  </div>
+<div class="line">    <a class="code" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html">::nana::window</a> window_handle;  </div>
 <div class="line">    <a class="code" href="../../de/da3/structnana_1_1basic__point.html">::nana::point</a> pos;             </div>
-<div class="line">    <a class="code" href="../../d2/d76/namespacenana.html#a19ba554a683a93eb1f6ba803c2959c8a">::nana::mouse</a> button;          </div>
+<div class="line">    <a class="code" href="../../d2/d76/namespacenana.html#a19ba554a683a93eb1f6ba803c2959c8a">::nana::mouse</a> <a class="code" href="../../de/d29/namespacenana_1_1drawerbase_1_1toolbar.html#a80db20e5c1bfa9d09336e26f814df0d6ace50a09343724eb82df11390e2c1de18">button</a>;          </div>
 <div class="line"></div>
 <div class="line">    <span class="keywordtype">bool</span> <a class="code" href="../../d2/d76/namespacenana.html#a19ba554a683a93eb1f6ba803c2959c8aa983ece0c57fdf73508e1a4ff8e2c9eac">left_button</a>;     </div>
 <div class="line">    <span class="keywordtype">bool</span> mid_button;      </div>
@@ -1012,7 +1012,7 @@ Keyboard Events</h3>
 <div class="fragment"><div class="line"><span class="keyword">struct </span>arg_keyboard : <span class="keyword">public</span> event_arg</div>
 <div class="line">{</div>
 <div class="line">    <a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3">event_code</a> evt_code;             </div>
-<div class="line">    <a class="code" href="../../d2/d87/structnana_1_1detail_1_1window__handle__impl.html">::nana::window</a> window_handle;    </div>
+<div class="line">    <a class="code" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html">::nana::window</a> window_handle;    </div>
 <div class="line">    <span class="keyword">mutable</span> <span class="keywordtype">wchar_t</span> key;             </div>
 <div class="line">    <span class="keyword">mutable</span> <span class="keywordtype">bool</span> ignore;             </div>
 <div class="line">    <span class="keywordtype">bool</span> alt</div>
@@ -1034,7 +1034,7 @@ Enable the PNG support for Nana C++ Library</h1>
 <p>See <a href="https://github.com/cnjinhao/nana/wiki/Configuration-of-Third-Party-Libraries-for-Nana#enable-the-png-support-in-visual-studio-2015">Enable PNG</a></p>
 <h1><a class="anchor" id="msg"></a>
 Message box</h1>
-<p>The <code>class <a class="el" href="../../d8/d97/classnana_1_1msgbox.html" title="Prefabricated modal dialog box (with text, icon and actions buttons) that inform and instruct the use...">nana::msgbox</a></code> is used for displaying a modal dialog box to prompt a brief message. A brief example.</p>
+<p>The <code>class <a class="el" href="../../d8/d97/classnana_1_1msgbox.html" title="Prefabricated modal dialog box (with text, icon and actions buttons) that informs and instructs the u...">nana::msgbox</a></code> is used for displaying a modal dialog box to prompt a brief message. A brief example.</p>
 <div class="fragment"><div class="line"><a class="code" href="../../d8/d97/classnana_1_1msgbox.html">nana::msgbox</a> m(<span class="stringliteral">&quot;msgbox example&quot;</span>);</div>
 <div class="line">m &lt;&lt; <span class="stringliteral">&quot;This is a msgbox example.&quot;</span>;</div>
 <div class="line">m();</div>
@@ -1065,7 +1065,7 @@ Exit game</div></div>
 Window Icon</h1>
 <p>There are two interfaces to set an icon for a window which is a root_widget, such as form and nested_form, thay are defined in namespace <a class="el" href="../../d5/d1e/namespacenana_1_1_a_p_i.html">nana::API</a>.</p>
 <div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a2dc88505075b3bb03767c29fecd9f4d9">window_icon_default</a>(<span class="keyword">const</span> <a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>&amp;);</div>
-<div class="line"><span class="keywordtype">void</span> <a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a3dd2d6a9cb60a675df30605b4ffcca75">window_icon</a>(<a class="code" href="../../d2/d87/structnana_1_1detail_1_1window__handle__impl.html">nana::window</a>, <span class="keyword">const</span> <a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>&amp;);</div>
+<div class="line"><span class="keywordtype">void</span> <a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a3dd2d6a9cb60a675df30605b4ffcca75">window_icon</a>(<a class="code" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html">nana::window</a>, <span class="keyword">const</span> <a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">nana::paint::image</a>&amp;);</div>
 </div><!-- fragment --><p>window_icon_default() sets a default icon, and after calling it, all windows will set the default icon automatically while they are creating. Although the Nana C++ Library is aimed for cross-platform, there is a distinction in Nana between Windows and Linux(X11). The icon of a window only could be an ICON file in Windows. If cross-platform is desired, the code should be treated differently.</p>
 <div class="fragment"><div class="line"><span class="keyword">using namespace </span>nana;</div>
 <div class="line">form fm;</div>

@@ -19,11 +19,12 @@ var searchData=
   ['hex',['hex',['http://en.cppreference.com/w/cpp/io/manip/hex.html',1,'std']]],
   ['hexfloat',['hexfloat',['http://en.cppreference.com/w/cpp/io/manip/fixed.html',1,'std']]],
   ['hide',['hide',['../d9/dd8/classnana_1_1widget.html#adde523b3932c813a5c7d53dec3f33a25',1,'nana::widget']]],
+  ['hit_5fclose',['hit_close',['../d3/ddf/classnana_1_1place__parts_1_1dockcaption__dtrigger.html#a1c486a811596f2b86179b7e25347c03c',1,'nana::place_parts::dockcaption_dtrigger']]],
   ['hit_5fselect_5farea',['hit_select_area',['../dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html#a899714727acbae5428524eec0bbd8ebe',1,'nana::widgets::skeletons::text_editor']]],
   ['hit_5ftext_5farea',['hit_text_area',['../dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html#ae8006a151de48b5a2fa4e3f477e0f1a7',1,'nana::widgets::skeletons::text_editor']]],
   ['horz_5fpoint',['horz_point',['../d2/d76/namespacenana.html#a391a1d0f220bb0d05418a46e18f09241',1,'nana']]],
   ['host',['host',['../db/d09/classnana_1_1drawerbase_1_1listbox_1_1inline__indicator.html#a6e77affd247aa4eaa396a92fa4b81ff5',1,'nana::drawerbase::listbox::inline_indicator::host()'],['../d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a6f818724257511638effd93ae5febd03',1,'nana::detail::inline_widget_indicator::host()']]],
   ['hours',['hours',['http://en.cppreference.com/w/cpp/chrono/duration/duration.html',1,'std::chrono::hours']]],
-  ['hovered',['hovered',['../db/d09/classnana_1_1drawerbase_1_1listbox_1_1inline__indicator.html#a6fc2e4ef691347042e4b29a617b4ed84',1,'nana::drawerbase::listbox::inline_indicator::hovered()'],['../d1/dda/classnana_1_1listbox.html#ac808db649dfc04422e349af8c8366d6c',1,'nana::listbox::hovered()'],['../d3/dc0/classnana_1_1menubar.html#af29c34845c75b7da48e34182cb569506',1,'nana::menubar::hovered()'],['../d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a429cd8461a40ca9b56743d17d3e1f4c2',1,'nana::detail::inline_widget_indicator::hovered()']]],
+  ['hovered',['hovered',['../db/d09/classnana_1_1drawerbase_1_1listbox_1_1inline__indicator.html#a6fc2e4ef691347042e4b29a617b4ed84',1,'nana::drawerbase::listbox::inline_indicator::hovered()'],['../d1/dda/classnana_1_1listbox.html#ac808db649dfc04422e349af8c8366d6c',1,'nana::listbox::hovered()'],['../d3/dc0/classnana_1_1menubar.html#af29c34845c75b7da48e34182cb569506',1,'nana::menubar::hovered()'],['../da/de1/classnana_1_1treebox.html#a413a3656eb377cd35adf3bf9e79f942a',1,'nana::treebox::hovered()'],['../d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a429cd8461a40ca9b56743d17d3e1f4c2',1,'nana::detail::inline_widget_indicator::hovered()']]],
   ['hypot',['hypot',['http://en.cppreference.com/w/cpp/numeric/math/hypot.html',1,'std']]]
 ];

@@ -45,6 +45,7 @@ var searchData=
   ['arg_5feval',['arg_eval',['../d8/de5/classnana_1_1i18n__eval_1_1arg__eval.html',1,'nana::i18n_eval']]],
   ['arg_5fexpose',['arg_expose',['../d4/d34/structnana_1_1arg__expose.html',1,'nana']]],
   ['arg_5ffocus',['arg_focus',['../df/d30/structnana_1_1arg__focus.html',1,'nana']]],
+  ['arg_5fime',['arg_ime',['../de/dbf/structnana_1_1arg__ime.html',1,'nana']]],
   ['arg_5fkeyboard',['arg_keyboard',['../d0/de9/structnana_1_1arg__keyboard.html',1,'nana']]],
   ['arg_5flistbox',['arg_listbox',['../d2/d3a/structnana_1_1arg__listbox.html',1,'nana']]],
   ['arg_5flistbox_5fcategory',['arg_listbox_category',['../d4/d7d/structnana_1_1arg__listbox__category.html',1,'nana']]],

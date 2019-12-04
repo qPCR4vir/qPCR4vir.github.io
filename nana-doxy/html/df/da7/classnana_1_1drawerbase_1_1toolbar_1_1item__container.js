@@ -7,11 +7,12 @@ var classnana_1_1drawerbase_1_1toolbar_1_1item__container =
     [ "clear", "df/da7/classnana_1_1drawerbase_1_1toolbar_1_1item__container.html#a48189c18b60ce614b0f9814088c369fc", null ],
     [ "container", "df/da7/classnana_1_1drawerbase_1_1toolbar_1_1item__container.html#a1907be7d6519617d9765b620209b8f5c", null ],
     [ "go_right", "df/da7/classnana_1_1drawerbase_1_1toolbar_1_1item__container.html#ab8cdaba89599af58177f5b692785e2b9", null ],
-    [ "insert", "df/da7/classnana_1_1drawerbase_1_1toolbar_1_1item__container.html#ad8a9ba8a614a8be96b53b731d4c8fffa", null ],
+    [ "insert", "df/da7/classnana_1_1drawerbase_1_1toolbar_1_1item__container.html#af526ed851ee61e5a16eeafca3b5a10b7", null ],
     [ "insert", "df/da7/classnana_1_1drawerbase_1_1toolbar_1_1item__container.html#a0e06ba4bb29ce9060cdfb1a92fc81965", null ],
     [ "push_back", "df/da7/classnana_1_1drawerbase_1_1toolbar_1_1item__container.html#acdb0742d319b1096bb2dbfa91dc9e0b4", null ],
     [ "push_back", "df/da7/classnana_1_1drawerbase_1_1toolbar_1_1item__container.html#a2a0342897ce8c7a5145085ea074e40af", null ],
     [ "right", "df/da7/classnana_1_1drawerbase_1_1toolbar_1_1item__container.html#a3a6100cb059f86c8a2503caae158224f", null ],
     [ "separate", "df/da7/classnana_1_1drawerbase_1_1toolbar_1_1item__container.html#a113cb815fb5002eff641e642d7071b3d", null ],
-    [ "size", "df/da7/classnana_1_1drawerbase_1_1toolbar_1_1item__container.html#a2aa70c9b1fa0d8d004ce157334c40901", null ]
+    [ "size", "df/da7/classnana_1_1drawerbase_1_1toolbar_1_1item__container.html#a2aa70c9b1fa0d8d004ce157334c40901", null ],
+    [ "update_toggle_group", "df/da7/classnana_1_1drawerbase_1_1toolbar_1_1item__container.html#a132f3ea7c4c3c076874c52544e597678", null ]
 ];

@@ -1,5 +1,6 @@
 var classnana_1_1place__parts_1_1dockcaption__dtrigger =
 [
+    [ "hit_close", "d3/ddf/classnana_1_1place__parts_1_1dockcaption__dtrigger.html#a1c486a811596f2b86179b7e25347c03c", null ],
     [ "on_close", "d3/ddf/classnana_1_1place__parts_1_1dockcaption__dtrigger.html#a860db244414c5ff158aa452ee30463da", null ],
     [ "close_fn_", "d3/ddf/classnana_1_1place__parts_1_1dockcaption__dtrigger.html#afe481d72f06afa7e4bc8d1992572512e", null ],
     [ "text_rd_", "d3/ddf/classnana_1_1place__parts_1_1dockcaption__dtrigger.html#addd406d70773e20afeac82f50eb27df2", null ],

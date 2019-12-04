@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/deploy.hpp&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/panel.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/place.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/treebox.hpp&gt;</span></div>
@@ -159,7 +159,7 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                                };   <span class="comment">// ct_l_items&amp;  f2(const d_node&amp;);</span></div>
 <div class="line"><span class="keyword">auto</span> f_name   = [](<span class="keyword">const</span> d_node&amp; f) </div>
 <div class="line">                                { </div>
-<div class="line">                                        <span class="keywordflow">return</span>  <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(f.path().filename());</div>
+<div class="line">                                        <span class="keywordflow">return</span>  f.path().filename().generic_string();</div>
 <div class="line">                                };     <span class="comment">// std::string  f3(const d_node&amp;);</span></div>
 <div class="line"></div>
 <div class="line"><span class="keyword">using</span> f_node_children = decltype (children);</div>
@@ -176,7 +176,7 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">        <span class="keywordflow">else</span></div>
 <div class="line">        {</div>
 <div class="line">                <span class="keywordflow">if</span> (item.path().has_extension())</div>
-<div class="line">                        ores &lt;&lt; fs_ext::generic_u8string(item.path().extension());</div>
+<div class="line">                        ores &lt;&lt; item.path().extension().generic_string();</div>
 <div class="line"><span class="comment">//                      ores &lt;&lt; nana::to_utf8(item.path().extension().generic_wstring());</span></div>
 <div class="line">                <span class="keywordflow">else</span></div>
 <div class="line">                        ores &lt;&lt; (<span class="stringliteral">&quot;File&quot;</span>);</div>
@@ -289,8 +289,8 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp; col : columns)</div>
 <div class="line">                        list_.append_header(col.first, col.second);</div>
 <div class="line">        }</div>
-<div class="line"></div>
-<div class="line">        t_node add_root(d_node &amp; root)</div>
+<div class="line"><span class="preprocessor">#if 0 //deprecated</span></div>
+<div class="line"><span class="preprocessor"></span>        t_node add_root(d_node &amp; root)</div>
 <div class="line">        {</div>
 <div class="line">                <span class="keyword">auto</span> r= tree_.insert(node_to_title(root), node_to_title(root));</div>
 <div class="line">                r.value(root);</div>
@@ -305,10 +305,10 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line">                signal_child(r);</div>
 <div class="line">                <span class="keywordflow">return</span> r;</div>
 <div class="line">        }</div>
-<div class="line"></div>
-<div class="line">        t_node add_root(<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> k, <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> t, d_node &amp;&amp; root)   <span class="comment">// revise ref types</span></div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="preprocessor"></span>        t_node add_root(<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> k, <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> t, d_node &amp;&amp; root)   <span class="comment">// revise ref types</span></div>
 <div class="line">        {</div>
-<div class="line">                <span class="keyword">auto</span> r = tree_.insert(k, t);</div>
+<div class="line">                <span class="keyword">auto</span> r = tree_.insert(<span class="stringliteral">&quot;root_&quot;</span> + k, t); <span class="comment">//From 1.7.1, a key should not be a separator \ or /</span></div>
 <div class="line">                r.value(root);</div>
 <div class="line">                signal_child(r);</div>
 <div class="line">                <span class="keywordflow">return</span> r;</div>
@@ -440,11 +440,11 @@ $(document).ready(function(){initNavTree('d7/d91/file_explorer_8cpp-example.html
 <div class="line"><span class="comment">//};</span></div>
 <div class="line"></div>
 <div class="line"></div>
-<div class="line"><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>            key(<span class="keyword">const</span> dir_node&amp; dn) { <span class="keywordflow">return</span> <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(dn.value.path().filename()); };</div>
+<div class="line"><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>            key(<span class="keyword">const</span> dir_node&amp; dn) { <span class="keywordflow">return</span> dn.value.path().filename().generic_string(); };</div>
 <div class="line"><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>            title(<span class="keyword">const</span> dir_node&amp; dn) { <span class="keywordflow">return</span> key(dn); };</div>
 <div class="line"></div>
 <div class="line"></div>
-<div class="line"><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>            key(<span class="keyword">const</span> dir_it&amp; d) { <span class="keywordflow">return</span> <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(d-&gt;path().filename()); };</div>
+<div class="line"><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>            key(<span class="keyword">const</span> dir_it&amp; d) { <span class="keywordflow">return</span> d-&gt;path().filename().generic_string(); };</div>
 <div class="line"><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>            title(<span class="keyword">const</span> dir_it&amp; d) { <span class="keywordflow">return</span> key(d); };</div>
 <div class="line"></div>
 <div class="line"></div>

@@ -1,5 +1,6 @@
 var classnana_1_1place =
 [
+    [ "error", "d9/d67/classnana_1_1place_1_1error.html", "d9/d67/classnana_1_1place_1_1error" ],
     [ "implement", "df/d6d/structnana_1_1place_1_1implement.html", "df/d6d/structnana_1_1place_1_1implement" ],
     [ "field_reference", "dc/de3/classnana_1_1place.html#afec11b79f04b2ffdeb0fce1ce5497f63", null ],
     [ "place", "dc/de3/classnana_1_1place.html#aa6cad0fae3996e8b294acf34c04748e1", null ],
@@ -21,5 +22,6 @@ var classnana_1_1place =
     [ "modify", "dc/de3/classnana_1_1place.html#aa8627ada5f7cfe64c1512c3e5e7f9200", null ],
     [ "operator[]", "dc/de3/classnana_1_1place.html#aec4e85a9056ab761b81dbab145036e84", null ],
     [ "splitter_renderer", "dc/de3/classnana_1_1place.html#a71b66e51140b399fe6c0c96c91551fe8", null ],
+    [ "valid_field_name", "dc/de3/classnana_1_1place.html#a69b0f6c9e5f7d8d16716f62ca17327d8", null ],
     [ "window_handle", "dc/de3/classnana_1_1place.html#a3acf41047271c7703509fc24f0593db6", null ]
 ];

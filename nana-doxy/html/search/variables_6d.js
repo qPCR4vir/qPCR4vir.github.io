@@ -1,7 +1,6 @@
 var searchData=
 [
   ['make_5fbground_5fdeclared',['make_bground_declared',['../dc/d6d/structnana_1_1detail_1_1basic__window_1_1flags__type.html#aaaddd6fb88a5e55615a32a5e08ee9f77',1,'nana::detail::basic_window::flags_type']]],
-  ['mapping_5frequester',['mapping_requester',['../d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#abb22d92261bbe0ba1b8797e1d4b8ec0c',1,'nana::detail::basic_window::other_tag']]],
   ['margin',['margin',['../dc/d71/classnana_1_1place_1_1implement_1_1division.html#a097f71da5741e281863d3f3996ebc634',1,'nana::place::implement::division::margin()'],['../db/d92/structnana_1_1drawerbase_1_1listbox_1_1drawer__header__impl_1_1column__rendering__parameter.html#a1bb6664c56ff41837577d97b4d0b0303',1,'nana::drawerbase::listbox::drawer_header_impl::column_rendering_parameter::margin()']]],
   ['mask_5fcharacter',['mask_character',['../df/dc4/structnana_1_1inputbox_1_1text_1_1implement.html#a5f0c144a260e675f12baa68fac159daf',1,'nana::inputbox::text::implement']]],
   ['max_5ffit_5fcontent',['max_fit_content',['../dc/d9d/structnana_1_1drawerbase_1_1listbox_1_1scheme.html#a0f9e57b92c1c1887ed68a5389a5921e8',1,'nana::drawerbase::listbox::scheme']]],

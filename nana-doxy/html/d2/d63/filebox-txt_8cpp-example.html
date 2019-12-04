@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('d2/d63/filebox-txt_8cpp-example.html',
 <div class="title">filebox-txt.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span></div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/filebox.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span> </div>
 <div class="line"></div>
@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('d2/d63/filebox-txt_8cpp-example.html',
 <div class="line">    <span class="keyword">auto</span> files = fb();</div>
 <div class="line">    <span class="keywordflow">if</span>(!files.empty())</div>
 <div class="line">    {</div>
-<div class="line">        <a name="_a2"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Selected file:  &quot;</span> &lt;&lt; files.front() &lt;&lt; <a name="a3"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>; </div>
+<div class="line">        <a name="_a2"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Selected file:  &quot;</span> &lt;&lt; files.front().string() &lt;&lt; <a name="a3"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
 <div class="line">    }</div>
 <div class="line">    <span class="keywordtype">char</span> a;</div>
 <div class="line">    <a name="_a4"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; a;</div>

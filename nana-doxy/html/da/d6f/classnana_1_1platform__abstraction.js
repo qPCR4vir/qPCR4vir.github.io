@@ -4,6 +4,7 @@ var classnana_1_1platform__abstraction =
     [ "path_type", "da/d6f/classnana_1_1platform__abstraction.html#a009609dd8c7054f5772eb565bc022d27", null ],
     [ "default_font", "da/d6f/classnana_1_1platform__abstraction.html#a7abdc54a4e7b15865f78d8ec37bc1e2b", null ],
     [ "font_default_pt", "da/d6f/classnana_1_1platform__abstraction.html#ab155a0980c5901f5021a56626a774c83", null ],
+    [ "font_languages", "da/d6f/classnana_1_1platform__abstraction.html#abb81d53bd6615a97d42d6571b8cae5a2", null ],
     [ "font_resource", "da/d6f/classnana_1_1platform__abstraction.html#a7fe388e180d3935851f129341991cc82", null ],
     [ "initialize", "da/d6f/classnana_1_1platform__abstraction.html#ae566e6aa3bccbb93d2d416a0fa934f1b", null ],
     [ "make_font", "da/d6f/classnana_1_1platform__abstraction.html#a4b1de702cc845951b0af6d6129d3107c", null ],

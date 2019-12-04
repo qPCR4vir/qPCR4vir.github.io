@@ -8,7 +8,7 @@ var searchData=
   ['_5fm_5fclose',['_m_close',['../d9/dd8/classnana_1_1widget.html#aeb8f962c52154b0b13a515017617560a',1,'nana::widget']]],
   ['_5fm_5fcomplete_5fcreation',['_m_complete_creation',['../d9/dd8/classnana_1_1widget.html#a5695eb7b37f5d3b394d241f6ca0c82a2',1,'nana::widget']]],
   ['_5fm_5fcursor',['_m_cursor',['../d9/dd8/classnana_1_1widget.html#a07e8c517c24553fec507a80fea672474',1,'nana::widget::_m_cursor() const '],['../d9/dd8/classnana_1_1widget.html#afe39388e5414910a9daf7d05527c7da5',1,'nana::widget::_m_cursor(nana::cursor)']]],
-  ['_5fm_5femplace',['_m_emplace',['../d3/de7/classnana_1_1detail_1_1event__base.html#aa085d5dd4ab224a29e3cfb1f5a403a13',1,'nana::detail::event_base']]],
+  ['_5fm_5femplace',['_m_emplace',['../d3/de7/classnana_1_1detail_1_1event__base.html#ad9fc452415cd7ee5112c80098bf2ddb8',1,'nana::detail::event_base']]],
   ['_5fm_5fenabled',['_m_enabled',['../d9/dd8/classnana_1_1widget.html#a20a088ab103f5f076de6d30724b57abb',1,'nana::widget::_m_enabled() const '],['../d9/dd8/classnana_1_1widget.html#a8692f968068b7714786a1693bbbb0fd7',1,'nana::widget::_m_enabled(bool)']]],
   ['_5fm_5fess',['_m_ess',['../df/d3e/classnana_1_1drawerbase_1_1listbox_1_1item__proxy.html#a169b8a0bb5f5cf256ef358945ac9830b',1,'nana::drawerbase::listbox::item_proxy']]],
   ['_5fm_5fextend_5fwith_5fmargin',['_m_extend_with_margin',['../dc/d71/classnana_1_1place_1_1implement_1_1division.html#a2a7d07d2a07b5fb80bd82d5fca4812f6',1,'nana::place::implement::division']]],

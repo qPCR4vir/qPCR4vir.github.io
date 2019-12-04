@@ -257,9 +257,6 @@ $(document).ready(function(){initNavTree('functions_0x7e.html','');});
 <li>~dock_notifier_interface()
 : <a class="el" href="db/d5a/classnana_1_1place__parts_1_1dock__notifier__interface.html#a4109f8f64811dbce728cdf8da66a0c8d">nana::place_parts::dock_notifier_interface</a>
 </li>
-<li>~docker_interface()
-: <a class="el" href="de/d8b/classnana_1_1detail_1_1docker__interface.html#a45784d512127477b57d126f05b2f3cf3">nana::detail::docker_interface</a>
-</li>
 <li>~dragdrop()
 : <a class="el" href="d3/d73/classnana_1_1dragdrop.html#a546b76d22e54dae050e9bb5cfcb753b9">nana::dragdrop</a>
 </li>
@@ -327,6 +324,9 @@ $(document).ready(function(){initNavTree('functions_0x7e.html','');});
 </li>
 <li>~event_base()
 : <a class="el" href="d3/de7/classnana_1_1detail_1_1event__base.html#ad856391df9e447ee91419d5115e1d420">nana::detail::event_base</a>
+</li>
+<li>~event_docker_interface()
+: <a class="el" href="d0/d89/classnana_1_1detail_1_1event__docker__interface.html#a6963433e7387aeca350f4dc007619cdd">nana::detail::event_docker_interface</a>
 </li>
 <li>~event_interface()
 : <a class="el" href="d2/d7d/classnana_1_1detail_1_1event__interface.html#a9917256f21b103cd10e99dc2294896e4">nana::detail::event_interface</a>
@@ -481,9 +481,12 @@ $(document).ready(function(){initNavTree('functions_0x7e.html','');});
 : <a class="el" href="dd/df9/classnana_1_1drawerbase_1_1categorize_1_1renderer.html#a0a8346e7a3b42d5ea0d0a557d97fc673">nana::drawerbase::categorize::renderer</a>
 </li>
 <li>~renderer_interface()
-: <a class="el" href="d9/d29/classnana_1_1drawerbase_1_1menu_1_1renderer__interface.html#a06567537bdd507f5f6f1a8faa1664922">nana::drawerbase::menu::renderer_interface</a>
+: <a class="el" href="dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#aac5137542cfae8d5156d9fc4640f9821">nana::drawerbase::treebox::renderer_interface</a>
 , <a class="el" href="d6/d77/classnana_1_1drawerbase_1_1slider_1_1renderer__interface.html#a8c084aca86adc989f5910fa26cc39ba3">nana::drawerbase::slider::renderer_interface</a>
-, <a class="el" href="dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#aac5137542cfae8d5156d9fc4640f9821">nana::drawerbase::treebox::renderer_interface</a>
+, <a class="el" href="d9/d29/classnana_1_1drawerbase_1_1menu_1_1renderer__interface.html#a06567537bdd507f5f6f1a8faa1664922">nana::drawerbase::menu::renderer_interface</a>
+</li>
+<li>~root_guard()
+: <a class="el" href="d3/d9e/classnana_1_1detail_1_1bedrock_1_1root__guard.html#a62f6440fb3409fce982fd575ad7549a0">nana::detail::bedrock::root_guard</a>
 </li>
 <li>~root_misc()
 : <a class="el" href="d1/d35/structnana_1_1detail_1_1root__misc.html#a019ab21955dc5e85211a460e3a42a3de">nana::detail::root_misc</a>
@@ -550,17 +553,17 @@ $(document).ready(function(){initNavTree('functions_0x7e.html','');});
 </li>
 <li>~trigger()
 : <a class="el" href="d8/d62/classnana_1_1drawerbase_1_1menubar_1_1trigger.html#ac5702e37bfde549cbbe4e89cb671653c">nana::drawerbase::menubar::trigger</a>
-, <a class="el" href="dd/dae/classnana_1_1drawerbase_1_1treebox_1_1trigger.html#ab16074a793db96989550cdd80fa50324">nana::drawerbase::treebox::trigger</a>
-, <a class="el" href="d5/d62/classnana_1_1drawerbase_1_1listbox_1_1trigger.html#ae9122f912fd86b3d6d5e09a6219078d3">nana::drawerbase::listbox::trigger</a>
 , <a class="el" href="d0/d35/classnana_1_1drawerbase_1_1tabbar_1_1trigger.html#a50a9c7275182272262e77984c397025b">nana::drawerbase::tabbar::trigger</a>
-, <a class="el" href="d5/dc3/classnana_1_1drawerbase_1_1categorize_1_1trigger.html#acf96dd2cba793a401a0a90a1bbc40820">nana::drawerbase::categorize::trigger</a>
-, <a class="el" href="dc/db8/classnana_1_1drawerbase_1_1combox_1_1trigger.html#a6b46ce629f2fb83c7fcf5cd82ce8e19e">nana::drawerbase::combox::trigger</a>
+, <a class="el" href="d5/d62/classnana_1_1drawerbase_1_1listbox_1_1trigger.html#ae9122f912fd86b3d6d5e09a6219078d3">nana::drawerbase::listbox::trigger</a>
 , <a class="el" href="dc/d03/classnana_1_1drawerbase_1_1float__listbox_1_1trigger.html#a6c666096ff138fc3976e46bec5bfe1ec">nana::drawerbase::float_listbox::trigger</a>
-, <a class="el" href="d4/d00/classnana_1_1drawerbase_1_1date__chooser_1_1trigger.html#a64768108fa3b7d1978c85041f50a928b">nana::drawerbase::date_chooser::trigger</a>
-, <a class="el" href="d9/d70/classnana_1_1drawerbase_1_1label_1_1trigger.html#a40faafe9dc2b9768a882ac16a2d2c662">nana::drawerbase::label::trigger</a>
+, <a class="el" href="dd/dae/classnana_1_1drawerbase_1_1treebox_1_1trigger.html#ab16074a793db96989550cdd80fa50324">nana::drawerbase::treebox::trigger</a>
+, <a class="el" href="d5/dc3/classnana_1_1drawerbase_1_1categorize_1_1trigger.html#acf96dd2cba793a401a0a90a1bbc40820">nana::drawerbase::categorize::trigger</a>
 , <a class="el" href="d4/d94/classnana_1_1drawerbase_1_1progress_1_1trigger.html#afb0595b5b249f316503ca3e99a2104d8">nana::drawerbase::progress::trigger</a>
 , <a class="el" href="d2/d13/classnana_1_1drawerbase_1_1button_1_1trigger.html#ae40125aa87dd9f7c4909d10cf0182d98">nana::drawerbase::button::trigger</a>
+, <a class="el" href="dc/db8/classnana_1_1drawerbase_1_1combox_1_1trigger.html#a6b46ce629f2fb83c7fcf5cd82ce8e19e">nana::drawerbase::combox::trigger</a>
 , <a class="el" href="d6/d4a/classnana_1_1drawerbase_1_1slider_1_1trigger.html#a4a54c95ea0c90c2f46219c669164ba19">nana::drawerbase::slider::trigger</a>
+, <a class="el" href="d4/d00/classnana_1_1drawerbase_1_1date__chooser_1_1trigger.html#a64768108fa3b7d1978c85041f50a928b">nana::drawerbase::date_chooser::trigger</a>
+, <a class="el" href="d9/d70/classnana_1_1drawerbase_1_1label_1_1trigger.html#a40faafe9dc2b9768a882ac16a2d2c662">nana::drawerbase::label::trigger</a>
 </li>
 <li>~undoable_command_interface()
 : <a class="el" href="df/da3/classnana_1_1widgets_1_1skeletons_1_1undoable__command__interface.html#a6a7dff04462b00bfab955c8a1908d989">nana::widgets::skeletons::undoable_command_interface&lt; EnumCommand &gt;</a>
@@ -579,8 +582,8 @@ $(document).ready(function(){initNavTree('functions_0x7e.html','');});
 </li>
 <li>~widget_object()
 : <a class="el" href="d3/d95/classnana_1_1widget__object.html#a858517f54bde079c1c3b510e150f33b2">nana::widget_object&lt; Category, DrawerTrigger, Events, Scheme, typename &gt;</a>
-, <a class="el" href="db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#aacc2cc5c1aaae5c6ff9b6b308e6f6976">nana::widget_object&lt; category::lite_widget_tag, DrawerTrigger, Events, Scheme &gt;</a>
 , <a class="el" href="d9/d3b/classnana_1_1widget__object_3_01category_1_1root__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#a978e324e3a1092e08c078cf0d4df9b06">nana::widget_object&lt; category::root_tag, DrawerTrigger, Events, Scheme &gt;</a>
+, <a class="el" href="db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#aacc2cc5c1aaae5c6ff9b6b308e6f6976">nana::widget_object&lt; category::lite_widget_tag, DrawerTrigger, Events, Scheme &gt;</a>
 </li>
 <li>~window_manager()
 : <a class="el" href="dc/d72/classnana_1_1detail_1_1window__manager.html#ab73e26e26e8d8b812e1f8aa90372dc03">nana::detail::window_manager</a>

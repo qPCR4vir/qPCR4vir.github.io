@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['safe_5fplace',['safe_place',['../d3/d1b/structnana_1_1detail_1_1window__manager_1_1wdm__private__impl.html#a56531db030800b936170dd590e076e5e',1,'nana::detail::window_manager::wdm_private_impl']]],
+  ['safe_5fplace',['safe_place',['../d3/d1b/structnana_1_1detail_1_1window__manager_1_1wdm__private__impl.html#aa1857d005042c62dc2a18c1d6ce85336',1,'nana::detail::window_manager::wdm_private_impl']]],
   ['scale',['scale',['../d4/d96/structnana_1_1drawerbase_1_1categorize_1_1item__tag.html#a373b57d376f866f183701abbd2af8cbb',1,'nana::drawerbase::categorize::item_tag::scale()'],['../d6/ddc/classnana_1_1drawerbase_1_1toolbar_1_1item__renderer.html#a579af5a6e46a96794e4fc61fb2a877dd',1,'nana::drawerbase::toolbar::item_renderer::scale()'],['../dd/df9/structnana_1_1drawerbase_1_1toolbar_1_1drawer_1_1drawer__impl__type.html#a71803f4e09fe62eec901a418826ecd9b',1,'nana::drawerbase::toolbar::drawer::drawer_impl_type::scale()']]],
   ['scheme',['scheme',['../d3/d64/structnana_1_1detail_1_1basic__window_1_1annex__components.html#a3260440c18e23ab2ca98b3344fbbfe44',1,'nana::detail::basic_window::annex_components::scheme()'],['../d0/d29/structnana_1_1detail_1_1bedrock_1_1pi__data.html#a129d9afaf4917e5f5f48aba9fc1a9ad4',1,'nana::detail::bedrock::pi_data::scheme()'],['../df/dc9/structnana_1_1widgets_1_1skeletons_1_1keyword__desc.html#aa64ab595ecc45af77c79b47898f60a8c',1,'nana::widgets::skeletons::keyword_desc::scheme()'],['../de/df7/structnana_1_1widgets_1_1skeletons_1_1entity.html#a8b78ee0782669313b9ffe75ef6dea0ae',1,'nana::widgets::skeletons::entity::scheme()']]],
   ['scheme_5fptr',['scheme_ptr',['../d5/da5/structnana_1_1drawerbase_1_1checkbox_1_1drawer_1_1implement.html#ab6e8eaaa6790d0ffd19bc8b602e3a25f',1,'nana::drawerbase::checkbox::drawer::implement::scheme_ptr()'],['../dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ad03ca196c2e6fcd869b09c81795a9a2e',1,'nana::drawerbase::listbox::essence::scheme_ptr()'],['../d8/d10/structnana_1_1drawerbase_1_1treebox_1_1trigger_1_1implementation_1_1rep__tag.html#a9ba611cde4e816aff3f137562e3e8aef',1,'nana::drawerbase::treebox::trigger::implementation::rep_tag::scheme_ptr()']]],
@@ -24,6 +24,7 @@ var searchData=
   ['selections',['selections',['../d7/d3c/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1mouse__selection__part.html#a267bc92fc3b87a67ccf53950ed841857',1,'nana::drawerbase::listbox::essence::mouse_selection_part']]],
   ['self',['self',['../db/dc0/structnana_1_1drawerbase_1_1listbox_1_1es__lister_1_1emit__cancel.html#a69087566e548d83a16db022427e06960',1,'nana::drawerbase::listbox::es_lister::emit_cancel']]],
   ['self_5fsubmenu',['self_submenu',['../da/da7/structnana_1_1drawerbase_1_1menu_1_1menu__window_1_1state__type.html#a30787527a04ec71c70051e38a0fa4f78',1,'nana::drawerbase::menu::menu_window::state_type']]],
+  ['sender',['sender',['../d1/daf/structnana_1_1arg__elapse.html#a8fb08ca731dfc54d12645e7e9e5791c7',1,'nana::arg_elapse']]],
   ['sep',['sep',['../d3/dfa/structnana_1_1drawerbase_1_1listbox_1_1export__options.html#a47cbf3b991fb9637dbdb3fe691187d16',1,'nana::drawerbase::listbox::export_options']]],
   ['shape',['shape',['../dd/d1d/classnana_1_1drawerbase_1_1treebox_1_1trigger_1_1implementation.html#ac0378eabf87a78979689050d75ee39aa',1,'nana::drawerbase::treebox::trigger::implementation']]],
   ['shift',['shift',['../d2/d6e/structnana_1_1accel__key.html#a84f650c55f5c93f83b118be9e49b8190',1,'nana::accel_key::shift()'],['../d6/d7c/structnana_1_1arg__mouse.html#a18394511dfa56cae549acc2590c98ab9',1,'nana::arg_mouse::shift()'],['../d0/de9/structnana_1_1arg__keyboard.html#acd54598f2d94d601dc72fb515d65fbaa',1,'nana::arg_keyboard::shift()']]],
@@ -60,6 +61,5 @@ var searchData=
   ['stretchable',['stretchable',['../d0/dc8/structnana_1_1drawerbase_1_1picture_1_1implement_1_1back__image__tag.html#a39945bca30332aa2cad3c9f1a4f4c8cf',1,'nana::drawerbase::picture::implement::back_image_tag']]],
   ['strike_5fout',['strike_out',['../d6/d50/structnana_1_1detail_1_1font__style.html#a07dea915ea11aa22b4b800fb759f9585',1,'nana::detail::font_style']]],
   ['style',['style',['../da/d89/structnana_1_1drawerbase_1_1menu_1_1menu__item__type.html#a82e178366e4f5a0f54afebd8becf7626',1,'nana::drawerbase::menu::menu_item_type']]],
-  ['submenu_5f',['submenu_',['../dd/d65/classnana_1_1drawerbase_1_1menu_1_1menu__window.html#a10d58bb6044ca60d376f864ad6904cc6',1,'nana::drawerbase::menu::menu_window']]],
-  ['suspension_5fwidth',['suspension_width',['../dc/d9d/structnana_1_1drawerbase_1_1listbox_1_1scheme.html#a4502ea563ed33b39eb594958a5255e07',1,'nana::drawerbase::listbox::scheme']]]
+  ['submenu_5f',['submenu_',['../dd/d65/classnana_1_1drawerbase_1_1menu_1_1menu__window.html#a10d58bb6044ca60d376f864ad6904cc6',1,'nana::drawerbase::menu::menu_window']]]
 ];

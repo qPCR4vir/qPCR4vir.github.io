@@ -8,7 +8,6 @@ var structnana_1_1detail_1_1basic__window_1_1other__tag =
     [ "category", "d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#aa51cc786207f2aeaf6f5990e4e945552", null ],
     [ "dnd_state", "d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#aed6e662661216ce629f5591d53ac60a5", null ],
     [ "glass_buffer", "d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#a947553ff220a100d03e27d9b2c6bf4a3", null ],
-    [ "mapping_requester", "d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#abb22d92261bbe0ba1b8797e1d4b8ec0c", null ],
     [ "root", "d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#a8d4389d6223bb07c449dcb00cf463025", null ],
     [ "upd_state", "d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#af43082d0b295f97b892a3983ecc7c2f4", null ]
 ];

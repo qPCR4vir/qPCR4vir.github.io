@@ -3,6 +3,7 @@ var searchData=
   ['n',['n',['http://en.cppreference.com/w/cpp/numeric/random/student_t_distribution/n.html',1,'std::student_t_distribution::n()'],['http://en.cppreference.com/w/cpp/numeric/random/chi_squared_distribution/n.html',1,'std::chi_squared_distribution::n()'],['http://en.cppreference.com/w/cpp/numeric/random/fisher_f_distribution/params.html',1,'std::fisher_f_distribution::n()']]],
   ['name',['name',['http://en.cppreference.com/w/cpp/locale/locale/name.html',1,'std::locale::name()'],['http://en.cppreference.com/w/cpp/error/error_category/name.html',1,'std::error_category::name()'],['http://en.cppreference.com/w/cpp/types/type_info/name.html',1,'std::type_info::name()'],['http://en.cppreference.com/w/cpp/types/type_index/name.html',1,'std::type_index::name()'],['../d4/d3c/classnana_1_1paint_1_1font.html#a1e67aa9a6ade9c0d5dda3657988bd185',1,'nana::paint::font::name()']]],
   ['nan',['nan',['http://en.cppreference.com/w/cpp/numeric/math/nan.html',1,'std']]],
+  ['nana_5fxft_5fglyph_5fpixels',['nana_xft_glyph_pixels',['../d2/d76/namespacenana.html#a4f490150bcbd908b31249fd3cb44c9de',1,'nana']]],
   ['nanf',['nanf',['http://en.cppreference.com/w/cpp/numeric/math/nan.html',1,'std']]],
   ['nanl',['nanl',['http://en.cppreference.com/w/cpp/numeric/math/nan.html',1,'std']]],
   ['nanoseconds',['nanoseconds',['http://en.cppreference.com/w/cpp/chrono/duration/duration.html',1,'std::chrono::nanoseconds']]],
@@ -55,8 +56,7 @@ var searchData=
   ['nth_5felement',['nth_element',['http://en.cppreference.com/w/cpp/algorithm/nth_element.html',1,'std']]],
   ['num_5fget',['num_get',['http://en.cppreference.com/w/cpp/locale/num_get/num_get.html',1,'std::num_get']]],
   ['num_5fput',['num_put',['http://en.cppreference.com/w/cpp/locale/num_put/num_put.html',1,'std::num_put']]],
-  ['number',['number',['../de/dce/classnana_1_1place__parts_1_1tokenizer.html#aca6e8165912401fdab1dd25fc0f65eb8',1,'nana::place_parts::tokenizer::number()'],['../dc/d00/classnana_1_1widgets_1_1skeletons_1_1tokenizer.html#a32a1ed4931bf40a122916a49b22ccf6a',1,'nana::widgets::skeletons::tokenizer::number()']]],
-  ['number_5fof_5fcore_5fwindow',['number_of_core_window',['../dc/d72/classnana_1_1detail_1_1window__manager.html#a633e136a830370d4aa63c73f354693a1',1,'nana::detail::window_manager']]],
+  ['number',['number',['../de/dce/classnana_1_1place__parts_1_1tokenizer.html#a1689d028a1c21944bd77690db87b99ff',1,'nana::place_parts::tokenizer::number()'],['../dc/d00/classnana_1_1widgets_1_1skeletons_1_1tokenizer.html#a32a1ed4931bf40a122916a49b22ccf6a',1,'nana::widgets::skeletons::tokenizer::number()']]],
   ['number_5ft',['number_t',['../d8/d09/classnana_1_1place__parts_1_1number__t.html#ab2940115fd87582ee21f7928b3e6f574',1,'nana::place_parts::number_t']]],
   ['numpunct',['numpunct',['http://en.cppreference.com/w/cpp/locale/numpunct/numpunct.html',1,'std::numpunct']]],
   ['numpunct_5fbyname',['numpunct_byname',['http://en.cppreference.com/w/cpp/locale/numpunct_byname.html',1,'std::numpunct_byname']]]

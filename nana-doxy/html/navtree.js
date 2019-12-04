@@ -1,7 +1,13 @@
 var NAVTREE =
 [
   [ "Nana C++ Library. Reference for users.", "index.html", [
-    [ "Reference documentation. {for nana users, hotfix-1.7, 2019-04-04}", "index.html", null ],
+    [ "Reference documentation. {for nana users, hotfix-1.7.2, 2019-12-04}", "index.html", [
+      [ "Repository, downloads and documentation:", "index.html#repo", null ],
+      [ "Widgets:", "index.html#widgets", null ],
+      [ "Paint:", "index.html#paint", null ],
+      [ "Others:", "index.html#others", null ],
+      [ "Exceptions:", "index.html#excep", null ]
+    ] ],
     [ "Nana C++ library.", "d5/d9b/md__c_1__prog__ext_lib_nana-docs_source_01-_introduction.html", [
       [ "What is Nana C++ Library?", "d5/d9b/md__c_1__prog__ext_lib_nana-docs_source_01-_introduction.html#WhatIs", null ],
       [ "Installation", "d5/d9b/md__c_1__prog__ext_lib_nana-docs_source_01-_introduction.html#Install", null ],
@@ -37,17 +43,18 @@ var NAVTREE =
       [ "Message box", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#msg", null ],
       [ "Window Icon", "da/db9/md__c_1__prog__ext_lib_nana-docs_source_02-_getting__started.html#icon", null ]
     ] ],
-    [ "Advanced topics", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html", [
-      [ "Think about the Design", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html#desing", null ],
-      [ "How to implement a button", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html#impl_b", [
-        [ "1 Introduction", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html#intro", null ],
-        [ "2. Implementation", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html#impl", [
-          [ "2.1 Window Manipulator", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html#manip", null ],
-          [ "2.2. Drawer Trigger", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html#trig", null ]
+    [ "An introduction to the widgets", "de/d2b/md__c_1__prog__ext_lib_nana-docs_source_03-_widgets.html", null ],
+    [ "Advanced topics", "db/d55/md__c_1__prog__ext_lib_nana-docs_source_05-_advanced.html", [
+      [ "Think about the Design", "db/d55/md__c_1__prog__ext_lib_nana-docs_source_05-_advanced.html#desing", null ],
+      [ "How to implement a button", "db/d55/md__c_1__prog__ext_lib_nana-docs_source_05-_advanced.html#impl_b", [
+        [ "1 Introduction", "db/d55/md__c_1__prog__ext_lib_nana-docs_source_05-_advanced.html#intro", null ],
+        [ "2. Implementation", "db/d55/md__c_1__prog__ext_lib_nana-docs_source_05-_advanced.html#impl", [
+          [ "2.1 Window Manipulator", "db/d55/md__c_1__prog__ext_lib_nana-docs_source_05-_advanced.html#manip", null ],
+          [ "2.2. Drawer Trigger", "db/d55/md__c_1__prog__ext_lib_nana-docs_source_05-_advanced.html#trig", null ]
         ] ]
       ] ],
-      [ "The tabstop in Nana.GUI", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html#tab", null ],
-      [ "A Method to prevent UI from blocking while busy", "dd/da7/md__c_1__prog__ext_lib_nana-docs_source_03-_advanced.html#block", null ]
+      [ "The tabstop in Nana.GUI", "db/d55/md__c_1__prog__ext_lib_nana-docs_source_05-_advanced.html#tab", null ],
+      [ "A Method to prevent UI from blocking while busy", "db/d55/md__c_1__prog__ext_lib_nana-docs_source_05-_advanced.html#block", null ]
     ] ],
     [ "Todo List", "dd/da0/todo.html", null ],
     [ "Deprecated List", "da/d58/deprecated.html", null ],
@@ -83,29 +90,30 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"d0/ddb/structnana_1_1arg__checkbox.html",
-"d1/dda/classnana_1_1listbox.html#a50db59fda33d4b5b58b0002e6a7c76b3",
-"d2/d5a/namespacenana_1_1filesystem__ext.html",
-"d3/d54/structnana_1_1frameset_1_1impl.html#a3e5d84b628fe65c2adc031ca212f8664",
-"d4/d00/classnana_1_1drawerbase_1_1date__chooser_1_1trigger.html#a42262340f6b1da4a7ed7772d88ea0af0",
-"d4/d80/classnana_1_1detail_1_1shortkey__container.html",
-"d5/d55/classnana_1_1drawerbase_1_1menu_1_1menu__item__type_1_1item__proxy.html#a59d17e9080c38f116b2da2927706c178",
-"d6/d05/classnana_1_1drawerbase_1_1listbox_1_1iresolver.html#ad04f8d147a5646068a34656ee7e06e28",
-"d6/d67/structnana_1_1drawerbase_1_1listbox_1_1es__header_1_1column.html#a2e7476c6823f47f86c253a882f70ba09",
-"d7/d3c/structnana_1_1drawerbase_1_1listbox_1_1essence_1_1mouse__selection__part.html#a410ccc99e9a1911dc986ec04b42e9374",
-"d8/d31/classnana_1_1drawerbase_1_1slider_1_1trigger_1_1model.html#ab4a7a73a439896b86084b68c14605da9",
-"d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#aa51cc786207f2aeaf6f5990e4e945552",
-"d9/db3/structnana_1_1drawerbase_1_1treebox_1_1pred__allow__child.html",
-"da/d11/classnana_1_1drawerbase_1_1listbox_1_1cat__proxy.html#a80a1256a6015fb1619b6e39c2f251283",
-"da/de1/classnana_1_1treebox.html#a5bf5de5de789e426fe0a6fdd0efe8444",
-"db/de9/structnana_1_1paint_1_1helper_1_1extent__auto__changing__lines.html#a690dc971e235a928580210dcc2b4dcd6",
-"dc/d72/classnana_1_1detail_1_1window__manager.html#a4f3210ff0f5f0a638594c3e954c565e7",
-"dc/dfe/classnana_1_1widgets_1_1skeletons_1_1text__editor.html#a28ff0448a5a7cd1dba19411980ee767e",
-"dd/d2d/structnana_1_1rectangle.html#abfd71ece17c7e11db592053183f7d601",
-"dd/dfd/classnana_1_1drawerbase_1_1treebox_1_1renderer__interface.html#a1a2160e83eb7878e30f652b12a26e9db",
-"de/d7c/namespacenana_1_1meta.html",
-"df/d3d/structnana_1_1drawerbase_1_1menubar_1_1trigger_1_1essence.html#ae22a3666e9de87fc8f5806443f54380b",
-"df/dd8/structnana_1_1drawerbase_1_1slider_1_1scheme__impl.html#a80969bfeba0943fa7bc2a2a26c7fa5ba"
+"d0/dc8/structnana_1_1drawerbase_1_1picture_1_1implement_1_1back__image__tag.html#a39945bca30332aa2cad3c9f1a4f4c8cf",
+"d1/dda/classnana_1_1listbox.html#a346a0c1b1d5e184933991211d05358c2",
+"d2/d4e/classnana_1_1drawerbase_1_1combox_1_1event__agent.html#ab8ea3f765ca7ead828c7ca6d38daa828",
+"d3/d4c/classnana_1_1drawerbase_1_1label_1_1renderer.html#acf740323c97164df1d83b19636a33192",
+"d3/dfa/structnana_1_1drawerbase_1_1listbox_1_1export__options.html#a02a1fc24d3855a7f8de0b85eb260b17f",
+"d4/d7d/classnana_1_1detail_1_1dynamic__drawing_1_1object.html",
+"d5/d30/classnana_1_1categorize.html#afc182e8cba9b351806eb9539e4ef3c73",
+"d5/dea/classnana_1_1drawerbase_1_1progress_1_1substance.html#afa212a8687b716509ebdb49657e5be60",
+"d6/d61/classnana_1_1group.html#aeb8e63830f22eb87c249febf07ba11ef",
+"d7/d16/classnana_1_1drawer__trigger.html#af0265d5f69f233cf19250f287621e63d",
+"d8/d18/classnana_1_1drawerbase_1_1spinbox_1_1implementation.html#a99b3b4625de7c9dfba5bdac4545efc07",
+"d8/deb/structnana_1_1drawerbase_1_1listbox_1_1item__data.html#a210f1bfd7bef5a2e0c2cbe060b16a689",
+"d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a6f818724257511638effd93ae5febd03",
+"da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#a33f5f7d37b62df7dda7dda4f8a1dbdc6",
+"da/dd4/classnana_1_1detail_1_1element__store.html#a9f2fcec6476a99b4f51bd9bd64e6650b",
+"db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#ab4325562ed48d01c57cfa7a9741b1cd5",
+"dc/d71/classnana_1_1place_1_1implement_1_1division.html#a1974f17fbe966c04712cf30ece12d4e8a05debdb8b38c7e1e244dd770b62d1d4f",
+"dc/dd7/namespacenana_1_1paint_1_1helper.html",
+"dd/d1e/classnana_1_1color.html#a5eeb97c6fe6c199350c39f1ac0fcaf0d",
+"dd/dd1/namespacenana_1_1drawerbase_1_1categorize.html",
+"de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eadfb8c82a9c1baf9436e75476c7bce62e",
+"df/d28/structnana_1_1drawerbase_1_1treebox_1_1node__attribute.html#a218ca221450ab5c8d08d22c2e7385f69",
+"df/dbc/unionnana_1_1pixel__rgba__t.html#a85297b83f01915a6c641b754492e96c3",
+"namespacemembers_eval_0x72.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

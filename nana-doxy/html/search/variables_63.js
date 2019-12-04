@@ -41,6 +41,7 @@ var searchData=
   ['combox',['combox',['../df/dc4/structnana_1_1inputbox_1_1text_1_1implement.html#aeafc71a33e777b65744044e19c699a60',1,'nana::inputbox::text::implement']]],
   ['comp_5fplacer',['comp_placer',['../d8/d10/structnana_1_1drawerbase_1_1treebox_1_1trigger_1_1implementation_1_1rep__tag.html#af46d1b30bfe52fac92c29c5c07217177',1,'nana::drawerbase::treebox::trigger::implementation::rep_tag']]],
   ['comp_5fpointed',['comp_pointed',['../d2/dbb/structnana_1_1drawerbase_1_1treebox_1_1trigger_1_1implementation_1_1node__state__tag.html#a08aed6b87f525f0ba458b0f4a849290d',1,'nana::drawerbase::treebox::trigger::implementation::node_state_tag']]],
+  ['composition_5fstring',['composition_string',['../de/dbf/structnana_1_1arg__ime.html#a22980f23c56adec0dd00dc16378aaeed',1,'nana::arg_ime']]],
   ['condition',['condition',['../d1/d35/structnana_1_1detail_1_1root__misc.html#a3fda54aa2ffb9ee2ab6ba4953596cd2f',1,'nana::detail::root_misc']]],
   ['condvar',['condvar',['../da/d65/structnana_1_1animation_1_1performance__manager_1_1thread__variable.html#adf2585ca0445a694e85adce525de87b2',1,'nana::animation::performance_manager::thread_variable']]],
   ['content_5felement',['content_element',['../d1/d30/structnana_1_1drawerbase_1_1label_1_1renderer_1_1visual__line_1_1element.html#a4f29572f1fdd69fe7f25c32e1df046e7',1,'nana::drawerbase::label::renderer::visual_line::element']]],

@@ -156,7 +156,7 @@ $(document).ready(function(){initNavTree('d1/d53/notepad_8cpp-example.html','../
 <div class="line">        fbox.<a class="code" href="../../d0/d73/classnana_1_1filebox.html#ad7a7a9922ab69540d5b48a3a6dd7d230">add_filter</a>(<span class="stringliteral">&quot;All Files&quot;</span>, <span class="stringliteral">&quot;*.*&quot;</span>);</div>
 <div class="line"></div>
 <div class="line">        <span class="keyword">auto</span> files = fbox.<a name="a14"></a><a class="code" href="../../d0/d73/classnana_1_1filebox.html#a036e75730111d1751827245a47c1d7be">show</a>();</div>
-<div class="line">        <span class="keywordflow">return</span> (files.empty() ? std::filesystem::path{} : files.front());</div>
+<div class="line">            <span class="keywordflow">return</span> (files.empty() ? std::filesystem::path{} : files.front());</div>
 <div class="line">    }</div>
 <div class="line"></div>
 <div class="line">    <span class="keywordtype">bool</span> _m_ask_save()</div>
@@ -175,8 +175,8 @@ $(document).ready(function(){initNavTree('d1/d53/notepad_8cpp-example.html','../
 <div class="line">                    fs = _m_pick_file(<span class="keyword">false</span>);</div>
 <div class="line">                    <span class="keywordflow">if</span> (fs.empty())</div>
 <div class="line">                        <span class="keywordflow">break</span>;</div>
-<div class="line">                    <span class="keywordflow">if</span> (fs.extension() != <span class="stringliteral">&quot;.txt&quot;</span>)</div>
-<div class="line">                        fs += <span class="stringliteral">&quot;.txt&quot;</span>;</div>
+<div class="line">                    <span class="keywordflow">if</span> (fs.extension().string() != <span class="stringliteral">&quot;.txt&quot;</span>)</div>
+<div class="line">                        fs = fs.extension().string() + <span class="stringliteral">&quot;.txt&quot;</span>;</div>
 <div class="line">                }</div>
 <div class="line">                textbox_.store(fs);</div>
 <div class="line">                <span class="keywordflow">break</span>;</div>

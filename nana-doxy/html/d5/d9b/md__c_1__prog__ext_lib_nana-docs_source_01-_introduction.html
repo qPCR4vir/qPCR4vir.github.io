@@ -128,7 +128,7 @@ Introduction</h1>
 <p><a href="https://sourceforge.net/p/nanapro/blog/2012/11/preliminary-study-of-nana-c-library/">(Original site)</a></p>
 <p>Nana is a C++ framework with provides GUI, threads and file system API. It provides many basic classes and functions for cross-platform programming. Although C++ is a powerful and syntax-agile language, in fact, many programmers don't like to do GUI in C++, because it seems to be very difficult. Some existing C++ GUI frameworks define their own rule that forced you write some stiff code that always causes some problems, such as leaving your code in a deep inheritance hierarchy, making maintenance painful. Now, the Nana C++ Library is an alternative, a pure C++ library that will guide you in doing GUI with your immense and extensive C++ knowledge/skill/idioms. It makes a great progress in doing GUI in C++.</p>
 <p>How easy is to create a Hello World program with Nana?</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span></div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/label.hpp&gt;</span></div>
 <div class="line"></div>
 <div class="line"><span class="keywordtype">int</span> main()</div>
@@ -141,7 +141,7 @@ Introduction</h1>
 <div class="line">    <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>();</div>
 <div class="line">}</div>
 </div><!-- fragment --><p> Pretty easy, with understandable code. Nana brings very simple and reasonable concepts to keep it easy. Secondly, unlike other frameworks, that make you write stiff code due to name and syntax constraints, Nana can make your code more straightforward and readable. For example, answering an event.</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span></div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/button.hpp&gt;</span></div>
 <div class="line"></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
@@ -217,7 +217,7 @@ Introduction</h1>
 <h2><a class="anchor" id="Threading"></a>
 Threading</h2>
 <p>Nana is a thread-safe library and accessing a widget between threads is normalized. This is a great feature that makes programmer deliver the event answer to other thread easier. </p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span></div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/threads/pool.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span> </div>
 <div class="line"></div>
@@ -245,7 +245,7 @@ RAII</h2>
 <h1><a class="anchor" id="Hello"></a>
 Hello World</h1>
 <p>This lesson is indented to get you started programming with Nana.GUI. Let's read the simple HelloWorld code.</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include&lt;nana/gui/wvl.hpp&gt;</span></div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include&lt;nana/gui.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/button.hpp&gt;</span></div>
 <div class="line"></div>
 <div class="line"><span class="keywordtype">int</span> main()</div>
@@ -275,8 +275,7 @@ Hello World</h1>
 <div class="caption">
 Screenshot</div></div>
   Walkthrough Line-by-line</p>
-<p><div class="fragment"><div class="line"><span class="preprocessor">#include&lt;nana/gui/wvl.hpp&gt;</span></div>
-</div><!-- fragment --> This line includes the Nana.GUI class definition.</p>
+<p><div class="fragment"></div><!-- fragment --> This line includes the Nana.GUI class definition.</p>
 <p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/button.hpp&gt;</span></div>
 </div><!-- fragment --> This line includes the Nana.GUI.button class definition.</p>
 <p><div class="fragment"><div class="line"><span class="keywordtype">int</span> main()</div>
@@ -288,7 +287,7 @@ Screenshot</div></div>
 </div><!-- fragment --> This is the first piece of window-system code. A <code>form</code> is created while the variable <code>fm</code> is defined. The <code>form</code> is a window with title bar and a sizeable border frame, it's fundamental that you can put some widgets above it.</p>
 <p><div class="fragment"><div class="line">     fm.caption(<span class="stringliteral">&quot;Hello World&quot;</span>);</div>
 </div><!-- fragment --> Set the <code>form</code> to display the text "Hello World" in its title bar.</p>
-<p><div class="fragment"><div class="line">     button btn(fm, <a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>(20, 20, 150, 30));</div>
+<p><div class="fragment"><div class="line">     <a class="code" href="../../de/d29/namespacenana_1_1drawerbase_1_1toolbar.html#a80db20e5c1bfa9d09336e26f814df0d6ace50a09343724eb82df11390e2c1de18">button</a> btn(fm, <a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>(20, 20, 150, 30));</div>
 </div><!-- fragment --> After the <code>form</code>, a button is created. In its constructor arg-list, the first argument tells the <code>btn</code> who the parent window is, and the following arguments describe the position and size of <code>btn</code>.</p>
 <p><div class="fragment"><div class="line">     btn.caption(<span class="stringliteral">&quot;Quit&quot;</span>);</div>
 </div><!-- fragment --> Set the <code>btn</code> to display the text "Quit".</p>

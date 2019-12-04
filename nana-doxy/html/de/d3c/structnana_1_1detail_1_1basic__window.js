@@ -24,6 +24,7 @@ var structnana_1_1detail_1_1basic__window =
     [ "seek_non_lite_widget_ancestor", "de/d3c/structnana_1_1detail_1_1basic__window.html#ad36457bb4bee0fbe26afdd4683f421af", null ],
     [ "set_action", "de/d3c/structnana_1_1detail_1_1basic__window.html#ac26edceeda4f30ddfdf28eb0402ba46a", null ],
     [ "set_events", "de/d3c/structnana_1_1detail_1_1basic__window.html#a3d4ef51fe0fa8319ce088680ef05bc97", null ],
+    [ "try_lazy_update", "de/d3c/structnana_1_1detail_1_1basic__window.html#a5b3a0f817b43a47888dba46ff231f3e5", null ],
     [ "visible_parents", "de/d3c/structnana_1_1detail_1_1basic__window.html#ad78e49ccd96cbca77c23d2faa144b0e9", null ],
     [ "annex", "de/d3c/structnana_1_1detail_1_1basic__window.html#a7b2699281249487fa8e7f6bcba3d40eb", null ],
     [ "bground", "de/d3c/structnana_1_1detail_1_1basic__window.html#ac18028dba5c5faf600541ebbb962662c", null ],

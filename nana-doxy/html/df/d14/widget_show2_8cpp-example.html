@@ -101,7 +101,9 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="title">widget_show2.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<p>![]( )</p>
+<div class="image">
+<img src="../../widget_show2.png" alt="widget_show2.png"/>
+</div>
 <div class="fragment"><div class="line"><span class="comment">/*</span></div>
 <div class="line"><span class="comment"> *      This is a demo of Nana C++ Library</span></div>
 <div class="line"><span class="comment"> *      Author: Jinhao, simplified by qPCR4vir</span></div>
@@ -113,7 +115,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line"><span class="preprocessor">#include &lt;map&gt;</span></div>
 <div class="line"></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/deploy.hpp&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/place.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/button.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/combox.hpp&gt;</span></div>
@@ -145,7 +147,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                <a name="_a2"></a><a class="code" href="../../d1/dda/classnana_1_1listbox.html">listbox</a>         listbox_    {*<span class="keyword">this</span>} ;</div>
 <div class="line">                <a name="_a3"></a><a class="code" href="../../db/dff/classnana_1_1checkbox.html">checkbox</a>        checkbox_   {*<span class="keyword">this</span>, <span class="stringliteral">&quot;Checkable Listbox&quot;</span>} ;</div>
 <div class="line">        <span class="keyword">public</span>:</div>
-<div class="line">                tab_page_listbox(<a name="_a4"></a><a class="code" href="../../d2/d87/structnana_1_1detail_1_1window__handle__impl.html">window</a> wd)     : <a name="_a5"></a><a class="code" href="../../d1/d87/classnana_1_1panel.html">panel&lt;false&gt;</a>(wd)</div>
+<div class="line">                tab_page_listbox(<a name="_a4"></a><a class="code" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html">window</a> wd)     : <a name="_a5"></a><a class="code" href="../../d1/d87/classnana_1_1panel.html">panel&lt;false&gt;</a>(wd)</div>
 <div class="line">                {</div>
 <div class="line">                        place_.div(<span class="stringliteral">&quot;&lt; &lt;list&gt; |30% &lt;check margin=5&gt; &gt;&quot;</span>);</div>
 <div class="line"></div>
@@ -185,7 +187,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">        <span class="keyword">public</span>:</div>
 <div class="line">                <span class="keyword">typedef</span> <a name="_a9"></a><a class="code" href="../../d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html">treebox::item_proxy</a> item_proxy;</div>
 <div class="line"></div>
-<div class="line">                tab_page_treebox(<a class="code" href="../../d2/d87/structnana_1_1detail_1_1window__handle__impl.html">window</a> wd) </div>
+<div class="line">                tab_page_treebox(<a class="code" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html">window</a> wd) </div>
 <div class="line">                        : <a class="code" href="../../d1/d87/classnana_1_1panel.html">panel&lt;false&gt;</a>(wd)</div>
 <div class="line">                {</div>
 <div class="line">                        place_.div(<span class="stringliteral">&quot;&lt;tree&gt;&quot;</span>);</div>
@@ -201,7 +203,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line"></div>
 <div class="line">                        {</div>
 <div class="line">                                <span class="keywordflow">if</span> (!fs::is_directory(dir)) <span class="keywordflow">continue</span>;</div>
-<div class="line">                                <a name="_a10"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> fname = <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(dir.path().filename());</div>
+<div class="line">                                <a name="_a10"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> fname = dir.path().filename().generic_string();</div>
 <div class="line">                                treebox_.<a name="a11"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/insert.html">insert</a>(root_node, fname, fname);</div>
 <div class="line">                                <span class="keywordflow">break</span>;</div>
 <div class="line">                        }</div>
@@ -210,7 +212,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">            treebox_.events().expanded([<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a12"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html">arg_treebox</a>&amp; a){_m_expand(a.<a name="a13"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#a5e1cd27e43212cfe328b6e516e91df41">widget</a>, a.<a name="a14"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>, a.<a name="a15"></a><a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ad8e07298693767fbb840d04eefb20ce5">operated</a>);});</div>
 <div class="line">                }</div>
 <div class="line">        <span class="keyword">private</span>:</div>
-<div class="line">                <span class="keywordtype">void</span> _m_expand(<a class="code" href="../../d2/d87/structnana_1_1detail_1_1window__handle__impl.html">nana::window</a>, item_proxy node, <span class="keywordtype">bool</span> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/numeric/math/exp.html">exp</a>)</div>
+<div class="line">                <span class="keywordtype">void</span> _m_expand(<a class="code" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html">nana::window</a>, item_proxy node, <span class="keywordtype">bool</span> <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/numeric/math/exp.html">exp</a>)</div>
 <div class="line">                {</div>
 <div class="line">                        <span class="keywordflow">if</span>(!exp) <span class="keywordflow">return</span>; <span class="comment">//If this is contracted.</span></div>
 <div class="line"></div>
@@ -228,7 +230,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; dir : fs::directory_iterator{ path })</div>
 <div class="line">                        {</div>
 <div class="line">                                <span class="keywordflow">if</span> (!fs::is_directory(dir)) <span class="keywordflow">continue</span>;</div>
-<div class="line">                                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> fname = <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(dir.path().filename());</div>
+<div class="line">                                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> fname = dir.path().filename().generic_string();</div>
 <div class="line">                                <span class="keyword">auto</span> child = treebox_.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/insert.html">insert</a>(node, fname, fname);</div>
 <div class="line">                                <span class="keywordflow">if</span> (child.empty()) <span class="keywordflow">continue</span>;</div>
 <div class="line"></div>
@@ -241,7 +243,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                                {</div>
 <div class="line">                                        <span class="keywordflow">if</span> (!fs::is_directory(sdir)) <span class="keywordflow">continue</span>; <span class="comment">//If it is not a directory.</span></div>
 <div class="line">                                        </div>
-<div class="line">                                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> fname = <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(sdir.path().filename());</div>
+<div class="line">                                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> fname = sdir.path().filename().generic_string();</div>
 <div class="line">                                        treebox_.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/insert.html">insert</a>(child, fname, fname);</div>
 <div class="line">                                        <span class="keywordflow">break</span>;</div>
 <div class="line">                                }</div>
@@ -257,7 +259,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                <a name="_a18"></a><a class="code" href="../../d8/d92/classnana_1_1date__chooser.html">date_chooser</a>  date_    { *<span class="keyword">this</span>, <a name="_a19"></a><a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>(10, 10, 260, 200) };</div>
 <div class="line">                <a name="_a20"></a><a class="code" href="../../de/d10/classnana_1_1textbox.html">textbox</a>       textbox_ { *<span class="keyword">this</span>, <a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>(280, 10, 170, 23) };</div>
 <div class="line">         <span class="keyword">public</span>:</div>
-<div class="line">                tab_page_datechooser(<a class="code" href="../../d2/d87/structnana_1_1detail_1_1window__handle__impl.html">window</a> wd)</div>
+<div class="line">                tab_page_datechooser(<a class="code" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html">window</a> wd)</div>
 <div class="line">                        : <a class="code" href="../../d1/d87/classnana_1_1panel.html">panel&lt;false&gt;</a>(wd)</div>
 <div class="line">                {</div>
 <div class="line">                        textbox_.tip_string(<span class="stringliteral">&quot;Input a date:&quot;</span>);</div>
@@ -279,7 +281,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                <a name="_a27"></a><a class="code" href="../../d5/d30/classnana_1_1categorize.html">categorize&lt;int&gt;</a> categorize_{ *<span class="keyword">this</span> };</div>
 <div class="line">                <a name="_a28"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::shared_ptr&lt;checkbox&gt;</a>&gt; box_;</div>
 <div class="line">        <span class="keyword">public</span>:</div>
-<div class="line">                tab_page_radiogroup(<a class="code" href="../../d2/d87/structnana_1_1detail_1_1window__handle__impl.html">window</a> wd)</div>
+<div class="line">                tab_page_radiogroup(<a class="code" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html">window</a> wd)</div>
 <div class="line">                        :       <a class="code" href="../../d1/d87/classnana_1_1panel.html">panel&lt;false&gt;</a>(wd)</div>
 <div class="line">                {</div>
 <div class="line">                        place_.div(R<span class="stringliteral">&quot;(
@@ -372,7 +374,8 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                widget_show()</div>
 <div class="line">                        : <a class="code" href="../../d6/d57/classnana_1_1form.html">form</a>(API::make_center(500, 600), <a name="_a41"></a><a class="code" href="../../d6/d12/structnana_1_1appear_1_1decorate.html">appear::decorate&lt;appear::sizable&gt;</a>())</div>
 <div class="line">                {</div>
-<div class="line">                        this-&gt;caption((<span class="stringliteral">&quot;This is a demo of Nana C++ Library&quot;</span>));</div>
+<div class="line">            <a name="a42"></a><a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a314f6b600d0afd85882fb25d7386d1cf">nana::API::track_window_size</a>(*<span class="keyword">this</span>, {300,300}, <span class="keyword">false</span>); <span class="comment">//minimum</span></div>
+<div class="line">                    this-&gt;caption((<span class="stringliteral">&quot;This is a demo of Nana C++ Library&quot;</span>));</div>
 <div class="line">                        place_.div( R<span class="stringliteral">&quot;(vertical
                                    &lt;weight=30% min=260 &lt;weight=10&gt; &lt;simples gap=3 margin=5&gt; &gt;
                                    &lt;weight=20 tab &gt;
@@ -389,11 +392,11 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                        _m_init_progresses();</div>
 <div class="line">                        _m_init_tabbar();</div>
 <div class="line"></div>
-<div class="line">                        this-&gt;<a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a0a5fa378a313bd333b3ab8ae86d69bcc">events</a>().unload([<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a42"></a><a class="code" href="../../d0/d2c/structnana_1_1arg__unload.html">arg_unload</a>&amp; ei)</div>
+<div class="line">                        this-&gt;<a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a0a5fa378a313bd333b3ab8ae86d69bcc">events</a>().unload([<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a43"></a><a class="code" href="../../d0/d2c/structnana_1_1arg__unload.html">arg_unload</a>&amp; ei)</div>
 <div class="line">                                {</div>
-<div class="line">                                        <a name="_a43"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html">msgbox</a> mb(*<span class="keyword">this</span>,  (<span class="stringliteral">&quot;Question&quot;</span>), msgbox::yes_no);</div>
-<div class="line">                                        mb.<a name="a44"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#aa7a087be7daafa4ffcfe17a64cceee14">icon</a>(mb.<a name="a45"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#a31f60532b1939da3197181648f1fe803a6543efef522647218229fab72b80dc0b">icon_question</a>) &lt;&lt;  (<span class="stringliteral">&quot;Are you sure you want to exit the demo?&quot;</span>);</div>
-<div class="line">                                        ei.<a name="a46"></a><a class="code" href="../../d0/d2c/structnana_1_1arg__unload.html#ab5228dd3e0e98380b6f869c2419ce063">cancel</a> = ( mb() == mb.<a name="a47"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#a4f96465b7fc07ca07e5ebe969c9991f5a2912f588106a9a1531603d6c5959ffac">pick_no</a> );</div>
+<div class="line">                                        <a name="_a44"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html">msgbox</a> mb(*<span class="keyword">this</span>,  (<span class="stringliteral">&quot;Question&quot;</span>), msgbox::yes_no);</div>
+<div class="line">                                        mb.<a name="a45"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#aa7a087be7daafa4ffcfe17a64cceee14">icon</a>(mb.<a name="a46"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#a31f60532b1939da3197181648f1fe803a6543efef522647218229fab72b80dc0b">icon_question</a>) &lt;&lt;  (<span class="stringliteral">&quot;Are you sure you want to exit the demo?&quot;</span>);</div>
+<div class="line">                                        ei.<a name="a47"></a><a class="code" href="../../d0/d2c/structnana_1_1arg__unload.html#ab5228dd3e0e98380b6f869c2419ce063">cancel</a> = ( mb() == mb.<a name="a48"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#a4f96465b7fc07ca07e5ebe969c9991f5a2912f588106a9a1531603d6c5959ffac">pick_no</a> );</div>
 <div class="line">                                });</div>
 <div class="line"></div>
 <div class="line">                        place_.collocate();</div>
@@ -411,7 +414,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                        b_i.events().click(mb);</div>
 <div class="line">                        b_p.events().click(mb);</div>
 <div class="line"></div>
-<div class="line">                        b_i.<a class="code" href="../../d8/d97/classnana_1_1msgbox.html#aa7a087be7daafa4ffcfe17a64cceee14">icon</a>( <a name="_a48"></a><a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">paint::image</a>(<span class="stringliteral">&quot;../Examples/image.bmp&quot;</span>));</div>
+<div class="line">                        b_i.<a class="code" href="../../d8/d97/classnana_1_1msgbox.html#aa7a087be7daafa4ffcfe17a64cceee14">icon</a>( <a name="_a49"></a><a class="code" href="../../d9/de1/classnana_1_1paint_1_1image.html">paint::image</a>(<span class="stringliteral">&quot;../Examples/image.bmp&quot;</span>));</div>
 <div class="line"></div>
 <div class="line">                        b_p.enable_pushed(<span class="keyword">true</span>);</div>
 <div class="line">                }</div>
@@ -427,16 +430,16 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                        cb_u.push_back( (<span class="stringliteral">&quot;Item 1&quot;</span>));</div>
 <div class="line"></div>
 <div class="line">                        <a class="code" href="../../d8/d97/classnana_1_1msgbox.html">msgbox</a> mb(*<span class="keyword">this</span>,  (<span class="stringliteral">&quot;Item Selected&quot;</span>));</div>
-<div class="line">                        mb.<a class="code" href="../../d8/d97/classnana_1_1msgbox.html#aa7a087be7daafa4ffcfe17a64cceee14">icon</a>(mb.<a name="a49"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#a31f60532b1939da3197181648f1fe803a59e22cb792a266e173f955ad3f27a1c3">icon_information</a>);</div>
+<div class="line">                        mb.<a class="code" href="../../d8/d97/classnana_1_1msgbox.html#aa7a087be7daafa4ffcfe17a64cceee14">icon</a>(mb.<a name="a50"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#a31f60532b1939da3197181648f1fe803a59e22cb792a266e173f955ad3f27a1c3">icon_information</a>);</div>
 <div class="line"></div>
 <div class="line">                        cb_e.editable(<span class="keyword">true</span>);</div>
-<div class="line">                        cb_e.events().selected( [<span class="keyword">this</span>, mb](<span class="keyword">const</span> <a name="_a50"></a><a class="code" href="../../d5/dd5/structnana_1_1arg__combox.html">nana::arg_combox</a>&amp; acmb) <span class="keyword">mutable</span></div>
+<div class="line">                        cb_e.events().selected( [<span class="keyword">this</span>, mb](<span class="keyword">const</span> <a name="_a51"></a><a class="code" href="../../d5/dd5/structnana_1_1arg__combox.html">nana::arg_combox</a>&amp; acmb) <span class="keyword">mutable</span></div>
 <div class="line">                        {</div>
-<div class="line">                                mb &lt;&lt; (<span class="stringliteral">&quot;The item &quot;</span>) &lt;&lt; acmb.<a name="a51"></a><a class="code" href="../../d5/dd5/structnana_1_1arg__combox.html#a3eeb7f1fc21af40312f5a2a922b640d0">widget</a>.<a name="a52"></a><a class="code" href="../../de/d10/classnana_1_1combox.html#a0ef13780990389dca63394bc35202790">option</a>() &lt;&lt; (<span class="stringliteral">&quot; is selected in editable combox&quot;</span>);</div>
+<div class="line">                                mb &lt;&lt; (<span class="stringliteral">&quot;The item &quot;</span>) &lt;&lt; acmb.<a name="a52"></a><a class="code" href="../../d5/dd5/structnana_1_1arg__combox.html#a3eeb7f1fc21af40312f5a2a922b640d0">widget</a>.<a name="a53"></a><a class="code" href="../../de/d10/classnana_1_1combox.html#a0ef13780990389dca63394bc35202790">option</a>() &lt;&lt; (<span class="stringliteral">&quot; is selected in editable combox&quot;</span>);</div>
 <div class="line">                                mb();</div>
 <div class="line">                                <span class="comment">//Clear the buffer, otherwise the mb shows the text generated in</span></div>
 <div class="line">                                <span class="comment">//the last selected event.</span></div>
-<div class="line">                                mb.<a name="a53"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#a6a459f570e4f8e134d8229c525dba922">clear</a>();</div>
+<div class="line">                                mb.<a name="a54"></a><a class="code" href="../../d8/d97/classnana_1_1msgbox.html#a6a459f570e4f8e134d8229c525dba922">clear</a>();</div>
 <div class="line">                        });</div>
 <div class="line"></div>
 <div class="line">                        cb_u.events().selected ( [<span class="keyword">this</span>, mb](<span class="keyword">const</span> <a class="code" href="../../d5/dd5/structnana_1_1arg__combox.html">nana::arg_combox</a>&amp; acmb) <span class="keyword">mutable</span></div>
@@ -468,7 +471,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                        progr_k.tooltip( (<span class="stringliteral">&quot;Knwon in progress&quot;</span>));</div>
 <div class="line">                        progr_k.unknown(<span class="keyword">false</span>);  </div>
 <div class="line"></div>
-<div class="line">                        timer_.elapse([<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a54"></a><a class="code" href="../../d1/daf/structnana_1_1arg__elapse.html">nana::arg_elapse</a>&amp; a)</div>
+<div class="line">                        timer_.elapse([<span class="keyword">this</span>](<span class="keyword">const</span> <a name="_a55"></a><a class="code" href="../../d1/daf/structnana_1_1arg__elapse.html">nana::arg_elapse</a>&amp; a)</div>
 <div class="line">                        {</div>
 <div class="line">                            <span class="comment">//Resets the known mode progress if its value reaches the amount value.</span></div>
 <div class="line">                <span class="keywordflow">if</span>(progr_k.value() == progr_k.amount())</div>
@@ -478,7 +481,7 @@ $(document).ready(function(){initNavTree('df/d14/widget_show2_8cpp-example.html'
 <div class="line">                                progr_u.inc();</div>
 <div class="line">                        });</div>
 <div class="line"></div>
-<div class="line">                        timer_.interval(80);</div>
+<div class="line">                        timer_.interval(<a name="_a56"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/chrono/duration.html">std::chrono::milliseconds</a>{80});</div>
 <div class="line">                        timer_.start();</div>
 <div class="line">                }</div>
 <div class="line"></div>

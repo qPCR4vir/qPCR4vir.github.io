@@ -1,5 +1,6 @@
 var classnana_1_1place__parts_1_1tokenizer =
 [
+    [ "error", "d4/d1e/structnana_1_1place__parts_1_1tokenizer_1_1error.html", "d4/d1e/structnana_1_1place__parts_1_1tokenizer_1_1error" ],
     [ "token", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1", [
       [ "div_start", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a796e7d12b3183b48d16e2b62822093f7", null ],
       [ "div_end", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a3b2724d4929c36388dcb95510fcc2480", null ],
@@ -40,9 +41,9 @@ var classnana_1_1place__parts_1_1tokenizer =
     [ "tokenizer", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#aa1e6bce70468b6cd46c3cdcb172a40f8", null ],
     [ "array", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a072b3ff2793819d515496ad6c88cc8a1", null ],
     [ "idstr", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a970f46117dbccfc7eb93000c5b06155f", null ],
-    [ "number", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#aca6e8165912401fdab1dd25fc0f65eb8", null ],
+    [ "number", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a1689d028a1c21944bd77690db87b99ff", null ],
     [ "parameters", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a0b069bdf6cad1ba55e8a749e02751283", null ],
-    [ "pos", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a90c7e5e34f2dd08407a099319cf41856", null ],
+    [ "pos", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a112a9c4a7f4d6183b951a51a5ce006f6", null ],
     [ "read", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#a1b9caed711a49927eaa289d760516981", null ],
     [ "reparray", "de/dce/classnana_1_1place__parts_1_1tokenizer.html#aa0fb36b59b2a128bced4b7a8404baae0", null ]
 ];

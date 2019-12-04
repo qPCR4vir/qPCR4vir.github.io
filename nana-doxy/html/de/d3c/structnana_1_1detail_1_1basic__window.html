@@ -181,6 +181,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad36457bb4bee0fbe26afdd4683f421af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac26edceeda4f30ddfdf28eb0402ba46a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#ac26edceeda4f30ddfdf28eb0402ba46a">set_action</a> (<a class="el" href="../../d2/d76/namespacenana.html#a1480f163a64163d468bcdd3d8dd16c25">mouse_action</a>)</td></tr>
 <tr class="separator:ac26edceeda4f30ddfdf28eb0402ba46a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b3a0f817b43a47888dba46ff231f3e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a5b3a0f817b43a47888dba46ff231f3e5">try_lazy_update</a> (bool try_refresh)</td></tr>
+<tr class="memdesc:a5b3a0f817b43a47888dba46ff231f3e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only refresh when the root of window is in lazy-updating mode.  <a href="#a5b3a0f817b43a47888dba46ff231f3e5">More...</a><br/></td></tr>
+<tr class="separator:a5b3a0f817b43a47888dba46ff231f3e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d4ef51fe0fa8319ce088680ef05bc97"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html#a3d4ef51fe0fa8319ce088680ef05bc97">set_events</a> (const <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/memory/shared_ptr.html">std::shared_ptr</a>&lt; <a class="el" href="../../dd/d19/structnana_1_1general__events.html">general_events</a> &gt; &amp;) override</td></tr>
 <tr class="memdesc:a3d4ef51fe0fa8319ce088680ef05bc97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override event_holder.  <a href="#a3d4ef51fe0fa8319ce088680ef05bc97">More...</a><br/></td></tr>
 <tr class="separator:a3d4ef51fe0fa8319ce088680ef05bc97"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -260,7 +263,8 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>a window data structure descriptor </p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../d3/d12/categ_8cpp-example.html#_a1">categ.cpp</a>, <a class="el" href="../../d4/d1b/inputbox_8cpp-example.html#_a13">inputbox.cpp</a>, <a class="el" href="../../d7/d62/listbox_inline_widget_8cpp-example.html#_a3">listbox_inline_widget.cpp</a>, <a class="el" href="../../d3/de9/widget_show_8cpp-example.html#_a1">widget_show.cpp</a>, <a class="el" href="../../df/d14/widget_show2_8cpp-example.html#_a4">widget_show2.cpp</a>, and <a class="el" href="../../df/d13/windows-subclassing_8cpp-example.html#_a2">windows-subclassing.cpp</a>.</dd>
+</dl></div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a0686ddb6276505c9c0dfe05f1fa84641"></a>
 <div class="memitem">
 <div class="memproto">
@@ -616,6 +620,24 @@ template&lt;typename Category &gt; </div>
 <p>Override event_holder. </p>
 
 <p>Implements <a class="el" href="../../d2/d74/classnana_1_1detail_1_1events__holder.html#a7d4cad4ab66b202276ee470d9a7c4bee">nana::detail::events_holder</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5b3a0f817b43a47888dba46ff231f3e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool nana::detail::basic_window::try_lazy_update </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>try_refresh</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Only refresh when the root of window is in lazy-updating mode. </p>
 
 </div>
 </div>

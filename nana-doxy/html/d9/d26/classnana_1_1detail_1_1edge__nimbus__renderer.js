@@ -1,10 +1,9 @@
 var classnana_1_1detail_1_1edge__nimbus__renderer =
 [
-    [ "core_window_t", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#ad96fca37d670cd73038ed8e934518b8d", null ],
-    [ "graph_reference", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#a92870017ed67c889df4439271671417f", null ],
-    [ "window_layer", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#a9827441d22ef0c47ee4d5bacbf62580a", null ],
-    [ "erase", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#ac7c76a555da9930d1f1c4b237e7d1b3c", null ],
-    [ "instance", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#a9d370a1fac6f7c7d685fa6956a35255d", null ],
-    [ "render", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#a686cb5e524a920cfc836ffcb7d0fcd4d", null ],
-    [ "weight", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#a31deaae157bd896fc6f0b857e4c563e1", null ]
+    [ "graph_reference", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#af082e5a64f759dfc49ea3d5ef04f98c1", null ],
+    [ "window_layer", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#aa60299e1fec59235333c1f6a9a5f87ac", null ],
+    [ "erase", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#a43767ef6935f46136e842960a99a969e", null ],
+    [ "instance", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#adadc9157100277adda86b0005141ebca", null ],
+    [ "render", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#a613d3b03863bdb039b0afcf806abd44d", null ],
+    [ "weight", "d9/d26/classnana_1_1detail_1_1edge__nimbus__renderer.html#a25912a88857b01a22bd4eb7748900d8a", null ]
 ];

@@ -6,6 +6,7 @@ var searchData=
   ['unignorable',['unignorable',['../d0/de6/structnana_1_1detail_1_1docker__base.html#a91fa03918da8e933131f149149cdaeb2',1,'nana::detail::docker_base']]],
   ['unload',['unload',['../d9/d7f/structnana_1_1detail_1_1events__root__extension.html#ac4c367675d9e3ee1fbe775af84a62947',1,'nana::detail::events_root_extension']]],
   ['upd_5fstate',['upd_state',['../d9/d03/structnana_1_1detail_1_1basic__window_1_1other__tag.html#af43082d0b295f97b892a3983ecc7c2f4',1,'nana::detail::basic_window::other_tag']]],
+  ['update_5frequesters',['update_requesters',['../d4/d97/structnana_1_1detail_1_1basic__window_1_1other__tag_1_1attr__root__tag.html#a9d4014e48e1a523f361b6589b0d0e816',1,'nana::detail::basic_window::other_tag::attr_root_tag']]],
   ['upwards',['upwards',['../d0/dee/structnana_1_1arg__wheel.html#aa33833f3f0d943dc54e40a8d2a9b6886',1,'nana::arg_wheel']]],
   ['url',['url',['../d8/d5e/structnana_1_1drawerbase_1_1label_1_1trigger_1_1implement.html#a837ddc3a964bbf81762309ffeea446d9',1,'nana::drawerbase::label::trigger::implement::url()'],['../dd/d87/structnana_1_1widgets_1_1skeletons_1_1fblock.html#ac6454720c4d1cab34b5b4bf21bd8a4af',1,'nana::widgets::skeletons::fblock::url()']]],
   ['use_5fthrow',['use_throw',['../d4/d16/structnana_1_1utf8___error.html#add51910f5523321b2c37a54d6f81adbb',1,'nana::utf8_Error']]],

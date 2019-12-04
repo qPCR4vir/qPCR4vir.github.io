@@ -64,6 +64,7 @@ var classnana_1_1textbox =
     [ "set_undo_queue_length", "de/d10/classnana_1_1textbox.html#a937c59526ebeb953116c2ab59a28bac5", null ],
     [ "store", "de/d10/classnana_1_1textbox.html#ae42b78912789fd0ebf07e5d577a233d1", null ],
     [ "store", "de/d10/classnana_1_1textbox.html#a12792f2d6736c5d4a79f1be17ed2d0a1", null ],
+    [ "text", "de/d10/classnana_1_1textbox.html#abc99656ae407f2fc5d9309c8a2fc19c8", null ],
     [ "text_align", "de/d10/classnana_1_1textbox.html#a50af101fbff273b9e9a5263293c4d3d7", null ],
     [ "text_area", "de/d10/classnana_1_1textbox.html#a0c23ac2359a063810884dc3e4a7a9765", null ],
     [ "text_line_count", "de/d10/classnana_1_1textbox.html#a8568ae65b72a98d1d0c413bfa974a003", null ],

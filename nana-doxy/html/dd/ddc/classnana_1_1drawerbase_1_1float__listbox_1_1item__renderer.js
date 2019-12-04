@@ -1,7 +1,8 @@
 var classnana_1_1drawerbase_1_1float__listbox_1_1item__renderer =
 [
-    [ "graph_reference", "dd/ddc/classnana_1_1drawerbase_1_1float__listbox_1_1item__renderer.html#a6ad7f0caf77d5f0580abbe98266e843c", null ],
-    [ "widget_reference", "dd/ddc/classnana_1_1drawerbase_1_1float__listbox_1_1item__renderer.html#a71d92660fcd0b54d0e98b3200624b4ff", null ],
+    [ "graph_reference", "dd/ddc/classnana_1_1drawerbase_1_1float__listbox_1_1item__renderer.html#ad3ece7960033b4c2ef7ccc28724ebe47", null ],
+    [ "item_interface", "dd/ddc/classnana_1_1drawerbase_1_1float__listbox_1_1item__renderer.html#a3998366d5d211224cf8e47f963caf0fe", null ],
+    [ "widget_reference", "dd/ddc/classnana_1_1drawerbase_1_1float__listbox_1_1item__renderer.html#a55cbc525be6b11e9108f86bdbf66dd9b", null ],
     [ "state_t", "dd/ddc/classnana_1_1drawerbase_1_1float__listbox_1_1item__renderer.html#a89b6fba93947ef15f9cb356497198f72", [
       [ "StateNone", "dd/ddc/classnana_1_1drawerbase_1_1float__listbox_1_1item__renderer.html#a89b6fba93947ef15f9cb356497198f72aa6de1f7a9dfb87a71609678277468852", null ],
       [ "StateHighlighted", "dd/ddc/classnana_1_1drawerbase_1_1float__listbox_1_1item__renderer.html#a89b6fba93947ef15f9cb356497198f72a19ff0801e88e9cd9931ce4242abac550", null ]

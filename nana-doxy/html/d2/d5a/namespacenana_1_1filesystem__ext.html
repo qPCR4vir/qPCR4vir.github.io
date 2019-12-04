@@ -129,9 +129,6 @@ Functions</h2></td></tr>
 <tr class="separator:adf4e1b144a0f1c24a0b7ebd94bbe92bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5d3aefe6454587bddc2b98f8d5e4808"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#aa5d3aefe6454587bddc2b98f8d5e4808">modified_file_time</a> (const fs::path &amp;p, struct tm &amp;t)</td></tr>
 <tr class="separator:aa5d3aefe6454587bddc2b98f8d5e4808"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0528bca88a08ea1c4ae9b0a362a44e6"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">generic_u8string</a> (const std::filesystem::path &amp;p)</td></tr>
-<tr class="memdesc:ae0528bca88a08ea1c4ae9b0a362a44e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">workaround Boost not having path.generic_u8string() - a good point for <a href="http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0251r0.pdf">http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0251r0.pdf</a>  <a href="#ae0528bca88a08ea1c4ae9b0a362a44e6">More...</a><br/></td></tr>
-<tr class="separator:ae0528bca88a08ea1c4ae9b0a362a44e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43d9a07a82aa856b0d23a859e2dbe2de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a43d9a07a82aa856b0d23a859e2dbe2de">is_directory</a> (const std::filesystem::directory_entry &amp;dir) noexcept</td></tr>
 <tr class="separator:a43d9a07a82aa856b0d23a859e2dbe2de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7305d23815eaf6a73f0d5175c45d2704"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d5e/classnana_1_1filesystem__ext_1_1directory__only__iterator.html">directory_only_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#a7305d23815eaf6a73f0d5175c45d2704">begin</a> (<a class="el" href="../../d2/d5e/classnana_1_1filesystem__ext_1_1directory__only__iterator.html">directory_only_iterator</a> iter) noexcept</td></tr>
@@ -247,32 +244,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae0528bca88a08ea1c4ae9b0a362a44e6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> nana::filesystem_ext::generic_u8string </td>
-          <td>(</td>
-          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
-          <td class="paramname"><em>p</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>workaround Boost not having path.generic_u8string() - a good point for <a href="http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0251r0.pdf">http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0251r0.pdf</a> </p>
-
-</div>
-</div>
 <a class="anchor" id="a43d9a07a82aa856b0d23a859e2dbe2de"></a>
 <div class="memitem">
 <div class="memproto">
@@ -293,6 +264,32 @@ Functions</h2></td></tr>
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa5d3aefe6454587bddc2b98f8d5e4808"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool nana::filesystem_ext::modified_file_time </td>
+          <td>(</td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct tm &amp;&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -322,32 +319,6 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>extention ? </p>
-
-</div>
-</div>
-<a class="anchor" id="aa5d3aefe6454587bddc2b98f8d5e4808"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool nana::filesystem_ext::modified_file_time </td>
-          <td>(</td>
-          <td class="paramtype">const fs::path &amp;&#160;</td>
-          <td class="paramname"><em>p</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">struct tm &amp;&#160;</td>
-          <td class="paramname"><em>t</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

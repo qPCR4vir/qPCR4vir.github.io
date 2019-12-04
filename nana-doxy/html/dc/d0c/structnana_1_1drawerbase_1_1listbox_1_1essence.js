@@ -41,6 +41,7 @@ var structnana_1_1drawerbase_1_1listbox_1_1essence =
     [ "resize_disp_area", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ad7d6f1003ce2beec4ed8eb824a2698b9", null ],
     [ "start_mouse_selection", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a73a5f78b28920ea8d8f9749dc71db205", null ],
     [ "stop_mouse_selection", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a9a2246ab54d66afd4df1fbe6ae6b4861", null ],
+    [ "suspension_width", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ad4fc3a09f2ef5f782e688d328af6fb2c", null ],
     [ "to_string", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a4d70063f11484ed47695645b29e4de5c", null ],
     [ "update", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a9336f2196dbca230b71827f6f12e7730", null ],
     [ "update_mouse_selection", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a7d1506b1e345d4abb5d276aaec54028a", null ],
@@ -61,6 +62,7 @@ var structnana_1_1drawerbase_1_1listbox_1_1essence =
     [ "mouse_selection", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#aa88d81fa900cbd476dc1034faaddb86a", null ],
     [ "operation", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a8fd56f1f142b4d61fc9f966d252a2e02", null ],
     [ "pointer_where", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#aaff5c2261a68049a4978df2e4176ed3e", null ],
+    [ "pred_msup_deselect", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a2e8a9bb16ad5199a3cd0d2b5482550e1", null ],
     [ "ptr_state", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ab391c299c48b6f5e5e32f9b512ff429b", null ],
     [ "scheme_ptr", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#ad03ca196c2e6fcd869b09c81795a9a2e", null ],
     [ "text_height", "dc/d0c/structnana_1_1drawerbase_1_1listbox_1_1essence.html#a440adc01b7baf770baf09e6031d932fd", null ]

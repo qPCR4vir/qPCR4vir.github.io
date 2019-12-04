@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('d3/d12/categ_8cpp-example.html','../..
 <div class="caption">
 Screenshot of categorize.</div></div>
  <div class="fragment"><div class="line"><span class="preprocessor">        #include &lt;iostream&gt;</span></div>
-<div class="line"><span class="preprocessor">        #include &lt;nana/gui/wvl.hpp&gt;</span></div>
+<div class="line"><span class="preprocessor">        #include &lt;nana/gui.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">        #include &lt;nana/gui/widgets/categorize.hpp&gt;</span></div>
 <div class="line"></div>
 <div class="line">                <span class="keyword">class </span>renderer</div>
@@ -127,7 +127,7 @@ Screenshot of categorize.</div></div>
 <div class="line">                                ui_element();</div>
 <div class="line">                        };</div>
 <div class="line">                        <span class="keyword">virtual</span> ~renderer() = 0;</div>
-<div class="line">                        <span class="keyword">virtual</span> <span class="keywordtype">void</span> background(graph_reference, <a name="_a1"></a><a class="code" href="../../d2/d87/structnana_1_1detail_1_1window__handle__impl.html">nana::window</a>, <span class="keyword">const</span> <a name="_a2"></a><a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>&amp;, </div>
+<div class="line">                        <span class="keyword">virtual</span> <span class="keywordtype">void</span> background(graph_reference, <a name="_a1"></a><a class="code" href="../../de/d3c/structnana_1_1detail_1_1basic__window.html">nana::window</a>, <span class="keyword">const</span> <a name="_a2"></a><a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>&amp;, </div>
 <div class="line">                                                                        <span class="keyword">const</span>   ui_element&amp;)     = 0;</div>
 <div class="line">                        <span class="keyword">virtual</span> <span class="keywordtype">void</span> root_arrow(graph_reference, <span class="keyword">const</span> <a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>&amp;, state_t) = 0;</div>
 <div class="line">                        <span class="keyword">virtual</span> <span class="keywordtype">void</span> item(graph_reference, <span class="keyword">const</span> <a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>&amp;, <span class="keywordtype">size_t</span> index,</div>

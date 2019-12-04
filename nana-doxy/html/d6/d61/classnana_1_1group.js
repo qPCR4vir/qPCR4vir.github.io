@@ -9,7 +9,7 @@ var classnana_1_1group =
     ] ],
     [ "group", "d6/d61/classnana_1_1group.html#a16afacdb1b9b5f5d8dfdafe3103e4178", null ],
     [ "group", "d6/d61/classnana_1_1group.html#a58915a2f47ae1f735b803ad0c4de8030", null ],
-    [ "group", "d6/d61/classnana_1_1group.html#a9a533eaf99d8f1c12ef0dd73e163cf9d", null ],
+    [ "group", "d6/d61/classnana_1_1group.html#a6cbad7b8812714763b386e82eeb1bde9", null ],
     [ "~group", "d6/d61/classnana_1_1group.html#a613cd526cf6da4e281465840e825c3cb", null ],
     [ "add_option", "d6/d61/classnana_1_1group.html#aa80abae11a3c9b53a44c644bf91e36a5", null ],
     [ "caption_align", "d6/d61/classnana_1_1group.html#a85f632d0cd3e80198718c04cfbc9aaee", null ],

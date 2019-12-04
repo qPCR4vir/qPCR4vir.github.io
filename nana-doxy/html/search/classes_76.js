@@ -10,7 +10,7 @@ var searchData=
   ['vector_3c_20_3a_3astd_3a_3astring_20_3e',['vector&lt; ::std::string &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
   ['vector_3c_20basic_5fwindow_20_2a_20_3e',['vector&lt; basic_window * &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
   ['vector_3c_20column_20_3e',['vector&lt; column &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
-  ['vector_3c_20detail_3a_3anana_3a_3adetail_3a_3adocker_5finterface_20_2a_20_3e',['vector&lt; detail::nana::detail::docker_interface * &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
+  ['vector_3c_20detail_3a_3anana_3a_3adetail_3a_3aevent_5fdocker_5finterface_20_2a_20_3e',['vector&lt; detail::nana::detail::event_docker_interface * &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
   ['vector_3c_20drag_5ftarget_5ft_20_3e',['vector&lt; drag_target_t &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
   ['vector_3c_20dynamic_5fdrawing_3a_3aobject_20_2a_20_3e',['vector&lt; dynamic_drawing::object * &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],
   ['vector_3c_20element_5fstate_20_3e',['vector&lt; element_state &gt;',['http://en.cppreference.com/w/cpp/container/vector.html',1,'std']]],

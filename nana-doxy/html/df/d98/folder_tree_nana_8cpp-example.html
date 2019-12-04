@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('df/d98/folder_tree_nana_8cpp-example.h
 </div><!--header-->
 <div class="contents">
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/deploy.hpp&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;nana/gui/wvl.hpp&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/treebox.hpp&gt;</span></div>
 <div class="line"></div>
 <div class="line"><span class="comment">//#define NANA_FILESYSTEM_FORCE      // if used this way, make sure nana was compiled with this option too</span></div>
@@ -126,7 +126,7 @@ $(document).ready(function(){initNavTree('df/d98/folder_tree_nana_8cpp-example.h
 <div class="line">   <span class="keywordflow">try</span> {</div>
 <div class="line">        dir_it sub_root{ fs_ext::def_rootstr};</div>
 <div class="line">        <span class="keyword">auto</span> p = sub_root-&gt;path();</div>
-<div class="line">        <a name="_a6"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> dir_name= <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(p.filename());</div>
+<div class="line">        <a name="_a6"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> dir_name= p.filename().generic_string();</div>
 <div class="line">        tree.<a name="a7"></a><a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/insert.html">insert</a>(node, dir_name,dir_name);</div>
 <div class="line">        } <span class="keywordflow">catch</span> (...) {}</div>
 <div class="line"></div>
@@ -144,7 +144,7 @@ $(document).ready(function(){initNavTree('df/d98/folder_tree_nana_8cpp-example.h
 <div class="line">                <span class="comment">//Walk in the path directory for sub directories.</span></div>
 <div class="line">                <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; dir : dir_it{ Path })</div>
 <div class="line">                {</div>
-<div class="line">                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> dir_name= <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(dir.path().filename());</div>
+<div class="line">                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> dir_name= dir.path().filename().generic_string();</div>
 <div class="line"></div>
 <div class="line">                        <span class="keyword">auto</span> child = tree.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/insert.html">insert</a>(arg.<a class="code" href="../../df/df9/structnana_1_1arg__treebox.html#ace88bdf3df5a36d0405f625648f96a4f">item</a>, dir_name, dir_name);</div>
 <div class="line">                        <span class="keywordflow">if</span> (child.empty()) <span class="keywordflow">continue</span>;   <span class="comment">// ?</span></div>
@@ -157,7 +157,7 @@ $(document).ready(function(){initNavTree('df/d98/folder_tree_nana_8cpp-example.h
 <div class="line">                        dir_it d{ dir.path() };</div>
 <div class="line">                        <span class="keywordflow">if</span> (d != dir_it{})</div>
 <div class="line">                        {</div>
-<div class="line">                                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> sdir_name = <a class="code" href="../../d2/d5a/namespacenana_1_1filesystem__ext.html#ae0528bca88a08ea1c4ae9b0a362a44e6">fs_ext::generic_u8string</a>(d-&gt;path().filename());</div>
+<div class="line">                                <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> sdir_name = d-&gt;path().filename().generic_string();</div>
 <div class="line">                                tree.<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/insert.html">insert</a>(child, sdir_name, sdir_name);</div>
 <div class="line">                        }</div>
 <div class="line">                        } <span class="keywordflow">catch</span> (...) {}</div>

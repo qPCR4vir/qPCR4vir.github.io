@@ -2,9 +2,7 @@ var searchData=
 [
   ['nano',['nano',['http://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
   ['nanoseconds',['nanoseconds',['http://en.cppreference.com/w/cpp/chrono/duration.html',1,'std::chrono']]],
-  ['native_5fdrawable_5fimpl',['native_drawable_impl',['../d0/d70/structnana_1_1detail_1_1native__drawable__impl.html',1,'nana::detail']]],
   ['native_5finterface',['native_interface',['../d4/d06/structnana_1_1detail_1_1native__interface.html',1,'nana::detail']]],
-  ['native_5fwindow_5fhandle_5fimpl',['native_window_handle_impl',['../da/d4d/structnana_1_1detail_1_1native__window__handle__impl.html',1,'nana::detail']]],
   ['negate',['negate',['http://en.cppreference.com/w/cpp/utility/functional/negate.html',1,'std']]],
   ['negative_5fbinomial_5fdistribution',['negative_binomial_distribution',['http://en.cppreference.com/w/cpp/numeric/random/negative_binomial_distribution.html',1,'std']]],
   ['nested_5fexception',['nested_exception',['http://en.cppreference.com/w/cpp/error/nested_exception.html',1,'std']]],

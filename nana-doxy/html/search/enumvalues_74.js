@@ -14,6 +14,7 @@ var searchData=
   ['to_5fleave',['to_leave',['../d4/d4f/namespacenana_1_1drawerbase_1_1date__chooser.html#ad7d33b06aaf9cf96eae4a2165c49c535a9339a0b4773b14da65a93f3089f9dfc1',1,'nana::drawerbase::date_chooser']]],
   ['to_5fleft',['to_left',['../d4/d4f/namespacenana_1_1drawerbase_1_1date__chooser.html#ad7d33b06aaf9cf96eae4a2165c49c535ab1d1c5b8ae53cdf12b2377af3ac4e70e',1,'nana::drawerbase::date_chooser']]],
   ['to_5fright',['to_right',['../d4/d4f/namespacenana_1_1drawerbase_1_1date__chooser.html#ad7d33b06aaf9cf96eae4a2165c49c535a3efa5186a79eda0f06e969121ad3b70f',1,'nana::drawerbase::date_chooser']]],
+  ['toggle',['toggle',['../de/d29/namespacenana_1_1drawerbase_1_1toolbar.html#a80db20e5c1bfa9d09336e26f814df0d6a41f984bb082af806e510740db289125d',1,'nana::drawerbase::toolbar']]],
   ['tomato',['tomato',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98a006f87892f47ef9aa60fa5ed01a440fb',1,'nana']]],
   ['top',['top',['../da/deb/structnana_1_1widgets_1_1skeletons_1_1fblock_1_1aligns.html#a317ab906fc69f7f8d634c10dab04a75da75cab7737ce5b4177a1fa0bed86c5ea0',1,'nana::widgets::skeletons::fblock::aligns::top()'],['../de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1ab28354b543375bfa94dabaeda722927f',1,'nana::place_parts::tokenizer::top()'],['../d2/d76/namespacenana.html#a4987fa05378b9a6b2e62537d0750a864ab28354b543375bfa94dabaeda722927f',1,'nana::top()'],['../d2/d76/namespacenana.html#a278f991de5b82b0d32a35563193235d0ab28354b543375bfa94dabaeda722927f',1,'nana::top()'],['../d2/d76/namespacenana.html#a4f8f3220e1c97f01f3ecfd297e269472ab28354b543375bfa94dabaeda722927f',1,'nana::top()'],['../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccdab28354b543375bfa94dabaeda722927f',1,'nana::widgets::skeletons::top()']]],
   ['top_5fleft',['top_left',['../d2/d76/namespacenana.html#a278f991de5b82b0d32a35563193235d0a46d3836487c2110c695e52750c5d76e4',1,'nana']]],
@@ -23,6 +24,8 @@ var searchData=
   ['topmost',['topmost',['../d2/d76/namespacenana.html#a4f8f3220e1c97f01f3ecfd297e269472aed6a4e717d07486254e573ee1f3aff6a',1,'nana']]],
   ['transparent',['transparent',['../d6/d61/classnana_1_1group.html#a7ad334905ab796cbf56f4047850187e8a5e96bf62b9b2c18fdb65564b4a18fd1f',1,'nana::group']]],
   ['triangle_5fpi',['triangle_pi',['../d1/d7d/classnana_1_1paint_1_1calc__rotate.html#a8e121b5dea643d65308b4ab3c65e4eefa488da2c93bb6d5547a17fce7ec3ed08f',1,'nana::paint::calc_rotate']]],
+  ['truncate_5fletter_5fwith_5fellipsis',['truncate_letter_with_ellipsis',['../db/d57/classnana_1_1paint_1_1text__renderer.html#a55c8dec1673d5a3a67fd0d27207fa7e1aeaebd344e7eb2e1841d2d411eef0f616',1,'nana::paint::text_renderer']]],
+  ['truncate_5fwith_5fellipsis',['truncate_with_ellipsis',['../db/d57/classnana_1_1paint_1_1text__renderer.html#a55c8dec1673d5a3a67fd0d27207fa7e1ad56f622d5da2f899f4ddb96bf2c32947',1,'nana::paint::text_renderer']]],
   ['try_5frefresh',['try_refresh',['../df/d4e/classnana_1_1detail_1_1window__layout.html#aa949a2aa2a629950e3685c39ce1e282fa3715c4470986e4e1744c496cc55120a7',1,'nana::detail::window_layout']]],
   ['turquoise',['turquoise',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98adcbb31fdf774bcd3f09d54c4487377c0',1,'nana']]]
 ];

@@ -14,7 +14,7 @@ var searchData=
   ['collapse',['collapse',['../de/dce/classnana_1_1place__parts_1_1tokenizer.html#a935e2b04ce5a4ca77a2ffc430fb939c1a1a721faf2df53972bfd0831c64b6146d',1,'nana::place_parts::tokenizer']]],
   ['color',['color',['../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccda70dda5dfb8053dc6d1c492574bce9bfd',1,'nana::widgets::skeletons']]],
   ['comma',['comma',['../dc/d5e/namespacenana_1_1widgets_1_1skeletons.html#a15b3bae04116a938253c00cb951caccdab6d00dc1ba038e5901cd6c06b2daa192',1,'nana::widgets::skeletons']]],
-  ['container',['container',['../d3/de6/structnana_1_1drawerbase_1_1toolbar_1_1item__type.html#a052a37757fb0bd9b82befe5c6174fbc4af8910aa93eb5fa00b3673958633f4f5b',1,'nana::drawerbase::toolbar::item_type']]],
+  ['composition',['composition',['../de/dbf/structnana_1_1arg__ime.html#a2ea8affb1513291e3e82e1a9705f74f9aee05e1dadf1b7f7e166ce182e1d39f86',1,'nana::arg_ime']]],
   ['copy',['copy',['../de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6ea41be3e79c6cdc1052ac9cb75c679c139',1,'nana::keyboard::copy()'],['../d2/d76/namespacenana.html#a7784763b54f13d75e76fb70c2217e554a12cba3ee81cf4a793796a51b6327c678',1,'nana::copy()']]],
   ['coral',['coral',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98ad2ebed4eaf58509dcc358e1782c38fea',1,'nana']]],
   ['cornflower_5fblue',['cornflower_blue',['../d2/d76/namespacenana.html#a1c3db4107603ee927761eec5fe67ef98abc432826c5179d5332c28e32f2ff58a0',1,'nana']]],

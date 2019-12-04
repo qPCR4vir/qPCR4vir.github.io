@@ -183,7 +183,7 @@ var searchData=
   ['item_5finterface',['item_interface',['../de/d08/classnana_1_1drawerbase_1_1float__listbox_1_1item__interface.html',1,'nana::drawerbase::float_listbox']]],
   ['item_5flocator',['item_locator',['../d5/d86/classnana_1_1drawerbase_1_1treebox_1_1trigger_1_1item__locator.html',1,'nana::drawerbase::treebox::trigger']]],
   ['item_5fproxy',['item_proxy',['../d5/d55/classnana_1_1drawerbase_1_1menu_1_1menu__item__type_1_1item__proxy.html',1,'nana::drawerbase::menu::menu_item_type']]],
-  ['item_5fproxy',['item_proxy',['../d1/d80/structnana_1_1drawerbase_1_1toolbar_1_1item__proxy.html',1,'nana::drawerbase::toolbar']]],
+  ['item_5fproxy',['item_proxy',['../d0/d13/classnana_1_1drawerbase_1_1toolbar_1_1item__proxy.html',1,'nana::drawerbase::toolbar']]],
   ['item_5fproxy',['item_proxy',['../d4/d65/classnana_1_1drawerbase_1_1combox_1_1item__proxy.html',1,'nana::drawerbase::combox']]],
   ['item_5fproxy',['item_proxy',['../d5/d96/classnana_1_1drawerbase_1_1treebox_1_1item__proxy.html',1,'nana::drawerbase::treebox']]],
   ['item_5fproxy',['item_proxy',['../df/d3e/classnana_1_1drawerbase_1_1listbox_1_1item__proxy.html',1,'nana::drawerbase::listbox']]],

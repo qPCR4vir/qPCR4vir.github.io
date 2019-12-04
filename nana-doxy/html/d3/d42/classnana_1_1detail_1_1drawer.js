@@ -13,6 +13,7 @@ var classnana_1_1detail_1_1drawer =
     [ "erase", "d3/d42/classnana_1_1detail_1_1drawer.html#a602eaf2ef275c100e4546513851703d3", null ],
     [ "focus", "d3/d42/classnana_1_1detail_1_1drawer.html#a0aa19b13ad97be041d7403fca86424e2", null ],
     [ "key_char", "d3/d42/classnana_1_1detail_1_1drawer.html#ae88f48219e7c03e163c04d6a3d22d7c8", null ],
+    [ "key_ime", "d3/d42/classnana_1_1detail_1_1drawer.html#aedac3aa5390c588e8a61cb4a770ef9b4", null ],
     [ "key_press", "d3/d42/classnana_1_1detail_1_1drawer.html#a2b4db4cdeaf4c1d7bf1fd36ed2dcab79", null ],
     [ "key_release", "d3/d42/classnana_1_1detail_1_1drawer.html#aa6d86e8e41d41889442f05eebf0b71f1", null ],
     [ "map", "d3/d42/classnana_1_1detail_1_1drawer.html#af7594d1fc43932505e47704cb9c8e302", null ],
