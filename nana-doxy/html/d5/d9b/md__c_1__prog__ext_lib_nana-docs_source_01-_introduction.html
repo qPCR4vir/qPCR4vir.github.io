@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.5"/>
-<title>Nana C++ Library. Reference for users.: Nana C++ library.</title>
+<title>Nana C++ Library. Reference for users.: What is Nana C++ Library?</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d5/d9b/md__c_1__prog__ext_lib_nana-doc
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Nana C++ library. </div>  </div>
+<div class="title">What is Nana C++ Library? </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
@@ -113,20 +113,20 @@ $(document).ready(function(){initNavTree('d5/d9b/md__c_1__prog__ext_lib_nana-doc
 </div>
 <div class="textblock"><h1><a class="anchor" id="WhatIs"></a>
 What is Nana C++ Library?</h1>
-<p>The Nana project is aimed at providing a software framework for cross-platform GUI programming in standard and modern C++, with components, such as graphics user interface and threads, written with Object Oriented and Generic programming. Being written in Standard C++ means that Nana works great with modern C++ features, such as lambdas, concurrency, the STL and so on. It will give you wonderful experiences on GUI programming with C++11.</p>
+<p>The main goal of Nana is to be a C++ standard-like GUI library. The "standard-" part means that all secondary goals, most designs decisions, implementation strategies, style, etc. are easy to define and understand. The "-like" part avoids endless discussions about the convenience, practicability or even “political correctness” of proposing a <code>std::gui</code> for C++. To our knowledge, no other C++ GUI library has this as a main goal, which assures a firm niche for nana existence.</p>
+<p>The Nana project is aimed at providing a software framework for cross-platform GUI programming in standard and modern C++, with components, such as graphics user interface and threads, written with Object Oriented and Generic programming. Being written in standard C++ means that Nana works great with modern C++ features, such as lambdas, concurrency, the STL and so on. It will give you wonderful experiences on GUI programming with C++11.</p>
 <p>It also means that you will not need to use or learn any non standard extension or magic macros for obscure code generation. Only standard use of templates will make some kind of code generation. In fact no macros are used, and only a few <code>#define</code> are used <b>exclusively for configuration</b>.</p>
 <p>It also means that there aren't any re implementation of string or any other <code>std::</code> containers. Using its own widgets and drawing functions abstracted with the Nana abstract GUI system, it allows for writing portables programs on supported OS, such as Windows/Linux(X11).</p>
-<p>Aimed solely at GUI, Nana not pollute your executable with anything unnecessary: typical statically linked release-executables will be of few MB (1 to 3 even for non trivial application, less than 1 MB for the demos). This make Nana ideal for beginners (no need of any installation to distribute - you will not have the problem: it works only in my machine!), but also to distribute applications in many large organizations where users can run programs but not change the systems.</p>
+<p>Aimed solely at GUI, Nana not pollute your executable with anything unnecessary: typical statically linked release-executables will be of few MB (1 to 3 even for non trivial application, less than 1 MB for the demos -MSVC-). This make Nana ideal for beginners (no need of any installation to distribute - you will not have the problem: it works only in my machine!), but also to distribute applications in many large organizations where users can run programs but not change the systems.</p>
 <p>Nana is a free/open-source library distributed under <em>Boost Software License</em>, which is a lax, permissive non-copyleft free software license. Now, Nana is trying to build an active developer community to give help in using this library.</p>
 <h1><a class="anchor" id="Install"></a>
 Installation</h1>
-<p><a href="https://github.com/qPCR4vir/nana-docs/wiki/Installation">Please visit the wiki</a></p>
-<p>Is very simple. Basically you copy the source code of nana (which is tiny: 0.5 MB in zip) and tell your build system where it is. Follow the <a href="https://github.com/qPCR4vir/nana-docs/wiki/Installation">link</a> for detailed information.</p>
+<p>Is very simple. Basically you copy the source code of nana (which is tiny: 0.7 MB in zip) and tell your build system where it is. Follow the <a href="https://github.com/qPCR4vir/nana-docs/wiki/Installation">wiki link</a> for detailed information.</p>
 <p>When you extract the library from its zip files, you have to install the library and configurate it before using.</p>
 <h1><a class="anchor" id="Intro"></a>
 Introduction</h1>
 <p><a href="https://sourceforge.net/p/nanapro/blog/2012/11/preliminary-study-of-nana-c-library/">(Original site)</a></p>
-<p>Nana is a C++ framework with provides GUI, threads and file system API. It provides many basic classes and functions for cross-platform programming. Although C++ is a powerful and syntax-agile language, in fact, many programmers don't like to do GUI in C++, because it seems to be very difficult. Some existing C++ GUI frameworks define their own rule that forced you write some stiff code that always causes some problems, such as leaving your code in a deep inheritance hierarchy, making maintenance painful. Now, the Nana C++ Library is an alternative, a pure C++ library that will guide you in doing GUI with your immense and extensive C++ knowledge/skill/idioms. It makes a great progress in doing GUI in C++.</p>
+<p>Nana provides basic classes and functions for cross-platform programming. Although C++ is a powerful and syntax-agile language, in fact, many programmers don't like to do GUI in C++, because it seems to be very difficult. Some existing C++ GUI frameworks define their own rule that forced you write some stiff code that always causes some problems, such as leaving your code in a deep inheritance hierarchy, making maintenance painful. Now, the Nana C++ Library is an alternative, a pure C++ library that will guide you in doing GUI with all your C++ knowledge/skill/idioms. It makes a great progress in doing GUI in C++.</p>
 <p>How easy is to create a Hello World program with Nana?</p>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/label.hpp&gt;</span></div>
@@ -140,56 +140,31 @@ Introduction</h1>
 <div class="line">    fm.show();</div>
 <div class="line">    <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>();</div>
 <div class="line">}</div>
-</div><!-- fragment --><p> Pretty easy, with understandable code. Nana brings very simple and reasonable concepts to keep it easy. Secondly, unlike other frameworks, that make you write stiff code due to name and syntax constraints, Nana can make your code more straightforward and readable. For example, answering an event.</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span></div>
+</div><!-- fragment --><p> Pretty easy, with understandable code. Nana brings very simple and reasonable concepts to keep it easy. Secondly, unlike other frameworks, that make you write stiff code due to name and syntax constraints, Nana can make your code more straightforward and readable. For example, answering an event: (the code protected by <code>#ifdef NANA_AUTOMATIC_GUI_TESTING</code> is just nana magic used only during testing)</p>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"></div>
+<div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/button.hpp&gt;</span></div>
-<div class="line"></div>
-<div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"></div>
-<div class="line"></div>
-<div class="line"></div>
 <div class="line"></div>
 <div class="line"><span class="keywordtype">void</span> clicked(<span class="keyword">const</span> <a class="code" href="../../d6/dc2/structnana_1_1arg__click.html">nana::arg_click</a> &amp; eventinfo)</div>
 <div class="line">{</div>
 <div class="line">     <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a>&lt;&lt;  <span class="stringliteral">&quot;When the window  fm  is clicked, this function is called. \n&quot;</span>;</div>
 <div class="line">}</div>
 <div class="line"></div>
-<div class="line"></div>
-<div class="line"></div>
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">using namespace </span>nana;</div>
-<div class="line">    <a class="code" href="../../d6/d57/classnana_1_1form.html">form</a> fm;</div>
+<div class="line">    <a class="code" href="../../d6/d57/classnana_1_1form.html">nana::form</a> fm;</div>
+<div class="line">    fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#a064762b8a9d8cfdaf9e9d1fc990c2b24">caption</a>(<span class="stringliteral">&quot;Click this nana windows&quot;</span>);</div>
 <div class="line">    fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(clicked);</div>
-<div class="line">    fm.show();</div>
-<div class="line">        <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(</div>
+<div class="line">    fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>();</div>
+<div class="line">    <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">nana::exec</a>(</div>
 <div class="line"></div>
 <div class="line">#ifdef NANA_AUTOMATIC_GUI_TESTING</div>
 <div class="line"></div>
-<div class="line">                1, 1, [&amp;fm]()</div>
-<div class="line">                {</div>
-<div class="line">                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;3 times automatic click. \n&quot;</span>;</div>
-<div class="line">                        <a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>(fm);</div>
-<div class="line">                        <a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>(fm);</div>
-<div class="line">                        <a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>(fm);</div>
+<div class="line">       1, 1, [&amp;fm]() {  <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;3 times automatic click. \n&quot;</span>;</div>
+<div class="line">                        nana::click(fm); nana::click(fm); nana::click(fm);</div>
+<div class="line">                     }</div>
 <div class="line"></div>
-<div class="line">                        <a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html">nana::arg_mouse</a> m;</div>
-<div class="line">                        m.<a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html#a50641b86783c83c3519ff379052ee3a8">window_handle</a>=fm;</div>
-<div class="line">                        m.<a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html#a40c09634164eeb761bb0d88b50d4e47b">alt</a>=m.<a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html#af4450ad84eabdfa51adf5d32ec436a72">ctrl</a>=m.<a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html#a62503748efa2a0d97217ac4a7543c253">mid_button</a>=m.<a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html#a18394511dfa56cae549acc2590c98ab9">shift</a>=<span class="keyword">false</span>;</div>
-<div class="line">                        m.<a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html#a535d5664b0c95de53c7e9044cd446855">left_button</a>=<span class="keyword">true</span>;</div>
-<div class="line">                        m.<a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html#a9bc3e4160ed6638ab0286a15f0623b60">pos</a>.<a class="code" href="../../de/da3/structnana_1_1basic__point.html#a426488d5403a0fd60ac16adaedbe9a58">x</a>=m.<a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html#a9bc3e4160ed6638ab0286a15f0623b60">pos</a>.<a class="code" href="../../de/da3/structnana_1_1basic__point.html#a93e38caab4c9942fcd978befd018e4e1">y</a>=1;</div>
-<div class="line">                        m.<a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html#a5745712bb4b07b3a677e6fa1650585c2">button</a>=<a class="code" href="../../d2/d76/namespacenana.html#a19ba554a683a93eb1f6ba803c2959c8aa983ece0c57fdf73508e1a4ff8e2c9eac">::nana::mouse::left_button</a>;</div>
-<div class="line"></div>
-<div class="line">                        <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Now with then mouse. \n&quot;</span>;</div>
-<div class="line">                        <span class="comment">//fm.events().mouse_down.emit(m);</span></div>
-<div class="line">                        <span class="comment">//fm.events().mouse_up.emit(m);</span></div>
-<div class="line"></div>
-<div class="line">                        <span class="comment">// char c;</span></div>
-<div class="line">                        <span class="comment">// std::cin &gt;&gt; c;</span></div>
-<div class="line"></div>
-<div class="line">                        <span class="comment">//fm.close();</span></div>
-<div class="line"></div>
-<div class="line">             }</div>
 <div class="line"><span class="preprocessor">#endif</span></div>
 <div class="line"><span class="preprocessor"></span></div>
 <div class="line">        );</div>
@@ -199,49 +174,48 @@ Introduction</h1>
 <div class="line">{</div>
 <div class="line">        <span class="comment">//When the form is clicked, this function will be &quot;called&quot;.</span></div>
 <div class="line">}</div>
-<div class="line">fm.events().click(clicked);    <span class="comment">//Nana allows!</span></div>
-</div><!-- fragment --><p>Very flexible, and keep your code simple. And this feature can be applied with function object.</p>
+<div class="line">fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(clicked);    <span class="comment">//Nana allows!</span></div>
+</div><!-- fragment --><p>Very flexible, and keep your code simple. And this feature can be applied with function objects.</p>
 <p>What makes Nana so flexible?</p>
-<p>Nana C++ Library does not contain any "extra compilers" to parse "special syntax", Nana uses 100% C++ and the template techniques make this library very powerful and flexible. Unlike other template-based library don't causes code bloat and don't requires programmers to be template-skilled: it's newbie-friendly.</p>
-<p>Nana allows you to use lambda, a feature of C++11, for event answering. Like this:</p>
-<div class="fragment"><div class="line">fm.events().click( []{  <span class="comment">//When the form is clicked, the object          </span></div>
-<div class="line">                                                        <span class="comment">//created by this lambda will be &quot;called&quot;.</span></div>
-<div class="line">                                                    });</div>
+<p>Nana C++ Library does not contain any "extra compilers" to parse "special syntax", Nana uses 100% C++ and template techniques that make it very powerful and flexible. Unlike other template-based library don't causes code bloat and don't requires programmers to be template-skilled: it's newbie-friendly.</p>
+<p>Nana allows you to use lambda, a C++ feature, for event answering. Like this:</p>
+<div class="fragment"><div class="line">fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>( []{ <span class="comment">//When the form is clicked, the object       </span></div>
+<div class="line">                       <span class="comment">//created by this lambda will be &quot;called&quot;.</span></div>
+<div class="line">                     });</div>
 </div><!-- fragment --><p>or</p>
-<div class="fragment"><div class="line">fm.events().click( [](<span class="keyword">const</span> arg_click&amp; ei){ </div>
-<div class="line">                                                                        <span class="comment">//When the form is clicked, the object created</span></div>
-<div class="line">                                                                        <span class="comment">//by this lambda will be &quot;called&quot;, and I can</span></div>
-<div class="line">                                                                        <span class="comment">//read the parameter.</span></div>
-<div class="line">                                                           });</div>
-</div><!-- fragment --><p>Additionally, Nana can make use of <code><a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/functional/bind.html">std::bind</a></code>.</p>
-<h2><a class="anchor" id="Threading"></a>
+<div class="fragment"><div class="line">fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>( [](<span class="keyword">const</span> arg_click&amp; ei){ </div>
+<div class="line">                                       <span class="comment">//When the form is clicked, the object created</span></div>
+<div class="line">                                       <span class="comment">//by this lambda will be &quot;called&quot;, and I can</span></div>
+<div class="line">                                       <span class="comment">//read the parameter.</span></div>
+<div class="line">                                      });</div>
+</div><!-- fragment --><h2><a class="anchor" id="Threading"></a>
 Threading</h2>
 <p>Nana is a thread-safe library and accessing a widget between threads is normalized. This is a great feature that makes programmer deliver the event answer to other thread easier. </p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span></div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"></div>
+<div class="line"><span class="preprocessor">#include &lt;nana/gui.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;nana/threads/pool.hpp&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span> </div>
 <div class="line"></div>
 <div class="line"><span class="keywordtype">void</span> foo()</div>
 <div class="line">{</div>
 <div class="line">      <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;This function is &#39;called&#39; in other thread created by thread pool.\n&quot;</span>;</div>
 <div class="line">}</div>
+<div class="line"></div>
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
-<div class="line">  <span class="keyword">using namespace </span>nana;</div>
-<div class="line">  <span class="keyword">using namespace </span>nana::threads;</div>
-<div class="line">    <a class="code" href="../../d5/da5/classnana_1_1threads_1_1pool.html">pool</a> thrpool;</div>
-<div class="line">    <a class="code" href="../../d6/d57/classnana_1_1form.html">form</a> fm;</div>
+<div class="line">    <a class="code" href="../../d5/da5/classnana_1_1threads_1_1pool.html">nana::threads::pool</a> thrpool;</div>
+<div class="line">    <a class="code" href="../../d6/d57/classnana_1_1form.html">nana::form</a> fm;</div>
 <div class="line">    fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(<a class="code" href="../../d5/d4c/namespacenana_1_1threads.html#a522742773009913c5b4961c02de4873e">pool_push</a>(thrpool, foo));</div>
-<div class="line">    fm.events().click(<a class="code" href="../../d5/d4c/namespacenana_1_1threads.html#a522742773009913c5b4961c02de4873e">pool_push</a>(thrpool, []{</div>
-<div class="line">                                              <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;A lambda is also allowed (called from yet another thread).\n&quot;</span>;</div>
-<div class="line">                                      }));</div>
+<div class="line">    fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(<a class="code" href="../../d5/d4c/namespacenana_1_1threads.html#a522742773009913c5b4961c02de4873e">pool_push</a>(thrpool, []{</div>
+<div class="line">                           <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;A lambda is also allowed (called from yet another thread).\n&quot;</span>;</div>
+<div class="line">                        }));</div>
 <div class="line">    <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Two click events were registered for the Nana windows. Click it to see..\n&quot;</span>;</div>
-<div class="line">    fm.show();</div>
-<div class="line">    <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>();</div>
+<div class="line">    fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>();</div>
+<div class="line">    <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">nana::exec</a>();</div>
 <div class="line">}</div>
 </div><!-- fragment --><h2><a class="anchor" id="RAII"></a>
 RAII</h2>
-<p>This is an important feature. As shown in the above examples, as soon as a <code>form</code> object is created, its corresponding window is created, but the window is invisible till the <code>show()</code> is called for the <code>form</code> object. As soon as the <code>form</code> object is destructed, its corresponding window is closed: this conforms with the C++ object life-time concept.</p>
+<p>This is an important c++ feature. As shown in the above examples, as soon as a <code>form</code> object is created, its corresponding window is created, but the window is invisible till the <code>show()</code> is called for the <code>form</code> object. As soon as the <code>form</code> object is destructed, its corresponding window is closed: this conforms with the C++ object life-time concept.</p>
 <h1><a class="anchor" id="Hello"></a>
 Hello World</h1>
 <p>This lesson is indented to get you started programming with Nana.GUI. Let's read the simple HelloWorld code.</p>
@@ -250,22 +224,16 @@ Hello World</h1>
 <div class="line"></div>
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line"> {</div>
-<div class="line">     <span class="keyword">using namespace </span>nana;</div>
-<div class="line"></div>
-<div class="line">     <a class="code" href="../../d6/d57/classnana_1_1form.html">form</a> fm;</div>
+<div class="line">     <a class="code" href="../../d6/d57/classnana_1_1form.html">nana::form</a> fm;</div>
 <div class="line">     fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#a064762b8a9d8cfdaf9e9d1fc990c2b24">caption</a>(<span class="stringliteral">&quot;Hello World&quot;</span>);</div>
-<div class="line">     <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> btn(fm, <a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>(20, 20, 150, 30));</div>
+<div class="line">     <a class="code" href="../../d7/dc0/classnana_1_1button.html">nana::button</a> btn(fm, <a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>(20, 20, 150, 30));</div>
 <div class="line">     btn.caption(<span class="stringliteral">&quot;Quit&quot;</span>);</div>
-<div class="line">     btn.events().click(<a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a725672acf835c7e427465770688e1945">API::exit_all</a>);</div>
-<div class="line">     fm.show();</div>
-<div class="line">         <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(</div>
+<div class="line">     btn.events().click(API::exit_all);</div>
+<div class="line">     fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>();</div>
+<div class="line">     <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">nana::exec</a>(</div>
 <div class="line"></div>
 <div class="line">#ifdef NANA_AUTOMATIC_GUI_TESTING</div>
-<div class="line"></div>
-<div class="line">                 2, 1, [&amp;btn]()</div>
-<div class="line">         {</div>
-<div class="line">                 <a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>(btn);</div>
-<div class="line">         }</div>
+<div class="line">     2, 1, [&amp;btn]() { <a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>(btn); }</div>
 <div class="line"><span class="preprocessor">#endif</span></div>
 <div class="line"><span class="preprocessor"></span></div>
 <div class="line">         );</div>
@@ -275,31 +243,29 @@ Hello World</h1>
 <div class="caption">
 Screenshot</div></div>
   Walkthrough Line-by-line</p>
-<p><div class="fragment"></div><!-- fragment --> This line includes the Nana.GUI class definition.</p>
+<p><div class="fragment"><div class="line"><span class="preprocessor">#include&lt;nana/gui.hpp&gt;</span></div>
+</div><!-- fragment --> This line includes the Nana.GUI class definition.</p>
 <p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;nana/gui/widgets/button.hpp&gt;</span></div>
 </div><!-- fragment --> This line includes the Nana.GUI.button class definition.</p>
 <p><div class="fragment"><div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line"> {</div>
 </div><!-- fragment --> The <code>main()</code> function is the entry point to the program. Almost always when using Nana.GUI, <code>main()</code> only needs to perform some kind of initialization before passing the control to the Nana.GUI library, which then tells the program about the user's actions via events.</p>
-<p><div class="fragment"><div class="line">     <span class="keyword">using namespace </span>nana;</div>
-</div><!-- fragment --> Specify the nominated namespace <code>nana</code> can be used in <code>main</code> function block scope. In this example, the names <code>form</code>, <code>button</code>, <code>events</code>, <code>API</code> and <code>exec</code> are defined in the namespace <code>nana</code>. With this using-directive, we can use these names directly in the <code>main</code> function scope.</p>
-<p><div class="fragment"><div class="line">     form fm;</div>
-</div><!-- fragment --> This is the first piece of window-system code. A <code>form</code> is created while the variable <code>fm</code> is defined. The <code>form</code> is a window with title bar and a sizeable border frame, it's fundamental that you can put some widgets above it.</p>
-<p><div class="fragment"><div class="line">     fm.caption(<span class="stringliteral">&quot;Hello World&quot;</span>);</div>
+<p><div class="fragment"><div class="line">     <a class="code" href="../../d6/d57/classnana_1_1form.html">nana::form</a> fm;</div>
+</div><!-- fragment --> This is the first piece of window-system code. A <code>form</code> is created while the variable <code>fm</code> is defined. The <code>form</code> is a window with title bar and a sizeable border frame. It's fundamental that you can put some widgets above it.</p>
+<p><div class="fragment"><div class="line">     fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#a064762b8a9d8cfdaf9e9d1fc990c2b24">caption</a>(<span class="stringliteral">&quot;Hello World&quot;</span>);</div>
 </div><!-- fragment --> Set the <code>form</code> to display the text "Hello World" in its title bar.</p>
-<p><div class="fragment"><div class="line">     <a class="code" href="../../de/d29/namespacenana_1_1drawerbase_1_1toolbar.html#a80db20e5c1bfa9d09336e26f814df0d6ace50a09343724eb82df11390e2c1de18">button</a> btn(fm, <a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>(20, 20, 150, 30));</div>
+<p><div class="fragment"><div class="line">     <a class="code" href="../../d7/dc0/classnana_1_1button.html">nana::button</a> btn(fm, <a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>(20, 20, 150, 30));</div>
 </div><!-- fragment --> After the <code>form</code>, a button is created. In its constructor arg-list, the first argument tells the <code>btn</code> who the parent window is, and the following arguments describe the position and size of <code>btn</code>.</p>
 <p><div class="fragment"><div class="line">     btn.caption(<span class="stringliteral">&quot;Quit&quot;</span>);</div>
 </div><!-- fragment --> Set the <code>btn</code> to display the text "Quit".</p>
 <p><div class="fragment"><div class="line">     btn.events().click(API::exit_all);</div>
-</div><!-- fragment --> <code>event()</code> is a method that every Nana.GUI widgets provide, you can register an event callback by using it. We want to exit the program while a mouse clicks on the btn. Now, register a callback function on <code>click</code> event.</p>
-<p><div class="fragment"><div class="line">     fm.show();</div>
-</div><!-- fragment --> A form widget is never visible when you create it. You must call show() to make it visible.</p>
-<p><div class="fragment"><div class="line">         <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(</div>
-</div><!-- fragment --> This is where the main() passes the control to Nana.GUI. exec() will return when the application exists. In exec(), Nana.GUI processes the message loop and passes every event on to the appropriate widgets.</p>
-<p>What is <a class="el" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#af71ebb2dae084addc00732fa58116545" title="close all windows in current thread ">nana::API::exit</a>? This is an API provided by Nana.GUI. Its prototype is void exit(). If exit() is called, Nana.GUI destroy all the windows you've created and the exec() will return. Member <code>event().click()</code> has a template argument. The argument can be a function or a functor with a <code>const <a class="el" href="../../d6/d7c/structnana_1_1arg__mouse.html">nana::arg_mouse</a>&amp;</code> parameter or not.</p>
-<p>Is it right to invoke exit() in an event callback?</p>
-<p>It is right because Nana.GUI guarantees a program correctness even when an invalid GUI objects handle is accesses . </p>
+</div><!-- fragment --> <code>event()</code> is a method that every Nana.GUI widgets provide. You can register an event callback by using it. Here we want to exit the program when a mouse clicks on the <code>btn</code>. Now, register a callback function on the <code>click</code> event.</p>
+<p><div class="fragment"><div class="line">     fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>();</div>
+</div><!-- fragment --> A <code>form</code> widget is not visible when you create it. You must call <code>show()</code> to make it visible.</p>
+<p><div class="fragment"><div class="line">     <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">nana::exec</a>(</div>
+</div><!-- fragment --> This is where <code>main()</code> passes the control to Nana.GUI. <code>exec()</code> will return when the application exists. In <code>exec()</code>, Nana.GUI processes the message loop and passes every event to the appropriate widget.</p>
+<p>What is <code><a class="el" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#af71ebb2dae084addc00732fa58116545" title="close all windows in current thread ">nana::API::exit</a></code>? This is an <code>API</code> provided by Nana.GUI. Its prototype is <code>void exit()</code>. If <code>exit()</code> is called, Nana.GUI destroy all the windows you've created and <code>exec()</code> will return. The member <code>event().click()</code> has a templated argument. That argument can be a function or a functor with a <code>const <a class="el" href="../../d6/d7c/structnana_1_1arg__mouse.html">nana::arg_mouse</a>&amp;</code> parameter or not.</p>
+<p>Is it right to invoke <code>exit()</code> in an event callback? Yes, it is right, because Nana.GUI guarantees the program correctness even when an invalid GUI objects handle is accesses. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

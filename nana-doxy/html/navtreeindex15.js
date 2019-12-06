@@ -1,6 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"da/dd4/classnana_1_1detail_1_1element__store.html#a9f2fcec6476a99b4f51bd9bd64e6650b":[8,0,1,5,34,2],
 "da/dd4/classnana_1_1detail_1_1element__store.html#acaa1768204164deeb6f06d5ea4b8e189":[8,0,1,5,34,4],
 "da/ddb/structnana_1_1filebox_1_1implement.html":[8,0,1,100,0],
 "da/ddb/structnana_1_1filebox_1_1implement.html#a0957b2e003e26dbd89e75090384cbdd9":[8,0,1,100,0,4],
@@ -66,7 +65,7 @@ var NAVTREEINDEX15 =
 "da/df8/structnana_1_1size.html#ad36ac3b136771747716946fdd93826f8":[8,0,1,30,6],
 "da/df8/structnana_1_1size.html#ad6164a498a1490e1753c019622d9f45f":[8,0,1,30,2],
 "da/df8/structnana_1_1size.html#af6029a534e26ca73afc26551fa3c0b36":[8,0,1,30,9],
-"da/dfd/screen_8cpp-example.html":[9,44],
+"da/dfd/screen_8cpp-example.html":[9,42],
 "da/dfe/structnana_1_1arg__move.html":[8,0,1,69],
 "da/dfe/structnana_1_1arg__move.html#a24d577f04036e9b1fc08cac0c8bc84fe":[8,0,1,69,1],
 "da/dfe/structnana_1_1arg__move.html#a7c2d5c5ca5f6f9b133f9a0a45ff4c284":[8,0,1,69,0],
@@ -162,7 +161,7 @@ var NAVTREEINDEX15 =
 "db/d5a/classnana_1_1place__parts_1_1dock__notifier__interface.html#a8837bed149f9d08408927760d2c0088a":[8,0,1,16,4,2],
 "db/d5a/classnana_1_1place__parts_1_1dock__notifier__interface.html#a8ecbdfd0bc7cc070fbe63278d333ea77":[8,0,1,16,4,4],
 "db/d5a/classnana_1_1place__parts_1_1dock__notifier__interface.html#ab456b878a74f10ff9a888722752a5f2b":[8,0,1,16,4,5],
-"db/d62/example_combox_8cpp-example.html":[9,13],
+"db/d62/example_combox_8cpp-example.html":[9,12],
 "db/d6f/classnana_1_1effects_1_1bground__interface.html":[8,0,1,8,1],
 "db/d6f/classnana_1_1effects_1_1bground__interface.html#a5657f8143f88d1a76b73dd518dab2a54":[8,0,1,8,1,1],
 "db/d6f/classnana_1_1effects_1_1bground__interface.html#a856388a8785bb871e037322bb01b3e03":[8,0,1,8,1,0],
@@ -199,7 +198,7 @@ var NAVTREEINDEX15 =
 "db/d92/structnana_1_1drawerbase_1_1listbox_1_1drawer__header__impl_1_1column__rendering__parameter.html#a9e6e4e58bd860a295c9e094541a9731a":[8,0,1,7,9,8,0,3],
 "db/d92/structnana_1_1drawerbase_1_1listbox_1_1drawer__header__impl_1_1column__rendering__parameter.html#acc9a3bd42d79a40eec485cdbc09d7005":[8,0,1,7,9,8,0,0],
 "db/d96/classnana_1_1drawerbase_1_1listbox_1_1basic__container.html":[8,0,1,7,9,15],
-"db/d9a/helloword_quit_8cpp-example.html":[9,27],
+"db/d9a/helloword_quit_8cpp-example.html":[9,25],
 "db/d9f/structnana_1_1widgets_1_1skeletons_1_1content__view_1_1implementation.html":[8,0,1,22,1,12,1],
 "db/d9f/structnana_1_1widgets_1_1skeletons_1_1content__view_1_1implementation.html#a010163230c43969caf6909b34792e4fd":[8,0,1,22,1,12,1,13],
 "db/d9f/structnana_1_1widgets_1_1skeletons_1_1content__view_1_1implementation.html#a08f7dbcfb5d076a67079b51c6ff7368f":[8,0,1,22,1,12,1,1],
@@ -243,11 +242,12 @@ var NAVTREEINDEX15 =
 "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#ae24dc4cfcf3c57cbb5d2acc637baa595":[8,0,1,7,5,5,1],
 "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#af073071c5a957974f3cc9d3b758f0beb":[8,0,1,7,5,5,3],
 "db/db7/classnana_1_1drawerbase_1_1float__listbox_1_1drawer__impl.html#afe397e74bafeaba213ec34273cc5a027":[8,0,1,7,5,5,5],
-"db/dbb/window-dragger_8cpp-example.html":[9,52],
+"db/dbb/window-dragger_8cpp-example.html":[9,50],
 "db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html":[8,0,1,80],
 "db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#a5ab10ac7529dc4ed35c1c9edbdfdf2f5":[8,0,1,80,0],
 "db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#a80e856dbdd936b4de6ecf2586dcdbb1f":[8,0,1,80,3],
 "db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#a9a27fdbba1fc6bdb775cffd0d32c71d7":[8,0,1,80,6],
 "db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#a9a3e9b907098087d23c1ce5ef409db7e":[8,0,1,80,7],
-"db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#aacc2cc5c1aaae5c6ff9b6b308e6f6976":[8,0,1,80,4]
+"db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#aacc2cc5c1aaae5c6ff9b6b308e6f6976":[8,0,1,80,4],
+"db/dbc/classnana_1_1widget__object_3_01category_1_1lite__widget__tag_00_01_drawer_trigger_00_01_events_00_01_scheme_01_4.html#ab4325562ed48d01c57cfa7a9741b1cd5":[8,0,1,80,5]
 };

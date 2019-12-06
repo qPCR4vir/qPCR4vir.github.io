@@ -1,7 +1,7 @@
 var NAVTREEINDEX4 =
 {
 "d3/d4c/classnana_1_1drawerbase_1_1label_1_1renderer.html#acf740323c97164df1d83b19636a33192":[8,0,1,7,8,1,0],
-"d3/d4e/helloword_8cpp-example.html":[9,26],
+"d3/d4e/helloword_8cpp-example.html":[9,24],
 "d3/d54/structnana_1_1frameset_1_1impl.html":[8,0,1,44,0],
 "d3/d54/structnana_1_1frameset_1_1impl.html#a2375313e24f4874808548e1b1f1cdafb":[8,0,1,44,0,8],
 "d3/d54/structnana_1_1frameset_1_1impl.html#a253a43999e1a88afefb120b266ee412a":[8,0,1,44,0,0],
@@ -236,7 +236,7 @@ var NAVTREEINDEX4 =
 "d3/de7/classnana_1_1detail_1_1event__base.html#ad856391df9e447ee91419d5115e1d420":[8,0,1,5,23,1],
 "d3/de7/classnana_1_1detail_1_1event__base.html#ad9fc452415cd7ee5112c80098bf2ddb8":[8,0,1,5,23,2],
 "d3/de7/classnana_1_1detail_1_1event__base.html#adf3b69a53a58e4dc405bf4b505ec7841":[8,0,1,5,23,5],
-"d3/de9/widget_show_8cpp-example.html":[9,50],
+"d3/de9/widget_show_8cpp-example.html":[9,48],
 "d3/deb/namespacenana_1_1drawerbase_1_1menu.html":[7,0,1,7,10],
 "d3/deb/namespacenana_1_1drawerbase_1_1menu.html":[8,0,1,7,10],
 "d3/ded/structnana_1_1internationalization__parts_1_1eval__window.html":[8,0,1,11,2],

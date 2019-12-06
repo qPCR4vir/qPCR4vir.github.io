@@ -137,7 +137,7 @@ var NAVTREEINDEX1 =
 "d1/d47/structnana_1_1internationalization__parts_1_1eval__manager.html":[8,0,1,11,3],
 "d1/d47/structnana_1_1internationalization__parts_1_1eval__manager.html#a12a4dc2c9bf0f3c4365afcd7cff9ba83":[8,0,1,11,3,1],
 "d1/d47/structnana_1_1internationalization__parts_1_1eval__manager.html#aef99462e1c13309d45043b12bca4cac6":[8,0,1,11,3,0],
-"d1/d53/notepad_8cpp-example.html":[9,41],
+"d1/d53/notepad_8cpp-example.html":[9,39],
 "d1/d59/classnana_1_1event__filter__status.html":[8,0,1,53],
 "d1/d59/classnana_1_1event__filter__status.html#a017a5d8d54e0908b88763ff3f0dbf0e4":[8,0,1,53,7],
 "d1/d59/classnana_1_1event__filter__status.html#a1e458cd2582bb1954753f9ab16094352":[8,0,1,53,5],
@@ -180,7 +180,7 @@ var NAVTREEINDEX1 =
 "d1/d81/classnana_1_1effects_1_1impl_1_1transparent.html":[8,0,1,8,0,0],
 "d1/d81/classnana_1_1effects_1_1impl_1_1transparent.html#a0c2deae2f16bb6bed24637a6ce8483ee":[8,0,1,8,0,0,0],
 "d1/d81/classnana_1_1effects_1_1impl_1_1transparent.html#a92e1271541aa508c3e79875d5dd5308d":[8,0,1,8,0,0,1],
-"d1/d81/stretch_image_8cpp-example.html":[9,45],
+"d1/d81/stretch_image_8cpp-example.html":[9,43],
 "d1/d81/structnana_1_1detail_1_1shortkey__rep.html":[8,0,1,5,37],
 "d1/d81/structnana_1_1detail_1_1shortkey__rep.html#a02d83cc06e20f16454cf3b5e4b4be973":[8,0,1,5,37,0],
 "d1/d81/structnana_1_1detail_1_1shortkey__rep.html#a46ec48bbe890770f4ce7d5d8033fbba4":[8,0,1,5,37,1],
@@ -197,7 +197,7 @@ var NAVTREEINDEX1 =
 "d1/d87/classnana_1_1panel.html#a85682c79baa5c9f9c8fe0abdefc93119":[8,0,1,120,3],
 "d1/d87/classnana_1_1panel.html#a96579ea569d0f15e9aa4b368a7a2b8f2":[8,0,1,120,0],
 "d1/d87/classnana_1_1panel.html#ac5da7a347e2176733919e1dfdc521e65":[8,0,1,120,1],
-"d1/d90/example_menu_8cpp-example.html":[9,15],
+"d1/d90/example_menu_8cpp-example.html":[9,14],
 "d1/d97/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1undo__move__text.html":[8,0,1,22,1,4,10],
 "d1/d97/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1undo__move__text.html#a17dddb4ccfc963ff7a6dc388eb42f46c":[8,0,1,22,1,4,10,1],
 "d1/d97/classnana_1_1widgets_1_1skeletons_1_1text__editor_1_1undo__move__text.html#a7bba38758e451fb5bd2f7c5c7fa03768":[8,0,1,22,1,4,10,2],
@@ -249,5 +249,5 @@ var NAVTREEINDEX1 =
 "d1/dda/classnana_1_1listbox.html#a2a4f0dbd16122039e6d25e317d0ce58c":[8,0,1,153,60],
 "d1/dda/classnana_1_1listbox.html#a2da893e4e36427bdc34dad6edeb4c9c0":[8,0,1,153,14],
 "d1/dda/classnana_1_1listbox.html#a329d30f4840c78b51f84352ffe7d7a3f":[8,0,1,153,30],
-"d1/dda/classnana_1_1listbox.html#a33d553112545fffb8875c18114de7627":[8,0,1,153,33]
+"d1/dda/classnana_1_1listbox.html#a346a0c1b1d5e184933991211d05358c2":[8,0,1,153,69]
 };

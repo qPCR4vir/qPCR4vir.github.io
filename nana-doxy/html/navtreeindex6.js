@@ -199,7 +199,7 @@ var NAVTREEINDEX6 =
 "d5/d27/structnana_1_1appearance.html#aab72da6e94e0553ebf5ad043dbc18e51":[8,0,1,49,2],
 "d5/d27/structnana_1_1appearance.html#ab99206e010261a20b716e1b170b7e232":[8,0,1,49,0],
 "d5/d27/structnana_1_1appearance.html#adcc27ac667dc94c770dca61ae5c98014":[8,0,1,49,4],
-"d5/d2a/menu_debug_8cpp-example.html":[9,37],
+"d5/d2a/menu_debug_8cpp-example.html":[9,35],
 "d5/d2b/structnana_1_1simple__dragdrop_1_1implementation.html":[8,0,1,95,0],
 "d5/d2b/structnana_1_1simple__dragdrop_1_1implementation.html#a007df771511095f3c075cdf080e160b6":[8,0,1,95,0,3],
 "d5/d2b/structnana_1_1simple__dragdrop_1_1implementation.html#a32c2df28a50817851aa856ab9c4566d1":[8,0,1,95,0,2],

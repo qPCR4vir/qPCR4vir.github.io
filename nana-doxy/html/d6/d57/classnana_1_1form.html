@@ -113,9 +113,6 @@ $(document).ready(function(){initNavTree('d6/d57/classnana_1_1form.html','../../
 <div class="title">nana::form Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Pop-up window. Is different from other window widgets: its default constructor creates the window.  
- <a href="../../d6/d57/classnana_1_1form.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for nana::form:</div>
 <div class="dyncontent">
@@ -133,6 +130,7 @@ Inheritance diagram for nana::form:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a78e764a33206db913161634b0bd65198"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d57/classnana_1_1form.html#a78e764a33206db913161634b0bd65198">appear</a> = ::<a class="el" href="../../d1/d1c/structnana_1_1appear.html">nana::appear</a></td></tr>
+<tr class="memdesc:a78e764a33206db913161634b0bd65198"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper template class for creating the appearance of the form.  <a href="#a78e764a33206db913161634b0bd65198">More...</a><br/></td></tr>
 <tr class="separator:a78e764a33206db913161634b0bd65198"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classnana_1_1widget__object"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classnana_1_1widget__object')"><img src="../../closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="../../d3/d95/classnana_1_1widget__object.html">nana::widget_object&lt; category::root_tag, drawerbase::form::trigger, detail::events_root_extension &gt;</a></td></tr>
 <tr class="memitem:a7b5956bd79457df91b95d87c5abd137e inherit pub_types_classnana_1_1widget__object"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d95/classnana_1_1widget__object.html#a7b5956bd79457df91b95d87c5abd137e">scheme_type</a> = ::<a class="el" href="../../df/d63/structnana_1_1widget__geometrics.html">nana::widget_geometrics</a></td></tr>
@@ -146,18 +144,20 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a35c51aaff4c210c637e24dfc3ff2f63c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d57/classnana_1_1form.html#a35c51aaff4c210c637e24dfc3ff2f63c">form</a> (const <a class="el" href="../../dd/d2d/structnana_1_1rectangle.html">rectangle</a> &amp;=<a class="el" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#aeda48472927c65f3f790297e5fb2df84">API::make_center</a>(300, 200), const <a class="el" href="../../d5/d27/structnana_1_1appearance.html">appearance</a> &amp;={})</td></tr>
-<tr class="memdesc:a35c51aaff4c210c637e24dfc3ff2f63c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a window at the point and size specified by rect, and with the specified appearance. Creates a form owned by the desktop.  <a href="#a35c51aaff4c210c637e24dfc3ff2f63c">More...</a><br/></td></tr>
+<tr class="memdesc:a35c51aaff4c210c637e24dfc3ff2f63c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a window form owned by the desktop, at the point and size specified by rect, and with the specified appearance.  <a href="#a35c51aaff4c210c637e24dfc3ff2f63c">More...</a><br/></td></tr>
 <tr class="separator:a35c51aaff4c210c637e24dfc3ff2f63c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79211d4bdd1a74c965f9fda799f197aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d57/classnana_1_1form.html#a79211d4bdd1a74c965f9fda799f197aa">form</a> (<a class="el" href="../../d2/d76/namespacenana.html#ad171e3c7039adf4adf3bcbbe16881fe4">window</a> <a class="el" href="../../d2/d76/namespacenana.html#aa4898897807b6c9c7e8f25f1ed09392fa72122ce96bfec66e2396d2e25225d70a">owner</a>, const ::<a class="el" href="../../da/df8/structnana_1_1size.html">nana::size</a> &amp;={300, 200}, const <a class="el" href="../../d5/d27/structnana_1_1appearance.html">appearance</a> &amp;={})</td></tr>
+<tr class="memdesc:a79211d4bdd1a74c965f9fda799f197aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a window always floating above its owner at the point and size specified by rect, with the specified appearance. This window is always floating above its owner.  <a href="#a79211d4bdd1a74c965f9fda799f197aa">More...</a><br/></td></tr>
+<tr class="separator:a79211d4bdd1a74c965f9fda799f197aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a541c39cbd2b84fc58699ea237a650983"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d57/classnana_1_1form.html#a541c39cbd2b84fc58699ea237a650983">form</a> (<a class="el" href="../../d2/d76/namespacenana.html#ad171e3c7039adf4adf3bcbbe16881fe4">window</a> <a class="el" href="../../d2/d76/namespacenana.html#aa4898897807b6c9c7e8f25f1ed09392fa72122ce96bfec66e2396d2e25225d70a">owner</a>, const <a class="el" href="../../dd/d2d/structnana_1_1rectangle.html">rectangle</a> &amp;, const <a class="el" href="../../d5/d27/structnana_1_1appearance.html">appearance</a> &amp;={})</td></tr>
+<tr class="separator:a541c39cbd2b84fc58699ea237a650983"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa2f06528cb7cf5e7c2fc3d9da088b9c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d57/classnana_1_1form.html#aaa2f06528cb7cf5e7c2fc3d9da088b9c">form</a> (const <a class="el" href="../../d6/d57/classnana_1_1form.html">form</a> &amp;, const ::<a class="el" href="../../da/df8/structnana_1_1size.html">nana::size</a> &amp;={300, 200}, const <a class="el" href="../../d5/d27/structnana_1_1appearance.html">appearance</a> &amp;={})</td></tr>
 <tr class="separator:aaa2f06528cb7cf5e7c2fc3d9da088b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6721cbf5be57c680e1bd834586dd541"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d57/classnana_1_1form.html#ad6721cbf5be57c680e1bd834586dd541">form</a> (<a class="el" href="../../d2/d76/namespacenana.html#ad171e3c7039adf4adf3bcbbe16881fe4">window</a>, const ::<a class="el" href="../../da/df8/structnana_1_1size.html">nana::size</a> &amp;={300, 200}, const <a class="el" href="../../d5/d27/structnana_1_1appearance.html">appearance</a> &amp;={})</td></tr>
-<tr class="separator:ad6721cbf5be57c680e1bd834586dd541"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1520bc5675d1efd8f7e6064c8b6b9094"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d57/classnana_1_1form.html#a1520bc5675d1efd8f7e6064c8b6b9094">form</a> (<a class="el" href="../../d2/d76/namespacenana.html#ad171e3c7039adf4adf3bcbbe16881fe4">window</a>, const <a class="el" href="../../dd/d2d/structnana_1_1rectangle.html">rectangle</a> &amp;, const <a class="el" href="../../d5/d27/structnana_1_1appearance.html">appearance</a> &amp;={})</td></tr>
-<tr class="memdesc:a1520bc5675d1efd8f7e6064c8b6b9094"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a window at the point and size specified by rect, with the specified appearance. This window is always floating above its owner.  <a href="#a1520bc5675d1efd8f7e6064c8b6b9094">More...</a><br/></td></tr>
-<tr class="separator:a1520bc5675d1efd8f7e6064c8b6b9094"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1abbd651c51561412ba684c3cbc744c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d57/classnana_1_1form.html#a1abbd651c51561412ba684c3cbc744c1">modality</a> () const </td></tr>
+<tr class="memdesc:a1abbd651c51561412ba684c3cbc744c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blocks the execution and other windows' messages until this window is closed.  <a href="#a1abbd651c51561412ba684c3cbc744c1">More...</a><br/></td></tr>
 <tr class="separator:a1abbd651c51561412ba684c3cbc744c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab6a45d7c1898b639c26942e4fb0012c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d57/classnana_1_1form.html#aab6a45d7c1898b639c26942e4fb0012c">wait_for_this</a> ()</td></tr>
+<tr class="memdesc:aab6a45d7c1898b639c26942e4fb0012c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blocks the execution until this window is closed.  <a href="#aab6a45d7c1898b639c26942e4fb0012c">More...</a><br/></td></tr>
 <tr class="separator:aab6a45d7c1898b639c26942e4fb0012c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ee6d35b3c46cdd6e5e6984853a417d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d57/classnana_1_1form.html#a3ee6d35b3c46cdd6e5e6984853a417d3">keyboard_accelerator</a> (const <a class="el" href="../../d2/d6e/structnana_1_1accel__key.html">accel_key</a> &amp;, const <a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt; void()&gt; &amp;fn)</td></tr>
 <tr class="separator:a3ee6d35b3c46cdd6e5e6984853a417d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,8 +166,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad4945ce4edc72da944b482a57f7fa2a0 inherit pub_methods_classnana_1_1drawerbase_1_1form_1_1form__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6f977676a9e82bb377481fe4921dcf2 inherit pub_methods_classnana_1_1drawerbase_1_1form_1_1form__base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/de3/classnana_1_1place.html">place</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d3e/classnana_1_1drawerbase_1_1form_1_1form__base.html#ad6f977676a9e82bb377481fe4921dcf2">get_place</a> ()</td></tr>
 <tr class="separator:ad6f977676a9e82bb377481fe4921dcf2 inherit pub_methods_classnana_1_1drawerbase_1_1form_1_1form__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ad991653549a80df60795b94c152329 inherit pub_methods_classnana_1_1drawerbase_1_1form_1_1form__base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d3e/classnana_1_1drawerbase_1_1form_1_1form__base.html#a9ad991653549a80df60795b94c152329">div</a> (const char *div_text)</td></tr>
-<tr class="separator:a9ad991653549a80df60795b94c152329 inherit pub_methods_classnana_1_1drawerbase_1_1form_1_1form__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bde95fb6adbd4f3b01dc4385a7ceed8 inherit pub_methods_classnana_1_1drawerbase_1_1form_1_1form__base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d3e/classnana_1_1drawerbase_1_1form_1_1form__base.html#a0bde95fb6adbd4f3b01dc4385a7ceed8">div</a> (<a class="elRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> div_text)</td></tr>
+<tr class="separator:a0bde95fb6adbd4f3b01dc4385a7ceed8 inherit pub_methods_classnana_1_1drawerbase_1_1form_1_1form__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a888247f7f6a2e29402df96a5f4182664 inherit pub_methods_classnana_1_1drawerbase_1_1form_1_1form__base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/de3/classnana_1_1place.html#afec11b79f04b2ffdeb0fce1ce5497f63">place::field_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d3e/classnana_1_1drawerbase_1_1form_1_1form__base.html#a888247f7f6a2e29402df96a5f4182664">operator[]</a> (const char *field_name)</td></tr>
 <tr class="separator:a888247f7f6a2e29402df96a5f4182664 inherit pub_methods_classnana_1_1drawerbase_1_1form_1_1form__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafb6ad604ec852e69f128b2ba47bd8ae inherit pub_methods_classnana_1_1drawerbase_1_1form_1_1form__base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d3e/classnana_1_1drawerbase_1_1form_1_1form__base.html#aafb6ad604ec852e69f128b2ba47bd8ae">collocate</a> () noexcept</td></tr>
@@ -367,9 +367,12 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ad598105f066aaa7bc81c1495ddd0ffeb inherit pro_attribs_classnana_1_1detail_1_1widget__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Pop-up window. Is different from other window widgets: its default constructor creates the window. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="../../d5/d27/structnana_1_1appearance.html" title="Window appearance structure defined to specify the appearance of a form. ">nana::appearance</a> </dd></dl>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../d5/d39/a_group_impl_8cpp-example.html#_a28">a_group_impl.cpp</a>, <a class="el" href="../../d0/deb/animate-bmp_8cpp-example.html#_a4">animate-bmp.cpp</a>, <a class="el" href="../../d1/de0/audio_player_8cpp-example.html#_a1">audio_player.cpp</a>, <a class="el" href="../../d5/d9f/background-effects_8cpp-example.html#_a0">background-effects.cpp</a>, <a class="el" href="../../d0/d14/calculator_8cpp-example.html#_a16">calculator.cpp</a>, <a class="el" href="../../d3/d12/categ_8cpp-example.html#_a8">categ.cpp</a>, <a class="el" href="../../d1/dc5/clicked_8cpp-example.html#_a2">clicked.cpp</a>, <a class="el" href="../../d3/da2/decore_8cpp-example.html#_a0">decore.cpp</a>, <a class="el" href="../../d2/dd0/drag-button_8cpp-example.html#_a0">drag-button.cpp</a>, <a class="el" href="../../df/d21/draw_8cpp-example.html#_a0">draw.cpp</a>, <a class="el" href="../../dd/d55/example_8button_8cpp-example.html#_a0">example.button.cpp</a>, <a class="el" href="../../db/d62/example_combox_8cpp-example.html#_a0">example_combox.cpp</a>, <a class="el" href="../../d9/dda/example_listbox_8cpp-example.html#_a0">example_listbox.cpp</a>, <a class="el" href="../../d1/d90/example_menu_8cpp-example.html#_a5">example_menu.cpp</a>, <a class="el" href="../../d7/d91/file_explorer_8cpp-example.html#_a3">file_explorer.cpp</a>, <a class="el" href="../../df/d98/folder_tree_nana_8cpp-example.html#_a1">folder_tree_nana.cpp</a>, <a class="el" href="../../d5/de8/folder_tree_std_8cpp-example.html#_a0">folder_tree_std.cpp</a>, <a class="el" href="../../dd/d47/framework_design_1_8cpp-example.html#_a2">framework_design_1.cpp</a>, <a class="el" href="../../d2/d0d/framework_design_2_8cpp-example.html#_a2">framework_design_2.cpp</a>, <a class="el" href="../../d0/d2c/framework_design_3_8cpp-example.html#_a2">framework_design_3.cpp</a>, <a class="el" href="../../d7/dec/freeme_8cpp-example.html#_a7">freeme.cpp</a>, <a class="el" href="../../d2/dd0/group_8cpp-example.html#_a0">group.cpp</a>, <a class="el" href="../../d3/d4e/helloword_8cpp-example.html#_a0">helloword.cpp</a>, <a class="el" href="../../db/d9a/helloword_quit_8cpp-example.html#_a0">helloword_quit.cpp</a>, <a class="el" href="../../dd/d54/helloworld_demo_8cpp-example.html#_a0">helloworld_demo.cpp</a>, <a class="el" href="../../d4/d1b/inputbox_8cpp-example.html#_a0">inputbox.cpp</a>, <a class="el" href="../../de/d16/label_listener_8cpp-example.html#_a3">label_listener.cpp</a>, <a class="el" href="../../de/d6d/lambda_event_8cpp11_8cpp-example.html#_a0">lambda_event.cpp11.cpp</a>, <a class="el" href="../../d7/d62/listbox_inline_widget_8cpp-example.html#_a15">listbox_inline_widget.cpp</a>, <a class="el" href="../../d8/de2/listbox__resolver_8cpp-example.html#_a4">listbox_Resolver.cpp</a>, <a class="el" href="../../de/df4/loader_2_8cpp-example.html#_a2">loader_2.cpp</a>, <a class="el" href="../../d5/de5/mbox_8cpp-example.html#_a8">mbox.cpp</a>, <a class="el" href="../../d5/d2a/menu_debug_8cpp-example.html#_a0">menu_debug.cpp</a>, <a class="el" href="../../d8/df2/menu_popuper_8cpp-example.html#_a5">menu_popuper.cpp</a>, <a class="el" href="../../d6/da9/modal_form_8cpp-example.html#_a1">modal_form.cpp</a>, <a class="el" href="../../de/ddc/_monti_hall_8cpp-example.html#_a0">MontiHall.cpp</a>, <a class="el" href="../../d1/d53/notepad_8cpp-example.html#_a0">notepad.cpp</a>, <a class="el" href="../../d8/d0e/place_login_8cpp-example.html#_a0">place_login.cpp</a>, <a class="el" href="../../d3/d1a/png_8cpp-example.html#_a0">png.cpp</a>, <a class="el" href="../../da/dfd/screen_8cpp-example.html#_a1">screen.cpp</a>, <a class="el" href="../../d1/d81/stretch_image_8cpp-example.html#_a10">stretch_image.cpp</a>, <a class="el" href="../../d7/ddb/threading_8cpp-example.html#_a2">threading.cpp</a>, <a class="el" href="../../d3/de9/widget_show_8cpp-example.html#_a29">widget_show.cpp</a>, <a class="el" href="../../df/d14/widget_show2_8cpp-example.html#_a35">widget_show2.cpp</a>, <a class="el" href="../../db/dbb/window-dragger_8cpp-example.html#_a0">window-dragger.cpp</a>, and <a class="el" href="../../df/d13/windows-subclassing_8cpp-example.html#_a8">windows-subclassing.cpp</a>.</dd>
+<div class="textblock"><p>The form widget represents a popup window.</p>
+<p>Overall it is a root widget (</p>
+<dl class="section see"><dt>See Also</dt><dd>: Overview of <a class="el" href="../../df/d6f/namespacenana_1_1widgets.html">widgets</a>) which attaches the OS/Windowing <a class="el" href="../../d4/dfd/namespacenana_1_1system.html">system</a>'s native <a class="el" href="../../d2/d76/namespacenana.html#ad171e3c7039adf4adf3bcbbe16881fe4" title="The window handle type representing nana window objects. ">window</a>. It is different from <a class="el" href="../../d2/d76/namespacenana.html#a22bdac88b71610cc4c8655a46dec8ddca795f3202b17cb6bc3d4b771d8c6c9eaf">other</a> <a class="el" href="../../d2/d76/namespacenana.html#ad171e3c7039adf4adf3bcbbe16881fe4" title="The window handle type representing nana window objects. ">window</a> <a class="el" href="../../df/d6f/namespacenana_1_1widgets.html">widgets</a> in that its default constructor creates the <a class="el" href="../../d2/d76/namespacenana.html#ad171e3c7039adf4adf3bcbbe16881fe4" title="The window handle type representing nana window objects. ">window</a>. </dd>
+<dd>
+<a class="el" href="../../d5/d27/structnana_1_1appearance.html" title="Window appearance structure defined to specify the appearance of a form. ">nana::appearance</a> </dd></dl>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../d5/d39/a_group_impl_8cpp-example.html#_a28">a_group_impl.cpp</a>, <a class="el" href="../../d0/deb/animate-bmp_8cpp-example.html#_a4">animate-bmp.cpp</a>, <a class="el" href="../../d1/de0/audio_player_8cpp-example.html#_a1">audio_player.cpp</a>, <a class="el" href="../../d5/d9f/background-effects_8cpp-example.html#_a0">background-effects.cpp</a>, <a class="el" href="../../d0/d14/calculator_8cpp-example.html#_a16">calculator.cpp</a>, <a class="el" href="../../d3/d12/categ_8cpp-example.html#_a8">categ.cpp</a>, <a class="el" href="../../d1/dc5/clicked_8cpp-example.html#_a2">clicked.cpp</a>, <a class="el" href="../../d3/da2/decore_8cpp-example.html#_a0">decore.cpp</a>, <a class="el" href="../../d2/dd0/drag-button_8cpp-example.html#_a0">drag-button.cpp</a>, <a class="el" href="../../df/d21/draw_8cpp-example.html#_a0">draw.cpp</a>, <a class="el" href="../../dd/d55/example_8button_8cpp-example.html#_a0">example.button.cpp</a>, <a class="el" href="../../db/d62/example_combox_8cpp-example.html#_a0">example_combox.cpp</a>, <a class="el" href="../../d9/dda/example_listbox_8cpp-example.html#_a0">example_listbox.cpp</a>, <a class="el" href="../../d1/d90/example_menu_8cpp-example.html#_a5">example_menu.cpp</a>, <a class="el" href="../../d7/d91/file_explorer_8cpp-example.html#_a3">file_explorer.cpp</a>, <a class="el" href="../../df/d98/folder_tree_nana_8cpp-example.html#_a1">folder_tree_nana.cpp</a>, <a class="el" href="../../d5/de8/folder_tree_std_8cpp-example.html#_a0">folder_tree_std.cpp</a>, <a class="el" href="../../dd/d47/framework_design_1_8cpp-example.html#_a2">framework_design_1.cpp</a>, <a class="el" href="../../d2/d0d/framework_design_2_8cpp-example.html#_a2">framework_design_2.cpp</a>, <a class="el" href="../../d0/d2c/framework_design_3_8cpp-example.html#_a2">framework_design_3.cpp</a>, <a class="el" href="../../d2/dd0/group_8cpp-example.html#_a0">group.cpp</a>, <a class="el" href="../../d3/d4e/helloword_8cpp-example.html#_a0">helloword.cpp</a>, <a class="el" href="../../db/d9a/helloword_quit_8cpp-example.html#_a0">helloword_quit.cpp</a>, <a class="el" href="../../dd/d54/helloworld_demo_8cpp-example.html#_a0">helloworld_demo.cpp</a>, <a class="el" href="../../d4/d1b/inputbox_8cpp-example.html#_a0">inputbox.cpp</a>, <a class="el" href="../../de/d16/label_listener_8cpp-example.html#_a3">label_listener.cpp</a>, <a class="el" href="../../de/d6d/lambda_event_8cpp11_8cpp-example.html#_a0">lambda_event.cpp11.cpp</a>, <a class="el" href="../../d7/d62/listbox_inline_widget_8cpp-example.html#_a15">listbox_inline_widget.cpp</a>, <a class="el" href="../../d8/de2/listbox__resolver_8cpp-example.html#_a4">listbox_Resolver.cpp</a>, <a class="el" href="../../de/df4/loader_2_8cpp-example.html#_a2">loader_2.cpp</a>, <a class="el" href="../../d5/de5/mbox_8cpp-example.html#_a8">mbox.cpp</a>, <a class="el" href="../../d5/d2a/menu_debug_8cpp-example.html#_a0">menu_debug.cpp</a>, <a class="el" href="../../d8/df2/menu_popuper_8cpp-example.html#_a5">menu_popuper.cpp</a>, <a class="el" href="../../d6/da9/modal_form_8cpp-example.html#_a1">modal_form.cpp</a>, <a class="el" href="../../de/ddc/_monti_hall_8cpp-example.html#_a0">MontiHall.cpp</a>, <a class="el" href="../../d1/d53/notepad_8cpp-example.html#_a0">notepad.cpp</a>, <a class="el" href="../../d8/d0e/place_login_8cpp-example.html#_a0">place_login.cpp</a>, <a class="el" href="../../d3/d1a/png_8cpp-example.html#_a0">png.cpp</a>, <a class="el" href="../../da/dfd/screen_8cpp-example.html#_a1">screen.cpp</a>, <a class="el" href="../../d1/d81/stretch_image_8cpp-example.html#_a10">stretch_image.cpp</a>, <a class="el" href="../../d7/ddb/threading_8cpp-example.html#_a2">threading.cpp</a>, <a class="el" href="../../d3/de9/widget_show_8cpp-example.html#_a29">widget_show.cpp</a>, <a class="el" href="../../df/d14/widget_show2_8cpp-example.html#_a35">widget_show2.cpp</a>, <a class="el" href="../../db/dbb/window-dragger_8cpp-example.html#_a0">window-dragger.cpp</a>, and <a class="el" href="../../df/d13/windows-subclassing_8cpp-example.html#_a8">windows-subclassing.cpp</a>.</dd>
 </dl></div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a78e764a33206db913161634b0bd65198"></a>
 <div class="memitem">
@@ -381,12 +384,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>helper template class for creating the appearance of the form. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a35c51aaff4c210c637e24dfc3ff2f63c"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">nana::form::form </td>
@@ -406,9 +414,96 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Creates a window at the point and size specified by rect, and with the specified appearance. Creates a form owned by the desktop. </p>
+<p>Creates a window form owned by the desktop, at the point and size specified by rect, and with the specified appearance. </p>
+
+</div>
+</div>
+<a class="anchor" id="a79211d4bdd1a74c965f9fda799f197aa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">nana::form::form </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d76/namespacenana.html#ad171e3c7039adf4adf3bcbbe16881fe4">window</a>&#160;</td>
+          <td class="paramname"><em>owner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ::<a class="el" href="../../da/df8/structnana_1_1size.html">nana::size</a> &amp;&#160;</td>
+          <td class="paramname"><em>sz</em> = <code>{&#160;300,&#160;200&#160;}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d5/d27/structnana_1_1appearance.html">appearance</a> &amp;&#160;</td>
+          <td class="paramname"><em>apr</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a window always floating above its owner at the point and size specified by rect, with the specified appearance. This window is always floating above its owner. </p>
+
+</div>
+</div>
+<a class="anchor" id="a541c39cbd2b84fc58699ea237a650983"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">nana::form::form </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d76/namespacenana.html#ad171e3c7039adf4adf3bcbbe16881fe4">window</a>&#160;</td>
+          <td class="paramname"><em>owner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dd/d2d/structnana_1_1rectangle.html">rectangle</a> &amp;&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d5/d27/structnana_1_1appearance.html">appearance</a> &amp;&#160;</td>
+          <td class="paramname"><em>apr</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -441,72 +536,6 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ad6721cbf5be57c680e1bd834586dd541"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">nana::form::form </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d76/namespacenana.html#ad171e3c7039adf4adf3bcbbe16881fe4">window</a>&#160;</td>
-          <td class="paramname"><em>owner</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const ::<a class="el" href="../../da/df8/structnana_1_1size.html">nana::size</a> &amp;&#160;</td>
-          <td class="paramname"><em>sz</em> = <code>{&#160;300,&#160;200&#160;}</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d5/d27/structnana_1_1appearance.html">appearance</a> &amp;&#160;</td>
-          <td class="paramname"><em>apr</em> = <code>{}</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1520bc5675d1efd8f7e6064c8b6b9094"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">nana::form::form </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d76/namespacenana.html#ad171e3c7039adf4adf3bcbbe16881fe4">window</a>&#160;</td>
-          <td class="paramname"><em>owner</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../dd/d2d/structnana_1_1rectangle.html">rectangle</a> &amp;&#160;</td>
-          <td class="paramname"><em>r</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d5/d27/structnana_1_1appearance.html">appearance</a> &amp;&#160;</td>
-          <td class="paramname"><em>apr</em> = <code>{}</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Creates a window at the point and size specified by rect, with the specified appearance. This window is always floating above its owner. </p>
 
 </div>
 </div>
@@ -549,6 +578,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Blocks the execution and other windows' messages until this window is closed. </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="../../d5/d2a/menu_debug_8cpp-example.html#a10">menu_debug.cpp</a>.</dd>
 </dl>
 </div>
@@ -565,6 +596,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Blocks the execution until this window is closed. </p>
 
 </div>
 </div>

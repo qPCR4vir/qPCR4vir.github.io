@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['what_20is_20nana_20c_2b_2b_20library_3f',['What is Nana C++ Library?',['../d5/d9b/md__c_1__prog__ext_lib_nana-docs_source_01-_introduction.html',1,'']]],
   ['w',['w',['../d3/d59/classnana_1_1rectangle__rotator.html#a2b4f940c84bbb5d719e1e373f09112cf',1,'nana::rectangle_rotator']]],
   ['w_5fref',['w_ref',['../d3/d59/classnana_1_1rectangle__rotator.html#a613f2ab78289f8a16338a3372f7969dd',1,'nana::rectangle_rotator']]],
   ['wait',['wait',['http://en.cppreference.com/w/cpp/thread/condition_variable_any/wait.html',1,'std::condition_variable_any::wait()'],['http://en.cppreference.com/w/cpp/thread/condition_variable/wait.html',1,'std::condition_variable::wait()'],['http://en.cppreference.com/w/cpp/thread/shared_future/wait.html',1,'std::shared_future::wait()'],['http://en.cppreference.com/w/cpp/thread/future/wait.html',1,'std::future::wait()'],['../d2/d76/namespacenana.html#a4b97848023a9ea678b4d40459c07eba1a49256b9819abacbb8e6e031a03abe81b',1,'nana::wait()']]],

@@ -4,6 +4,7 @@ var structnana_1_1drawerbase_1_1listbox_1_1es__header_1_1column =
     [ "column", "d6/d67/structnana_1_1drawerbase_1_1listbox_1_1es__header_1_1column.html#aa1a40256a4e8e0417d3c051d3f20621a", null ],
     [ "column", "d6/d67/structnana_1_1drawerbase_1_1listbox_1_1es__header_1_1column.html#a96bcc5cf26f8a88d4923b3524c791ef2", null ],
     [ "fit_content", "d6/d67/structnana_1_1drawerbase_1_1listbox_1_1es__header_1_1column.html#a188161b0b58ca4255fec40024b86645f", null ],
+    [ "fit_width_to_header", "d6/d67/structnana_1_1drawerbase_1_1listbox_1_1es__header_1_1column.html#a4ec70675658a4306866bd765d6644736", null ],
     [ "operator=", "d6/d67/structnana_1_1drawerbase_1_1listbox_1_1es__header_1_1column.html#a804db6f9028c6cf013c3c64ab3070c63", null ],
     [ "position", "d6/d67/structnana_1_1drawerbase_1_1listbox_1_1es__header_1_1column.html#af15792832c08d176047a3994e6db7242", null ],
     [ "text", "d6/d67/structnana_1_1drawerbase_1_1listbox_1_1es__header_1_1column.html#ae8fc6a33e61f55872027526c37690566", null ],

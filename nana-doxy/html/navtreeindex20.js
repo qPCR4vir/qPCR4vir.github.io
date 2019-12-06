@@ -1,6 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"dd/dd1/namespacenana_1_1drawerbase_1_1categorize.html":[8,0,1,7,1],
 "dd/ddc/classnana_1_1drawerbase_1_1float__listbox_1_1item__renderer.html":[8,0,1,7,5,2],
 "dd/ddc/classnana_1_1drawerbase_1_1float__listbox_1_1item__renderer.html#a3998366d5d211224cf8e47f963caf0fe":[8,0,1,7,5,2,1],
 "dd/ddc/classnana_1_1drawerbase_1_1float__listbox_1_1item__renderer.html#a5138b6999923a51222a018fa6a140217":[8,0,1,7,5,2,7],
@@ -58,8 +57,8 @@ var NAVTREEINDEX20 =
 "de/d0a/classnana_1_1drawerbase_1_1tooltip_1_1controller.html#aa61ae39618df37f1c08699ebf6a3d6a6":[8,0,1,7,22,2,2],
 "de/d0a/classnana_1_1drawerbase_1_1tooltip_1_1controller.html#abbbab0858ad596cbed13f5442d8461f2":[8,0,1,7,22,2,4],
 "de/d0a/classnana_1_1drawerbase_1_1tooltip_1_1controller.html#af67d8447eb589f6fcdd64a732d0cabc0":[8,0,1,7,22,2,0],
-"de/d0c/namespacenana_1_1concepts.html":[7,0,1,4],
 "de/d0c/namespacenana_1_1concepts.html":[8,0,1,4],
+"de/d0c/namespacenana_1_1concepts.html":[7,0,1,4],
 "de/d10/classnana_1_1combox.html":[8,0,1,117],
 "de/d10/classnana_1_1combox.html#a0ae51cbd5220f1c86565e3c3780bdcb6":[8,0,1,117,0],
 "de/d10/classnana_1_1combox.html#a0df0d0de35623eac4e7285a2def2b7f9":[8,0,1,117,19],
@@ -157,11 +156,11 @@ var NAVTREEINDEX20 =
 "de/d10/classnana_1_1textbox.html#af4d93f3496442ce18548790332a410e8":[8,0,1,119,40],
 "de/d10/classnana_1_1textbox.html#af616dcc8053bbb016d60f54171e2d176":[8,0,1,119,21],
 "de/d10/classnana_1_1textbox.html#afa64260da67395f2115fe4fd277e2a23":[8,0,1,119,3],
-"de/d16/label_listener_8cpp-example.html":[9,30],
+"de/d16/label_listener_8cpp-example.html":[9,28],
 "de/d1d/namespacenana_1_1drawerbase_1_1textbox.html":[7,0,1,7,20],
 "de/d1d/namespacenana_1_1drawerbase_1_1textbox.html":[8,0,1,7,20],
-"de/d29/namespacenana_1_1drawerbase_1_1toolbar.html":[7,0,1,7,21],
 "de/d29/namespacenana_1_1drawerbase_1_1toolbar.html":[8,0,1,7,21],
+"de/d29/namespacenana_1_1drawerbase_1_1toolbar.html":[7,0,1,7,21],
 "de/d2b/classnana_1_1effects_1_1bground__transparent.html":[8,0,1,8,3],
 "de/d2b/classnana_1_1effects_1_1bground__transparent.html#a5cde11a889ab140f85349f6868bb5628":[8,0,1,8,3,0],
 "de/d2b/md__c_1__prog__ext_lib_nana-docs_source_03-_widgets.html":[3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX20 =
 "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eac3a786c050d585e9a2ce954b63f7fac4":[8,0,1,48,15],
 "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eacb7b3df638f6824dfeaa2702d872e926":[8,0,1,48,3],
 "de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eadb1c9e17a0630b810cd6944325d11588":[8,0,1,48,6],
-"de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eadc25f8b94d6fb3a82c137bbb17607fcc":[8,0,1,48,12]
+"de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eadc25f8b94d6fb3a82c137bbb17607fcc":[8,0,1,48,12],
+"de/d48/structnana_1_1keyboard.html#ac9cb2d46c7e5fc8d4d2aedef2e869f6eadfb8c82a9c1baf9436e75476c7bce62e":[8,0,1,48,23]
 };

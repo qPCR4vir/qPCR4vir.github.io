@@ -225,12 +225,11 @@ var NAVTREEINDEX11 =
 "d8/db3/structnana_1_1arg__tabbar__removed.html":[8,0,1,133],
 "d8/db3/structnana_1_1arg__tabbar__removed.html#a3410de3fb733293bdcd61f7648914a0a":[8,0,1,133,0],
 "d8/db3/structnana_1_1arg__tabbar__removed.html#a8204cb9d04d0447fb4c65974d6ca8c2d":[8,0,1,133,1],
-"d8/dbb/namespacenana_1_1drawerbase_1_1scroll.html":[8,0,1,7,15],
 "d8/dbb/namespacenana_1_1drawerbase_1_1scroll.html":[7,0,1,7,15],
+"d8/dbb/namespacenana_1_1drawerbase_1_1scroll.html":[8,0,1,7,15],
 "d8/dbd/structnana_1_1system_1_1timepiece_1_1impl__t.html":[8,0,1,19,1,0],
 "d8/dbe/structnana_1_1meta_1_1fixed__type__set_1_1count.html":[8,0,1,12,0,0],
 "d8/dbe/structnana_1_1meta_1_1fixed__type__set_1_1count.html#a2d2ef0d83c9868fcd3b786aabed19863af10eb001a8f0e45e8dd8f7b8baa1e3ed":[8,0,1,12,0,0,0],
-"d8/dc7/demo_8cpp11_8cpp-example.html":[9,9],
 "d8/dd5/structnana_1_1drawerbase_1_1menubar_1_1item__type.html":[8,0,1,7,11,0],
 "d8/dd5/structnana_1_1drawerbase_1_1menubar_1_1item__type.html#a0c7e161587981d917330203f76d259ad":[8,0,1,7,11,0,5],
 "d8/dd5/structnana_1_1drawerbase_1_1menubar_1_1item__type.html#a1d5384991fe23ba8e044fcde72c08886":[8,0,1,7,11,0,0],
@@ -239,7 +238,7 @@ var NAVTREEINDEX11 =
 "d8/dd5/structnana_1_1drawerbase_1_1menubar_1_1item__type.html#aa23aec0d89dc044e52966f499a4e50d1":[8,0,1,7,11,0,6],
 "d8/dd5/structnana_1_1drawerbase_1_1menubar_1_1item__type.html#ad1e2df384f6c0d152973b07f40531a3e":[8,0,1,7,11,0,2],
 "d8/dd5/structnana_1_1drawerbase_1_1menubar_1_1item__type.html#adfe32a1b03a2f05bbd4557057c010d5f":[8,0,1,7,11,0,4],
-"d8/de2/listbox__resolver_8cpp-example.html":[9,33],
+"d8/de2/listbox__resolver_8cpp-example.html":[9,31],
 "d8/de5/classnana_1_1i18n__eval_1_1arg__eval.html":[8,0,1,83,0],
 "d8/de5/classnana_1_1i18n__eval_1_1arg__eval.html#a0c20d92409a40ec0119e25147ded46e0":[8,0,1,83,0,1],
 "d8/de5/classnana_1_1i18n__eval_1_1arg__eval.html#a72175890fa3cc8b7aef285eb89b9659a":[8,0,1,83,0,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX11 =
 "d8/deb/structnana_1_1arg__destroy.html#a787f357d831fd9da3cccff7cdbad93a3":[8,0,1,73,0],
 "d8/deb/structnana_1_1drawerbase_1_1listbox_1_1item__data.html":[8,0,1,7,9,2],
 "d8/deb/structnana_1_1drawerbase_1_1listbox_1_1item__data.html#a02964fc0aefdf988d87f297ab3a01c44":[8,0,1,7,9,2,11],
-"d8/deb/structnana_1_1drawerbase_1_1listbox_1_1item__data.html#a11202ac55d4f38ac7d59bfae41293bed":[8,0,1,7,9,2,10]
+"d8/deb/structnana_1_1drawerbase_1_1listbox_1_1item__data.html#a11202ac55d4f38ac7d59bfae41293bed":[8,0,1,7,9,2,10],
+"d8/deb/structnana_1_1drawerbase_1_1listbox_1_1item__data.html#a210f1bfd7bef5a2e0c2cbe060b16a689":[8,0,1,7,9,2,1]
 };

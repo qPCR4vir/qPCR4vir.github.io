@@ -99,7 +99,7 @@ var NAVTREEINDEX0 =
 "d0/d29/structnana_1_1detail_1_1bedrock_1_1pi__data.html#a767accc6e42b6c977fef9749ffb8bf1f":[8,0,1,5,25,1,5],
 "d0/d29/structnana_1_1detail_1_1bedrock_1_1pi__data.html#a8c1bb7d27270c3366de80d51bc2b16d3":[8,0,1,5,25,1,3],
 "d0/d29/structnana_1_1detail_1_1bedrock_1_1pi__data.html#aebc7ce620c9f6321bd45602366279366":[8,0,1,5,25,1,2],
-"d0/d2c/framework_design_3_8cpp-example.html":[9,23],
+"d0/d2c/framework_design_3_8cpp-example.html":[9,22],
 "d0/d2c/structnana_1_1arg__unload.html":[8,0,1,72],
 "d0/d2c/structnana_1_1arg__unload.html#a07f966d960b5ecb4779b7f70e828c928":[8,0,1,72,1],
 "d0/d2c/structnana_1_1arg__unload.html#ab5228dd3e0e98380b6f869c2419ce063":[8,0,1,72,0],

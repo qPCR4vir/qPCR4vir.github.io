@@ -1,6 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a6f818724257511638effd93ae5febd03":[8,0,1,5,60,4],
 "d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#aded3102e17326b47cf708767db95b97c":[8,0,1,5,60,2],
 "d9/da3/classnana_1_1drawerbase_1_1categorize_1_1tree__wrapper.html":[8,0,1,7,1,4],
 "d9/da3/classnana_1_1drawerbase_1_1categorize_1_1tree__wrapper.html#a22c855454b118c679dd2dd6ea62e2031":[8,0,1,7,1,4,13],
@@ -139,7 +138,7 @@ var NAVTREEINDEX13 =
 "d9/dd8/classnana_1_1widget.html#afe39388e5414910a9daf7d05527c7da5":[8,0,1,78,11],
 "d9/dd8/structnana_1_1detail_1_1type__escape.html":[8,0,1,5,50],
 "d9/dd8/structnana_1_1detail_1_1type__escape.html#ab15c67f289b7459519d241d9e42f9624":[8,0,1,5,50,0],
-"d9/dda/example_listbox_8cpp-example.html":[9,14],
+"d9/dda/example_listbox_8cpp-example.html":[9,13],
 "d9/de1/classnana_1_1paint_1_1image.html":[8,0,1,13,6],
 "d9/de1/classnana_1_1paint_1_1image.html#a0f268203f20dae8b949a7671677f1d0f":[8,0,1,13,6,6],
 "d9/de1/classnana_1_1paint_1_1image.html#a138439c24dafeda1c92e6afd2a2d6324":[8,0,1,13,6,13],
@@ -215,8 +214,8 @@ var NAVTREEINDEX13 =
 "d9/df6/structnana_1_1drawerbase_1_1menubar_1_1scheme.html#a6596697f3070c1a61ca2a0c10d8473e4":[8,0,1,7,11,2,2],
 "d9/df6/structnana_1_1drawerbase_1_1menubar_1_1scheme.html#acd73892698cc40f77321a616d1b0d46e":[8,0,1,7,11,2,0],
 "d9/df6/structnana_1_1drawerbase_1_1menubar_1_1scheme.html#ae3c0507b3e0cf6b6a510e266fc2d35d5":[8,0,1,7,11,2,1],
-"d9/df9/namespacenana_1_1spec.html":[8,0,1,18],
 "d9/df9/namespacenana_1_1spec.html":[7,0,1,18],
+"d9/df9/namespacenana_1_1spec.html":[8,0,1,18],
 "d9/df9/namespacestd_1_1filesystem.html":[8,0,2,0],
 "d9/df9/namespacestd_1_1filesystem.html":[7,0,2,0],
 "d9/dfe/structnana_1_1drawerbase_1_1treebox_1_1trigger_1_1implementation_1_1track__node__tag.html":[8,0,1,7,23,10,0,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX13 =
 "da/d05/classnana_1_1date.html#acde9192a7bc6d202de99f2deacf27002":[8,0,1,35,4],
 "da/d05/classnana_1_1date.html#ae9cfc1b599079c30c49b57234442e60c":[8,0,1,35,16],
 "da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html":[8,0,1,22,0,3],
-"da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#a2edf0f3f02cc22866921239c7cfe3075":[8,0,1,22,0,3,6]
+"da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#a2edf0f3f02cc22866921239c7cfe3075":[8,0,1,22,0,3,6],
+"da/d06/classnana_1_1widgets_1_1detail_1_1compset__placer.html#a33f5f7d37b62df7dda7dda4f8a1dbdc6":[8,0,1,22,0,3,3]
 };

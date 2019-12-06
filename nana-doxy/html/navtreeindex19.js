@@ -1,6 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"dd/d1e/classnana_1_1color.html#a5eeb97c6fe6c199350c39f1ac0fcaf0d":[8,0,1,28,13],
 "dd/d1e/classnana_1_1color.html#a79a4ca562e6a30f185e0f52ee63e49f5":[8,0,1,28,11],
 "dd/d1e/classnana_1_1color.html#a9c50b9e66aa95ca655f1dafe64812120":[8,0,1,28,8],
 "dd/d1e/classnana_1_1color.html#a9dede8ae72956128769741aeceafe7a4":[8,0,1,28,21],
@@ -76,7 +75,7 @@ var NAVTREEINDEX19 =
 "dd/d47/classnana_1_1paint_1_1image_1_1image__impl__interface.html#aafcf328c67ccce4b8e7475cad31ee1d9":[8,0,1,13,6,0,4],
 "dd/d47/classnana_1_1paint_1_1image_1_1image__impl__interface.html#af7f7ee5ba7861a3d088d5c368feec0cf":[8,0,1,13,6,0,0],
 "dd/d47/classnana_1_1paint_1_1image_1_1image__impl__interface.html#af8863fb5eff133423517dcf4042479a7":[8,0,1,13,6,0,8],
-"dd/d47/framework_design_1_8cpp-example.html":[9,21],
+"dd/d47/framework_design_1_8cpp-example.html":[9,20],
 "dd/d53/classnana_1_1detail_1_1window__register.html":[8,0,1,5,41],
 "dd/d53/classnana_1_1detail_1_1window__register.html#a1682134dc864d1427052b885b40bdc26":[8,0,1,5,41,3],
 "dd/d53/classnana_1_1detail_1_1window__register.html#a922459ded79877cb8e07df9646d88b3a":[8,0,1,5,41,4],
@@ -87,8 +86,8 @@ var NAVTREEINDEX19 =
 "dd/d53/classnana_1_1detail_1_1window__register.html#ad7d8367f83dfbbf6992d831e4c6ba7d9":[8,0,1,5,41,1],
 "dd/d53/classnana_1_1detail_1_1window__register.html#aecf2ca656550e5c8ae112f36501868bf":[8,0,1,5,41,8],
 "dd/d53/classnana_1_1detail_1_1window__register.html#afaf298f21c8ca6ea6e93f35b131c986d":[8,0,1,5,41,6],
-"dd/d54/helloworld_demo_8cpp-example.html":[9,28],
-"dd/d55/example_8button_8cpp-example.html":[9,12],
+"dd/d54/helloworld_demo_8cpp-example.html":[9,26],
+"dd/d55/example_8button_8cpp-example.html":[9,11],
 "dd/d57/classnana_1_1animation.html":[8,0,1,45],
 "dd/d57/classnana_1_1animation.html#a2b93b76a106dff27b959650d571c6fde":[8,0,1,45,10],
 "dd/d57/classnana_1_1animation.html#a34dbecbdd99da8dc81173c0cc8758b7d":[8,0,1,45,5],
@@ -247,7 +246,8 @@ var NAVTREEINDEX19 =
 "dd/dcc/structnana_1_1animation_1_1impl_1_1state__t.html#a9186b7180d5228f42da1bcb813144321":[8,0,1,45,0,0,0],
 "dd/dcd/classnana_1_1place__parts_1_1splitter.html":[8,0,1,16,3],
 "dd/dcd/classnana_1_1place__parts_1_1splitter.html#aaad796b1d2d9b4c7d5aacf60cffe9738":[8,0,1,16,3,0],
-"dd/dcf/namespacenana_1_1anonymous__namespace_02platform__abstraction_8cpp_03.html":[8,0,1,0],
 "dd/dcf/namespacenana_1_1anonymous__namespace_02platform__abstraction_8cpp_03.html":[7,0,1,0],
-"dd/dd1/namespacenana_1_1drawerbase_1_1categorize.html":[7,0,1,7,1]
+"dd/dcf/namespacenana_1_1anonymous__namespace_02platform__abstraction_8cpp_03.html":[8,0,1,0],
+"dd/dd1/namespacenana_1_1drawerbase_1_1categorize.html":[7,0,1,7,1],
+"dd/dd1/namespacenana_1_1drawerbase_1_1categorize.html":[8,0,1,7,1]
 };

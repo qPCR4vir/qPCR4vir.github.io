@@ -157,7 +157,7 @@ Hello Nana</h2>
 <div class="line">9     <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">nana::exec</a>(); </div>
 <div class="line">  } </div>
 </div><!-- fragment --><p>Lines 1 and 2 include the definitions of class <code>form</code> and class <code>label</code> in namespace <code>nana</code>. Every GUI application written with Nana C++ Library must include the header file <code>nana/gui/wvl.hpp</code>.</p>
-<p>Line 5 defines a <code><a class="el" href="../../d6/d57/classnana_1_1form.html" title="Pop-up window. Is different from other window widgets: its default constructor creates the window...">nana::form</a> object</code>. It is a window used for placing a label widget in this example.</p>
+<p>Line 5 defines a <code><a class="el" href="../../d6/d57/classnana_1_1form.html">nana::form</a> object</code>. It is a window used for placing a label widget in this example.</p>
 <p>Line 6 defines a <code><a class="el" href="../../dd/d8c/classnana_1_1label.html" title="Define a label widget (can dispaly a formated text string and images). Provides the interfaces to be ...">nana::label</a></code> object to display a text string. The label object is created in the form. A widget is a visual element in the user interface.</p>
 <p>Line 7 sets the caption of the label object. Every widget has a "caption" to display a title or similar function, like a text in a label.</p>
 <p>Line 8 makes the form visible.</p>
@@ -176,22 +176,16 @@ Responding an Event</h2>
 <div class="line"></div>
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line"> {</div>
-<div class="line">     <span class="keyword">using namespace </span>nana;</div>
-<div class="line"></div>
-<div class="line">     form fm;</div>
+<div class="line">     <a class="code" href="../../d6/d57/classnana_1_1form.html">nana::form</a> fm;</div>
 <div class="line">     fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#a064762b8a9d8cfdaf9e9d1fc990c2b24">caption</a>(<span class="stringliteral">&quot;Hello World&quot;</span>);</div>
-<div class="line">     <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> btn(fm, <a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>(20, 20, 150, 30));</div>
+<div class="line">     <a class="code" href="../../d7/dc0/classnana_1_1button.html">nana::button</a> btn(fm, <a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>(20, 20, 150, 30));</div>
 <div class="line">     btn.caption(<span class="stringliteral">&quot;Quit&quot;</span>);</div>
-<div class="line">     btn.events().click(<a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#a725672acf835c7e427465770688e1945">API::exit_all</a>);</div>
-<div class="line">     fm.show();</div>
-<div class="line">         <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(</div>
+<div class="line">     btn.events().click(API::exit_all);</div>
+<div class="line">     fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>();</div>
+<div class="line">     <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">nana::exec</a>(</div>
 <div class="line"></div>
 <div class="line">#ifdef NANA_AUTOMATIC_GUI_TESTING</div>
-<div class="line"></div>
-<div class="line">                 2, 1, [&amp;btn]()</div>
-<div class="line">         {</div>
-<div class="line">                 <a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>(btn);</div>
-<div class="line">         }</div>
+<div class="line">     2, 1, [&amp;btn]() { <a class="code" href="../../d2/d76/namespacenana.html#aec14d9a922f2b2a5c52680e6f4c9c2d3aa8affc088cbca89fa20dbd98c91362e4">click</a>(btn); }</div>
 <div class="line"><span class="preprocessor">#endif</span></div>
 <div class="line"><span class="preprocessor"></span></div>
 <div class="line">         );</div>
@@ -424,10 +418,10 @@ Function Objects</h1>
 <div class="line">    form fm; </div>
 <div class="line">    click_stat cs; </div>
 <div class="line">    fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(foo); </div>
-<div class="line">    fm.events().click(cs, &amp;click_stat::respond); </div>
-<div class="line">    fm.events().click(foo_with_eventinfo); </div>
-<div class="line">    fm.events().click(cs, &amp;click_stat::respond_ei); </div>
-<div class="line">    fm.show(); </div>
+<div class="line">    fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(cs, &amp;click_stat::respond); </div>
+<div class="line">    fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(foo_with_eventinfo); </div>
+<div class="line">    fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(cs, &amp;click_stat::respond_ei); </div>
+<div class="line">    fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>(); </div>
 <div class="line">    <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(); </div>
 <div class="line">} </div>
 </div><!-- fragment --> <div class="image">
@@ -485,28 +479,28 @@ Figure 2.1 Various methods to make events to respond click.</div></div>
 <div class="line">    </div>
 <div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(foo); </div>
 <div class="line">        fun_t       f=foo; </div>
-<div class="line">        fm.events().click(f); </div>
-<div class="line">        fm.events().click(bar); </div>
+<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(f); </div>
+<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(bar); </div>
 <div class="line"></div>
-<div class="line">        fm.events().mouse_down (foo_with_eventinfo); </div>
+<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#ad8a23c520f14cf3d74520a69ad7f487d">mouse_down</a> (foo_with_eventinfo); </div>
 <div class="line">        fun_with_param_t fp(foo_with_eventinfo); </div>
-<div class="line">        fm.events().mouse_down(fp);</div>
+<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#ad8a23c520f14cf3d74520a69ad7f487d">mouse_down</a>(fp);</div>
 <div class="line"></div>
-<div class="line">        fm.events().click( [&amp;cs](){cs.respond();}                  ); </div>
+<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>( [&amp;cs](){cs.respond();}                  ); </div>
 <div class="line">        f= <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/functional/bind.html">std::bind</a>( &amp;click_stat::respond, cs); </div>
-<div class="line">        fm.events().click(  f                                      ); </div>
-<div class="line">        fm.events().click( <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/functional/bind.html">std::bind</a>( &amp;click_stat::respond  , &amp;cs) ); </div>
-<div class="line">        fm.events().click( [&amp; ](){cs.respond();}                   ); </div>
+<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(  f                                      ); </div>
+<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>( <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/functional/bind.html">std::bind</a>( &amp;click_stat::respond  , &amp;cs) ); </div>
+<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>( [&amp; ](){cs.respond();}                   ); </div>
 <div class="line">        <span class="comment">//fm.events().click( std::bind( &amp;click_stat::respond_I, &amp;cs) ); </span></div>
-<div class="line">        fm.events().click( [&amp; ](){cs.respond_I();}                   ); </div>
+<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>( [&amp; ](){cs.respond_I();}                   ); </div>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line">        fp= <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/functional/bind.html">std::bind</a>( &amp;click_stat::respond_ei, &amp;cs , std::placeholders::_1 ); </div>
-<div class="line">        fm.events().mouse_down(   fp                                                            );</div>
-<div class="line">        fm.events().mouse_down( [&amp;](<span class="keyword">const</span> <a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html">arg_mouse</a>&amp;ma){cs.respond_ei(ma);}                     );</div>
-<div class="line">        fm.events().mouse_down( <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/functional/bind.html">std::bind</a>( &amp;click_stat::respond_ei, cs, std::placeholders::_1)  );</div>
+<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#ad8a23c520f14cf3d74520a69ad7f487d">mouse_down</a>(   fp                                                            );</div>
+<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#ad8a23c520f14cf3d74520a69ad7f487d">mouse_down</a>( [&amp;](<span class="keyword">const</span> <a class="code" href="../../d6/d7c/structnana_1_1arg__mouse.html">arg_mouse</a>&amp;ma){cs.respond_ei(ma);}                     );</div>
+<div class="line">        fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#ad8a23c520f14cf3d74520a69ad7f487d">mouse_down</a>( <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/utility/functional/bind.html">std::bind</a>( &amp;click_stat::respond_ei, cs, std::placeholders::_1)  );</div>
 <div class="line"></div>
-<div class="line">        fm.show(); </div>
+<div class="line">        fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>(); </div>
 <div class="line">        <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(); </div>
 <div class="line">    } </div>
 </div><!-- fragment --> <div class="image">
@@ -541,7 +535,7 @@ Creating forms</h1>
 <p>This chapter will teach you how to create a window using Nana C++ Library. A window is a visual element in the operation system or window environment. Form is a window that like a container can contain other widgets, such as button, textbox and listbox. Every GUI program created with the Nana C++ Library need to create one form at least, as in examples of chapter 1. Many forms are created by creating an instance of form. This way of creating a form is easy, but it will make your program complicated if you want to create a bit larger program.</p>
 <h2><a class="anchor" id="der"></a>
 Defining a form through Derivation</h2>
-<p>Nana C++ Library is implemented using Object-oriented methods. We can define an own form by deriving from <a class="el" href="../../d6/d57/classnana_1_1form.html" title="Pop-up window. Is different from other window widgets: its default constructor creates the window...">nana::form</a>.</p>
+<p>Nana C++ Library is implemented using Object-oriented methods. We can define an own form by deriving from <a class="el" href="../../d6/d57/classnana_1_1form.html">nana::form</a>.</p>
 <p>Our first example is a Monty Hall Problem. This is a game that tests you whether change your choice after you picked a door to win a new Car.</p>
 <div class="image">
 <img src="../../MontyHall.jpg" alt="MontyHall.jpg"/>
@@ -648,7 +642,7 @@ Figure. The Monty Hall Problem.</div></div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;} </div>
 <div class="ttc" id="classnana_1_1label_html"><div class="ttname"><a href="../../dd/d8c/classnana_1_1label.html">nana::label</a></div><div class="ttdoc">Define a label widget (can dispaly a formated text string and images). Provides the interfaces to be ...</div><div class="ttdef"><b>Definition:</b> label.hpp:52</div></div>
 <div class="ttc" id="structnana_1_1arg__click_html"><div class="ttname"><a href="../../d6/dc2/structnana_1_1arg__click.html">nana::arg_click</a></div><div class="ttdoc">a higher level event argument than just mouse down </div><div class="ttdef"><b>Definition:</b> general_events.hpp:526</div></div>
-<div class="ttc" id="classnana_1_1form_html"><div class="ttname"><a href="../../d6/d57/classnana_1_1form.html">nana::form</a></div><div class="ttdoc">Pop-up window. Is different from other window widgets: its default constructor creates the window...</div><div class="ttdef"><b>Definition:</b> form.hpp:56</div></div>
+<div class="ttc" id="classnana_1_1form_html"><div class="ttname"><a href="../../d6/d57/classnana_1_1form.html">nana::form</a></div><div class="ttdef"><b>Definition:</b> form.hpp:59</div></div>
 <div class="ttc" id="basic_string_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a></div></div>
 <div class="ttc" id="namespacenana_1_1drawerbase_1_1treebox_html_a264d0232fc4a37766c0f8d30ebab824ba1cb251ec0d568de6a929b520c4aed8d1"><div class="ttname"><a href="../../d0/d60/namespacenana_1_1drawerbase_1_1treebox.html#a264d0232fc4a37766c0f8d30ebab824ba1cb251ec0d568de6a929b520c4aed8d1">nana::drawerbase::treebox::component::text</a></div></div>
 <div class="ttc" id="push_back_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector/push_back.html">std::vector::push_back</a></div><div class="ttdeci">T push_back(T...args)</div></div>
@@ -665,7 +659,7 @@ Figure. The Monty Hall Problem.</div></div>
 <div class="ttc" id="namespacenana_html_adfeaf4a48fd8f02161268cde0ae797d9"><div class="ttname"><a href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">nana::exec</a></div><div class="ttdeci">void exec()</div><div class="ttdef"><b>Definition:</b> wvl.cpp:99</div></div>
 <div class="ttc" id="structnana_1_1size_html"><div class="ttname"><a href="../../da/df8/structnana_1_1size.html">nana::size</a></div><div class="ttdef"><b>Definition:</b> basic_types.hpp:421</div></div>
 </div><!-- fragment --><p>  MontiHall.cpp Lines 1 to 4 include the headers that are required by this application. The <code>wvl.hpp</code> provides the basis of Nana C++ Library that all GUI program required. <code>label.hpp</code> and <code>button.hpp</code> include the definitions of label and button, and we will specify the door which has the new Car randomly by using <code>timestamp()</code> - function provided in <code>platform.hpp</code>.</p>
-<p>Lines 6 to 21 define the class <code>monty_hall</code> derived from <a class="el" href="../../d6/d57/classnana_1_1form.html" title="Pop-up window. Is different from other window widgets: its default constructor creates the window...">nana::form</a>. In other words, class <code>monty_hall</code> is defined as a <code>form</code> and we will put all handlers in this class scope to keep the program clear.</p>
+<p>Lines 6 to 21 define the class <code>monty_hall</code> derived from <a class="el" href="../../d6/d57/classnana_1_1form.html">nana::form</a>. In other words, class <code>monty_hall</code> is defined as a <code>form</code> and we will put all handlers in this class scope to keep the program clear.</p>
 <p>Line 9 defines a state type that contains three states. <code>state_begin</code> is a state that indicates the first pick, <code>state_picked</code> indicates the second pick, and <code>state_over</code> indicates the result.</p>
 <p>Line 11 declares a default constructor. It will initialize the widgets and set the initial state.</p>
 <p>Line 13 declares a private member function to respond the user action on buttons.</p>
@@ -714,8 +708,8 @@ Creating An Instance of the Form with form_loader&lt;form&gt;()</h2>
 <div class="line"></div>
 <div class="line">    <span class="keyword">using namespace </span>nana; </div>
 <div class="line">    <span class="keyword">auto</span> &amp;fm=<a class="code" href="../../d7/dc2/classnana_1_1detail_1_1form__loader.html">form_loader&lt;form&gt;</a>()();</div>
-<div class="line">    fm.caption(<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string</a>(++i)+ <span class="stringliteral">&quot;-Nana window&quot;</span>);</div>
-<div class="line">    fm.show(); </div>
+<div class="line">    fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#a064762b8a9d8cfdaf9e9d1fc990c2b24">caption</a>(<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string</a>(++i)+ <span class="stringliteral">&quot;-Nana window&quot;</span>);</div>
+<div class="line">    fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>(); </div>
 <div class="line">} </div>
 <div class="line"></div>
 <div class="line"></div>
@@ -726,7 +720,7 @@ Creating An Instance of the Form with form_loader&lt;form&gt;()</h2>
 <div class="line">    <a class="code" href="../../d7/dc0/classnana_1_1button.html">button</a> btn(fm, <a class="code" href="../../dd/d2d/structnana_1_1rectangle.html">nana::rectangle</a>(10, 10, 150, 23)); </div>
 <div class="line">    btn.caption(<span class="stringliteral">&quot;Open a new form&quot;</span>); </div>
 <div class="line">    btn.events().click(Click); </div>
-<div class="line">    fm.show(); </div>
+<div class="line">    fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>(); </div>
 <div class="line">        <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(</div>
 <div class="line"></div>
 <div class="line">#ifdef NANA_AUTOMATIC_GUI_TESTING</div>
@@ -748,7 +742,7 @@ Modal Form</h2>
 <div class="line">{ </div>
 <div class="line">    <span class="keyword">using namespace </span>nana; </div>
 <div class="line">    form fm(ei.<a class="code" href="../../d6/dc2/structnana_1_1arg__click.html#a16e239e67f163a6613bac50ba399fb4b">window_handle</a>, <a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#aeda48472927c65f3f790297e5fb2df84">API::make_center</a>(ei.<a class="code" href="../../d6/dc2/structnana_1_1arg__click.html#a16e239e67f163a6613bac50ba399fb4b">window_handle</a>, 400, 300)); </div>
-<div class="line">    fm.caption((<span class="stringliteral">&quot;I am a modal form&quot;</span>)); </div>
+<div class="line">    fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#a064762b8a9d8cfdaf9e9d1fc990c2b24">caption</a>((<span class="stringliteral">&quot;I am a modal form&quot;</span>)); </div>
 <div class="line">    <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a>&lt;&lt;<span class="stringliteral">&quot;Block execution till modal form is closed&quot;</span>&lt;&lt;<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>; </div>
 <div class="line">    <a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#ae6e1fbc1c0c422296f0124a05d0486ee">API::modal_window</a>(fm); </div>
 <div class="line">    <a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a>&lt;&lt;<span class="stringliteral">&quot;modal form is closed&quot;</span>&lt;&lt;<a class="codeRef" doxygen="C:/Prog/ExtLib/nana-docs/cppreference-doxygen-web.tag.xml:http://en.cppreference.com/w//" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>; </div>
@@ -758,8 +752,8 @@ Modal Form</h2>
 <div class="line">    <span class="keyword">using namespace </span>nana; </div>
 <div class="line">    form fm; </div>
 <div class="line">    fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#a064762b8a9d8cfdaf9e9d1fc990c2b24">caption</a>((<span class="stringliteral">&quot;Click me to open a modal form&quot;</span>)); </div>
-<div class="line">    fm.events().click(foo); </div>
-<div class="line">    fm.show(); </div>
+<div class="line">    fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(foo); </div>
+<div class="line">    fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>(); </div>
 <div class="line">    <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(); </div>
 <div class="line">} </div>
 </div><!-- fragment --><p>Call <a class="el" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#ae6e1fbc1c0c422296f0124a05d0486ee" title="Blocks the execution and other windows&#39; messages until the specified window is closed. ">nana::API::modal_window()</a> to enable modal form. Only if an owner is specified for the form initialization, will be the form enable as modal form. The object <code>fm</code> in function <code>foo()</code> is created and specified <code>ei.window</code> as its owner. The <code>ei.window</code> refers to the form that is defined in function <code>main()</code>, and passed by the event argument.</p>
@@ -768,7 +762,7 @@ Appearance of Window</h1>
 <dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000012">Todo:</a></b></dt><dd>add doxy comments to <a class="el" href="../../d5/d27/structnana_1_1appearance.html" title="Window appearance structure defined to specify the appearance of a form. ">nana::appearance</a></dd></dl>
 <p>A window has an appearance. This appearance can be specified when a window is being created. To determine the appearance of a window there is a structure named <a class="el" href="../../d5/d27/structnana_1_1appearance.html" title="Window appearance structure defined to specify the appearance of a form. ">nana::appearance</a> with a bool member for each feature with can be included or excluded in the "apereance" of the windows form. But in practical development is hard to describe the style of the appearance using the struct <a class="el" href="../../d5/d27/structnana_1_1appearance.html" title="Window appearance structure defined to specify the appearance of a form. ">nana::appearance</a>. If a form would to be defined without min/max button and sizable border, then</p>
 <div class="fragment"><div class="line"><a class="code" href="../../d6/d57/classnana_1_1form.html">nana::form</a> form(x, y, width, height, <a class="code" href="../../d5/d27/structnana_1_1appearance.html">nana::appearance</a>(<span class="keyword">false</span>, <span class="keyword">false</span>, <span class="keyword">false</span>, <span class="keyword">true</span>, <span class="keyword">false</span>));</div>
-</div><!-- fragment --><p>This piece of code may be confusing because of the 5 parameters of the constructor of <code><a class="el" href="../../d6/d57/classnana_1_1form.html" title="Pop-up window. Is different from other window widgets: its default constructor creates the window...">nana::form</a></code>. So the library provides a helper class for making it easy. For better readability and understandability Nana provides three templates classes to generate an appearance object: <a class="el" href="../../d6/d12/structnana_1_1appear_1_1decorate.html" title="Create an appearance of a window with &quot;decoration&quot; in non-client area, such as title bar...">nana::appear::decorate</a>, <a class="el" href="../../df/dc3/structnana_1_1appear_1_1bald.html" title="Create an appearance of a window without &quot;decoration&quot; with no titlebar and no 3D-look borders...">nana::appear::bald</a> and <a class="el" href="../../da/d19/structnana_1_1appear_1_1optional.html" title="Create a window with decoration depending on the first non-type template parameter. ">nana::appear::optional</a>. Each provide an operator that return a corresponding <a class="el" href="../../d5/d27/structnana_1_1appearance.html" title="Window appearance structure defined to specify the appearance of a form. ">nana::appearance</a> with predefined values.</p>
+</div><!-- fragment --><p>This piece of code may be confusing because of the 5 parameters of the constructor of <code><a class="el" href="../../d6/d57/classnana_1_1form.html">nana::form</a></code>. So the library provides a helper class for making it easy. For better readability and understandability Nana provides three templates classes to generate an appearance object: <a class="el" href="../../d6/d12/structnana_1_1appear_1_1decorate.html" title="Create an appearance of a window with &quot;decoration&quot; in non-client area, such as title bar...">nana::appear::decorate</a>, <a class="el" href="../../df/dc3/structnana_1_1appear_1_1bald.html" title="Create an appearance of a window without &quot;decoration&quot; with no titlebar and no 3D-look borders...">nana::appear::bald</a> and <a class="el" href="../../da/d19/structnana_1_1appear_1_1optional.html" title="Create a window with decoration depending on the first non-type template parameter. ">nana::appear::optional</a>. Each provide an operator that return a corresponding <a class="el" href="../../d5/d27/structnana_1_1appearance.html" title="Window appearance structure defined to specify the appearance of a form. ">nana::appearance</a> with predefined values.</p>
 <div class="fragment"><div class="line"><span class="keyword">namespace </span>nana {</div>
 <div class="line">    <span class="keyword">struct </span>appear </div>
 <div class="line">    { </div>
@@ -817,7 +811,7 @@ No decoration appear::bald&lt;&gt;()</div></div>
 <div class="line">{ </div>
 <div class="line">    <span class="keyword">using namespace </span>nana; </div>
 <div class="line">    form fm(<a class="code" href="../../d5/d1e/namespacenana_1_1_a_p_i.html#aeda48472927c65f3f790297e5fb2df84">API::make_center</a>(240, 160),  <a class="code" href="../../d6/d12/structnana_1_1appear_1_1decorate.html">appear::decorate&lt;appear::minimize, appear::maximize&gt;</a>()); </div>
-<div class="line">    fm.show(); </div>
+<div class="line">    fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>(); </div>
 <div class="line">    <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>();</div>
 <div class="line">} </div>
 </div><!-- fragment --> <div class="image">
@@ -853,8 +847,8 @@ Registering and Unregistering an Event</h2>
 </div><!-- fragment --><p>As shown in above code, <code>events()</code> is a member template of class widget, and it is used for registering an event handler. The above code makes a click event for the <code>form</code> object. When the user clicks the body of the form, Nana is responsible for invoking the function <code>foo()</code> registered as a handler of the specified event. Additionally, the function <code>foo()</code> can be specified with a parameter of type <code>const <a class="el" href="../../d6/dc2/structnana_1_1arg__click.html" title="a higher level event argument than just mouse down ">nana::arg_click</a>&amp;</code> to receive the information of the event. See details of <code><a class="el" href="../../dd/d19/structnana_1_1general__events.html" title="provides some fundamental events that every widget owns. ">nana::general_events</a></code> are described in section 6.2. </p>
 <dl class="section see"><dt>See Also</dt><dd></dd></dl>
 <p>The <code>events()</code> returns a handle of event handler if the registration is successful. The type of the return value is <a class="el" href="../../d2/d76/namespacenana.html#a68bd9618c0dd5b14783422f6e5cc683a" title="The event handle type representing nana window events. ">nana::event_handle</a>. With this handle, we can delete the event handler manually. For example:</p>
-<div class="fragment"><div class="line"><a class="code" href="../../d2/d76/namespacenana.html#a68bd9618c0dd5b14783422f6e5cc683a">event_handle</a> handle = fm.events().click(foo); </div>
-<div class="line">fm.umake_event(handle); </div>
+<div class="fragment"><div class="line"><a class="code" href="../../d2/d76/namespacenana.html#a68bd9618c0dd5b14783422f6e5cc683a">event_handle</a> handle = fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(foo); </div>
+<div class="line">fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#a0dcd3796a4d76800298347e360b8d09f">umake_event</a>(handle); </div>
 </div><!-- fragment --><p>After calling the umake_event(), the <code>foo()</code> function would be not invoked when the user clicks the body of form. In most situations, we don't need to take care of deleting the event handler, because the event handlers will be deleted when the form is closed.</p>
 <h2><a class="anchor" id="eve"></a>
 Events</h2>
@@ -870,7 +864,7 @@ Events</h2>
 <div class="line">    <span class="keyword">using namespace </span>nana; </div>
 <div class="line">    form fm; </div>
 <div class="line">    fm.<a class="code" href="../../d3/d95/classnana_1_1widget__object.html#a485bd26ca4f7c4d34bd2ae339440e6a6">events</a>().<a class="code" href="../../dd/d19/structnana_1_1general__events.html#a0d38e277cb45ddeb6c492d8ce9705cfc">click</a>(foo); </div>
-<div class="line">    fm.show(); </div>
+<div class="line">    fm.<a class="code" href="../../d9/dd8/classnana_1_1widget.html#aa6bc5708ecaff3ede2945d19797394d5">show</a>(); </div>
 <div class="line">    <a class="code" href="../../d2/d76/namespacenana.html#adfeaf4a48fd8f02161268cde0ae797d9">exec</a>(); </div>
 <div class="line">} </div>
 </div><!-- fragment --><p>Nana.GUI provides some raw events, such as <code>click</code>, <code>mouse_move</code> and so on. Most of these events can work with all widgets implemented by Nana.GUI, but some of them are individual, like <code>unload</code> for <code>root widget</code> and <code>elapse</code> for <code>timer</code>.</p>

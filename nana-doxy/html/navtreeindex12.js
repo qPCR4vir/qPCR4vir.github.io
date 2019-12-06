@@ -1,6 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"d8/deb/structnana_1_1drawerbase_1_1listbox_1_1item__data.html#a210f1bfd7bef5a2e0c2cbe060b16a689":[8,0,1,7,9,2,1],
 "d8/deb/structnana_1_1drawerbase_1_1listbox_1_1item__data.html#a2123422538d08ea65c42401801463e5e":[8,0,1,7,9,2,5],
 "d8/deb/structnana_1_1drawerbase_1_1listbox_1_1item__data.html#a4d4e0ac3bbdb8f8e64e724b91f543ab4":[8,0,1,7,9,2,12],
 "d8/deb/structnana_1_1drawerbase_1_1listbox_1_1item__data.html#a4fa188b63c02d62b23c19676ecf916da":[8,0,1,7,9,2,4],
@@ -13,7 +12,7 @@ var NAVTREEINDEX12 =
 "d8/deb/structnana_1_1drawerbase_1_1listbox_1_1item__data.html#aeca72c6e8f2a2cb52e65193c8ae29ca2":[8,0,1,7,9,2,6],
 "d8/deb/structnana_1_1drawerbase_1_1listbox_1_1item__data.html#af83d25a3bfce8e0fa939d2f93e9bc1cc":[8,0,1,7,9,2,9],
 "d8/deb/structnana_1_1pat_1_1detail_1_1make__pack__helper_3_01false_00_01false_00_01std_1_1integral__con1f78f0aa4180fd84c3f8df4ccde70c9b.html":[8,0,1,15,0,7],
-"d8/df2/menu_popuper_8cpp-example.html":[9,38],
+"d8/df2/menu_popuper_8cpp-example.html":[9,36],
 "d8/df6/classnana_1_1widgets_1_1detail_1_1widget__iterator.html":[8,0,1,22,0,4],
 "d8/df6/classnana_1_1widgets_1_1detail_1_1widget__iterator.html#a0335d95ecb7e8de6a26f00a8996881d0":[8,0,1,22,0,4,4],
 "d8/df6/classnana_1_1widgets_1_1detail_1_1widget__iterator.html#a05bafe2a855177897d6b18a9765e53d5":[8,0,1,22,0,4,2],
@@ -36,8 +35,8 @@ var NAVTREEINDEX12 =
 "d9/d08/structnana_1_1place_1_1implement_1_1division_1_1run__data.html#aa1051710af4df68c42cf00b66b03aee4":[8,0,1,108,1,6,0,1],
 "d9/d0a/structnana_1_1category_1_1widget__tag.html":[8,0,1,3,0],
 "d9/d0a/structnana_1_1category_1_1widget__tag.html#ad3621c0e0ced37157f3afd03cf938ae5":[8,0,1,3,0,0],
-"d9/d0f/namespacenana_1_1bidi__charmap.html":[8,0,1,2],
 "d9/d0f/namespacenana_1_1bidi__charmap.html":[7,0,1,2],
+"d9/d0f/namespacenana_1_1bidi__charmap.html":[8,0,1,2],
 "d9/d13/classnana_1_1bad__any__cast.html":[8,0,1,23],
 "d9/d1d/classnana_1_1drawerbase_1_1menu_1_1internal__renderer.html":[8,0,1,7,10,1],
 "d9/d1d/classnana_1_1drawerbase_1_1menu_1_1internal__renderer.html#a9b47763c2fd647895a3cfcca7fa58055":[8,0,1,7,10,1,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX12 =
 "d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a53b9fbe5f16852fa7c9b80dd63530cd2":[8,0,1,5,60,7],
 "d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a53d9a55f8f159312a2ccddbfe4a0a1ce":[8,0,1,5,60,1],
 "d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a599fae759800b00df5fa2e7761c95cc3":[8,0,1,5,60,6],
-"d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a6f46b3ac1667b5db2d8db7bdfcc5667f":[8,0,1,5,60,0]
+"d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a6f46b3ac1667b5db2d8db7bdfcc5667f":[8,0,1,5,60,0],
+"d9/d93/classnana_1_1detail_1_1inline__widget__indicator.html#a6f818724257511638effd93ae5febd03":[8,0,1,5,60,4]
 };
